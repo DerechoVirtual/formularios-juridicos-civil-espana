@@ -1,0 +1,23 @@
+{
+  "name": "formularios-discapacidad-y-medidas-de-apoyo",
+  "version": "1.0.0",
+  "description": "Discapacidad y medidas de apoyo (Ley 8/2021): 28 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las personas con discapacidad tras la Ley 8/2021: provisión de medidas de apoyo, curatela, defensor judicial, guarda de hecho, autocuratela, revisión de medidas, internamientos no voluntarios y rendición de cuentas. Requiere Jurisprudenciator.",
+  "author": {
+    "name": "Derecho Virtual"
+  },
+  "displayName": "Discapacidad y medidas de apoyo (Ley 8/2021) · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "capacidad-y-apoyos"
+  ]
+}

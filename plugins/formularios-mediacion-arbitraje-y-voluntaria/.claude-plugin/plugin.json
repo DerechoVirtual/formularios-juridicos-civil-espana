@@ -1,0 +1,23 @@
+{
+  "name": "formularios-mediacion-arbitraje-y-voluntaria",
+  "version": "1.0.0",
+  "description": "Mediación, MASC, arbitraje y jurisdicción voluntaria: 92 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para resolver sin pleito o por cauces especiales: medios adecuados de solución de controversias (LO 1/2025), mediación civil y familiar, conciliación, arbitraje (convenio, solicitud, recusación, anulación de laudo), expedientes de jurisdicción voluntaria, justicia gratuita y reconocimiento de resoluciones extranjeras. Requiere Jurisprudenciator.",
+  "author": {
+    "name": "Derecho Virtual"
+  },
+  "displayName": "Mediación, MASC, arbitraje y jurisdicción voluntaria · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "jurisdiccion-voluntaria-masc-y-arbitraje"
+  ]
+}

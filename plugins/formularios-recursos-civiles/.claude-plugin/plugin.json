@@ -1,0 +1,23 @@
+{
+  "name": "formularios-recursos-civiles",
+  "version": "1.0.0",
+  "description": "Recursos civiles: reposición, apelación, casación y queja: 125 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para recurrir en el proceso civil: reposición y revisión contra resoluciones del Letrado de la Administración de Justicia, apelación y oposición o impugnación, casación tras el Real Decreto-ley 5/2023, queja, nulidad de actuaciones, aclaración y complemento de sentencia, y revisión de sentencias firmes. Requiere Jurisprudenciator.",
+  "author": {
+    "name": "Derecho Virtual"
+  },
+  "displayName": "Recursos civiles: reposición, apelación, casación y queja · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "recursos"
+  ]
+}
