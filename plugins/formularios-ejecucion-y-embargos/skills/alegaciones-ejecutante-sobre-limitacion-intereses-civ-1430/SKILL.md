@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 114.I LH
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,49 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº]
+
+Proceso de ejecución hipotecaria número [NÚMERO]
+
+AL TRIBUNAL
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales y de [NOMBRE DEL REPRESENTADO/A], según tengo acreditado en los autos arriba expresados [Nº DE PROCEDIMIENTO], ante el Tribunal comparezco y DIGO:
+
+Que en virtud del traslado conferido por diligencia de ordenación de fecha [FECHA DE LA DILIGENCIA] sobre el cálculo de intereses de demora que resultaría de la aplicación del límite establecido en la disposición transitoria segunda de la Ley 1/2013, de 14 de mayo, formulo la siguientes ALEGACIONES:
+
+PRIMERO Con carácter previo, debe alegarse la improcedencia de la limitación de los intereses de demora en este caso por cuanto que la vivienda hipotecada no es la habitual del deudor.
+
+En efecto, tal como consta en el contrato de préstamo hipotecario, el domicilio del deudor era el sito en [LOCALIDAD], donde se practicó el requerimiento de pago y asimismo consta que todas las comunicaciones realizadas por la entidad que represento han sido practicadas en el domicilio habitual del deudor.
+
+Por tanto, y dado que la referida disposición transitoria segunda únicamente es aplicable a los préstamos con garantía hipotecaria constituidos sobre la vivienda habitual antes de la entrada en vigor de la Ley, no resulta procedente la limitación de los intereses moratorios en este caso.
+
+SEGUNDO De forma subsidiaria, y de entenderse procedente la limitación de los intereses moratorios, la misma debe calcularse respecto de los devengados con posterioridad a la entrada en vigor de la Ley, así como a los devengados y no satisfechos en la misma fecha.
+
+Aplicando el interés legal al [PORCENTAJE], establecido en la Ley .../...., de ... [MES], de Presupuestos Generales del Estado para el año [AÑO], y fijado el límite establecido en el artículo 114.III de la LH, "el interés de demora será el interés remuneratorio más tres puntos porcentuales a lo largo del período en el que aquel resulte exigible", resulta la cantidad de [IMPORTE] euros en concepto de intereses de demora devengados hasta la fecha de entrada en vigor de la Ley, en lugar de los [IMPORTE] euros reclamados en la demanda ejecutiva, y la cantidad diaria de [IMPORTE] euros a partir de dicha fecha, fijándose en [IMPORTE] euros la cantidad prevista para los intereses y costas que puedan devengarse en la ejecución, de acuerdo con la aplicación de dicho límite.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL: Tenga por presentado este escrito, con justificante de traslado a la parte contraria, se sirva admitirlo y, en su virtud, se declare no procedente la limitación de intereses de demora por no ser la vivienda habitual del deudor, o, subsidiariamente, que se tenga por modificada la demanda ejecutiva en este concepto, reclamando la cantidad de [IMPORTE] euros en concepto de intereses moratorios vencidos y la de [IMPORTE] euros como cuantía prevista por los intereses y costas de la ejecución.
+
+Lugar y fecha.
+
+Abogado y Procurador
+
+========================================================================

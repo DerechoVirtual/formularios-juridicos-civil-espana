@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -58,8 +58,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -96,15 +94,65 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [LOCALIDAD]
+
+Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación de Don [NOMBRE Y APELLIDOS], según tengo acreditado en autos de separación conyugal núm. [Nº] del año [AÑO], y bajo la dirección letrada de Don [NOMBRE Y APELLIDOS] ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] comparezco y, como mejor proceda en Derecho, DIGO:
+
+1) Que en la indicada representación y a través del presente escrito, y habiéndose extinguido la comunicación foral por sentencia de separación (o de divorcio, o de nulidad) del matrimonio constituido por mi mandante y Doña [NOMBRE Y APELLIDOS], ambos vizcaínos aforados, por medio del presente escrito solicito la FORMACIÓN DE INVENTARIO, de conformidad con lo dispuesto en el artículo 808 de la Ley de Enjuiciamiento Civil, c
+
+2) Que a tal efecto acompaño propuesta de inventario de la sociedad conyugal de conquistas por el que se rige el citado matrimonio y documentos justificativos de sus diferentes partidas.
+
+Por lo expuesto,
+
+AL TRIBUNAL SUPLICO: Que tenga por presentado este escrito con la propuesta de inventario y documentos justificativos de sus diferentes partidas acompañados y sus copias, admita todo ello y, en su virtud, se proceda a la FORMACIÓN DE INVENTARIO, mandando citar al efecto a los cónyuges Don [NOMBRE Y APELLIDOS] y Doña [NOMBRE Y APELLIDOS], señalando día y hora, para que con el Letrado de la Administración de Justicia formalicen el inventario de esa comunidad matrimonial con arreglo al régimen de comunicación foral.
+
+Es justicia que insto en [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Firmas del Letrado y del Procurador [NOMBRE Y APELLIDOS DEL ABOGADO]
+
+MODELO DE PROPUESTA DE INVENTARIO
+
+PROPUESTA DE INVENTARIO
+
+Que presenta Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación de Don [NOMBRE Y APELLIDOS], en procedimiento de separación conyugal contenciosa núm. [Nº], del año [AÑO], al amparo de lo dispuesto en el artículo 808.2 de la ley de Enjuiciamiento Civil
+
+ACTIVO DE LA SOCIEDAD
+
+1.-BIEN INMUEBLE consistente en vivienda sita en la localidad de [LOCALIDAD], calle [CALLE], núm. [Nº], piso [PISO], puerta [PUERTA], de una superficie de [Nº] metros cuadrados, y que es la finca registral núm. [Nº], inscrita en el Registro de la Propiedad de [LOCALIDAD] al Tomo [TOMO], Libro [LIBRO], Folio [FOLIO], que pertenece a Don [NOMBRE Y APELLIDOS] y a Doña [NOMBRE Y APELLIDOS] en virtud de escritura de compraventa otorgada a su favor el día [FECHA] y autorizada por el Iltre. Notario Don [NOMBRE Y APELLIDOS], con un valor de tasación de [IMPORTE] euros, tal y como resulta de la valoración efectuada por la sociedad de tasación inmobiliaria
+
+2.- BIENES MUEBLES consistentes en 5.000 acciones al portador, números [Nº] al [Nº] ambos inclusive de la sociedad [DENOMINACIÓN SOCIAL] con un valor nominal por acción de - euros, que pertenecen a Don [NOMBRE Y APELLIDOS] por haberlas suscrito y desembolsado en la escritura funcional de la sociedad [DENOMINACIÓN SOCIAL] en fecha [FECHA], la cual se encuentra inscrita en el Registro Mercantil de los de [SEDE], al tomo [TOMO], libro [LIBRO], folio [FOLIO], inscripción [INSCRIPCIÓN], que con arreglo a la valoración efectuada por la sociedad de tasación [DENOMINACIÓN SOCIAL] se valoran en la cantidad de -euros.
+
+3.- BIENES MUEBLES consistente en el efectivo del Saldo de la cuenta corriente núm. [Nº] de la entidad financiera [ENTIDAD BANCARIA], con núm. [Nº], oficina [SUCURSAL], con núm. [Nº] de la que son titulares ambos esposos Don [NOMBRE Y APELLIDOS] y Doña [NOMBRE Y APELLIDOS], que asciende a la cantidad de - euros.
+
+En prueba de las anteriores manifestaciones se acompañan las valoraciones antes mencionadas, señaladas como Documento núm. [Nº DE DOCUMENTO] y Documento núm. [Nº], así como certificado de la entidad financiera acreditativo del saldo como Documento núm. [Nº DE DOCUMENTO]
+
+PASIVO DE LA SOCIEDAD
+
+1.-HIPOTECA por importe de [IMPORTE] euros y vencimiento [FECHA], concedida por la entidad financiera [ENTIDAD BANCARIA], que grava la vivienda descrita en el apartado 1 del activo, y de la que, a fecha de hoy, y tal como consta en el certificado emitido por la citada entidad financiera que se acompaña como Documento núm. [Nº], queda todavía por pagar la suma de [IMPORTE] euros.
+
+2.-PRÉSTAMO concedido por la financiera [DENOMINACIÓN SOCIAL] por importe de [IMPORTE] euros y vencimiento [FECHA], que grava el vehículo citado en el apartado 4 del activo, y del que todavía resta por pagar la cantidad de [IMPORTE] euros.
+
+3.-DEUDA DE LA SOCIEDAD respecto a [NOMBRE DE LA PARTE]
+
+RESUMEN
+
+A tenor del Inventario y Avalúo realizados el ACTIVO de la sociedad conyugal de comunicación de bienes asciende a la suma de - euros, y el PASIVO asciende a - euros, por lo que siendo superior el Activo al Pasivo el capital repartible asciende al importe de - euros, lo que resulta tras la división de esta cantidad en dos partes queda fijada una CUOTA DE LIQUIDACIÓN para cada cónyuge de - euros.
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -54,8 +54,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,63 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+ESCRITURA DE ENTREGA DE LEGADO
+
+En [LOCALIDAD], mi residencia, a [DÍA] de [MES] de [AÑO]
+
+Ante mí [NOMBRE DEL NOTARIO], Notario/a del Ilustre Colegio de Notarios de [LOCALIDAD]
+
+EXPONEN:
+
+I.- Que D. [NOMBRE Y APELLIDOS], esposo/a y padre respectivamente de los que comparecen, falleció en [LOCALIDAD] el día [FECHA]
+
+II.- Que entre los bienes relictos a la muerte del causante figura la finca legada, que se describe a continuación:
+
+Título: Adquirido por [TÍTULO DE ADQUISICIÓN] efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D. el día [DÍA] de [MES] de [AÑO] número protocolo
+
+Inscripción: Está inscrita en el Registro de la Propiedad número [NÚMERO] de [LOCALIDAD] en el tomo [TOMO], libro [LIBRO] folio [FOLIO], finca [FINCA]
+
+Referencia catastral: Según consta en la referencia del último recibo del Impuestos sobre bienes Inmuebles que queda unido a este documento por copia:
+
+(Polígono [Nº DE POLÍGONO], parcela [Nº DE PARCELA], en [PARAJE O MUNICIPIO]), con una superficie aproximada de [Nº] hectáreas
+
+(Polígono [Nº DE POLÍGONO], parcela [Nº DE PARCELA], en [PARAJE O MUNICIPIO]), con una superficie aproximada de [Nº] hectáreas
+
+Cargas: La referida finca se encuentra libre de cargas y gravámenes, según nota simple expedida por el Registro de la Propiedad el día de hoy, y que se une a este documento
+
+Arrendamientos: La referida finca no se encuentra arrendada y está libre de ocupantes e inquilinos.
+
+Los otorgantes me exhiben último recibo justificante del pago del impuesto sobre Bienes Inmuebles de la finca descrita, el cual dejo unido a esta matriz por fotocopia coincidente con su original.
+
+IV.- Expuesto lo anterior, los comparecientes,
+
+DISPONEN:
+
+ÚNICA.- ENTREGA DEL LEGADO
+
+Que D.entrega la finca descrita a título de elgado de D. a D. [NOMBRE Y APELLIDOS], quien la acepta.
+
+RESERVAS Y ADVERTENCIAS LEGALES
+
+Así lo dice y otorga, siendo las [Nº] horas y [Nº] minutos.
+
+De conocer a la compareciente y, en general, de haberse observado las formalidades legales en un solo acto y de todo lo demás consignado en este instrumento público, que queda extendido en [Nº] folios de la clase [CLASE] serie [SERIE], números [Nº], el presente y el siguiente en orden, doy fe.
+
+========================================================================

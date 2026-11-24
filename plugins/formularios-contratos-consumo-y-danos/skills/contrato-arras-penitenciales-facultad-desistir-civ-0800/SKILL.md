@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -54,8 +54,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 1.454 Código Civil
 - art. 1454 Código Civil
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,106 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LUGAR], a [FECHA].
+
+Reunidos
+
+De una parte:
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ELEGIR: soltero / soltera / casado / casada / divorciado / divorciada / separado / separada / viudo / viuda / unión de hecho], con documento nacional de identidad número
+
+De otra:
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ELEGIR: soltero / soltera / casado / casada / divorciado / divorciada / separado / separada / viudo / viuda / unión de hecho], vecino de [LOCALIDAD], domiciliado en [DOMICILIO], con documento nacional de identidad número
+
+Intervienen
+
+D./Dña. [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo "LA VENDEDORA", en virtud de poder otorgado a su favor ante el Notario de [LOCALIDAD] D./Dña. [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO], poder que se halla debidamente inscrito en el Registro Mercantil de [LOCALIDAD] y vigente, según manifiesta.
+
+D./Dña. [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo "LA COMPRADORA", en virtud de poder otorgado a su favor ante el Notario de [LOCALIDAD] D./Dña. [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO], poder que se halla debidamente inscrito en el Registro Mercantil de [LOCALIDAD] y vigente, según manifiesta.
+
+Todas las partes, en el respectivo carácter con el que intervienen, se reconocen mutuamente la capacidad legal en Derecho necesaria para concertar el presente CONTRATO DE ARRAS PENITENCIALES, y a tal efecto, libremente y de común acuerdo,
+
+Exponen
+
+Primero.– Que LA VENDEDORA es titular en pleno dominio del inmueble sito en el municipio de [LOCALIDAD] ubicada en el número [NÚMERO] de la Calle [CALLE] que a continuación se describe:
+
+– Inmueble [TIPO DE INMUEBLE] situado en [DIRECCIÓN] número [NÚMERO] de [LOCALIDAD], cuyos datos registrales son los siguientes: Finca número [NÚMERO], inscrita en el Tomo [TOMO], Libro [LIBRO], Folio [FOLIO], constando una superficie de [Nº] metros cuadrados útiles de dicha vivienda en la inscripción registral.
+– Corresponde a LA VENDEDORA el 100% del pleno dominio de la totalidad de la finca.
+
+Segundo.– Que el inmueble descrito en el Exponendo I de este documento se halla libre de cargas, al corriente de impuestos y de toda clase de pagos a la comunidad de propietarios, según manifiesta LA VENDEDORA.
+
+Tercero.– Que ambas partes conciertan estas arras y la futura compraventa de la finca descrita en el Expositivo I, por lo que, de mutuo acuerdo, formalizan el presente contrato, el cual se regirá por las siguientes.
+
+CLÁUSULAS
+
+Precio.–
+
+El precio de venta del inmueble descrito en el Exponendo primero se concreta de común acuerdo en la cantidad de [IMPORTE] euros ( €).
+
+Ambas partes convienen que la firma de la escritura de compraventa y entrega de llaves tendrá lugar en fecha [FECHA] a determinar por la parte COMPRADORA entre la del otorgamiento de este contrato y el próximo día [FECHA] de [MES] de
+
+A tal efecto, la parte COMPRADORA dirigirá requerimiento a la VENDEDORA para el otorgamiento de la escritura pública de compraventa. En dicha comunicación, que se remitirá a la dirección indicada en este documento, la parte COMPRADORA indicará la fecha, hora y lugar señalados para el otorgamiento de la escritura.
+
+Entre el requerimiento y la fecha escogida deberá mediar un plazo de [PLAZO], al menos [Nº] días naturales.
+
+La VENDEDORA otorgará la escritura de compraventa del inmueble, libre de cargas, a favor de COMPRADORA ante el Notario que designe ésta y aportará los títulos de propiedad inscritos y demás documentos precisos para tal otorgamiento.
+
+Arras penitenciales.–
+
+La PARTE COMPRADORA entrega en este acto a la PARTE VENDEDORA, en metálico, la suma de [IMPORTE] € sirviendo el presente documento como el más eficaz recibo y carta de pago.
+
+La cantidad entregada lo es en concepto de arras penitenciales, conforme a lo dispuesto en el artículo 1.454 del Código Civil, sin perjuicio de que será descontada del total precio de compra pactado en la estipulación anterior, pudiendo rescindirse este contrato allanándose la COMPRADORA a perder las arras, o la VENDEDORA a devolverlas duplicadas.
+
+En consecuencia, y de acuerdo al citado art. 1454 del Código Civil, si la compraventa no pudiera formalizarse antes del día señalado como término final en la estipulación anterior por causa imputable a la COMPRADORA, ésta perderá la cantidad entregada como señal, que quedará en beneficio de la VENDEDORA.
+
+Si la compraventa no pudiera formalizarse antes del día señalado como término final por causa imputable a la VENDEDORA, ésta se obliga a devolver a la COMPRADORA el duplo del importe recibido como señal.
+
+En el caso de formalizarse la compraventa, el resto del precio pactado que asciende a [IMPORTE] EUROS ( €), serán satisfechos por la PARTE COMPRADORA a la PARTE VENDEDORA, a la firma de la escritura pública.
+
+Transmisión y entrega de la posesión del inmueble.–
+
+En caso de formalizarse la compraventa, LA VENDEDORA hará entrega de la posesión de la finca objeto de este contrato a LA COMPRADORA en el acto del otorgamiento de la escritura con la entrega de llaves de la misma.
+
+La vivienda se transmitirá libre de todo tipo de cargas y gravámenes y al corriente de pago de impuestos, arbitrios y gastos de Comunidad de Propietarios, así como libre de cualquier clase de ocupantes.
+
+Gastos e impuestos.–
+
+Todos los gastos e impuestos derivados de la compraventa serán abonados según ley.
+
+Jurisdicción competente y ley aplicable.–
+
+Para cuantas cuestiones o divergencias pudieran suscitarse en relación con el presente contrato, la competencia de los Tribunales que deban conocer del asunto se determinará de conformidad con los criterios de competencia objetiva, funcional y territorial legalmente aplicables.
+
+El presente contrato tiene exclusivamente carácter civil y se regirá por sus propias cláusulas, y en lo en ellas no dispuesto, por lo previsto en el Código Civil y, demás leyes especiales.
+
+Notificaciones.–
+
+Toda notificación que se efectúe entre las partes se hará por escrito y será entregada personalmente o de cualquier otra forma que certifique la recepción por la parte notificada en los respectivos domicilios indicados en el encabezamiento de este Contrato.
+
+Cualquier cambio de domicilio de una de las partes deberá ser notificado a la otra de forma inmediata y por un medio que garantice la recepción del mensaje.
+
+Y en prueba de conformidad y aceptación de cuanto antecede, ambas partes firman los folios del presente CONTRATO DE ARRAS PENITENCIALES extendido por duplicado y a un solo efecto, en la ciudad y fecha mencionados en el encabezamiento.
+
+Vendedor/a	Comprador/a
+
+Ffo. D./Dña. [NOMBRE Y APELLIDOS]: Ffo. D./Dña. [NOMBRE Y APELLIDOS]:
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 63.2 LEC
 - art. 50.1 LEC
 - art. 54.2 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,53 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Juicio [TIPO DE PROCEDIMIENTO] n.º [Nº DE PROCEDIMIENTO]/[AÑO]
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], comparezco en el presente procedimiento en el que se emplazó a mi representada el pasado [FECHA] y digo:
+
+HECHOS
+
+ÚNICO.-Que la demanda objeto de las presentes actuaciones tiene por objeto el reclamar el importe que la mercantil demandante [ÓRGANO] estima pendiente de pago por parte de mi representado [NOMBRE DEL REPRESENTADO/A] a resultas de la compra que se verificó por la oferta recibida en su domicilio de la Enciclopedia [FECHA], firmando a tal efecto la hoja de encargo pertinente. En tal documento aportado por la demandante como documento n.º [NÚMERO] de su demanda y que constituye un modelo estereotipado y que no se negoció específicamente, se contiene una cláusula de sumisión expresa a los tribunales de la localidad en la que está el Tribunal al que me dirijo (), con renuncia del fuero propio que vendría determinado por el domicilio de mi representado que es la ciudad de [LOCALIDAD] en la que fue emplazado a instancias del propio demandante tal y como se aprecia en la demanda al efecto presentada.
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- Competencia.-Para formular y resolver la presente declinatoria corresponde al Tribunal que conoce del asunto ante el que sigue la tramitación de la causa (art. 63.2 LEC).
+
+SEGUNDO.- Legitimación.-Le corresponde a esta parte ante su condición de demandada en las presentes actuaciones (arts. 63.2 LEC).
+
+TERCERO.- Procedimiento.-Es el previsto en el art. 63 y ss. de la LEC.
+
+CUARTO.- Fondo de la reclamación.-La competencia territorial para conocer de estas actuaciones se estima que corresponde a los Tribunales de [LOCALIDAD] por ser el domicilio de mi representado al ser el fuero aplicable con fundamento en el art. 50.1 LEC no pudiendo ser de aplicación la cláusula de sumisión expresa que aparece en el contrato aportado ya que se trata de una cláusula contenida en un contrato de adhesión (art. 54.2 LEC).
+
+El carácter de adhesión del contrato firmado resulta del carácter del mismo que se incardina en la definición tradicional de este tipo de contratos que se caracterizan por ser un «modelo standard» en el que su clausulado general ha sido unilateralmente redactado por la demandante y entregado a mi representado sin que en su redacción haya tenido intervención alguna [SSTS 31 de marzo de 1973, 3 de febrero de 1989, 29 de enero de 1996, rec. 2307/1992, 4 de julio de 1997, rec. 1801/1993 y 22 de enero de 1999, rec. 2533/1994 entre otras].
+
+Asimismo se puede invocar la Directiva 1993/13 de 5 de abril que define y sanciona la ineficacia de las cláusulas abusivas plasmadas en los contratos celebrados con los consumidores, Directiva cuya aplicación directa, antes de la LEC/2000 fue proclamada entre otras en la STS 8 noviembre 1996, rec. 1480/1996, habiendo proclamado la STJCE de 27 de junio de 2000, C-240/1998, la necesidad de no estimar operativas cláusulas como la que es aquí objeto de análisis.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL: Que tenga por interpuesta la presente declinatoria, se sirva por tener a esta parte por debidamente personada a los solos efectos de poner de manifiesto la falta de jurisdicción y tras la suspensión inmediata del procedimiento en el que se interpone y la tramitación pertinente dando traslado a las demás partes, se dicte auto por el que se declare la incompetencia de este Tribunal para conocer de las presentes actuaciones separándose del conocimiento de las mismas y procediendo a su remisión a los Tribunales de Instancia de [LOCALIDAD] para su reparto al que por turno corresponda, todo ello con imposición de costas a la parte demandante si se opusiere.
+
+a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

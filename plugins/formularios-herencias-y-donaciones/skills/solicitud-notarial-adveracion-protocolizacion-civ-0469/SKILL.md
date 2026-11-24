@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -41,8 +41,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -78,15 +76,51 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA NOTARÍA DE [LOCALIDAD]
+
+D. [NOMBRE Y APELLIDOS], mayor de edad, con domicilio [DOMICILIO], provisto del D.N.I., en mi propio nombre, ante la Notaría comparezco y DIGO:
+
+- Que al amparo de lo dispuesto en el art. 61 y siguientes de la Ley del Notariado, promuevo expediente para la protocolización del testamento ológrafo otorgado por D. [NOMBRE Y APELLIDOS], con último domicilio en [LOCALIDAD] en fecha [FECHA] que presento como documento número 1 en base a los siguientes HECHOS:
+
+1) El causante D. [NOMBRE Y APELLIDOS], padre del solicitante, de vecindad civil [VECINDAD CIVIL], falleció el día [FECHA] en esta localidad a la edad de [Nº] años (acompaño como documento número 2 certificado de defunción del causante).
+
+Transcurridos unos días del fallecimiento, el pasado día [FECHA], y con motivo de ordenar las pertenencias del difunto, el solicitante en compañía de sus hermanos encontraron un sobre abierto que contenía el testamento que se acompaña que reconocieron como elaborado por el puño y letra del finado.
+
+Tal como es de ver en el propio testamento, éste fue otorgado un mes antes del fallecimiento, por lo que es obvio que el causante era mayor de edad al tiempo de su otorgamiento.
+
+2) El finado D. no ha otorgado ningún otro testamento (acompaño como documento número 3 certificado negativo del Registro de Actos de Última Voluntad).
+
+3) El finado tenía, además de solicitante, otros dos hijos D. [NOMBRE Y APELLIDOS], con domicilio [DOMICILIO] y D. [NOMBRE Y APELLIDOS], con domicilio [DOMICILIO], habiendo fallecido anteriormente su cónyuge y madre del solicitante y sus hermanos.
+
+A los efectos del art. 61.1 de la Ley del Notariado, los referidos parientes pueden ser citados a través del solicitante cuando S.Sª lo estime pertinente.
+
+4) A los efectos del art. 61.5 de la Ley del Notariado, se ofrece información testifical, proponiendo como testigos a: D. [NOMBRE Y APELLIDOS], mayor de edad, con domicilio [DOMICILIO]; D. [NOMBRE Y APELLIDOS], mayor de edad, con domicilio [DOMICILIO]; y D. [NOMBRE Y APELLIDOS], mayor de edad, con domicilio
+
+Estos tres testigos tenían una estrecha relación de amistad con el padre del solicitante y pueden dar conocimiento de si el testamento fue redactado por el finado y demás circunstancias que se estimen necesarias.
+
+Por lo anteriormente expuesto,
+
+SOLICITO A LA NOTARÍA que tenga por solicitada la iniciación de expediente de adveración y protocolización del testamento ológrafo del finado D. [NOMBRE Y APELLIDOS], y por presentado el testamento original con los documentos que se acompañan y, en su virtud, y previos los trámites legales, autorice el acta de protocolización del referido testamento.
+
+En L. y F.
+
+(Firma del solicitante)
+
+========================================================================

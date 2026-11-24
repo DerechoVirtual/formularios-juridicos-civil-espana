@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 137.2 LEC
 - art. 240.1 LOPJ
 - art. 459 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,43 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], como tengo acreditado en los presentes autos de Juicio Ordinario, que se tramitan en este Tribunal bajo n.º [NÚMERO]/[AÑO], contra D./Dña. [NOMBRE Y APELLIDOS] y la Compañía de Seguros [ASEGURADORA], en los mismos comparezco, y como más procedente sea en Derecho, DIGO:
+
+Habiendo ganado firmeza la sentencia recaída en este proceso, y consignada por la Compañía de Seguros [ASEGURADORA], el principal de la condena que beneficiaba a esta parte, se presentó el [FECHA] liquidación de intereses devengados, conforme al pronunciamiento de dicha sentencia, que se trasladó por el Tribunal a la parte acreedora, que formuló impugnación, puesto que sostenía que el tipo de interés exacerbado del 20% anual no debe aplicarse desde la fecha del siniestro, sino desde que se traspusieron los dos años desde aquélla.
+
+En proveído de [FECHA], se tuvo por impugnada la liquidación de intereses, en términos de los arts. 712 y ss. LEC, convocándose a vista de juicio verbal a las partes, que se celebró el día siguiente.
+
+Se ha dictado auto del art. 716 LEC con fecha [FECHA] que fija la cantidad debida por intereses, sin que en el acto de la vista estuviera presente el juez, a pesar de que en el acta levantada así se ponga, como se ponía que no se grababa en soporte audiovisual por deficiencias técnicas, que se ignoran, motivo por el cual se invoca la nulidad de actuaciones a tenor de lo establecido en el art. 137.2 y 3 LEC conforme al cual, ‘las vistas y las comparecencias que tengan por objeto oír a las partes antes de dictar una resolución se celebrarán siempre ante el Juez o los Magistrados integrantes del tribunal que conozca del asunto’, o ante los Letrados de la Administración de Justicia en las actuaciones que hayan de realizarse únicamente ante ellos; añadiendo el apartado 4 que la infracción de lo dispuesto en el apartado anterior determinará la nulidad de pleno derecho de las actuaciones.
+
+Si bien el art. 240.1 LOPJ remite la alegación de la nulidad de pleno derecho al medio de los recursos que la ley establece contra la resolución de que se trate, y que en este caso, se trataría del recurso de apelación sin efecto suspensivo, como si se alegara en segunda instancia la infracción procesal cometida por la vía del art. 459 LEC en relación con el art. 465.4, párrafo 1.º LEC, por ser de las que originan la nulidad radical de las actuaciones, el tribunal ‘ad quem’ lo debiera declarar así mediante providencia, cabe entender que, por economía procesal, puesto que la apelación no es el remedio idóneo para corregir, pudiera admitirse y resolverse por el Tribunal incidente excepcional de nulidad de actuaciones.
+
+Por todo ello,
+
+SUPLICO AL TRIBUNAL,
+
+que teniendo por presentado este escrito, se sirva admitirlo, y se acuerde por el Tribunal la nulidad de pleno derecho de las actuaciones desde el momento de la celebración de la vista del incidente de liquidación de intereses, realizada el día [FECHA], sin la inmediación judicial,
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Abogado	Firma del Procurador/a
+
+========================================================================

@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 533.1 LEC
 - art. 713.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -85,15 +83,51 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a. de los Tribunales y de SEGUROS Y REASEGUROS, S.A., demandada en los autos de Juicio Ordinario n.º [NÚMERO]/[AÑO], en su pieza separada de Ejecución Provisional n.º [NÚMERO]/[AÑO] comparezco, y como mejor en Derecho proceda, DIGO:
+
+PRIMERO.-Que el día [FECHA] ha sido notificada a esta parte la sentencia de fecha [FECHA], dictada por la Sección [SECCIÓN] de la Audiencia Provincial, con la que ha finalizado la tramitación del recurso de apelación interpuesto por nuestra representación contra la sentencia de ese Tribunal de fecha
+
+SEGUNDO.-Como resulta del testimonio de la dicha sentencia de segunda instancia, cuyo testimonio se acompaña como documento n.º [NÚMERO], el recurso de apelación ha sido estimado íntegramente, habiendo sido revocada la sentencia de ese Tribunal, con absolución libre de mi mandante, e imposición de costas de la primera instancia.
+
+TERCERO.-Como igualmente consta en autos, la demandante, D./Dña. [NOMBRE Y APELLIDOS], cuyas pretensiones han sido íntegramente desestimadas por la Audiencia Provincial, había solicitado la ejecución provisional de la sentencia recaída en primera instancia, lo que fue acordado por este Tribunal mediante auto de fecha [FECHA].
+
+CUARTO.-Consecuencia de dicha ejecución nuestra representada se vio obligada a entregar a la actora, de la consignación de la condena en la cuenta del Tribunal, efectuada el [FECHA], la cantidad de [IMPORTE] euros, correspondientes a la cantidad a la que se había fijado de principal, más intereses calculados a la fecha del dictado de la sentencia revocada, según se resolvió en auto de [FECHA], que desestimó la oposición al embargo planteada por esta parte.
+
+QUINTO.-Conforme a lo dispuesto por el art. 533.1 LEC, si el pronunciamiento provisionalmente ejecutado es de condena al pago de dinero y se ha revocado totalmente, debe sobreseerse la ejecución provisional, y la hasta ahora ejecutante, D./Dña. [NOMBRE Y APELLIDOS], deberá devolver a mi representada, hasta ahora ejecutada, la cantidad que, en su caso, hubiere percibido (en el caso de autos, [IMPORTE EN LETRA] xx [IMPORTE] euros), y reintegrarle las costas de instancia, incluidas las de la ejecución provisional, así como resarcirle de los daños y perjuicios que dicha ejecución le hubiera ocasionado.
+
+Para la tasación de costas, se aportan minutas detalladas de honorarios del Letrado Sr./a. (documento n.º [NÚMERO]), y de los derechos y suplidos del Procurador/a. que comparece, junto con los recibos y justificantes de estos últimos (documento n.º [NÚMERO]), todos conceptos debidamente satisfechos por mi principal. Arroja total de [IMPORTE EN LETRA] yy [IMPORTE] euros.
+
+SEXTO.-Mi mandante es mercantil que invierte su capital en activos financieros para atender a sus prestaciones, diferencia entre los frutos de sus inmovilizado e ingresos, y su exigible, que constituye su beneficio, por lo que, obligada a desprenderse de una cifra desde [FECHA], ha experimentado un lucro cesante que excede la mera retribución, como intereses legales, de la cifra de la que hubo de desprenderse injustamente, y cuya entrega se exigió por la actora de modo voluntario, cuando no es más que una facultad, que legalmente tiene apercibida esta posibilidad de deber de devolución.
+
+A los efectos de determinar la indemnización procedente, y conforme a lo establecido en el art. 713.1 LEC, se acompaña, señalado como documento n.º [NÚMERO], dictamen pericial emitido por el Economista, Auditor Censor Jurado de Cuentas D./Dña. [NOMBRE Y APELLIDOS], colegiado n.º [NÚMERO] de [LOCALIDAD], que individualiza y relaciona detalladamente todos los daños y perjuicios sufridos, valorando los mismos en la suma total de [IMPORTE EN LETRA] zz [IMPORTE] euros.
+
+Por todo lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, por presentado este escrito con los documentos y el dictamen que lo acompañan, y justificante de haber efectuado el traslado a la representación procesal de la parte contraria, se digne admitir uno y otros, y en su virtud, se dicte por el Letrado de la Administración de Justicia decreto de sobreseimiento de la ejecución provisional, y ordene la devolución a nuestro mandante de la cantidad percibida por la ejecutante D./Dña. [NOMBRE Y APELLIDOS], de [IMPORTE EN LETRA] xx [IMPORTE] euros, así como el reembolso de las costas de instancia, que se cifran en [IMPORTE EN LETRA] yy [IMPORTE] euros, previa tasación, y declare el derecho de mi principal a ser resarcido de los daños y perjuicios ocasionados por la ejecución provisional, fijando la indemnización en la suma de [IMPORTE] zz [IMPORTE] euros, previo procedimiento de liquidación.
+
+Es justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a
+
+========================================================================

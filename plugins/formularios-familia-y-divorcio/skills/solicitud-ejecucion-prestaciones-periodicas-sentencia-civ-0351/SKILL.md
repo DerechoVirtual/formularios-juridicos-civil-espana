@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -64,8 +64,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 773.5 LEC
 - art. 774.5 LEC
 - art. 578 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -106,15 +104,73 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales y de Doña [NOMBRE Y APELLIDOS], como tengo debidamente acreditado mediante escritura de poder que obra en autos de juicio de separación contenciosa n.º [Nº]/[AÑO], seguido en ese Tribunal frente a Don MARIANO [APELLIDOS] a instancias de mi poderdante, comparezco y como mejor en Derecho proceda, DIGO:
+
+Que interesa a mi patrocinada obtener la ejecución, con arreglo a los arts. 776 y 517 y ss. LEC, de las medidas provisionales y definitivas del juicio de separación referenciado, frente al condenado Don [NOMBRE Y APELLIDOS], provisto de DNI n.º [DNI/NIE], domiciliado en [DOMICILIO], calle [CALLE], n.º [NÚMERO], siendo la empresa para la que trabaja [DENOMINACIÓN SOCIAL], sita en [LOCALIDAD], polígono [Nº DE POLÍGONO], pabellón [Nº DE PABELLÓN], lo cual se establece subsidiariamente para los actos de comunicación, si no fuere hallado en el domicilio, con base en los siguientes:
+
+HECHOS
+
+PRIMERO.- Por sentencia de ese Tribunal de fecha [FECHA], además de declararse la separación judicial de Doña [NOMBRE Y APELLIDOS] y Don [NOMBRE Y APELLIDOS], se acordaron como medidas definitivas sendas pensiones alimenticias a cargo del demandado y en favor de sus dos hijos matrimoniales, [NOMBRE DEL HIJO/A] y [NOMBRE DEL HIJO/A], de 300 euros cada una, pagaderas mensualmente, dentro de los cinco primeros días de cada mes, mediante ingreso en la cuenta bancaria que señalara la madre, actualizables cada año conforme al índice de precios al consumo que publique el INE u organismo que lo sustituya.
+
+Anteriormente, por auto de fecha [FECHA] se acordaron medidas provisionales en pieza separada del juicio de separación referenciado, que incluían pensión de levantamiento de cargas familiares a cargo del demandado y en favor de la esposa e hijos comunes de 500 euros mensuales, igualmente pagaderos dentro de los cinco primeros días de cada mes, mediante ingreso en la cuenta bancaria que señalara Doña [NOMBRE Y APELLIDOS], actualizables cada año conforme al índice de precios al consumo que publique el INE u organismo que lo sustituya.
+
+SEGUNDO.- Don [NOMBRE Y APELLIDOS] no ha satisfecho ni uno solo de los pagos a que viene obligado, y el art. 549.2 LEC autoriza a que la demanda ejecutiva se limite en este caso a la solicitud de que se despache ejecución, identificando la resolución cuya ejecución se pretende.
+
+Por consiguiente, a la fecha de esta presentación, adeuda:
+
+Medidas provisionales:
+
+- meses del año [AÑO], a 500 euros, son un principal de [IMPORTE] euros.
+- incremento del IPC en año [AÑO], [PORCENTAJE] %, actualiza la pensión a 513,11 euros.
+- meses del año [AÑO], a 513,11 euros, son un principal de [IMPORTE] euros.
+
+Medidas definitivas:
+
+meses, a 600 euros, son un principal de [IMPORTE] euros.
+
+Intereses de mora procesal vencidos:
+
+-sobre las cantidades de 500 euros como capital desde el sexto día de cada mes adeudado de año [AÑO], al tipo [TIPO DE INTERÉS] anual; de 513,11 euros como capital desde el sexto día de cada mes del año [AÑO] hasta el mes de [MES], al tipo [TIPO DE INTERÉS] anual; y a este mismo tipo anual desde el sexto día del mes [MES] por cada vencimiento de 600 euros hasta el día de la fecha (art. 575.1 LEC).
+
+Total por principal e intereses vencidos de [IMPORTE] euros ( [IMPORTE] €)
+
+Presupuesto para intereses por devengar y costas: [IMPORTE] euros ( [IMPORTE] €).
+
+Conforme a estos cálculos se presentará liquidación final de la deuda.
+
+TERCERO.- Los títulos jurisdiccionales citados son ejecutivos con arreglo a lo dispuesto en el art. 776 LEC, por relación al art. 517.2. 1.º y 9.º LEC, en tanto que el auto de medidas provisionales es firme, y sólo queda sin efecto por las medidas definitivas de sentencia (art. 773.5 LEC), y la sentencia de separación, aunque ha sido recurrida en apelación por la parte contraria, no ve suspendida la eficacia de las medidas que se hubieran acordado en aquélla, deviniendo firme el pronunciamiento sobre la separación (art. 774.5 LEC).
+
+CUARTO.- Habiéndose de despachar ejecución por deuda de cantidad líquida con vencimientos periódicos, se solicita la ampliación automática a los sucesivos vencimientos mensuales por principal, actualizado anualmente, e intereses legales procesales, salvo que en las fechas de los vencimientos, quinto día de cada mensualidad, consigne el demandado a disposición del Tribunal las cantidades correspondientes, de conformidad con lo dispuesto en el art. 578 LEC, y sin perjuicio de presentar una liquidación final de la deuda.
+
+QUINTO.- Se señala a efectos de embargo los créditos de Don [NOMBRE Y APELLIDOS] frente a la empresa [DENOMINACIÓN SOCIAL], cuya sede ya se ha indicado, por el precio facturado por su actividad de agente comercial afecto, que no se reputan suficientes, por lo que se señala también el pequeño predio rústico en [LOCALIDAD], finca registral n.º [NÚMERO], inscrita en el Registro de la Propiedad de [LOCALIDAD], al tomo [TOMO], folio [FOLIO], considerándola suficiente, siempre y cuando la misma se hallare libre de cargas y gravámenes.
+
+Se solicitan como medidas de garantía del embargo la orden de retención y puesta a disposición del Tribunal librada a [DENOMINACIÓN SOCIAL], y la anotación preventiva de embargo de la finca en el Registro de la Propiedad.
+
+Por todo lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, por presentado este escrito con sus copias, se sirva admitirlo, tenerme por personada y parte en la representación que ostento, y despache ejecución frente a Don [NOMBRE Y APELLIDOS], en razón del auto de medidas provisionales y sentencia de medidas definitivas de la separación contenciosa nº [Nº]/[AÑO] de que conocía el Tribunal, por cantidad de DDeuros (€), correspondientes a principal e intereses vencidos deeuros, y laeuros, que se presupuestan provisionalmente para intereses y costas del procedimiento, y acuerde ampliar automáticamente la ejecución por el importe correspondiente a los nuevos vencimientos de principal de pensiones adeudadas, es decir, por la suma de seiscientos euros, actualizables anualmente, conforme al detalle del cuerpo de este escrito, todo ello sin perjuicio de la definitiva liquidación.
+
+Es justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a

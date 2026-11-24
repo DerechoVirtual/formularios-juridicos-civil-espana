@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 538.1 LEC
 - art. 517.2.1.º LEC
 - art. 539 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,84 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procuradora de los Tribunales y de D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], representación que tengo debidamente acreditada en autos de JUICIO ORDINARIO n.º [Nº DE PROCEDIMIENTO]/[AÑO], ante el TRIBUNAL comparezco y como mejor proceda en Derecho, DIGO:
+
+Que por medio del presente escrito formulo demanda de EJECUCION DINERARIA contra la aseguradora CIA DE SEGUROS [ASEGURADORA], S.A., en reclamación de la suma de [IMPORTE] ( €) que corresponde a principal, e intereses moratorios vencidos, más [IMPORTE] euros ( €), presupuestados, sin perjuicio de posterior liquidación, en concepto de intereses que puedan devengarse durante la ejecución y las costas de ésta.
+
+La demanda se basa en los siguientes:
+
+HECHOS
+
+ÚNICO.-
+
+En virtud de Sentencia dictada en los presentes autos de fecha [FECHA] contra la entidad aseguradora CÍA DE SEGUROS [ASEGURADORA], S.A., mis representados son legítimos acreedores de la suma de [IMPORTE] ( €) más los intereses legales reseñados en el fundamento de derecho quinto de la meritada Sentencia, y que ascienden a la suma de [IMPORTE] ( €), según el siguiente cálculo:
+
+* Principal:€
+* Intereses desde la fecha del siniestro,hasta el, en que se rebasaron los dos años desde el siniestro.
+— 18/10/99 a 31/12/99 = 75 días
+
+(52.600'12 x 6'375 x 75)/(100 x 365) = 689'0255 €
+
+— 01/01/00 a 31/12/00 = 366 días
+
+(52.600'12 x 6'375 x 366)/(100 x 366) = 3.353'2576 €
+
+El interés legal ascendió al 4’25% anual según las Leyes de Presupuestos del Estado para los años 1999 y 2000, por lo que incrementado en un cincuenta por ciento, ascendió a 6’375%.
+
+— 01/01/01 a 18/10/01 = 291 días
+
+(52.600'12 x 8'25 x 291)/(100 x 365) = 3.459'7189 €
+
+El interés legal ascendió al 5’50 % anual según las Leyes de Presupuestos del Estado para el año 2001, por lo que incrementado en un cincuenta por ciento, ascendió a 8’25 %.
+
+* Intereses desde el día 19 de octubre de 2001, hasta el día 1 de febrero de 2002, en que se presenta la solicitud de ejecución (20%).
+— 19/10/01 a 31/12/01 = 74 días
+
+(52.600'12 x 20 x 74)/(100 x 365) = 2.132'8268 €
+
+— 01/01/02 a 01/02/02 = 32 días
+
+(52.600'12 x 20 x 32)/(100 x 365) = 922'3035 €
+
+TOTAL
+
+-(689'0255 + 3.353'2576 + 3.459'7189) + (2.132'8268 + 922’3035) = 10.557’1323 €
+
+FUNDAMENTOS JURIDICOS
+
+I.- Corresponde la competencia para conocer de esta ejecución al Tribunal que nos dirigimos, conforme a la regla que aúna en la funcional, toda la demás específica, objetiva y territorial, determinada en el art. 545.1 LEC, puesto que fue el que dictó la sentencia que se ejecuta.
+
+II.- Se cumplen los requisitos de capacidad, en tanto que personas físicas los ejecutantes y mercantil aseguradora la ejecutada, que fueron partes en el proceso declarativo del que surge la ejecutoria, legitimadas conforme al art. 538.1 LEC, y postulándose con los preceptivos profesionales, Procurador y Abogado habilitados ante el Tribunal.
+
+III.- La ejecución se funda en título expresado en el art. 517.2.1.º LEC, no procediendo requerimiento de pago al consistir el título ejecutivo en una resolución judicial.
+
+IV.- En materia de costas resulta de aplicación el art. 539 LEC, que la prevé a cargo de la ejecutada.
+
+En su virtud,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito, se sirva haberme por comparecido y parte en nombre de D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], y por formulada demanda de ejecución dineraria contra la entidad aseguradora CÍA DE SEGUROS [ASEGURADORA], S.A., se sirva dictar auto en el que se despache ejecución, y sin necesidad de previo requerimiento de pago, se proceda por el Letrado de la Administración de Justicia mediante decreto al embargo de bienes del deudor suficientes para cubrir la suma global de [IMPORTE] ( €), comprensiva de principal, intereses y costas, y seguido en su caso el procedimiento de apremio, se realicen los bienes embargados para con su producto hacer pago al actor de la deuda reclamada, con reintegro por la ejecutada de las costas.
+
+Por ser de Justicia que pido en [LUGAR], a [FECHA].
+
+Firma de Abogado/a	Firma de Procurador/a

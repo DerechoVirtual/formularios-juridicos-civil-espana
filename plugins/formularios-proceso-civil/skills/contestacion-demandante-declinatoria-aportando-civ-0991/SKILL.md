@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -49,8 +49,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 65.1 LEC
 - art. 52.1.9.º LEC
 - art. 54.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -87,15 +85,51 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Juicio [TIPO DE PROCEDIMIENTO] n.º [Nº DE PROCEDIMIENTO]/[AÑO]
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A] por medio del presente y dentro del plazo legal de cinco días procedo a contestar a la declinatoria que fue presentada por el Procurador D. [NOMBRE Y APELLIDOS], actuando en representación de D. [NOMBRE Y APELLIDOS]
+
+HECHOS
+
+ÚNICO.-En la declinatoria presentada se indica que el Tribunal al que me dirijo no es el territorialmente competente para conocer de las presentes actuaciones al entender que la competencia para el conocimiento del presente procedimiento corresponde a los Tribunales de [LOCALIDAD] al entender que el lugar de producción del accidente es el partido judicial correspondiente al tribunal que indica y no el Tribunal al que me dirijo.
+
+A tal efecto aporta como soporte de sus alegaciones el atestado policial levantado en el que se hace la indicación de que el punto de producción del siniestro (km [PUNTO KILOMÉTRICO] de la N-) pertenece a tal partido judicial. No obstante lo anterior, estima esta parte que tal punto kilométrico pertenece al municipio de [LOCALIDAD], que pertenece al partido judicial de [LOCALIDAD] contiguo al de este Tribunal. Como prueba de lo anterior se aporta como documento n.º 1 certificación del servicio de carreteras del Estado, como documento n.º 2 certificación expedida por el Ayuntamiento de [LOCALIDAD] en el que se indica asimismo tal circunstancia y como documento n.º 3 un mapa de la demarcación territorial de tal municipio en la que consta la localización dentro del mismo del punto kilométrico en el que el siniestro que es objeto de estos autos se produjo.
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- Competencia.-Para formular y resolver la presente declinatoria corresponde al Tribunal que conoce del asunto ante el que sigue la tramitación de la causa (art. 63.2 LEC).
+
+SEGUNDO.- Legitimación.-Le corresponde a esta parte ante su condición de demandante en las presentes actuaciones (art. 65.1 LEC).
+
+TERCERO.- Procedimiento.-Es el previsto en el art. 63 y ss. de la LEC.
+
+CUARTO.- Fondo de la reclamación.-Ante el hecho de ser la acción ejercitada en las presentes actuaciones la derivada de un accidente de circulación, la competencia para conocer de la misma le corresponde al Tribunal del lugar en el que el accidente se produjo de conformidad con lo previsto en el art. 52.1.9.º LEC fuero que tiene un carácter indisponible para las partes de conformidad con lo previsto en el art. 54.1 LEC. El lugar de producción del siniestro está situado en el municipio de [LOCALIDAD] y éste pertenece al partido judicial de [LOCALIDAD] según se dispone en el anexo de la Ley 38/1988 de 28 de diciembre de Demarcación y de Planta Judicial.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL: Que tenga por opuesto a la declinatoria formulada dictando auto por el que se desestime la misma y se mantenga la competencia de este Tribunal, alzando la suspensión de la tramitación que en su día se decretó. Todo ello con expresa imposición de las costas derivadas de esta declinatoria a la parte proponente.
+
+a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

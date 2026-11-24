@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -43,8 +43,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 529 LEC
 - art. 528.2.2 LEC
 - art. 526 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -81,15 +79,57 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales obrando en nombre y representación del ejecutado D. [NOMBRE Y APELLIDOS] en virtud del poder notarial que se acompaña por copia, comparezco en las actuaciones del proceso de ejecución núm. [Nº DE PROCEDIMIENTO] dimanante del juicio ordinario núm. [Nº], dentro del plazo concedido de 5 días (art. 529 LEC) y como mejor proceda en derecho evacúa el trámite de alegaciones conferido, para oponerse a la solicitud de EJECUCIÓN PROVISIONAL de la sentencia dictada en este procedimiento, en base a las siguientes:
+
+ALEGACIONES
+
+ÚNICA.-Imposibilidad de restaurar la situación anterior a la ejecución provisional (art. 528.2.2ª LEC).
+
+Como ha defendido algún autor, en materia de arrendamientos urbanos debió el legislador contemplar algún supuesto de exclusión de la ejecución provisional de sentencias para los casos de resolución de contratos de arrendamiento de vivienda, supuesto en el que nos encontramos en este procedimiento. El legislador no ha sido sensible a esta materia pudiéndose ocasionar, en la práctica, graves perjuicios al arrendatario difíciles o casi imposibles de reparar.
+
+La parte demandada se ha visto contrariada por la Sentencia de condena dictada por este Tribunal resolviendo el contrato de arrendamiento de la vivienda que ocupa, al apreciar que esta parte realizó obras inconsentidas por el arrendador, por lo que se ha visto obligada a interponer recurso de apelación contra la misma.
+
+En su vista, la parte actora ha reaccionado, solicitando la ejecución provisional de la sentencia al amparo del art. 526 LEC.
+
+La solicitud de la actora ocasiona perjuicios irreparables a esta parte demandada, imposibles de reparar.
+
+El demandado reside y se halla empadronado en la población donde se halla ubicada la vivienda desde hace más de 20 años. En dicha población tiene también su trabajo, su vida social y sus 2 hijos cursan estudios en el colegio público [NOMBRE DEL CENTRO] próximo a su casa. Allí tienen su vida y sus amigos.
+
+Por todos es conocida la escasez de viviendas en régimen de arrendamiento y la elevada renta exigida para los nuevos contratos.
+
+Si el demandante recupera la posesión a través de la ejecución provisional, difícilmente podrá luego retornarse a la situación anterior si la sentencia dictada en la instancia fuera revocada por la Audiencia, máxime cuando la posesión haya sido adquirida por un tercero de buena fe, como suele suceder, pues el arrendador no necesita la vivienda para sí, sino para volverla a alquilar.
+
+Si se materializa el desalojo y la sentencia fuera revocada por la Audiencia, únicamente le queda al arrendatario la acción de reclamación de daños y perjuicios, pero en ningún caso recuperará la posesión perdida a través de la ejecución provisional. La compensación económica sería a todas luces insuficiente e injusta.
+
+Por lo demás, recordemos que en todos los procesos arrendaticios, el acceso al recurso de apelación sólo es posible si el arrendatario acredita hallarse al corriente del pago de las rentas. Por lo tanto, el único perjuicio que se causa al arrendador se limita a la no entrega de la posesión, percibiendo aquél, mientras se sustancia el recurso, el importe de las rentas.
+
+Por todo lo expuesto,
+
+SOLICITO AL TRIBUNAL: Que admita este escrito con el resguardo acreditativo del traslado a la parte ejecutante y, en méritos de las alegaciones que se vierten, me tenga por opuesto a la ejecución provisional despachada y estimando la oposición, dicte resolución dejando en suspenso la misma al amparo de lo dispuesto en los arts. 528.2.2ª y 530.2 LEC.
+
+SUPLICO: Se acuerde de conformidad.
+
+Es justicia que pido en [LUGAR Y FECHA]
+
+(Firma del Procurador y Abogado)
+
+========================================================================

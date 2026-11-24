@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -49,8 +49,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 232 LEC
 - art. 233 LEC
 - art. 328 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,51 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, que actúa en nombre y representación del demandante D./Dña. [NOMBRE Y APELLIDOS], en autos de Juicio Ordinario nº [Nº DE PROCEDIMIENTO]/[AÑO], promovidos contra [ACTO O RESOLUCIÓN], comparezco y como mejor en Derecho proceda, DIGO:
+
+Que por medio del presente escrito vengo a instar procedimiento de reconstrucción parcial de los presentes autos, conforme arts. 232 a 235 LEC, en base a las siguientes:
+
+ALEGACIONES
+
+PRIMERA
+
+Que el pasado día [FECHA] esta parte recibió notificación de diligencia de ordenación por la que se convocaba a los litigantes a la audiencia previa del juicio, y su Procuradora suscrita se interesó por la documentación de la pieza separada de prueba anticipada nº [NÚMERO]/[AÑO], que se practicó antes de la interposición de la demanda, siendo informada de que no se localizaba, y transcurridos los días, se llega a la conclusión de que, quedando rastro informático por la asignación de número de identificación en el Tribunal Decano con fecha [FECHA], ha desaparecido del Tribunal a que me dirijo, junto con la pérdida completa de otros expediente, lo cual está siendo investigado, y es la precisión posible que se puede tener —en términos del art. 233 LEC— de cuando ocurrió la desaparición de la pieza separada que deja mutilado este juicio ordinario.
+
+SEGUNDA
+
+La pretensión de esta parte es la reclamación de comisiones devengadas con arreglo al contrato de agencia que vincula a las partes, y dado que han existido unos pagos anticipados a cuenta de las mismas y una resolución contractual ulterior por la demandada, es menester conocer los datos de cartera con los movimientos de los asegurados que suscribieron póliza por intermediación del actor desde el [FECHA] hasta el [FECHA], lo que se conseguía con el requerimiento de documental contable a [DENOMINACIÓN SOCIAL], con arreglo a los arts. 328 y 329 LEC, de manera que debe procederse a la reconstrucción de pieza separada de los autos extraviada, hallándose las actuaciones de prueba anticipada de requerimiento de documental a la parte contraria concluidas.
+
+TERCERA
+
+A los efectos de que pueda realizarse la reconstrucción de actuaciones, esta parte se encuentra en disposición de acompañar copia del escrito de solicitud de prueba anticipada, diligencia de ordenación de fecha [FECHA] que admite la anticipación probatoria, y cita y requiere a [DENOMINACIÓN SOCIAL], para que en plazo de [Nº] días comparezca aportando la documentación interesada, así como diligencia de ordenación que tiene por contestado el requerimiento en tiempo y forma, que dio traslado a esta parte para que alegara lo conveniente, junto con la copia del escrito —cinco folios— y el listado informático de la cuenta del agente actor —veintitrés folios—, siendo ésta la última actuación que obraba en la pieza separada perdida.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que por presentado este escrito con los documentos que lo acompañan, y el recibo acreditativo de haber trasladado copia de todo ello al representante procesal de la contraparte, se digne admitirlo, tener por solicitado trámite de reconstrucción de las actuaciones de pieza separada de prueba anticipada de este juicio ordinario, concedido el preceptivo traslado al Ministerio Fiscal, y previa la celebración de la vista que marca la ley, acuerde dar por reconstituidas las actuaciones teniendo por causada la prueba documental de la demandada que se aporta.
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Abogado	Firma del Procurador/a
+
+========================================================================

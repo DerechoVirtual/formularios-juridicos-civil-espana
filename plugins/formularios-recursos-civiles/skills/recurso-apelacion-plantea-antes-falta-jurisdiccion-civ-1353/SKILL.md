@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -42,8 +42,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 458 LEC
 - art. 47 LEC
 - art. 459 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -79,15 +77,51 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Proceso número [NÚMERO]
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales, en nombre y representación de D. [NOMBRE Y APELLIDOS], parte demandada en este proceso seguido con el número [NÚMERO], según tengo acreditado en autos, ante el Tribunal comparezco y como mejor proceda en derecho DIGO:
+
+1) Que en fecha [FECHA] se dictó sentencia en este proceso, la cual fue notificada a esta parte en fecha [FECHA]
+
+2) Que entendiendo que dicha sentencia no es ajustada a derecho, dicho sea con los debidos respetos y en términos de defensa, por medio del presente escrito interpongo contra la misma RECURSO DE APELACIÓN, impugnando todos sus pronunciamientos, tanto el condenatorio de mi representado al pago de la indemnización, como los relativos a intereses y costas.
+
+3) Que, de conformidad a lo dispuesto en el art. 458 de la LEC, fundo el recurso de apelación en las siguientes ALEGACIONES:
+
+PRIMERO.- Con carácter previo, y aun cuando mi representado no cuestionó la competencia objetiva del Juez de Paz en el curso de la instancia, lo cierto es que debemos poner de manifiesto la evidente falta de competencia objetiva del citado órgano jurisdiccional, pues el presente juicio verbal tenía por objeto el desahucio del almacén arrendado, tramitándose indebidamente por la cuantía, la que se fijo también indebidamente al tomar como base la renta mensual adeudada de 85 euros. Por tanto, es indudable que el Juez de Paz carece de competencia objetiva para el conocimiento del asunto, infringiéndose lo dispuesto en el art. 47 de la LEC, y al efecto solicitamos del Tribunal de apelación que, al amparo de lo dispuesto en el art. 227.2, párrafo segundo, decrete la nulidad de lo actuado al hallarnos ante un supuesto de manifiesta falta de competencia objetiva, cuestión ésta de orden público procesal y que debe ser apreciada de oficio por el tribunal “ad quem”.
+
+SEGUNDO.- De no plantearse la nulidad postulada, planteamos como primer motivo de apelación, al amparo del art. 459 de la LEC, por infracción de las garantías procesales del proceso civil con vulneración de lo dispuesto en el art. 24 de la CE en cuanto al derecho fundamental a un proceso con todas las garantías.
+
+En su caso, se expondrían otros motivos [DESCRIBIR]
+
+Por lo expuesto, SUPLICO AL TRIBUNAL que tenga por interpuesto recurso de apelación contra la sentencia de fecha [FECHA] dictada en el proceso número [NÚMERO], con justificante de traslado a la otra parte que acompaño, y, previos los trámites legales, remita las actuaciones a la Sección Civil del Tribunal de Instancia, a quien SUPLICO que decrete de oficio la nulidad de actuaciones o, subsidiariamente, estime el recurso interpuesto, en su caso, se haría constar la pretensión revocatoria por los demás motivos [DESCRIBIR].
+
+OTROSÍ PRIMERO DIGO que, de conformidad con lo dispuesto en los apartados 3.b) y 6 de la disposición adicional decimoquinta de la LOPJ acompaño a este escrito resguardo de consignación en la cuenta de Depósitos y Consignaciones abierta a nombre del Tribunal del depósito exigido para interponer el recurso por importe de 50 euros.
+
+En virtud de lo anterior,
+
+SUPLICO AL TRIBUNAL: que tenga por hecha la anterior manifestación a los efectos pertinentes y por acompañado el documento justificativo del abono de la tasa.
+
+En L.y F.
+
+Firma Procurador y Abogado.
+
+========================================================================

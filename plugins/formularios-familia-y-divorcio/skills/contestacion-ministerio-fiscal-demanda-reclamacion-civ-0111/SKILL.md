@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -43,8 +43,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 85.1 LOPJ
-
----
 
 ## Instrucciones para Claude
 
@@ -81,15 +79,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚM DE [LOCALIDAD]
+
+El Fiscal, de conformidad con lo dispuesto en el art. 749 de la Ley de Enjuiciamiento Civil,
+
+DIGO
+
+Que le ha sido notificado decreto de fecha [FECHA] por la que se acuerda la admisión a trámite de la demanda de reclamación de filiación no matrimonial presentada a instancia de D. [NOMBRE Y APELLIDOS], en atención a lo cual se da traslado al Ministerio Fiscal para que comparezca y conteste en tiempo y forma a la demanda de contrario formulada, lo que tiene a bien realizar de conformidad con los siguientes
+
+HECHOS
+
+El actor y la demandada entablaron relaciones afectivas en la ciudad de [LOCALIDAD] en fecha [FECHA]
+
+En fecha [FECHA] decidieron poner fin a su relación y romper la convivencia que mantenían de común acuerdo.
+
+Seis meses después de romperse la relación la demandada dio a luz a la menor [NOMBRE DEL MENOR] cuya filiación fue inscrita con la filiación materna únicamente determinada.
+
+En fecha [FECHA] el actor presenta demanda de reclamación de filiación no matrimonial en atención a pruebas que presenta, algunas de las cuales acreditan su paternidad, que serán valoradas por esta parte en el acto de la vista en el que aquéllas sean practicadas.
+
+FUNDAMENTOS DE DERECHO
+
+Competencia jurisdiccional
+
+La competencia objetiva: Es de aplicación el párrafo 3º del artículo 117 de la Constitución española, que asigna exclusivamente a los Tribunales determinados por las Leyes, el ejercicio de la potestad jurisdiccional en todo tipo de procesos, juzgando y haciendo ejecutar lo juzgado. Para la competencia territorial con carácter general hay que atenerse a lo dispuesto en el artículo 50 de la Ley de Enjuiciamiento Civil, en relación con lo dispuesto en el art. 85.1º LOPJ, que hacen referencia al Tribunal de Instancia del lugar en que resida la persona a la que se refiera la declaración que se solicite.
+
+Legitimación de la parte
+
+De acuerdo con lo dispuesto en el art. 749.1 de la Ley de Enjuiciamiento Civil que establece que en los procesos de determinación e impugnación de la filiación, entre otros, será siempre parte el Ministerio Fiscal, aunque no haya sido promotor de los mismos ni deba, conforme a la Ley asumir la defensa de alguna de las partes.
+
+Procedimiento
+
+El procedimiento aplicable a seguir será el de un juicio verbal según lo determinado en el art. 753 de la Ley de Enjuiciamiento, y también de acuerdo con el art. 764 y ss. de la misma Ley.
+
+Por todo lo cual,
+
+EL FISCAL INTERESA que se tenga por formalizado el trámite y por contestada la referida demanda, y se de curso a los autos y, en su día, se dicte por el Tribunal al que me dirijo sentencia conforme a lo que resulte probado.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Fdo. El/La Fiscal
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 1902 CC
 - art. 394 LEC
 - art. 339.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -90,15 +88,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A] según designación por el turno de oficio que se acredita mediante la pertinente certificación por medio de la presente formulo demanda de juicio ordinario en ejercicio de acción de reclamación de cantidad frente a D. [NOMBRE Y APELLIDOS] domiciliado en [DOMICILIO] en base a los siguientes hechos y fundamentos de derecho:
+
+HECHOS
+
+ÚNICO.-Que mi mandante es titular de la vivienda sita en [LOCALIDAD] según resulta de la escritura pública de adquisición que se adjunta como documento n.º [NÚMERO] de esta demanda. El demandado D. es titular del piso situado en la planta superior, habiéndose producido en el mismo el pasado [FECHA] una fuga de agua que ha generado las humedades en el piso propiedad de mi principal que se aprecian en las fotografías adjuntas como documentos n.º [NÚMERO] La reparación de tales humedades que es el objeto de la presente reclamación ha sido presupuestada en [IMPORTE] Euros según el documento al efecto emitido por y que se adjunta como documento n.º [Nº DE DOCUMENTO]
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- Competencia.-Corresponde a los Tribunales de [LOCALIDAD] al ser el lugar en el que tiene su domicilio el demandado (art. 50 LEC).
+
+SEGUNDO.- Legitimación.-Le corresponde a esta parte ante la condición de titular de la vivienda situada en el piso inferior a la del demandado (art. 10 LEC).
+
+TERCERO.- Procedimiento.-Es el juicio ordinario con fundamento en el art. 249.2 LEC dado el coste de reparación de los daños causados.
+
+CUARTO.- Fondo de la reclamación.-Al haberse causado por la fuga de agua en la cañería del piso del demandado los daños a mi principal el fundamento de la reclamación es el art. 1902 y concordantes del CC.
+
+QUINTO.- En materia de costas el art. 394 LEC señala que las de primera instancia se imponen a la parte que vea en primera instancia rechazadas sus pretensiones.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL: Que tenga por presentada la presente demanda con los documentos a ella adjuntos y por parte en la representación que ostento y tras la pertinente tramitación se dicte por ese Tribunal sentencia por la que se condene al demandado a abonar a mi principal la cantidad de [IMPORTE] Euros o aquella otra que resulte según la valoración pericial que al efecto se practique, todo ello con imposición de costas al demandado.
+
+OTROSÍ DIGO: Se fija la cuantía del presente procedimiento en [IMPORTE] Euros, importe de reparación de los daños.
+
+En base a lo anterior
+
+SUPLICO AL TRIBUNAL se tenga por efectuada la anterior manifestación a los efectos pertinentes.
+
+OTROSÍ SEGUNDO DIGO: Que al ser mi mandante titular del derecho a litigar gratuitamente a los efectos del art. 339.1 LEC se solicita que por el Tribunal se sirva designar un perito arquitecto técnico a fin de que se pronuncie sobre: 1) Ubicación de las humedades en el piso de mi principal. 2) Causa de las mismas. 3) Carácter privativo de la cañería rota. 4) Coste de reparación de los daños sufridos por mi principal.
+
+En base a lo anterior
+
+SUPLICO AL TRIBUNAL se tenga por efectuada la anterior manifestación a los efectos pertinentes sirviendo designar el perito antes mencionado en el momento procesal a ello destinado.
+
+a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

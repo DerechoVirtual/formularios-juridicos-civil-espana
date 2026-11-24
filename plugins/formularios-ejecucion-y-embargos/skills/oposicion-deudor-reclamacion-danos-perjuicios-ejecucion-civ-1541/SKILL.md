@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 713 LEC
 - art. 713.1 LEC
 - art. 715 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -83,15 +81,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [SEDE]
+
+Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales y de Don [NOMBRE Y APELLIDOS] como tengo debidamente acreditado en los Autos de procedimiento de ejecución núm. [Nº DE PROCEDIMIENTO] del año [AÑO], seguidos a instancia de Don [NOMBRE Y APELLIDOS] y contra mi principal, bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS], ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que habiéndome sido conferido traslado del escrito de contrario por el que se solicita la determinación judicial de la cuantía en que debe fijarse la indemnización por los daños y perjuicios a los que resultó condenado mi mandante en la Sentencia que se ejecuta, mediante el presente escrito y dentro del plazo de diez días previstos en el artículo 713 de la LEC, paso mediante el presente escrito a OPONERME a la petición del actor con base en las siguientes
+
+ALEGACIONES
+
+PRIMERA.- FALTA DE MOTIVACIÓN.
+
+El ejecutante se limita a enumerar unos hipotéticos daños y perjuicios, sin que el escrito presentado se halle motivado, desatendiendo lo dispuesto en el artículo 713.1 LEC, que establece que el ejecutante habrá de motivar la determinación judicial de los daños y perjuicios que solicite.
+
+SEGUNDA.- EL DICTAMEN PRESENTADO.
+
+En un intento de dar fundamento a sus pretensiones, la actora acompaña un dictamen elaborado por Don [NOMBRE Y APELLIDOS], que es parte interesada por [MOTIVO], y que no se ajusta en nada a la realidad a la realidad de los daños y perjuicios, así como a su valoración dineraria por resultar absolutamente improcedente por los siguientes motivos.
+
+(Enumerar los motivos por los que se estime improcedente la relación de daños y perjuicios o su valor en dinero)
+
+Motivos todos ellos que quedarán debidamente acreditados en el acto de juicio oral que tenga lugar a tenor del trámite de oposición regulado en el artículo 715 de la LEC, todo ello sin perjuicio de que acompañamos como documento núm. [Nº], en apoyo de lo manifestado informe pericial realizado por Don [NOMBRE Y APELLIDOS], que refuta una por una todas las partidas y las valoraciones que, de los daños y perjuicios, realiza la parte actora.
+
+TERCERA.- LA CORRECTA LIQUIDACIÓN.
+
+Que a la vista del dictamen acompañado la cantidad que en realidad resulta exigible a mi mandante el la cantidad de [IMPORTE] euros, sensiblemente inferior a la que pretende la actora, y que, verdaderamente, recoge los daños y perjuicios que se le han causado.
+
+En su virtud,
+
+AL TRIBUNAL SUPLICO: Que teniendo por presentado este escrito y por hechas las manifestaciones que en él se contienen, haya a esta parte por OPUESTA a la petición de contrario sobre determinación judicial de la cantidad debida a Don [NOMBRE Y APELLIDOS] en concepto de daños y perjuicios y concretamente a la relación de los daños y perjuicios que manifiesta haber sufrido, así como de su valoración en dinero, acordando se continúe el presente incidente de oposición, conforme a lo previsto en el artículo 715 de la LEC, por el trámite del juicio verbal regulado en los artículo 441 y ss. del mismo cuerpo legal, y en su momento apruebe la relación de daños y perjuicios en la cantidad de [IMPORTE] euros, como se indica en el cuerpo del presente escrito.
+
+OTROSÍ DIGO: Que de conformidad con lo dispuesto en el artículo 715 LEC, se nombre un perito judicial que dictamine sobre la efectiva producción de los daños y su evaluación en dinero.
+
+Por lo que,
+
+AL TRIBUNAL SOLICITO: Que acuerde nombrar perito judicial para que dictamine sobre la efectiva producción de los daños y su evaluación en dinero.
+
+Es justicia que insto en [LUGAR Y FECHA]
+
+Firmas de Letrado y Procurador.
+
+========================================================================

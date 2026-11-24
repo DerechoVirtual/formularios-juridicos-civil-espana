@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -46,8 +46,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 753 LEC
 - art. 770.3.ª LEC
 - art. 440.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -83,15 +81,47 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+DILIGENCIA DE ORDENACIÓN SR./A Letrado/a de la Administración de Justicia [NOMBRE Y APELLIDOS]
+
+En [LUGAR], a [FECHA].
+
+Por presentado el anterior escrito por el/la Procurador/a de los Tribunales Dña. [NOMBRE Y APELLIDOS], de contestación a la reconvención y siete documentos que la acompañan, únase a los autos de su razón, entregándose las copias a las demás partes.
+
+Habiéndose presentado el escrito dentro de plazo, se tiene por cumplido por la parte actora el trámite de contestación a la reconvención.
+
+De acuerdo con lo dispuesto en el art. 440 LEC, al que remiten los arts. 753 y 770 LEC, se convoca a las partes a la celebración de la vista principal de este juicio, para cuyo acto se señala el día [FECHA], a las [Nº] horas.
+
+Cítese a las partes, a las que se hará saber que deben comparecer al acto de la vista por sí mismas, apercibiéndolas de que su incomparecencia sin causa justificada podrá determinar que se consideren admitidos los hechos alegados por la parte que comparezca para fundamentar sus peticiones sobre medidas definitivas de carácter patrimonial, siendo igualmente obligatoria la presencia de los abogados respectivos (art. 770.3.ª LEC).
+
+Adviértase también a las partes que deben comparecer a la vista con las pruebas de que intenten valerse. A tal efecto, indíquese que dentro de los tres días siguientes a la recepción de la citación deben indicar al Tribunal qué personas han de ser citadas por el tribunal para que asistan a la vista, bien como testigos o peritos o como conocedores de los hechos sobre los que tendría que declarar la parte interrogada, facilitando los datos y circunstancias precisas para llevar a efecto la citación (art. 440.1 LEC).
+
+Cítese asimismo para el acto de la vista al Ministerio Fiscal.
+
+Así lo acuerdo y firmo:
+
+Firma del Letrado/a de la Administración de Justicia
+
+Contra esta resolución cabe interponer recurso de reposición, mediante escrito ante el LAJ que se presenta dentro de los cinco días hábiles siguientes al de notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Medidas cautelares y diligencias preliminares) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Medidas cautelares y diligencias preliminares) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -55,8 +55,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 728.1 LEC
 - art. 727.3.ª LEC
 - art. 732.3 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -92,15 +90,55 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], por medio de la presente solicito medida cautelar de depósito del vehículo [MARCA Y MODELO] matrícula [MATRÍCULA] de D. [NOMBRE Y APELLIDOS] con domicilio en [LOCALIDAD] en base a los siguientes:
+
+HECHOS
+
+ÚNICO.-Que mi mandante D. convino en adquirir a D. el vehículo propiedad de este último un [MARCA Y MODELO] matrícula [MATRÍCULA] tal y como resulta de la certificación de la Jefatura Provincial de Tráfico que se adjunta como documento n.º [NÚMERO] de esta solicitud por un precio de [IMPORTE] Euros. Para el pago del precio se pactaron 5 plazos cada uno de ellos de [IMPORTE] Euros acordándose la entrega del vehículo una vez abonado el primero de los plazos antes mencionados tal y como se desprende del contrato privado al efecto suscrito y que se aporta como documento n.º [NÚMERO] Mi mandante abonó el primero de los plazos antes mencionados tal y como se desprende del resguardo de transferencia que se adjunta como documento n.º [NÚMERO] de este escrito, sin que el demandado entregare el vehículo en la fecha y lugar acordados lo que motivó una reclamación previa que se ha visto desatendida como resulta del documento n.º [Nº DE DOCUMENTO]
+
+El propósito de mi mandante es interponer una demanda para la entrega de tal vehículo que sigue siendo utilizado por el Sr. [NOMBRE Y APELLIDOS]
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- Competencia.-Le corresponde al Tribunal al que me dirijo ya que es el competente para conocer de la demanda principal que se formule con fundamento en el art. 723.1 LEC al ser en ese partido en el que está domiciliado el demandado (art. 50 LEC).
+
+SEGUNDO.- Legitimación.-Le corresponde a esta parte ante su condición de acreedor y con ello futuro actor de la demanda que se pretende interponer (art. 721 LEC).
+
+TERCERO.- Procedimiento.-Es el previsto en el art. 730.2 LEC al interesarse la adopción de la medida cautelar son carácter previo a la interposición de la demanda y sin audiencia del demandado (art. 733.2 LEC) ya que concurren en este caso razones de urgencia pues el demandado continúa haciendo uso del vehículo con el riesgo de causar daños al mismo dado el riesgo inherente a la circulación.
+
+CUARTO.- Apariencia de buen derecho.-Se deriva de la documentación adjunta a esta solicitud y en la que consta el que entiende esta parte deber de entrega del vehículo por el demandado (art. 728.2 LEC).
+
+QUINTO.- Peligro de mora.-Se deriva de la propia condición del vehículo afectado por la medida y el riesgo de sufrir daños que su circulación comporta de modo que solamente con la medida cautelar que se interesa se garantiza la efectividad de una eventual sentencia favorable que se pudiere dictar en beneficio de mi mandante (art. 728.1 LEC).
+
+SEXTO.- Medida interesada.-Es la del depósito de cosa mueble que en la demanda que se va a interponer se solicitará sea entregada a mi mandante del art. 727.3.ª de la LEC, interesando que la condición de depositario se confiera al mismo.
+
+SÉPTIMO.- Caución.-Con fundamento en el art. 732.3 LEC se solicita sea fijada ésta en [IMPORTE] Euros dadas las condiciones de derecho expuesto y los posibles perjuicios que se le pudieren generar por ello.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL: Que tenga por presentado escrito con los documentos a él anejos y copias, tenga por comparecido a esta parte y acuerde el depósito del vehículo [MARCA Y MODELO] matrícula [MATRÍCULA] cuya entrega se reclamará en la demanda que se propone interponer esta parte en el plazo legalmente previsto para ello, designando a mi mandante como depositario del mismo en la forma legalmente prevista y con la asunción de las responsabilidades a ello inherentes. Esta medida cautelar se solicita que se acuerde con carácter previo a la presentación de la demanda y sin audiencia del demandado al concurrir motivos de urgencia. De cara a la adopción de tal medida cautelar se interesa asimismo que se tenga por ofrecida una caución de [IMPORTE] Euros.
+
+a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

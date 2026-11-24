@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 469.2 LEC
 - art. 460 LEC
 - art. 398.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -82,15 +80,45 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Rollo nº [Nº DE PROCEDIMIENTO]/[AÑO]
+
+A LA SECCIÓN DE LA ILMA. AUDIENCIA PROVINCIAL DE [LOCALIDAD]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A] según viene acreditado en los presentes autos, como mejor proceda en derecho, DIGO:
+
+- Que, al amparo de lo dispuesto en el art. 474 de la LEC, por medio de la presente paso a oponerme al recurso por infracción procesal interpuesto por [ÓRGANO O PERSONA], en base a los siguientes motivos:
+
+PRIMERO.- Con carácter previo, debemos oponernos a la admisibilidad del recurso, pues el recurso no cumple lo prevenido en el art. 469.2 de la LEC, puesto que, si bien el recurrente recurrió en reposición la inadmisión de prueba por el Juez de 1ª Instancia, lo cierto es que no denunció infracción procesal en la segunda instancia, ni tan siquiera reprodujo la solicitud de prueba, como le autorizaba el art. 460 de la LEC, por lo que el recurso es inadmisible.
+
+Tal como es de ver en el encabezamiento del motivo del escrito de interposición, el recurrente se limita a manifestar que recurrió la inadmisión como todo intento de subsanación, cuando resulta exigible en el encabezamiento expresar el intento realizado en todas las instancias y su resultado, tal como exige el punto 2.1.c) del apartado III del Acuerdo del Pleno del Tribunal Supremo de fecha 27 de enero de 2017.
+
+SEGUNDO.- Para el caso improbable que no se aprecie la inadmisibilidad del recurso, nos oponemos al motivo alegado de contrario, puesto que ni existe infracción procesal en la denegación de prueba, pues la prueba era inútil como razonaba perfectamente el Juez de instancia, al tratarse de testigos que eran reiterativos en las declaraciones de los otros tres testigos propuestos, ni en modo alguno se ha producido indefensión, pues la testifical que pretende practicar al amparo del motivo es absolutamente irrelevante para la resolución del proceso, puesto que los testigos no pueden aportar elementos fácticos diferentes de los tenidos en cuenta para la resolución del proceso, siendo que los dos testigos que declararon y los que ahora se pretende proponer se hallaban en el mismo vehículo, y el testimonio de los que declararon ya fue calificado como irrelevante tanto por la sentencia de instancia como por la de apelación, pues el atestado, los informes técnicos y el testimonio de los agentes intervinientes esclarecían totalmente los hechos controvertidos, sin que se desvirtuaran sus conclusiones por las declaraciones de dichos testigos.
+
+Por tanto, no concurre el motivo de infracción invocado de contrario, por lo que debe desestimarse el recurso también por cuestión de fondo, interesando la imposición de costas al recurrente como dispone el art. 398.1 de la LEC.
+
+En base a lo anterior,
+
+SUPLICO A LA SALA: Que tenga por presentado este escrito, con justificante de traslado, y me tenga por opuesto el recurso por infracción procesal interpuesto por [ÓRGANO O PERSONA] frente a la sentencia de fecha [FECHA] dictada por la Audiencia Provincial de [LOCALIDAD], acordando su inadmisión o, subsidiariamente, su desestimación con imposición de costas al recurrente.
+
+En L. y F.
+
+(Firma Procurador y Abogado)
+
+========================================================================

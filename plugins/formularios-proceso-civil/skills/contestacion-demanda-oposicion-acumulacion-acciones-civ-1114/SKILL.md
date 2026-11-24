@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -66,8 +66,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 419 LEC
 - art. 394 LEC
 
----
-
 ## Instrucciones para Claude
 
 ### Paso 0: Jurisprudenciator en esta skill (obligatorio)
@@ -103,15 +101,77 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS DEL PROCURADOR/A], Procurador/a de los Tribunales, en nombre y representación de [NOMBRE O DENOMINACIÓN SOCIAL DEL DEMANDADO], según acredito mediante escritura de poder inscrita en el Registro Electrónico de Apoderamientos Judiciales, a cuya justificación aporto certificación de dicho Registro como documento n.º [Nº DE DOCUMENTO], dirigido por el Letrado/a abajo firmante D./Dña. [NOMBRE Y APELLIDOS DEL LETRADO/A], con despacho profesional en [LOCALIDAD], ante el Tribunal comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que mediante el presente escrito y dentro del término conferido, paso a contestar la demanda formulada de adverso, oponiéndome a la misma en base a los siguientes
+
+HECHOS
+
+(En el relato de los hechos se hará referencia a los documentos, informes o dictámenes que se aportan.)
+
+Esta parte niega los hechos alegados en la demanda, excepto los que expresamente se admitan en las siguientes alegaciones y, con carácter previo, se opone a la indebida acumulación de acciones verificada por la actora mediante escrito de ampliación de fecha [FECHA].
+
+PRIMERO.– De conformidad con el correlativo de contrario.
+
+SEGUNDO.– Incierto el correlativo. Por el contrario, [EXPOSICIÓN DE LOS HECHOS].
+
+TERCERO.– Se niega expresamente el correlativo de la demanda, en el sentido de que [HECHO NEGADO], como se acredita con los documentos n.º [Nº] de la contestación a la demanda que se acompañan.
+
+CUARTO.– En cuanto a los hechos referidos en el escrito de ampliación a la demanda y acumulación de la acción de [ACCIÓN ACUMULADA], esta parte aporta los documentos n.º [Nº] a [Nº], sobre [OBJETO DE LOS DOCUMENTOS], de cuyo contenido se advierte que [EXPOSICIÓN].
+
+A los anteriores hechos son de aplicación los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+I, II.– Conforme esta parte con la competencia y el tipo de procedimiento señalados por el actor en el correlativo de la demanda.
+
+III, IV, V.– De conformidad con los expuestos de contrario.
+
+VI.– POSTULACIÓN Y DEFENSA
+
+La parte está representada por el Procurador/a [NOMBRE Y APELLIDOS DEL PROCURADOR/A], legalmente habilitado según el art. 23 LEC, y defendida por el Letrado/a que consta en el encabezamiento, art. 31 LEC.
+
+VII.– FUNDAMENTO LEGAL DE LA OPOSICIÓN
+
+A) ACUMULACIÓN INDEBIDA DE ACCIONES
+
+La actora amplió su demanda contra esta parte mediante un escrito presentado con posterioridad a la demanda, conforme a lo dispuesto en el art. 401 LEC, si bien entendemos que con la exclusiva finalidad de evitar el control de oficio sobre la acumulación de acciones que establece el art. 73.3 LEC.
+
+Como se desprende del relato fáctico que ha quedado expuesto, la acumulación subjetiva de acciones intentada por la actora no se sujeta a lo establecido en el art. 72 LEC, toda vez que resulta improcedente al fundarse la causa de pedir en hechos de muy distinta naturaleza: [EXPOSICIÓN DE LA DIFERENTE NATURALEZA DE LOS HECHOS].
+
+Procede, por tanto, cumpliendo lo dispuesto en el art. 419 LEC, que se acuerde la continuación de los presentes autos exclusivamente por la acción ejercitada inicialmente en la demanda.
+
+B) En cuanto a la fundamentación jurídica hecha por la contraparte en mantenimiento de su solicitud de [PRETENSIÓN ACUMULADA], acción cuya acumulación se solicita a la inicialmente pretendida, para el supuesto de que se desestimara la oposición a dicha acumulación que hace esta parte, debe tenerse en cuenta [ALEGACIONES SOBRE EL FONDO DE LA ACCIÓN ACUMULADA].
+
+VIII.– COSTAS
+
+Las costas deberán serle impuestas, de conformidad con el art. 394 LEC, a la parte actora.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL.
+
+Que, teniendo por presentado este escrito con los documentos y copias que le acompañan, lo admita y tenga por contestada en tiempo y forma la demanda y por formulada oposición a la acumulación de acciones hecha por la actora, acordándose la continuación de este procedimiento en cuanto se refiere a la reclamación por [ACCIÓN INICIAL]; y, previos los trámites que corresponden, dicte en su día sentencia por la que se desestime la demanda presentada por [NOMBRE O DENOMINACIÓN SOCIAL DEL ACTOR], absolviendo de la misma a mi mandante, con expresa imposición de costas a la actora.
+
+Es justicia que pido en [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma del Abogado/a: [FIRMA] Firma del Procurador/a: [FIRMA]

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -42,8 +42,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 1005 Código Civil
-
----
 
 ## Instrucciones para Claude
 
@@ -79,15 +77,40 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA NOTARÍA DE [LOCALIDAD]
+
+D/Dª. [NOMBRE Y APELLIDOS] actuando en su nombre y representación, con DNI [DNI/NIE], y domicilio en [LOCALIDAD] ante la Notaría comparezco y DIGO:
+
+-Que al amparo de lo dispuesto en el art. 1005 del Código Civil, solicito que sea requerido D/Dª. [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD], para que manifieste si acepta o repudia la herencia del finado/a D/Dª. [NOMBRE Y APELLIDOS], con último domicilio en [LOCALIDAD], en base a los siguientes HECHOS y FUNDAMENTOS:
+
+PRIMERO.- El/la causante D/Dª [NOMBRE Y APELLIDOS]. era hermano/a del solicitante, y convivió en su domicilio de [LOCALIDAD], sito en esta localidad, desde el año [AÑO] hasta su fallecimiento ocurrido el día [FECHA]
+
+En todo este tiempo, D. se ocupó de su manutención, de todos los gastos de su última enfermedad y funerarios, así como todos los impuestos, contribuciones, obras, y mantenimiento, de las fincas que tenía en propiedad D. [NOMBRE Y APELLIDOS], herencia de la difunta madre de ambos D. [NOMBRE Y APELLIDOS]
+
+Habiendo fallecido el causante D. sin otorgar testamento, mi mandante D/Dª. [NOMBRE Y APELLIDOS], además de afrontar los gastos y pagos en vida y tras la muerte de su hermano, se preocupó de instar la declaración de herederos ab-intestato, a cuyo efecto se siguió expediente notarial núm. [Nº DE PROCEDIMIENTO] en esa Notaría, en el que se autorizó acta de fecha [FECHA] en el que se declaraba herederos a mi mandante, y al ahora requerido, su otro hermano D/Dª. [NOMBRE Y APELLIDOS] (acompaño como documento núm. copia del acta).
+
+SEGUNDO.- Pese al tiempo transcurrido, el llamado a la herencia D/Dª [NOMBRE Y APELLIDOS] no ha hecho manifestación alguna sobre su voluntad de aceptar o repudiar la herencia, pese a haber sido instado por el solicitante en diferentes ocasiones al efecto, por lo que me veo en la obligación de acudir a V.S. para que le requiera a fin de que, en plazo de treinta días naturales, para que el coheredero acepte o repudie la herencia, con los apercibimientos establecidos en el artículo 1005 del Código Civil.
+
+Por lo anteriormente expuesto, SUPLICO A LA NOTARÍA que tenga por presentada esta solicitud con los documentos que se acompañan y, en su virtud, se requiera a D. [NOMBRE Y APELLIDOS] para que en el plazo de treinta días, manifieste si acepta o repudia la herencia del difunto D. [NOMBRE Y APELLIDOS], con los apercibimientos legales oportunos.
+
+En [LUGAR], a [FECHA]
+(Firma del solicitante)
+
+========================================================================

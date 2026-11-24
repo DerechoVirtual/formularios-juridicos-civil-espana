@@ -1,8 +1,0 @@
-OTROSI DIGO: A los efectos del artículo 772 LEC, y dadas las circunstancias sobrevenidas desde que se decretaron las medidas previas por auto de fecha [FECHA], expuestas en el cuerpo de esta demanda, y consistentes en el ingreso en prisión del demandado D. [NOMBRE Y APELLIDOS], al haber sido condenado como autor de un delito de maltrato habitual, tal como acredito mediante testimonio de la sentencia y del auto de ejecución que se acompaña como documento número [Nº DE DOCUMENTO], solicito al LAJ que proceda a dar cuenta al Tribunal y por éste se acuerde, mediante la preceptiva comparecencia que debe celebrarse conforme a lo establecido en el artículo 771 LEC, la modificación de las medidas previamente acordadas, adoptando las siguientes consistentes en:
-
-1.- Se atribuya la custodia de los hijos a la solicitante, así como el uso del domicilio y ajuar familiares, conforme a lo establecido en el artículo 771.2 de la LEC, al apreciarse el carácter urgente e inaplazable de dicha medida, en atención a la difícil situación de convivencia entre los cónyuges.
-2.- La cancelación del régimen de visitas otorgado al progenitor [NOMBRE Y APELLIDOS], puesto que en fecha [FECHA] ha procedido a ingresar en el Centro Penitenciario de [LOCALIDAD] al efecto de cumplir sentencia condenatoria por el delito de maltrato habitual.
-
-AL TRIBUNAL SUPLICO: Tenga por hechas las anteriores manifestaciones y por el LAJ se proceda a dar cuenta de forma inmediata, solicitando del tribunal la convocatoria de comparecencia al objeto de modificar las medidas anteriormente acordadas en el sentido interesado.
-
-========================================================================

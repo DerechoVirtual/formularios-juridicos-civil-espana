@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 823 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -85,15 +83,49 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A] según poder que se adjunta, por medio de la presente formulo petición de alzamiento del embargo que fue acordado por este Tribunal por medio de auto de [FECHA], habiéndose verificado el requerimiento de pago para con mi principal el pasado [FECHA].
+
+P. Cambiario
+
+HECHOS
+
+ÚNICO.-Por el Tribunal ante el que me dirijo se dictó el pasado [FECHA] auto por el que se admitía a trámite la demanda de juicio cambiario que había sido presentada por [ÓRGANO O PERSONA] basándose en la letra [LETRA] y frente a mi principal, respecto del que se indicaba que era el aceptante de tal letra.
+
+Sin perjuicio de la oposición cambiaria que en su momento se planteará por medio del presente escrito se va a solicitar el levantamiento de los embargos que fueron decretados frente a mi principal ya que la firma que se atribuye al mismo en la parte destinada al aceptante se estima que es falsa siendo prueba de ello el informe pericial caligráfico que al presente escrito se adjunta como documento núm. [Nº DE DOCUMENTO].
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- Competencia.-Corresponde al Tribunal al que me dirijo al ser el que tramita el juicio cambiario que se sigue frente a mi principal que está domiciliado en este partido judicial.
+
+SEGUNDO.- Fondo.-El art. 823 LEC que en su párrafo primero establece que: «Si el deudor se personare por sí o por representante dentro de los cinco días siguientes a aquel en que se le requirió de pago y negare categóricamente la autenticidad de su firma o alegare falta absoluta de representación, podrá el tribunal, a la vista de las circunstancias del caso y de la documentación aportada, alzar los embargos que se hubieren acordado, exigiendo, si lo considera conveniente, la caución o garantía adecuada».
+
+En base a lo anterior,
+
+Suplico
+
+SUPLICO AL TRIBUNAL: Que tenga por presentado el presente escrito y por solicitado el levantamiento de los embargos trabados frente a mi principal en base a la alegación de falsedad de la firma y tras la pertinente tramitación dicte resolución por la que se dejen los mismos sin efecto y sin necesidad de garantía o caución, ofreciendo por si se estimare la misma pertinente la cantidad de [IMPORTE] Euros y sin perjuicio de la oposición cambiaria que en su momento se interesará.
+
+a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

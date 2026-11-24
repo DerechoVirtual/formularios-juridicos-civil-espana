@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 529 LEC
 - art. 584 LEC
 - art. 528 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,57 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales obrando en nombre y representación del ejecutado D. [NOMBRE Y APELLIDOS] en virtud del poder notarial que se acompaña por copia, comparezco en las actuaciones del proceso de ejecución núm. [Nº DE PROCEDIMIENTO] dimanante del juicio ordinario núm. [Nº], dentro del plazo de 5 días (art. 529 LEC) siguientes a la práctica del embargo trabado sobre sus bienes, para oponerse a actuaciones ejecutivas concretas practicadas en la EJECUCIÓN PROVISIONAL de la sentencia dictada en este procedimiento, en base a las siguientes:
+
+ALEGACIONES
+
+PRIMERA.- A raíz de la ejecución despachada por Auto de este Tribunal de fecha [FECHA] en el procedimiento arriba indicado, se constituyó la Comisión Judicial en el domicilio del ejecutado en fecha [FECHA] procediendo a la notificación del mismo y de la demanda ejecutiva y, seguidamente, no habiéndose consignado el importe reclamado, se procedió a practicar embargo sobre los bienes y derechos del ejecutado. El importe de la condena asciende a la cantidad de [IMPORTE] euros incluyendo principal, intereses y costas.
+
+SEGUNDA.- El funcionario de Auxilio Judicial en base a una relación de bienes fruto de la averiguación patrimonial llevada a cabo a través de la Oficina Telemática dependiente del Tribunal Decano de esta Ciudad, procedió a trabar embargo el día que se llevó a cabo la diligencia, sobre los siguientes bienes del ejecutado:
+
+- Finca [DESCRIPCIÓN DEL BIEN]
+
+- Finca [DESCRIPCIÓN DEL BIEN]
+
+- Automóvil [MARCA Y MATRÍCULA]
+
+TERCERA.- El valor de los bienes descritos supera en un 300% el importe de la deuda reclamada, según se acredita mediante los informes de valoración que se acompañan a este escrito emitidos por [ÓRGANO O PERSONA]. Se acompañan así mismo los últimos recibos de IBI de las fincas descritas donde consta la valoración catastral de las fincas embargadas, así como original de la revista [NOMBRE DE LA REVISTA] donde se publican las relaciones de valoración de los vehículos en atención al año de matriculación.
+
+CUARTA.- Señala el art. 584 LEC que no se embargarán bienes cuyo previsible valor exceda de la cantidad por la que se haya despachado ejecución, salvo que en el patrimonio del ejecutado sólo existiesen bienes de valor superior a esos conceptos y la afección de dichos bienes resultare necesaria a los fines de la ejecución.
+
+QUINTA.- Por lo expuesto en el precepto citado, el valor de los bienes sobre los que se ha llevado a cabo el embargo, excede notoria y clamorosamente el importe de la condena, causándose un grave perjuicio al ejecutado, difícil de reparar, como consecuencia de la anotación del embargo en el Registro de la Propiedad.
+
+SEXTA.- Se interesa pues, se alcen los embargos trabados sobre las dos fincas descritas anteriormente, manteniéndose el embargo sobre el automóvil matrícula [MATRÍCULA] cuyo valor cubre sobradamente el importe de la ejecución despachada.
+
+SÉPTIMA.- A los efectos dispuestos en el art. 528 LEC ofrece prestar caución en el importe que se señale por el Tribunal para responder de los posibles daños que se causaren con el alzamiento de los embargos descritos.
+
+Por todo lo expuesto,
+
+SOLICITO AL TRIBUNAL Que admita este escrito con el resguardo acreditativo del traslado a la parte ejecutante y, en méritos de las alegaciones que se vierten, me tenga por opuesto al embargo de las fincas registrales [Nº DE FINCA] solicitando se estime la oposición, se alcen los embargos trabados y se tenga por ofrecida la caución a que hace referencia el art. 528 LEC, manteniéndose el embargo sobre el automóvil matrícula [MATRÍCULA] cuyo valor cubre sobradamente el importe de la ejecución despachada.
+
+SUPLICO: Se acuerde de conformidad.
+
+Es justicia que pido en [LUGAR Y FECHA]
+
+(Firma del Procurador y Abogado)
+
+========================================================================

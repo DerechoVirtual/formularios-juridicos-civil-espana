@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -53,8 +53,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 249 CC
 - art. 268 CC
 - art. 394 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -92,15 +90,69 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D/Dª [NOMBRE Y APELLIDOS] Procurador de los Tribunales actuando en nombre y representación de D/Dª [NOMBRE Y APELLIDOS], mayor de edad, casado, de profesión [PROFESIÓN], vecino de esta ciudad C/, tal y como consta en la copia electrónica del poder notarial de representación informática (o digitalizada) que se adjunta, actuando bajo la dirección Letrada de D/Dª [NOMBRE Y APELLIDOS], Colegiado/a núm. con domicilio profesional en [LOCALIDAD], ante el Tribunal comparezco y como mejor proceda en Derecho DIGO:
+
+Que en virtud del presente escrito en tiempo y forma paso a contestar y a oponerme a la demanda de adopción de medidas judiciales de apoyo seguido ante ese Tribunal con el número [NÚMERO], interpuesta por la representación procesal de D/Dª [NOMBRE Y APELLIDOS], en base a los siguientes
+
+HECHOS
+
+PRIMERO.- El demandante que solicita la adopción de medidas judiciales de apoyo y nombramiento de curador de mi representado lo hace en base al supuesto estado mental que determina «una situación que le impide el gobierno de su persona», aportándose un informe médico expedido por el departamento de salud mental del hospital [NOMBRE DEL HOSPITAL] en el que se le diagnostica un «trastorno ciclotímico».
+
+SEGUNDO.- No obstante, tal y como se expone en el informe médico psiquiátrico elaborado por el Doctor en psiquiatría D. [NOMBRE Y APELLIDOS] que se aporta como DOCUMENTO NÚM. 1, «la ciclotimia es una patología maniaco-depresiva pero de menor entidad, sin síntomas alucinatorios o delirantes y con menor repercusión en la actividad social y familiar del sujeto», por lo cual dicha patología en modo alguno afecta a la capacidad jurídica de mi representado, tal como ya se alegó en el escrito de oposición presentado en el expediente de jurisdicción voluntaria seguido previamente.
+
+TERCERO.- Además, si bien es cierto que mi representado estuvo recibiendo tratamiento psiquiátrico continuado durante las fechas que se refieren de contrario, hay que señalar que en la actualidad se encuentra dado de alta desde fecha [FECHA], tal y como se señala en el informe de alta expedido por el Psiquiatra Dr. D. [NOMBRE Y APELLIDOS], sin mayores secuelas que el encontrarse sometido a tratamiento farmacológico y seguimientos periódicos, tal y como consta en el DOCUMENTO NÚM. 1 aportado.
+
+CUARTO.- En ningún caso son ciertas las afirmaciones vertidas de contrario en el expositivo tercero de la demanda formulada de contrario atribuyendo a mi representado «actividades desordenadas, vida caótica, consumo de alcohol y falta de capacidad para la dirección de los negocios de antigua titularidad paterna que han hecho que los mismos se encuentren en una situación próxima a la defenestración».
+
+QUINTO.- Desde que en fecha [FECHA] mi representado recibió por fallecimiento de su padre D. la titularidad de las siguientes mercantiles [DENOMINACIÓN SOCIAL] la gestión de las mismas ha sido impecable aumentándose el volumen de negocio en un %, tal y como consta en el informe expedido por el Auditor de cuentas Colegiado núm. D. Que se aporta como DOCUMENTO NÚM. 2.
+
+A los anteriores hechos le son de aplicación los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+I. COMPETENCIA.
+
+De acuerdo con lo establecido en el artículo 756 LEC corresponderá la competencia al Tribunal de Instancia al que me dirijo, por resultar que el demandado tiene su domicilio en la misma.
+
+II. PROCEDIMIENTO.
+
+De acuerdo con lo establecido en el artículo 753 LEC, el presente procedimiento se sustanciará por los trámites del Juicio verbal, con las especialidades establecidas en los artículos 748 y ss. LEC y respecto al proceso de adopción de las medidas judiciales de apoyo de los artículos 756 y ss. LEC.
+
+III. ADOPCIÓN DE MEDIDAS JUDICIALES DE APOYO: IMPROCEDENCIA
+
+El art. 249 del CC establece que las medidas de apoyo a las personas mayores de edad o menores emancipadas que las precisen para el adecuado ejercicio de su capacidad jurídica tendrán por finalidad permitir el desarrollo pleno de su personalidad y su desenvolvimiento jurídico en condiciones de igualdad. Estas medidas de apoyo deberán estar inspiradas en el respeto a la dignidad de la persona y en la tutela de sus derechos fundamentales. Las de origen legal o judicial solo procederán en defecto o insuficiencia de la voluntad de la persona de que se trate. Todas ellas deberán ajustarse a los principios de necesidad y proporcionalidad, no cumpliéndose los requisitos para su adopción.
+
+Tampoco se cumplen los requisitos de los arts. 268 y siguientes del CC para la constitución de la curatela, al tener mi representado suficiente capacidad jurídica para gobernarse por sí mismo.
+
+IV. COSTAS.
+
+El artículo 394 LEC.
+
+En virtud de lo expuesto,
+
+SUPLICO AL TRIBUNAL: Tenga por presentado este escrito con los documentos anexos, justificante de traslado de copias, teniendo por comparecido al Procurador de los Tribunales D. [NOMBRE Y APELLIDOS], en representación de [NOMBRE DEL REPRESENTADO/A], entendiéndose conmigo las sucesivas diligencias, teniendo por contestada la demanda de adopción de medidas judiciales de apoyo formulada por la representación procesal de D. [NOMBRE Y APELLIDOS] y seguido el juicio por todos sus trámites se dicte sentencia en virtud de la cual se absuelva libremente a mi representado de la totalidad de pedimentos formulados de contrario, con imposición de costas a la demandante.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Firma Abogado y Procurador
+
+========================================================================

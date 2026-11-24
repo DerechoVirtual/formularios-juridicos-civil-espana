@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -42,8 +42,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -79,15 +77,49 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA NOTARÍA DE [LOCALIDAD]
+
+D. [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD], en su propio nombre y representación, ante la Notaría comparezco y DIGO:
+
+- Que al amparo de lo dispuesto en los arts. 55 y 56 de la Ley del Notariado, mediante el presente escrito deduzco REQUERIMIENTO PARA DECLARACIÓN DE HEREDEROS ABINTESTATO del causante D. [NOMBRE Y APELLIDOS], con último domicilio en [LOCALIDAD], solicitando que sean declarados herederos sus hijos D. [NOMBRE Y APELLIDOS], solicitante, y D. [NOMBRE Y APELLIDOS] que son mi representado D. [NOMBRE Y APELLIDOS], así como D. [NOMBRE Y APELLIDOS], en atención a los siguientes:
+
+PRIMERO.- El causante D. falleció el pasado día [FECHA], teniendo su último domicilio en [LOCALIDAD].
+
+El causante era viudo y tenía dos hijos, el solicitante D. [NOMBRE Y APELLIDOS]: y su hermano D.. [NOMBRE Y APELLIDOS]
+
+El causante D. no otorgó testamento, tal como se acredita por la certificación negativa del Registro de actos de última voluntad que acompaño como documento número, y tal como se acreditará asimismo por la información testifical que se ofrece a tal fin en el otrosí de este escrito.
+
+SEGUNDO.- Como se ha indicado, el causante D. estaba casado con Dª [NOMBRE Y APELLIDOS]. quien falleció el día [FECHA], según se acredita por el certificado de defunción que acompaño y acta de notoriedad de declaración de herederos tramitada ante la Notaría de.
+
+El matrimonio tuvo dos hijos que el solicitante D. [NOMBRE Y APELLIDOS] y su hermano D. [NOMBRE Y APELLIDOS], que actualmente reside en [LOCALIDAD].
+
+TERCERO.- Para acreditar la veracidad de estos extremos se ofrece la información de los siguientes testigos que, por razón de su conocimiento del causante y de su familia, pueden aseverar que sus únicos hijos son el solicitante y su hermano y que no otorgó testamento:
+
+D. [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD]
+
+D. [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD]
+
+Estos testigos comparecerán voluntariamente en la Notaría el día y hora que se fije:
+
+Por lo anterior, RUEGO A V.I. que tenga por presentada este requerimiento de declaración de herederos abintestato del causante D. [NOMBRE Y APELLIDOS], con la documentación que se acompaña y, tras los trámites legales, practicando la información testifical, extienda acta por la que se declare herederos del causante D. [NOMBRE Y APELLIDOS] al solicitante D. [NOMBRE Y APELLIDOS] y a D.. [NOMBRE Y APELLIDOS]
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+========================================================================

@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -54,8 +54,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 809 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,83 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Que efectúa el Letrado del Ilustre Colegio de Abogados de [COLEGIO] D./Dña. [NOMBRE Y APELLIDOS], nombrado contador-partidor en el procedimiento de [TIPO DE PROCEDIMIENTO] seguido en la sección civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº]
+
+ANTECEDENTES
+
+PRIMERO.- Con fecha [FECHA] se dictó sentencia firme en los autos número [Nº DE PROCEDIMIENTO] decretando la separación de los cónyuges [NOMBRE Y APELLIDOS] y [NOMBRE Y APELLIDOS], y la disolución de la sociedad de gananciales existente entre ambos.
+
+SEGUNDO.- Que el inventario de los bienes se solicitó como medida provisional con la demanda de separación y se acordó por auto de fecha [FECHA], realizándose de común acuerdo en comparecencia ante la Letrado de la Administración de Justicia, convocada con arreglo al art. 809 LEC.
+
+TERCERO.- Que con fecha [FECHA], se inició el procedimiento de liquidación de la citada sociedad de gananciales, celebrándose la Junta prevenida en los artículos 784 y ss. de la LEC, en la que resultó elegido el contador-partidor, y se le facultó para poder nombrar peritos que procediesen al avalúo de los bienes.
+
+CUARTO.- Que en uso de la facultad conferida, nombró perito a [NOMBRE Y APELLIDOS]
+
+QUINTO.- Que con fecha [FECHA] se le hizo entrega al contador-partidor mediante diligencia del Letrado de la Administración de Justicia de los autos originales a fin de que en el plazo de dos meses efectuase las operaciones divisorias y formulase el presente cuaderno-particional.
+
+INVENTARIO Y AVALUO
+
+La sociedad de gananciales del matrimonio [NOMBRE DE LOS CÓNYUGES] se halla constituida de la siguiente forma:
+
+I) ACTIVO: El activo de la sociedad de gananciales está formado por los siguientes bienes:
+A) Metálico:
+• Saldo Libreta n.º [IMPORTE] Euros
+• [IMPORTE] Euros
+B) Muebles:
+• Vehículo marca [MARCA/MODELO], matrícula [IMPORTE] Euros
+• Ajuar y mobiliario existente en la que fue vivienda familiar Euros
+C) Inmuebles
+• Vivienda sita en el piso [PISO] de la finca número [NÚMERO] de la calle [CALLE] de [IMPORTE] Euros
+• Local comercial sito en el bajo del n.º [NÚMERO] de la calle [CALLE] de [IMPORTE] Euros
+• Pieza de tierra en [LOCALIDAD] adquirida mediante escritura pública de [IMPORTE] Euros
+D) Derechos y acciones:
+• [IMPORTE] Euros
+
+TOTAL ACTIVO Euros
+
+II) PASIVO:
+
+A) Crédito con la Caja de Ahorros Euros
+
+LÍQUIDO DE LA SOCIEDAD DE GANANCIALES Euros
+
+LIQUIDACION Y DIVISION:
+
+De acuerdo con estas cifras, corresponde a cada cónyuge bienes por valor de [IMPORTE] Euros
+
+PROPUESTA DE ADJUDICACION:
+
+A [NOMBRE Y APELLIDOS] en pago de su haber se le adjudica [DESCRIPCIÓN DEL BIEN]
+
+A [NOMBRE Y APELLIDOS] en pago de su haber se le adjudica [DESCRIPCIÓN DEL BIEN]
+
+DECLARACIONES FINALES
+
+Primera.- Si en lo sucesivo apareciesen otros bienes que se hubieren dejado de incluir en el inventario por ignorar su existencia, los mismos se adjudicarían proporcionalmente entre ambos cónyuges por mitad.
+
+Segunda.- De igual forma se pagaría por los interesados en igual proporción cualquier deuda u obligación de carácter ganancial que pudiera aparecer, y de las que no se hacen mención por ignorar su existencia.
+
+Tercera.- [TEXTO DE LA DECLARACIÓN]
+
+Es justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Letrado/a contador- partidor
+
+========================================================================

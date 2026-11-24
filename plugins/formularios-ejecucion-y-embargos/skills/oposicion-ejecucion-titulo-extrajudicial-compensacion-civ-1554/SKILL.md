@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 557 LEC
 - art. 1196 CC
 - art. 560 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,55 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+PROCEDIMIENTO DE EJECUCIÓN [Nº DE PROCEDIMIENTO]
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, en nombre y representación de [NOMBRE DEL REPRESENTADO/A], parte ejecutada en el procedimiento de ejecución arriba referenciado,según acredito mediante apoderamiento apud acta otorgado ante el Letrado de la Administración de Justicia de [LOCALIDAD], ante el Tribunal comparezco y como mejor proceda en Derecho DIGO:
+
+Que dentro del plazo legal paso a formular OPOSICIÓN A LA EJECUCIÓN despachada por auto de fecha [FECHA], al amparo de lo dispuesto en el art. 557.1.2ª LEC,con base a los siguientes:
+
+HECHOS
+
+PRIMERO.-La cantidad que se reclama en la demanda en ejecución de póliza de contrato mercantil formulada de contrario [Nº DE PROCEDIMIENTO] y que asciende a la cantidad de [IMPORTE] Euros, se ve compensada por la deuda reconocida en la sentencia dictada por el Tribunal [ÓRGANO JUDICIAL] de fecha [FECHA] dimanante del procedimiento declarativo [Nº DE PROCEDIMIENTO] instado por el ejecutado y objeto de notificación al mismo en fecha [FECHA] frente al ejecutante y que asciende a la cantidad de [IMPORTE] Euros, importe superior al reclamado en la presente litis, se aporta testimonio de la sentencia aludida como DOCUMENTO NÚM. 1.
+
+A los anteriores hechos le son de aplicación los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- PROCEDIMIENTO. Son de aplicación los artículos 557, 560 y 561 LEC, debiendo suspenderse la ejecución conforme dispone el apartado 2 del citado art. 557 LEC.
+
+SEGUNDO.- LEGITIMACIÓN. Artículo 538 LEC al ser parte ejecutada en el pre-sente proceso de ejecución.
+
+TERCERO.- OPOSICIÓN A LA EJECUCIÓN. Artículo 557.1.2ª LEC, que establece como causa de oposición a la ejecución fundada en títulos no judiciales ni arbitrales la compensación de crédito líquido que resulte de documento que tenga fuerza ejecutiva. Por su parte, el artículo 1196 CC establece los requisitos de necesaria concurrencia para que opere la compensación concurriendo todos y cada uno al caso concreto: 1. Que cada uno de los obligados lo esté principalmente y sea a la vez acreedor del otro. 2. Que ambas deudas consistan en una cantidad de dinero. 3. Que las dos deudas estén vencidas. 4. Que sean líquidas y exigibles. 5. Que sobre ninguna de ellas haya retención o contienda promovida por terceras personas y notificada oportunamente al deudor.
+
+CUARTO.- COSTAS. Artículo 561.2 de la LEC debiendo imponerse al ejecutante.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL: Tenga por presentado este escrito con los documentos adjuntos y sus copias, se sirva admitirlos y unirlos a los autos, teniendo por formulada OPOSICIÓN A LA DEMANDA EJECUTIVA formulada por [ÓRGANO O PERSONA] contra mi principal, dictándose por el Letrado de la Administración de Justicia diligencia de ordenación en la que se acuerde la inmediata suspensión de la ejecución despachada y, tras los trámites legales, se acuerde dejar sin efecto la ejecución despachada, mandando el inmediato alzamiento de los embargos acordados y reintegrando a mi mandante en la posición anterior a la ejecución, imponiendo las costas al ejecutante.
+
+OTROSÍ PRIMERO DIGO: de conformidad con el artículo 560 LEC se solicita la celebración de la vista pública a fin de que se realice la prueba que a continuación se detalla:
+
+Se relacionarán los medios de prueba
+
+SUPLICO AL TRIBUNAL: Se proceda a la celebración de la vista pública solicitada al efecto de la práctica de la totalidad de la prueba propuesta, señalándose por el Letrado de la Administración de Justicia día y hora para su celebración.
+
+========================================================================

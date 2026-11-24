@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 68.3 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,57 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AL SERVICIO COMÚN DE REGISTRO Y REPARTO DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales y de D./Dña. [NOMBRE Y APELLIDOS], D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], según acredito mediante la escritura de poder otorgada al efecto, que tengo aceptada y acompaño para su unión a los autos por copia testimoniada bastante, con devolución del original por necesitarlo a otros usos; dirigidos mis poderdantes por la Letrado en ejercicio D./Dña. [NOMBRE Y APELLIDOS], colegiada n.º [NÚMERO], del Iltre. Colegio de [LOCALIDAD], con despacho abierto en [LOCALIDAD], calle [CALLE]; ante el Tribunal comparezco y como mejor proceda en derecho, DIGO:
+
+Que mis patrocinados han formulado demanda de juicio ordinario que, turnada de reparto, ha correspondido a la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO], que ha incoado autos n.º [NÚMERO]/[AÑO], lo que vengo a impugnar en base a las siguientes
+
+ALEGACIONES
+
+PRIMERA
+
+En la demanda presentada se ejercita frente a la mercantil [DENOMINACIÓN SOCIAL], acción de impugnación del acuerdo adoptado por el Consejo de Administración de fecha [FECHA], por antiestatutario.
+
+Se aporta la copia de la dicha demanda con el sello de registro de presentación de fecha [FECHA], ante la secretaría de ese Servicio Común de Registro y Reparto del Tribunal de Instancia.
+
+SEGUNDA
+
+Ha tenido noticia esta parte que con fecha [FECHA], se formuló demanda por D./Dña. [NOMBRE Y APELLIDOS], en que se pedía la declaración de nulidad del mismo indicado acuerdo del órgano de administración de [DENOMINACIÓN SOCIAL], la cual fue repartida a la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] esta población, que tiene formados autos de juicio ordinario n.º [NÚMERO] /
+
+TERCERA
+
+Conforme al art. 76.2, párrafo 2.º LEC, la demanda de mi parte debió repartirse a la Sección Civil del Tribunal de Instancia n.º 2, por lo que se ha infringido norma imperativa de reparto que debe corregirse por la prevención del art. 68.3 LEC.
+
+CUARTA
+
+El presente escrito se presenta ante el Juez decano a fin de que corrija el reparto, puesto que, con arreglo a lo dispuesto en el art. 68.3 LEC, mi mandante está legitimado para proponer esta cuestión de competencia, puesto que es el demandante, y se produce en el momento inmediato a la presentación y del conocimiento del pleito al que debe acumularse.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito, se sirva admitirlo, teniéndome por comparecido en la representación que ostento, a los solos efectos de plantear la presente impugnación de la decisión de reparto, y se resuelva repartir la demanda a la Sección Civil del Tribunal de Instancia n.ºde esta población, ordenando que se comunique a la Sección Civil del Tribunal de Instancia n.º [Nº], a fin de que decrete la nulidad de lo actuado y remita la demanda al órgano competente en concreto.
+
+Es justo en [LUGAR], a [FECHA].
+
+Firma del Abogado	Firma del Procurador/a
+
+========================================================================

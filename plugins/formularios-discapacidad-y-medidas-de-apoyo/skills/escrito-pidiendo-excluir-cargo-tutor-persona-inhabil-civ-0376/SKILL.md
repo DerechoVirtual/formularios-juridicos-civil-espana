@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -54,8 +54,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 216 CC
 - art. 278 CC
 - art. 223 CC
-
----
 
 ## Instrucciones para Claude
 
@@ -93,15 +91,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº]
+
+Expediente de Jurisdicción Voluntaria: /
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
+
+D./Dª [NOMBRE Y APELLIDOS], mayor de edad, casado [OTROS DATOS], de profesión [PROFESIÓN], vecino de [LOCALIDAD], con domicilio en la calle [CALLE], nº [NÚMERO], pta. y DNI [DNI/NIE], en el expediente de jurisdicción voluntaria sobre constitución de tutela, ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
+
+Que por medio del presente escrito ALEGO CAUSA DE EXCLUSIÓN POR INHABILIDAD PARA EL DESEMPEÑO DEL CARGO DE TUTOR/CURADOR de D./Dª [NOMBRE Y APELLIDOS] sobre el/la menor [NOMBRE DEL MENOR] D./Dª [NOMBRE Y APELLIDOS], con base en los siguientes
+
+HECHOS
+
+PRIMERO.- D./Dª [NOMBRE Y APELLIDOS] ha sido nombrado tutor de D./Dª [NOMBRE Y APELLIDOS], por este Tribunal, en procedimiento de jurisdicción voluntaria /, por auto de fecha [DÍA] de [MES] de [AÑO].
+
+SEGUNDO.- Recientemente ha aparecido testamento ológrafo del padre [NOMBRE Y APELLIDOS] del menor, que se encuentra en estos momentos en proceso de adveración y protocolización, en el que expresamente lo excluye del ejercicio del cargo de tutor de su hijo/a citado, lo que lo inhabilita como tal.
+
+FUNDAMENTOS DE DERECHO
+
+El art. 217.1º CCiv, dispone que la autoridad judicial no podrá nombrar tutor "a quien haya sido excluido por los progenitores del tutelado" (Además de esta causa, puede alegarse cualquier otra comprendida en los arts. 216 y 217 CCiv. Respecto a las causas de remoción de la tutela, una vez deferida, téngase en cuenta también el art. 278 CCiv en relación con el art. 223 CCiv).
+
+III.-Por su parte, el artículo 49 de la Ley de la Jurisdicción Voluntaria, intitulado “remoción”, establece: “1. En los casos previstos por la legislación civil aplicable, de oficio, a solicitud del Ministerio Fiscal, del tutelado, del sujeto a curatela o de otra persona interesada, se podrá acordar la remoción del tutor o del curador, previa celebración de comparecencia. En esta se oirá al tutor o curador, a las personas que puedan sustituirle en el cargo, a la persona con discapacidad, al menor si tuviere suficiente madurez y, en todo caso, si fuera mayor de doce años, y al Ministerio Fiscal.
+
+Si se suscitare oposición, el expediente se hará contencioso y el Letrado de la Administración de Justicia citará a los interesados a una vista, continuando la tramitación con arreglo a lo previsto para el juicio verbal.
+
+2. Durante la tramitación del expediente de remoción, el Juez podrá suspender al tutor o curador en sus funciones y el Letrado de la Administración de Justicia nombrará al tutelado o sujeto a curatela un defensor judicial.
+
+3. El Juez acordará lo procedente, nombrando un nuevo tutor o curador conforme a la legislación civil, debiendo remitir la correspondiente comunicación al Registro Civil”.
+
+IV.-Iura novit curia y los demás que en Derecho procedan.
+
+En su virtud:
+
+SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito, con los documentos que se acompañan y copias, se sirva admitirlo y, estimando lo que en él se solicita y previos los trámites legales oportunos, declare inhábil para ejercer el cargo de tutor/curador del/de la menor [NOMBRE DEL MENOR] D./Dª [NOMBRE Y APELLIDOS], a D./Dª [NOMBRE Y APELLIDOS], anule su nombramiento como tal y proceda al nombramiento de nuevo tutor de acuerdo con lo dispuesto en la Ley.
+
+OTROSÍ DIGO: Para acreditar los HECHOS de este escrito, se acompaña los siguientes DOCUMENTOS:
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Firma del solicitante
+
+========================================================================

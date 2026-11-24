@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -43,8 +43,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -80,15 +78,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AL TRIBUNAL ECLESIÁSTICO DEL ARZOBISPADO DE [LOCALIDAD]
+
+TURNO NÚMERO
+
+D./Dª [NOMBRE Y APELLIDOS], en su calidad de abogado y procurador de D./Dª [NOMBRE Y APELLIDOS], según tiene acreditado en la causa de nulidad matrimonial número [NÚMERO], ante el Tribunal comparece y como mejor proceda DICE:
+
+Que abierto el periodo de prueba conferido mediante Decreto de [FECHA] de [MES], notificado el día [FECHA] del mismo mes y año, esta parte, dentro del plazo conferido al efecto y a tenor de los cc. 1526 y 1527 y de los artículos 156.1.y 157 de la Instrucción Dignitas Connubi, propone valerse de los siguientes MEDIOS DE PRUEBA:
+
+I.- EXAMEN JUDICIAL de los dos esposos, para lo cual, a tenor de lo previsto en el canon 1533, adjunta interrogatorios de preguntas.
+
+II.- DOCUMENTAL:
+
+1.- Teniendo por reproducidos los documentos aportados con el escrito de demanda.
+
+2.- Admitiendo las cartas manuscritas de D./Dª [NOMBRE Y APELLIDOS]
+
+III.- PERICIAL PSIQUIÁTRICA, a fin de que por perito médico-psiquiatra, designado al efecto por el Tribunal, entreviste y examine a los esposos, y previo examen de las actas del proceso, dictamine acerca de los siguientes extremos:
+
+A) Si los esposos padecen o han padecido alguna enfermedad o anomalía psicopatológica. En su caso, indique la antecedencia, respecto a la fecha del matrimonio, en el padecimiento de la misma.
+
+B) Personalidad psicológica de los esposos y posibles anomalías o trastornos que en los mismos pudieran concurrir.
+
+C) Indique si las enfermedades o anomalías psicopatológicas padecidas y, en su caso, la especial configuración de sus personalidades en aquel momento, les afectó en las áreas, valorativa crítica, intelectual y volitiva, así como su incidencia en el grado de deliberación y libertad psicológicas imprescindibles para la elaboración de un consentimiento matrimonial.
+
+D) Dictamine de igual modo, si los esposos, al momento de prestar su consentimiento matrimonial, podían realizar el objeto del proyecto matrimonial, y por tanto, si estaban capacitados para mantener entre ambos, a la vista de su personalidad y carácter, una relación interpersonal propia de esposos e integrar una comunidad de vida y amor.
+
+E) En última instancia se informe acerca de cualquier otro punto que el perito juzgue conveniente para la causa y mejor comprensión de la pericia.
+
+IV.- Para el caso de que el esposo/la esposa se negare a someterse a la prueba pericial, interesamos se proceda, conforme viene acordando el Tribunal, a la emisión de VOTO CUALIFICADO SOBRE LOS AUTOS.
+
+V.- TESTIFICAL, para que sean examinados los testigos comprendidos en la lista adjunta, conforme a los interrogatorios que a tal fin se acompañan.
+
+En virtud de lo expuesto,
+
+SUPLICO DEL TRIBUNAL que, teniendo por presentado este escrito junto con los acompañados en tiempo hábil, los admita y tenga por propuestos los medios de prueba de que esta parte intenta valerse en la presente causa de nulidad, sirviéndose admitir los mismos dada su pertinencia y acordando lo necesario para su práctica.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Fdo.:
+
+========================================================================

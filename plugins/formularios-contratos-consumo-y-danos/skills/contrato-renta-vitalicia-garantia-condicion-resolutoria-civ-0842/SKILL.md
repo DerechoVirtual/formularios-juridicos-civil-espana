@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -58,8 +58,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -95,15 +93,53 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+REUNIDOS
+
+DE UNA PARTE,
+
+D [NOMBRE Y APELLIDOS], mayor de edad, [ESTADO CIVIL] (estado civil), con domicilio en [LOCALIDAD], calle [CALLE], número [NÚMERO], provisto de N.I.F. número [NÚMERO]
+
+Y DE OTRA PARTE
+
+D [NOMBRE Y APELLIDOS], mayor de edad, [ESTADO CIVIL] (estado civil), con domicilio en [LOCALIDAD], calle [CALLE], número [NÚMERO], provisto de N.I.F. número [NÚMERO]
+
+Ambas partes recíprocamente se reconocen la suficiente capacidad legal y legitimación, para llevar a efecto el presente contrato aleatorio de renta vitalicia, acreditando su identidad por los documentos indicados, actuando en nombre y representación propia, y que de común acuerdo se regirán por todo lo establecido libre y voluntariamente en el contenido de las siguientes:
+
+ESTIPULACIONES
+
+PRIMERA.- Que D [NOMBRE Y APELLIDOS], quien de ahora en adelante se le denominará cedente, es propietario de la finca sita en el término municipal de [LOCALIDAD] provincia de [PROVINCIA], con una superficie de [Nº] metros cuadrados, lindando a la izquierda con la finca propiedad de D [NOMBRE Y APELLIDOS], a la derecha con la finca propiedad de D [NOMBRE Y APELLIDOS] constando inscrita a su nombre y libre de cargas, gravámenes, arrendatarios y ocupantes, en el Registro de la Propiedad de [LOCALIDAD], Libro [LIBRO], Tomo [TOMO], Sección [SECCIÓN] y Folio [FOLIO], en virtud de título de [TÍTULO DE ADQUISICIÓN] formalizado en escritura autorizada por el Notario de [LOCALIDAD], D [NOMBRE Y APELLIDOS] en fecha [FECHA] y con número de protocolo [Nº DE PROTOCOLO], como así se manifiesta al momento de la firma del presente mediante la aportación de tal escritura por el cedente.
+
+SEGUNDA.- Que D [NOMBRE Y APELLIDOS], quien de ahora en adelante se le denominará cesionario, está interesado en obtener el pleno dominio de la finca descrita en la estipulación primera.
+
+TERCERA.- Que el cedente D [NOMBRE Y APELLIDOS], desea transmitir tal inmueble con la condición de que durante todo el tiempo en que permanezca vivo perciba del cesionario la cantidad mensual de [IMPORTE] euros ([IMPORTE EN CIFRA] €) en concepto de pensión o rédito, que deberá abonar en la cuenta bancaria del transmitente nº [NÚMERO] entre los días [FECHAS] y [DÍA] de cada mes.
+
+CUARTA.- Como se ha indicado anteriormente, la obligación antedicha subsistirá únicamente hasta el fallecimiento del transmitente, sin que pueda transmitirse a favor de los herederos del causante. La renta correspondiente al mes en que fallezca D. [NOMBRE Y APELLIDOS], se hará efectiva en proporción a los días que hubiese vivido.
+
+QUINTA.- Condición resolutoria: En este momento, se hace constar expresamente por los contratantes que la falta de pago de cualquiera de las pensiones vencidas en el término pactado autoriza al perceptor de la renta vitalicia a la resolución de pleno derecho del presente contrato, con la consiguiente recuperación de la finca transmitida y sin que pueda reclamar el cesionario la devolución de las pensiones ya satisfechas.
+
+SEXTA.- Los gastos de elevación a escritura pública del presente contrato, así como su inscripción registral e impuestos correspondientes que gravan la finca a partir de la fecha del presente contrato, correrán exclusivamente a cargo del cesionario de la finca.
+
+SÉPTIMA.- Ambas partes, con renuncia de su fuero propio si lo tuvieren, se someten expresamente a los Tribunales de [LOCALIDAD] para la interpretación o cualquier cuestión litigiosa que derive de este contrato.
+
+Y para que conste, firman por duplicado y a un solo efecto en el lugar y fecha ‘ut supra’.
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 85.1 LOPJ
 - art. 172.2 Código Civil
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. y Dña. [NOMBRE Y APELLIDOS], mayores de edad, casados, con DNI [DNI/NIE] y [DNI/NIE], respectivamente, y domicilio a efectos de notificaciones en la calle [CALLE], sita en [LOCALIDAD], interés de nuestro sobrino [NOMBRE DEL MENOR], ante este Tribunal comparecemos y, como mejor proceda en Derecho
+
+DIGO
+
+Que mediante el presente escrito venimos a solicitar la entrega en acogimiento del familiar referido, petición que basamos en los siguientes
+
+HECHOS
+
+Los solicitantes son familiares, tíos, del menor [NOMBRE DEL MENOR], nacido el día [FECHA] en [LOCALIDAD], fruto del matrimonio entre de D. y Dña. [NOMBRE Y APELLIDOS], hermana del solicitante Dña. A tal efecto se aporta certificación literal de nacimiento como documento núm. 1 y certificado de nacimiento de Dña. [NOMBRE Y APELLIDOS], que acredita su parentesco con la madre del menor, como documento núm. 2.
+
+El año [AÑO] Dña. [NOMBRE Y APELLIDOS], falleció víctima de una enfermedad degenerativa, quedando el referido bajo la patria potestad y la guarda y custodia de su padre con quien convive en el domicilio sito en [LOCALIDAD] Se aporta el certificado de defunción como documento núm. 3.
+
+Desde dicho fallecimiento D. ha caído en una depresión y actualmente muestra signos de abandono y alcoholismo, que le ha llevado en los últimos tres meses a perder su empleo, ausentarse por días de su domicilio incumpliendo gravemente los deberes de atención y cuidado debido a su hijo, poniéndolo en situaciones de riesgo para su salud, educación y bienestar. Se aporta, sin perjuicio de los testigos que pueden acreditar tal situación, certificado emitido por la directora del Colegio [NOMBRE DEL CENTRO] donde el menor se encuentra escolarizado, acreditando las numerosas faltas de asistencia y de aseo e higiene, como documento núm. 4.
+
+La gravedad de la situación expuesta ha determinado la presentación de este escrito con el fin de que pueda, de acuerdo con lo dispuesto en la norma, decretarse el acogimiento familiar del citado menor en casa de los solicitantes, que solicitan en tal sentido les sea concedida la guarda y custodia temporal sobre él hasta que su padre vuelva a encontrar la estabilidad emocional, personal y económica necesaria para atender el bienestar del menor y afrontar con responsabilidad sus obligaciones paterno-filiales.
+
+A los anteriores hechos son de aplicación los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+COMPETENCIA JURISDICCIONAL: La competencia objetiva: Es de aplicación el párrafo 3º del artículo 117 de la Constitución española, que asigna exclusivamente a los Tribunales determinados por las Leyes, el ejercicio de la potestad jurisdiccional en todo tipo de procesos, juzgando y haciendo ejecutar lo juzgado. Para la competencia territorial con carácter general hay que atenerse a lo dispuesto en el artículo 756 de la Ley de Enjuiciamiento Civil, en relación con lo dispuesto en el art. 85.1º LOPJ, que hace referencia al Tribunal de Instancia del lugar en que resida la persona a la que se refiera la declaración que se solicite.
+
+LEGITIMACIÓN DE LAS PARTES: Los solicitantes se encuentran en pleno ejercicio de sus derechos civiles y no están incursos en causa de incapacitación alguna, por lo que tienen la capacidad procesal establecida en los arts. 6.1 y 7.1 de la Ley de Enjuiciamiento Civil, que les impida cuanto solicitan. Además se encuentran legitimados activamente por ostentar una situación de parentesco (tíos) con la persona en cuyo interés legítimo digno de protección actúan, de conformidad con lo dispuesto en el segundo apartado del art. 172.2 del Código Civil.
+
+DERECHO SUSTANTIVO: De acuerdo con lo establecido en el art. 172.2 del Código Civil "se considera como situación de desamparo la que se produce de hecho a causa del incumplimiento, o del imposible o inadecuado ejercicio de los deberes de protección establecidos por las leyes para la guarda de los menores, cuando éstos queden privados de la necesaria asistencia moral o material". Asimismo el apartado cuarto de ese mismo precepto que dispone "se buscará siempre el interés del menor y se procurará, cuando no sea contrario a ese interés, su reinserción en la propia familia y que la guarda de los hermanos se confíe a una misma institución o persona".
+
+PROCEDIMIENTO: El procedimiento aplicable seguirá lo dispuesto en los arts. 748 y ss. de la Ley de Enjuiciamiento Civil.
+
+Por todo lo cual,
+
+SUPLICO AL TRIBUNAL: Que tenga por presentado este escrito de demanda así como los documentos que lo acompañan y copias de todo ello y se sirva admitirlos, teniéndonos por parte en la representación acreditada, y por manifestada situación de desamparo del menor referido, y previos los trámites legales oportunos, se dicte auto acordando la entrega en acogimiento familiar del mismo, y una vez firme disponga el desglose de los documentos presentados.
+
+Es justicia que pido en [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+El solicitante,
+
+Fdo. D. Fdo. Dña. [NOMBRE Y APELLIDOS]
+
+========================================================================

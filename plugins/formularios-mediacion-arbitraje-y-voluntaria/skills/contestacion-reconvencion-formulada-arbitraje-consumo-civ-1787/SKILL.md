@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 40.2 Real Decreto 713/2024
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,49 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Procedimiento arbitral nº [Nº DE EXPEDIENTE]
+
+A LA JUNTA ARBITRAL DE CONSUMO DE [LOCALIDAD O ÁMBITO TERRITORIAL]
+
+Don/Doña [NOMBRE Y APELLIDOS DEL CONSUMIDOR], con DNI [DNI/NIE], con domicilio en [DOMICILIO] (correo electrónico [CORREO ELECTRÓNICO]), el cual se designa a efectos de notificaciones, en nombre propio como consumidor reclamante,
+
+EXPONE:
+
+Que en fecha [FECHA] se me ha dado traslado de la reconvención formulada por la empresa reclamada [DENOMINACIÓN SOCIAL] en solicitud de la cantidad de [IMPORTE] euros, por lo que, en el plazo establecido en el artículo 40.2 del Real Decreto 713/2024, de 23 de julio, por el que se aprueba el Reglamento que regula el Sistema Arbitral de Consumo, mediante este escrito contesto a la reconvención, fundándome en las siguientes
+
+ALEGACIONES:
+
+PRIMERA.– Se niegan los hechos y fundamentos alegados por la empresa reclamada en su reconvención.
+
+SEGUNDA.– La empresa reclamada pretende el abono de los importes del consumo en los meses siguientes a la fecha de la reclamación, cuando lo cierto es que cursé oportunamente la baja en el servicio y me di de alta en la empresa [DENOMINACIÓN SOCIAL DE LA NUEVA EMPRESA] precisamente por los graves incumplimientos y abusos que determinaron la presentación de la reclamación objeto de este procedimiento.
+
+A efectos acreditativos, acompaño como DOCUMENTOS Nº [Nº] copia del contrato suscrito con la empresa [DENOMINACIÓN SOCIAL DE LA NUEVA EMPRESA] en relación con el mismo servicio, así como copia de los recibos abonados, los cuales se corresponden con el periodo que pretende percibir indebidamente la empresa reclamada.
+
+TERCERA.– En cuanto a la baja en el servicio, acompaño como DOCUMENTO Nº [Nº] copia del correo electrónico enviado al servicio de atención al cliente de la empresa reclamada, donde se pone de manifiesto que cursé oportunamente la baja en el servicio.
+
+CUARTA.– Hay que advertir asimismo que los recibos reclamados solo hacen referencia a consumo mínimo, es decir, que no hay consumo real, lo que abunda en que se produjo la baja en el servicio y, por tanto, no existe deuda alguna con la empresa reclamada.
+
+En virtud de lo expuesto, es de justicia y por ello
+
+SOLICITA A LA JUNTA ARBITRAL: que tenga por formulada esta contestación a la reconvención y, tras los trámites legales y de conformidad con lo expuesto en este escrito, la desestime íntegramente en el laudo que ponga fin a este procedimiento.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firmado: [NOMBRE Y APELLIDOS DEL CONSUMIDOR]

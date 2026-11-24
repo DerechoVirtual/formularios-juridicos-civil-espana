@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -42,8 +42,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -79,15 +77,63 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Escritura de capitulaciones matrimoniales otorgada después de la celebración del matrimonio (bajo el régimen de Comunicación Foral de Vizcaya), con modificación del régimen económico matrimonial, en la que se concretan los derechos y obligaciones de cada uno de los cónyuges.
+
+En [LUGAR], a [FECHA].
+
+Ante mí, D./Dña. [NOMBRE Y APELLIDOS], Notario del Ilustre Colegio de [COLEGIO]
+
+COMPARECEN
+
+Los cónyuges [NOMBRE Y APELLIDOS], vecinos de [LOCALIDAD], con domicilio en [LOCALIDAD], y provistos de sus respectivos DNI./NIF. números [Nº] y [Nº] respectivamente.
+
+A quienes juzgo capaces y que se me identifican con sus respectivos documentos nacionales con igual numeración a sus NIF. señalados.
+
+MANIFIESTAN
+
+Que contrajeron matrimonio bajo el régimen de Comunicación Foral en [LOCALIDAD] (Bizkaia), inscrito en el Registro Civil de [LOCALIDAD], Tomo [TOMO], Página
+
+DISPONEN
+
+Que modifican su régimen económico matrimonial que, como se ha indicado, hasta ahora ha sido el de Comunicación Foral, en el que cesan, y en lo sucesivo se regirán por el convencional de absoluta separación de bienes, que desde hoy establecen.
+
+CONSECUENTEMENTE
+
+A.- Son bienes propios de cada cónyuge, además de los que se le adjudiquen en la liquidación de la sociedad conyugal que practicarán:
+
+1) Los que hubieran adquirido a título lucrativo durante el matrimonio; y
+2) Los que por cualquier título hubieren adquirido en estado de solteros y los que adquieran a partir de hoy.
+
+B.- Cada cónyuge hará suyo el dominio y la administración de los bienes que le pertenezcan y de todos sus frutos.
+
+C.- Los cónyuges quedan obligados a contribuir proporcionalmente, según sus ingresos, a las cargas del matrimonio y de la familia.
+
+D.- Los comparecientes solicitan del Registro Civil correspondiente la inscripción en los Libros del mismo de las capitulaciones pactadas en esta escritura.
+
+Leo esta escritura a los comparecientes que renuncian a leerla por sí mismos y la otorgan y firman. DOY FE.- Están las firmas de los comparecientes.
+
+SING:
+Firma de cónyuge	Firma de cónyuge
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+Notario
+
+========================================================================

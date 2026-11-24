@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -54,8 +54,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D./Dª [NOMBRE Y APELLIDOS DEL PROCURADOR/A], Procurador/a de los Tribunales, en nombre y representación de D./Dª [NOMBRE Y APELLIDOS DEL TERCERO], mayor de edad, de profesión [PROFESIÓN], con domicilio en [DOMICILIO], y DNI/NIE [DNI/NIE], cuya representación acreditaré mediante comparecencia apud acta cuando sea requerido para ello [ELEGIR: (sin más) / "representación que acredito mediante copia de poder especial para pleitos que ruego me sea devuelta una vez testimoniada en autos por necesitarla para otros usos"], comparezco en los autos de procedimiento de ejecución número [Nº DE PROCEDIMIENTO], seguidos en este Tribunal a instancia de D./Dª [NOMBRE Y APELLIDOS DEL EJECUTANTE], en calidad de parte ejecutante, contra D./Dª [NOMBRE Y APELLIDOS DEL EJECUTADO], en calidad de parte ejecutada, con la asistencia del Letrado D./Dª [NOMBRE Y APELLIDOS DEL LETRADO], del Ilustre Colegio de Abogados de [COLEGIO DE ABOGADOS], y DIGO:
+
+Que por medio del presente escrito y en la representación que ostento, formulo ESCRITO DE OPOSICIÓN A QUE SE TRABE EMBARGO del siguiente inmueble: [IDENTIFICACIÓN DEL BIEN: descripción y, en su caso, datos registrales], en el procedimiento de ejecución antes citado, con base en los siguientes
+
+HECHOS
+
+PRIMERO.- Ante este Tribunal se siguen autos de procedimiento de ejecución núm. [Nº DE PROCEDIMIENTO] contra D./Dª [NOMBRE Y APELLIDOS DEL EJECUTADO].
+
+SEGUNDO.- Mediante diligencia de ordenación de fecha [DÍA] de [MES] de [AÑO], el Letrado de la Administración de Justicia, en aplicación de lo dispuesto en el art. 593.2 de la Ley de Enjuiciamiento Civil, ordenó que se hiciera saber a mi representado/a la inminencia de la traba, en el referido procedimiento, del siguiente inmueble: [IDENTIFICACIÓN DEL BIEN], por tener motivos fundados para sospechar que podría pertenecerle a él/ella y no al ejecutado, como en efecto así es.
+
+TERCERO.- Aunque mi representado/a no ha procedido a solicitar la inscripción de su titularidad sobre el referido bien en el Registro de la Propiedad, puede acreditar su propiedad mediante documento privado de compraventa de fecha [DÍA] de [MES] de [AÑO], copia compulsada del cual se acompaña como DOCUMENTO Nº 1. Puede, asimismo, acreditar que el citado bien constituye su vivienda habitual, según resulta del certificado de empadronamiento que igualmente se acompaña como DOCUMENTO Nº 2.
+
+CUARTO.- Por ello, dentro del plazo concedido en la diligencia de ordenación antes citada, solicitamos que no se trabe el embargo del bien de referencia.
+
+Resultan aplicables a los anteriores hechos los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+ÚNICO.- El art. 593 de la Ley de Enjuiciamiento Civil, que dispone:
+
+"Pertenencia al ejecutado. Prohibición de alzamiento de oficio del embargo.
+
+1. Para juzgar sobre la pertenencia al ejecutado de los bienes que se proponga embargar, el Letrado de la Administración de Justicia, sin necesidad de investigaciones ni otras actuaciones, se basará en indicios y signos externos de los que razonablemente pueda deducir aquélla.
+
+2. Cuando por percepción directa o por manifestaciones del ejecutado o de otras personas, el Letrado de la Administración de Justicia tuviera motivos racionales para entender que los bienes que se propone trabar pueden pertenecer a un tercero, ordenará mediante diligencia de ordenación que se le haga saber la inminencia de la traba. Si, en el plazo de cinco días, el tercero no compareciere o no diere razones, el Letrado de la Administración de Justicia dictará decreto mandando trabar los bienes, a no ser que las partes, dentro del mismo plazo concedido al tercero, hayan manifestado su conformidad en que no se realice el embargo. Si el tercero se opusiere razonadamente al embargo aportando, en su caso, los documentos que justifiquen su derecho, el Letrado de la Administración de Justicia, previo traslado a las partes por plazo común de cinco días, remitirá los autos al Tribunal para que resuelva lo que proceda.
+
+3. Tratándose de bienes cuyo dominio sea susceptible de inscripción registral, se ordenará, en todo caso, su embargo a no ser que el tercero acredite ser titular registral mediante la correspondiente certificación del Registrador, quedando a salvo el derecho de los eventuales titulares no inscritos, que podrá ejercitarse contra quien y como corresponda.
+
+No obstante lo dispuesto en el párrafo anterior, cuando el bien de cuyo embargo se trate sea la vivienda familiar del tercero y éste presentare al Tribunal el documento privado que justifique su adquisición, el Letrado de la Administración de Justicia dará traslado a las partes y, si éstas, en el plazo de cinco días, manifestaren su conformidad en que no se realice el embargo, el Letrado de la Administración de Justicia se abstendrá de acordarlo."
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL: Que, teniendo por presentado este escrito con los documentos que lo acompañan y copia de todo ello, lo admita y dé traslado a las partes en el procedimiento de ejecución núm. [Nº DE PROCEDIMIENTO] que se sigue ante este Tribunal, emplazándolas el Letrado de la Administración de Justicia para que, en un plazo de cinco días, manifiesten si están conformes con que no se trabe el embargo del bien [IDENTIFICACIÓN DEL BIEN], por corresponder su propiedad al abajo firmante y, además, constituir su vivienda habitual, absteniéndose de acordar el embargo si, en el citado plazo, manifiestan su conformidad a ello; y de no ser manifestada tal conformidad, remita el Letrado de la Administración de Justicia los autos al Tribunal para que resuelva lo que proceda.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma y número de colegiado del Letrado Firma del Procurador

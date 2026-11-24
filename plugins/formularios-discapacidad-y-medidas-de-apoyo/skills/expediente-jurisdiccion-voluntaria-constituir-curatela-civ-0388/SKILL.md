@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -61,8 +61,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 211 Código Civil
 - art. 222 Código Civil
 - art. 43 Ley 15/2015
-
----
 
 ## Instrucciones para Claude
 
@@ -99,15 +97,74 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+[NOMBRE Y APELLIDOS], [ELEGIR: actuando en su propio nombre y representación / actuando por medio de procurador], menor de edad emancipado por resolución de fecha [FECHA], y bajo la dirección letrada de [NOMBRE Y APELLIDOS DEL LETRADO], al amparo de lo dispuesto en el artículo 223-5 del Código Civil de Cataluña, ante la Sección Civil del Tribunal de Instancia de [SEDE] que por turno de reparto corresponda, comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que mediante el presente escrito promuevo expediente de jurisdicción voluntaria para el NOMBRAMIENTO DE CURADOR que complemente mi capacidad en [ASUNTO PARA EL QUE SE SOLICITA EL NOMBRAMIENTO: por ejemplo, la venta de la vivienda sita en [DOMICILIO DEL INMUEBLE], heredada de mis padres], en base a los siguientes
+
+HECHOS
+
+PRIMERO.– Que el solicitante tiene [EDAD] años de edad, estando en situación de emancipación otorgada por resolución judicial de fecha [FECHA], habiendo fallecido sus padres en fecha [FECHA]. Se acompañan como DOCUMENTOS Nº [Nº] testimonio de la resolución judicial y certificados de defunción.
+
+SEGUNDO.– Como consecuencia del fallecimiento de sus padres y a fin de [FINALIDAD: por ejemplo, continuar con sus estudios], el solicitante se ve en la obligación de [ACTO PARA EL QUE SE REQUIERE EL COMPLEMENTO DE CAPACIDAD: por ejemplo, enajenar la vivienda sita en [DOMICILIO DEL INMUEBLE], heredada de sus padres], acto que requiere el complemento de capacidad a que se refiere el artículo 211-12 del Código Civil de Cataluña, por lo que es necesario solicitar la constitución de la curatela y el nombramiento de curador, tal como establece el artículo 223-5 del mismo cuerpo legal, por ser precisa la intervención de curador en dicho acto.
+
+TERCERO.– En relación con el nombramiento, y no habiendo realizado los padres del solicitante ningún acto de delación voluntaria, respecto a lo establecido en el artículo 222-10 del Código Civil de Cataluña el solicitante hace constar que [DESCRIPCIÓN DE LA SITUACIÓN FAMILIAR: por ejemplo, es hijo único, han fallecido sus padres y abuelos, y tiene como familiares más próximos a [PARENTESCO Y NOMBRE DE LOS FAMILIARES]], manteniendo una especial relación afectiva con [NOMBRE Y APELLIDOS DE LA PERSONA PROPUESTA COMO CURADOR], con quien actualmente convive, por lo que es indudable que defenderá los intereses del solicitante como si fueran propios.
+
+[Nota de ayuda: en el asunto se expresará el acto concreto para el que se necesita el curador; los documentos que se acompañan se relacionarán por su número.]
+
+FUNDAMENTOS DE DERECHO
+
+Competencia
+
+Son competentes los Tribunales de Instancia de esta ciudad, por ser el del domicilio del menor, conforme a lo dispuesto en el artículo 43 de la Ley 15/2015, de 2 de julio, de la Jurisdicción Voluntaria.
+
+Procedimiento
+
+Debe seguirse el procedimiento de jurisdicción voluntaria regulado en los artículos 44 y siguientes de la Ley de la Jurisdicción Voluntaria.
+
+Legitimación
+
+Esta parte está legitimada conforme a lo dispuesto en el artículo 223-5 del Código Civil de Cataluña.
+
+Fundamentos de fondo
+
+El artículo 223-5 del Código Civil de Cataluña establece que la curatela de los menores emancipados solo debe constituirse, a instancia de estos, cuando sea precisa la intervención del curador, siendo de aplicación el régimen jurídico de la tutela en lo que no se oponga al régimen de la curatela, debiendo procederse al nombramiento de curador conforme al artículo 222-10, de acuerdo con la voluntad, preferencias y deseos del solicitante, quien solicita que sea nombrado [NOMBRE Y APELLIDOS DE LA PERSONA PROPUESTA], [PARENTESCO O RELACIÓN CON EL SOLICITANTE].
+
+Por lo expuesto,
+
+AL TRIBUNAL SUPLICO: Que tenga por presentado este escrito con los documentos que se acompañan, lo admita, y tenga por promovido expediente de jurisdicción voluntaria de constitución de curatela y nombramiento de curador del solicitante, y practicadas las diligencias oportunas, incluida la información testifical que se interesa en el otrosí y con intervención del Ministerio Fiscal, y previos los demás trámites con arreglo a Derecho, dicte resolución en la que se nombre curador a [NOMBRE Y APELLIDOS DEL CURADOR] para que complemente la capacidad del solicitante en [ACTO: por ejemplo, la venta de la vivienda sita en [DOMICILIO DEL INMUEBLE], de su propiedad].
+
+OTROSÍ PRIMERO DIGO: que a efectos de comunicaciones designo el domicilio del letrado firmante de este escrito, sito en [DOMICILIO PROFESIONAL], así como su dirección de correo electrónico [CORREO ELECTRÓNICO] y su número de teléfono [TELÉFONO].
+
+SUPLICO AL TRIBUNAL: que tenga por hecha la citada designación.
+
+OTROSÍ SEGUNDO DIGO: que, para acreditar la certeza de los hechos relatados, solicito que sean oídos los familiares del solicitante [NOMBRE Y APELLIDOS], con domicilio en [DOMICILIO], y [NOMBRE Y APELLIDOS], con domicilio en [DOMICILIO], y asimismo ofrezco los siguientes testigos:
+
+– [NOMBRE Y APELLIDOS DEL TESTIGO], con domicilio en [DOMICILIO].
+
+[OPCIONAL — incluir si procede]
+– [NOMBRE Y APELLIDOS DEL TESTIGO], con domicilio en [DOMICILIO].
+
+SUPLICO AL TRIBUNAL: que tenga por propuestos a los testigos indicados, admitiendo la testifical ofrecida, comprometiéndose esta parte a que comparezcan en el día y hora que se señale [ELEGIR: / o, en su caso, solicitando que sean citados judicialmente para la práctica de la diligencia].
+
+Es justicia que insto en [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma del solicitante y del letrado

@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -49,8 +49,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 274 Código Civil
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,69 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO]
+
+Expediente de Jurisdicción Voluntaria: / [Nº DE PROCEDIMIENTO]
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D./D.ª [NOMBRE Y APELLIDOS], mayor de edad, con D.N.I. n.º [NÚMERO], y domicilio en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta., como tutor de D./Dª [NOMBRE Y APELLIDOS], ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
+
+Que por medio del presente escrito SOLICITO QUE SE FIJE RETRIBUCIÓN POR EL EJERCICIO DEL CARGO DE TUTOR/CURADOR, conforme a lo dispuesto en el artículo 274 del Código Civil y 48 de la Ley de la Jurisdicción Voluntaria, con base en los siguientes
+
+HECHOS
+
+PRIMERO.- Fui nombrado tutor de D./Dª [NOMBRE Y APELLIDOS], por este Tribunal, en procedimiento de jurisdicción voluntaria [Nº DE PROCEDIMIENTO] /, por resolución de fecha [DÍA] de [MES] de [AÑO] Tras la prestación de fianza a que se refiere el artículo 46 de la Ley de la Jurisdicción Voluntaria y demás trámites legales, acepté el cargo en acta de fecha [DÍA] de [MES] de [AÑO], tras lo cual se me dio posesión del cargo.
+
+SEGUNDO.- En la resolución por la que se efectuó mi nombramiento como tutor no se fijó retribución alguna.
+
+TERCERO.- La complejidad de la administración del patrimonio del tutelado requiere muchas horas de dedicación, que no puedo emplear en realizar otro trabajo remunerado. A continuación se describen las circunstancias de las que deriva la complejidad de la citada administración y la dedicación que la misma requiere
+
+CUARTO.- El patrimonio del tutelado y las rentas que produce son suficientes para que, a su cargo, se proceda a remunerar mi labor como tutor. A continuación se justifica tal alegación
+
+QUINTO.- Con base en las circunstancias antes expuestas considero adecuada una retribución de [IMPORTE] euros anuales (o con periodicidad mensual, trimestral, o semestral, o la que se considere conveniente; o del [Nº] por ciento del rendimiento líquido de los bienes del tutelado). Esta remuneración permitiría cubrir los gastos que me reporta el desempeño de la función de tutor, sin menoscabar la debida atención de los intereses de mi pupilo.
+
+Resultan aplicables a los anteriores hechos, los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- El art. 274 del Código civil establece que el tutor tiene derecho a una retribución siempre que el patrimonio del tutelado lo permita. Corresponde al Juez fijar su importe y el modo de percibirlo, para lo cual tendrá en cuenta el trabajo a realizar y el valor y la rentabilidad de los bienes, procurando en lo posible que la cuantía de la retribución no baje del 4 por 100 ni exceda del 20 por 100 del rendimiento líquido de los bienes.
+
+Por su parte, el art. 48 de la Ley de la Jurisdicción Voluntaria dispone: “1. Si se solicitare por el tutor o curador el establecimiento de una retribución y no estuviera fijada en la resolución que hubiera efectuado su nombramiento, el Juez la acordará siempre que el patrimonio del tutelado o asistido lo permita, fijará su importe y el modo de percibirla, atendiendo al trabajo a realizar y al valor y la rentabilidad de los bienes, después de oír al solicitante, al tutelado o asistido si tuviera suficiente madurez y, en todo caso, al menor si fuera mayor de 12 años, al Ministerio Fiscal y a cuantas personas considere oportuno. Tanto el Juez como las partes o el Ministerio Fiscal podrán proponer las diligencias, informes periciales y pruebas que estimen oportunas.
+
+El auto a que se refiere este artículo se ejecutará sin perjuicio del recurso de apelación, que no producirá efectos suspensivos.
+
+2. El mismo procedimiento se seguirá para modificar o extinguir dicha retribución”.
+
+SEGUNDO.- Iura novit curia y los demás que en Derecho procedan.
+
+En su virtud:
+
+SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito, con los documentos que se acompañan, y copia de todo ello, se sirva admitirlo y, estimando lo que en él se solicita, y previos los trámites legales oportunos, dicte resolución por la que fije a mi favor, en calidad de tutor de D./Dª [NOMBRE Y APELLIDOS] la retribución anual del [Nº] por ciento del rendimiento líquido de los bienes del tutelado (se procurará en lo posible que la cuantía de la retribución no baje del 4 por 100 ni exceda del 20 por 100 del rendimiento líquido de los bienes, por requerirlo así el art. 274 del Código civil), a satisfacer, por años vencidos, en el mes de [MES].
+
+OTROSÍ DIGO: Para acreditar los HECHOS de este escrito, se acompaña los siguientes DOCUMENTOS:
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Fdo.
+
+El tutor
+
+========================================================================

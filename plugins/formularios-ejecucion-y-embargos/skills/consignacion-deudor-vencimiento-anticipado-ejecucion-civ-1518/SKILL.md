@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 693.2 LEC
 - art. 693.3 LEC
 - art. 575.1 bis LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,45 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [LOCALIDAD]
+
+Don/Doña [NOMBRE Y APELLIDOS] Procurador/a de los Tribunales, actuando en nombre y representación de [NOMBRE DEL REPRESENTADO/A], según tengo debidamente acreditado del ejecutado don/doña [NOMBRE Y APELLIDOS] en los autos de procedimiento EJECUCIÓN HIPOTECARIA [Nº DE PROCEDIMIENTO], y bajo la dirección Letrada de don/doña, ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] comparezco y, como mejor proceda en derecho, DIGO:
+
+Que en la indicada representación y por medio del presente escrito vengo a comunicar CONSIGNACIÓN POR VENCIMIENTO ANTICIPADO DE DEUDAS A PLAZO POR VIVIENDA FAMILIAR, pasando a realizar las siguientes
+
+MANIFESTACIONES
+
+PRIMERA.- Que en virtud de auto de fecha [FECHA], notificado el siguiente día [FECHA], se ha despachado ejecución contra mi representado, deudor ejecutado, al amparo de lo dispuesto en el artículo 693.2 de la LEC, siendo el bien objeto de esta ejecución hipotecaria la vivienda familiar de mi representado.
+
+SEGUNDA.- Que de conformidad con lo establecido en el artículo 693.3 de la LEC si el bien hipotecado fuese vivienda familiar, el deudor podrá aun sin el consentimiento del acreedor, liberar el bien mediante la consignación de la cantidad exacta que por principal e intereses estuviese vencida en la fecha de presentación de la demanda, incrementada, en su caso, con los vencimientos del préstamo y los intereses de demora que se vayan produciendo a lo largo del procedimiento y resulten impagados en todo o en parte.
+
+TERCERA.- Que la suma total de todas las cantidades indicadas, y en consecuencia la cantidad total a consignar para liberar el bien, asciende al importe de [IMPORTE] euros, habiéndose procedido a la consignación mediante ingreso en la Cuenta General de Depósitos y Consignaciones de este Tribunal. Se acompaña justificante del citado ingreso como documento nº 1.
+
+CUARTA.- Que si bien el derecho del deudor de liberar el bien objeto de la ejecución si fuese vivienda familiar está condicionado en el sentido de que liberado un bien por primera vez, sólo podrá liberarse en segunda o ulteriores ocasiones siempre que al menos medien tres años entre la fecha de la liberación y la del requerimiento de pago judicial o extrajudicial efectuada por el acreedor, hacer constar que es la primera vez que se hace uso de esta posibilidad de liberar el bien.
+
+QUINTA.- Que, en relación a las costas, esta parte solicita que, conforme a lo prevenido en el último párrafo del artículo 693.3 de la LEC, se calculen sobre la cuantía de las cuotas atrasadas abonados, con el límite previsto en el artículo 575.1 bis de la LEC, comprometiéndose esta parte a satisfacerlas tan pronto se practique la tasación.
+
+Por lo que,
+
+AL TRIBUNAL SUPLICO, que tenga por presentado este escrito con los documentos acompañados y copia de todo ello, se sirva admitirlo, tenga por efectuada la consignación de las cantidades señaladas y, tras los trámites legales, se dicte decreto acordando la liberación del bien objeto de esta ejecución hipotecaria y declarando terminado el procedimiento.
+
+Es justicia que insto en la localidad de [LOCALIDAD], a [DÍA], de [MES] del año
+
+========================================================================

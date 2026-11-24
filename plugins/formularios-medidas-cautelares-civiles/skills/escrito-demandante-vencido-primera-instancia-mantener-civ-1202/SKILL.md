@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Medidas cautelares y diligencias preliminares) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Medidas cautelares y diligencias preliminares) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 458.2 LEC
 - art. 744.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,43 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, que actúa en nombre y representación del Colegio de Administradores de Fincas Urbanas de [LOCALIDAD], según tengo debidamente acreditado en autos de juicio ordinario n.º [NÚMERO]/[AÑO], seguidos a mi instancia contra [ACTO O RESOLUCIÓN], S.A., en la pieza separada de medidas cautelares comparezco y como mejor en Derecho proceda, DIGO:
+
+Con esta misma fecha se ha presentado ante el Tribunal escrito que interpone recurso de apelación contra la sentencia definitiva en los presentes autos de [TIPO DE PROCEDIMIENTO], dentro del plazo de veinte días hábiles computados desde el siguiente al de su notificación, siendo la resolución apelable y cumpliendo los requisitos del art. 458.2 LEC.
+
+Siendo la sentencia íntegramente desestimatoria, como quiera que en aseguramiento de la efectividad de la tutela judicial que se deba dispensar en firme a la pretensión actora, se acordó, con previa audiencia de la entidad [DENOMINACIÓN SOCIAL], S.A., medida cautelar, aunque la regla de principio es su alzamiento, conforme al art. 744.1 LEC, concurren circunstancias en el caso que justifican su mantenimiento.
+
+La demandada [DENOMINACIÓN SOCIAL], S.A. que ha vencido en la instancia, no se sostiene que por el transcurso del recurso de apelación vaya a ponerse voluntariamente en situación de hacer inefectiva la sentencia estimatoria que se pretende, sino que, al margen de un malévolo aprovechamiento del tiempo de la apelación, las resoluciones contractuales producidas normal y naturalmente por las comunidades de propietarios, caso de aplicarse la condición general que sigue en discusión, daría lugar a procesos individuales en que pudieran ser vencidas por [DENOMINACIÓN SOCIAL], S.A. y respecto de cuyas decisiones sería infructuosa la sentencia que en este proceso colectivo se dictara, de no mediar la medida cautelar y su publicidad registral.
+
+Se ofrece aumentar la caución que es presupuesto de ejecutividad de la medida cautelar en la cantidad que garantiza los intereses legales de un año, que se calculan sobre el montante ideal de indemnizaciones contractuales tasadas por denuncia unilateral frente a [ACTO O RESOLUCIÓN], S.A., tomando como base los contratos que conoce esta parte, cálculo que se acompaña documentado.
+
+Subsidiariamente, si se alzara la medida, con la misma caución ya prestada, se solicita la adopción de medida cautelar distinta, menos aflictiva, de anotación preventiva de la demanda en el Registro de Condiciones Generales.
+
+En su virtud,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito con su copia, en nombre y presentación del Colegio de Administradores de Fincas Urbanas de [LOCALIDAD], parte recurrente de apelación contra la sentencia definitiva en esta primera instancia, por mérito a lo solicitado, se declare el mantenimiento de la medida cautelar acordada en el proceso, incrementando la caución que tiene prestada esta parte por aval indefinido a primer requerimiento de compañía de garantía recíproca en cantidad de [IMPORTE] euros ([IMPORTE EN CIFRA] €) o la que prudencialmente fije S.S.ª, o subsidiariamente se adopte la medida distinta de anotación preventiva de la demanda en el Registro de Condiciones Generales, manteniéndose la caución prestada,
+
+Es justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a

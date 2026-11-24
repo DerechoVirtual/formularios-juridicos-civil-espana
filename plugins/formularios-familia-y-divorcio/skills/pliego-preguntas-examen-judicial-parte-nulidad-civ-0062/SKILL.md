@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -41,8 +41,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -78,15 +76,89 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Presentación por el Letrado o Procurador
+Rasgos característicos de la familia en que creció
+Aspectos de su familia que más han marcado su carácter y forma de ser
+Rasgos de la familia del otro contrayente e influencia en su personalidad
+Circunstancias en que se conocieron los cónyuges y decidieron iniciar su noviazgo
+Experiencias previas en relaciones de noviazgo
+Circunstancias de la propia personalidad y madurez en el momento de iniciarse el noviazgo
+Personalidad y forma de ser del otro contrayente en el momento de iniciarse el noviazgo
+Circunstancias del embarazo previo al noviazgo
+Cómo afectó a la pareja la noticia del embarazo
+Decisiones que adoptaron como consecuencia del embarazo
+Consejos que recibieron de su ámbito familiar
+Conocimiento mutuo previo al matrimonio
+Medios de vida al contraer matrimonio
+Vivienda
+Inicio de la crisis matrimonial
+Características de su convivencia matrimonial
+Antecedentes psiquiátricos
+Custodia de los hijos y cumplimiento de las obligaciones familiares
+Posibilidades de reconciliación
+Firmas
+
+PLIEGO DE POSICIONES
+
+Que presenta el letrado D./Dª [NOMBRE Y APELLIDOS], en representación y defensa de la parte actora/demandada dentro de la causa de nulidad matrimonial nº [NÚMERO], para el examen judicial del/de la esposa/esposo demandada/o D./Dª [NOMBRE Y APELLIDOS]
+
+1. ¿Qué rasgos resaltaría usted como más característicos de la familia en la que usted nació y creció? (situación económica, profesión de los padres, nivel cultural, número de hijos y orden de nacimiento, valores y prácticas religiosas, etc.)
+
+2. ¿Qué aspectos concretos de su familia, y de la vida familiar cree usted que la han marcado en mayor medida en su carácter, personalidad y forma de ser? ¿En qué modo considera que le han marcado y configurado su forma de ser y propia personalidad?
+
+3. ¿Cuáles son los rasgos que mejor describen y caracterizan a la familia en la que nació y creció el/la esposo/a? ¿Cuáles de ellos cree usted que han marcado más su forma de ser de? ¿Por qué cree usted que eso es así?
+
+4. ¿Cuándo (fecha concreta) y en qué circunstancias concretas se conocieron usted y el/la esposo/a? ¿En qué momento deciden iniciar la relación de noviazgo?
+
+5. ¿Qué experiencia tenía usted en mantener una verdadera relación de noviazgo al momento de iniciar su noviazgo con ella/él? ¿Qué experiencia tenía él/ella en este tipo de relaciones?
+
+6. ¿Cuáles piensa que son los rasgos de la personalidad que más le caracterizaban a usted en las fechas en que inició ese noviazgo? ¿Cómo se definiría usted? ¿Cómo piensa usted que era usted en cuanto a su madurez personal? ¿Cómo se encontraba usted en la relación familiar/laboral/social? ¿Cómo se encontraba anímicamente? ¿Cómo se encontraba a nivel afectivo?
+
+7. ¿Cuáles eran los rasgos más característicos de la personalidad y forma de ser del/ de la esposo/a en aquella época?
+
+8. ¿Cuándo conocieron ustedes su/el estado de embarazo? ¿Cuánto tiempo había transcurrido desde el inicio del noviazgo?
+
+9. ¿Cómo les afecto a ustedes la noticia?
+
+10. ¿Qué decisión adoptaron? ¿Qué le llevó a usted a tomar esa decisión?
+
+11. ¿Qué les aconsejaron las personas cercanas y familiares? ¿Quiénes? ¿Atendieron sus consejos? ¿Por qué?
+
+12. ¿Cree usted que el tiempo de noviazgo les había permitido un conocimiento mutuo suficiente que garantizase mínimamente la decisión de matrimoniar?
+
+13. ¿Tenían ustedes trabajo que les procurase ingresos suficientes para realizar el proyecto matrimonial?
+
+14. ¿Tenían ustedes vivienda en la que poder instalarse tras el matrimonio? ¿dónde se instalaron?
+
+15. ¿Qué primeros problemas comenzaron a apreciar ustedes en su relación? ¿En qué momento del matrimonio sopesaron ya proceder a la separación?
+
+16. ¿Cómo se desarrolló la convivencia matrimonial? ¿Cómo definiría usted su vida matrimonial? ¿Qué rasgos definirían mejor lo que fue ese tiempo?
+
+17. ¿Han recibido usted o su esposo/a tratamiento psicológico en algún momento de su vida? ¿Por qué? ¿En qué modo ello afectó a la vida matrimonial y a la convivencia? ¿Considera usted que esa circunstancia degradó la convivencia?
+
+18. ¿Quién mantiene la custodia o convivencia con los hijos comunes? ¿Por qué? ¿Cumple usted y su esposo/a sus obligaciones legales?
+
+19. ¿Cree usted que su vida matrimonial con Jesús puede sanarse?
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Fdo.:
+
+========================================================================

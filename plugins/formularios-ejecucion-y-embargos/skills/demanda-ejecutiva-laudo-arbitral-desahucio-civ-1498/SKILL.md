@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -60,8 +60,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 2 Ley 60/2003
 - art. 553.2 LEC
 - art. 7.2 Ley 10/2012
-
----
 
 ## Instrucciones para Claude
 
@@ -98,15 +96,101 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+Don/Doña [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre y representación de [NOMBRE Y APELLIDOS O DENOMINACIÓN SOCIAL DEL EJECUTANTE], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño a este escrito, comparezco ante este Tribunal y DIGO:
+
+Que por medio del presente formulo DEMANDA EJECUTIVA del laudo arbitral de fecha [FECHA], dictado por [INSTITUCIÓN ARBITRAL] en el procedimiento arbitral seguido entre mi representado y D./Dª [NOMBRE Y APELLIDOS DEL EJECUTADO], con domicilio en [LOCALIDAD], calle [DOMICILIO], con base en los siguientes
+
+HECHOS
+
+PRIMERO.– Que en fecha [FECHA], por la Corte Arbitral de la localidad de [LOCALIDAD] se dictó laudo arbitral en el procedimiento [Nº DE PROCEDIMIENTO ARBITRAL], seguido entre mi representado y el demandado D./Dª [NOMBRE Y APELLIDOS], cuya parte dispositiva es la siguiente: «Estimo la demanda arbitral deducida por D./Dª [NOMBRE Y APELLIDOS] contra D./Dª [NOMBRE Y APELLIDOS] y declaro la resolución del contrato de arrendamiento de fecha [FECHA] por incumplimiento del demandado al no haber satisfecho la renta arrendaticia, condenándole: 1) Al desalojo de la finca arrendada, dejando la finca a disposición del arrendador; 2) A que indemnice al actor en la cantidad de [IMPORTE] euros, más los intereses legales, en concepto de rentas impagadas; 3) Al pago de todas las costas y gastos de este procedimiento por importe de [IMPORTE] euros».
+
+El citado procedimiento arbitral fue seguido en virtud del convenio arbitral de fecha [FECHA], suscrito entre las partes, donde, en relación con el arrendamiento sobre la finca [DESCRIPCIÓN DE LA FINCA] sita en [LOCALIDAD], convenían someter a arbitraje todas las controversias que puedan surgir derivadas del incumplimiento del contrato de arrendamiento, encomendándose la administración del arbitraje y la designación de árbitros a la Corte Arbitral de [LOCALIDAD]. En ejecución del citado convenio se dictó el expresado laudo de fecha [FECHA], el cual fue notificado a las partes en fecha [FECHA].
+
+A los efectos establecidos en el artículo 550.1.1.º de la LEC se acompañan como documentos [Nº DE DOCUMENTOS] el laudo arbitral de fecha [FECHA] cuya ejecución se pretende, el convenio arbitral y las diligencias de notificación del laudo a las partes extendidas por la Secretaría de la Corte.
+
+SEGUNDO.– No habiendo desalojado el inmueble con carácter voluntario el demandado, en primer lugar se solicita que se ejecute el pronunciamiento de desalojo y, en méritos de lo dispuesto en los artículos 703 y 704 de la LEC, se proceda a requerir a D./Dª [NOMBRE Y APELLIDOS] para que, en el plazo de un mes computado a partir de la fecha de la notificación, desaloje la finca de autos haciendo entrega de las llaves y de la posesión a la parte demandante, bajo apercibimiento de que, transcurrido dicho plazo sin haberlo verificado, se procederá a su inmediato lanzamiento, a cuyo efecto se interesa que en el propio auto se señale día y hora al efecto.
+
+TERCERO.– Que, en segundo lugar, y a efectos de ejecución del pronunciamiento dinerario, se interesa el despacho de ejecución por importe de [IMPORTE] euros de principal y la cantidad de [IMPORTE] euros presupuestada para intereses y costas de la ejecución, designando como bienes a embargar del ejecutado [NOMBRE Y APELLIDOS], teniéndolos por suficientes para cubrir el importe de la ejecución, los siguientes: [DESCRIPCIÓN DE LOS BIENES].
+
+[OPCIONAL — incluir si procede: solo para el caso de que no se conozcan bienes del ejecutado que puedan ser objeto de embargo]
+
+CUARTO.– Que, desconociendo esta parte bienes que puedan ser objeto de embargo por parte de este Tribunal, al amparo de lo dispuesto en el artículo 590 de la LEC, esta parte solicita al Tribunal que proceda a dirigirse, a los efectos de determinación de la relación de bienes muebles e inmuebles, así como depósitos o imposiciones a plazo fijo que el ejecutado pueda tener a su nombre, a los siguientes organismos:
+
+1.– Gerencia Territorial del Catastro de [LOCALIDAD].
+
+2.– Delegación Territorial de la Agencia Tributaria de [LOCALIDAD].
+
+3.– Registro de la Propiedad nº [Nº] de [LOCALIDAD].
+
+4.– Jefatura Provincial de Tráfico de [LOCALIDAD].
+
+5.– [ENTIDAD DE CRÉDITO] de [LOCALIDAD].
+
+A los anteriores hechos le son de aplicación los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+COMPETENCIA
+
+Artículo 545.2 de la LEC. La competencia es de la Sección Civil del Tribunal de Instancia de [SEDE], ante el cual se formula esta demanda, por ser el correspondiente al lugar en que se ha dictado el laudo que se pretende ejecutar.
+
+PROCEDIMIENTO
+
+Artículo 548 de la LEC, procediéndose a despachar ejecución una vez transcurridos los veinte días establecidos en el precepto desde la notificación.
+
+Artículo 549 de la LEC, en relación con el contenido de la demanda ejecutiva.
+
+Artículo 550.1.1.º de la LEC, en relación con los documentos que deben acompañarse.
+
+Artículos 551 a 554 de la LEC, con relación al despacho de ejecución.
+
+LEGITIMACIÓN
+
+Artículo 517 de la LEC, en relación con los artículos 571 y siguientes para la ejecución dineraria y artículos 703 y 704 de la LEC en relación con la entrega del inmueble.
+
+PROCEDENCIA DEL ARBITRAJE Y CARÁCTER EJECUTIVO DEL LAUDO
+
+La cuestión sujeta a arbitraje se encuentra entre las contempladas en el artículo 2 de la Ley 60/2003, de 23 de diciembre, de Arbitraje, el cual establece que son susceptibles de arbitraje las controversias sobre materias de libre disposición conforme a derecho, ámbito en el que se incardinan los arrendamientos y, entre ellos, los de fincas urbanas, según igualmente admitió la Ley de Arrendamientos Urbanos 29/1994, y tienen declarado numerosas Audiencias Provinciales, lo cual comporta la exclusión de las normas procesales (salvo las que afectan al orden público del procedimiento) contenidas en la Ley de Enjuiciamiento Civil, que son sustituidas por las que libremente convengan las partes (artículo 25 de la Ley de Arbitraje), entre las que se encuentra la de fijar el lugar del arbitraje (artículo 26), tal como indica el AAP Madrid, Sección 10.ª, de 15 de diciembre de 2010, rec. 751/2010. Al ejecutarse el laudo en virtud de una cláusula arbitral suscrita e incorporada a un contrato de arrendamiento celebrado entre dos particulares, no es de aplicación la normativa de defensa de los consumidores. En consecuencia, dándose los requisitos establecidos en los artículos 517.2 y 549.1, párrafo 2.º, el título aportado, laudo arbitral, lleva aparejada ejecución, conforme exige el artículo 517.2, y se aportan los documentos acreditativos de la notificación del laudo a las partes, conforme exige el artículo 550, por lo que sí concurren los requisitos establecidos en dichos preceptos para despachar la ejecución interesada.
+
+COSTAS
+
+Artículo 539.2 de la LEC.
+
+Por todo ello,
+
+SUPLICO AL TRIBUNAL: que, teniendo por presentado este escrito con los documentos que lo acompañan y sus copias, y previo traslado al deudor según lo establecido en el artículo 553.2 de la LEC, se acuerde:
+
+1) Requerir a D./Dª [NOMBRE Y APELLIDOS] para que, en el plazo de un mes computado a partir de la fecha de la notificación, desaloje la finca de autos haciendo entrega de las llaves y de la posesión a la parte demandante, bajo apercibimiento de que, transcurrido dicho plazo sin haberlo verificado, se procederá a su inmediato lanzamiento, a cuyo efecto se interesa que en el propio auto se señale día y hora al efecto.
+
+2) Se proceda a despachar ejecución por la cantidad de [IMPORTE] euros en concepto de principal e intereses vencidos, más la cantidad de [IMPORTE] euros en concepto de intereses y costas devengados durante el proceso de ejecución, así como se proceda al embargo de los bienes de D./Dª [NOMBRE Y APELLIDOS] reseñados en el cuerpo de este escrito, en cantidad suficiente para cubrir las responsabilidades reclamadas, y con su producto se proceda a realizar completo pago por todos los conceptos reclamados al ejecutante.
+
+OTROSÍ DIGO.– [OPCIONAL — si ha lugar: solo si el ejecutante es persona jurídica no exenta de la tasa] Que estando la presente demanda sujeta al abono de la tasa por el ejercicio de la potestad jurisdiccional fijada por la Ley 10/2012, de 20 de noviembre, modificada por el Real Decreto-ley 3/2013 y la Ley 25/2015, de 28 de julio, y desarrollada por la Orden HAP/2662/2012, de 13 de diciembre, siendo mi representada persona jurídica no exenta de su pago, se acompaña a la presente demanda como documento nº [Nº] la correspondiente autoliquidación, con el ejemplar para la Administración de Justicia debidamente validado y en el que consta el pago de la cantidad de [IMPORTE] euros correspondiente a la cuota fija, [OPCIONAL — en su caso: con la bonificación del 10 % por la utilización de medios telemáticos], sin que se incluya la cuota variable prevista en el artículo 7.2 de la Ley 10/2012, al haber sido declarado inconstitucional y nulo por la STC 140/2016, de 21 de julio.
+
+En virtud de lo anterior,
+
+SUPLICO AL TRIBUNAL: que tenga por hecha la anterior manifestación a los efectos pertinentes y por acompañado el documento justificativo del abono de la tasa.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado: ______________________
+
+Firma Procurador: ______________________

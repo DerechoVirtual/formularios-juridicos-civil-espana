@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 23 LEC
 - art. 767 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales que actúa en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], con D.N.I. n.º [NÚMERO], como demuestro mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], habiendo sido demandado en el juicio de filiación seguido en ese Tribunal bajo número [NÚMERO]/[AÑO], a instancias de D./Dña. [NOMBRE Y APELLIDOS], en representación legal de su hijo menor [NOMBRE Y APELLIDOS], comparezco y como mejor en Derecho proceda, DIGO:
+
+Por Decreto/Auto de fecha [FECHA] de los corrientes se le dio traslado del escrito de demanda y emplazó a mi mandante para personación dentro del emplazamiento notificado, por lo que en tiempo y forma se viene a evacuar CONTESTACIÓN a la demanda, con base en los siguientes datos y razonamientos:
+
+HECHOS
+
+PRIMERO.- En lo que refiere la demanda, en sus ordinales segundo, tercero y cuarto, a las circunstancias objetivas del empleo y matrimonio de mi patrocinado, y a la calidad de hijo de la demandante, no cabe más que prestar conformidad, y también a que ha existido un rotundo rechazo, como se documenta, en asumir por esta parte la paternidad que se le pide (si bien, lejos de lo que se asevera en la demanda, las pretensiones económicas no han sido ni mucho menos desdeñadas en este asunto).
+
+SEGUNDO.- Por lo que toca a la convivencia entre mi patrocinado y D./Dña. [NOMBRE Y APELLIDOS], tanto por su origen, contenido y finalización, es menester discrepar en el siguiente sentido:
+
+Mi patrocinado, al acceder a su primer destino profesional, en [LOCALIDAD], por razón de la carencia de familia y la necesidad de ahorro del gasto, como es tan habitual entre funcionarios jóvenes desplazados de su lugar de origen o siquiera del destino que prevén más duradero, compartió arrendamiento de un piso céntrico y grande con otras personas, ciñéndose la comunidad al pago de la renta, siendo una de tales personas la demandante.
+
+Con el tiempo, fueron marchando los demás co-arrendatarios, y quedaron solos mi patrocinado y D./Dña. [NOMBRE Y APELLIDOS], habiéndose trabado entre ellos una íntima amistad, según se ha de reconocer, pero no hubo ninguna relación de las que naturalmente son hábiles para procrear un hijo en tiempo compatible con la concepción del hijo de la actora.
+
+El dato de que se abriera una cuenta mancomunda en entidad de crédito para el pago de la renta y consumos normales de la vivienda, o que se solicitara un préstamo de consuno para adquirir cierto mobiliario, nada tuvo qué ver con que entre D./Dña. [NOMBRE Y APELLIDOS] y mi patrocinado haya existido convivencia ‘more uxorio’.
+
+FUNDAMENTOS DE DERECHO
+
+I.- De conformidad con la competencia del Tribunal, procedimiento, capacidad y legitimaciones puramente procesales de los litigantes.
+
+Comparece esta parte cumpliendo los requisitos de postulación de representación técnica y asistencia letrada, de los arts. 23, 31 y 750 LEC.
+
+II.- En cuanto al fondo del asunto, puesto que la verdad material de la procreación no tiene valladar en el actual régimen para que se investigue por la Jurisdicción, se trata de que, sin que concurran datos indiciarios de que presumir la filiación reclamada, y por supuesto que la prueba del hecho negativo es imposible para esta parte, se intente la demostración del normal hecho constitutivo, por la comunidad de mensaje genético del cuerpo de mi mandante y del hijo de la actora, a través de la prueba pericial biológica de que habla el art. 767 LEC.
+
+No siendo factible encontrar tal comunidad genética, y estando fijada en grado elevadísimo la fiabilidad de dicha prueba científica, ningún obstáculo se interpondrá a su práctica.
+
+Por esta parte no puede más que negarse la procreación, y aseverar el alejamiento físico de quienes coincidieron durante un tiempo y mantuvieron amistad y confianza, ahora sorprendida, que se produjo sin el más mínimo problema, pero también sin la más mínima noticia de que D./Dña. [NOMBRE Y APELLIDOS], la demandante, pudiera haber quedado embarazada. Nunca ha habido, por otro lado, ulterior contacto, hasta la noticia de esta pretendida paternidad.
+
+En virtud de lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito, se digne admitirlo y tenerme por personado y parte en la representación que ostento, entendiéndose conmigo todas las sucesivas diligencias del proceso, y por contestada en términos de total oposición la demanda, y siguiéndose el proceso por todos sus trámites, se venga a dictar sentencia que desestime cuantos pedimentos se deducen en el escrito de demanda, absolviendo libremente a esta parte, con condena en costas a la actora.
+
+Es de Justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a
+
+========================================================================

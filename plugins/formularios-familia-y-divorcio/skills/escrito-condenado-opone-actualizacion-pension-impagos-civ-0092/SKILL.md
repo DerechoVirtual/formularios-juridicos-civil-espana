@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -49,8 +49,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,49 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
+
+Don/Doña [NOMBRE Y APELLIDOS] Procurador de los Tribunales en nombre y representación de don/doña [NOMBRE Y APELLIDOS] según tiene debidamente acreditado en los autos de [TIPO DE PROCEDIMIENTO] número [Nº DE PROCEDIMIENTO], ante el Tribunal comparece, y como mejor proceda en derecho DICE:
+
+Que habiéndose requerido a mi representado a fin de que en el término de diez días haga efectivo el importe de [IMPORTE] euros, por medio de este escrito muestro mi OPOSICIÓN A LA RECLAMACIÓN EFECTUADA, en base a lo siguiente:
+
+PRIMERO Que mi representado ha hecho efectivo el importe de [IMPORTE] para el hijo [NOMBRE Y APELLIDOS] y por importe de [IMPORTE] para el hijo [NOMBRE Y APELLIDOS] habidos en el matrimonio, por importe de [IMPORTE] euros, según se desprende de las facturas que como documentos números [Nº DE DOCUMENTO] se aportan con este escrito. Dichos pagos se efectuaron con motivo de [MOTIVO], ya que [MOTIVO], gastos que fueron imprescindibles por
+
+SEGUNDO Que además se entregaron en mano al hijo [NOMBRE Y APELLIDOS] con fecha [FECHA], las cantidades correspondientes a las mensualidades de [MES], según consta en los recibos que se aportan como documentos números
+
+TERCERO Por todo ello, si sumamos las cantidades que mi representado ha hecho efectivas y el pago de las compras, obtenemos la cantidad de [IMPORTE], por lo que actualmente, al día de la fecha únicamente adeuda la cantidad de [IMPORTE], que hará efectivas brevemente en la cuenta bancaria que tiene designada la actora.
+
+CUARTO Que por la contraparte se pretende la actualización de la pensión, conforme con los índices del IPC, pero los mismos no son de aplicación, ya que, con fecha [FECHA] se ha procedido por parte de la empresa [DENOMINACIÓN SOCIAL] a suprimir de la nómina los pluses de [CONCEPTO] por [MOTIVO], y por tanto, se ha hecho más gravoso el pago de la pensión por alimentos a mi mandante, habiendo sufrido una reducción en su sueldo de [IMPORTE] euros, por lo que debe reducirse el pago de la pensión por alimentos en el porcentaje que resulta de la reducción del sueldo. Se acompaña como documentos números [Nº DE DOCUMENTO], certificado expedido por la empresa [DENOMINACIÓN SOCIAL], en la que se hace constar los sueldos percibidos durante los años [AÑO] y
+
+Por todo ello,
+
+SUPLICO AL TRIBUNAL: que habiendo por presentado este escrito y sus copias, se sirva admitirlo, teniendo por contestado el requerimiento efectuado, dictando resolución por la que acuerde señalar la cantidad de [IMPORTE] euros como la adeudada por mi representado por el concepto de alimentos, hasta el día de la fecha. Y a rebajar la pensión fijada en el porcentaje del descenso del sueldo experimentado por mi mandante.
+
+Por ser todo ello Justicia que pido en [LOCALIDAD] a [DÍA] de [MES]
+
+Fdo. Letrado
+
+Coleg. núm. [Nº]
+
+Fdo. Procurador
+
+Coleg. núm. [Nº]
+
+========================================================================

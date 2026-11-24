@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 787.4 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -82,15 +80,61 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Acta
+
+En [LUGAR], a [FECHA].
+
+Ante S.Sª Iltma., constituido en audiencia pública, siendo la hora señalada y ante mí el LAJ, comparecen:
+
+El promotor [NOMBRE Y APELLIDOS], representado por el Procurador/a Sr./a [NOMBRE Y APELLIDOS] y asistido del Letrado/a [NOMBRE Y APELLIDOS]; el heredero [NOMBRE Y APELLIDOS], representado por el Procurador/a Sr./a. y asistido del Letrado/a [NOMBRE Y APELLIDOS], el cónyuge viudo Don/Dña. [NOMBRE Y APELLIDOS], representado por el Procurador/a Sr./a. y asistido del Letrado [NOMBRE Y APELLIDOS], y el Fiscal en representación del heredero ausente [NOMBRE Y APELLIDOS]. No concurre el heredero [NOMBRE Y APELLIDOS], a pesar de haber sido citado en legal forma, pero sí, en representación de sus acreedores, [NOMBRE Y APELLIDOS] / [NOMBRE Y APELLIDOS] / [NOMBRE Y APELLIDOS] / [NOMBRE Y APELLIDOS], que participaron en la Junta de designación de contador, personados y cuyo título se justificó, el Procurador/a D./Dña. [NOMBRE Y APELLIDOS], dirigidos por el Letrado/a [NOMBRE Y APELLIDOS], que pretenden que la partición no se efectúe en fraude o perjuicio de sus derechos.
+
+Dado comienzo el acto, y después de intervenir todos los comparecientes y dar explicaciones de su postura,
+
+Si NO se llega a acuerdo
+
+no se llegó a acuerdo alguno por insistir cada parte en sus respectivas tesis, así que procedió a oírse a las partes:
+
+Por [NOMBRE DE LA PARTE] se ratifican las alegaciones de su escrito de oposición.
+
+Por [NOMBRE DE LA PARTE] se manifiesta que no hay duda de la inclusión como bienes del relicto de las participaciones en la S.L., habida cuenta que la supuesta transmisión privada en momentos inmediatamente previos al óbito no demuestra más que un burdo intento de defraudación [OBJETO DE LA DEFRAUDACIÓN].
+
+Por la administradora Don/Dña. se alega en adhesión a Sr./a [NOMBRE Y APELLIDOS], sosteniendo que la exclusión de un bien del inventario judicialmente formado, tuvo que ser planteada en impugnación por el heredero asistente al acto, puesto que si la resolución firme de tal impugnación no perjudica a tercero -como decisión sobre lo deducido, y así sobre lo deducible-, de ninguna manera puede reputarse tercero el interesado citado y concurrente al acto del inventario.
+
+Por el Fiscal se dice no combatir que por el contador se canjee el criterio temporal de valoración, a la luz de las modernas orientaciones jurisprudenciales, debiéndose en el resto juzgar atinada la partición del contador.
+
+Seguidamente, se propusieron por [NOMBRE DE LA PARTE] los siguientes medios probatorios:
+
+Por Don/Dña. [NOMBRE Y APELLIDOS], se propuso [MEDIO DE PRUEBA]
+
+S.Sª Iltma. admitió la práctica de todas las pruebas propuestas, como pertinentes y útiles, practicándose por su orden conforme a la ley, siguiéndose el trámite como el del juicio verbal, que después de que se resumiera por cada una de las partes el resultado de la prueba, quedó visto para sentencia.
+
+Si se llegó a un acuerdo
+
+se alcanzó el siguiente acuerdo de todas las partes comparecidas sobre las cuestiones a que se refiere la oposición formalizada:
+
+Por S.Sª se resuelve, con arreglo al art. 787.4 LEC, ejecutar lo acordado y, a tal fin, ordena se entreguen las operaciones divisorias al contador para que haga las reformas convenidas, y las presente al Tribunal para su aprobación.
+
+El acto ha durado [Nº] horas y minutos [Nº DE MINUTOS], y se hace constar que ha quedado registrado en los siguientes soportes de grabación del sonido y de la imagen, de características, números
+
+Con lo cual, se da por terminada la presente, que firma S.Sª Iltma. conmigo, el LAJ, Doy fe.-
+
+Firma del Letrado/a de la Administración de Justicia
+
+========================================================================

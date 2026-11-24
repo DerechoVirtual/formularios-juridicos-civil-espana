@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 20 LCS
 - art. 394.2 LEC
 - art. 585 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,75 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña [NOMBRE Y APELLIDOS], Procuradora de los Tribunales, actuando en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], según tengo acreditado en los autos de EJECUCIÓN DE TÍTULO JUDICIAL n.º [Nº]/[AÑO], ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
+
+Que dentro del plazo de cinco días desde el traslado proveído del escrito de la parte ejecutada en que se oponía al Auto de despacho de ejecución, procedo a impugnar la liquidación de intereses formulada como oposición de contrario, sobre la base de los siguientes:
+
+HECHOS
+
+ÚNICO.-
+
+La Sentencia recaída en este procedimiento condena a la entidad demandada al pago solidario de una cantidad con carácter de principal, con más sus intereses del art. 20 de la Ley de Contrato de Seguro (LCS).
+
+No se niega por la parte ejecutada, sino que reconoce el impago de cantidad alguna tras haber transcurrido más de dos años desde ocurrido el siniestro, y que sólo se ha producido consignación en pago tras haber sido instada por esta parte la ejecución de la sentencia en fecha 1 de febrero de 2002.
+
+La ejecución se solicitó, conforme establece el art. 575 LEC, por el importe del principal más los intereses moratorios (del art. 20 LCS) vencidos a la fecha de presentación del escrito, y calculados hasta el 1 de febrero de 2002, a pesar de no existir aún en dicha fecha consignación alguna por parte de la compañía demandada, con lo cual el ‘dies ad quem’ del devengo todavía no estaba determinado, y desde luego no era dicha fecha, como pretende la ejecutada.
+
+La fecha de final del devengo tampoco es la del día en que ingresó la demandada en la cuenta del Tribunal la cantidad que ha sido entregada a esta parte, y supone intereses moratorios inferiores, sino la de notificación de la providencia que tiene por efectuada la consignación y lo comunica a esta parte, con orden de pago, a fin de manifestación sobre los intereses liquidados en definitiva. Así:
+
+Transcurridos desde 02/02/02 a 29/03/02= 60 días
+
+-52.600’12 (20%)/365= 28’82 €/día / 60 x 28’82 = 1.729’20 €
+
+Por consiguiente, el TOTAL debido asciende a 63.157'25 + 1.729’20 = 64.886’45 €.
+
+Si se descuenta de lo que ofrece la parte demandada acreedora, resulta una deuda pendiente de: 64.886’45- 64.310'05 = 576‘40 €
+
+A los anteriores hechos resultan de aplicación los siguientes:
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO. Se rechazan todos los que han sido citados en el escrito de oposición, en la medida en que sean distintos a los que fueron alegados en la demanda ejecutiva y a los que en este escrito se mencionan.
+
+Esta parte da por reproducidos los fundamentos jurídicos aducidos en la demanda rectora del proceso ejecutivo, con la finalidad de evitar tediosas reiteraciones.
+
+SEGUNDO. Sentencia de la Audiencia Provincial de [LOCALIDAD] de fecha [FECHA]
+
+TERCERO. En cuanto a las costas son de aplicación los arts. 394.2 y 561 LEC, debiendo imponerse al ejecutado de desestimarse su oposición.
+
+En virtud de los hechos y fundamentos jurídicos invocados y de cualesquiera otros que resultaren de empleo,
+
+AL TRIBUNAL SUPLICO
+
+que, teniendo por presentado este escrito de impugnación a la oposición ejecutiva, junto con justificación de haber trasladado la copia simple al Procurador de la ejecutada, se sirva admitirlo, teniendo por contestada la oposición a la ejecución despachada, y que se plantea de contrario como liquidación de intereses moratorios divergentes, y tras los trámites legales pertinentes, se dicte auto por el que, desestimando totalmente la oposición, se declare procedente que la ejecución siga adelante por la cantidad pendiente de pago de QUINIENTOS SETENTA Y SEIS euros y CUARENTA céntimos (576’40 €), todo ello con expresa imposición de costas al ejecutado.
+
+Es Justicia que solicito en [LUGAR], a [FECHA].
+
+OTROSÍ DIGO: Que con relación al traslado de la solicitud de levantamiento del embargo por Cía de Seguros [ASEGURADORA], S.A., la ejecución está despachada por cantidad de 82.057'25 €, que incluye lo presupuestado para intereses y costas del proceso de ejecución, de tal forma que si la parte ejecutada pretende tal levantamiento debió consignar dicha cantidad para oponerse, según resulta de los arts. 585 y 586 LEC, sin que resulte de aplicación, como queda dicho, el art. 558 respecto de la oposición por pluspetición.
+
+Habiéndose entregado la cantidad de 64.310'05 € a esta parte, se manifiesta la resistencia a que se produzca el levantamiento de embargo en la cifra que resta hasta aquella por la que fue despachada la ejecución (17.747'20 €), en tanto no se liquiden en firme intereses y costas.
+
+AL TRIBUNAL SUPLICO que, teniendo por causada la manifestación antecedente al efecto del traslado conferido por el Tribunal, se tenga a mis representados por contrarios al alzamiento de embargo, sólo autorizándose su reducción.
+
+Reitero Justicia en lugar y fecha que constan.
+
+Firma de Abogado/a	Firma de Procurador/a

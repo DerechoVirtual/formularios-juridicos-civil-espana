@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -38,8 +38,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 287 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -75,15 +73,43 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA
+
+D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A], según consta acreditado en el proceso ordinario número [NÚMERO] que se sigue ante ese Tribunal, comparezco y como proceda en Derecho DIGO:
+
+-Que al amparo de lo dispuesto en el art. 287 de la LEC, esta parte impugna la prueba de reproducción del vídeo realizado por el profesional de la investigación D. [NOMBRE Y APELLIDOS], admitida en el acto de la audiencia, por entender que ha sido obtenida con vulneración del derecho fundamental del art. 18 de la Constitución en la persona de mi defendido, en base a las siguientes alegaciones:
+
+PRIMERA.- La prueba admitida consiste en una filmación en soporte de vídeo de mi representado, en virtud de un seguimiento realizado por el referido profesional de la investigación D. [NOMBRE Y APELLIDOS], habiendo manifestado la parte demandada que esta prueba se realizó en los desplazamientos de mi representado desde su domicilio al centro hospitalario donde seguía su rehabilitación.
+
+No obstante, una vez visionada la cinta de vídeo, cuya copia nos fue facilitada en la audiencia previa, observamos que la mayor parte de la filmación se produce en el interior de la vivienda de mi representado, ya sea en las dependencias cerradas de la misma, a través de las ventanas, ya sea en el jardín particular que la rodea, y que se encuentra totalmente cerrado y vallado del exterior.
+
+Parece ser, según puede constatarse del visionado de la filmación, que esta persona, presunto profesional de la investigación, se encaramó en un árbol cercano a la vivienda para obtener estas imágenes.
+
+SEGUNDO.- La filmación así obtenida vulnera flagrantemente el derecho a la intimidad personal y a la inviolabilidad del domicilio, puesto que se han obtenido imágenes del interior del domicilio, así como del jardín que constituye su anexo, totalmente cerrado y separado de la calle, infiriendo de forma desproporcionada e inadmisible en lo que es ese círculo de intimidad de mi representado, vulnerando claramente su fundamental derecho a ese ámbito de privacidad e intimidad domiciliaria que el art. 18 de la Constitución preserva. Al respecto, la persona que hizo la filmación captó las imágenes utilizando medios dirigidos tendenciosamente a conculcar la intimidad de mi representado, pues tuvo que subir a un árbol o a un lugar elevado para poder grabar las imágenes, de manera que no puede decirse que fue una grabación casual o que las imágenes tomadas podrían haberlo sido por cualquier persona que paseara por la calle; se trata de una filmación realizada de forma continuada, durante varios días, y empleando medios ilícitos con la finalidad de invadir la intimidad personal y domiciliaria de representado.
+
+Por este motivo, y a reserva de las acciones penales que sin duda esta parte ejercitará, solicitamos la declaración de nulidad de dicha prueba y su expulsión del proceso.
+
+Por lo expuesto, AL TRIBUNAL SUPLICO que, con admisión de este escrito con justificante de traslado, tenga por impugnada la prueba de reproducción de la cinta de vídeo captada por el profesional D. [NOMBRE Y APELLIDOS], por ser vulneradora de derechos fundamentales conforme se ha expuesto, y, tras los trámites legales, declare su ilicitud, siendo excluida de este proceso.
+
+En L. y F.
+
+(Firma Procurador y Abogado)
+
+========================================================================

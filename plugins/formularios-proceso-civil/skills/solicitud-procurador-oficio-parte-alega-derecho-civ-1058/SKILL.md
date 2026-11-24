@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 32 LEC
 - art. 32.3 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -82,15 +80,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+Don/Doña [NOMBRE Y APELLIDOS], cuyas circunstancias constan en el juicio verbal n.º [Nº DE PROCEDIMIENTO]/[AÑO], incoado a mi instancia frente a Don/Doña [NOMBRE Y APELLIDOS], en los autos comparezco ante el Tribunal y como mejor en Derecho proceda, DIGO:
+
+Que con fecha [FECHA] se me ha notificado diligencia de ordenación por la que se traslada escrito de la contraparte relativo a postulación, frente a lo que deduzco las siguientes
+
+ALEGACIONES
+
+PRIMERA
+
+Esta parte, con la demanda, manifestó que concurriría a la vista asistida del Letrado que redactó y firmó aquélla, a pesar de no ser ello preceptivo, y con la admisión del juicio y citación para la vista al demandado se le informó de tal extremo, ante lo que ha manifestado su decisión de comparecer a la vista de este juicio representado mediante procurador de los tribunales y defendida por la abogada que designa.
+
+SEGUNDA
+
+Dispone el art. 32 LEC que en los juicios verbales de cuantía inferior a la que hace preceptiva la intervención de profesionales que llenen requisitos de postulación, si alguna de las partes manifestara su propósito de acudir a la vista con alguno de tales profesionales, abogado y/o procurador, la contraria también podrá valerse de ellos, pudiendo en su caso solicitar el reconocimiento del derecho a la asistencia jurídica gratuita, y entonces, el tribunal podrá suspender el proceso hasta que se produzca el reconocimiento o la denegación de dicho derecho o la designación provisional de abogado y/o procurador.
+
+TERCERA
+
+El art. 6.3 LAJG que se invoca en el art. 32.3 LEC y que anuncia la diligencia de ordenación, establece el principio de que el reconocimiento del derecho a litigar gratuitamente comprende la defensa y representación técnicas por abogado y procurador, aún en casos que no es preceptiva la intervención de dichos profesionales, cuando sea expresamente requerida por el tribunal que esté conociendo de la causa, para garantizar la igualdad de partes en el proceso.
+
+CUARTA
+
+El principio antedicho se completa con la prevención del art. 21 LAJG de que si, por las circunstancias del proceso, o por la urgencia del caso, fuera necesario asegurar de forma inmediata los derechos de defensa y representación de las partes, y alguna de ellas manifiesta que carece de recursos económicos, el órgano judicial debe dictar resolución motivada, requiriendo a los Colegios profesionales el nombramiento de abogado y/o procurador, que una vez efectuado, tramitará la solicitud de derecho a la asistencia jurídica gratuita con arreglo al procedimiento ordinario regulado en LAJG.
+
+QUINTA
+
+Esta parte actora aduce insuficiencia de recursos para contratar procurador de los tribunales, habida cuenta que le asiste abogado de su confianza por motivos personales, y resulta procedente designarle provisionalmente para la vista los mismos profesionales que los anunciados por la parte contraria, a fin de mantener entre ellas iguales condiciones de defensa jurídica.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+Que, teniendo por presentado este escrito, se digne admitirlo y tener por causada manifestación de carencia de recursos para concertar la representación mediante procurador de los tribunales y de la voluntad de comparecer con dicha representación, por tenerla decidida la parte contraria, y así se resuelva, con suspensión del proceso, solicitar la designación provisional del Colegio de Procuradores, con lo demás que proceda en Justicia que pido en [LUGAR Y FECHA] (lugar y fecha)
+
+Por ser de Justicia que pido en [LUGAR], a [FECHA].
+
+Firma de Abogado/a	Firma de Procurador/a
+
+========================================================================

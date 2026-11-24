@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 541.3 LEC
 - art. 562.1.3 LEC
 - art. 541.4 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,67 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
+
+D./Dª [NOMBRE Y APELLIDOS], Procurador de los Tribunales y de D./Dª [NOMBRE Y APELLIDOS], cuya representación acreditará cuando sea requerido para ello mediante comparecencia apud acta (o bien: representación que acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño a la presente), bajo la dirección técnica de D./Dª [NOMBRE Y APELLIDOS], Letrado del Ilustre Colegio de [COLEGIO], con despacho profesional en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta., ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
+
+Que por medio del presente escrito, siguiendo instrucciones de mi representado/a, me OPONGO, en tiempo y forma, AL EMBARGO DE BIENES AGERMANADOS decretado en el procedimiento de Ejecución de Título Judicial o título ejecutivo que corresponda nº cónyuge de mi representado/a, por infracción de los arts. 1373 CC, aplicable por analogía, y 541.3 LEC, en el sentido de que se sustituya el embargo de tales bienes por el de los bienes privativos del deudor ejecutado, suficientes para cubrir la deuda, que luego se dirá./, seguido contra D./Dª [NOMBRE Y APELLIDOS],
+
+Esta pretensión se basa en los siguientes
+
+HECHOS
+
+Por auto de fecha [DÍA] de [MES] de [AÑO] se le notificó a mi representado/a el embargo de bienes agermanados trabado en el procedimiento de Ejecución de Título Judicial o título ejecutivo que corresponda nº [Nº]/[AÑO], seguido contra su cónyuge, D./Dª [NOMBRE Y APELLIDOS], por deuda particular o privativa del mismo, dándole un plazo de diez días para que, en su caso, pudiera oponerse a la ejecución y solicitar la disolución de la sociedad conyugal en los términos y a los efectos establecidos en el art. 1373 CC, aplicable como Derecho supletorio a la germanía, en relación con el art. 541.3 LEC.
+
+Sin embargo, no es necesario proceder a tal disolución por existir bienes privativos del deudor suficientes para satisfacer al acreedor, como a continuación se expone.
+
+En virtud de estos preceptos, cuando la ejecución se sigue por deudas particulares o privativas de un cónyuge sólo pueden embargarse bienes agermanados con carácter subsidiario, ante la falta o insuficiencia de bienes privativos del cónyuge deudor.
+
+Así pues, cuando al cónyuge del deudor se le notifique el embargo de bienes comunes por deudas particulares de su consorte éste puede señalar bienes privativos del deudor suficientes para satisfacer el crédito, en cuyo caso, deberá alzarse el embargo trabado sobre los bienes comunes.
+
+El requisito de la subsidiariedad no se ha respetado en el presente caso, pues el deudor ejecutado cuenta con los siguientes bienes privativos cuyo valor basta para cubrir la deuda: Por ello, procede alzar el embargo practicado sobre los bienes agermanados y sustituirlo por el de los citados bienes privativos del deudor.
+
+Se acompañan como Documentos nº [Nº DE DOCUMENTO], [Nº DE DOCUMENTO] y [Nº DE DOCUMENTO] los siguientes: [DESCRIPCIÓN DE LOS DOCUMENTOS], con el fin de justificar la titularidad privativa del ejecutado sobre los citados bienes y que su valor estimado es suficiente para cubrir la deuda ejecutada en relación con este último punto, puede incluirse informe de perito tasador.
+
+Resultan aplicables a los anteriores hechos, los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+LEGITIMACIÓN.- El art. 541.3 LEC obliga a notificar al cónyuge del deudor ejecutado el embargo de bienes gananciales cuando la ejecución se siga a causa de deudas propias o privativas del ejecutado, contemplando expresamente que en este caso, sólo pueden perseguirse bienes comunes a falta o por insuficiencia de los bienes privativos del deudor, en concordancia con el régimen sustantivo del art. 1373 CC.
+
+Aunque tales preceptos se refieren expresamente a la ejecución en bienes gananciales, resultan aplicables, por analogía a la germanía.
+
+Por su parte, el art. 562.1.3º LEC, señala que, con independencia de la oposición a la ejecución por el ejecutado según lo dispuesto en los artículos anteriores, todas las personas a que se refiere el artículo 538, entre las que debe entenderse incluido el cónyuge del ejecutado cuando se embargan bienes comunes, de los que aquél es cotitular, incluidos los agermanados, podrán denunciar la infracción de normas que regulen los actos concretos del proceso de ejecución. En el presente caso se ha conculcado la norma de los arts. 1373 CC y 541 LEC.
+
+Finalmente, el art. 541.4 LEC, establece expresamente que "el cónyuge al que se haya notificado el embargo podrá interponer los recursos y usar de los medios de impugnación de que dispone el ejecutado para la defensa de los intereses de la comunidad de gananciales", resultando esta norma igualmente aplicable a la germanía por las razones ya expuestas.
+
+DERECHO SUSTANTIVO.- El art. 1373 CC, en relación con el art. 541.3 LEC, en los que se establece el carácter subsidiario, en defecto de bienes privativos del deudor suficientes para hacer efectiva la deuda, de la responsabilidad con bienes comunes por deudas propias o privativas del cónyuge deudor.
+
+Iura novit curia, y cuantas normas resulten procedentes.
+
+En su virtud,
+
+SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito en tiempo y forma, con los documentos que lo acompañan y el justificante de haber dado traslado de todo ello al Procurador de las partes ejecutante y ejecutada, se sirva admitirlo, y, previos los trámites legales oportunos, estime la pretensión ejercitada y dicte resolución por la que acuerde alzar el embargo del/de los bien/es agermanado/s trabados, sustituyéndolo por el del/de los bien/bienes privativos del ejecutado señalados en el cuerpo del escrito.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Firma y número del Letrado	Firma del Procurador
+
+========================================================================

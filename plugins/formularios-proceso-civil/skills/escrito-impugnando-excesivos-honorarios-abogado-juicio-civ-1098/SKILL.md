@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 245 LEC
 - art. 253.1 LEC
 - art. 251.9.ª LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], demandante en autos de Juicio Verbal n.º [NÚMERO]/[AÑO], asistida de la Letrada en ejercicio D./Dña. [NOMBRE Y APELLIDOS], colegiada n.º [NÚMERO], con despacho abierto en calle [CALLE], n.º [NÚMERO], en la Pieza Separada de Honorarios de Abogado comparezco y como mejor en Derecho proceda, DIGO:
+
+Que con fecha [FECHA] se ha notificado y requerido a mi patrocinada de pago, dándosele vista de la minuta del Letrado D./Dña. [NOMBRE Y APELLIDOS], que me dirigió en el juicio de desahucio seguido contra [ACTO O RESOLUCIÓN], y dentro del plazo conferido, vengo a impugnar los honorarios reclamados por excesivos, de conformidad con el art. 245 LEC, por lo que se mencionan las partidas concretas de discrepancia:
+
+PRIMERO
+
+En la minuta en cuestión se fija que la dirección técnica, con redacción de la demanda y alegaciones, proposición y práctica de prueba, y emisión de conclusiones en el acto de la vista, hasta sentencia definitiva en el Juicio Verbal n.º [NÚMERO]/[AÑO], importa la cantidad de [IMPORTE] euros ([IMPORTE EN CIFRA] €), sirviendo de base para el cálculo, según la minuta, el precio del inmueble arrendado, de [IMPORTE] euros.
+
+SEGUNDO
+
+Ciertamente la demanda consignó tal cuantía, cumpliendo el mandato del art. 253.1 LEC, aportándose certificado de A.P.I. como documento anexo, y sin que se discutiera en el proceso.
+
+Ello porque el art. 251.9.ª LEC, hasta la reforma de la Ley 19/2009, de 23 de noviembre, de medidas de fomento y agilización procesal del alquiler y de la eficiencia energética de los edificios, disponía para la demanda de juicio sobre arrendamiento de bienes, cuando se reclamaba la posesión del bien arrendado, el reenvío a la regla 3.ª, que debía entenderse a su punto 5.º, porque no había otra regla específica y se reclamaba la recuperación posesoria, con lo que venía a resultar de aplicación el cálculo de la regla 2.ª, en que hay que estar al valor de los bienes al tiempo de interponer la demanda, conforme a los precios corrientes en el mercado.
+
+TERCERO
+
+Por aplicación de la Norma 137 de las orientativas de honorarios del Iltre. Colegio de Abogados de [COLEGIO], se devengan, en caso de oposición de adverso, como es el presente, los honorarios de las normas del declarativo que por cuantía corresponda, siendo la base minutable la de la Norma 138, que es el importe de la renta anual multiplicado por el tiempo de duración del contrato, con un mínimo de una anualidad y un máximo de diez.
+
+CUARTO
+
+Las Normas de juicios declarativos estipulan en dichas orientaciones una escala gradual-tipo en la Disposición General 20.ª. La renta probada de la finca arrendada asciende a los 1.052 euros mensuales, por lo que el máximo de diez anualidades para servir de base a la minuta, según las normas orientativas, es de 1.126.240, y el mínimo de una anualidad de 112.624 euros.
+
+QUINTO
+
+Conforme a la minuta que se me trasladó la cantidad reclamada por honorarios asciende a 20.205 euros, que cualquiera que sea el creciente valor de los inmuebles urbanos, resulta a todas luces exagerada, dado que las orientaciones colegiales arrojan un devengo de honorarios de 1.530 euros, sobre la base de la renta de un año, y a falta de ninguna especialidad demostrable, y no revistiendo el juicio de una dificultad de hecho (se trataba de una interpretación del Derecho Transitorio de la LAU 1994), se postula la reducción de los honorarios a dicha cantidad.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito, se digne admitirlo, teniendo por impugnados por excesivos los honorarios de la minuta del Abogado D./Dña. [NOMBRE Y APELLIDOS], seguido que sea el trámite oportuno, se dicte Decreto por el que se determine que, con estimación de esta oposición, la cantidad de la minuta que debe pagarse es de [IMPORTE EN LETRA] ([IMPORTE EN CIFRA] €), con imposición expresa de las costas al promotor del procedimiento.
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Abogado	Firma del Procurador/a
+
+========================================================================

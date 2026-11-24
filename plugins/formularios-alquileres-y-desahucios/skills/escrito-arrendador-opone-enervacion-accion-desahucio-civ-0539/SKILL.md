@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Alquileres y desahucios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Alquileres y desahucios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 22.4 LEC
 - art. 443 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -83,15 +81,47 @@ Escrito del arrendador mostrando su oposición a la enervación de la acción de
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Juicio verbal de desahucio por falta de pago núm. [Nº]
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, en nombre y representación de [NOMBRE DEL REPRESENTADO/A], parte demandante en el proceso de desahucio arriba expresado, ante el Tribunal comparezco y como mejor proceda en Derecho DIGO:
+
+Que habiendo recibido traslado de la consignación realizada por el demandado por importe de [IMPORTE] euros a efectos de enervación de la acción de desahucio, por medio del presente escrito, de conformidad a lo dispuesto en el artículo 22.4, párrafo primero, de la LEC, me opongo a la enervación por no cumplirse los requisitos legalmente establecidos en base a los siguientes
+
+HECHOS Y FUNDAMENTOS:
+
+PRIMERO.- No se cumplen los requisitos de la enervación por ser extemporánea, puesto que se ha producido transcurrido ampliamente el plazo de diez días que le fue otorgado al demandado en el requerimiento de pago realizado por el Letrado de la Administración de Justicia.
+
+En efecto, tal como consta en autos, el demandado fue requerido de pago el día [FECHA] y no efectuó la consignación hasta el día [FECHA], por lo cual ha transcurrido en exceso el plazo concedido, lo que determina la improcedencia de la enervación.
+
+SEGUNDO.- No se cumplen los requisitos de la enervación por ser insuficiente la cantidad consignada por el demandado, puesto que la cantidad reclamada en la demanda era de [IMPORTE] euros, a lo que deben añadirse los dos meses vencidos al momento de la enervación, que ascienden a [IMPORTE] euros.
+
+El demandado no sólo no ha satisfecho los dos meses vencidos tal como exige el artículo 22.4 de la LEC, sino que además tampoco ha abonado la totalidad de las rentas adeudadas reclamadas en la demanda, lo cual determina la improcedencia de la enervación.
+
+TERCERO.- Por tanto, se interesa que se tenga a esta parte por opuesta a la enervación, y conforme a lo que dispone el párrafo primero del artículo 22.4 de la LEC, se cite a las partes a la vista prevenida en el artículo 443 de la LEC a fin de dirimir la procedencia del desahucio o de la enervación.
+
+Por todo ello,
+
+SUPLICO AL TRIBUNAL: Que tenga por presentado este escrito, [OTROS DATOS] y que tenga por formulada oposición a la enervación pretendida de contrario, citando a las partes a la vista de juicio verbal y, tras su celebración, dicte sentencia estimado la demanda y dando lugar al desahucio, con imposición de costas al demandado.
+
+En
+
+========================================================================

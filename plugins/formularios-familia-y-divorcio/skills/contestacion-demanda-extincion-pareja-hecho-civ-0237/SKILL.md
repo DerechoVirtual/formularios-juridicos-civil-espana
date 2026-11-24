@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 394 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -90,15 +88,65 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Proceso declarativo número
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [NÚMERO]
+
+Don/Dª [NOMBRE Y APELLIDOS], Procurador de los Tribunales, en la representación que ostento de D. [NOMBRE Y APELLIDOS], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], y bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS] ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] en el proceso declarativo arriba expresado comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que habiéndose dado traslado a esta parte de la demanda formulada por D. [NOMBRE Y APELLIDOS] en reclamación de efectos económicos derivados de la extinción de la relación estable de pareja de hecho, siguiendo instrucciones de mi poderdante por medio del presente escrito y en nombre del mismo formulo en tiempo y forma CONTESTACIÓN A LA DEMANDA, la cual baso en los siguientes
+
+HECHOS
+
+En total disconformidad con el correlativo en cuanto a la constitución de la pareja de hecho entre el demandante y el demandado.
+
+Me opongo al correlativo por cuanto en ningún momento ha existido una relación estable de pareja de hecho entre los litigantes por los siguientes motivos:
+
+No existe relación de pareja de hecho puesto que la Ley [LEY APLICABLE] exige la inscripción en el Registro como requisito constitutivo, sin que se haya inscrito en ningún momento la relación en el Registro prevenido al efecto.
+
+En el caso del demandante y demandado, si bien convivían en el mismo domicilio por razones esencialmente económicas al compartir gastos de arriendo y de mantenimiento, en ningún momento han tenido una relación afectiva análoga a la conyugal, de tal manera que negamos rotundamente que esta relación pueda ser conceptuada como de pareja de hecho.
+
+Aun aceptando la existencia de una relación afectiva entre los litigantes, lo cierto es que no se cumplen los requisitos de tiempo establecidos en el artículo [Nº DE ARTÍCULO] de la Ley
+
+Nos oponemos a la existencia de una relación de pareja de hecho por cuanto que mi representado es menor de edad (o está ligado por vínculo matrimonial con otra persona, según se acredita por certificación del Registro Civil de [LOCALIDAD]) (o está registrado como pareja de hecho de otra persona según se acredita por certificación del Registro de Parejas de Hecho de [LOCALIDAD]) ( o es pariente en línea recta por consanguinidad o adopción o colateral dentro del grado prohibido por la legislación vigente, según se acredita por las certificaciones del Registro Civil que se acompañan como documentos [Nº DE DOCUMENTO])
+
+En disconformidad con el hecho [Nº DE HECHO] de la demanda en los términos expuestos de contrario.
+
+Subsidiariamente, y para el improbable caso en que se estimara que la relación de mi mandante con el actor constituye una unión estable de hecho, debemos manifestar que en absoluto se ha producido la situación que se expone de desequilibrio patrimonial y enriquecimiento injusto de mi mandante, puesto que el demandante silencia que durante todo este tiempo ha estado desempeñando la actividad laboral por cuenta propia de [ACTIVIDAD], percibiendo una retribución aproximada de [IMPORTE] euros anuales, si bien no figura en las declaraciones tributarias que aporta, por cuanto que tal actividad la venía desempeñando por medio de la sociedad [DENOMINACIÓN SOCIAL], de la que es administrador y único accionista, según se acredita por certificación del Registro Mercantil de [LOCALIDAD] que se acompaña como documento número [Nº DE DOCUMENTO] y donde se pueden comprobar las cuentas anuales de la sociedad, de donde resulta un beneficio de [IMPORTE] euros durante los ejercicios
+
+Negamos asimismo que el demandante se haya dedicado al cuidado del hogar familiar ni desde luego al cuidado de los hijos de mi representado, siendo que éstos son mayores de edad y siempre han sido atendidos por su progenitor, y que todas las tareas de la vivienda han sido compartidas, como se acreditará oportunamente en la fase probatoria de este proceso, de lo que resulta la improcedencia de la reclamación formulada de contrario.
+
+FUNDAMENTOS DE DERECHO
+
+Conformes con la competencia objetiva y territorial del Tribunal, la legitimación "ad procesum", y el procedimiento adecuado escogido, compareciendo esta parte con la debida representación técnica y asistencia letrada.
+
+En cuanto al fondo de la pretensión, nos oponemos por falta de legitimación "ad causam" al no existir pareja de hecho entre los litigantes, según resulta de la regulación de la Ley [LEY APLICABLE], concretamente de sus artículos
+
+Asimismo, y en cuanto al fondo, nos oponemos a la pretensión indemnizatoria por falta de fundamento, al no darse los requisitos establecidos legalmente para que se fije una pensión periódica y/o compensación económica, por cuanto la supuesta convivencia no ha generado ningún perjuicio económico al demandante ni ha producido una situación de enriquecimiento injusto en mi mandante.
+
+Las costas deben imponerse a la actora, de conformidad con lo dispuesto en el artículo 394 LEC.
+
+Por todo lo expuesto,
+
+SUPLICO AL TRIBUNAL que teniendo por presentado este escrito, con sus documentos, y copias de todo ello, se sirva admitirlo, y tenga por formulada CONTESTACIÓN A LA DEMANDA y, tras los trámites legales, dicte Sentencia desestimatoria de la pretensión formulada de contrario, todo ello con expresa imposición de costas a la parte actora.
+
+Es justicia que pido en [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+========================================================================

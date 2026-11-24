@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -71,8 +71,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 232 Ley 25/2010
 
----
-
 ## Instrucciones para Claude
 
 ### Paso 0: Jurisprudenciator en esta skill (obligatorio)
@@ -109,15 +107,131 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Número: [Nº DE PROTOCOLO]
+
+En la ciudad de [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Ante mí, [NOMBRE DEL NOTARIO], Notario del Ilustre Colegio de [COLEGIO NOTARIAL],
+
+COMPARECEN
+
+De una parte, D./Dña. [NOMBRE Y APELLIDOS DEL COMPARECIENTE 1], mayor de edad, de estado civil [ESTADO CIVIL], con domicilio en [DOMICILIO], vecindad civil [VECINDAD CIVIL], y NIF número [NIF].
+
+Y de la otra, D./Dña. [NOMBRE Y APELLIDOS DEL COMPARECIENTE 2], mayor de edad, de estado civil [ESTADO CIVIL], con domicilio en [DOMICILIO], vecindad civil [VECINDAD CIVIL], y NIF número [NIF].
+
+INTERVIENEN
+
+Ambos en su propio nombre y derecho. Me aseguro de su identidad por la exhibición de los reseñados documentos nacionales de identidad.
+
+Y les juzgo, a mi juicio, con capacidad legal para el otorgamiento de esta escritura y, a tal efecto,
+
+EXPONEN
+
+[ELEGIR UNA DE ESTAS ALTERNATIVAS Y SUPRIMIR LAS DEMÁS:]
+— Si se otorgan antes del matrimonio: ÚNICO.- Que tienen la intención de contraer matrimonio entre sí en próximas fechas, motivo por el que suscriben los presentes capítulos matrimoniales con arreglo a las siguientes
+— Si se otorgan después del matrimonio: ÚNICO.- Que el día [DÍA] de [MES] de [AÑO] contrajeron matrimonio, inscrito en el Registro Civil de [LOCALIDAD], y que suscriben los presentes capítulos matrimoniales con arreglo a las siguientes
+
+ESTIPULACIONES
+
+Comparecientes
+
+Los comparecientes acuerdan que al [ELEGIR: proyectado / celebrado] matrimonio se le aplique el régimen de comunidad de bienes regulado en los artículos 232-30 y siguientes de la Ley 25/2010, de 29 de julio, del libro segundo del Código civil de Cataluña, relativo a la persona y a la familia.
+
+Bienes
+
+Son bienes privativos de cada cónyuge, que continuarán ostentando dicha condición:
+
+A) D./Dña. [NOMBRE Y APELLIDOS] es propietario/a en régimen de plena propiedad y dominio del inmueble sito en [LOCALIDAD], calle [CALLE], número [Nº], con una superficie de [SUPERFICIE] metros cuadrados, distribuidos en [Nº DE PLANTAS] plantas.
+
+Cuota de [PORCENTAJE] % en el valor del bloque donde está ubicada la citada vivienda y elementos comunes.
+
+Título: adquirido por [TÍTULO: compraventa / herencia / donación / otro], efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D./Dña. [NOMBRE DEL NOTARIO], el día [DÍA] de [MES] de [AÑO], número [Nº DE PROTOCOLO] de su protocolo.
+
+Inscripción: está inscrita en el Registro de la Propiedad número [Nº] de [LOCALIDAD], en el tomo [TOMO], libro [LIBRO], folio [FOLIO], finca [Nº DE FINCA].
+
+Referencia catastral: [REFERENCIA CATASTRAL], según consta en la referencia del último recibo del Impuesto sobre Bienes Inmuebles.
+
+Cargas: la referida finca se encuentra [ELEGIR: libre de cargas y gravámenes / gravada con las siguientes cargas: DESCRIPCIÓN DE LAS CARGAS].
+
+B) D./Dña. [NOMBRE Y APELLIDOS] es propietario/a del vehículo [MODELO], marca [MARCA], con número de bastidor [Nº DE BASTIDOR].
+
+C) D./Dña. [NOMBRE Y APELLIDOS] es titular de [Nº] participaciones en la mercantil [DENOMINACIÓN SOCIAL], sociedad de responsabilidad limitada.
+
+D) D./Dña. [NOMBRE Y APELLIDOS] es propietario/a de la cuenta corriente nº [Nº DE CUENTA] de la entidad bancaria [ENTIDAD].
+
+E) D./Dña. [NOMBRE Y APELLIDOS] es propietario/a del inmueble sito en [LOCALIDAD], calle [CALLE], número [Nº], con una superficie de [SUPERFICIE] metros cuadrados.
+
+Cuota de [PORCENTAJE] % en el valor del bloque donde está ubicada la citada vivienda y elementos comunes.
+
+Título: adquirido por [TÍTULO: compraventa / herencia / donación / otro], efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D./Dña. [NOMBRE DEL NOTARIO], el día [DÍA] de [MES] de [AÑO], número [Nº DE PROTOCOLO] de su protocolo.
+
+Inscripción: está inscrita en el Registro de la Propiedad número [Nº] de [LOCALIDAD], en el tomo [TOMO], libro [LIBRO], folio [FOLIO], finca [Nº DE FINCA].
+
+Referencia catastral: [REFERENCIA CATASTRAL], según consta en la referencia del último recibo del Impuesto sobre Bienes Inmuebles.
+
+Cargas: la referida finca se encuentra [ELEGIR: libre de cargas y gravámenes / gravada con las siguientes cargas: DESCRIPCIÓN DE LAS CARGAS].
+
+F) D./Dña. [NOMBRE Y APELLIDOS] es propietario/a de la cuenta corriente nº [Nº DE CUENTA] de la entidad bancaria [ENTIDAD].
+
+Administración común
+
+Los comparecientes mantendrán la administración individual sobre sus bienes privativos, debiendo responder con los mismos de las deudas que provengan de la tenencia de estos.
+
+A partir del otorgamiento de la presente escritura, las ganancias que se obtengan por cualquiera de los cónyuges tendrán la condición de comunes, así como los bienes que se adquieran constante el matrimonio.
+
+Los comparecientes administrarán los bienes comunes conjuntamente, o individualmente con el consentimiento del otro.
+
+Deudas y obligaciones
+
+Los comparecientes responderán de los gastos familiares a partes iguales entre ellos y de manera solidaria ante terceras personas.
+
+Los comparecientes podrán contraer obligaciones con cargo a la comunidad de bienes y satisfacer los gastos familiares con dichos bienes.
+
+Registro civil
+
+Cualquiera de los comparecientes podrá inscribir la presente escritura en el Registro Civil.
+
+OTORGAMIENTO Y AUTORIZACIÓN
+
+Reservas y advertencias legales.- Se las realizo a los comparecientes, en especial las de carácter fiscal y registral.
+
+Advierto también del tratamiento de los datos personales de los otorgantes, que se efectuará conforme al Reglamento (UE) 2016/679 (RGPD) y a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD). Los comparecientes consienten que sus datos personales sean tratados en esta notaría, conservándose con carácter confidencial y reservado, y sin perjuicio de las remisiones autorizadas por la ley.
+
+La finalidad del tratamiento es facilitar la tramitación y seguimiento de esta escritura.
+
+Es responsable del tratamiento, de su seguridad y confidencialidad, el Notario titular de esta notaría.
+
+Lectura.- Permito a los señores comparecientes la lectura de esta escritura, porque así lo solicitan después de advertidos de la opción del artículo 193 del Reglamento Notarial.
+
+Consentimiento.- Enterados, según dicen, por la lectura que han practicado y por mis explicaciones verbales, los señores comparecientes hacen constar libremente su consentimiento al contenido de la escritura.
+
+Firma.- Y la firman.
+
+Autorización.- Yo, el Notario, compruebo que este otorgamiento se adecúa a la legalidad y a la voluntad debidamente informada y expresada ante mí; y con el contenido de esta escritura, extiendo en [Nº] folios de papel timbrado notarial de la clase [CLASE], serie [SERIE], números [NÚMEROS]. DOY FE.
+
+Firmas
+
+NOTAS DE AYUDA
+
+Los capítulos matrimoniales se pueden otorgar antes o después del matrimonio.
+
+Existen diversos regímenes económicos: separación de bienes, asociación a compras y mejoras, agermanament, participación en las ganancias, etc. En el supuesto de no otorgar capítulos matrimoniales, y si ambos contrayentes tienen vecindad civil catalana, rige la separación de bienes.
+
+En el supuesto de que los bienes privativos fueran insuficientes para satisfacer las deudas que han sido comentadas, el acreedor podrá solicitar el embargo de bienes comunes, pero el otro cónyuge podrá solicitar la disolución de la comunidad de bienes, para que este solo afecte a la parte del deudor.

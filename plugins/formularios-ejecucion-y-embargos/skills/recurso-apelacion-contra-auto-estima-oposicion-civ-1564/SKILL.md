@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 572 LEC
 - art. 573.1.3 LEC
 - art. 561.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,65 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Proceso de ejecución número [NÚMERO]
+
+A LA AUDIENCIA PROVINCIAL DE [LOCALIDAD]
+
+D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales, en nombre y representación de D. [NOMBRE Y APELLIDOS], parte demandante en este proceso seguido con el número [NÚMERO], según tengo acreditado en autos, ante el Tribunal comparezco y como mejor proceda en derecho DIGO:
+
+1) Que en fecha [FECHA] se ha dictado auto estimando la oposición a la ejecución despachada por auto de fecha [FECHA], el cual ha sido notificado a esta parte en fecha
+
+2) El auto que se impugna es apelable directamente al amparo del art. 561.3 de la LEC.
+
+3) Al amparo del citado precepto, entendiendo que dicha resolución no es ajustada a derecho, dicho sea con los debidos respetos y en términos de defensa, por medio del presente escrito interpongo contra la misma RECURSO DE APELACIÓN impugnando el pronunciamiento estimatorio de la oposición a la ejecución y la imposición de costas a esta parte.
+
+4) Y que, de conformidad a lo dispuesto en el art. 458 de la LEC, fundo el recurso de apelación en las siguientes ALEGACIONES:
+
+PRIMERO.- Motivos
+
+Infracción del art. 572 y 573 de la LEC.
+
+El auto estimatorio de la oposición a la ejecución objeto de apelación se funda en la falta de notificación del saldo al deudor D. [NOMBRE Y APELLIDOS], estimando que no se han cumplido los requisitos de los arts. 572.2 y 573.1.3º de la LEC.
+
+Tal como alegábamos en nuestro escrito de impugnación a la oposición, la resolución recurrida infringe los preceptos citados por cuanto esta parte había intentado la notificación en el domicilio que consta en la póliza, sito en [LOCALIDAD], remitiendo telegrama donde constaba el saldo adeudado en la cuenta, cuya copia se adjuntó como documento número 4 de la demanda ejecutiva. El telegrama no pudo finalmente entregarse por haber marchado el deudor de dicho domicilio, según consta en la comunicación de Correos y Telégrafos que acompañamos como documento número 5 de la demanda ejecutiva. Por tanto, mi representado cumplió con las exigencias legales para integrar el título ejecutivo, desconociendo otro domicilio del deudor, quien en ningún momento ha comunicado cambio alguno a mi representado, por lo que entendemos que la interpretación que se realiza en la resolución recurrida infringe los artículos arriba expresados.
+
+En apoyo de nuestras alegaciones, citamos el reiterado criterio de las Audiencias Provinciales que de forma uniforme indican que basta la notificación del saldo por telegrama en el domicilio designado en la póliza a los efectos de despachar ejecución, y en tal sentido son de ver la SAP de Segovia, de 30 de septiembre de 2003, rec. 154/2003; AAP de Asturias, Sección 5.ª, de 30 de diciembre de 2004, rec. 538/2004, y, en idéntico sentido, se entiende que resulta observado el contenido del actual art. 572.2 cuando se ha remitido telegrama al domicilio que consta en la póliza, aunque no se haya entregado por ausencia o no se haya recogido en la oficina de Correos, tal como indica la SAP de Sevilla, de 2 de octubre de 2000, rec. 7689/1999. En el mismo sentido, los AAP Madrid de 3 de diciembre de 2010 (Sección 19.ª, rec. 382/2010) y AAP Barcelona de 8 de noviembre de 2010 (Sección 17ª, rec. 871/2009) expresan que se da cumplimiento al requisito que contempla el citado art. 573.1.3º LEC si se acredita por el acreedor que envió el telegrama al domicilio señalado en la póliza, por cuanto la entidad acreedora no es responsable de los posibles cambios de domicilio del deudor, siendo responsabilidad del ejecutado comunicar cualquier cambio de domicilio.
+
+. Partiendo de lo anterior, debe revocarse la resolución impugnada, desestimando la oposición y mandado seguir adelante la ejecución, con imposición de las costas de la oposición al ejecutado, todo ello de conformidad a lo prevenido en el art. 561.1 de la LEC.
+
+En base a lo anterior,
+
+Suplico
+
+SUPLICO A LA SALA: Que tenga por presentado este escrito, con justificante de traslado, teniendo por interpuesto el recurso de apelación frente al auto dictado por el Tribunal [ÓRGANO JUDICIAL] en las presentes actuaciones de fecha [FECHA] y tras la pertinente tramitación y remisión de las actuaciones a la Ilma. Audiencia Provincial, se dicte por ésta auto en el que, declarando haber lugar al recurso de apelación, desestimando la oposición deducida de contrario, y acordando mandar seguir adelante la ejecución despachada, con imposición al ejecutado de las costas de la oposición.
+
+OTROSÍ PRIMERO DIGO que al amparo de lo dispuesto en el art. 561.3 de la LEC esta parte solicita que se mantengan los embargos y medidas de garantía en tanto se sustancia la oposición, comprometiéndose a prestar la caución que el tribunal estime suficiente para asegurar la indemnización que pueda corresponder al ejecutado, considerando que en las circunstancias que se dan en este proceso podría ascender a [IMPORTE] euros, sin perjuicio de que el tribunal fije otra diferente, la cual será prestada en todo caso por esta parte.
+
+Por lo que, SUPLICO A LA SALA Acuerde de conformidad.
+
+OTROSÍ SEGUNDO de conformidad con lo dispuesto en los apartados 3.b) y 6 de la disposición adicional decimoquinta de la LOPJ acompaño a este escrito resguardo de consignación en la cuenta de Depósitos y Consignaciones abierta a nombre del Tribunal del depósito exigido para interponer el recurso por importe de 50 euros.
+
+Por lo que, SUPLICO AL TRIBUNAL que tenga por constituido el depósito, dejando interesada desde este momento su devolución para el caso de estimación total o parcial del recurso.
+
+En L. y F.
+
+(Firma Procurador y Abogado)
+
+========================================================================

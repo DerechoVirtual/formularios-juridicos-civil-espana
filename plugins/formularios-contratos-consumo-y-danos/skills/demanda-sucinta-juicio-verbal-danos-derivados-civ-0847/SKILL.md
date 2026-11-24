@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -56,8 +56,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -94,15 +92,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado [ESTADO CIVIL] y profesión [PROFESIÓN], con domicilio en esta Ciudad, calle [CALLE], provisto del Documento Nacional de Identidad número [NÚMERO], letra [LETRA], expedido en [LOCALIDAD], en fecha [FECHA], vigente, ante este Tribunal comparezco y, como mejor proceda en derecho, DIGO:
+
+Que por medio del presente escrito formulo DEMANDA DE JUICIO VERBAL EN RECLAMACIÓN DE DAÑOS Y PERJUICIOS OCASIONADOS CON MOTIVO DE LA CIRCULACIÓN DE VEHÍCULOS DE MOTOR, contra D./Dña. [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD], calle [CALLE], número [NÚMERO], piso [PISO] y contra la Compañía de Seguros [ASEGURADORA], con domicilio social en [LOCALIDAD], calle [CALLE], número [NÚMERO], con base en los siguientes:
+
+HECHOS
+
+PRIMERO
+
+El demandante es propietario del vehículo marca [MARCA/MODELO], modelo [MARCA/MODELO], con matrícula [MATRÍCULA], cuyo extremo se acreditará oportunamente en el acto del juicio, si de adverso se negare, remitiéndome desde ahora a los archivos de la Jefatura Provincial de Tráfico, y el demandado D./Dña. [NOMBRE Y APELLIDOS] lo es en su condición de conductor y propietario del vehículo marca [MARCA/MODELO], modelo [MARCA/MODELO], con matrícula [MATRÍCULA] extremo que también se demostrará, de ser necesario, con la misma remisión que antecedentemente se ha efectuado.
+
+SEGUNDO
+
+El demandado D./Dña. [NOMBRE Y APELLIDOS] tenía suscrito un contrato de seguro, en relación con la responsabilidad civil derivada de la conducción del antedicho vehículo de que es titular, con la Entidad [ASEGURADORA], póliza número [NÚMERO], en vigor al momento de ocurrir el accidente. Por tanto, la entidad demandada lo es en su condición de asegurador que asumió el cumplimiento de la obligación de indemnizar.
+
+TERCERO
+
+El día [FECHA], sobre las [Nº] horas, y cuando circulaba por [DIRECCIÓN].
+
+CUARTO
+
+Como consecuencia de los hechos descritos se han ocasionado diversos daños cuya reparación asciende a la cantidad de [IMPORTE] euros, según consta en la factura emitida por la Empresa [DENOMINACIÓN SOCIAL], encargada de la reparación, en la que se detallan los diferentes trabajos realizados y su importe total y que se acompaña como documento n.º [Nº DE DOCUMENTO]
+
+QUINTO
+
+Con anterioridad a la presentación de la demanda se ha requerido de pago a los demandados en el procedimiento, mediante sendos telegramas de fecha [FECHA], que se acompañan como documentos nos. [Nº DE DOCUMENTO], habiendo respondido la aseguradora demandada con respuesta motivada que rechaza el siniestro (doc. n.º [NÚMERO]).
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que teniendo por presentado este escrito, con los documentos y las copias que se acompañan, se sirva admitirlo, y por interpuesta demanda de juicio verbal en reclamación de daños y perjuicios ocasionados con motivo de la circulación de vehículos de motor, acuerde dar traslado a los demandados para que comparezcan y la contesten, y seguido que sea el procedimiento por sus trámites, se venga a dictar sentencia por la que se condene a que D./Dña. [NOMBRE Y APELLIDOS], y la Compañía de Seguros [ASEGURADORA], indemnicen conjunta y solidariamente al demandante en la cantidad de [IMPORTE] euros, más lo que representen los intereses por mora, que en el caso de la Compañía de Seguros se fijará en el tipo de interés anual igual al legal del dinero vigente en el momento del devengo, incrementado en un 50%, desde la fecha del siniestro y hasta el efectivo definitivo pago, imponiéndose a los demandados las costas procesales.
+
+Es justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a
+
+========================================================================

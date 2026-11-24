@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -44,8 +44,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -81,15 +79,49 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Nº [Nº] de expediente:
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].l año [AÑO]
+
+Hora inicial de la reunión: Hora final de la reunión:
+
+REUNIDOS:
+
+DON/DOÑA [NOMBRE Y APELLIDOS], DON/DOÑA [NOMBRE Y APELLIDOS] y DON/DOÑA [NOMBRE Y APELLIDOS], como sujetos mediados.
+
+Y DON/DOÑA [NOMBRE Y APELLIDOS], como profesional mediador [DATOS DEL MEDIADOR], [DATOS DEL MEDIADOR]
+
+INTERVIENEN todos ellos en su propio nombre y derecho. Se RECONOCEN mutuamente la capacidad legal necesaria para otorgar el presente documento y, a tal efecto,
+
+MANIFIESTAN
+
+DON/DOÑA [NOMBRE Y APELLIDOS], DON/DOÑA [NOMBRE Y APELLIDOS] y DON/DOÑA [NOMBRE Y APELLIDOS], se sometieron a un proceso de mediación familiar guiado, como parte mediadora por DON/DOÑA [NOMBRE Y APELLIDOS], en las condiciones reflejadas en el Acta inicial, de fecha [DÍA] de [MES] de [AÑO], conforme a las prescripciones de la Ley 1/2009, de 27 de febrero, reguladora de la Mediación Familiar en la Comunidad Autónoma de Andalucía.
+
+Tras celebrarse las sesiones previstas, se ha alcanzado un ACUERDO TOTAL relativo a la siguiente cuestión: pensión de alimentos en favor del hijo mayor de edad D./Dª [NOMBRE Y APELLIDOS], cuyo contenido es el siguiente:
+
+ACUERDAN
+
+ÚNICO.- DON/DOÑA [NOMBRE Y APELLIDOS] y DON/DOÑA [NOMBRE Y APELLIDOS] se obligan a satisfacer en favor de su hijo común mayor de edad, DON/DOÑA [NOMBRE Y APELLIDOS], una pensión de alimentos por importe de [IMPORTE] euros mensuales, a pagar mediante ingreso en la cuenta corriente que determine el alimentista, durante los cinco primeros días de cada mes y actualizable anualmente de acuerdo con las variaciones del IPC que señale el Instituto Nacional de Estadística u organismo que lo sustituya. La citada pensión de alimentos habrá de satisfacerse durante los próximos [Nº] años en que se prevé la finalización de los estudios universitarios de [ESTUDIOS UNIVERSITARIOS], por el hijo, sin perjuicio de la posibilidad de modificación o extinción futura de la obligación de alimentos por las causas que determinan los arts. 142 y ss. del Código Civil.
+
+Y en prueba de conformidad y para que así conste, se extiende y firma esta acta con un ejemplar para cada una de las partes, en el lugar y fecha indicados en el encabezamiento, resultando vinculante el acuerdo alcanzado para dichas partes, cualquiera de las cuales puede solicitar su elevación a escritura pública al objeto de configurar su acuerdo como un título ejecutivo.
+
+Firma de las personas mediadas Firma y nº [Nº] de Registro de la persona/s mediadoras
+
+========================================================================

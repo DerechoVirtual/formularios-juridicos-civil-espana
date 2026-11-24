@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 541.3 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,53 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA
+
+Procedimiento: Ejecución de Título Judicial n.º [Nº]/[AÑO]
+
+Número de Identificación Informática:
+
+Partes:
+
+DILIGENCIA DE ORDENACIÓN SR. LETRADO DE LA ADMINISTRACIÓN DE JUSTICIA [NOMBRE Y APELLIDOS]
+
+En [LUGAR], a [FECHA].
+
+Dada cuenta, y
+
+1.- Habiendo ejercitado Doña [NOMBRE Y APELLIDOS], representada por el Procurador/a. Sr./a. [NOMBRE Y APELLIDOS], la opción por la disolución de la sociedad de gananciales con el ejecutado Don [NOMBRE Y APELLIDOS], a fin de que se sustituya el embargo de bienes comunes por el de la parte que corresponda en los mismos al ejecutado, de conformidad con lo dispuesto en el art. 541.3 LEC, cítese a los indicados cónyuges, y a la mercantil acreedora CLÍNICA [DENOMINACIÓN SOCIAL] S.L. (arts. 1.082 y 1.083 CCiv en relación con arts. 1.401, 1.402 y 1.410 CCiv), a comparecencia para ser oídos sobre la división del patrimonio conyugal, a cuyo acto deberán acudir personalmente o representados por Procurador con poder especial para renunciar, transigir, allanarse, o apartarse con sobreseimiento del asunto.
+
+Se señala para celebrar la comparecencia el día [FECHA], a las [Nº] horas, en la Sala de Vistas del Tribunal.
+
+2.- Fórmese pieza separada para la adecuada tramitación de todo lo relacionado con la disolución y liquidación de la sociedad de gananciales.
+
+3.-Quede en suspenso el proceso de ejecución en cuanto a los bienes comunes.
+
+Contra esta resolución cabe interponer recurso de reposición, mediante escrito ante el LAJ que se presenta dentro de los cinco días hábiles siguientes al de notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15.ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita
+
+Así lo acuerdo y firmo,
+
+Por ser de Justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Letrado/a de la Administración de Justicia:

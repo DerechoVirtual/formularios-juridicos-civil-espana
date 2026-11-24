@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 158 Código Civil
 - art. 85.3 LJV
 - art. 158.3 CC
-
----
 
 ## Instrucciones para Claude
 
@@ -87,15 +85,73 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. [NOMBRE Y APELLIDOS] y D, [NOMBRE Y APELLIDOS] actuando en su nombre y representación y en interés del menor [NOMBRE DEL MENOR], con el cual nos une una relación de parentesco de [PARENTESCO], y bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS], al amparo de lo dispuesto en el artículo 158 del Código Civil y en el art. 87 de la Ley de Jurisdicción Voluntaria, ante la Sección Civil del Tribunal de Instancia de [SEDE] que por turno de reparto corresponda comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que mediante el presente escrito promueve expediente de jurisdicción voluntaria para LA ADOPCIÓN DE LAS MEDIDAS CONVENIENTES PARA EVITAR LA SUSTRACCIÓN del menor [NOMBRE DEL MENOR] por parte de su progenitor [NOMBRE Y APELLIDOS] en base a los siguientes
+
+HECHOS
+
+PRIMERO.- Que los promotores de este expediente son abuelos maternos del menor [NOMBRE DEL MENOR], actualmente de [Nº] años de edad, quien es conocedor de esta solicitud y está conforme con la misma.
+
+Los padres del menor son D. [NOMBRE Y APELLIDOS], de nacionalidad [NACIONALIDAD] y la hija de los solicitantes Dª..
+
+Ambos padres tuvieron una relación de convivencia ya finalizada de la que nació el menor [NOMBRE DEL MENOR], siguiéndose proceso civil para determinar su guarda y custodia y alimentos en el que se dictó sentencia de fecha [FECHA] en el que se atribuía la misma a la madre [NOMBRE Y APELLIDOS], fijándose un régimen de visitas a favor del padre, quien debía satisfacer una pensión mensual de [IMPORTE] euros Como quiera que la madre inició otra relación con otra persona y no quiso hacerse cargo del menor, éste paso a residir con los abuelos, quienes se ocupan de él desde hace años. En todo este tiempo, el padre apenas ha visitado al hijo en un par de ocasiones, no habiendo abonado en ningún momento la pensión a que viene obligado.
+
+SEGUNDO.- Pese a que el padre del menor se ha desentendido totalmente de sus obligaciones personales y económicas con su hijo, recientemente ha visitado al menor en dos ocasiones, en dos fines de semana, en el cual le ha insistido en que debe irse a vivir con él a su país de origen [PAÍS], propósito de total seriedad por cuanto obligó a ir al menor a las dependencias de la Policía Nacional en [LOCALIDAD] a efectos de que le fuera expedido el pasaporte.
+
+Según hemos podido saber, al parecer el padre tiene otra familia en su país de origen y pretende llevarse al menor [NOMBRE DEL MENOR] a vivir con él, habiendo manifestado a algunos conocidos que "es su hijo y se lo puede llevar cuando quiera".
+
+Por tanto, existe un patente riesgo de sustracción del menor por parte del padre que, de materializarse, produciría gravísimos perjuicios al menor, que se opone radicalmente a irse a vivir con su padre, con quien no ha tenido ninguna relación y que se ha despreocupado totalmente de él, a la vez que se rompería totalmente cualquier lazo del menor con sus abuelos, pues se desconoce cualquier dato sobre el domicilio o residencia del padre en su país de origen.
+
+A fin de acreditar estos extremos, interesamos que sea oído el menor [NOMBRE DEL MENOR] y ofrecemos información testifical de las personas que indicamos en el otrosí, quienes conocen perfectamente la situación personal, familiar y social del menor.
+
+TERCERO.- Que a fin y efecto de evitar la sustracción del menor por parte de su padre, solicitamos que se adopten las medidas que se estimen convenientes, proponiéndose que se prohíba la expedición de pasaporte al menor y que se prohíba la salida del territorio nacional, salvo autorización judicial previa.
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- 1) COMPETENCIA. Son competentes las secciones civiles de los tribunales de instancia de esta ciudad, por ser el del domicilio del menor, conforme a lo dispuesto en el art. 87.2 de la Ley de Jurisdicción Voluntaria.
+
+SEGUNDO.- PROCEDIMIENTO. Debe seguirse el procedimiento de jurisdicción voluntaria regulado en los artículos 87 y siguientes de la Ley de Jurisdicción Voluntaria.
+
+TERCERO.- LEGITIMACIÓN. Esta parte está legitimada conforme a lo dispuesto en el art. 158 del Código Civil y art. 87.1 de la Ley de Jurisdicción Voluntaria, no siendo preceptiva la intervención de Abogado ni Procurador conforme al art. 85.3 LJV.
+
+CUARTO.- FUNDAMENTOS DE FONDO. El art. 158 del Código Civil establece, entre otras prescripciones, que el juez adoptará las medidas necesarias para evitar la sustracción de los hijos menores por algunos de los progenitores o por terceras personas y en general todas aquellas medidas para evitar peligro al menor o evitarle perjuicio, debiendo aplicarse este precepto teniendo en cuenta el prevalente interés del menor. En particular, conforme al art. 158.3º CC, puede adoptar las siguientes medidas: a) Prohibición de salida del territorio nacional, salvo autorización judicial previa; b) Prohibición de expedición del pasaporte al menor o retirada del mismo si ya se hubiere expedido; y c) Sometimiento a autorización judicial previa de cualquier cambio de domicilio del menor.
+
+Por lo expuesto,
+
+AL TRIBUNAL SUPLICO: Que tenga por presentado este escrito, lo admita, y por promovido expediente de jurisdicción voluntaria de medidas de protección en relación al menor, y practicadas las diligencias oportunas, con audiencia del menor, práctica de la información testifical interesada y con intervención del Ministerio Fiscal, y previos los demás trámites con arreglo a Derecho dicte resolución en forma de auto en la que se acuerde la adopción de las medidas necesarias para evitar la sustracción del menor [NOMBRE DEL MENOR] por su padre biológico [NOMBRE Y APELLIDOS], tal como se solicitan en el hecho tercero de este escrito.
+
+OTROSÍ PRIMERO DIGO que a efectos de comunicaciones designo el domicilio del letrado firmante de este escrito sito en [LOCALIDAD], así como la dirección de correo electrónico del mismo [CORREO ELECTRÓNICO] y el número de fax
+
+SUPLICO AL TRIBUNAL: tenga por hecha la citada designación de domicilio.
+
+OTROSÍ SEGUNDO DIGO: Que acreditar la certeza de los hechos relatados, solicito que sea oído el menor [NOMBRE DEL MENOR] y ofrezco los siguientes testigos que, por razón de su conocimiento de los hechos, pueden declarar sobre la situación del menor y el riesgo de sustracción por parte de su padre biológico:
+
+- D. [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD]
+
+-.
+
+SUPLICO AL TRIBUNAL: Tenga por propuestos a los testigos indicados, admitiendo la testifical ofrecida, comprometiéndose esta parte a que comparezcan en el día y hora que se señale.
+
+Es Justicia que insto en [LOCALIDAD].
+
+========================================================================

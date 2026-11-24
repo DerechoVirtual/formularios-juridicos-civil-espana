@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -67,8 +67,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
 
----
-
 ## Instrucciones para Claude
 
 ### Paso 0: Jurisprudenciator en esta skill (obligatorio)
@@ -103,15 +101,143 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+REUNIDOS
+
+DE UNA PARTE (repetir el párrafo si hay varias personas en esta parte),
+
+[NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ELEGIR: soltero/a / casado/a / divorciado/a / separado/a / viudo/a], de nacionalidad [NACIONALIDAD], con domicilio en [DOMICILIO], y [ELEGIR: DNI / pasaporte] número [Nº DE DOCUMENTO].
+
+[OPCIONAL — incluir si procede: en caso de estado civil casado/a]
+
+Casado/a con [NOMBRE Y APELLIDOS DEL CÓNYUGE], mayor de edad, con [ELEGIR: DNI / pasaporte] número [Nº DE DOCUMENTO], en régimen económico matrimonial de [ELEGIR: gananciales / separación de bienes].
+
+Y DE OTRA (repetir el párrafo si hay varias personas en esta parte),
+
+[NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ELEGIR: soltero/a / casado/a / divorciado/a / separado/a / viudo/a], de nacionalidad [NACIONALIDAD], con domicilio en [DOMICILIO], y [ELEGIR: DNI / pasaporte] número [Nº DE DOCUMENTO].
+
+[OPCIONAL — incluir si procede: en caso de estado civil casado/a]
+
+Casado/a con [NOMBRE Y APELLIDOS DEL CÓNYUGE], mayor de edad, con [ELEGIR: DNI / pasaporte] número [Nº DE DOCUMENTO], en régimen económico matrimonial de [ELEGIR: gananciales / separación de bienes].
+
+INTERVIENEN
+
+[ELEGIR UNA DE ESTAS ALTERNATIVAS Y SUPRIMIR LAS DEMÁS:]
+
+— Todas las partes en su propio nombre y representación.
+
+— [NOMBRE Y APELLIDOS], en su propio nombre y representación (repetir por cada parte que actúe en nombre propio).
+
+— [NOMBRE Y APELLIDOS DEL REPRESENTANTE], en nombre y representación de (repetir por cada representado):
+
+[ELEGIR UNA DE ESTAS ALTERNATIVAS Y SUPRIMIR LAS DEMÁS:]
+
+— (Si se trata de persona física) [NOMBRE Y APELLIDOS], mayor de edad, de nacionalidad [NACIONALIDAD], domiciliado/a en [DOMICILIO], con [ELEGIR: DNI / pasaporte] número [Nº DE DOCUMENTO].
+
+— (Si se trata de una persona jurídica) La compañía mercantil denominada [DENOMINACIÓN SOCIAL], domiciliada en [LOCALIDAD], calle [CALLE Y NÚMERO], con NIF núm. [NIF], inscrita en el Registro Mercantil de [PROVINCIA] [DATOS REGISTRALES: FOLIO, TOMO GENERAL DEL LIBRO DE SOCIEDADES, HOJA]. Hace uso de las facultades conferidas a su favor en calidad de [ELEGIR: administrador único / administrador solidario / consejero delegado / apoderado] de la sociedad indicada, cargo para el que fue nombrado/a en escritura otorgada ante el notario de [LOCALIDAD], [NOMBRE DEL NOTARIO], el [DÍA] de [MES] de [AÑO], con el número de orden de su protocolo [Nº DE PROTOCOLO], que causó inscripción en el Registro Mercantil de [PROVINCIA] [DATOS REGISTRALES: FOLIO, TOMO GENERAL DEL LIBRO DE SOCIEDADES, HOJA].
+
+Ambas partes se reconocen mutuamente con capacidad suficiente para otorgar el presente contrato de EJECUCIÓN DE OBRA y, a tal fin,
+
+EXPONEN
+
+Que han convenido realizar un contrato de ejecución de obra, el cual se regirá de acuerdo con las condiciones y pactos que se establecen en las siguientes
+
+CLÁUSULAS
+
+PRIMERA.- Objeto.
+
+Constituye el objeto del presente contrato [DESCRIPCIÓN DE LA OBRA] (repetir el párrafo por cada obra o fase).
+
+En todo caso, la obra a realizar se ajustará a las descripciones (planos y demás documentos) recogidos en el anexo I del presente contrato.
+
+SEGUNDA.- Precio.
+
+El precio total de la obra es de [IMPORTE] euros, a tenor de la valoración que se acompaña en el anexo II. En el precio se entienden incluidos todos los conceptos que integran o pueden integrar el coste, tales como salarios, transportes, cargas sociales, materiales consumibles, dietas por cualquier concepto y gravámenes de todo tipo.
+
+Asimismo, el precio indicado se entiende cerrado, no pudiendo sufrir revisiones por diferencias de coste de materiales ni por aumento de la mano de obra. El impuesto sobre el valor añadido no está incluido en el precio.
+
+TERCERA.- Pago.
+
+El pago del precio se realizará de la siguiente forma:
+
+a) [IMPORTE] euros, a cuenta del valor total, que se entregan en el presente acto por [NOMBRE Y APELLIDOS / DENOMINACIÓN SOCIAL DEL COMITENTE] a [NOMBRE Y APELLIDOS / DENOMINACIÓN SOCIAL DEL CONTRATISTA], quien los recibe a su entera satisfacción, sirviendo este documento como carta de pago de la expresada cantidad.
+
+b) El resto, hasta el total pago de la cantidad debida, [IMPORTE] euros ([IMPORTE EN LETRA] euros), mediante [Nº] abonos mensuales de [IMPORTE] euros, de [DÍA] a [DÍA] de [MES] de [AÑO].
+
+CUARTA.- Plazo de ejecución.
+
+La empresa [DENOMINACIÓN SOCIAL DEL CONTRATISTA] se compromete a realizar la referida obra en el plazo de [Nº] meses, contados a partir de la firma del presente contrato.
+
+Si, llegada la fecha prevista para la terminación de la obra, ésta no hubiera sido concluida, se establece una cláusula penal de indemnización de [IMPORTE] euros por día de demora, indemnización que deberá ser deducida de la cantidad a pagar en la última factura.
+
+QUINTA.- Ejecución directa.
+
+La empresa [DENOMINACIÓN SOCIAL DEL CONTRATISTA] se compromete a ejecutar por sí misma la obra contratada, no pudiendo subcontratarla a terceros sin previa y específica autorización de la empresa [DENOMINACIÓN SOCIAL DEL COMITENTE].
+
+SEXTA.- Obligaciones de las partes.
+
+La empresa [DENOMINACIÓN SOCIAL DEL CONTRATISTA] asume las siguientes obligaciones:
+
+a) Suministrar toda la mano de obra especializada y auxiliar necesaria para la realización de la obra.
+
+b) Aportar el utillaje, maquinaria, accesorios y materiales necesarios para la ejecución de los trabajos contratados.
+
+c) Permitir y favorecer las inspecciones que en cualquier momento desee efectuar la empresa [DENOMINACIÓN SOCIAL DEL COMITENTE].
+
+d) Informar a la empresa contratante sobre cualquier circunstancia que altere el programa de trabajo previsto o la calidad de la obra a realizar.
+
+Por su parte, la empresa [DENOMINACIÓN SOCIAL DEL COMITENTE] entregará a la empresa [DENOMINACIÓN SOCIAL DEL CONTRATISTA] toda la documentación necesaria para una correcta interpretación y ejecución del trabajo. A saber:
+
+a) Planos.
+
+b) Especificaciones técnicas.
+
+c) [OTROS DOCUMENTOS]
+
+SÉPTIMA.- Obligaciones laborales, fiscales y de Seguridad Social.
+
+La empresa [DENOMINACIÓN SOCIAL DEL CONTRATISTA], que por la presente manifiesta estar al día en sus obligaciones fiscales, con la Seguridad Social y con sus propios trabajadores, asume la responsabilidad plena para el pago de cuantas obligaciones se deriven de las relaciones de trabajo que tenga establecidas con el personal que desempeñe los servicios contratados.
+
+OCTAVA.- Garantía.
+
+La empresa [DENOMINACIÓN SOCIAL DEL CONTRATISTA] garantiza durante el plazo de [PLAZO DE GARANTÍA] los resultados de la obra realizada, de tal forma que la misma cumpla con todas las funcionalidades requeridas, comprometiéndose a subsanar cualquier defecto o anomalía de funcionamiento que pueda surgir durante ese plazo.
+
+NOVENA.- Resolución.
+
+La empresa [DENOMINACIÓN SOCIAL DEL COMITENTE] se reserva el derecho a resolver el presente contrato y suspender momentáneamente los trabajos, mediante notificación por escrito con [Nº] días de antelación, siempre que se den motivos de incumplimiento de plazos o defectos de calidad.
+
+DÉCIMA.- Legislación aplicable y arbitraje.
+
+Las partes contratantes se atendrán con carácter preferente a lo dispuesto en el presente contrato y, en su defecto, a lo establecido en el Código Civil y demás normas de aplicación.
+
+Cualquier controversia que surja entre las partes y que no sea resuelta entre las mismas de forma amistosa será finalmente decidida mediante arbitraje de equidad y conforme a las normas contenidas en la Ley 60/2003, de 23 de diciembre, de Arbitraje.
+
+Y en prueba de conformidad con cuanto antecede, se firma el presente contrato, compuesto de [Nº] folios, por duplicado y a un solo efecto, en el lugar y fecha antes indicados.
+
+Firmado: [NOMBRE Y APELLIDOS / DENOMINACIÓN SOCIAL DEL COMITENTE]	Firmado: [NOMBRE Y APELLIDOS / DENOMINACIÓN SOCIAL DEL CONTRATISTA]
+
+ANEXO I
+
+Planos y demás documentos: [RELACIÓN DE PLANOS Y DOCUMENTOS TÉCNICOS]
+
+ANEXO II
+
+Valoración de la obra: [VALORACIÓN DETALLADA DE LA OBRA]

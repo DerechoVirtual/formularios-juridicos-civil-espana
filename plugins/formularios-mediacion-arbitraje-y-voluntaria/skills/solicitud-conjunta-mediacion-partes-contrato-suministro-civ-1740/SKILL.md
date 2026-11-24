@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 16.1 Ley 5/2012
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,47 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA INSTITUCIÓN DE MEDIACIÓN DE [NOMBRE DE LA INSTITUCIÓN DE MEDIACIÓN]
+
+D. [NOMBRE Y APELLIDOS], mayor de edad, con DNI [DNI/NIE], y domiciliado en [DOMICILIO], C.P., calle [CALLE], núm. [Nº], piso [PISO], letra [LETRA], dirección electrónica [CORREO ELECTRÓNICO], y teléfono
+
+Y D. [NOMBRE Y APELLIDOS], mayor de edad, con DNI [DNI/NIE], y domiciliado en [DOMICILIO], C.P., calle [CALLE], núm. [Nº], piso [PISO], letra [LETRA], dirección electrónica [CORREO ELECTRÓNICO], y teléfono [TELÉFONO].
+
+EXPONEN
+
+Que actúan en su propio nombre o, en su caso, que D. actúa en su propio nombre y D. [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en virtud de copia electrónica del poder notarial de representación informática (o digitalizada) [DATOS DEL PODER NOTARIAL], habiendo convenido solicitar mediación de la institución [NOMBRE DE LA INSTITUCIÓN DE MEDIACIÓN], para dirimir la controversia que se expone a continuación, solicitando de forma expresa la designación de un mediador.
+
+Que la controversia que se ha planteado entre las partes deriva del contrato de suministro otorgado en fecha [DÍA] de [MES] de [AÑO], habiéndose producido en fecha [DÍA] de [MES] de [AÑO] la entrega de unas mercancías que el comprador entiende que no están en condiciones, planteándose la controversia sobre la calidad de las mercancías y la obligación del pago del precio que asciende a [IMPORTE] euros, la cual ambas partes quieren solucionar por la vía de la mediación.
+
+Que de conformidad con lo dispuesto en el art. 16.1 de la Ley 5/2012 ambas partes han acordado que el idioma en el que se sustanciará el procedimiento será el de la presente solicitud, y que las sesiones se desarrollarán en
+
+Que ambas partes asumen el coste de la mediación por mitad, ofreciendo la entrega de la correspondiente provisión de fondos tan pronto sea solicitada.
+
+Que ambas partes designan la dirección electrónica que consta en el encabezamiento como medio para la práctica de notificaciones.
+
+En virtud de lo expuesto,
+
+SOLICITAMOS DE LA INSTITUCIÓN, que tenga por formulada la presente y en su virtud, proceda a la designación de mediador, citando a las partes para la celebración de la sesión informativa, y continuar el procedimiento a fin de resolver la controversia que dejamos expuesta.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Firma de las partes
+
+========================================================================

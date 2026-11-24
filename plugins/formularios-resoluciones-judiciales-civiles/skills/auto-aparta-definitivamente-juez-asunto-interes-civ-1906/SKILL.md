@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 102.4 LEC
 - art. 102 LEC
 - art. 451 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,73 @@ Documento adapatado a la reforma orgánica de la LO 1/2025.
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AUTO
+
+Ilmo. Sr./a Magistrado-Juez D:/Dña. [NOMBRE Y APELLIDOS]
+
+En [LUGAR], a [FECHA].
+
+Dada cuenta del anterior oficio de la Sección [SECCIÓN] de la Audiencia Provincial de [LOCALIDAD], por el que se comunica que se ha admitido la abstención del proveyente, únase a los autos de su razón, y acúsese recibo.
+
+ANTECEDENTES DE HECHO
+
+Primero
+
+Con fecha [FECHA] se dictó auto decretando el proveyente la abstención para conocer del presente procedimiento, por hallarse incurso en la causa del n.º 10 del art. 219 LOPJ remitiéndose escrito razonado a la Ilma. Sra. Audiencia Provincial, que planteaba tal abstención.
+
+Segundo
+
+Se ha dictado el [FECHA] auto por la Sección [SECCIÓN] de la Audiencia Provincial, en que se ha estimado justificada la abstención decretada en el presente procedimiento, habiéndose participado a los efectos procedentes.
+
+FUNDAMENTOS DE DERECHO
+
+ÚNICO.-
+
+Preceptúa el art. 102.4 LEC que si se estimare justificada la abstención por el tribunal competente para decidir, el abstenido dictará auto apartándose definitivamente del conocimiento del asunto y ordenando remitir las actuaciones al que deba sustituirle.
+
+En este sentido, en las presentes actuaciones se dictó auto con fecha [FECHA DEL AUTO] en el que se acordaba la abstención para conocer de los presentes autos por concurrir la causa de interés indirecto en el pleito, habiéndose aceptado tal circunstancia por la Audiencia Provincial.
+
+Corresponde la remisión de las actuaciones al Magistrado-Juez de la Sección Civil del Tribunal de Instancia n.º [NÚMERO], que es a quien le corresponde la sustitución de este Tribunal en base a las normas aprobadas al respecto por la Sala de Gobierno del TSJ, a propuesta de la Junta de Jueces, manteniéndose la competencia de este Tribunal, aunque con sustitución de la persona del juzgador por parte del Magistrado citado.
+
+Por lo expuesto,
+
+PARTE DISPOSITIVA
+
+1.- D:/Dña. [NOMBRE Y APELLIDOS], Magistrado-Juez de la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO], SE APARTA definitivamente del conocimiento de los presentes autos de juicio ordinario seguidos a instancia de D:/Dña. [NOMBRE Y APELLIDOS] contra [ACTO O RESOLUCIÓN].
+
+2.- Remítanse los autos a conocimiento del Magistrado-Juez de la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] este partido, a quien legalmente le corresponde la sustitución.
+
+Una vez verificado, se acordará lo procedente en cuanto al alzamiento de la suspensión acordada en su día.
+
+3.- Comuníquese a las partes la abstención y sustitución operada, en los términos prevenidos en el n.º 5 del art. 102 LEC.
+
+La presente resolución se notificará a las partes, con indicación de que no es firme, y que contra la misma cabe formular, en el plazo de cinco días, recurso de reposición (arts. 451 a 454 LEC) ante este Tribunal.
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita
+
+Lo acuerdo, mando y firmo.
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Juez/a
+
+========================================================================

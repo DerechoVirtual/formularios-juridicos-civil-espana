@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Comunidades de propietarios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Comunidades de propietarios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -121,15 +119,51 @@ Finalmente, respecto a la contribución de los disidentes en el pago de las inde
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+ACTA
+
+Relación de personas asistentes y personas que ostentan representación.
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS], cuota de participación [PORCENTAJE], piso -, letra [LETRA]
+
+Representaciones acreditadas.
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS], D.N.I. nº [NÚMERO], representa a D./Dña. [NOMBRE Y APELLIDOS], cuota de participación [PORCENTAJE], piso [PISO], letra [LETRA]
+
+En [LOCALIDAD], a [FECHA], siendo las [Nº] horas queda constituida, en primera convocatoria, la Junta General Ordinaria, actuando en calidad de Presidente D./Dña. [NOMBRE Y APELLIDOS], y en calidad de Secretario D./Dña. [NOMBRE Y APELLIDOS], y promovida dicha convocatoria por el Presidente de la Comunidad D./Dña. [NOMBRE Y APELLIDOS]
+
+ORDEN DEL DIA
+
+.- Remoción de D./Dña. [NOMBRE Y APELLIDOS] del cargo de Administrador de esta Comunidad.
+
+Puesto a discusión, el Presidente invita a exponer el asunto al Sr./a. [NOMBRE Y APELLIDOS], que solicitó se incluyera en el orden del día de esta Junta, quien refiere la conveniencia de la remoción de D./Dña. [NOMBRE Y APELLIDOS] del cargo de Administrador de esta Comunidad por haber llevado a cabo las siguientes actuaciones
+
+Toma la palabra el Sr./a Administrador/a, rechazando los argumentos expuestos por el Sr./a [NOMBRE Y APELLIDOS] y manifestando [MANIFESTACIONES DEL ADMINISTRADOR]
+
+Interviene otro vecino a favor de esta propuesta, el Sr./a [NOMBRE Y APELLIDOS], diciendo que [MANIFESTACIONES DEL VECINO], y después de considerar suficientemente debatido el asunto, el Presidente acuerda que se proceda a su votación, después de la cual votan a favor de la remoción [PROPIETARIOS Y CUOTAS A FAVOR]; habiéndose obtenido la mayoría del total de los propietarios, que, a su vez, representan la mayoría de las cuotas de participación, queda removido de su cargo D./Dña. [NOMBRE Y APELLIDOS] como Administrador de esta Comunidad.
+
+No habiendo otros asuntos que tratar, se levanta la sesión por el Presidente a las [Nº] horas, disponiendo se notifique el acuerdo adoptado a los propietarios en la forma dispuesta en el artículo 9 de la Ley de Propiedad Horizontal.
+
+Extendiendo yo, el Secretario/a, la presente acta, que es leída, y considerándola conforme firman todos los asistentes, de lo que certifico.
+
+Firma del Presidente/a	Firma del Secretario/a

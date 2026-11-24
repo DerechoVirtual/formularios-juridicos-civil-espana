@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -46,8 +46,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 726 LEC
 - art. 744.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,69 @@ En cualquier caso, el plazo concedido para la contradicción se pone en veinte d
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AUTO
+
+En [LUGAR], a [FECHA].
+
+Juez Sr./a [NOMBRE Y APELLIDOS]
+
+ANTECEDENTES DE HECHO
+
+PRIMERO
+
+Por el Procurador/a Sr./a [NOMBRE Y APELLIDOS], en nombre y representación del Colegio de Administradores de Fincas Urbanas de [LOCALIDAD], demandante en el proceso principal, se ha solicitado el mantenimiento de la medida cautelar acordada en este juicio o su modificación, al tiempo que interponía recurso de apelación contra la sentencia dictada, que desestima íntegramente la demanda formulada contra la mercantil [DENOMINACIÓN SOCIAL], S.A.
+
+SEGUNDO
+
+Por providencia/diligencia de ordenación de [FECHA] se tuvo por interpuesto el recurso de apelación, y en esta pieza separada por diligencia de ordenación de la misma fecha se concedió audiencia por veinte días a la parte contraria, recurrida, S.A., que ha alegado en tiempo y forma, oponiéndose al mantenimiento o modificación solicitados.
+
+RAZONAMIENTOS JURÍDICOS
+
+PRIMERO
+
+La LEC parte de la admisión generalizada de la tutela jurisdiccional cautelar conforme al art. 726 LEC, y en estos autos se ha dispensado, previa audiencia de la parte demandada.
+
+Si el principio es el alzamiento cuando se desestima la pretensión que mereció tutela cautelar, debe entenderse que una suerte de parcial perseverancia de la apariencia de buen derecho debe concurrir para la excepcional posibilidad de mantenimiento de la medida cautelar del art. 744.1 LEC, porque ideológicamente el mismo órgano judicial pueda, al tiempo, desestimar en absoluto una pretensión y opinar que el órgano ‘ad quem’ pudiera revocar un argumento de lo sentenciado, y así, la pretensión sería estimable, al margen de la revocación, también para el órgano ‘a quo’. Ello puede acontecer con las desestimaciones de fondo por constatarse hechos excluyentes o extintivos, de tal manera que, negados en segunda instancia, el Tribunal mismo no viese hechos impeditivos de la acción.
+
+SEGUNDO
+
+No concurriendo tal excepción, el mantenimiento no procede, pero de cara a la adopción de otra medida distinta, que sirva para conjurar el peligro de retardo en segunda instancia, es decir, la eventualidad de que la sentencia de apelación que revoque la de instancia no sea eficaz, es dable acordar cautela de menor intensidad de gravamen para el sujeto pasivo, al tiempo que se mantiene la caución pensada para la medida más intensa, asegurativa del resarcimiento.
+
+Así, se entiende proceder la simple anotación de la demanda, que advierte del conflicto sin hacer peligrar situaciones ventajosas inmediatas para la parte contratante que desea valerse de la cláusula del contrato declarada válida.
+
+PARTE DISPOSITIVA
+
+Se acuerda el alzamiento de la medida cautelar la supresión temporal de la eficacia de la cláusula décima del contrato de [TIPO DE CONTRATO] por [DENOMINACIÓN SOCIAL] SA y la cancelación de su anotación preventiva en el Registro de Condiciones Generales.
+
+Se adopta, en su sustitución, la medida de anotación preventiva de la demanda de estos autos en el Registro de Condiciones Generales, a solicitud de la parte actora, con mantenimiento de la caución prestada por ésta.
+
+No se hace pronunciamiento sobre las costas de esta incidencia.
+
+La presente resolución no es firme, por cuanto pueden interponer Recurso de Apelación para ante la Iltma. Audiencia Provincial en el plazo de veinte días hábiles contados desde el siguiente de la notificación, y en que deberán exponer las alegaciones en que se base la impugnación, además de citar la resolución apelada y los pronunciamientos que impugna (arts. 455 y 458.2 LEC), careciendo tal recurso de efectos suspensivos de lo acordado.
+
+Para interponer el recurso será necesaria la constitución de un depósito de 50 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 02-Apelación. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15.ª de la LOPJ).
+
+No están obligados a constituir el depósito para recurrir los declarados exentos en la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+Así lo acuerdo, mando y firmo:
+
+Juez de Instrucción de [LOCALIDAD]
+
+Firma del Juez:

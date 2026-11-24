@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -46,8 +46,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 40.4 LEC
 - art. 41.2 LEC
 - art. 458.2 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -83,15 +81,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AUTO
+
+En [LUGAR], a [FECHA].
+
+Juez/a Sr./a [NOMBRE Y APELLIDOS]
+
+ANTECEDENTES DE HECHO
+
+PRIMERO
+
+Por el Procurador/a D./Dña. [NOMBRE Y APELLIDOS], en representación de [NOMBRE DEL REPRESENTADO/A], se ha presentado escrito acompañando testimonio de que se sigue causa criminal por supuesta falsedad de la letra de cambio que fundamenta la demanda de este juicio cambiario.
+
+SEGUNDO
+
+Se ha dado audiencia a la parte actora, que presentó la letra de cambio cuya falsedad se denuncia, para que renunciara o mantuviera su presentación, habiendo sostenido la procedencia de su aportación y prosecución del juicio.
+
+RAZONAMIENTOS JURÍDICOS
+
+ÚNICO.-
+
+Establece el art. 40.4 LEC que se ordenará la suspensión del proceso civil, sin esperar a la conclusión del procedimiento, tan pronto como se acredite la existencia de causa criminal sobre delito de falsedad de alguno de los documentos aportados, si puede ser decisivo para resolver sobre el fondo del asunto, como sucede en el presente caso, ya que consta testimonio de la incoación de Diligencias Previas por el la Sección de Instrucción del Tribunal de Instancia n.º [NÚMERO], admitiendo a trámite querella por falsedad en el documento mercantil que es el fundamento de la demanda de juicio cambiario, porque [MOTIVO] (se expondrán razones específicas o fundamentos referidos al supuesto concreto).
+
+PARTE DISPOSITIVA
+
+Se acuerda la suspensión de las actuaciones de este proceso, hasta que se acredite que el juicio criminal ha terminado o se encuentra paralizado por motivo que impida su normal continuación.
+
+Así lo dispongo, mando y firmo
+
+Firma del Juez:
+
+Contra esta resolución cabe interponer recurso de apelación ante la Audiencia Provincial y contra el auto dictado en apelación acordando o confirmando la suspensión no cabrá recurso alguno (arts. 41.2 y 455 LEC).
+
+El recurso de apelación se interpone por medio de escrito que se presenta ante el tribunal que sea competente para conocer del mismo, dentro del plazo de veinte días hábiles, contados desde el día siguiente de la notificación, exponiendo el apelante las alegaciones en que se base la impugnación, además de citar la resolución apelada y los pronunciamientos que impugna (art. 458.2 LEC).
+
+Para interponer el recurso será necesario la constitución de un depósito de 50 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 02-Apelación. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15.ª LOPJ).
+
+No están obligados a constituir el depósito para recurrir los declarados exentos en la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+========================================================================

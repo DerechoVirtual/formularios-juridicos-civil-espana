@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -46,8 +46,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 639 LEC
 - art. 639.4 LEC
 - art. 639.3 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,47 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [SEDE]
+
+Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación de Don [NOMBRE Y APELLIDOS], según tengo debidamente acreditado en los Autos de procedimiento de ejecución núm. [Nº DE PROCEDIMIENTO] del año [AÑO] seguidos ante este Tribunal a instancia de Don [NOMBRE Y APELLIDOS] y contra mi principal, y bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS] ante el Tribunal de Instancia de [SEDE], plaza n.º [Nº] comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que por medio del presente escrito y en la representación que ostento formulo OPOSICIÓN A LA TASACIÓN REALIZADA POR EL PERITO JUDICIAL, al amparo de lo dispuesto en el artículo 639.4 de la Ley de Enjuiciamiento civil, y dentro de los cinco días desde que el perito ha entregado la valoración de los bienes, pasando a realizar las siguientes
+
+ALEGACIONES
+
+PRIMERA.- Que la valoración del bien embargado efectuada por el perito no es ajustada a derecho al no haberse realizado por su precio de mercado, tal como prescribe el apartado tres del artículo 639 de la LEC.
+
+Tal como se constata del contenido del dictamen, no se ha realizado la valoración del bien embargado por el precio de mercado, puesto que se está valorando el bien con métodos de valoración previstos en la legislación para las expropiaciones o actuaciones urbanísticas, cuando es taxativo el mandato del art. 639 de la LEC en el sentido de que la valoración del bien ha de realizarse por el precio de mercado.
+
+Para desvirtuar el dictamen practicado por el perito designado judicialmente, y conforme autoriza el art. 639.4 de la LEC, acompaño como Documento núm. Uno informe suscrito por el perito tasador D. [NOMBRE Y APELLIDOS], en el que se expresa la valoración económica del bien objeto de avalúo, en función exclusivamente del precio de mercado del inmueble, resultando un importe de [IMPORTE] euros, que solicitamos que se fije como valoración definitiva a efectos de ejecución.
+
+SEGUNDA.- Asimismo, nos oponemos al valor tasado por el perito designado judicialmente, por cuanto, tratándose de bienes inmuebles, la valoración económica ha de realizarse sin tener en cuenta las cargas y gravámenes que pesan sobre ellos, tal como expresamente dispone el art. 639.3 de la LEC.
+
+Dicha prescripción resulta infringida en la valoración final del dictamen, por cuanto se reducen las cargas y gravámenes que pesan sobre el inmueble, lo cual no debe realizarse en el dictamen según dispone el art. 639.3 de la LEC, sin perjuicio de lo dispuesto en el art. 666.
+
+Por tanto, solicitamos que se determine como valoración definitiva el importe de [IMPORTE] euros, que es el que resulta acreditado conforme a las alegaciones realizadas por esta parte.
+
+Por lo expuesto,
+
+SUPLICO al Letrado de la Administración de Justicia del órgano al que me dirijo que habiendo presentado en tiempo el presente escrito con los documentos acompañados y con justificante de traslado a la otra parte, lo admita, tenga por realizadas las manifestaciones vertidas en el cuerpo del presente escrito, por formulada OPOSICIÓN A LA TASACIÓN REALIZADA POR EL PERITO JUDICIAL, y previos los trámites legales, dicte decreto determinando la valoración definitiva a efectos de ejecución, fijando la cantidad de [IMPORTE] euros.
+
+Es justicia que pido en [LUGAR Y FECHA]
+
+========================================================================

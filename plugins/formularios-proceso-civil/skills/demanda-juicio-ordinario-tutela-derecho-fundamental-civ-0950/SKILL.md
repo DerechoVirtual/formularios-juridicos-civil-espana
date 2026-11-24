@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 249.1.2.º LEC
 - art. 5.2 Ley Orgánica 1/2025
 - art. 394 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,69 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A] según designación que deriva del poder que se adjunta por medio de la presente formulo demanda de juicio ordinario sobre protección de los derechos fundamentales y en concreto del derecho a la inviolabilidad de la correspondencia contra D. [NOMBRE Y APELLIDOS] en base a los siguientes hechos y fundamentos de derecho:
+
+HECHOS
+
+ÚNICO.-Que mi mandante reside en [DOMICILIO] según resulta de la certificación del padrón municipal de habitantes que se aporta como documento n.º [NÚMERO] siendo vecino del mismo inmueble D. tal y como resulta de las actas de las reuniones de propietarios aportándose a título de ejemplo la de la última reunión como documento n.º [NÚMERO] Debido a unas malas relaciones de vecindad el Sr se dedica a retirar del buzón de mi principal la correspondencia con lo que no solamente perjudica la marcha de las actividades de mi principal, sino que obtiene pleno conocimiento de las mismas algo que se estima supone una intromisión en el derecho al secreto de las comunicaciones del art. 18.3 de la Constitución por lo que se solicitará que se abstenga de verificar tal actuación en el futuro así como a que indemnice a mi principal en los perjuicios morales que de ello se derivan y que se calculan en [IMPORTE] Euros.
+
+FUNDAMENTOS DE DERECHO
+
+Competencia
+
+Corresponde a los Tribunales de [LOCALIDAD] al ser el lugar en el que tiene su domicilio el demandado (art. 50 LEC).
+
+Legitimación
+
+Le corresponde a esta parte ante la condición de ofendido en su derecho al secreto de las comunicaciones (art. 10 LEC).
+
+Procedimiento
+
+Es el juicio ordinario con fundamento en el art. 249.1.2.º LEC al ser una demanda referente a un derecho fundamental cual es el del secreto de las comunicaciones del art. 18.3 de la Constitución.
+
+Cumplimiento de los requisitos de procedibilidad
+
+La presente demanda no está sujeta al previo intento de resolución de controversias en vía no jurisdiccional por tratarse de proceso excluido del requisito de procedibilidad de acuerdo con el art. 5.2 de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.
+
+Fondo de la reclamación
+
+El art. 18.3 de la Constitución que garantiza este derecho fundamental abriendo el art. 53 de la misma Constitución la vía de su tutela legal.
+
+Costas
+
+En materia de costas el art. 394 LEC señala que las de primera instancia se imponen a la parte que vea en primera instancia rechazadas sus pretensiones.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL: Que tenga por presentada la presente demanda con los documentos a ella adjuntos y por parte en la representación que ostento y tras la pertinente tramitación se dicte por ese Tribunal sentencia por la que: 1/Se ordene a D. a que en el futuro se abstenga de para nada recoger la correspondencia de mi principal con las consecuencias a ello inherentes en caso de incumplimiento incluyendo la posibilidad de incurrir en un delito de desobediencia a la autoridad judicial; 2/Se condene a [NOMBRE DE LA PARTE] a abonar a mi mandante la cantidad de [IMPORTE] Euros o la que el tribunal al que me dirijo tenga por conveniente todo ello con imposición de costas al demandado.
+
+OTROSÍ DIGO: Se fija la cuantía del presente procedimiento en [IMPORTE] Euros, importe de indemnización solicitada.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL se tenga por efectuada la anterior manifestación a los efectos pertinentes.
+
+a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

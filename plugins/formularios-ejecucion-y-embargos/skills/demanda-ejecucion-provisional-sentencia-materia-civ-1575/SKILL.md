@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 525 LEC
 - art. 539 LEC
 - art. 704 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -85,15 +83,57 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales obrando en nombre y representación del demandante D. [NOMBRE Y APELLIDOS] en virtud del poder notarial conferido y que consta unido por testimonio en las actuaciones del juicio ordinario núm. [Nº], ante el Tribunal comparezco y como mejor proceda en derecho formula SOLICITUD DE EJECUCIÓN PROVISIONAL de la sentencia definitiva dictada en el procedimiento de referencia en base a los siguientes:
+
+HECHOS
+
+I. Que en fecha [FECHA] este Tribunal dictó sentencia definitiva núm. [Nº] en el procedimiento ordinario núm. [Nº DE PROCEDIMIENTO] seguido a instancia de esta parte contra el demandado arrendatario D. [NOMBRE Y APELLIDOS], procedimiento en el que se ejercita la acción de resolución del contrato de arrendamiento suscrito entre ambas partes, por haber realizado aquél obras inconsentidas en la finca [FINCA] propiedad del demandante arrendador.
+
+II. La sentencia de condena estimatoria de la acción ejercitada señala literalmente en su FALLO [FALLO DE LA SENTENCIA].
+
+III. El arrendatario demandado D. [NOMBRE Y APELLIDOS], no estando de acuerdo con la citada sentencia, dentro del plazo legal ha interpuesto recurso de apelación contra la misma que se ha tenido por preparado por este Tribunal por resolución de fecha [FECHA].
+
+IV. En méritos de lo anteriormente expuesto, esta parte que ha obtenido una sentencia favorable en la instancia, interesa la EJECUCIÓN PROVISIONAL de la sentencia dictada y sin necesidad de prestar caución.
+
+FUNDAMENTOS DE DERECHO
+
+I. El art. 526 LEC permite la ejecución provisional de las Sentencias dictadas en primera instancia, sin someter la petición a plazo alguno y sin necesidad de prestar caución.
+
+II. Es competente el Tribunal al que me dirijo, en virtud de lo dispuesto en los arts. 524.2 y 545 LEC.
+
+III. Esta parte tiene legitimación para solicitar la ejecución provisional conforme a los arts. 526, 527 y 538 LEC, por cuanto que es la parte beneficiaria de los pronunciamientos de la sentencia estimatoria de la demanda.
+
+IV. La Sentencia es ejecutable provisionalmente por cuanto que se trata de un fallo de condena resolviendo un contrato de arrendamiento urbano condenando al demandado al desalojo de la finca. Tal materia no se halla dentro de los supuestos de exclusión de la ejecución provisional contemplados en el art. 525 LEC.
+
+V. En su virtud, habiéndose obtenido un pronunciamiento favorable en la instancia, habiéndose solicitado su ejecución provisional señalándose el título ejecutable y acreditada la legitimación de la parte ejecutante, se han cumplido los requisitos legales para acordarla.
+
+VI. Las costas procesales correrán a cargo de la parte ejecutada conforme a lo dispuesto en el art. 539 LEC.
+
+SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito con los documentos acompañados (en su caso, y sus copias), se sirva admitirlo, se tenga por solicitada la ejecución provisional de la Sentencia núm. [Nº] de fecha [FECHA] dictada por este Tribunal en el procedimiento ordinario núm. [Nº DE PROCEDIMIENTO] y, tras los trámites de rigor, se dicte el correspondiente Auto despachando la ejecución provisional acordando, en méritos de lo dispuesto en el art. 704 LEC, requerir al demandado D. [NOMBRE Y APELLIDOS] para que en el plazo de un mes computado a partir de la fecha de la notificación, desaloje la finca de autos haciendo entrega de las llaves y de la posesión a la parte demandante, bajo apercibimiento que transcurrido dicho plazo sin haberlo verificado, se procederá a su inmediato lanzamiento a cuyo efecto se interesa que en el propio Auto se señale día y hora al efecto. Todo ello con imposición de las costas de la ejecución a la parte ejecutada por imperativo legal del art. 539 LEC.
+
+SUPLICO: Se acuerde de conformidad.
+
+Es justicia que pido en [LUGAR Y FECHA].
+
+(Firma del Procurador y Abogado)
+
+========================================================================

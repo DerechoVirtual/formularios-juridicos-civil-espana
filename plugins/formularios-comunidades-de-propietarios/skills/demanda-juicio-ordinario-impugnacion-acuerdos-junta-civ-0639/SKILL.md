@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Comunidades de propietarios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Comunidades de propietarios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -55,8 +55,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 394 LEC
 - art. 253 LEC
 - art. 7.2 Ley 10/2012
-
----
 
 ## Instrucciones para Claude
 
@@ -92,15 +90,69 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE Q.P.T.R.C.
+
+D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A] según se acredita mediante apoderamiento apud-acta otorgado ante el Letrado de la Administración de Justicia de [LOCALIDAD] que acompaño (o mediante copia electrónica del poder notarial de representación informática [o digitalizada] que se acompaña y se solicita sea devuelta una vez testimoniada) por medio de la presente formulo demanda de juicio ordinario de impugnación del acuerdo adoptado en el apartado [Nº] de la Junta de Propietarios de fecha [FECHA], demanda que dirijo contra la Comunidad de Propietarios del edificio [DIRECCIÓN], con domicilio en [LOCALIDAD] en base a los siguientes
+
+HECHOS
+
+PRIMERO.- Mi mandante es titular de la vivienda sita en [LOCALIDAD] tal y como resulta de la escritura en virtud de la que la misma se adquirió y que se adjunta como documento n.º [NÚMERO] de esta demanda, vivienda integrada en la Comunidad de Propietarios demandada.
+
+SEGUNDO.- El pasado [FECHA] se celebró la Junta de la antes mencionada Comunidad en la que el punto del orden del día número [NÚMERO] se adoptó el siguiente acuerdo
+
+En la votación del acuerdo, mi mandante formuló voto en contra, reflejándose en el acta al efecto levantada esta circunstancia, no obstante lo que el acuerdo se aprobó. A tal efecto se adjunta como documento n.º [NÚMERO] copia del acta de tal Junta.
+
+TERCERO.- En el citado acuerdo número [NÚMERO] se fijó como porcentaje de participación de los comuneros en la obra que se acordaba realizar de reparación de la fachada cifrada en [IMPORTE] euros según el presupuesto que se aprobó sería distribuido entre todos por partes iguales, contraviniendo las cuotas de participación que se fijan en el título constitutivo y que aparece en la certificación del Registro de la Propiedad que se adjunta como documentos n.º [Nº DE DOCUMENTO]
+
+La distribución de los gastos comunes ha de sujetarse a los porcentajes correspondientes a las cuotas de participación y en este sentido el artículo 17.6 de la Ley de Propiedad Horizontal, establece que los acuerdos no regulados expresamente en el precepto que impliquen la aprobación o modificación de las reglas contenidas en el título constitutivo de la propiedad horizontal o en los estatutos de la comunidad, requerirán para su validez la unanimidad del total de los propietarios que, a su vez, representen el total de las cuotas de participación", de manera que el acuerdo impugnado es nulo por infringir dicha norma imperativa.
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- Competencia.-Corresponde a los Tribunales de [LOCALIDAD] al ser el lugar en el que se encuentra la finca (art. 52.1.8.º LEC).
+
+SEGUNDO.- Legitimación.-Le corresponde a esta parte la activa ante la condición de integrante de la comunidad y opuesto al acuerdo que se impugna (art. 10 LEC y art. 18.2 LPH).
+
+TERCERO.- Procedimiento.-Es el juicio ordinario con fundamento en el art. 249.1.7.º LEC al ser una demanda referente a una reclamación que un comunero formula frente a una comunidad de propietarios de un edificio en régimen de propiedad horizontal.
+
+CUARTO.- Cumplimiento de los requisitos de procedibilidad. Entiende esta parte, como ya se pronunció la Audiencia Provincial de Zaragoza, en su auto nº 206/2025, de 6 de octubre, que no cabe exigir el cumplimiento del requisito del MASC en las demandas de impugnación de acuerdos de la junta de propietarios dado el carácter imperativo de las normas aplicables al caso.
+
+QUINTO.- Acción ejercitada.-La de impugnación de acuerdos de la Junta de una Comunidad de Propietarios constituida en régimen de propiedad horizontal del art. 18 LPH.
+
+SEXTO.- Fondo de la reclamación.-El art. 18.1.a) declara que son impugnables los acuerdos adoptados por una Junta de Propietarios de un edificio constituido en régimen de propiedad horizontal cuando sean contrarios a la Ley y en este caso tal circunstancia se ha producido ya que con el acuerdo adoptado se ha modificado el título constitutivo estableciendo unas cuotas de contribución a los gastos distintas a las fijadas en el mismo sin la unanimidad que exige el art. 17.6 LPH, en su redacción por Ley 8/2013, de 26 de junio.
+
+SÉPTIMO.- En materia de costas el art. 394 LEC señala que las de primera instancia se imponen a la parte que vea en primera instancia rechazadas sus pretensiones.
+
+En base a lo anterior,
+
+SUPLICO AL TRIBUNAL: que tenga por presentada la presente demanda con los documentos a ella adjuntos y por parte en la representación que ostento se tenga por formulada demanda de acción de impugnación del acuerdo número [NÚMERO] adoptado por la Junta de la Comunidad de Propietarios del edificio sito en [LOCALIDAD] celebrada el [FECHA] y en su virtud se dicte sentencia por la que se declare nulo y sin ningún valor el acuerdo antes mencionado, todo ello con condena en costas a la demandada.
+
+OTROSÍ PRIMERO DIGO que de conformidad con lo previsto en el art. 253 LEC y a los efectos en el mismo previstos se fija la cuantía del presente procedimiento como indeterminada.
+
+OTROSÍ SEGUNDO DIGO.-Que estando la presente demanda sujeta al abono de la tasa por el ejercicio de la potestad jurisdiccional fijada por la Ley 10/2012, de 20 de noviembre, modificada por RDL 3/2013 y Ley 25/2015, de 28 julio, y desarrollada por Orden HAP/2662/2012, de 13 de diciembre, siendo mi representada personas jurídica no exenta de su pago, se acompaña a la presente demanda como documento nº [Nº DE DOCUMENTO] la correspondiente autoliquidación con el ejemplar para la Administración de Justicia debidamente validado y en el que consta el pago de la cantidad de 300 euros correspondiente a la cuota fija, sin que se incluya la cuota variable prevista en el artículo 7.2 de la Ley 10/2012 al haber sido declarado inconstitucional y nulo por la STC 140/2016, de 21 de julio.
+
+En virtud de lo anterior,
+
+SUPLICO AL TRIBUNAL que tenga por hechas las anteriores manifestaciones a los efectos pertinentes y por acompañado el documento justificativo del abono de la tasa.
+
+[NOMBRE Y APELLIDOS], a [DÍA] de [MES] de [AÑO]
+
+Firma Abogado	Firma Procurador
+
+========================================================================

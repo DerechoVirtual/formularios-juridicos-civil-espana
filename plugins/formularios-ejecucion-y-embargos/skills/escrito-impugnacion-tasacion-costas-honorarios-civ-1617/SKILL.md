@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 244.1 LEC
 - art. 1.138 CC
-
----
 
 ## Instrucciones para Claude
 
@@ -85,15 +83,73 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, que actúa en nombre y representación de [NOMBRE DEL REPRESENTADO/A], según consta acreditado en los autos de Juicio Ordinario [Nº DE PROCEDIMIENTO] seguidos con el número [NÚMERO] a instancias de D./Dña. [NOMBRE Y APELLIDOS] contra mi representada y [NOMBRE DE LA PARTE], ante el Tribunal comparezco y como mejor proceda en Derecho, digo:
+
+Que se ha dado vista a esta parte de la tasación de costas practicada por la Sra. Letrado/a de la Administración de Justicia en estos autos con fecha [FECHA], y dentro del término establecido en el art. 244.1 LEC, impugno por el presente la misma por considerar indebidamente incluidos los honorarios del Letrado/a D./Dña. [NOMBRE Y APELLIDOS], conforme a lo previsto en el art. 245.2 de dicha Ley Adjetiva. Y ello en base a los siguientes:
+
+HECHOS
+
+PRIMERO
+
+Mi mandante resulta deudora de la obligación del pago de las costas procesales a que se le condenó en sentencia de [FECHA], junto con [NOMBRE DE LA PARTE], pero ha cumplido voluntariamente el fallo.
+
+YY, S.L. es además deudora del pago de las costas que se han ocasionado en las diligencias para el cumplimiento de la ejecutoria, habiéndose despachado la ejecución de la deuda pecuniaria no satisfecha en providencia de [FECHA], y practicada diligencia de embargo —al fin suspendida— el día [FECHA] siguiente.
+
+Ello es posible porque hay una condena dineraria líquida principal que es solidaria para mi representada e [NOMBRE DE LA PARTE], la que se ha pagado, y otra de [IMPORTE] euros, que sólo afecta a esa última sociedad.
+
+SEGUNDO
+
+La condena en costas —ilíquida— no discriminaba, puesto que se imponía a la parte demandada (cualesquier número de litigantes siempre harán dos posiciones procesales, y una es la de parte demandada), y aunque el débito principal es solidario, el derivado por costas no se especificaba que lo fuera, por lo que mi representada [NOMBRE DEL REPRESENTADO/A] no debe más que el 50% de los honorarios del Letrado/a de la contraparte D./Dña. [NOMBRE Y APELLIDOS]
+
+TERCERO
+
+En todo caso, [NOMBRE DE LA PARTE] no debe las costas tasadas por la ejecución, ya que la sentencia ha tenido que ejecutarse por no haberse cumplido voluntariamente por [NOMBRE DE LA PARTE] en su porción de deuda no solidarizada con la primera.
+
+FUNDAMENTOS DE DERECHO
+
+I
+
+Art. 246.4 LEC, para su tramitación por el procedimiento señalado de audiencia a la otra parte por tres días, y resolución por el Letrado/a de la Administración de Justicia judicial en tres días mediante decreto.
+
+II
+
+Art. 539.2 II LEC, conforme al que las costas de la ejecución proceden de la norma, sin precisión de expresa condena en la resolución judicial, siendo que no media ejecución respecto de mi mandante, que ha cumplido pacíficamente con su obligación.
+
+III
+
+El art. 1.138 CCiv, según el que nuestro Derecho de obligaciones presume la mancomunidad de obligaciones, siendo que la solidaridad, también en el campo de las costas, tiene que especificarse.
+
+IV
+
+El art. 243.2 párrafo 1.º LEC, que relaciona entre las partidas que no debe incluir el Letrado/a de la Administración de Justicia judicial los derechos correspondientes a escritos o actuaciones no autorizadas por la Ley, u honorarios que no se hayan devengado en el pleito.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito, lo admita y una a los autos, teniendo por impugnada la tasación de costas practicada en estos autos por concepto de INDEBIDA la inclusión de los honorarios del Letrado/a D./Dña. [NOMBRE Y APELLIDOS], en lo que excedan del cincuenta por ciento de los correspondientes a la fase declarativa, y previos los trámites oportunos, se dicte decreto que estime la impugnación y reduzca la partida, aprobando la tasación reducida a la cantidad resultante de [IMPORTE] euros ([IMPORTE EN CIFRA] €), con expresa condena en costas del incidente a la parte que se oponga.
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,227 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+SOLICITUD DE DERECHO DE VISITA
+
+AUTORIDAD CENTRAL REQUIRENTE
+
+AUTORIDAD CENTRAL REQUERIDA O SOLICITANTE
+
+SOLICITUD (Naturaleza y artículos relevantes del Convenio):
+
+referente al menor.
+
+1º) [PETICIÓN]
+
+2º) [PETICIÓN]
+
+3º) [PETICIÓN]
+
+4º) [PETICIÓN]
+
+cumplirá la edad de 16 años el:
+
+1º) [FECHA] 2º) [FECHA]
+
+3º) [FECHA] 4º) [FECHA]
+
+A.INFORMACIÓN GENERAL.
+
+Datos personales del menor/es y de sus padres.
+
+1. Menor.
+
+Nombre:
+
+1º) [NOMBRE DEL MENOR]
+
+2º) [NOMBRE DEL MENOR]
+
+3º) [NOMBRE DEL MENOR]
+
+Apellidos:
+
+1º) [APELLIDOS DEL MENOR] 2º) [APELLIDOS DEL MENOR]
+
+3º) [APELLIDOS DEL MENOR] 4º) [APELLIDOS DEL MENOR]
+
+Fecha y lugar de nacimiento:
+
+1º) [FECHA Y LUGAR DE NACIMIENTO] 2º) [FECHA Y LUGAR DE NACIMIENTO]
+
+3º) [FECHA Y LUGAR DE NACIMIENTO] 4º) [FECHA Y LUGAR DE NACIMIENTO]
+
+Nacionalidad:
+
+1º) [NACIONALIDAD] 2º) [NACIONALIDAD]
+
+3º) [NACIONALIDAD] 4º) [NACIONALIDAD]
+
+Sexo:
+
+1º) [SEXO] 2º) [SEXO]
+
+3º) [SEXO] 4º) [SEXO]
+
+Residencia habitual:
+
+1º) [RESIDENCIA HABITUAL] 2º) [RESIDENCIA HABITUAL]
+
+3º) [RESIDENCIA HABITUAL] 4º) [RESIDENCIA HABITUAL]
+
+Pasaporte o documento de identidad núm. [Nº]
+
+1º) [Nº DE DOCUMENTO] 2º) [Nº DE DOCUMENTO]
+
+3º) [Nº DE DOCUMENTO] 4º) [Nº DE DOCUMENTO]
+
+Señas personales y fotografía
+
+1º) [SEÑAS PERSONALES]
+
+2º) [SEÑAS PERSONALES]
+
+3º) [SEÑAS PERSONALES]
+
+2. Padres:
+
+2.1. Madre:
+
+Nombre:
+
+Apellidos:
+
+Fecha y lugar de nacimiento:
+
+Nacionalidad o nacionalidades:
+
+Profesión:
+
+Residencia habitual:
+
+Pasaporte o Documento de Identidad núm. [Nº]:
+
+2.2. Padre:
+
+Nombre:
+
+Apellidos:
+
+Fecha y lugar de nacimiento:
+
+Nacionalidad o nacionalidades:
+
+Profesión:
+
+Residencia habitual:
+
+Pasaporte o Documento de Identidad núm. [Nº]:
+
+2.3. Fecha y lugar de celebración del matrimonio:
+
+2.4. Fecha y lugar de la sentencia de divorcio si la hubiere:
+
+Datos personales del individuo o institución del solicitante:
+
+Nombre:
+
+Apellidos:
+
+Nacionalidad (si es persona física):
+
+Profesión (del individuo):
+
+Dirección:
+
+Pasaporte o Documento de Identidad núm. [Nº]:
+
+Relación con el menor:
+
+Nombre y dirección del Abogado o Asesor Jurídico, si lo hubiera:
+
+Bases de hecho o legales que justifican la solicitud:
+
+Procedimientos civiles en curso o que serán iniciados:
+
+B. INFORMACIÓN ADICIONAL.
+
+Lugar donde se supone que se encuentra el menor:
+
+5.1) Datos de la persona que supuestamente haya sustraído o retenido ilícitamente al menor o a los menores:
+
+Nombre:
+
+Apellidos:
+
+Fecha y lugar de nacimiento:
+
+Nacionalidad:
+
+Profesión:
+
+Relación con el menor:
+
+Último domicilio conocido:
+
+Pasaporte o Documento de Identidad núm:
+
+Señas personales y fotografía (véanse anexos):
+
+5.2) Dirección del menor o de los menores:
+
+5.3) Otras personas que pudieran proporcionar información complementaria en relación con el paradero del menor o de los menores:
+
+Lugar, fecha y circunstancias en que tuvo lugar la sustracción o retención indebida:
+
+El menor debe ser devuelto a efectos del derecho de visita:
+
+Nombre:
+
+Apellidos:
+
+Fecha y lugar de nacimiento:
+
+Dirección:
+
+Número de Teléfono:
+
+Propuesta en cuanto a las condiciones en que deberá llevarse a cabo el derecho devisita:
+
+C. OTRAS CUESTIONES. AUTRES QUESTIONS. OTHER QUESTIONS.
+
+Otras observaciones:
+
+Relación de los documentos que se acompañan.
+
+Fecha: Lugar:
+
+Firma y/o sello de la Autoridad Central Requirente o del solicitante.
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+con profesión [PROFESIÓN] y domiciliada en:
+
+AUTORIZA, según lo exigido en el artículo 28 del Convenio sobre los Aspectos Civiles de la Sustracción Internacional de Menores y artículo 13 párrafo 1 (a) del Convenio Europeo de Reconocimiento y Ejecución de decisiones en Materia de Custodia de Menores y Restablecimiento de dicha Custodia, a la AUTORIDAD CENTRAL DEL ESTADO [PAÍS REQUERIDO] o a la persona designada por esta Autoridad Central para actuar en mi nombre.
+
+Lugar, [LOCALIDAD] Día, [Nº] mes, [MES] año, [AÑO]
+
+FIRMADO:
+
+========================================================================

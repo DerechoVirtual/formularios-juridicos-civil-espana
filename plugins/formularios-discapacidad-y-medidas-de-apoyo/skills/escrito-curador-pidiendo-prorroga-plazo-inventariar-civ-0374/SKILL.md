@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 285 Código Civil
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,63 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+SECCIÓN CIVIL [O DE FAMILIA, INFANCIA Y CAPACIDAD] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+Expediente de Jurisdicción Voluntaria n.º [Nº DE PROCEDIMIENTO]
+
+A LA SECCIÓN CIVIL [O DE FAMILIA, INFANCIA Y CAPACIDAD] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D./Dª [NOMBRE Y APELLIDOS DEL PROCURADOR/A], Procurador/a de los Tribunales, y de D./Dª [NOMBRE Y APELLIDOS DEL CURADOR], mayor de edad, con DNI/NIF [DNI/NIF] y domicilio en [DOMICILIO], como curador de D./Dª [NOMBRE Y APELLIDOS DE LA PERSONA SUJETA A CURATELA], ante el Tribunal comparezco y, como mejor proceda en Derecho,
+
+DIGO:
+
+Que por medio del presente escrito, con base en lo dispuesto en el art. 285 del Código Civil, SOLICITO PRÓRROGA DEL PLAZO FIJADO PARA REALIZAR EL INVENTARIO DE LOS BIENES DE LA PERSONA SUJETA A CURATELA, conforme a los siguientes
+
+HECHOS
+
+PRIMERO.- Fui nombrado curador con facultades representativas de D./Dª [NOMBRE Y APELLIDOS DE LA PERSONA SUJETA A CURATELA] por este Tribunal, por auto de fecha [DÍA] de [MES] de [AÑO], aceptando el cargo por acta de fecha [DÍA] de [MES] de [AÑO], tras lo cual se me dio posesión del mismo.
+
+SEGUNDO.- Por resolución dictada el día [DÍA] de [MES] de [AÑO] fui requerido para la aportación del inventario de los bienes de la persona sujeta a curatela en el plazo máximo de [PLAZO] días.
+
+TERCERO.- Encontrándose a punto de vencer el plazo para realizar el inventario, he tenido conocimiento, [MEDIO DE CONOCIMIENTO: p. ej., a través de una conversación telefónica mantenida con D./Dª [NOMBRE Y APELLIDOS], vecino/a de [LOCALIDAD]], localidad en que se halla ubicado [DESCRIPCIÓN DEL BIEN: p. ej., una antigua casa propiedad de la persona sujeta a curatela por haberla heredado de su padre], de los siguientes hechos: [DESCRIPCIÓN DE LOS HECHOS QUE JUSTIFICAN LA PRÓRROGA: p. ej., que en dicho inmueble podrían encontrarse diversos objetos de valor ocultos en una habitación, cuyo acceso podría pasar desapercibido a quienes no conocieran bien la casa].
+
+CAUSA DE LA SOLICITUD.- Con el fin de comprobar la información recibida y completar, en su caso, el inventario, es conveniente que me traslade a [LOCALIDAD] y lo inspeccione personalmente, para lo cual necesito disponer de no menos de [Nº] días, lo que alego como causa en la que sustento mi solicitud de prórroga del plazo para realizar el inventario.
+
+CUARTO.- En el caso de encontrarse los objetos valiosos a los que alude la información recibida y a la vista de sus características, es posible que los mismos no deban quedar en mi poder, sino que deban ser depositados en un establecimiento destinado a este efecto, conforme a lo dispuesto en el art. 285 del Código Civil.
+
+Son aplicables a los hechos expuestos los siguientes
+
+FUNDAMENTOS DE DERECHO
+
+I.- Los apartados I y III del art. 285 del Código Civil, que regulan el plazo para hacer inventario de los bienes de la persona sujeta a curatela y la posibilidad de prórroga del mismo.
+
+II.- El apartado IV del art. 285 del Código Civil, que dispone: "El dinero, alhajas, objetos preciosos y valores mobiliarios o documentos que, a juicio del Letrado de la Administración de Justicia, no deban quedar en poder del curador serán depositados en un establecimiento destinado a este efecto", añadiendo el apartado V del mismo artículo que "Los gastos que las anteriores medidas ocasionen correrán a cargo de los bienes de la persona en cuyo apoyo se haya establecido la curatela".
+
+III.- El art. 47 de la Ley de la Jurisdicción Voluntaria, relativo a los trámites procesales relativos a la formación de inventario.
+
+IV.- Iura novit curia y los demás que resulten procedentes.
+
+En virtud de lo expuesto,
+
+SUPLICO AL TRIBUNAL: Que, teniendo por presentado este escrito, se sirva admitirlo y, estimando lo que en él se solicita, acuerde el Letrado de la Administración de Justicia la prórroga del plazo inicialmente señalado para realizar el inventario de los bienes de la persona sujeta a curatela por [Nº] días adicionales, o los que considere convenientes a la vista de los hechos expuestos.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma y número de colegiado del Letrado Firma del Procurador

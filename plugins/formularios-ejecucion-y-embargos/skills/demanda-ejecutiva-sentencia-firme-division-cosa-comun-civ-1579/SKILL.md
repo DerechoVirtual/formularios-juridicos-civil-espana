@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -57,8 +57,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 549 LEC
 - art. 583 LEC
 - art. 656 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -95,15 +93,83 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a. de los Tribunales, que actúa en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], según tengo acreditado, junto con la dirección letrada y las circunstancias personales, en los autos de Juicio ordinario n.º [NÚMERO], seguidos a instancias de D./Dña. [NOMBRE Y APELLIDOS] frente a D./Dña. [NOMBRE Y APELLIDOS], ante el Tribunal comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que mediante el presente escrito formulo DEMANDA EJECUTIVA de título judicial de sentencia de condena firme sobre declaración de indivisibilidad y venta de finca rústica en pública subasta, contra D./Dña. [NOMBRE Y APELLIDOS], domiciliado en esta ciudad, calle [CALLE], n.º [NÚMERO], cuyas circunstancias constan en los autos principales, donde se halla personada, fundamentando dicha pretensión en los siguientes:
+
+HECHOS
+
+PRIMERO.- El pasado día [FECHA] por el Tribunal al que me dirijo se dictó sentencia cuya parte dispositiva es del tenor literal siguiente: "FALLO: Que estimando la demanda formulada por D./Dña. [NOMBRE Y APELLIDOS], representado por el Procurador/a. Sr./a. [NOMBRE Y APELLIDOS], contra D./Dña. [NOMBRE Y APELLIDOS], representado por el Procurador/a. Sr./a. [NOMBRE Y APELLIDOS], debo declarar y declaro disuelta la comunidad de bienes o copropiedad existente entre las partes litigantes sobre la finca registral n.º [NÚMERO] del Registro de la Propiedad n.º [NÚMERO] de [LOCALIDAD], inscrita al tomo [TOMO], folio [FOLIO] y, siendo indivisible, debe procederse a su venta en pública subasta, con admisión de licitadores externos, debiendo repartirse el precio, una vez deducidos los gastos que se produzcan, a cargo de ambos partes, por mitad.".
+
+SEGUNDO.- Dicha sentencia ha devenido firme tras la desestimación del recurso de apelación fallado por la Sección [SECCIÓN] de la Audiencia Provincial de [LOCALIDAD], habiendo transcurrido más de veinte días desde que se notificó la resolución de condena al demandado.
+
+FUNDAMENTOS DE DERECHO
+
+I.- COMPETENCIA.
+
+Corresponde la competencia para conocer de esta ejecución al Tribunal que nos dirigimos, conforme a la regla que aúna en la funcional, toda la demás específica, objetiva y territorial, determinada en el art. 545.1 LEC, puesto que fue el que dictó la sentencia que se ejecuta.
+
+II.- CAPACIDAD Y LEGITIMACIÓN.
+
+Se cumplen los requisitos de capacidad, en tanto que personas físicas ejecutante y ejecutado, que fueron partes en el proceso declarativo del que surge la ejecutoria, legitimadas conforme al art. 538.1 LEC.
+
+III.- POSTULACIÓN.
+
+Conforme a lo dispuesto en el art. 539.1 LEC, la demanda viene firmada por abogado y Procurador/a., ya que estamos ante la ejecución de una resolución dictada en un proceso en que es preceptiva la intervención de dichos profesionales.
+
+IV.- TÍTULO DE EJECUCIÓN.
+
+El art. 517.2.1.º LEC enumera como uno de los títulos que lleva aparejada ejecución la sentencia de condena firme, como la que sirve de fundamento a esta demanda.
+
+V.- REQUISITOS TEMPORALES.
+
+La resolución de condena se ha notificado al ejecutado hace más de veinte días (art. 548 LEC) y la demanda ejecutiva se ha interpuesto sin que hayan transcurrido los cinco años siguientes a la firmeza de la sentencia, que el art. 518 LEC fija como de caducidad de la acción ejecutiva.
+
+VI.- REQUISITOS FORMALES.
+
+La presente demanda contiene todos los requisitos enumerados en el art. 549 LEC, ya que se ha indicado cual es el título en que se funda, la tutela ejecutiva que se pretende y las personas frente a las que se interesa el despacho de la ejecución.
+
+VII.- COSTAS.
+
+En materia de imposición de costas resultan de aplicación los arts. 583, 394, 539 y 561 LEC que la prevén a cargo de la parte ejecutada., para el caso de que se opusiere a la ejecución interesada.
+
+Por todo ello,
+
+SUPLICO AL TRIBUNAL:
+
+Que teniendo por presentado este escrito junto con su copia, se sirva admitirlo, ordenando se entiendan conmigo las sucesivas diligencias y en nombre de mi patrocinado se tenga por presentada demanda ejecutiva contra D./Dña. [NOMBRE Y APELLIDOS], y siendo firme la sentencia dictada en el juicio de [TIPO DE PROCEDIMIENTO] n.º [NÚMERO], se proceda a su ejecución forzosa, acordándose despachar ejecución en la forma ordenada por la Ley, una vez examinados los requisitos y presupuestos procesales, el título ejecutivo y los actos de ejecución que se solicitan, así como la propia competencia y, en consecuencia, proceder a la venta en pública subasta de la finca descrita en el hecho primero de la demanda, tal y como determina la sentencia dictada en los presentes autos, celebrándose dicha subasta de conformidad con los arts. 655 y ss. LEC. Todo ello con imposición de las costas al ejecutado que se opusiera.
+
+Es Justicia de hacerse en [LUGAR], a [FECHA].
+
+PRIMER OTROSÍ DIGO: Que conforme a lo dispuesto en el art. 656 LEC procede que el Tribunal libre mandamiento al Registro de la Propiedad de [LOCALIDAD], a fin de que remita al Tribunal certificación de dominio y cargas de la finca descrita en el hecho primero de la demanda.
+
+SEGUNDO OTROSÍ DIGO: Que con arreglo a lo dispuesto en los arts. 666, y 637 y ss. LEC procede sea valorada la finca a subastar, debiendo ser nombrado, en su consecuencia, un PERITO TASADOR del inmueble referido.
+
+De conformidad con lo anteriormente expuesto,
+
+SUPLICO AL TRIBUNAL que, teniendo por hechas las anteriores manifestaciones, se sirva admitirlas, interesando, desde este momento, se practiquen tales diligencias, como es Justicia que reitero en lugar y fecha "ut supra".
+
+Por ser de Justicia que pido en [LUGAR], a [FECHA].
+
+Firma de Abogado/a	Firma de Procurador/a
+
+========================================================================

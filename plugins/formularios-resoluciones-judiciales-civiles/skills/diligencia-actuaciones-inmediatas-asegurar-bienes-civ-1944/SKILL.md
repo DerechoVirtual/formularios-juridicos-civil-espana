@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -42,8 +42,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -79,15 +77,39 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+DILIGENCIA DE ACTUACIONES SR./A. LETRADO DE LA ADMINISTRACIÓN DE JUSTICIA
+
+En [LOCALIDAD], a [FECHA], se constituye S.Sª Iltma. ante mí el LAJ, acompañados del Agente judicial, y estando presentes el cerrajero reclutado al efecto, D. [NOMBRE Y APELLIDOS], y Dña. [NOMBRE Y APELLIDOS], empleada doméstica del finado D./Doña [NOMBRE Y APELLIDOS], en la casa que fuera de éste, y por medio de la llave que porta la indicada Sra. [NOMBRE Y APELLIDOS], se accede a la misma, y una vez efectuadas las operaciones mecánicas por el cerrajero a fin de poder abrir la caja fuerte que se encuentra empotrada en la pared del salón, se practican las siguientes diligencias:
+
+1.- Se dejan en el cajón más amplio de la mesa del despacho las escrituras, una libreta de ahorros y dos talonarios de cheques, tres libretas con apuntes, dos archivadores de documentos, y varios objetos de valor de pequeño tamaño (reloj de oro, gemelos, prendedor, etc. [DESCRIPCIÓN DE LOS BIENES]), bajo llave y poniendo precinto con el sello del Tribunal.
+2.- Se depositan en poder de Don/Dña. [NOMBRE Y APELLIDOS], que queda con llave de la vivienda, y para que conserve y mantenga en la casa, los bienes que se describen:
+
+( [DESCRIPCIÓN DE LOS BIENES])
+
+La depositaria manifiesta aceptar el cargo y se compromete a desempeñarlo bien y fielmente, haciéndose cargo de los reseñados bienes.
+
+3.- Se toman por el LAJ la cantidad de [IMPORTE] euros, y los billetes de moneda extranjera ( [IMPORTE]) encontrado en metálico en la dicha caja fuerte, con objeto de ser todo ingresado en la cuenta de depósitos y consignaciones del Tribunal, en la referencia del presente juicio.
+4.- Se toma nota de las cuentas bancarias que resultan de los documentos guardados, y de la noticia de la Sra [NOMBRE Y APELLIDOS] sobre las rentas inmobiliarias que conocía percibir el difunto D [NOMBRE Y APELLIDOS], constituyéndola S.Sª Iltma. en administradora de urgencia para caso de que fueran pagadas rentas en la casa o se pusieran en contacto con la misma los inquilinos, debiendo ingresar los productos en la cuenta del Tribunal.
+
+Con ello se da por terminada la presente, que leída, encuentran conforme y firman con S.Sª Iltma. todos los asistentes.
+
+Firma del Juez/a	Firma del Letrado/a de la Administración de Justicia
+
+========================================================================

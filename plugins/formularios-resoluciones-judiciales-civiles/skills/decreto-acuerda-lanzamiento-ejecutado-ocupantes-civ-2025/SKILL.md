@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 703 LEC
 - art. 704 LEC
 - art. 712 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,55 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+DECRETO DEL/DE LA LETRADO/A DE LA ADMINISTRACIÓN DE JUSTICIA
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Sr./a. Letrado/a de la Administración de Justicia [NOMBRE Y APELLIDOS]
+
+ANTECEDENTES DE HECHO
+
+PRIMERO.- Por el/la Procurador/a D./Dña. [NOMBRE Y APELLIDOS], en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], se formuló demanda ejecutiva, que fue registrada con el número [Nº DE PROCEDIMIENTO] / [AÑO], frente a D./Dña. [NOMBRE Y APELLIDOS], con la finalidad de que el ejecutado hiciera entrega al ejecutante de un bien inmueble. Fundamentaba su petición en la sentencia firme dictada por este Tribunal en fecha [FECHA], cuya parte dispositiva era del tenor literal siguiente: [TRANSCRIPCIÓN DE LA PARTE DISPOSITIVA].
+
+SEGUNDO.- Por el ejecutante se ha solicitado el lanzamiento del ejecutado y de las personas que con él conviven, ya que no han desalojado voluntariamente el bien inmueble objeto de la presente ejecución.
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- La parte ejecutante, de conformidad con lo dispuesto en los artículos 703 y 704 de la LEC, ante la no entrega del inmueble objeto del título base de la ejecución instada en su día, en el plazo concedido, un mes al ser vivienda habitual según consta en las actuaciones y no haber solicitado prórroga del mismo, tal y como faculta el artículo 704 de la LEC [OPCIONAL — si ha lugar] (o tras haberla solicitado, habérsele concedido y transcurrido el plazo), ha solicitado que se proceda al lanzamiento del ejecutado-ocupante y de quienes con él convivan, al no haber desalojado aquél.
+
+SEGUNDO.- Concurren en este supuesto las exigencias legales contenidas en los artículos antes referidos, por lo que procede acordar el lanzamiento de [NOMBRE Y APELLIDOS] y de las personas que con él convivan. Debiéndose, en el supuesto de que se compruebe en el lanzamiento la existencia de desperfectos en el inmueble originados por el ejecutado o sus ocupantes, retener bienes del ejecutado que se constituirán en depósito a fin de que respondan de los daños y perjuicios causados, los que se liquidarán en su caso y a petición del ejecutante, de conformidad con lo previsto en los artículos 712 y siguientes LEC.
+
+PARTE DISPOSITIVA
+
+En atención a todo lo anterior SE ACUERDA tener por presentado el anterior escrito y, conforme a lo solicitado, procédase de inmediato al lanzamiento del ejecutado y los ocupantes que con él convivan en el inmueble objeto de la ejecución, sito en [DOMICILIO DEL INMUEBLE], señalándose a tal efecto el próximo día [FECHA] a las [HORA] horas, reiterándole que en ese momento, si no lo hubiera hecho, deberá retirar las cosas que no sean objeto del título y, si no lo hiciera, se considerarán bienes abandonados a todos los efectos.
+
+Si en el acto del lanzamiento se apreciaran desperfectos ocasionados por el ejecutado o sus ocupantes, se acuerda que se proceda a la retención y constitución en depósito de bienes suficientes del posible responsable, para responder de los daños y perjuicios causados, que se liquidarán a petición del ejecutante.
+
+Así lo acuerdo y firmo:
+
+Por ser de justicia, lo pido en [LOCALIDAD], a [FECHA].
+
+Firma del Letrado/a de la Administración de Justicia:
+
+Contra esta resolución cabe interponer recurso de reposición, mediante escrito ante el/la Letrado/a de la Administración de Justicia que se presenta dentro de los cinco días hábiles siguientes al de notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
+
+Para interponer el recurso será necesaria la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [Nº DE GRUPO] con el número [Nº DE CUENTA], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15.ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.

@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 9.4 LOPJ
 - art. 394.2 LEC
 - art. 394 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -87,15 +85,51 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+PROCESO NÚMERO [Nº DE PROCEDIMIENTO]
+
+A LA AUDIENCIA PROVINCIAL DE [PROVINCIA]
+
+Don/Doña [NOMBRE Y APELLIDOS DEL PROCURADOR/A], Procurador/a de los Tribunales, en nombre y representación de Don/Doña [NOMBRE Y APELLIDOS DEL APELANTE], parte demandante en este proceso seguido con el número [Nº DE PROCEDIMIENTO], según tengo acreditado en autos, ante la Sala comparezco y como mejor proceda en Derecho, DIGO:
+
+Que esta representación ha sido emplazada en fecha [FECHA] para oposición a la impugnación de la sentencia realizada por la parte apelada en su escrito de fecha [FECHA], por lo que, de conformidad con lo dispuesto en el art. 461.4 de la LEC, mediante el presente escrito me opongo a la impugnación en base a los siguientes
+
+MOTIVOS
+
+PRIMERO.- Nos oponemos al correlativo alegado por la parte apelada, que versa sobre la falta de jurisdicción del orden civil para el conocimiento del asunto.
+
+Para fundar su impugnación la parte apelada alega la aplicación del art. 9.4 de la LOPJ, en su redacción por Ley Orgánica 19/2003, sin tener en cuenta que el presente proceso se inició con anterioridad a la entrada en vigor de la citada ley, por lo que no le era de aplicación dicha norma procesal, en virtud del principio de irretroactividad de las normas, disponiendo expresamente que tal norma entraba en vigor a los veinte días de la publicación de la ley, que se efectuó en el Boletín Oficial del Estado de fecha 26 de diciembre de 2003.
+
+En consecuencia, es de aplicación la normativa anterior a la alegada, y la jurisprudencia de la Sala de Conflictos del Tribunal Supremo, abundantemente citada en las resoluciones del Tribunal desestimatorias de la declinatoria, determinan la jurisdicción de los órganos del orden civil, debiendo desestimarse el motivo de impugnación.
+
+SEGUNDO.- Nos oponemos al correlativo alegado por la parte apelada, puesto que actuó con evidente temeridad al oponerse a la demanda planteada por esta parte, por lo cual está correctamente aplicado el art. 394.2 de la LEC en cuanto a la imposición de costas.
+
+La sentencia basa la condena en costas en la conducta temeraria de la demandada, quien en ningún momento se avino a satisfacer cantidad alguna a mi representado/a, ni tan siquiera la que finalmente ha sido objeto de condena en primera instancia, cuya disponibilidad a ser aceptada por esta parte consta expresamente en el acta de la audiencia previa.
+
+Aunque finalmente hubo una estimación parcial, que esta parte ha impugnado por medio de la apelación principal, lo cierto es que la defensa fue temeraria, por cuanto la demandada alegó en el proceso una batería de excepciones procesales, negó la propia existencia de contrato de seguro, que posteriormente pudo ser constatado, y finalmente negó que se hubiera producido el siniestro, cuando le constaba expresamente según quedó acreditado por la testifical practicada. Todo ello llevó al Juez a apreciar temeridad en la conducta procesal de la parte demandada, la cual está más que justificada, por lo que debe también desestimarse este motivo de impugnación.
+
+Por tanto, interesamos la desestimación de la impugnación de la sentencia efectuada por la parte apelada, y que se impongan las costas de la impugnación a la parte recurrente al ser preceptivas, conforme a los arts. 394 y 398 de la LEC.
+
+En base a lo anterior,
+
+SUPLICO A LA SALA: que tenga por presentado este escrito con justificante de traslado a las demás partes, teniéndome por opuesto/a a la impugnación formulada por la parte apelada frente a la sentencia dictada por el Tribunal de Instancia de [SEDE] en las presentes actuaciones de fecha [FECHA] y, tras la pertinente tramitación, se desestime la impugnación, con imposición a la parte apelante de las costas ocasionadas en este trámite de impugnación de sentencia.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma de Procurador/a y Abogado/a.

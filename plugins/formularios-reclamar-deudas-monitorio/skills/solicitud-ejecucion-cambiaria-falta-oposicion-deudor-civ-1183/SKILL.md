@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -66,8 +66,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 584 LEC
 - art. 612.1 LEC
 - art. 541 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -111,15 +109,69 @@ En algunos Tribunales, de todas las formas, se viene requiriendo la formulación
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales y de [NOMBRE DEL REPRESENTADO/A], como tengo debidamente acreditado mediante escritura de poder que obra en autos de juicio CAMBIARIO n.º [Nº DE PROCEDIMIENTO]/[AÑO], seguido en ese Tribunal frente a D./Dña. [NOMBRE Y APELLIDOS], a instancias de mi poderdante, comparezco y como mejor en Derecho proceda, DIGO:
+
+Que interesa a mi patrocinada obtener la ejecución, con arreglo a los arts. 825 y 517 y ss. LEC, de título cambiario frente a D./Dña. [NOMBRE Y APELLIDOS], provisto de DNI n.º [DNI/NIE], domiciliado en [DOMICILIO], calle [CALLE], n.º [NÚMERO], siendo la empresa para la que trabaja [DENOMINACIÓN SOCIAL], sita en [LOCALIDAD], polígono [Nº DE POLÍGONO], pabellón [Nº DE PABELLÓN], lo cual se establece subsidiariamente para los actos de comunicación, si no fuere hallado en el domicilio, con base en los siguientes:
+
+HECHOS
+
+PRIMERO.- En la representación que ostento de [NOMBRE DE LA PARTE], formulé demanda de juicio cambiario contra D./Dña. [NOMBRE Y APELLIDOS], basada en un pagaré de fecha [FECHA] de [NOMBRE DEL LIBRADOR], n.º [NÚMERO], por importe de [IMPORTE] euros ( [IMPORTE] euros), que obra en autos.
+
+SEGUNDO.- Con fecha [FECHA] se requirió de pago al deudor conforme a lo dispuesto en el art. 821 LEC, concediéndole plazo de diez días para deducir su oposición, sin que, en dicho plazo la haya deducido.
+
+TERCERO.- D./Dña. [NOMBRE Y APELLIDOS] no ha satisfecho cantidad alguna a que viene obligado por el pagaré de referencia, y el art. 549.2 LEC autoriza a que la demanda ejecutiva se limite en estos casos a la solicitud de que se despache ejecución, identificando la resolución cuya ejecución se pretende, que es el auto de [FECHA], seguido del silencio del requerido.
+
+CUARTO.- A la fecha de esta presentación, adeuda D./Dña. [NOMBRE Y APELLIDOS]
+
+-Principal de [IMPORTE] euros ( euros)
+
+-Intereses devengados sobre el principal desde el día de vencimiento, [FECHA DE VENCIMIENTO], al tipo legal del dinero incrementado en dos puntos, de [IMPORTE] euros ( euros)
+
+Total por principal e intereses vencidos de [IMPORTE] euros ( euros)
+
+Presupuesto para intereses por devengar y costas, dentro de los límites del art. 575.1 LEC: [IMPORTE] euros ( euros).
+
+QUINTO.- El título jurisdiccional citado es ejecutivo, junto con el pagaré, con arreglo a lo dispuesto en el art. 825 LEC, por relación al art. 517.2. 1.º y 9.º, puesto que si transcurridos dies días desde el requerimiento de pago, el deudor no ha formulado demanda de oposición, debe despacharse ejecución por las cantidades reclamadas, y se trabará embargo si no se hubiere trabado o si se hubiere alzado.
+
+SEXTO.- En la diligencia del día [FECHA] se decretó embargo de finca rústica a nombre de D./Dña. [NOMBRE Y APELLIDOS], sin que proceda, pues, acordar ahora el embargo, pero sí su aseguramiento mediante anotación preventiva de embargo en el Registro de la Propiedad de [LOCALIDAD], en la finca registral n.º [NÚMERO], inscrita al tomo [TOMO], libro [LIBRO], folio [FOLIO], librándose oportuno mandamiento a los efectos del art. 613.4 LEC.
+
+SÉPTIMO.- Conforme a lo dispuesto en el art. 584 LEC, el embargo no debe exceder, salvo peligro para los fines de la ejecución, de bienes cuyo valor supere la cantidad por la que se despacha ejecución, pero la verificación de que la finca embargada es presuntivamente ganancial, y está sujeta a una hipoteca de la Caja de Ahorros de [LOCALIDAD], por importe de [IMPORTE] euros, cuya amortización se ignora, pero no puede ser grande por la fecha de constitución, y la realidad de su ubicación y superficie suponen, en términos del art. 612.1 LEC, circunstancias que permiten dudar de la suficiencia de los bienes embargados en relación con la exacción de la responsabilidad de D./Dña. [NOMBRE Y APELLIDOS], por lo que procede la mejora del embargo.
+
+Se señalan para embargo a tal efecto los créditos de D./Dña. [NOMBRE Y APELLIDOS] frente a la empresa [DENOMINACIÓN SOCIAL], NIG n.º [NÚMERO], con sede en [LOCALIDAD], polígono [Nº DE POLÍGONO], pabellón [Nº DE PABELLÓN], por el precio facturado por su actividad de agente comercial afecto a la fecha de la traba, solicitándose como medida de garantía la orden de retención y puesta a disposición de las cantidades adeudadas en ese Tribunal.
+
+Por todo lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, por presentado este escrito con sus copias, se sirva admitirlo, y por personada y parte en el proceso de ejecución en la representación que ostento de [NOMBRE DE LA PARTE], despache ejecución frente a D./Dña. [NOMBRE Y APELLIDOS], en razón de autos de juicio cambiario n.º [Nº DE PROCEDIMIENTO]/[AÑO], de que conocía el Tribunal, por cantidad deeuros (euros), correspondientes a principal e intereses vencidos deeuros, y la deeuros (euros), que se presupuestan provisionalmente para intereses y costas del procedimiento ejecutivo, todo ello sin perjuicio de la definitiva liquidación, y convertido el embargo preventivo ya trabado de finca rústica en embargo ejecutivo, se acuerde por el Letrado de la Administración de Justicia librar mandamiento de anotación preventiva al Registro de la Propiedad deen los términos indicados, y asimismo se acuerde mejorar el embargo mediante la traba de los derechos de crédito a la fecha de D./Dña. [NOMBRE Y APELLIDOS] respecto a la mercantil, con la orden de retención y puesta a disposición de su importe en la cuenta de depósitos y consignaciones del Tribunal.
+
+Es Justicia de hacerse en [LUGAR], a [FECHA].
+
+OTROSÍ DIGO: Que siendo D./Dña. [NOMBRE Y APELLIDOS] casado con D./Dña. [NOMBRE Y APELLIDOS], sin que consten capitulaciones matrimoniales que hayan apartado el régimen legal supletorio de gananciales, la ejecución se sigue a causa de deudas contraídas por el marido, pero de las que debe responder la sociedad de gananciales, siendo la finca rústica embragada bien presuntivamente ganancial conforme al Registro de la Propiedad, por lo que la mujer tiene derecho a oponerse a la ejecución o a solicitar la disolución de sociedad conyugal conforme a lo dispuesto en el art. 541 LEC.
+
+En su virtud,
+
+SUPLICO AL TRIBUNAL, que teniendo por causadas las manifestaciones anteriores a sus oportunos efectos, el Letrado de la Administración de Justicia se sirva notificar el embargo del inmueble asentado en el Registro de la Propiedad de [LOCALIDAD], a D./Dña. [NOMBRE Y APELLIDOS], esposa del ejecutado, y de su mismo domicilio, dándole traslado de esta demanda, y del auto que despache la ejecución, a los posibles efectos legales, como es Justicia que reitero en lugar y fecha ‘ut supra’.
+
+Es justicia que pido en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a

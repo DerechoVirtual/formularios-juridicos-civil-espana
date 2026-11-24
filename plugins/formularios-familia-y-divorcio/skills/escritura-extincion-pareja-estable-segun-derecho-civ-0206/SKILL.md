@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -59,8 +59,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 6 Ley Orgánica 3/2018
-
----
 
 ## Instrucciones para Claude
 
@@ -96,15 +94,117 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Núm. [Nº]
+
+En la ciudad de [LOCALIDAD], a [FECHA]
+
+Ante mí, Notario del Ilustre Colegio de [COLEGIO]
+
+COMPARECEN
+
+De una parte, don/doña [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], con domicilio en [LOCALIDAD], vecindad civil catalana, y NIF número [NIF]
+
+Y de la otra, don/doña [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], con domicilio en [LOCALIDAD], vecindad civil catalana, y NIF número [NIF]
+
+INTERVIENEN
+
+Ambos en su propio nombre y derecho, me aseguro de su identidad por la exhibición de los reseñados documentos nacionales de identidad.
+
+Y les juzgo, a mi juicio, con capacidad legal para el otorgamiento de esta escritura y, a tal efecto,
+
+EXPONEN
+
+PRIMERO Que el pasado [DÍA] de [MES] de [AÑO] se constituyeron en pareja estable, mediante escritura notarial con numero de protocolo [Nº DE PROTOCOLO], otorgada ante el Notario D
+
+Que mediante este acto se constituyen voluntariamente en pareja estable, tal y como regula la Ley 25/2010 de 29 de julio, del Libro Segundo del Código Civil de Cataluña, y manifiestan que no se hallan incursos en ninguno de los impedimentos recogidos en la misma ley.
+
+SEGUNDO Que llevan conviviendo [Nº] años, y que tienen [Nº DE HIJOS] hijos comunes, siendo uno de ellos menor de edad.
+
+TERCERO Los comparecientes deciden extinguir de común acuerdo su unión estable en pareja, y pactan, para ello, las siguientes
+
+ESTIPULACIONES
+
+El uso de la vivienda familiar, sita en la calle [CALLE], de [LOCALIDAD], e inscrita en el Registro de la Propiedad de [LOCALIDAD], con número de finca [FINCA], se atribuye a Don/Doña [NOMBRE Y APELLIDOS], junto con el ajuar, habida cuenta de que se le atribuye la custodia del hijo común menor, hasta que éste cumpla la mayoría de edad.
+
+Los comparecientes mantendrán la patria potestad sobre sus hijos, atribuyéndose a Don/Doña [NOMBRE Y APELLIDOS] el cuidado del menor [NOMBRE DEL MENOR], con quien convivirá en el domicilio familiar.
+
+El progenitor que no ostente la guarda del menor, podrá visitarlo y tenerlo en su compañía:
+
+a) Los fines de semana alternos, desde el viernes a las [Nº] horas, hasta el domingo a las [Nº] horas.
+
+b) La mitad del periodo vacacional, en periodos máximos de 15 días seguidos, para evitar que pierda el contacto con el otro progenitor.
+
+La recogida y entrega del menor será siempre en el domicilio familiar.
+
+Los comparecientes deberán promover la comunicación del menor con el otro progenitor en aquellos periodos en los que disfruten de su compañía.
+
+El progenitor que no ostente la guarda del menor, deberá abonar [IMPORTE] euros al mes en concepto de alimentos, para cubrir los gastos de educación, médicos, y sustento, hasta que cumpla la mayoría de edad.
+
+También abonará a Don/Doña [NOMBRE Y APELLIDOS], una pensión de alimentos de [IMPORTE] euros mensuales durante [Nº] años.
+
+No se establece derecho de compensación económica alguno, porque ninguno de los progenitores ha realizado el trabajo doméstico.
+
+Los comparecientes han adquirido durante su convivencia, un inmueble sito en [LOCALIDAD], calle [CALLE] número [NÚMERO] con una superficie de [Nº] metros cuadrados, distribuidos en dos plantas.
+
+Cuota de [PORCENTAJE] % en el valor del bloque donde está ubicado la citada vivienda y elementos comunes.
+
+Título: Adquirido por [TÍTULO DE ADQUISICIÓN] efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D. el día [DÍA] de [MES] de [AÑO] número protocolo
+
+Inscripción: Está inscrita en el Registro de la Propiedad número [NÚMERO] de [LOCALIDAD] en el tomo [TOMO], libro [LIBRO] folio [FOLIO], finca [FINCA]
+
+Referencia catastral: según consta en la referencia del último recibo del Impuestos sobre bienes Inmuebles.
+
+Cargas: La referida finca se encuentra libre de cargas y gravámenes.
+
+Valor: [IMPORTE] euros.
+
+Mediante la presente escritura deciden adjudicar el inmueble a Don/Doña [NOMBRE Y APELLIDOS], a cambio de compensar económicamente a Don/Doña [NOMBRE Y APELLIDOS], mediante el pago de [IMPORTE] euros, al objeto de extinguir el condominio referido.
+
+OTORGAMIENTO Y AUTORIZACIÓN
+
+Reservas y advertencias legales.-
+
+Se las realizo a los comparecientes, en especial, las de carácter fiscal y registral.
+
+Advierto también sobre la incorporación de datos a los ficheros automatizados regulados en la Orden del Ministerio de Justicia 484/2003, de 19 de febrero.
+
+De conformidad con el art. 6º de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), y Reglamento (UE) 2016/679 (RGPD) (B.O.E. de 14 de diciembre de 1999), los comparecientes prestan su expreso consentimiento para que sus datos de carácter personal queden incorporados a los ficheros automatizados de esta Notaría, conservándose en la misma, con carácter confidencial y reservado, y sin perjuicio de las remisiones autorizadas por la Ley.
+
+La finalidad de esta incorporación es facilitar la tramitación y seguimiento de esta escritura.
+
+Es responsable del fichero, de su seguridad y confidencialidad, el Notario titular de esta notaría.
+
+Lectura.-
+
+Permito a los señores comparecientes la lectura de esta escritura, porque así lo solicitan después de advertidos de la opción del artículo 193 del Reglamento Notarial.
+
+Consentimiento.-
+
+Enterados, según dicen, por la lectura que han practicado y por mis explicaciones verbales, los señores comparecientes hacen constar libremente su consentimiento al contenido de la escritura.
+
+Firma.-
+
+Y la firman.
+
+Autorización.-
+
+Yo, el Notario, compruebo que este otorgamiento se adecúa a la legalidad, y a la voluntad debidamente informada y expresada ante mi; y con el contenido de esta escritura, extiendo en [Nº] folios de papel timbrado notarial de la clase [CLASE], serie [SERIE], números [Nº] DOY FE.
+
+========================================================================

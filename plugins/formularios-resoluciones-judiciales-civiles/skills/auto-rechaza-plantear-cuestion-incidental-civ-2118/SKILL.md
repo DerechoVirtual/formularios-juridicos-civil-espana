@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 426.4 LEC
 - art. 392 LEC
 - art. 451 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,63 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AUTO
+
+En [LUGAR], a [FECHA].
+
+Juez Sr./a.
+
+ANTECEDENTES DE HECHO
+
+ÚNICO.-
+
+Por el Procurador/a D./Dña. [NOMBRE Y APELLIDOS], en representación de D./Dña. [NOMBRE Y APELLIDOS] se ha presentado escrito, acompañando documento privado y proponiendo prueba, en que solicita la suspensión de este proceso por existir una cuestión incidental de especial pronunciamiento, y solicita que quede excluido del patrimonio inventariable y de la división objeto de litigio, por ser propiedad privativa de la actora, el apartamento "dúplex", trasteros y plaza de garaje, sito al nº [NÚMERO] de la calle [CALLE] de
+
+RAZONAMIENTOS JURÍDICOS
+
+PRIMERO.- La adecuación de procedimiento por razón de la materia, habida cuenta lo que pide la demanda y lo que contesta la demandada, no es cuestionable de oficio, por la previsión de un proceso especial para la liquidación del régimen económico matrimonial de los arts. 806 y ss. LEC, puesto que la formación de inventario en la Sección Civil del Tribunal de Instancia nº [NÚMERO] (de familia), que conoció de la separación y divorcio de las partes, con la ulterior liquidación atenida al trámite del art. 810, y por remisión del de la división de herencia, supone siempre un acuerdo entre los interesados, o una resolución judicial que no tiene eficacia de cosa juzgada, y que no elude que los partícipes de la comunidad matrimonial insten el juicio ordinario que corresponda para pedir la adjudicación de bienes que crean les corresponde (art. 787.5.pfo.2º LEC).
+
+Ello así, si las partes avanzan que no llegarán a un acuerdo, y ya promueve una, y otra no se opone, un Juicio Ordinario para inventariar, avaluar, dividir y adjudicar bienes comunes, no puede decirse que existe defectuosa elección de proceso por materia.
+
+SEGUNDO.- Pero de lo anterior dimana que, si una pretensión de exclusión o inclusión de bienes en el patrimonio que se ha de inventariar para proceder a la partición en esos procesos especiales y sumarios, puede tener una naturaleza incidental (con su trámite propio ex art. 388 LEC, que en definitiva es una vista de juicio verbal: art. 809.2 LEC, que da lugar a sentencia sin perjuicio de tercero), no lo tiene en un juicio declarativo plenario ordinario.
+
+Se trata de una duda lógica que surge en el conocimiento de la pretensión, que está atribuida al ámbito material del orden civil, y si de suyo podría haber sido objeto principal de un proceso al margen, no lo ha sido, y corresponde al ámbito de competencia objetiva de este Tribunal. En este proceso, con toda amplitud puede tratarse de la invalidez relativa por simulación de un negocio jurídico, aunque evidentemente se resolverá primero la inclusión de un bien, antes de entrar a dividir el conjunto de bienes.
+
+De todas maneras, la parte demandada pudo reconvenir, y la nulidad del negocio jurídico en que pueda basarse la pretensión era aducible por vía de excepción de fondo, y si el hecho es de nueva noticia, se verá en la audiencia previa según prevención del art. 426.4 LEC, en relación con 286.4, pero no procede dar paso a una cuestión incidental, aunque lo sea sin efectos suspensivos, de conformidad con el art. 392 LEC.
+
+Por lo expuesto,
+
+PARTE DISPOSITIVA
+
+No ha lugar a admitir el planteamiento de la cuestión incidental que efectúa el Procurador/a de los Tribunales D./Dña, en representación de la demandada D./Dña. [NOMBRE Y APELLIDOS]
+
+Así lo acuerdo, mando y firmo:
+
+Firma del Juez/a
+
+Contra esta resolución cabe interponer recurso de reposición ante el Tribunal, no obstante lo cual, se llevará a afecto lo acordado.
+
+El recurso deberá interponerse por medio de escrito en el plazo de cinco días hábiles, contados desde el día siguiente de la notificación, con expresión de la infracción cometida a juicio del recurrente, sin cuyos requisitos no se admitirá (arts. 451 y 452 LEC).
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+========================================================================

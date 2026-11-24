@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -45,8 +45,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 20 LEC
 - art. 394 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -82,15 +80,43 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Juzgado [ÓRGANO JUDICIAL]
+
+Proceso [Nº DE PROCEDIMIENTO]
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales y cuya representación en nombre de D. tengo ya acreditada en el proceso n.º [NÚMERO] que se tramita ante este órgano jurisdiccional, actuando en virtud de poder especial para desistir según consta en autos, comparezco de nuevo y como mejor proceda en Derecho, digo lo siguiente:
+
+1) Que en virtud de lo que se dispone en el artículo 20 de la LEC, y en atención al principio dispositivo que regula el civil, atendiendo las órdenes recibidas de mi mandante, DESISTO del presente proceso ordinario.
+
+2) [OTROS DATOS]
+
+2) A efectos del eventual pronunciamiento sobre costas, esta parte hace constar que el desistimiento viene originado por el pago que realizó el demandado en fecha [FECHA] de la cantidad reclamada, que si bien es un día anterior al de presentación de esta demanda, era desconocido por esta parte hasta el día de hoy en que ya ha sido emplazado el demandado, por cuanto es el día en que ha recibido la comunicación del Banco [ENTIDAD BANCARIA], donde se ingresó dicha cantidad, según consta en certificación expedida por la citada entidad como documento número [Nº DE DOCUMENTO]; en este sentido, debemos subrayar que el demandado en ningún momento ha hecho comunicación alguna a esta parte. Por este motivo, y habida cuenta que pese a los indicios que existen que el pago viene motivado por la interposición de la demanda, lo cierto es que al realizarse antes del emplazamiento, esta parte no tiene argumentos para pretender la condena en costas de la contraria, por lo que entiende más conforme a la economía procesal el desistimiento del proceso. No obstante, queda plenamente justificada la iniciación del proceso y en este contexto solicitamos que no se haga imposición de costas, de acuerdo a lo establecido en los arts. 394 y 396 LEC.
+
+Por todo lo cual,
+
+SOLICITO AL TRIBUNAL, que teniendo por presentado este escrito con justificante de traslado a la contraparte, previos los trámites legales, tenga por desistida a esta parte demandante y proceda al archivo de las actuaciones, todo ello sin hacer imposición de costas.
+
+En L. y F.
+
+(Firma Procurador y Abogado)
+
+========================================================================

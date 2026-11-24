@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 85.1 LOPJ
 - art. 818.1 LEC
 - art. 31 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -95,15 +93,71 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+AL TRIBUNAL
+
+D./Dña. [NOMBRE Y APELLIDOS] Procurador/a de los Tribunales, en nombre y representación de [NOMBRE DEL REPRESENTADO/A] según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO]; ante el Tribunal comparezco y como mejor proceda en derecho, DIGO:
+
+Que mi mandante ha sido notificado y requerido de pago en el proceso monitorio seguido en este Tribunal con el n.º [NÚMERO] y promovido por [NOMBRE DE LA PARTE]
+
+Y dentro del término conferido según el art. 815 LEC, formulo de forma fundada y motivada oposición a dicha pretensión en base a los siguientes:
+
+HECHOS
+
+ÚNICO.-
+
+Se rechazan las manifestaciones contenidas en la petición de la demandante, habida cuenta que mi representado cedió el local de negocios sito en [LOCALIDAD] a la sociedad [DENOMINACIÓN SOCIAL], S.A., mediante escritura pública de compraventa de fecha [FECHA], procediendo a la subrogación en la titularidad del contrato de suministro a la citada entidad, que posteriormente pasó a ocupar el local y es la efectiva beneficiaria del suministro, por lo que mi representado carece de legitimación pasiva para soportar la pretensión.
+
+Se acompañan como documentos números [Nº DE DOCUMENTO] comunicación escrita del cambio de titular con la conformidad expresa del subrogado y justificación del título de transmisión.
+
+FUNDAMENTOS DE DERECHO
+
+I.- COMPETENCIA.
+
+La competencia de este Tribunal viene determinada de modo exclusivo, según el art. 813 LEC en relación con lo dispuesto en el art. 85.1º LOPJ, por ser la residencia o domicilio del demandado.
+
+II.- PROCEDIMIENTO.
+
+Seguido hasta ahora el trámite del proceso monitorio, y al haberse presentado oposición, deberá tenerse en cuenta lo dispuesto en el art. 818.1 LEC, que manda resolver la cuestión en el Juicio que corresponda, y que en este caso y dada la cuantía de lo reclamado, nos remite al Juicio Verbal, sin necesidad de interposición de demanda, sino dando traslado de la oposición al actor, conforme a lo dispuesto en el art. 818.2, dado que la cuantía no excede de la propia del Juicio Verbal.
+
+III.- POSTULACIÓN Y DEFENSA.
+
+La presente oposición se formula por medio de Abogado y Procurador, al ser preceptiva su intervención, según los arts. 31 y 23 LEC, por remisión del art. 818.1, párrafo segundo.
+
+IV.- FALTA DE LEGITIMACIÓN PASIVA.
+
+En el presente supuesto, se han venido girando a mi representado facturas de consumos de energía eléctrica correspondientes a periodos en que las partes no se encontraban vinculadas por ningún contrato de suministro eléctrico.
+
+Por lo tanto, el requerido de pago nada tiene que ver con la deuda reclamada al tratarse de una cuestión entre el instante y la indicada mercantil, [DENOMINACIÓN SOCIAL] S.A., y de ahí que carezca de legitimación pasiva por ser ajeno al contrato, por cuanto en ese periodo facturado no era ella la titular del contrato de suministro por haber subrogado a un tercero, habiéndose notificado el cambio de titular a la empresa suministradora conforme a los requisitos del art. 31 del RD 88/2026, de 11 de febrero, que regula el "Traspaso y subrogación del contrato de suministro a Precio Voluntario para el Pequeño Consumidor", y establece que "1. El consumidor que esté al corriente de pago de su contrato de suministro a Precio Voluntario para el Pequeño Consumidor, podrá traspasar su contrato a otro consumidor que vaya a hacer uso del mismo en idénticas condiciones en ese punto de suministro. El titular del contrato comunicará a la empresa comercializadora de referencia el cambio de titularidad y el consumidor al que se realiza el traspaso formalizará el correspondiente contrato con la empresa comercializadora de referencia. No obstante lo anterior, en ningún caso se traspasará el derecho a percibir el bono social en caso de que el consumidor inicial fuera beneficiario del mismo. Si el consumidor inicial hubiera solicitado el bono social y en el momento de traspaso de su contrato a otro consumidor no hubiera obtenido respuesta, se entenderá que ha desistido de su petición.
+
+2. Para la subrogación en derechos y obligaciones de un contrato de suministro a Precio Voluntario para el Pequeño Consumidor bastará con que el usuario efectivo, con justo título realice la comunicación que permita tener constancia a la empresa comercializadora de referencia que corresponda de la aceptación de las condiciones de contratación. En cualquier caso, dicha aceptación no implicará asumir las obligaciones de pago que pudiera tener el consumidor inicial.
+
+3. En los casos en que el usuario efectivo de la energía, con justo título, sea persona distinta al titular que figura en el contrato, el usuario efectivo de la energía deberá formalizar, siempre que se encuentre al corriente de pago, el cambio a su nombre del contrato existente, sin más trámites. En ningún caso y, en particular en los contratos de arrendamiento de inmuebles, se entenderá como solicitud de baja y posterior tramitación de alta, la realizada por el usuario efectivo de la energía o de las redes para cambiar el contrato a su nombre.".
+
+Así pues, esta parte viene a oponerse a la pretensión de la actora.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL:
+
+Que teniendo por presentado este escrito lo admita como pertinente, teniéndome por comparecido y parte en nombre y representación de [NOMBRE DEL REPRESENTADO/A], mandando se entiendan conmigo las sucesivas actuaciones y con devolución de la copia de poder aportada; teniéndome por opuesto a la demanda de proceso monitorio instada contra mi mandante por [NOMBRE DE LA PARTE], acordando seguir el trámite correspondiente, dictando resolución definitiva por la que se rechace la pretensión inicial, con imposición de costas al demandante.
+
+Por ser de Justicia que pido en [LUGAR], a [FECHA].
+
+Firma de Abogado/a	Firma de Procurador/a

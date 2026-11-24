@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 17.1 LEC
 - art. 1.209 CC
 - art. 149 LH
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación procesal de [NOMBRE DE LA PARTE], cuyas circunstancias ya constan, en virtud del poder ‘apud acta’ que se ha otorgado ante la Letrado de la Administración de Justicia, asistido del Letrado ejerciente D./Dña. [NOMBRE Y APELLIDOS], con despacho abierto en [LOCALIDAD], colegiado nº [Nº DE COLEGIADO/A] en el Colegio de esta provincial, en el Proceso de Ejecución de Título Extrajudicial n.º [Nº]/[AÑO], que sigue el Tribunal a instancias del [ENTIDAD BANCARIA], en los mismos comparezco y como mejor proceda en Derecho, DIGO:
+
+Que por el presente escrito, vengo a solicitar la sucesión procesal por transmisión del objeto litigioso, con base en las siguientes:
+
+ALEGACIONES
+
+PRIMERA
+
+Se sigue en el Tribunal a que me honro en dirigirme proceso de ejecución de título extrajudicial (póliza de préstamo) a instancias del [ENTIDAD BANCARIA], en el que por Auto de fecha [FECHA] se despachó ejecución contra [ACTO O RESOLUCIÓN], deudora principal por débito de treinta y seis mil euros y otros diez mil ochocientos que se calcularon para intereses de mora procesal y costas del proceso ejecutivo, y contra los avalistas solidarios, y
+
+SEGUNDA
+
+Mi mandante [NOMBRE DEL REPRESENTADO/A] ha pagado al [ENTIDAD BANCARIA]. cuarenta y seis mil ochocientos euros, en concepto de principal, intereses y gastos de ejecución correspondiente al préstamo cuyo documento sirve de título ejecutivo en este proceso, y la entidad prestamista ha aceptado expresamente la subrogación en la condición que ostenta el [ENTIDAD BANCARIA]. tanto en el crédito, como a los efectos del presente proceso ejecutivo.
+
+A su demostración, se acompaña documento de carta de pago de fecha [FECHA]
+
+TERCERA
+
+El art. 540.1 LEC prevé el supuesto de pretensión de despacho de ejecución a favor de quien acredite ser sucesor de quien figura como ejecutante en el título ejecutivo, estableciendo un trámite de adveración documental de la sucesión, por lo que para el supuesto, como el presente, de sucesión que acaece después del despacho, debe recurrirse a la prevención general de sucesión procesal del art. 17.1 LEC, y solicitarse que se tenga a mi representado en la posición que ocupaba el [ENTIDAD BANCARIA]. ejecutante, por adquisición del crédito.
+
+CUARTA
+
+La línea de separación conceptual entre la cesión de contrato, que carece de regulación expresa en el CCiv, y la subrogación, que se regula como una forma de pago y tiene su régimen en sede de novación (lo mismo la cesión con consentimiento del cedido y la subrogación convencional del art. 1.209 CCiv -con la que aquí no contamos- que la cesión sin consentimiento por disposición legal -ejemplos antedichos- y la subrogación legal, que nos ocupa, de los arts. 1.158 y 1.210 CCiv) pertenece a la mística de los civilistas, siendo la línea de la jurisprudencia lógicamente favorable a la identidad de tratamiento y efectos (SSTS de 11 de enero de 1.983 y 29 de mayo de 1.984),y también la línea del legislador (vid. art. 149 LH respecto a la cesión del crédito hipotecario).
+
+Acreditada esta adquisición del crédito ejecutivo, tiene que asumirse que quien era co-ejecutado gana la posición de ejecutante frente a la mercantil deudora principal, y los avalistas solidarios, Y [NOMBRE Y APELLIDOS] y Z [NOMBRE Y APELLIDOS], respecto de estos últimos que debe reducirse la reclamación en cuotaparte de mi patrocinado, es decir, en una tercera parte.
+
+Por todo lo expuesto,
+
+AL TRIBUNAL SUPLICO
+
+que, teniendo por presentado este escrito, con su documento anexo, y copias de todo ello, se sirva admitir uno y otras, y previa audiencia de las partes ejecutadas, con suspensión del proceso, por plazo de diez días, conforme a lo manifestado en el cuerpo de este escrito, se declare la sucesión de mi representadoen la posición de parte ejecutante, por haberle transmitido el. el crédito ejecutivo, y se me tenga por personado en dicha calidad, entendiéndose conmigo todas las sucesivas actuaciones, siguiendo la ejecución y los embargos trabados frente a los coejecutados, con reducción de la responsabilidad frente a los avalistas solidariosy, a la cantidad de veinticuatro mil euros, como principal, con la correlativa proporcional reducción de la presupuestada para intereses y costas, y lo demás que procede en Justicia de hacerse en [LUGAR], a [FECHA].
+
+En [LUGAR], a [FECHA].
+
+Firma del Abogado	Firma del Procurador/a
+
+========================================================================

@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 556.3.1.ª LEC
 - art. 556.3.3.ª LEC
 - art. 557.1.3.ª LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,65 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS] Procurador/a de los Tribunales, en nombre y representación de la Compañía de Seguros [ASEGURADORA], con domicilio en [LOCALIDAD] y C.I.F. número [NÚMERO], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], ante el Tribunal comparezco y como mejor proceda en derecho DIGO:
+
+Que en nombre de mi poderdante me persono en los autos de ejecución seguidos a instancia de [NOMBRE DEL SOLICITANTE] y registrados con el número [NÚMERO], y por medio del presente escrito formulo OPOSICIÓN a la citada ejecución, dentro del plazo concedido al efecto, en virtud de los siguientes
+
+HECHOS
+
+PRIMERO.- Antes de entrar a examinar los hechos base de la ejecución que se acordó por auto de fecha [FECHA], procede indicar que ha transcurrido el plazo de un año establecido en el art. 1.968.2.º CCiv para la prescripción de la acción dirigida a exigir la responsabilidad civil derivada de culpa o negligencia porque el accidente tuvo lugar, según consta en el procedimiento, el día [FECHA] y la demanda ejecutiva se interpuso el día [FECHA], mediando entre ambas fechas más de un año.
+
+SEGUNDO.- Entrando a examinar las alegaciones de contrario, procede manifestar en primer lugar nuestra total discrepancia con la versión de los hechos formulada ya que si el accidente tuvo lugar fue por culpa exclusiva del ejecutante que conducía ese día el vehículo [MARCA Y MATRÍCULA DEL VEHÍCULO] (narrar los hechos). Concurre por tanto la causa de oposición prevista en el art. 556.3.1.ª LEC, consistente en culpa exclusiva de la víctima.
+
+TERCERO.- En el supuesto de que se considerara que el accidente no tuvo lugar por culpa exclusiva del ejecutante, sino por haber intervenido en cierta medida el vehículo asegurado por mi representada, deberá declararse la responsabilidad compartida en cuanto a que el ejecutante incumplió las normas básicas de precaución exigibles a todo conductor en base al principio de confianza en la circulación, además de haber infringido las siguientes normas de tráfico [NORMAS INFRINGIDAS], siendo ínfima la participación del conductor del vehículo asegurado en esta entidad y, en todo caso, solo determinante del incremento de los daños.
+
+De conformidad con lo expuesto, sería apreciable la causa de oposición contemplada en el art. 556.3.3.ª LEC, concurrencia de culpas.
+
+CUARTO.- Por último manifestar que la reclamación formulada en concepto de secuela por perjuicio estético es de todo punto exagerada, de acuerdo con el baremo aplicable, ya que le corresponderían menos puntos de los asignados por la ejecutante, si tenemos en cuenta que
+
+De conformidad con estas alegaciones, para el supuesto de que no se estimaran las causas anteriormente opuestas, concurriría la de pluspetición contemplada en el art. 557.1.3.ª LEC.
+
+FUNDAMENTOS DE DERECHO
+
+I.- Negamos que sean de aplicación al presente caso los fundamentos de derecho alegados por el ejecutante.
+
+II.- Damos por reproducidos los preceptos legales citados en los hechos enumerados en este escrito de oposición a la ejecución despachada.
+
+Por otro lado, de conformidad con lo establecido en los arts. 556.3 y 557.2, la oposición del ejecutado suspenderá la ejecución.
+
+III.- Las costas procesales, a tenor de lo preceptuado en el art. 561.2, deberán ser impuestas al ejecutante.
+
+En virtud de todo lo expuesto,
+
+SUPLICO AL TRIBUNAL:
+
+que tenga por presentado este escrito con sus copias y me tenga por comparecido y parte en la representación que ostento de [NOMBRE DE LA PARTE] en el expresado procedimiento de ejecución y mandar que se entiendan conmigo las actuaciones que a partir de este momento se realicen, teniendo por formulada en tiempo y forma oposición a la ejecución despachada, suspendiéndose el curso de la misma, para que, tras la correspondiente tramitación, se dicte auto declarando que no procede la ejecución dejando ésta sin efecto y mandando alzar los embargos y las medidas de garantía de la afección que se hubieran adoptado, reintegrándose al ejecutado a la situación anterior al despacho de la ejecución, con imposición de las costas al ejecutante.
+
+Es de Justicia que pido en [LUGAR], a [FECHA].
+
+OTROSÍ DIGO.- Que interesa al derecho de esta parte la celebración de vista, por lo que se solicita del Tribunal que se señale un día para su celebración dentro de los diez días siguientes a la conclusión del trámite de impugnación a este escrito de oposición
+
+Es justicia que reitero en lugar y fecha indicados.
+
+Firma del Abogado/a	Firma del Procurador/a
+
+========================================================================

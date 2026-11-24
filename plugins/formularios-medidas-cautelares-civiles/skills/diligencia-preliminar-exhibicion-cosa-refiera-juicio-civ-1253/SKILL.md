@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Medidas cautelares y diligencias preliminares) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Medidas cautelares y diligencias preliminares) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -53,8 +53,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 258 LEC
 - art. 261.3 LEC
 - art. 727.3 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -91,15 +89,67 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], que actúa en su propio nombre y Derecho [DOMICILIO]; ante el Tribunal comparezco y como mejor procede en derecho, DIGO:
+
+Que mediante el presente escrito deduzco solicitud de DILIGENCIA PRELIMINAR DE JUICIO al amparo del art. 256.1.2º LEC, pidiendo la exhibición de la cosa que se indicará, a D./Dña. [NOMBRE Y APELLIDOS] al proponerse mi representado demandar inmediatamente en juicio a la citada; todo ello en base a los siguientes
+
+HECHOS
+
+PRIMERO.- Mi representado es sobrino y heredero de D./Dña. [NOMBRE Y APELLIDOS], que ha fallecido hace quince días a la edad de noventa y cinco años, titular de un pingüe patrimonio.
+
+Se acredita ello mediante certificado de defunción (documento nº. [Nº DE DOCUMENTO]), certificado de actos de última voluntad (documento nº [Nº DE DOCUMENTO]), y copia auténtica del testamento otorgado el fecha [FECHA], último que se conoce (documento nº [Nº DE DOCUMENTO]).
+
+SEGUNDO.- D./Dña. [NOMBRE Y APELLIDOS], por causa de su avanzada edad, carecía de una vida autónoma en su residencia habitual de [LOCALIDAD], y pasó, por motivos complejos, hace unos cuatro meses a vivir con D./Dña. [NOMBRE Y APELLIDOS], en la vivienda de esta última en [LOCALIDAD], calle [CALLE], abonándole al parecer una renta que acordaron entre ambas, y llevando a tal vivienda algunos muebles y efectos personales entre los que se contaba una arqueta de marfil con incrustaciones de piedra de rubí de motivos religiosos, con gran antigüedad y valor, perteneciente a la familia por generaciones.
+
+Se acompaña declaración de objeto de especial valor ante la Compañía de Seguros [ASEGURADORA], efectuada el [FECHA], para la póliza ‘multirriesgo hogar’, donde se hace constar la preexistencia de la joya (documento nº [Nº DE DOCUMENTO]).
+
+TERCERO.- Mi mandante intentó en este tiempo entrar en contacto con [NOMBRE Y APELLIDOS], como era lo habitual hasta entonces, siéndole impedido, produciéndose un numeroso cúmulo de circunstancias, que no son del caso, y que le llevaron a sospechar que su provecta tía estaba siendo objeto de maquinaciones para que se desprendiera en favor de D./Dña. [NOMBRE Y APELLIDOS] Juana y la familia de ésta de la mayoría de sus bienes.
+
+Adjunto copia de la denuncia presentada por mi patrocinado contra D./Dña. [NOMBRE Y APELLIDOS] y su yerno/nuera D./Dña. [NOMBRE Y APELLIDOS], ante la Sección de Instrucción del Tribunal de Instancia de [SEDE], plaza n.º [Nº] [DATOS DE LA DENUNCIA], que ha dado origen a las diligencias previas nº [NÚMERO] (documento nº [Nº DE DOCUMENTO]).
+
+CUARTO.- El día [FECHA] padeció un accidente doméstico, siendo evacuada de urgencia al Hospital de [LOCALIDAD], donde pudo ser visitada por mi mandante, y recobrar la relación, que entonces se interrumpió con D./Dña. [NOMBRE Y APELLIDOS], habiéndose intervenido quirúrgicamente a la anciana, que se recuperó, y sin embargo, recayó al de pocas semanas, falleciendo.
+
+QUINTO.- Desde el mismo Hospital [NOMBRE Y APELLIDOS] encomendó a mi representado reclamar la devolución de sus cosas que se hallaban en la vivienda de D./Dña. [NOMBRE Y APELLIDOS], y especialmente el camafeo antedicho, lo que éste hizo por conducto telefónico y envío de misiva formal a la dicha, sin ningún resultado.
+
+Se aporta documento con lista manuscrita de la finada en la que constan los objetos que tenía en la casa de D./Dña. [NOMBRE Y APELLIDOS] (documento nº [Nº DE DOCUMENTO]), y el burofax enviado por mi mandante con fecha [FECHA] como documento nº [Nº DE DOCUMENTO].
+
+FUNDAMENTOS DE DERECHO
+
+I.- La competencia territorial ha de corresponder al órgano judicial de la instancia civil del lugar del domicilio de la interpelada D./Dña. [NOMBRE Y APELLIDOS] (art. 257.1.pfo.1º LEC)
+
+II.- El procedimiento de admisión de la diligencia pedida es el del los arts. 258 y 259 LEC (art. 260 para la eventual oposición de la requerida), que se califica urgente, por haberse producido el fenómeno de desafeccción de D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], y la muerte de la primera, en espacio de pocas semanas, y no poderse dejar en poder de la segunda, quien se ha negado a la devolución por la tácita, ni un instante más, la cosa que se solicita de exhibición, al ser fácilmente transmisible, y evidente el riesgo de burlarse la identificación una vez descompuesta su factura en sus valiosos componentes -lo que de suyo supone un atentado al patrimonio artístico por la rareza y antigüedad-, peligrará la reivindicación, que se complicará por la presencia de terceros, receptadores o de buena fe.
+
+III.- Conforme a la previsión del art. 261.3ª LEC, conociéndose el lugar donde se encuentra la cosa que se reivindica, si D./Dña. [NOMBRE Y APELLIDOS], citada y requerida, no atendiera al requerimiento de exhibición ni formulare oposición, el Tribunal proveerá la entrada y registro en el domicilio de la interpelada, para ocupar la arqueta en cuestión.
+
+IV.- Tanto para el supuesto anterior como en el que se produzca la exhibición de la cosa, con fundamento en la medida cautelar del art. 727.3ª LEC, como quiera que se reivindicará, se solicita el depósito en poder de mi representado, y se ofrece caución para atender a los gastos de las diligencias y posibles daños y perjuicios irrogables, que fijará el Tribunal a la luz del fundamento de esta solicitud, de conformidad con arts. 256.3 y 258.1 LEC.
+
+Por lo expuesto:
+
+SUPLICO AL TRIBUNAL
+
+que teniendo por presentado este escrito con los documentos que le acompañan, se sirva admitirlo y, teniéndome por comparecido y parte, se acuerde la práctica de diligencia preliminar de juicio para exhibición de cosa mueble; requiriéndose a D./Dña. [NOMBRE Y APELLIDOS], para que, en la fecha que se acuerde, se proceda a la exhibición de la arqueta [DESCRIPCIÓN DEL BIEN] etc [DESCRIPCIÓN DEL BIEN] en. la sede del Tribunal, a fin de que el suscrito la pueda identificar como propia, del caudal relicto de D./Dña. [NOMBRE Y APELLIDOS], con apercibimiento de acordarse la entrada y registro domiciliario si no se atendiera al requerimiento; procediendo en todo caso al depósito de la cosa, exhibida u ocupada, conforme a los trámites procesales oportunos, y por cuenta y riesgo de esta parte, que se concretará en la caución que se estime pertinente y que se ofrece prestar.
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Abogado/a	Firma del Procurador/a
+
+========================================================================

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -49,8 +49,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 526 LEC
 - art. 525.1 LEC
 - art. 539 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,89 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Antecedentes:
+
+Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO]
+
+Divorcio contencioso /
+
+Traslado a Procurador Don [NOMBRE Y APELLIDOS]
+
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+D./Dª [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre de DOÑA [NOMBRE Y APELLIDOS], representación que consta acreditada en los autos de divorcio contencioso núm. [Nº]/[AÑO], ante el Tribunal comparezco y DIGO:
+
+Que mediante el presente escrito, al amparo de lo previsto en el art. 525 de la LEC, formulo demanda de ejecución provisional de los pronunciamientos patrimoniales recaídos en la sentencia dictada en los autos de referencia, en base a los siguientes:
+
+HECHOS
+
+En los autos de divorcio núm. [Nº]/[AÑO] seguidos ante el Tribunal al que me dirijo, se dictó en fecha [DÍA] de [MES] de [AÑO] sentencia por la que se decretaba la disolución del matrimonio, contraído entre ejecutante y ejecutado, por divorcio.
+
+Adjunto aportamos como DOCUMENTO NÚM. UNO testimonio de la sentencia.
+
+En la citada sentencia, como medida matrimonial, se acordaba que el ejecutado debía abonar a la ejecutante la suma de 500 € mensuales en concepto de pensión compensatoria.
+
+El demandado en el procedimiento de divorcio de referencia, ejecutado en el presente, ha interpuesto recurso de apelación frente a la meritada sentencia, sin que hasta la fecha se hayan remitido todavía los autos a la Ilma. Audiencia provincial de [LOCALIDAD], competente para la resolución del recurso.
+
+A los anteriores hechos les son de aplicación los siguientes:
+
+FUNDAMENTOS DE DERECHO
+
+Competencia
+
+Es competente para la ejecución de la sentencia el mismo órgano judicial que la dicto, al amparo del art. 524.2 de la LEC.
+
+Procedimiento
+
+La ejecución se seguirá por los trámites previstos en los arts. 524 y ss. de la LEC.
+
+Legitimación
+
+Está legitimada activamente mi representada, y pasivamente el demandado de ejecución al amparo del art. 526 de la LEC.
+
+Acción que se ejercita
+
+Ejercitamos acción ejecutiva fundada, como título que lleva aparejada ejecución, en la sentencia recaída en los autos de referencia por la que se condenaba al demandado al pago de la suma mensual de 500 € en concepto de pensión compensatoria.
+
+Aún habiendo interpuesto de contrario recurso de apelación contra la sentencia, que aún no es firme, el artículo 524.2 de la LEC que se despachará la ejecución provisional de las sentencia, del mismo modio que la ordinaria, por el mismo Tribunal que la dictó, siendo procedente la misma en relación a los pronunciamientos que regulen las obligaciones y relaciones patrimoniales relacionadas con lo que sea objeto principal del proceso (art. 525.1 LEC)
+
+Podrá solicitarlo la parte favorecida por el pronunciamiento, y no será necesario prestar caución (art. 526 de la LEC)
+
+Si la ejecución provisional se hubiere solicitado antes de la remisión de los autos, el mismo Tribunal de primera instancia expedirá el testimonio antes de hacer la remisión.
+
+Cuantía
+
+Se fija la cuantía de la ejecución en la suma de () €, principal, suma mensual de la pensión cuya ejecución provisional se reclama.
+
+Costas
+
+Deberá abonar las costas el ejecutado según lo previsto en los arts. 539 y 583 de la LEC.
+
+Por lo expuesto:
+
+SUPLICO AL TRIBUNAL tenga por presentado este escrito junto con los documentos que se acompañan, me tenga por parte en la representación que, otorgada por Doña [NOMBRE Y APELLIDOS], asumo, entendiéndose conmigo las sucesivas actuaciones, por formulada demanda de ejecución provisional de la sentencia recaída en los autos de juicio de divorcio núm. [Nº DE PROCEDIMIENTO]/[AÑO], se libre testimonio de la misma antes de la remisión de los autos a la Ilma. Audiencia provincial de [LOCALIDAD] para la resolución del recurso de apelación, se despache ejecución provisional de la sentencia y se decrete el abono de la cuantía de la pensión compensatoria desde este momento y durante la sustanciación del recurso de apelación, y todo ello junto con lo demás que en Derecho proceda, con expresa advertencia de que, de no hacerlo, se instarán las medidas oportunas para su cumplimiento.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+Firma y número letrado
+
+Firma Procurador.
+
+========================================================================

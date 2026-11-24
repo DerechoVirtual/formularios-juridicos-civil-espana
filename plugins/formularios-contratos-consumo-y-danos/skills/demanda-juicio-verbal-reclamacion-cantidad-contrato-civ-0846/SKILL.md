@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos civiles, consumo y reclamación de daños) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -59,8 +59,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 437.1 LEC
 - art. 437.2 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -96,15 +94,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, [ESTADO CIVIL], provisto/a de DNI [DNI/NIE], de profesión [PROFESIÓN], y domiciliado/a en [LOCALIDAD] ([CÓDIGO POSTAL]), calle [DOMICILIO], n.º [Nº], ante el Tribunal comparezco y, como mejor en Derecho proceda (1) (2) (3), DIGO:
+
+Que por medio del presente escrito vengo a formular DEMANDA DE JUICIO VERBAL sobre reclamación de cantidad de [IMPORTE EN LETRA] euros ([IMPORTE] €), contra D./Dña. [NOMBRE Y APELLIDOS], de profesión [PROFESIÓN], y domiciliado/a en [LOCALIDAD] ([CÓDIGO POSTAL]), calle [DOMICILIO], n.º [Nº].
+
+Que el demandado adeuda al que suscribe la cantidad de [IMPORTE EN LETRA] euros ([IMPORTE] €), por no haber pagado el importe de los trabajos de [DESCRIPCIÓN DE LOS TRABAJOS REALIZADOS] realizados en su indicado domicilio, concretamente [DESCRIPCIÓN DE LA OBRA], según el presupuesto aceptado y firmado por el mismo y según la factura final extendida y presentada al cobro.
+
+Que el demandado se ha negado a satisfacer su deuda, a pesar de los repetidos requerimientos que le han sido efectuados, forzando a la presente reclamación.
+
+En este sentido, la parte actora manifiesta que, previo a la presentación de la presente demanda, se han llevado a cabo negociaciones con la parte demandada, con el objetivo de cumplir el requisito de procedibilidad y resolver la controversia de manera amistosa y extrajudicial. Dichas negociaciones se desarrollaron en cumplimiento de los principios de buena fe, con la intención de alcanzar una solución satisfactoria, incluyéndose entre las acciones realizadas el intercambio de comunicaciones formales mediante correspondencia escrita, en fechas [FECHAS], en las cuales esta parte expresó su disposición para dialogar y propuso alternativas de solución.
+
+Finalmente, esta parte envió un requerimiento fehaciente al demandado con fecha [FECHA], fijando un plazo de 30 días naturales para llegar a un acuerdo amistoso, [ELEGIR: directamente / a través del abogado que firma este escrito], el cual fue contestado por el demandado por el mismo medio, [ELEGIR: rechazando el acuerdo / habiendo sido solo posible un acuerdo parcial], viéndonos en la necesidad de acudir a la presente vía judicial, respecto a los extremos de la controversia en los que se mantiene la discrepancia.
+
+Acompaño como documento n.º [Nº] el requerimiento efectuado y como documento n.º [Nº] la contestación del demandado.
+
+Por lo expuesto,
+
+SUPLICO AL TRIBUNAL
+
+que, teniendo por presentado este escrito, con su copia, lo admita, y teniendo por formulada demanda sucinta de juicio verbal, en nombre y derecho propio, acuerde dar traslado al demandado para que comparezca y la conteste, y, seguido el juicio por sus trámites, se dicte sentencia condenando al demandado al pago de la cantidad reclamada de [IMPORTE EN LETRA] euros ([IMPORTE] €), más sus intereses [ELEGIR: desde el requerimiento, si se ha hecho y existe constancia / desde la interpelación judicial], y las costas procesales que hubiere.
+
+OTROSÍ DIGO:
+
+Que esta parte asume el compromiso de recibir cualquier comunicación dirigida por la oficina judicial, durante toda la fase declarativa e, incluso, en una eventual fase de ejecución, por medios telemáticos, en términos del art. 399.1, párrafo segundo, en relación con el art. 437.1, ambos LEC, consignándose a estos efectos la siguiente dirección de correo electrónico y n.º de teléfono: [CORREO ELECTRÓNICO] / [Nº DE TELÉFONO].
+
+Por lo expuesto,
+
+AL TRIBUNAL NUEVAMENTE SUPLICO que, teniendo por hecha la anterior manifestación, se admita y provea en consecuencia.
+
+Es justicia que pido en [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma del demandante: [FIRMA]
+
+(1) Se indicarán todos los domicilios del deudor que se conozcan, y si no, el del lugar donde pueda ser hallado a efectos del requerimiento.
+
+(2) Está previsto en el art. 437.2 LEC que estén a disposición de las partes impresos normalizados.
+
+(3) En este supuesto, podrá la parte optar por el juicio verbal o el "monitorio".

@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 19.1 LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,55 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, actuando en nombre y representación de [NOMBRE DEL REPRESENTADO/A], demandante, y D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, que actúa en la de [NOMBRE DE LA PARTE], demandada, conforme a los poderes para pleitos con facultades especiales expresas para transigir que se tienen aportados y testimoniados en los autos de Juicio Ordinario n.º [NÚMERO]/[AÑO], ante el Tribunal comparecemos y como mejor proceda en Derecho, DECIMOS:
+
+PRIMERO
+
+Que este proceso se promovió por [NOMBRE DE LA PARTE], bajo representación del Procurador/a Sr./a. [NOMBRE Y APELLIDOS], frente a [ACTO O RESOLUCIÓN], representada por la Procurador/a Sr./a. [NOMBRE Y APELLIDOS], ejercitándose la pretensión de
+
+SEGUNDO
+
+Dichas partes en este proceso han alcanzado un acuerdo transaccional del siguiente tenor literal: ‘ [TEXTO DE LA TRANSACCIÓN] / [TEXTO DE LA TRANSACCIÓN] ‘
+
+Se acompaña documento original que consigna el acuerdo, de fecha [FECHA]
+
+TERCERO
+
+Dispone el art. 19.1 LEC sobre la facultad de los litigantes de disponer del objeto del juicio, salvo cuando la Ley lo prohíba, o establezca limitaciones por razones de interés general o en beneficio de tercero, añadiendo en el apartado 2 del precepto que, si las partes pretendieran, en dicho caso, una transacción judicial de acuerdo conforme al principio y excepciones mentados, será homologado por el tribunal que esté conociendo del litigio al que se pretenda poner fin.
+
+CUARTO
+
+Puesto que no se desprende del reseñado acuerdo, como se comprueba de los elementos obrantes en autos, que haya prohibición o limitaciones de que habla el art. 19.1 LEC, debe declararse homologada la transacción, y finalizado el juicio.
+
+En su virtud,
+
+AL TRIBUNAL SUPLICAMOS
+
+que, teniendo por presentado este escrito, se sirva admitirlo junto con el documento original que le acompaña, quedando unido a los autos de su razón y conforme a lo manifestado, se proceda a homologar por el Tribunal la transacción judicial alcanzada entre [NOMBRE DE LA PARTE] y [NOMBRE DE LA PARTE], en los términos expuestos, y se declare finalizado el presente juicio ordinario.
+
+Es justicia de hacerse en [LUGAR], a [FECHA].
+
+Firma del Abogado/a del actor	Firma del Procurador/a del actor
+
+Firma del Abogado/a del demandado	Firma del Procurador/a del demandado
+
+========================================================================

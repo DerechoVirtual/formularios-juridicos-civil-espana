@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -52,8 +52,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 29 Real Decreto 713/2024
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,41 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA JUNTA ARBITRAL DE CONSUMO DE [LOCALIDAD O ÁMBITO TERRITORIAL]
+
+Don/Doña [NOMBRE Y APELLIDOS DEL REPRESENTANTE], con DNI [DNI/NIE], legal representante de la empresa [DENOMINACIÓN SOCIAL], con NIF [NIF], lo cual acredito mediante el documento adjunto, acompañado como DOCUMENTO Nº 1, con domicilio en [DOMICILIO] (correo electrónico [CORREO ELECTRÓNICO]), el cual se designa a efectos de notificaciones, en nombre de la empresa que represento,
+
+EXPONE:
+
+1) Que en fecha [FECHA] he recibido reclamación arbitral formulada contra mi representada por Don/Doña [NOMBRE Y APELLIDOS DEL RECLAMANTE].
+
+2) Que mi representada [ELEGIR: está adherida al Sistema Arbitral de Consumo / ha suscrito convenio arbitral o acuerdo en el que se somete a dicho Sistema Arbitral de Consumo].
+
+3) No obstante lo anterior, el artículo 58.2 del texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios establece que «quedarán sin efecto los convenios arbitrales y las ofertas públicas de adhesión al arbitraje de consumo formalizados por quienes sean declarados en concurso de acreedores».
+
+4) Mi representada fue declarada en concurso de acreedores por auto de la Sección de lo Mercantil del Tribunal de Instancia de [SEDE], plaza n.º [Nº], de fecha [FECHA], que acompaño por copia a este escrito, por lo que, conforme dispone el citado artículo 58.2 del texto refundido de la Ley, han quedado sin efecto los convenios y ofertas formalizados, quedando mi representada excluida a todos los efectos del Sistema Arbitral, por lo que procede acordar la inadmisión de la solicitud.
+
+En virtud de lo expuesto, es de justicia y por ello
+
+SOLICITA A LA JUNTA ARBITRAL: que me tenga por opuesto al arbitraje propuesto por el reclamante por hallarse mi representada en situación de concurso de acreedores, y acuerde la inadmisión de la solicitud. Asimismo, solicito la baja en la base de datos de empresarios adheridos al Sistema Arbitral de Consumo, conforme al artículo 29 del Real Decreto 713/2024, de 23 de julio, por el que se aprueba el Reglamento que regula el Sistema Arbitral de Consumo.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firmado: [NOMBRE Y APELLIDOS DEL REPRESENTANTE]

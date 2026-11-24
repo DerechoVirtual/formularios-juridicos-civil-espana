@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -58,8 +58,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 571 LEC
 - art. 580 LEC
 - art. 551.3.1.º LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -95,15 +93,78 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+Tfno.: Fax:
+
+N.I.G.:
+
+Ejecución Título Judicial n.º [Nº DE PROCEDIMIENTO]/[AÑO]
+
+Demandante: D./Dña. [NOMBRE Y APELLIDOS]
+
+Abogado/a: D./Dña. [NOMBRE Y APELLIDOS] Procurador: D./Dña. [NOMBRE Y APELLIDOS]
+
+Demandada: [NOMBRE DE LA PARTE].
+
+DECRETO DEL Letrado de la Administración de Justicia
+
+En [LUGAR], a [FECHA].
+
+Sr./a. Letrado de la Administración de Justicia [NOMBRE Y APELLIDOS]
+
+ANTECEDENTES DE HECHO
+
+PRIMERO.- Por la Procurador/a Sr./a [NOMBRE Y APELLIDOS], en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], se presentó escrito en que solicitaba despacho de ejecución frente a [ACTO O RESOLUCIÓN], con fundamento en laudo arbitral, que se acompañaba, siendo el convenio arbitral de constitución automática en régimen de arbitraje de consumo, junto con el documento acreditativo de la notificación a las partes, siendo su tenor:
+
+‘Estimar parcialmente la pretensión de D./Dña. [NOMBRE Y APELLIDOS], en consecuencia, en la sede social de ésta, en el plazo de quince días, contados a partir del siguiente al de la notificación del presente Laudo, abonará a la reclamante [ÓRGANO] xx [IMPORTE] euros ( xx [IMPORTE EN CIFRA]) de la cual [CONCEPTO] bb [IMPORTE] euros corresponden a la indemnización de los daños causados en la prenda y complementos, y [CONCEPTO] cc [IMPORTE] euros a la restitución del importe en su día pagado por la prestación del servicio solicitado, y finalmente realizado en forma negligente.
+
+Por su parte D./Dña. [NOMBRE Y APELLIDOS] entregará la prenda a [NOMBRE DE LA PARTE], quedando ésta en su poder, a los efectos que considere oportunos’.
+
+SEGUNDO.- Mediante auto dictado el [FECHA] se despachó ejecución frente a [ACTO O RESOLUCIÓN], por la cantidad de [IMPORTE] euros ( €) en concepto de principal e intereses ordinarios y moratorios vencidos más otros [IMPORTE] euros ( €) presupuestados provisionalmente para hacer frente a los intereses que, en su caso, puedan devengarse durante la ejecución y a las costas de ésta.
+
+FUNDAMENTOS DE DERECHO
+
+PRIMERO.- De conformidad con lo dispuesto en el art. 551.3 LEC, una vez dictado el auto en el que se despacha ejecución por el Juez o Magistrado, el Letrado de la Administración de Justicia responsable de le ejecución, en el mismo o en el siguiente día hábil a aquél en que hubiera sido dictado, dictará decreto conteniendo medidas ejecutivas concretas, medidas de localización y averiguación de bienes del ejecutado, y el requerimiento de pago, cuando proceda.
+
+SEGUNDO.- La medida de embargo solicitada en la demanda, es la adecuada a una reclamación de suma de dinero, estando acreditado el cumplimiento por la demandante de su prestación de entrega, y por otra parte, la cantidad es determinada y líquida, como exige el art. 571 LEC, de modo que señalándose el bien que se pretende embargar, sin previo requerimiento de pago a la mercantil deudora ex art. 580 LEC, procede decretar directamente en esta resolución dicho embargo de lo señalado por la parte ejecutante en tanto que bienes estimados suficientes para cubrir las cantidades reclamadas (art. 551.3.1.º LEC).
+
+En consecuencia, en el presente caso, atendiendo a lo señalado en tal precepto legal, y a partir de lo solicitado en la demanda, procede la adopción de las medidas de localización de bienes propuestas, y el embargo de bienes del ejecutado señalados.
+
+PARTE DISPOSITIVA
+
+SE DECRETA EL EMBARGO, a los efectos de esta ejecución despachada, y como de titularidad de la ejecutada, estimándose bastantes para cantidades indicadas, los siguientes bienes:
+
+- Derechos de crédito de [NOMBRE DE LA PARTE] frente al [NOMBRE DE LA PARTE], domiciliado en [DOMICILIO], calle [CALLE], n.º [NÚMERO], por contrata de limpieza.
+- Derechos de crédito de [NOMBRE DE LA PARTE]. frente al Colegio [NOMBRE DEL COLEGIO], domiciliado en [DOMICILIO], calle [CALLE], n.º [NÚMERO], por contrata de limpieza.
+
+Fórmese ramo separado para las actuaciones correspondientes al embargo, y a fin de asegurarlo, líbrense sendos oficios a las entidades deudoras a fin de que retengan las cantidades pendientes y las ingresen hasta [IMPORTE] euros ( €) en la cuenta de depósitos del Tribunal, que bajo n.º [NÚMERO], tiene abierta en el Banco Español de Crédito, sucursal de [LOCALIDAD], en calle [CALLE], con identificación de este procedimiento.
+
+Así lo acuerdo y firmo:
+
+Firma del Letrado/a de la Administración de Justicia:
+
+Contra esta resolución cabe interponer recurso de revisión, mediante escrito ante el Tribunal que se presenta dentro de los cinco días hábiles siguientes al de notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en [LOCALIDAD] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 01-Revisión. La consignación deberá ser acreditada al interponer el recurso (DA 15.ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+========================================================================

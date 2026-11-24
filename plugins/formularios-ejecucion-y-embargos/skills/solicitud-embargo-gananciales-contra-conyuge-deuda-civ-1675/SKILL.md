@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -58,8 +58,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 - art. 621.3 LEC
 - art. 541.2 LEC
 - art. 549.1.3.º LEC
-
----
 
 ## Instrucciones para Claude
 
@@ -95,15 +93,45 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
+
+D./Dña. [NOMBRE Y APELLIDOS DEL PROCURADOR/A], Procurador/a de los Tribunales, que actúa en nombre y representación de [DENOMINACIÓN SOCIAL DEL EJECUTANTE], como tengo debidamente acreditado en autos de Ejecución de Título Judicial n.º [Nº DE PROCEDIMIENTO], en los mismos comparezco y, como mejor en Derecho proceda, DIGO:
+
+PRIMERO.– La ejecución despachada a instancia de esta parte frente a D./Dña. [NOMBRE Y APELLIDOS DEL EJECUTADO] se funda en sentencia firme que condena a éste y a [DENOMINACIÓN SOCIAL DE LA SOCIEDAD CONDENADA] a que paguen, conjunta y solidariamente, a mi mandante la cantidad de [IMPORTE] euros, más los intereses moratorios legales desde la fecha de interposición de la demanda, por haberse sentado la responsabilidad de aquél como administrador social de la mercantil codemandada y condenada.
+
+SEGUNDO.– Habiéndose embargado el salario del ejecutado D./Dña. [NOMBRE Y APELLIDOS DEL EJECUTADO] en la empresa [DENOMINACIÓN SOCIAL DE LA EMPRESA PAGADORA], resulta que consta previamente embargado en varios procedimientos, de modo que no resta cuota embargable conforme al art. 607 LEC.
+
+TERCERO.– El ejecutado está casado con D./Dña. [NOMBRE Y APELLIDOS DEL CÓNYUGE], funcionario/a de [ADMINISTRACIÓN PÚBLICA PAGADORA], como [CUERPO O CATEGORÍA], y el sueldo que ésta/e percibe por sus servicios es bien ganancial conforme al art. 1347.1.º CC, por lo que se solicita su embargo para hacer frente directamente a la deuda por la que se sigue la ejecución, que es responsabilidad de la sociedad de gananciales con arreglo al art. 1366 CC, en tanto que obligación extracontractual por negligencia en el campo de la administración social del marido de una sociedad que dirigía en el ámbito de la administración de los bienes comunes.
+
+CUARTO.– Procede, al embargarse sueldo, que se garantice mediante la orden a la entidad pagadora de que lo retenga a disposición del Tribunal y lo transfiera a la Cuenta de Depósitos y Consignaciones del Tribunal, conforme al art. 621.3 LEC.
+
+QUINTO.– De conformidad con el art. 541.2 LEC, puesto que se sigue ejecución por deuda de un cónyuge de la que debe responder la sociedad de gananciales, el embargo de bienes gananciales habrá de notificarse al otro cónyuge, dándole traslado de la demanda ejecutiva y del auto que despache la ejecución, a fin de que tenga la oportunidad de la oposición especial por no consorcialidad del débito.
+
+En su virtud,
+
+SUPLICO AL TRIBUNAL
+
+que, por presentado el presente escrito con sus copias, se sirva admitirlo y, por causadas las manifestaciones precedentes a sus oportunos efectos, se declare por el Letrado de la Administración de Justicia el embargo del sueldo de D./Dña. [NOMBRE Y APELLIDOS DEL CÓNYUGE] hasta la cantidad por la que se ha despachado la ejecución, como bien ganancial del que responde directamente del crédito contra el consorcio conyugal contraído por el ejecutado D./Dña. [NOMBRE Y APELLIDOS DEL EJECUTADO], notificándose a la titular del derecho trabado la demanda ejecutiva y el despacho de ejecución, junto con el auto de embargo, y acordándose librar oficio de retención a [ADMINISTRACIÓN PÚBLICA PAGADORA], que será entregado a esta mandataria para su diligenciado y reporte.
+
+Por ser de Justicia que pido en [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
+
+Firma del Abogado/a: [FIRMA] Firma del Procurador/a: [FIRMA]
+
+NOTA ACLARATORIA: El modelo se corresponde con peticiones de embargo posteriores a la demanda ejecutiva, si bien lo común puede ser que se formulen en ésta, con arreglo al art. 549.1.3.º LEC. De todas formas, en el supuesto de casado que figura solo como legitimado pasivo de la ejecución, las mismas menciones serían las procedentes, es decir: determinar la existencia de sociedad de gananciales al momento del nacimiento de la deuda ejecutiva, el carácter ganancial del bien cuyo embargo se pide y la condición de la deuda, consorcial (responsabilidad directa del patrimonio común, por lo menos externa o provisional) o privativa (responsabilidad exclusivamente indirecta o subsidiaria del patrimonio común).
