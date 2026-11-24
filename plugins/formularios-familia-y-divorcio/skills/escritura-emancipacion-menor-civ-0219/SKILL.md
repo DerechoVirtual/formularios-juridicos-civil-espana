@@ -1,6 +1,6 @@
 ---
 name: escritura-emancipacion-menor-civ-0219
-description: "Escritura de emancipación de un menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de emancipación de un menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de emancipación de un menor

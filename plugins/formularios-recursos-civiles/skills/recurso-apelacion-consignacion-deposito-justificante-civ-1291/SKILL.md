@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-consignacion-deposito-justificante-civ-1291
-description: "Recurso de apelación con consignación, depósito y justificante de la tasa judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación con consignación, depósito y justificante de la tasa judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación con consignación, depósito y justificante de la tasa judicial

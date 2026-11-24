@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-ordinaria-propietarios-presidente-civ-0651
-description: "Convocatoria de junta ordinaria de propietarios por el presidente de la comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta ordinaria de propietarios por el presidente de la comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta ordinaria de propietarios por el presidente de la comunidad

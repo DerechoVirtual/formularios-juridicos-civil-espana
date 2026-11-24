@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-persona-juridica-exenta-no-aporta-civ-0982
-description: "Otrosí de la demanda de persona jurídica exenta que no aporta justificante de la tasa judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda de persona jurídica exenta que no aporta justificante de la tasa judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda de persona jurídica exenta que no aporta justificante de la tasa judicial

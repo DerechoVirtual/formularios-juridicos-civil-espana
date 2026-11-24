@@ -1,6 +1,6 @@
 ---
 name: declaracion-responsable-deudor-sobre-requisitos-ley-1-civ-1399
-description: "Declaración responsable del deudor sobre requisitos de la Ley 1-2013 para paralizar el lanzamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declaración responsable del deudor sobre requisitos de la Ley 1-2013 para paralizar el lanzamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declaración responsable del deudor sobre requisitos de la Ley 1-2013 para paralizar el lanzamiento

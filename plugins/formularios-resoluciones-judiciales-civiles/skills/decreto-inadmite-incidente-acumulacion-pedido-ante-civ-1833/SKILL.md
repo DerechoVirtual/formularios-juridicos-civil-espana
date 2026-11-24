@@ -1,6 +1,6 @@
 ---
 name: decreto-inadmite-incidente-acumulacion-pedido-ante-civ-1833
-description: "Decreto que inadmite el incidente de acumulación pedido ante el tribunal del proceso más moderno. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que inadmite el incidente de acumulación pedido ante el tribunal del proceso más moderno. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que inadmite el incidente de acumulación pedido ante el tribunal del proceso más moderno

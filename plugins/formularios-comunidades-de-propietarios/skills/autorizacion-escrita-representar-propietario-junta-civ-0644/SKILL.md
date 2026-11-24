@@ -1,6 +1,6 @@
 ---
 name: autorizacion-escrita-representar-propietario-junta-civ-0644
-description: "Autorización escrita para representar a un propietario en la junta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Autorización escrita para representar a un propietario en la junta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Autorización escrita para representar a un propietario en la junta

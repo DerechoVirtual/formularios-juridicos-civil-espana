@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-bien-futuro-pendiente-civ-0831
-description: "Contrato de compraventa de bien futuro pendiente de adjudicación de herencia, con pago aplazado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de bien futuro pendiente de adjudicación de herencia, con pago aplazado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de bien futuro pendiente de adjudicación de herencia, con pago aplazado

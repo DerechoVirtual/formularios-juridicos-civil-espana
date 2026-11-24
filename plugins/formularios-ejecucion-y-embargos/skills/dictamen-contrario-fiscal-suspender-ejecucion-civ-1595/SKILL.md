@@ -1,6 +1,6 @@
 ---
 name: dictamen-contrario-fiscal-suspender-ejecucion-civ-1595
-description: "Dictamen contrario del Fiscal a suspender la ejecución de la sentencia sometida a revisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Dictamen contrario del Fiscal a suspender la ejecución de la sentencia sometida a revisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Dictamen contrario del Fiscal a suspender la ejecución de la sentencia sometida a revisión

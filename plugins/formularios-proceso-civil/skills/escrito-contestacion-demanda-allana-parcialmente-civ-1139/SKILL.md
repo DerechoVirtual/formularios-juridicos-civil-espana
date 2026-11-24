@@ -1,6 +1,6 @@
 ---
 name: escrito-contestacion-demanda-allana-parcialmente-civ-1139
-description: "Escrito de contestación a la demanda que se allana parcialmente a las pretensiones del actor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de contestación a la demanda que se allana parcialmente a las pretensiones del actor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de contestación a la demanda que se allana parcialmente a las pretensiones del actor

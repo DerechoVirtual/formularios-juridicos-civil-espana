@@ -1,6 +1,6 @@
 ---
 name: peticion-proceso-monitorio-abogado-contra-cliente-civ-1159
-description: "Petición de proceso monitorio de un abogado contra su cliente por honorarios impagados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de proceso monitorio de un abogado contra su cliente por honorarios impagados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de proceso monitorio de un abogado contra su cliente por honorarios impagados

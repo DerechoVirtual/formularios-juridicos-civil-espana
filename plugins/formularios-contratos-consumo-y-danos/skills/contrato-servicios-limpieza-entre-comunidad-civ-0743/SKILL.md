@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-limpieza-entre-comunidad-civ-0743
-description: "Contrato de servicios de limpieza entre una comunidad de propietarios y una empresa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de limpieza entre una comunidad de propietarios y una empresa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de limpieza entre una comunidad de propietarios y una empresa

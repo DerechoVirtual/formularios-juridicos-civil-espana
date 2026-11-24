@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-impago-reclamacion-rentas-sin-civ-0552
-description: "Demanda de desahucio por impago y reclamación de rentas, sin enervación y con condonación de deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio por impago y reclamación de rentas, sin enervación y con condonación de deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio por impago y reclamación de rentas, sin enervación y con condonación de deuda

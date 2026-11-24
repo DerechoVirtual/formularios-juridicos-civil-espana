@@ -1,6 +1,6 @@
 ---
 name: reclamacion-danos-defectos-calidad-suministro-electrico-civ-0710
-description: "Reclamación de daños por defectos en la calidad del suministro eléctrico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación de daños por defectos en la calidad del suministro eléctrico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación de daños por defectos en la calidad del suministro eléctrico

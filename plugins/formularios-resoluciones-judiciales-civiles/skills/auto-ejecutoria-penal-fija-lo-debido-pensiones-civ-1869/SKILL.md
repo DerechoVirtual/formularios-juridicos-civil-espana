@@ -1,6 +1,6 @@
 ---
 name: auto-ejecutoria-penal-fija-lo-debido-pensiones-civ-1869
-description: "Auto en ejecutoria penal que fija lo debido por pensiones impagadas fijadas en proceso civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto en ejecutoria penal que fija lo debido por pensiones impagadas fijadas en proceso civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto en ejecutoria penal que fija lo debido por pensiones impagadas fijadas en proceso civil

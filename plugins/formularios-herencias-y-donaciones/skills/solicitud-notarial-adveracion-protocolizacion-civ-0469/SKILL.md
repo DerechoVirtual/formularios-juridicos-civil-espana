@@ -1,6 +1,6 @@
 ---
 name: solicitud-notarial-adveracion-protocolizacion-civ-0469
-description: "Solicitud notarial de adveración y protocolización de testamento ológrafo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud notarial de adveración y protocolización de testamento ológrafo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud notarial de adveración y protocolización de testamento ológrafo

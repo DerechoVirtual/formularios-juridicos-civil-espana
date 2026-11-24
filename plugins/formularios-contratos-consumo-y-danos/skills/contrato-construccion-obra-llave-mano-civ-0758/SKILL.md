@@ -1,6 +1,6 @@
 ---
 name: contrato-construccion-obra-llave-mano-civ-0758
-description: "Contrato de construcción de obra llave en mano. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de construcción de obra llave en mano. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de construcción de obra llave en mano

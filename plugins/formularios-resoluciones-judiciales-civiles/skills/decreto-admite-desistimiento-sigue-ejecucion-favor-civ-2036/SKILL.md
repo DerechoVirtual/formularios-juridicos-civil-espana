@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-desistimiento-sigue-ejecucion-favor-civ-2036
-description: "Decreto que admite el desistimiento y sigue la ejecución a favor del tercerista sin título ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite el desistimiento y sigue la ejecución a favor del tercerista sin título ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite el desistimiento y sigue la ejecución a favor del tercerista sin título ejecutivo

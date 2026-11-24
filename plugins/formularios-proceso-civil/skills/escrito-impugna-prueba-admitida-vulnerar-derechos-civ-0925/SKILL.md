@@ -1,6 +1,6 @@
 ---
 name: escrito-impugna-prueba-admitida-vulnerar-derechos-civ-0925
-description: "Escrito que impugna una prueba admitida por vulnerar derechos fundamentales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que impugna una prueba admitida por vulnerar derechos fundamentales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que impugna una prueba admitida por vulnerar derechos fundamentales

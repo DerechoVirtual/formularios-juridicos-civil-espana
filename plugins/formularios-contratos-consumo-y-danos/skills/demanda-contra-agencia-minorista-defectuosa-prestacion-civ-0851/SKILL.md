@@ -1,6 +1,6 @@
 ---
 name: demanda-contra-agencia-minorista-defectuosa-prestacion-civ-0851
-description: "Demanda contra la agencia minorista por defectuosa prestación de servicios de un viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contra la agencia minorista por defectuosa prestación de servicios de un viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contra la agencia minorista por defectuosa prestación de servicios de un viaje combinado

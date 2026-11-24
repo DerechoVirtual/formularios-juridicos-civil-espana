@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 28 formularios de Discapacidad y medidas de apoyo (Ley 8/2021). Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 28 formularios de Discapacidad y medidas de apoyo (Ley 8/2021). Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Discapacidad y medidas de apoyo (Ley 8/2021): índice de formularios

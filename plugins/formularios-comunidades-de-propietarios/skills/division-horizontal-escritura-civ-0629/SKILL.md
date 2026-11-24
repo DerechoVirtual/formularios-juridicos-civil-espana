@@ -1,6 +1,6 @@
 ---
 name: division-horizontal-escritura-civ-0629
-description: "División Horizontal (escritura). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "División Horizontal (escritura). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # División Horizontal (escritura)

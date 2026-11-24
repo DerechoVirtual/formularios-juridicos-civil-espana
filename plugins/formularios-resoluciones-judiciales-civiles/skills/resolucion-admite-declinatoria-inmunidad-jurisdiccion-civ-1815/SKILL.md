@@ -1,6 +1,6 @@
 ---
 name: resolucion-admite-declinatoria-inmunidad-jurisdiccion-civ-1815
-description: "Resolución que admite la declinatoria por inmunidad de jurisdicción alegada por el demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Resolución que admite la declinatoria por inmunidad de jurisdicción alegada por el demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Resolución que admite la declinatoria por inmunidad de jurisdicción alegada por el demandado

@@ -1,6 +1,6 @@
 ---
 name: escrito-contraparte-niega-hecho-alegado-ampliacion-civ-1130
-description: "Escrito de la contraparte que niega el hecho alegado en la ampliación de hechos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de la contraparte que niega el hecho alegado en la ampliación de hechos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de la contraparte que niega el hecho alegado en la ampliación de hechos

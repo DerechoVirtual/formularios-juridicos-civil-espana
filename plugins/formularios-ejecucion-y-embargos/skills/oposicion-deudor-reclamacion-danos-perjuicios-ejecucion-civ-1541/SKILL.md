@@ -1,6 +1,6 @@
 ---
 name: oposicion-deudor-reclamacion-danos-perjuicios-ejecucion-civ-1541
-description: "Oposición del deudor a la reclamación de daños y perjuicios en la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del deudor a la reclamación de daños y perjuicios en la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del deudor a la reclamación de daños y perjuicios en la ejecución

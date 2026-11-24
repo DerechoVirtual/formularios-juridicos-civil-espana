@@ -1,6 +1,6 @@
 ---
 name: solicitud-citacion-testigos-vista-civ-0869
-description: "Solicitud de citación de testigos a la vista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de citación de testigos a la vista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de citación de testigos a la vista

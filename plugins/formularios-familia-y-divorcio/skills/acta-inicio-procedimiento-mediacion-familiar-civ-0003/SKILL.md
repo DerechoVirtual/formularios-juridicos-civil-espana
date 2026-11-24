@@ -1,6 +1,6 @@
 ---
 name: acta-inicio-procedimiento-mediacion-familiar-civ-0003
-description: "Acta de inicio de un procedimiento de mediación familiar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de inicio de un procedimiento de mediación familiar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de inicio de un procedimiento de mediación familiar

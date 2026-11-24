@@ -1,6 +1,6 @@
 ---
 name: demanda-eficacia-civil-sentencia-eclesiastica-nulidad-civ-0332
-description: "Demanda de eficacia civil de sentencia eclesiástica de nulidad matrimonial con petición de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de eficacia civil de sentencia eclesiástica de nulidad matrimonial con petición de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de eficacia civil de sentencia eclesiástica de nulidad matrimonial con petición de medidas

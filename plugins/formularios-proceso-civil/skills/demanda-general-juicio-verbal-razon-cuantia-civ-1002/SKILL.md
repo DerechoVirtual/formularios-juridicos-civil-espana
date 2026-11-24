@@ -1,6 +1,6 @@
 ---
 name: demanda-general-juicio-verbal-razon-cuantia-civ-1002
-description: "Demanda general de juicio verbal por razón de la cuantía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda general de juicio verbal por razón de la cuantía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda general de juicio verbal por razón de la cuantía

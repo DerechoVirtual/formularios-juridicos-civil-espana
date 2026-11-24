@@ -1,6 +1,6 @@
 ---
 name: demanda-comunidad-propietarios-contra-administrador-civ-0620
-description: "Demanda de la comunidad de propietarios contra el administrador por rendición de cuentas y daños. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de la comunidad de propietarios contra el administrador por rendición de cuentas y daños. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de la comunidad de propietarios contra el administrador por rendición de cuentas y daños

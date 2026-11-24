@@ -1,6 +1,6 @@
 ---
 name: auto-sobreseimiento-proceso-repudiacion-herencia-civ-1900
-description: "Auto de sobreseimiento del proceso por repudiación de la herencia por los sucesores del demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de sobreseimiento del proceso por repudiación de la herencia por los sucesores del demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de sobreseimiento del proceso por repudiación de la herencia por los sucesores del demandado

@@ -1,6 +1,6 @@
 ---
 name: otrosi-medidas-cautelares-propone-practica-prueba-civ-1226
-description: "Otrosí de medidas cautelares que propone la práctica de prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de medidas cautelares que propone la práctica de prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de medidas cautelares que propone la práctica de prueba

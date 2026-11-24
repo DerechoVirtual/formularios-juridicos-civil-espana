@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-ocupar-inquilino-civ-0535
-description: "Demanda de resolución del arrendamiento por ocupar el inquilino varias viviendas (anterior a 1995). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución del arrendamiento por ocupar el inquilino varias viviendas (anterior a 1995). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución del arrendamiento por ocupar el inquilino varias viviendas (anterior a 1995)

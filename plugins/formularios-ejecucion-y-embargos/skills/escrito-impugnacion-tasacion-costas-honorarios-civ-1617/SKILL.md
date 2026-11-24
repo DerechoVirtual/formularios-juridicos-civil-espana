@@ -1,6 +1,6 @@
 ---
 name: escrito-impugnacion-tasacion-costas-honorarios-civ-1617
-description: "Escrito de impugnación de la tasación de costas por honorarios indebidos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de impugnación de la tasación de costas por honorarios indebidos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de impugnación de la tasación de costas por honorarios indebidos

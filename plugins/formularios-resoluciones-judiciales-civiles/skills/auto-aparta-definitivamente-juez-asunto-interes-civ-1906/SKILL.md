@@ -1,6 +1,6 @@
 ---
 name: auto-aparta-definitivamente-juez-asunto-interes-civ-1906
-description: "Auto que aparta definitivamente al juez del asunto por interés indirecto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que aparta definitivamente al juez del asunto por interés indirecto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que aparta definitivamente al juez del asunto por interés indirecto

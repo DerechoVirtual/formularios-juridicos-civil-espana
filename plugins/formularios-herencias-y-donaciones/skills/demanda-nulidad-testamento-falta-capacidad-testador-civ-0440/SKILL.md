@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-testamento-falta-capacidad-testador-civ-0440
-description: "Demanda de nulidad de testamento por falta de capacidad del testador (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad de testamento por falta de capacidad del testador (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad de testamento por falta de capacidad del testador (Derecho civil catalán)

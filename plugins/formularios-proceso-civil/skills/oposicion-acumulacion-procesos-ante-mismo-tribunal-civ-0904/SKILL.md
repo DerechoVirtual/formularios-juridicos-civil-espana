@@ -1,6 +1,6 @@
 ---
 name: oposicion-acumulacion-procesos-ante-mismo-tribunal-civ-0904
-description: "Oposición a la acumulación de procesos ante el mismo tribunal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la acumulación de procesos ante el mismo tribunal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la acumulación de procesos ante el mismo tribunal

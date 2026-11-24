@@ -1,6 +1,6 @@
 ---
 name: oferta-publica-adhesion-empresario-sistema-arbitral-civ-1719
-description: "Oferta pública de adhesión del empresario al sistema arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oferta pública de adhesión del empresario al sistema arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oferta pública de adhesión del empresario al sistema arbitral de consumo

@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-familiar-acuerdo-sobre-pension-civ-0029
-description: "Acta final de mediación familiar con acuerdo sobre la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación familiar con acuerdo sobre la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación familiar con acuerdo sobre la pensión compensatoria

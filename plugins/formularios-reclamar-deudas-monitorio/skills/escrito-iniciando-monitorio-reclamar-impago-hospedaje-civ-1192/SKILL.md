@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-monitorio-reclamar-impago-hospedaje-civ-1192
-description: "Escrito iniciando monitorio para reclamar el impago de hospedaje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando monitorio para reclamar el impago de hospedaje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando monitorio para reclamar el impago de hospedaje

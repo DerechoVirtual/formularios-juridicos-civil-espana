@@ -1,6 +1,6 @@
 ---
 name: manifestacion-herencia-intestada-conyuge-como-heredero-civ-0416
-description: "Manifestación de herencia intestada por el cónyuge como heredero único. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Manifestación de herencia intestada por el cónyuge como heredero único. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Manifestación de herencia intestada por el cónyuge como heredero único

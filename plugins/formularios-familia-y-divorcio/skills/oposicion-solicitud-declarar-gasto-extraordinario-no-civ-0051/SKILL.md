@@ -1,6 +1,6 @@
 ---
 name: oposicion-solicitud-declarar-gasto-extraordinario-no-civ-0051
-description: "Oposición a la solicitud de declarar un gasto extraordinario no previsto en las medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la solicitud de declarar un gasto extraordinario no previsto en las medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la solicitud de declarar un gasto extraordinario no previsto en las medidas

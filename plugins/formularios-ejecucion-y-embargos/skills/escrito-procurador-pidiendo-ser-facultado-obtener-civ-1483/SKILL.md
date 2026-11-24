@@ -1,6 +1,6 @@
 ---
 name: escrito-procurador-pidiendo-ser-facultado-obtener-civ-1483
-description: "Escrito del procurador pidiendo ser facultado para obtener la certificación de dominio y cargas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del procurador pidiendo ser facultado para obtener la certificación de dominio y cargas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del procurador pidiendo ser facultado para obtener la certificación de dominio y cargas

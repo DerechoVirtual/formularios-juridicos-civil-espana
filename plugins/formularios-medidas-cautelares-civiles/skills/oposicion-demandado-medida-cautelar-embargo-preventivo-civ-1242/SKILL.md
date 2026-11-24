@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandado-medida-cautelar-embargo-preventivo-civ-1242
-description: "Oposición del demandado a la medida cautelar de embargo preventivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandado a la medida cautelar de embargo preventivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandado a la medida cautelar de embargo preventivo

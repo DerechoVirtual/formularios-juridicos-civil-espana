@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-impago-reclamacion-rentas-contra-civ-0509
-description: "Demanda de desahucio por impago y reclamación de rentas contra el inquilino y su fiador solidario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio por impago y reclamación de rentas contra el inquilino y su fiador solidario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio por impago y reclamación de rentas contra el inquilino y su fiador solidario

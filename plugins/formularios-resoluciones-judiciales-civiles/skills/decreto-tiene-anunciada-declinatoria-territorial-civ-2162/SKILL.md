@@ -1,6 +1,6 @@
 ---
 name: decreto-tiene-anunciada-declinatoria-territorial-civ-2162
-description: "Decreto que tiene por anunciada la declinatoria territorial y suspende el cómputo de plazos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que tiene por anunciada la declinatoria territorial y suspende el cómputo de plazos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que tiene por anunciada la declinatoria territorial y suspende el cómputo de plazos

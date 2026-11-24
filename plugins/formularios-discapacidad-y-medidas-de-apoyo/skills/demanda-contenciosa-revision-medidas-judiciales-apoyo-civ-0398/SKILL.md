@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-revision-medidas-judiciales-apoyo-civ-0398
-description: "Demanda contenciosa de revisión de las medidas judiciales de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de revisión de las medidas judiciales de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de revisión de las medidas judiciales de apoyo a persona con discapacidad

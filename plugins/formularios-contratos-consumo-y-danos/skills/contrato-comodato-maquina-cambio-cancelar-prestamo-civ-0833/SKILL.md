@@ -1,6 +1,6 @@
 ---
 name: contrato-comodato-maquina-cambio-cancelar-prestamo-civ-0833
-description: "Contrato de comodato de una máquina a cambio de cancelar un préstamo personal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de comodato de una máquina a cambio de cancelar un préstamo personal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de comodato de una máquina a cambio de cancelar un préstamo personal

@@ -1,6 +1,6 @@
 ---
 name: solicitud-dispensa-impedimento-vez-celebrado-matrimonio-civ-0249
-description: "Solicitud de dispensa de impedimento una vez celebrado el matrimonio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de dispensa de impedimento una vez celebrado el matrimonio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de dispensa de impedimento una vez celebrado el matrimonio

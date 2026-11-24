@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-subasta-sin-suplir-civ-1636
-description: "Escrito del ejecutante pidiendo subasta sin suplir previamente la falta de títulos de propiedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo subasta sin suplir previamente la falta de títulos de propiedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo subasta sin suplir previamente la falta de títulos de propiedad

@@ -1,6 +1,6 @@
 ---
 name: carta-otros-familiares-arrendatario-fallecido-civ-0527
-description: "Carta de otros familiares del arrendatario fallecido que renuncian a subrogarse en el arrendamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de otros familiares del arrendatario fallecido que renuncian a subrogarse en el arrendamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de otros familiares del arrendatario fallecido que renuncian a subrogarse en el arrendamiento

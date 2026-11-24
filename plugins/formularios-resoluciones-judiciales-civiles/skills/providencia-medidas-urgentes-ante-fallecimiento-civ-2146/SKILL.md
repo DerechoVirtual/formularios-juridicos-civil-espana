@@ -1,6 +1,6 @@
 ---
 name: providencia-medidas-urgentes-ante-fallecimiento-civ-2146
-description: "Providencia con medidas urgentes ante un fallecimiento comunicado desde diligencias penales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia con medidas urgentes ante un fallecimiento comunicado desde diligencias penales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia con medidas urgentes ante un fallecimiento comunicado desde diligencias penales

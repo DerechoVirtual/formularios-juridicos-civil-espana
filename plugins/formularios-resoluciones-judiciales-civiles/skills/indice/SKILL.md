@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 399 formularios de Resoluciones judiciales civiles: autos, decretos y diligencias. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 399 formularios de Resoluciones judiciales civiles: autos, decretos y diligencias. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Resoluciones judiciales civiles: autos, decretos y diligencias: índice de formularios

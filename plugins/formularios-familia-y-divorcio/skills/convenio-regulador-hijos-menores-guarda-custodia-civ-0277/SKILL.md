@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-hijos-menores-guarda-custodia-civ-0277
-description: "Convenio regulador con hijos menores y guarda y custodia exclusiva (propuesta). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador con hijos menores y guarda y custodia exclusiva (propuesta). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador con hijos menores y guarda y custodia exclusiva (propuesta)

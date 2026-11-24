@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-modificacion-medidas-proceso-civ-0108
-description: "Contestación a la demanda de modificación de medidas de un proceso matrimonial (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de modificación de medidas de un proceso matrimonial (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de modificación de medidas de un proceso matrimonial (Derecho catalán)

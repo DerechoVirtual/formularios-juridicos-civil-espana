@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-division-herencia-sobre-intervencion-civ-0474
-description: "Otrosí de demanda de división de herencia sobre intervención del Fiscal hasta nombrar defensor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de demanda de división de herencia sobre intervención del Fiscal hasta nombrar defensor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de demanda de división de herencia sobre intervención del Fiscal hasta nombrar defensor

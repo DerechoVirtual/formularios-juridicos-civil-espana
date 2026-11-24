@@ -1,6 +1,6 @@
 ---
 name: auto-estima-oposicion-actuacion-concreta-ejecucion-civ-2185
-description: "Auto que estima la oposición a una actuación concreta de la ejecución provisional dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la oposición a una actuación concreta de la ejecución provisional dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la oposición a una actuación concreta de la ejecución provisional dineraria

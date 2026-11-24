@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-divorcio-hijos-menores-liquidacion-civ-0224
-description: "Convenio regulador de divorcio con hijos menores y liquidación del régimen económico matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de divorcio con hijos menores y liquidación del régimen económico matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de divorcio con hijos menores y liquidación del régimen económico matrimonial

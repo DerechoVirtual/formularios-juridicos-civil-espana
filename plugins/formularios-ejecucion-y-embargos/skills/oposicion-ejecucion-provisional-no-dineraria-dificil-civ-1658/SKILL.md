@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-provisional-no-dineraria-dificil-civ-1658
-description: "Oposición a la ejecución provisional no dineraria por difícil restauración si se revoca la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución provisional no dineraria por difícil restauración si se revoca la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución provisional no dineraria por difícil restauración si se revoca la sentencia

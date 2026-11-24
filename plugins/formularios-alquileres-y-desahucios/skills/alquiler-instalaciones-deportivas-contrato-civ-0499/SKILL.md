@@ -1,6 +1,6 @@
 ---
 name: alquiler-instalaciones-deportivas-contrato-civ-0499
-description: "Alquiler de instalaciones deportivas (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alquiler de instalaciones deportivas (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alquiler de instalaciones deportivas (contrato)

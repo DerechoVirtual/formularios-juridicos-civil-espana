@@ -1,6 +1,6 @@
 ---
 name: providencia-nombra-perito-solicitado-parte-civ-1960
-description: "Providencia que nombra el perito solicitado por la parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que nombra el perito solicitado por la parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que nombra el perito solicitado por la parte

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-diligencias-preliminares-civ-1259
-description: "Escrito pidiendo diligencias preliminares por responsabilidad de un accidente de circulación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo diligencias preliminares por responsabilidad de un accidente de circulación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo diligencias preliminares por responsabilidad de un accidente de circulación

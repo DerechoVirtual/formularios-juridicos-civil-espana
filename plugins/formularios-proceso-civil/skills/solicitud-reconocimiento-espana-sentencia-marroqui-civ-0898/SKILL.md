@@ -1,6 +1,6 @@
 ---
 name: solicitud-reconocimiento-espana-sentencia-marroqui-civ-0898
-description: "Solicitud de reconocimiento en España de una sentencia marroquí (Convenio de 1997). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de reconocimiento en España de una sentencia marroquí (Convenio de 1997). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de reconocimiento en España de una sentencia marroquí (Convenio de 1997)

@@ -1,6 +1,6 @@
 ---
 name: demanda-acumulacion-acciones-civ-0992
-description: "Demanda con acumulación de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda con acumulación de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda con acumulación de acciones

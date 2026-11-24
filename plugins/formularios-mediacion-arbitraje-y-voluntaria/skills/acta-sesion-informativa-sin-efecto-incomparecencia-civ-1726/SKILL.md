@@ -1,6 +1,6 @@
 ---
 name: acta-sesion-informativa-sin-efecto-incomparecencia-civ-1726
-description: "Acta de sesión informativa sin efecto por incomparecencia de una de las partes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de sesión informativa sin efecto por incomparecencia de una de las partes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de sesión informativa sin efecto por incomparecencia de una de las partes

@@ -1,6 +1,6 @@
 ---
 name: peticion-inicial-proceso-monitorio-reclamar-honorarios-civ-1161
-description: "Petición inicial de proceso monitorio para reclamar honorarios de abogado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición inicial de proceso monitorio para reclamar honorarios de abogado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición inicial de proceso monitorio para reclamar honorarios de abogado

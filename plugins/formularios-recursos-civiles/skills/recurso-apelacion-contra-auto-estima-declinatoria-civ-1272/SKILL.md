@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-contra-auto-estima-declinatoria-civ-1272
-description: "Recurso de apelación contra el auto que estima la declinatoria por sumisión a mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación contra el auto que estima la declinatoria por sumisión a mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación contra el auto que estima la declinatoria por sumisión a mediación

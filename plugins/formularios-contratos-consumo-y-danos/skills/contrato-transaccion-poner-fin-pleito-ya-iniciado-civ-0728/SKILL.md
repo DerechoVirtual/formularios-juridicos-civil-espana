@@ -1,6 +1,6 @@
 ---
 name: contrato-transaccion-poner-fin-pleito-ya-iniciado-civ-0728
-description: "Contrato de transacción para poner fin a un pleito ya iniciado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transacción para poner fin a un pleito ya iniciado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transacción para poner fin a un pleito ya iniciado

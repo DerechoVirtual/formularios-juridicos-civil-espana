@@ -1,6 +1,6 @@
 ---
 name: escrito-solicitante-laj-requiera-exhibicion-persona-civ-1199
-description: "Escrito del solicitante para que el LAJ requiera la exhibición a la persona obligada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del solicitante para que el LAJ requiera la exhibición a la persona obligada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del solicitante para que el LAJ requiera la exhibición a la persona obligada

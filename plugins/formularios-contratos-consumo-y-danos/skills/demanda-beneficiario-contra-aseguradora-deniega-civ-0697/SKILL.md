@@ -1,6 +1,6 @@
 ---
 name: demanda-beneficiario-contra-aseguradora-deniega-civ-0697
-description: "Demanda del beneficiario contra la aseguradora que deniega la indemnización de un seguro de vida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del beneficiario contra la aseguradora que deniega la indemnización de un seguro de vida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del beneficiario contra la aseguradora que deniega la indemnización de un seguro de vida

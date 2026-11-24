@@ -1,6 +1,6 @@
 ---
 name: resolucion-declara-falta-jurisdiccion-inmunidad-civ-1816
-description: "Resolución que declara la falta de jurisdicción por inmunidad apreciada de oficio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Resolución que declara la falta de jurisdicción por inmunidad apreciada de oficio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Resolución que declara la falta de jurisdicción por inmunidad apreciada de oficio

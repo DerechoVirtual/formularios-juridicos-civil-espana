@@ -1,6 +1,6 @@
 ---
 name: demanda-resolver-compraventa-mercantil-incumplimiento-civ-0767
-description: "Demanda para resolver una compraventa mercantil por incumplimiento del vendedor y reclamar cantidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para resolver una compraventa mercantil por incumplimiento del vendedor y reclamar cantidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para resolver una compraventa mercantil por incumplimiento del vendedor y reclamar cantidad

@@ -1,6 +1,6 @@
 ---
 name: demanda-medidas-paterno-filiales-tras-sentencia-civ-0121
-description: "Demanda de medidas paterno-filiales tras la sentencia que declara la filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de medidas paterno-filiales tras la sentencia que declara la filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de medidas paterno-filiales tras la sentencia que declara la filiación

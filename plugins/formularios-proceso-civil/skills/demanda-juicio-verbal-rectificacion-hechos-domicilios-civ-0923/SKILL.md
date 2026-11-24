@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-rectificacion-hechos-domicilios-civ-0923
-description: "Demanda de juicio verbal de rectificación de hechos con domicilios para notificaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de rectificación de hechos con domicilios para notificaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de rectificación de hechos con domicilios para notificaciones

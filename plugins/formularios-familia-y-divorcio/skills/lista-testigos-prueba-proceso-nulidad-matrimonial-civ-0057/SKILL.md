@@ -1,6 +1,6 @@
 ---
 name: lista-testigos-prueba-proceso-nulidad-matrimonial-civ-0057
-description: "Lista de testigos para la prueba en un proceso de nulidad matrimonial canónica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Lista de testigos para la prueba en un proceso de nulidad matrimonial canónica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Lista de testigos para la prueba en un proceso de nulidad matrimonial canónica

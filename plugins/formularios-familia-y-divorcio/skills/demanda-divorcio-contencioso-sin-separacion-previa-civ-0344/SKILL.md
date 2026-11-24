@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-sin-separacion-previa-civ-0344
-description: "Demanda de divorcio contencioso sin separación previa, con solicitud de medidas provisionales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso sin separación previa, con solicitud de medidas provisionales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso sin separación previa, con solicitud de medidas provisionales

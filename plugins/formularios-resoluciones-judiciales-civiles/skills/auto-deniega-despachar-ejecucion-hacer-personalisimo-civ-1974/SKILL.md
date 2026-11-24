@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-despachar-ejecucion-hacer-personalisimo-civ-1974
-description: "Auto que deniega despachar ejecución de un hacer personalísimo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega despachar ejecución de un hacer personalísimo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega despachar ejecución de un hacer personalísimo

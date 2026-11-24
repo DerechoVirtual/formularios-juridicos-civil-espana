@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-laudo-arbitral-decreta-embargo-civ-1881
-description: "Auto que despacha ejecución de laudo arbitral y decreta el embargo de bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución de laudo arbitral y decreta el embargo de bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución de laudo arbitral y decreta el embargo de bienes

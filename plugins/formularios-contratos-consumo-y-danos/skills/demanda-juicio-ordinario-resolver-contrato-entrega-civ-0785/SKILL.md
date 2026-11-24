@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-resolver-contrato-entrega-civ-0785
-description: "Demanda de juicio ordinario para resolver el contrato por entrega de cosa distinta (aliud pro alio). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para resolver el contrato por entrega de cosa distinta (aliud pro alio). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para resolver el contrato por entrega de cosa distinta (aliud pro alio)

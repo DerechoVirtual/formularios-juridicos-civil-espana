@@ -1,6 +1,6 @@
 ---
 name: escrito-conformidad-dar-eficacia-civil-resolucion-civ-0889
-description: "Escrito de conformidad para dar eficacia civil a una resolución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de conformidad para dar eficacia civil a una resolución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de conformidad para dar eficacia civil a una resolución

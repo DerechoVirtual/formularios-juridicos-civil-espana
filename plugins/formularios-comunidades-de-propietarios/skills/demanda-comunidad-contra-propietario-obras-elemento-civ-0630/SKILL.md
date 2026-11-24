@@ -1,6 +1,6 @@
 ---
 name: demanda-comunidad-contra-propietario-obras-elemento-civ-0630
-description: "Demanda de la comunidad contra un propietario por obras en su elemento privativo (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de la comunidad contra un propietario por obras en su elemento privativo (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de la comunidad contra un propietario por obras en su elemento privativo (Cataluña)

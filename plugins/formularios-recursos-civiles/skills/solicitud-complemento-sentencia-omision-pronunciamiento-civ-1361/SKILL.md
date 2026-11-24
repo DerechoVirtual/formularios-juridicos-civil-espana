@@ -1,6 +1,6 @@
 ---
 name: solicitud-complemento-sentencia-omision-pronunciamiento-civ-1361
-description: "Solicitud de complemento de sentencia por omisión de pronunciamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de complemento de sentencia por omisión de pronunciamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de complemento de sentencia por omisión de pronunciamiento

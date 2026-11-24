@@ -1,6 +1,6 @@
 ---
 name: contrato-resolucion-compraventa-vivienda-adjudicada-civ-0832
-description: "Contrato de resolución de compraventa de vivienda adjudicada a otro, con restitución y mejora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de resolución de compraventa de vivienda adjudicada a otro, con restitución y mejora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de resolución de compraventa de vivienda adjudicada a otro, con restitución y mejora

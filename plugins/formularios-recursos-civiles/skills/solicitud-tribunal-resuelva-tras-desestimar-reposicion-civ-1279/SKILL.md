@@ -1,6 +1,6 @@
 ---
 name: solicitud-tribunal-resuelva-tras-desestimar-reposicion-civ-1279
-description: "Solicitud de que el tribunal resuelva tras desestimar la reposición ante el Letrado de la AJ. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de que el tribunal resuelva tras desestimar la reposición ante el Letrado de la AJ. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de que el tribunal resuelva tras desestimar la reposición ante el Letrado de la AJ

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-amplia-plazo-ejecutar-encargo-civ-2082
-description: "Diligencia de ordenación que amplía el plazo para ejecutar el encargo de realización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que amplía el plazo para ejecutar el encargo de realización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que amplía el plazo para ejecutar el encargo de realización

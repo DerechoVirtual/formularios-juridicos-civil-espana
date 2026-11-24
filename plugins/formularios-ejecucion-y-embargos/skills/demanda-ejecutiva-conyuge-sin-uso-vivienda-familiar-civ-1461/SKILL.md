@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-conyuge-sin-uso-vivienda-familiar-civ-1461
-description: "Demanda ejecutiva para que el cónyuge sin uso de la vivienda familiar arrendada la abandone. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva para que el cónyuge sin uso de la vivienda familiar arrendada la abandone. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva para que el cónyuge sin uso de la vivienda familiar arrendada la abandone

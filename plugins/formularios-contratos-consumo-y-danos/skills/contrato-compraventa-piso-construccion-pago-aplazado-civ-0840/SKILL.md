@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-piso-construccion-pago-aplazado-civ-0840
-description: "Contrato de compraventa de piso en construcción con pago aplazado y entrega diferida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de piso en construcción con pago aplazado y entrega diferida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de piso en construcción con pago aplazado y entrega diferida

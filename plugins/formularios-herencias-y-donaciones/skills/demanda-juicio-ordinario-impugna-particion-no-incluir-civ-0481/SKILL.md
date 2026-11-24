@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-impugna-particion-no-incluir-civ-0481
-description: "Demanda de juicio ordinario que impugna la partición por no incluir bienes en el inventario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario que impugna la partición por no incluir bienes en el inventario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario que impugna la partición por no incluir bienes en el inventario

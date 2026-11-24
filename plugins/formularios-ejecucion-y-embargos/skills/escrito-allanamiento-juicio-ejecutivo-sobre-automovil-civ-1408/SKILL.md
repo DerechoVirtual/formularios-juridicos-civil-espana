@@ -1,6 +1,6 @@
 ---
 name: escrito-allanamiento-juicio-ejecutivo-sobre-automovil-civ-1408
-description: "Escrito de allanamiento en un juicio ejecutivo sobre un automóvil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de allanamiento en un juicio ejecutivo sobre un automóvil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de allanamiento en un juicio ejecutivo sobre un automóvil

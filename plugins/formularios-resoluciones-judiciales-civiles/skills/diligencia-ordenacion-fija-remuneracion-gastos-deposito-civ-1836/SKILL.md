@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-fija-remuneracion-gastos-deposito-civ-1836
-description: "Diligencia de ordenación que fija la remuneración de los gastos del depósito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que fija la remuneración de los gastos del depósito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que fija la remuneración de los gastos del depósito

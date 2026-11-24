@@ -1,6 +1,6 @@
 ---
 name: diligencia-da-procurador-opcion-cesar-renuncia-civ-1926
-description: "Diligencia que da al procurador la opción de cesar por renuncia voluntaria en el proceso ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia que da al procurador la opción de cesar por renuncia voluntaria en el proceso ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia que da al procurador la opción de cesar por renuncia voluntaria en el proceso ejecutivo

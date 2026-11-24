@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-alimentos-hijos-mayores-civ-0154
-description: "Demanda de divorcio contencioso con alimentos para hijos mayores de edad (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso con alimentos para hijos mayores de edad (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso con alimentos para hijos mayores de edad (Derecho catalán)

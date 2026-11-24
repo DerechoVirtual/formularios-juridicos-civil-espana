@@ -1,6 +1,6 @@
 ---
 name: providencia-aprueba-caucion-ejecuta-medida-cautelar-civ-2101
-description: "Providencia que aprueba la caución y ejecuta la medida cautelar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que aprueba la caución y ejecuta la medida cautelar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que aprueba la caución y ejecuta la medida cautelar

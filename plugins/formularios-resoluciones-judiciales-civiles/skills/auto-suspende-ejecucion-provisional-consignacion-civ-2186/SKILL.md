@@ -1,6 +1,6 @@
 ---
 name: auto-suspende-ejecucion-provisional-consignacion-civ-2186
-description: "Auto que suspende la ejecución provisional por consignación de la condena. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que suspende la ejecución provisional por consignación de la condena. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que suspende la ejecución provisional por consignación de la condena

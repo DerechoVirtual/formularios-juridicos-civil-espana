@@ -1,6 +1,6 @@
 ---
 name: escritura-consentimiento-ejercicio-patria-potestad-civ-0217
-description: "Escritura de consentimiento para el ejercicio de la patria potestad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de consentimiento para el ejercicio de la patria potestad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de consentimiento para el ejercicio de la patria potestad

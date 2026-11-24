@@ -1,6 +1,6 @@
 ---
 name: auto-admite-allanamiento-ejecutante-si-credito-civ-2023
-description: "Auto que admite el allanamiento del ejecutante si el crédito del tercerista no consta en título. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite el allanamiento del ejecutante si el crédito del tercerista no consta en título. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite el allanamiento del ejecutante si el crédito del tercerista no consta en título

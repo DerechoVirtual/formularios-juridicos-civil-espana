@@ -1,6 +1,6 @@
 ---
 name: escrito-generico-pide-actuacion-tribunal-ejecucion-civ-1571
-description: "Escrito genérico que pide una actuación del tribunal en la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito genérico que pide una actuación del tribunal en la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito genérico que pide una actuación del tribunal en la ejecución

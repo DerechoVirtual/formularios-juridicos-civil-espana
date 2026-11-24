@@ -1,6 +1,6 @@
 ---
 name: solicitud-dispensa-in-favorem-fidei-disolver-civ-0063
-description: "Solicitud de dispensa in favorem fidei para disolver un matrimonio canónico con persona no bautizada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de dispensa in favorem fidei para disolver un matrimonio canónico con persona no bautizada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de dispensa in favorem fidei para disolver un matrimonio canónico con persona no bautizada

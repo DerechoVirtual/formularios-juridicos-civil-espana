@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-revision-sentencia-firme-civil-civ-1336
-description: "Contestación a la demanda de revisión de sentencia firme civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de revisión de sentencia firme civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de revisión de sentencia firme civil

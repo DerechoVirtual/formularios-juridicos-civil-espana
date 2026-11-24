@@ -1,6 +1,6 @@
 ---
 name: contrato-subarriendo-finca-rustica-civ-0546
-description: "Contrato de subarriendo de finca rústica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de subarriendo de finca rústica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de subarriendo de finca rústica

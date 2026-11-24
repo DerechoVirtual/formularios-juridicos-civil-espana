@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-mutuo-acuerdo-tras-separacion-mutuo-civ-0166
-description: "Demanda de divorcio de mutuo acuerdo tras una separación de mutuo acuerdo previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de mutuo acuerdo tras una separación de mutuo acuerdo previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de mutuo acuerdo tras una separación de mutuo acuerdo previa

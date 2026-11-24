@@ -1,6 +1,6 @@
 ---
 name: otrosi-pide-cese-provisional-actividad-proposicion-civ-1224
-description: "Otrosí que pide el cese provisional de una actividad con proposición de prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que pide el cese provisional de una actividad con proposición de prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que pide el cese provisional de una actividad con proposición de prueba

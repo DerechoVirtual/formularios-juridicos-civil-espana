@@ -1,6 +1,6 @@
 ---
 name: demanda-resolver-compra-vivienda-construccion-reclamar-civ-0749
-description: "Demanda para resolver la compra de vivienda en construcción y reclamar lo entregado al banco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para resolver la compra de vivienda en construcción y reclamar lo entregado al banco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para resolver la compra de vivienda en construcción y reclamar lo entregado al banco

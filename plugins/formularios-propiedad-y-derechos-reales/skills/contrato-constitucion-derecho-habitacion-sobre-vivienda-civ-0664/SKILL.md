@@ -1,6 +1,6 @@
 ---
 name: contrato-constitucion-derecho-habitacion-sobre-vivienda-civ-0664
-description: "Contrato de constitución de derecho de habitación sobre una vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de constitución de derecho de habitación sobre una vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de constitución de derecho de habitación sobre una vivienda

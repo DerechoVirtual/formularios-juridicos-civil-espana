@@ -1,6 +1,6 @@
 ---
 name: clausula-contractual-sometimiento-mediacion-caso-civ-1747
-description: "Cláusula contractual de sometimiento a mediación y, en su caso, a arbitraje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula contractual de sometimiento a mediación y, en su caso, a arbitraje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula contractual de sometimiento a mediación y, en su caso, a arbitraje

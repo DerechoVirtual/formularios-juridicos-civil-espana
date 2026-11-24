@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-local-comercial-civ-0730
-description: "Contrato de venta de un local comercial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta de un local comercial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta de un local comercial

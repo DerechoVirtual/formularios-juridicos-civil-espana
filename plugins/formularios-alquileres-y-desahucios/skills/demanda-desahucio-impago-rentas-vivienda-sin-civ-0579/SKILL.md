@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-impago-rentas-vivienda-sin-civ-0579
-description: "Demanda de desahucio por impago y rentas de vivienda, sin enervación por requerimiento fehaciente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio por impago y rentas de vivienda, sin enervación por requerimiento fehaciente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio por impago y rentas de vivienda, sin enervación por requerimiento fehaciente

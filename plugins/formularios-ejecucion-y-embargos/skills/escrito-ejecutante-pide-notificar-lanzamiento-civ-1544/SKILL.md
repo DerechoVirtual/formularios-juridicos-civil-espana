@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pide-notificar-lanzamiento-civ-1544
-description: "Escrito del ejecutante que pide notificar el lanzamiento a los ocupantes del inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante que pide notificar el lanzamiento a los ocupantes del inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante que pide notificar el lanzamiento a los ocupantes del inmueble

@@ -1,6 +1,6 @@
 ---
 name: plan-parentalidad-conforme-derecho-civil-catalan-civ-0144
-description: "Plan de parentalidad conforme al Derecho civil catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Plan de parentalidad conforme al Derecho civil catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Plan de parentalidad conforme al Derecho civil catalán

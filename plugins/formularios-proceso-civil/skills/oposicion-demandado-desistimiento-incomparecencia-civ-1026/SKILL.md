@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandado-desistimiento-incomparecencia-civ-1026
-description: "Oposición del demandado al desistimiento por incomparecencia de los sucesores del actor fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandado al desistimiento por incomparecencia de los sucesores del actor fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandado al desistimiento por incomparecencia de los sucesores del actor fallecido

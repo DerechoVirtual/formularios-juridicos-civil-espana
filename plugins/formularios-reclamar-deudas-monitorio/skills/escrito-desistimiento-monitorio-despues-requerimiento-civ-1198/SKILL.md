@@ -1,6 +1,6 @@
 ---
 name: escrito-desistimiento-monitorio-despues-requerimiento-civ-1198
-description: "Escrito de desistimiento del monitorio después del requerimiento de pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de desistimiento del monitorio después del requerimiento de pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de desistimiento del monitorio después del requerimiento de pago

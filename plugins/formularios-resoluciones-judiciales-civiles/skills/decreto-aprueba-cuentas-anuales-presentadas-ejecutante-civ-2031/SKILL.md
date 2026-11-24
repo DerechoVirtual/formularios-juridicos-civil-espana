@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-cuentas-anuales-presentadas-ejecutante-civ-2031
-description: "Decreto que aprueba las cuentas anuales presentadas por el ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba las cuentas anuales presentadas por el ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba las cuentas anuales presentadas por el ejecutante

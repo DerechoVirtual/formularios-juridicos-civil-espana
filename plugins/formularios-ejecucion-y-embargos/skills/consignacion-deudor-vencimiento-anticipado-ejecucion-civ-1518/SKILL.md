@@ -1,6 +1,6 @@
 ---
 name: consignacion-deudor-vencimiento-anticipado-ejecucion-civ-1518
-description: "Consignación del deudor por vencimiento anticipado en ejecución sobre la vivienda familiar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Consignación del deudor por vencimiento anticipado en ejecución sobre la vivienda familiar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Consignación del deudor por vencimiento anticipado en ejecución sobre la vivienda familiar

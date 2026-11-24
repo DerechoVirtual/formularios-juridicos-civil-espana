@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-cita-ocupantes-vista-sobre-civ-2046
-description: "Diligencia de ordenación que cita a los ocupantes a vista sobre el lanzamiento que pide el rematante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que cita a los ocupantes a vista sobre el lanzamiento que pide el rematante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que cita a los ocupantes a vista sobre el lanzamiento que pide el rematante

@@ -1,6 +1,6 @@
 ---
 name: carta-comprador-resolviendo-compraventa-vehiculo-civ-0748
-description: "Carta del comprador resolviendo la compraventa de un vehículo y reclamando cantidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta del comprador resolviendo la compraventa de un vehículo y reclamando cantidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta del comprador resolviendo la compraventa de un vehículo y reclamando cantidad

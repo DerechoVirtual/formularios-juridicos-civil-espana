@@ -1,6 +1,6 @@
 ---
 name: escritura-aportacion-bien-sociedad-gananciales-civ-0133
-description: "Escritura de aportación de un bien a la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de aportación de un bien a la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de aportación de un bien a la sociedad de gananciales

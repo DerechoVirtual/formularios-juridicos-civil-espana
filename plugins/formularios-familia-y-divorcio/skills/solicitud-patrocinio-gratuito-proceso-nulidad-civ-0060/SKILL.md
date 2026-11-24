@@ -1,6 +1,6 @@
 ---
 name: solicitud-patrocinio-gratuito-proceso-nulidad-civ-0060
-description: "Solicitud de patrocinio gratuito en un proceso de nulidad matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de patrocinio gratuito en un proceso de nulidad matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de patrocinio gratuito en un proceso de nulidad matrimonial

@@ -1,6 +1,6 @@
 ---
 name: nulidad-actuaciones-mal-emplazamiento-juicio-civ-1375
-description: "Nulidad de actuaciones por mal emplazamiento en juicio de impugnación de acuerdos de comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Nulidad de actuaciones por mal emplazamiento en juicio de impugnación de acuerdos de comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Nulidad de actuaciones por mal emplazamiento en juicio de impugnación de acuerdos de comunidad

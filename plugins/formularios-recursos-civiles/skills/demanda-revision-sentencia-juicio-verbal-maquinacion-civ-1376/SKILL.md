@@ -1,6 +1,6 @@
 ---
 name: demanda-revision-sentencia-juicio-verbal-maquinacion-civ-1376
-description: "Demanda de revisión de sentencia de juicio verbal por maquinación fraudulenta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de revisión de sentencia de juicio verbal por maquinación fraudulenta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de revisión de sentencia de juicio verbal por maquinación fraudulenta

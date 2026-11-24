@@ -1,6 +1,6 @@
 ---
 name: desistimiento-apelante-recurso-apelacion-art-450-lec-civ-1382
-description: "Desistimiento del apelante del recurso de apelación (art. 450 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del apelante del recurso de apelación (art. 450 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del apelante del recurso de apelación (art. 450 LEC)

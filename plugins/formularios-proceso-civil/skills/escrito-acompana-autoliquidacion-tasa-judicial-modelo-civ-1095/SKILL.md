@@ -1,6 +1,6 @@
 ---
 name: escrito-acompana-autoliquidacion-tasa-judicial-modelo-civ-1095
-description: "Escrito que acompaña la autoliquidación de tasa judicial (modelo 696). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que acompaña la autoliquidación de tasa judicial (modelo 696). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que acompaña la autoliquidación de tasa judicial (modelo 696)

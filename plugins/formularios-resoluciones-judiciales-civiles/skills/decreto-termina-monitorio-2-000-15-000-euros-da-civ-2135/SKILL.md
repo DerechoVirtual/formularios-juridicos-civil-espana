@@ -1,6 +1,6 @@
 ---
 name: decreto-termina-monitorio-2-000-15-000-euros-da-civ-2135
-description: "Decreto que termina el monitorio de 2.000 a 15.000 euros y da traslado al actor sobre la oposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que termina el monitorio de 2.000 a 15.000 euros y da traslado al actor sobre la oposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que termina el monitorio de 2.000 a 15.000 euros y da traslado al actor sobre la oposición

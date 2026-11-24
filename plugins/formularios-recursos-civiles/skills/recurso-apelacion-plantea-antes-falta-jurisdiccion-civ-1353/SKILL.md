@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-plantea-antes-falta-jurisdiccion-civ-1353
-description: "Recurso de apelación que plantea antes la falta de jurisdicción o competencia objetiva o funcional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación que plantea antes la falta de jurisdicción o competencia objetiva o funcional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación que plantea antes la falta de jurisdicción o competencia objetiva o funcional

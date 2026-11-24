@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-desconoce-otro-domicilio-demandado-civ-1087
-description: "Escrito del actor que desconoce otro domicilio del demandado en el monitorio y pide oficios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que desconoce otro domicilio del demandado en el monitorio y pide oficios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que desconoce otro domicilio del demandado en el monitorio y pide oficios

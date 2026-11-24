@@ -1,6 +1,6 @@
 ---
 name: solicitud-embargo-preventivo-bienes-presentada-tras-civ-1203
-description: "Solicitud de embargo preventivo de bienes presentada tras la demanda principal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de embargo preventivo de bienes presentada tras la demanda principal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de embargo preventivo de bienes presentada tras la demanda principal

@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-contra-auto-acuerda-internamiento-civ-0391
-description: "Recurso de apelación contra el auto que acuerda el internamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación contra el auto que acuerda el internamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación contra el auto que acuerda el internamiento

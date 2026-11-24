@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-infraccion-normas-sustantivas-civ-1356
-description: "Recurso de apelación por infracción de normas sustantivas de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación por infracción de normas sustantivas de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación por infracción de normas sustantivas de la sentencia

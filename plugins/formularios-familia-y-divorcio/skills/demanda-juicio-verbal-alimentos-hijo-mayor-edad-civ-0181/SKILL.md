@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-alimentos-hijo-mayor-edad-civ-0181
-description: "Demanda de juicio verbal de alimentos del hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de alimentos del hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de alimentos del hijo mayor de edad

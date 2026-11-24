@@ -1,6 +1,6 @@
 ---
 name: escrito-designando-bienes-embargar-pidiendo-despacho-civ-1699
-description: "Escrito designando bienes a embargar y pidiendo despacho de ejecución tras el monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito designando bienes a embargar y pidiendo despacho de ejecución tras el monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito designando bienes a embargar y pidiendo despacho de ejecución tras el monitorio

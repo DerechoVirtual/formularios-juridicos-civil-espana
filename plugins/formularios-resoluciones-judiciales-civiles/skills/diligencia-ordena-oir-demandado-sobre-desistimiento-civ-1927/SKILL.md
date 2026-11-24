@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordena-oir-demandado-sobre-desistimiento-civ-1927
-description: "Diligencia que ordena oír al demandado sobre el desistimiento bilateral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia que ordena oír al demandado sobre el desistimiento bilateral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia que ordena oír al demandado sobre el desistimiento bilateral

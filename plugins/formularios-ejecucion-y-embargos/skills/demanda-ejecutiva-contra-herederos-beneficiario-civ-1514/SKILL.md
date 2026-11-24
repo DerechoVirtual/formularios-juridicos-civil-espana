@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-contra-herederos-beneficiario-civ-1514
-description: "Demanda ejecutiva contra los herederos del beneficiario de una hipoteca inversa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva contra los herederos del beneficiario de una hipoteca inversa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva contra los herederos del beneficiario de una hipoteca inversa

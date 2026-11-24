@@ -1,6 +1,6 @@
 ---
 name: demanda-modificacion-medidas-pedir-custodia-compartida-civ-0067
-description: "Demanda de modificación de medidas para pedir custodia compartida (ley valenciana de 2011). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de modificación de medidas para pedir custodia compartida (ley valenciana de 2011). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de modificación de medidas para pedir custodia compartida (ley valenciana de 2011)

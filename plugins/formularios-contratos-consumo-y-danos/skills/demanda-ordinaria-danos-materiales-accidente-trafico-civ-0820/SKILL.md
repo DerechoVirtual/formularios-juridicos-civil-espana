@@ -1,6 +1,6 @@
 ---
 name: demanda-ordinaria-danos-materiales-accidente-trafico-civ-0820
-description: "Demanda ordinaria por daños materiales en accidente de tráfico contra concesionaria y aseguradora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ordinaria por daños materiales en accidente de tráfico contra concesionaria y aseguradora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ordinaria por daños materiales en accidente de tráfico contra concesionaria y aseguradora

@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-provisional-sentencia-dictada-civ-1689
-description: "Demanda de ejecución provisional de sentencia dictada en segunda instancia (arts. 535 a 537 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución provisional de sentencia dictada en segunda instancia (arts. 535 a 537 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución provisional de sentencia dictada en segunda instancia (arts. 535 a 537 LEC)

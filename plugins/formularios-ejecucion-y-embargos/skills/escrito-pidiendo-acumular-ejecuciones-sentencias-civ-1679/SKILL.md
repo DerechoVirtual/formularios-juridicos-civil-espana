@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-acumular-ejecuciones-sentencias-civ-1679
-description: "Escrito pidiendo acumular ejecuciones de sentencias contra un mismo deudor ante distintos tribunales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo acumular ejecuciones de sentencias contra un mismo deudor ante distintos tribunales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo acumular ejecuciones de sentencias contra un mismo deudor ante distintos tribunales

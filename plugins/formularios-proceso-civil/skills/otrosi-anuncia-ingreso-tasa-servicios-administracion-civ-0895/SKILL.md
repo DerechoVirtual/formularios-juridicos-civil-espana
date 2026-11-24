@@ -1,6 +1,6 @@
 ---
 name: otrosi-anuncia-ingreso-tasa-servicios-administracion-civ-0895
-description: "Otrosí que anuncia el ingreso de la tasa de servicios de la Administración de Justicia (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que anuncia el ingreso de la tasa de servicios de la Administración de Justicia (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que anuncia el ingreso de la tasa de servicios de la Administración de Justicia (Cataluña)

@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-alegando-compensacion-deudas-civ-1137
-description: "Contestación a la demanda alegando compensación de deudas en una compraventa de mercancías. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda alegando compensación de deudas en una compraventa de mercancías. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda alegando compensación de deudas en una compraventa de mercancías

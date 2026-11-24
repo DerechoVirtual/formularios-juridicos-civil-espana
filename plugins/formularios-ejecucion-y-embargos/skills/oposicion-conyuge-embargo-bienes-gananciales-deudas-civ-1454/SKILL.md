@@ -1,6 +1,6 @@
 ---
 name: oposicion-conyuge-embargo-bienes-gananciales-deudas-civ-1454
-description: "Oposición del cónyuge al embargo de bienes gananciales por deudas del consorte (art. 541.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del cónyuge al embargo de bienes gananciales por deudas del consorte (art. 541.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del cónyuge al embargo de bienes gananciales por deudas del consorte (art. 541.2 LEC)

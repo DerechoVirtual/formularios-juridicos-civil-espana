@@ -1,6 +1,6 @@
 ---
 name: demanda-rectificar-error-inscripcion-nacimiento-civ-0177
-description: "Demanda para rectificar un error en la inscripción de nacimiento en el Registro Civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para rectificar un error en la inscripción de nacimiento en el Registro Civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para rectificar un error en la inscripción de nacimiento en el Registro Civil

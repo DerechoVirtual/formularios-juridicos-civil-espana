@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-dominio-frente-ejecutante-civ-1534
-description: "Demanda de tercería de dominio frente al ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de dominio frente al ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de dominio frente al ejecutante

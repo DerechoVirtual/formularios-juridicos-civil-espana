@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-rebelde-suspender-ejecucion-si-civ-1566
-description: "Solicitud del demandado rebelde de suspender la ejecución si se estima la rescisión de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado rebelde de suspender la ejecución si se estima la rescisión de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado rebelde de suspender la ejecución si se estima la rescisión de la sentencia

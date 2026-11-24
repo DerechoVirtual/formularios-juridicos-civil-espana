@@ -1,6 +1,6 @@
 ---
 name: auto-desestima-excepcion-inmunidad-jurisdiccion-civ-1813
-description: "Auto que desestima la excepción de inmunidad de jurisdicción alegada por una parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que desestima la excepción de inmunidad de jurisdicción alegada por una parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que desestima la excepción de inmunidad de jurisdicción alegada por una parte

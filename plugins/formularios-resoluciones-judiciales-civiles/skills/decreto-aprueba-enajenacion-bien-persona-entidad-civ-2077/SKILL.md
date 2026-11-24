@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-enajenacion-bien-persona-entidad-civ-2077
-description: "Decreto que aprueba la enajenación de un bien por persona o entidad especializada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba la enajenación de un bien por persona o entidad especializada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba la enajenación de un bien por persona o entidad especializada

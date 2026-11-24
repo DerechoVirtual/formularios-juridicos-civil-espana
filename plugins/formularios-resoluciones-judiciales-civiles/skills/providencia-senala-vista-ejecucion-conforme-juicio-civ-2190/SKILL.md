@@ -1,6 +1,6 @@
 ---
 name: providencia-senala-vista-ejecucion-conforme-juicio-civ-2190
-description: "Providencia que señala vista en la ejecución conforme al juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que señala vista en la ejecución conforme al juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que señala vista en la ejecución conforme al juicio verbal

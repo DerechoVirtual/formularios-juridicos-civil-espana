@@ -1,6 +1,6 @@
 ---
 name: alegaciones-partes-sobre-formacion-lotes-ejecucion-civ-1538
-description: "Alegaciones de las partes sobre la formación de lotes en la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones de las partes sobre la formación de lotes en la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones de las partes sobre la formación de lotes en la ejecución

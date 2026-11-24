@@ -1,6 +1,6 @@
 ---
 name: escrito-solicitando-internamiento-no-voluntario-civ-0396
-description: "Escrito solicitando el internamiento no voluntario por trastorno psíquico de una persona adulta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito solicitando el internamiento no voluntario por trastorno psíquico de una persona adulta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito solicitando el internamiento no voluntario por trastorno psíquico de una persona adulta

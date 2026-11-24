@@ -1,6 +1,6 @@
 ---
 name: escrito-comunica-resultado-negativo-acto-comunicacion-civ-0908
-description: "Escrito que comunica el resultado negativo de un acto de comunicación y pide averiguar domicilio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que comunica el resultado negativo de un acto de comunicación y pide averiguar domicilio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que comunica el resultado negativo de un acto de comunicación y pide averiguar domicilio

@@ -1,6 +1,6 @@
 ---
 name: escrito-perceptor-presta-fianza-garantizar-devolucion-civ-1710
-description: "Escrito del perceptor que presta fianza para garantizar la devolución de rendimientos de valores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del perceptor que presta fianza para garantizar la devolución de rendimientos de valores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del perceptor que presta fianza para garantizar la devolución de rendimientos de valores

@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-familiar-acuerdos-segun-normativa-civ-0020
-description: "Acta final de mediación familiar con acuerdos según la normativa andaluza. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación familiar con acuerdos según la normativa andaluza. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación familiar con acuerdos según la normativa andaluza

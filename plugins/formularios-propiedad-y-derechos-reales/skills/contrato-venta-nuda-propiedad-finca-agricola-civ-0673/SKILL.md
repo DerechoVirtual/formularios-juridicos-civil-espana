@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-nuda-propiedad-finca-agricola-civ-0673
-description: "Contrato de venta de la nuda propiedad de una finca agrícola. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta de la nuda propiedad de una finca agrícola. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta de la nuda propiedad de una finca agrícola

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-deshacer-lo-hecho-e-indemnizar-civ-1640
-description: "Escrito pidiendo deshacer lo hecho e indemnizar al ejecutado tras sentencia revocatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo deshacer lo hecho e indemnizar al ejecutado tras sentencia revocatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo deshacer lo hecho e indemnizar al ejecutado tras sentencia revocatoria

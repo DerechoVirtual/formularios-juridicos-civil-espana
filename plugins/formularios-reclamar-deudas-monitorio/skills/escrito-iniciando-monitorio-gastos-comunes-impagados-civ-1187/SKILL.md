@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-monitorio-gastos-comunes-impagados-civ-1187
-description: "Escrito iniciando monitorio por gastos comunes impagados de la comunidad, con embargo preventivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando monitorio por gastos comunes impagados de la comunidad, con embargo preventivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando monitorio por gastos comunes impagados de la comunidad, con embargo preventivo

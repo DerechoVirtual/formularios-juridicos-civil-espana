@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-motivos-fondo-ejecucion-poliza-civ-1649
-description: "Escrito de oposición por motivos de fondo a la ejecución de una póliza de contrato mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición por motivos de fondo a la ejecución de una póliza de contrato mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición por motivos de fondo a la ejecución de una póliza de contrato mercantil

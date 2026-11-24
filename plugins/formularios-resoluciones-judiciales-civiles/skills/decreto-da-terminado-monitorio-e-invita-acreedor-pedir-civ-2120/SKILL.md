@@ -1,6 +1,6 @@
 ---
 name: decreto-da-terminado-monitorio-e-invita-acreedor-pedir-civ-2120
-description: "Decreto que da por terminado el monitorio e invita al acreedor a pedir el despacho de ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que da por terminado el monitorio e invita al acreedor a pedir el despacho de ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que da por terminado el monitorio e invita al acreedor a pedir el despacho de ejecución

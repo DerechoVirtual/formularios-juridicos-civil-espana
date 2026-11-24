@@ -1,9 +1,10 @@
 {
   "name": "formularios-contratos-consumo-y-danos",
   "version": "1.0.0",
-  "description": "Contratos civiles, consumo y reclamación de daños: 173 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los contratos y la responsabilidad civil: compraventa, préstamo, permuta, obra y servicios entre particulares, reclamaciones de consumo y cláusulas abusivas, seguros reclamados por particulares, resolución e incumplimiento de contratos y reclamación de daños y perjuicios. Requiere Jurisprudenciator.",
+  "description": "Contratos civiles, consumo y reclamación de daños: 173 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los contratos y la responsabilidad civil: compraventa, préstamo, permuta, obra y servicios entre particulares, reclamaciones de consumo y cláusulas abusivas, seguros reclamados por particulares, resolución e incumplimiento de contratos y reclamación de daños y perjuicios. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
-    "name": "Derecho Virtual"
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "displayName": "Contratos civiles, consumo y reclamación de daños · España",
   "icon": "./.claude-plugin/icon.png",
@@ -19,5 +20,7 @@
     "modelos",
     "civil",
     "contratos-y-responsabilidad"
-  ]
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana",
+  "documentationUrl": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana/tree/main/plugins/formularios-contratos-consumo-y-danos"
 }

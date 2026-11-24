@@ -1,6 +1,6 @@
 ---
 name: declinatoria-demandado-juicio-verbal-falta-competencia-civ-0921
-description: "Declinatoria del demandado en juicio verbal por falta de competencia territorial del tribunal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria del demandado en juicio verbal por falta de competencia territorial del tribunal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria del demandado en juicio verbal por falta de competencia territorial del tribunal

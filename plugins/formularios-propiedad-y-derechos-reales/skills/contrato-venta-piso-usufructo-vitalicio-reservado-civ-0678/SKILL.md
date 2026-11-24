@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-piso-usufructo-vitalicio-reservado-civ-0678
-description: "Contrato de venta de piso con usufructo vitalicio reservado y precio aleatorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta de piso con usufructo vitalicio reservado y precio aleatorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta de piso con usufructo vitalicio reservado y precio aleatorio

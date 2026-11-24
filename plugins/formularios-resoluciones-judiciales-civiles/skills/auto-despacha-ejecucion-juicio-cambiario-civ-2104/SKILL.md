@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-juicio-cambiario-civ-2104
-description: "Auto que despacha ejecución en un juicio cambiario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución en un juicio cambiario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución en un juicio cambiario

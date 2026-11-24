@@ -1,6 +1,6 @@
 ---
 name: comunicacion-procurador-tribunal-fallecimiento-civ-1012
-description: "Comunicación del procurador al tribunal del fallecimiento de su poderdante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del procurador al tribunal del fallecimiento de su poderdante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del procurador al tribunal del fallecimiento de su poderdante

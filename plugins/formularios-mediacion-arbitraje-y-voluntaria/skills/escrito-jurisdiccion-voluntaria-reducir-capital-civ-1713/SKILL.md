@@ -1,6 +1,6 @@
 ---
 name: escrito-jurisdiccion-voluntaria-reducir-capital-civ-1713
-description: "Escrito de jurisdicción voluntaria para reducir capital o amortizar o enajenar participaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de jurisdicción voluntaria para reducir capital o amortizar o enajenar participaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de jurisdicción voluntaria para reducir capital o amortizar o enajenar participaciones

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acuerda-averiguar-sucesores-civ-1917
-description: "Diligencia de ordenación que acuerda averiguar los sucesores del litigante fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acuerda averiguar los sucesores del litigante fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acuerda averiguar los sucesores del litigante fallecido

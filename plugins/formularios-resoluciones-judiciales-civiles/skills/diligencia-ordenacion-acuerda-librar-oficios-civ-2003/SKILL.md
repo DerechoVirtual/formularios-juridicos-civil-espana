@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acuerda-librar-oficios-civ-2003
-description: "Diligencia de ordenación que acuerda librar los oficios solicitados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acuerda librar los oficios solicitados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acuerda librar los oficios solicitados

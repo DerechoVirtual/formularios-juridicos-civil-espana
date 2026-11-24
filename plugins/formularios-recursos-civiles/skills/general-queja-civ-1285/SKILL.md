@@ -1,6 +1,6 @@
 ---
 name: general-queja-civ-1285
-description: "General (queja). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "General (queja). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # General (queja)

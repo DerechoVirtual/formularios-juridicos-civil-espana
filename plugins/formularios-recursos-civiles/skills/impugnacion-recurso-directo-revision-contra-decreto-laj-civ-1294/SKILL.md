@@ -1,6 +1,6 @@
 ---
 name: impugnacion-recurso-directo-revision-contra-decreto-laj-civ-1294
-description: "Impugnación del recurso directo de revisión contra un decreto del LAJ. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del recurso directo de revisión contra un decreto del LAJ. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del recurso directo de revisión contra un decreto del LAJ

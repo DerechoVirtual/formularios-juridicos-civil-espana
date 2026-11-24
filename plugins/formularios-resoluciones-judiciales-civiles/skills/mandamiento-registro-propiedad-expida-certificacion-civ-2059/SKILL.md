@@ -1,6 +1,6 @@
 ---
 name: mandamiento-registro-propiedad-expida-certificacion-civ-2059
-description: "Mandamiento al Registro de la Propiedad para que expida certificación de cargas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Mandamiento al Registro de la Propiedad para que expida certificación de cargas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Mandamiento al Registro de la Propiedad para que expida certificación de cargas

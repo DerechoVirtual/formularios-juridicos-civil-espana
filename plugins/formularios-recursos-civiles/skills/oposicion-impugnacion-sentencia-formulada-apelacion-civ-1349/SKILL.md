@@ -1,6 +1,6 @@
 ---
 name: oposicion-impugnacion-sentencia-formulada-apelacion-civ-1349
-description: "Oposición a la impugnación de la sentencia formulada en apelación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la impugnación de la sentencia formulada en apelación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la impugnación de la sentencia formulada en apelación

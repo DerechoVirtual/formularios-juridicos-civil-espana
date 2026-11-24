@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-valoracion-coste-contratar-publicidad-civ-1976
-description: "Decreto que aprueba la valoración del coste de contratar la publicidad y requiere el depósito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba la valoración del coste de contratar la publicidad y requiere el depósito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba la valoración del coste de contratar la publicidad y requiere el depósito

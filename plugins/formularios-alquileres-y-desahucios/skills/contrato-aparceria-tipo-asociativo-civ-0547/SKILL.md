@@ -1,6 +1,6 @@
 ---
 name: contrato-aparceria-tipo-asociativo-civ-0547
-description: "Contrato de aparcería de tipo asociativo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de aparcería de tipo asociativo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de aparcería de tipo asociativo

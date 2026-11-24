@@ -1,6 +1,6 @@
 ---
 name: clausulas-revision-modificacion-renta-contratos-civ-0592
-description: "Cláusulas de revisión y modificación de la renta en contratos de arrendamiento urbano. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusulas de revisión y modificación de la renta en contratos de arrendamiento urbano. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusulas de revisión y modificación de la renta en contratos de arrendamiento urbano

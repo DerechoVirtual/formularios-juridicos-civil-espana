@@ -1,6 +1,6 @@
 ---
 name: solicitud-acreedor-administracion-posesion-interina-civ-1542
-description: "Solicitud del acreedor de administración o posesión interina de la finca hipotecada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del acreedor de administración o posesión interina de la finca hipotecada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del acreedor de administración o posesión interina de la finca hipotecada

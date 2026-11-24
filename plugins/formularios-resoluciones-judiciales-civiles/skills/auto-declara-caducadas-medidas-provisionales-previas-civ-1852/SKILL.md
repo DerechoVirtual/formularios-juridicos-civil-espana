@@ -1,6 +1,6 @@
 ---
 name: auto-declara-caducadas-medidas-provisionales-previas-civ-1852
-description: "Auto que declara caducadas las medidas provisionales previas a la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara caducadas las medidas provisionales previas a la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara caducadas las medidas provisionales previas a la demanda

@@ -1,6 +1,6 @@
 ---
 name: impugnacion-admisibilidad-pregunta-formulada-testigo-civ-0918
-description: "Impugnación de la admisibilidad de una pregunta formulada a un testigo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la admisibilidad de una pregunta formulada a un testigo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la admisibilidad de una pregunta formulada a un testigo

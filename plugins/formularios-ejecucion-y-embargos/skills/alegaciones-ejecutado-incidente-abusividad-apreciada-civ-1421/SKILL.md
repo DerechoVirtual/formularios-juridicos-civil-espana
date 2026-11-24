@@ -1,6 +1,6 @@
 ---
 name: alegaciones-ejecutado-incidente-abusividad-apreciada-civ-1421
-description: "Alegaciones del ejecutado en el incidente de abusividad apreciada de oficio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del ejecutado en el incidente de abusividad apreciada de oficio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del ejecutado en el incidente de abusividad apreciada de oficio

@@ -1,6 +1,6 @@
 ---
 name: contestacion-empresa-rechaza-arbitraje-consumo-civ-1782
-description: "Contestación de la empresa que rechaza el arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación de la empresa que rechaza el arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación de la empresa que rechaza el arbitraje de consumo

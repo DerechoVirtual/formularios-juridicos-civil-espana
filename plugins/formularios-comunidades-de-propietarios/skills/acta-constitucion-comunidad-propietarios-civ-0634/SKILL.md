@@ -1,6 +1,6 @@
 ---
 name: acta-constitucion-comunidad-propietarios-civ-0634
-description: "Acta de constitución de una comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de constitución de una comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de constitución de una comunidad de propietarios

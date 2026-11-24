@@ -1,6 +1,6 @@
 ---
 name: demanda-alimentos-entre-hermanos-derecho-civil-catalan-civ-0126
-description: "Demanda de alimentos entre hermanos (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de alimentos entre hermanos (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de alimentos entre hermanos (Derecho civil catalán)

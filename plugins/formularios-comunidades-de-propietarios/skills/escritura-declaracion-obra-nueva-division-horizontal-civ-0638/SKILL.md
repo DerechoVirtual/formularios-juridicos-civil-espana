@@ -1,6 +1,6 @@
 ---
 name: escritura-declaracion-obra-nueva-division-horizontal-civ-0638
-description: "Escritura de declaración de obra nueva y división horizontal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de declaración de obra nueva y división horizontal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de declaración de obra nueva y división horizontal

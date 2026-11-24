@@ -1,6 +1,6 @@
 ---
 name: escritura-poder-especial-entre-conyuges-vender-bien-civ-0130
-description: "Escritura de poder especial entre cónyuges para vender un bien ganancial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de poder especial entre cónyuges para vender un bien ganancial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de poder especial entre cónyuges para vender un bien ganancial

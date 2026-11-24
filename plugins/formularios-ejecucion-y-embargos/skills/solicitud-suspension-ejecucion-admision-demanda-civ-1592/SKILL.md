@@ -1,6 +1,6 @@
 ---
 name: solicitud-suspension-ejecucion-admision-demanda-civ-1592
-description: "Solicitud de suspensión de la ejecución por admisión de demanda de revisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de suspensión de la ejecución por admisión de demanda de revisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de suspensión de la ejecución por admisión de demanda de revisión de sentencia firme

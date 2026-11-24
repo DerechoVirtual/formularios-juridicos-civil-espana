@@ -1,6 +1,6 @@
 ---
 name: testamento-mancomunado-abierto-segun-derecho-aragones-civ-0446
-description: "Testamento mancomunado abierto según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento mancomunado abierto según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento mancomunado abierto según el Derecho aragonés

@@ -1,6 +1,6 @@
 ---
 name: comparecencia-ante-tribunal-competente-tras-estimarse-civ-0995
-description: "Comparecencia ante el tribunal competente tras estimarse la declinatoria, ya conocido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comparecencia ante el tribunal competente tras estimarse la declinatoria, ya conocido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comparecencia ante el tribunal competente tras estimarse la declinatoria, ya conocido

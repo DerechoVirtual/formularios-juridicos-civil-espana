@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-nueva-tasacion-costas-honorarios-civ-1948
-description: "Decreto que aprueba nueva tasación de costas con honorarios reducidos por excesivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba nueva tasación de costas con honorarios reducidos por excesivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba nueva tasación de costas con honorarios reducidos por excesivos

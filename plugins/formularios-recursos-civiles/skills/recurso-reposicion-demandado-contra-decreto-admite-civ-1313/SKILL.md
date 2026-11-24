@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-demandado-contra-decreto-admite-civ-1313
-description: "Recurso de reposición del demandado contra el decreto que admite la demanda en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición del demandado contra el decreto que admite la demanda en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición del demandado contra el decreto que admite la demanda en juicio ordinario

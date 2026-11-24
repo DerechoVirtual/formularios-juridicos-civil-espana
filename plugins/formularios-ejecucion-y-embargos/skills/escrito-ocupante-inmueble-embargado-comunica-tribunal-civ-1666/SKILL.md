@@ -1,6 +1,6 @@
 ---
 name: escrito-ocupante-inmueble-embargado-comunica-tribunal-civ-1666
-description: "Escrito del ocupante del inmueble embargado que comunica al tribunal la existencia de ocupantes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ocupante del inmueble embargado que comunica al tribunal la existencia de ocupantes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ocupante del inmueble embargado que comunica al tribunal la existencia de ocupantes

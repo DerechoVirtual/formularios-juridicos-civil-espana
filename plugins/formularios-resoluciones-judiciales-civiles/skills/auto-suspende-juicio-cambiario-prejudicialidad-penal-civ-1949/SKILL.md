@@ -1,6 +1,6 @@
 ---
 name: auto-suspende-juicio-cambiario-prejudicialidad-penal-civ-1949
-description: "Auto que suspende el juicio cambiario por prejudicialidad penal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que suspende el juicio cambiario por prejudicialidad penal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que suspende el juicio cambiario por prejudicialidad penal

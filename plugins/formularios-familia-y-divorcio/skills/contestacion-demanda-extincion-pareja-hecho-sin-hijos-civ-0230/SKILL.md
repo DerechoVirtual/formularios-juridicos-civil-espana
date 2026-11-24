@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-extincion-pareja-hecho-sin-hijos-civ-0230
-description: "Contestación a la demanda de extinción de pareja de hecho sin hijos comunes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de extinción de pareja de hecho sin hijos comunes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de extinción de pareja de hecho sin hijos comunes

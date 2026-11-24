@@ -1,6 +1,6 @@
 ---
 name: notificacion-arrendador-da-terminado-arrendamiento-civ-0560
-description: "Notificación del arrendador que da por terminado el arrendamiento y excluye la tácita reconducción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación del arrendador que da por terminado el arrendamiento y excluye la tácita reconducción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación del arrendador que da por terminado el arrendamiento y excluye la tácita reconducción

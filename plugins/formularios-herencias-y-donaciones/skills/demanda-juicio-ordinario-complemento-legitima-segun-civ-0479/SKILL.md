@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-complemento-legitima-segun-civ-0479
-description: "Demanda de juicio ordinario de complemento de legítima según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de complemento de legítima según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de complemento de legítima según el Derecho civil de Cataluña

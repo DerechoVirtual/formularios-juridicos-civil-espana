@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-hijos-menores-sustituye-definitivas-civ-0297
-description: "Demanda de separación con hijos menores que sustituye por definitivas las medidas previas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación con hijos menores que sustituye por definitivas las medidas previas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación con hijos menores que sustituye por definitivas las medidas previas

@@ -1,6 +1,6 @@
 ---
 name: personacion-ante-sala-tramite-admision-casacion-ha-civ-1377
-description: "Personación ante la Sala que, en el trámite de admisión de la casación, se ha declarado competente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación ante la Sala que, en el trámite de admisión de la casación, se ha declarado competente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación ante la Sala que, en el trámite de admisión de la casación, se ha declarado competente

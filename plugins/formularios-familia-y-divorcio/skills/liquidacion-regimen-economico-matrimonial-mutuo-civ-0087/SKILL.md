@@ -1,6 +1,6 @@
 ---
 name: liquidacion-regimen-economico-matrimonial-mutuo-civ-0087
-description: "Liquidación del régimen económico-matrimonial de mutuo acuerdo (solicitud). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Liquidación del régimen económico-matrimonial de mutuo acuerdo (solicitud). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Liquidación del régimen económico-matrimonial de mutuo acuerdo (solicitud)

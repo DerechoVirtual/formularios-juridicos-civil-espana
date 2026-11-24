@@ -1,6 +1,6 @@
 ---
 name: medidas-cautelares-previas-proceso-ante-tribunal-otro-civ-1216
-description: "Medidas cautelares previas a un proceso ante tribunal de otro Estado de la Unión Europea. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Medidas cautelares previas a un proceso ante tribunal de otro Estado de la Unión Europea. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Medidas cautelares previas a un proceso ante tribunal de otro Estado de la Unión Europea

@@ -1,6 +1,6 @@
 ---
 name: acta-junta-propietarios-acuerda-remocion-cargos-electos-civ-0646
-description: "Acta de junta de propietarios que acuerda la remoción de cargos electos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de propietarios que acuerda la remoción de cargos electos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de propietarios que acuerda la remoción de cargos electos

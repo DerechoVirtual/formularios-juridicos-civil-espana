@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-senala-dia-hora-formar-inventario-civ-1872
-description: "Diligencia de ordenación que señala día y hora para formar el inventario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que señala día y hora para formar el inventario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que señala día y hora para formar el inventario

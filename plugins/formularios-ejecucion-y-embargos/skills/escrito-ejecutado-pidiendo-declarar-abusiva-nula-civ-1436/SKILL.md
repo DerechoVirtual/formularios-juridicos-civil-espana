@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-declarar-abusiva-nula-civ-1436
-description: "Escrito del ejecutado pidiendo declarar abusiva y nula una cláusula en la ejecución hipotecaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo declarar abusiva y nula una cláusula en la ejecución hipotecaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo declarar abusiva y nula una cláusula en la ejecución hipotecaria

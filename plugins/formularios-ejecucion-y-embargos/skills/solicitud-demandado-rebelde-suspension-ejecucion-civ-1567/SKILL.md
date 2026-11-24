@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-rebelde-suspension-ejecucion-civ-1567
-description: "Solicitud del demandado rebelde de suspensión de la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado rebelde de suspensión de la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado rebelde de suspensión de la ejecución

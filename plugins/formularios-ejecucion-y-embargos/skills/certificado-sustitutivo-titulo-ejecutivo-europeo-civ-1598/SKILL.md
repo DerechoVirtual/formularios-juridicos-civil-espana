@@ -1,6 +1,6 @@
 ---
 name: certificado-sustitutivo-titulo-ejecutivo-europeo-civ-1598
-description: "Certificado sustitutivo de título ejecutivo europeo emitido tras un recurso (art. 6.3). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificado sustitutivo de título ejecutivo europeo emitido tras un recurso (art. 6.3). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificado sustitutivo de título ejecutivo europeo emitido tras un recurso (art. 6.3)

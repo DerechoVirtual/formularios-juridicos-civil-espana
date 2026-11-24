@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-contra-auto-inadmite-peticion-civ-1148
-description: "Recurso de apelación contra el auto que inadmite la petición inicial de proceso monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación contra el auto que inadmite la petición inicial de proceso monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación contra el auto que inadmite la petición inicial de proceso monitorio

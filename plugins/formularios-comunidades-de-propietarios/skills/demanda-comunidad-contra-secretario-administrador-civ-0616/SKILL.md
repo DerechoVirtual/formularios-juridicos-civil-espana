@@ -1,6 +1,6 @@
 ---
 name: demanda-comunidad-contra-secretario-administrador-civ-0616
-description: "Demanda de la comunidad contra el secretario-administrador cesado para que entregue la documentación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de la comunidad contra el secretario-administrador cesado para que entregue la documentación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de la comunidad contra el secretario-administrador cesado para que entregue la documentación

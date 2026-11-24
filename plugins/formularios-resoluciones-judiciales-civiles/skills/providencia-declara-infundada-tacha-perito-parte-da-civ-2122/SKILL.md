@@ -1,6 +1,6 @@
 ---
 name: providencia-declara-infundada-tacha-perito-parte-da-civ-2122
-description: "Providencia que declara infundada la tacha de un perito de parte y da audiencia sobre multa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que declara infundada la tacha de un perito de parte y da audiencia sobre multa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que declara infundada la tacha de un perito de parte y da audiencia sobre multa

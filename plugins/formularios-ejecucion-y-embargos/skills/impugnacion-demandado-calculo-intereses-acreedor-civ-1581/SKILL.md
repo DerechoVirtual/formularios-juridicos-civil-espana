@@ -1,6 +1,6 @@
 ---
 name: impugnacion-demandado-calculo-intereses-acreedor-civ-1581
-description: "Impugnación por el demandado del cálculo de intereses del acreedor demandante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación por el demandado del cálculo de intereses del acreedor demandante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación por el demandado del cálculo de intereses del acreedor demandante

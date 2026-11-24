@@ -1,6 +1,6 @@
 ---
 name: decreto-embarga-bienes-ejecutado-contratar-publicidad-civ-1973
-description: "Decreto que embarga bienes del ejecutado para contratar publicidad a su costa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que embarga bienes del ejecutado para contratar publicidad a su costa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que embarga bienes del ejecutado para contratar publicidad a su costa

@@ -1,6 +1,6 @@
 ---
 name: acuerdo-quita-deuda-entre-acreedor-deudor-civ-0762
-description: "Acuerdo de quita de una deuda entre acreedor y deudor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de quita de una deuda entre acreedor y deudor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de quita de una deuda entre acreedor y deudor

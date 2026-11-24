@@ -1,6 +1,6 @@
 ---
 name: auto-resuelve-sobre-liquidacion-danos-perjuicios-civ-1963
-description: "Auto que resuelve sobre la liquidación de daños y perjuicios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que resuelve sobre la liquidación de daños y perjuicios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que resuelve sobre la liquidación de daños y perjuicios

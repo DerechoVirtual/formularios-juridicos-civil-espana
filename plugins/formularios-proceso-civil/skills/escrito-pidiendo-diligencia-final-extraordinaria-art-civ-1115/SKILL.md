@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-diligencia-final-extraordinaria-art-civ-1115
-description: "Escrito pidiendo una diligencia final extraordinaria (art. 435.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo una diligencia final extraordinaria (art. 435.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo una diligencia final extraordinaria (art. 435.2 LEC)

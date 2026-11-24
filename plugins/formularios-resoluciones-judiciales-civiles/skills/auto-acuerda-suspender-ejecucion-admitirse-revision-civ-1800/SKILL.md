@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-suspender-ejecucion-admitirse-revision-civ-1800
-description: "Auto que acuerda suspender la ejecución por admitirse la revisión o rescisión de una sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda suspender la ejecución por admitirse la revisión o rescisión de una sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda suspender la ejecución por admitirse la revisión o rescisión de una sentencia firme

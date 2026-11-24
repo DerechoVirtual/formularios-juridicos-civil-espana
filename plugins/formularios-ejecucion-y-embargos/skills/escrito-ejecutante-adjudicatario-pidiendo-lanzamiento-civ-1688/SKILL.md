@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-adjudicatario-pidiendo-lanzamiento-civ-1688
-description: "Escrito del ejecutante adjudicatario pidiendo el lanzamiento de un ocupante no declarado sin derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante adjudicatario pidiendo el lanzamiento de un ocupante no declarado sin derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante adjudicatario pidiendo el lanzamiento de un ocupante no declarado sin derecho

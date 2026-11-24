@@ -1,6 +1,6 @@
 ---
 name: oposicion-oral-desahucio-precario-vivienda-familiar-civ-0049
-description: "Oposición oral al desahucio por precario de la vivienda familiar alegando fraude de ley. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición oral al desahucio por precario de la vivienda familiar alegando fraude de ley. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición oral al desahucio por precario de la vivienda familiar alegando fraude de ley

@@ -1,6 +1,6 @@
 ---
 name: solicitud-nulidad-actuaciones-sentencia-falta-citacion-civ-1320
-description: "Solicitud de nulidad de actuaciones de la sentencia por falta de citación a juicio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nulidad de actuaciones de la sentencia por falta de citación a juicio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nulidad de actuaciones de la sentencia por falta de citación a juicio

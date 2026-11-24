@@ -1,6 +1,6 @@
 ---
 name: acta-inicial-contrato-mediacion-familiar-sobre-civ-0027
-description: "Acta inicial o contrato de mediación familiar sobre alimentos de un hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta inicial o contrato de mediación familiar sobre alimentos de un hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta inicial o contrato de mediación familiar sobre alimentos de un hijo mayor de edad

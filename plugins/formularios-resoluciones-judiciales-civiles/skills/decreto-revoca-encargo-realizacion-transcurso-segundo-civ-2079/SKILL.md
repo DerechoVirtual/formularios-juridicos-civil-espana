@@ -1,6 +1,6 @@
 ---
 name: decreto-revoca-encargo-realizacion-transcurso-segundo-civ-2079
-description: "Decreto que revoca el encargo de realización por transcurso del segundo plazo concedido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que revoca el encargo de realización por transcurso del segundo plazo concedido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que revoca el encargo de realización por transcurso del segundo plazo concedido

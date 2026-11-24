@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-temporada-civ-0589
-description: "Contrato de arrendamiento de vivienda por temporada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda por temporada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda por temporada

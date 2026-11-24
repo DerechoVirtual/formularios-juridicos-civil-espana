@@ -1,6 +1,6 @@
 ---
 name: auto-declara-procedente-acumular-autos-otro-tribunal-civ-2154
-description: "Auto que declara procedente acumular autos de otro tribunal tras la impugnación de la contraparte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara procedente acumular autos de otro tribunal tras la impugnación de la contraparte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara procedente acumular autos de otro tribunal tras la impugnación de la contraparte

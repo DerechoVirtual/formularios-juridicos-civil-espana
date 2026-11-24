@@ -1,6 +1,6 @@
 ---
 name: demanda-subcontratista-contra-dueno-obra-accion-civ-0757
-description: "Demanda del subcontratista contra el dueño de la obra por la acción directa del artículo 1597 CC. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del subcontratista contra el dueño de la obra por la acción directa del artículo 1597 CC. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del subcontratista contra el dueño de la obra por la acción directa del artículo 1597 CC

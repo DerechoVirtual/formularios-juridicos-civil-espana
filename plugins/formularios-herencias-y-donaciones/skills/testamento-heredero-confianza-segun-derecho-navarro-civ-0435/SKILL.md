@@ -1,6 +1,6 @@
 ---
 name: testamento-heredero-confianza-segun-derecho-navarro-civ-0435
-description: "Testamento con heredero de confianza según el Derecho navarro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con heredero de confianza según el Derecho navarro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con heredero de confianza según el Derecho navarro

@@ -1,6 +1,6 @@
 ---
 name: cuenta-final-complementaria-administrador-herencia-civ-0486
-description: "Cuenta final complementaria del administrador de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cuenta final complementaria del administrador de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cuenta final complementaria del administrador de la herencia

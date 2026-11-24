@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-sentencia-impago-pensiones-civ-1467
-description: "Oposición a la ejecución de sentencia por impago de pensiones alegando el pago de lo reclamado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución de sentencia por impago de pensiones alegando el pago de lo reclamado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución de sentencia por impago de pensiones alegando el pago de lo reclamado

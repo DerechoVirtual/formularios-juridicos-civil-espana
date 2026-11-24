@@ -1,6 +1,6 @@
 ---
 name: decreto-sobresee-aseguramiento-bienes-hereditarios-civ-2143
-description: "Decreto que sobresee el aseguramiento de bienes hereditarios por aparecer heredero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que sobresee el aseguramiento de bienes hereditarios por aparecer heredero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que sobresee el aseguramiento de bienes hereditarios por aparecer heredero

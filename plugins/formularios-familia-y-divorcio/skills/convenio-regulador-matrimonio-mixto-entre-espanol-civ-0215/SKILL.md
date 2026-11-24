@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-matrimonio-mixto-entre-espanol-civ-0215
-description: "Convenio regulador de un matrimonio mixto entre español y extranjero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de un matrimonio mixto entre español y extranjero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de un matrimonio mixto entre español y extranjero

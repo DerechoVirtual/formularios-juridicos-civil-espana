@@ -1,6 +1,6 @@
 ---
 name: solicitud-pago-lo-embargado-ampliacion-automatica-civ-0295
-description: "Solicitud de pago de lo embargado, con ampliación automática a nuevos vencimientos de pensiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de pago de lo embargado, con ampliación automática a nuevos vencimientos de pensiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de pago de lo embargado, con ampliación automática a nuevos vencimientos de pensiones

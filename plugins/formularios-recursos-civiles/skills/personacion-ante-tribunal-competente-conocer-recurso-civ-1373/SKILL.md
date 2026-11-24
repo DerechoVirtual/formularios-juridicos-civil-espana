@@ -1,6 +1,6 @@
 ---
 name: personacion-ante-tribunal-competente-conocer-recurso-civ-1373
-description: "Personación ante el tribunal competente para conocer del recurso de casación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación ante el tribunal competente para conocer del recurso de casación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación ante el tribunal competente para conocer del recurso de casación

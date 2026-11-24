@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-familiar-sin-acuerdos-segun-civ-0016
-description: "Acta final de mediación familiar sin acuerdos según la normativa andaluza. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación familiar sin acuerdos según la normativa andaluza. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación familiar sin acuerdos según la normativa andaluza

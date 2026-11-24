@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-niega-firma-aceptante-letra-pide-civ-1181
-description: "Escrito del demandado que niega la firma del aceptante de la letra y pide alzar el embargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado que niega la firma del aceptante de la letra y pide alzar el embargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado que niega la firma del aceptante de la letra y pide alzar el embargo

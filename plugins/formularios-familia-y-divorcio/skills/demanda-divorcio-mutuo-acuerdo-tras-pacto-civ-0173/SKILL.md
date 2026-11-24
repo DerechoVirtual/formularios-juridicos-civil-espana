@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-mutuo-acuerdo-tras-pacto-civ-0173
-description: "Demanda de divorcio de mutuo acuerdo tras pacto en la comparecencia de medidas previas (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de mutuo acuerdo tras pacto en la comparecencia de medidas previas (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de mutuo acuerdo tras pacto en la comparecencia de medidas previas (Cataluña)

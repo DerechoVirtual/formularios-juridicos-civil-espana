@@ -1,6 +1,6 @@
 ---
 name: solicitud-representante-legal-menor-entidad-publica-civ-0255
-description: "Solicitud del representante legal del menor a la entidad pública para cesar el acogimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del representante legal del menor a la entidad pública para cesar el acogimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del representante legal del menor a la entidad pública para cesar el acogimiento

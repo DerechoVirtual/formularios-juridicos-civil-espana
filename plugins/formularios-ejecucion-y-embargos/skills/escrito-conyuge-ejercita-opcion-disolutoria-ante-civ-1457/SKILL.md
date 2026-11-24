@@ -1,6 +1,6 @@
 ---
 name: escrito-conyuge-ejercita-opcion-disolutoria-ante-civ-1457
-description: "Escrito del cónyuge que ejercita la opción disolutoria ante el embargo de bienes agermanados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del cónyuge que ejercita la opción disolutoria ante el embargo de bienes agermanados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del cónyuge que ejercita la opción disolutoria ante el embargo de bienes agermanados

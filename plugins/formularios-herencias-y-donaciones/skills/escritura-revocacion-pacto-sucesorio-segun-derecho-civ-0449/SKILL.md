@@ -1,6 +1,6 @@
 ---
 name: escritura-revocacion-pacto-sucesorio-segun-derecho-civ-0449
-description: "Escritura de revocación de pacto sucesorio según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de revocación de pacto sucesorio según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de revocación de pacto sucesorio según el Derecho aragonés

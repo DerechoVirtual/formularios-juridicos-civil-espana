@@ -1,6 +1,6 @@
 ---
 name: solicitud-cooperacion-jurisdiccional-internacional-civ-1022
-description: "Solicitud de cooperación jurisdiccional internacional fuera de la UE y del Convenio de La Haya. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de cooperación jurisdiccional internacional fuera de la UE y del Convenio de La Haya. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de cooperación jurisdiccional internacional fuera de la UE y del Convenio de La Haya

@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-entregar-cosas-genericas-civ-1865
-description: "Auto que despacha ejecución para entregar cosas genéricas o indeterminadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución para entregar cosas genéricas o indeterminadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución para entregar cosas genéricas o indeterminadas

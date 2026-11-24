@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-cambio-depositario-civ-1488
-description: "Escrito del ejecutante pidiendo el cambio de depositario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo el cambio de depositario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo el cambio de depositario

@@ -1,6 +1,6 @@
 ---
 name: solicitud-autoridad-central-restitucion-menores-civ-0105
-description: "Solicitud a la Autoridad Central de restitución de menores (Convenio hispano-marroquí de 1997). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud a la Autoridad Central de restitución de menores (Convenio hispano-marroquí de 1997). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud a la Autoridad Central de restitución de menores (Convenio hispano-marroquí de 1997)

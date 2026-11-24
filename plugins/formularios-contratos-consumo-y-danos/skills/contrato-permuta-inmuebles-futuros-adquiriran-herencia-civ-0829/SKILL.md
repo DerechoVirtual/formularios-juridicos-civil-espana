@@ -1,6 +1,6 @@
 ---
 name: contrato-permuta-inmuebles-futuros-adquiriran-herencia-civ-0829
-description: "Contrato de permuta de inmuebles futuros que se adquirirán por herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de permuta de inmuebles futuros que se adquirirán por herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de permuta de inmuebles futuros que se adquirirán por herencia

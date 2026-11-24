@@ -1,6 +1,6 @@
 ---
 name: reposicion-contra-admision-reconvencion-dirigida-civ-1364
-description: "Reposición contra la admisión de reconvención dirigida a persona no demandante por inadmisible. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reposición contra la admisión de reconvención dirigida a persona no demandante por inadmisible. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reposición contra la admisión de reconvención dirigida a persona no demandante por inadmisible

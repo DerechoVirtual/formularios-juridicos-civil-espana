@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-declarar-ocupantes-no-tienen-derecho-civ-1637
-description: "Escrito pidiendo declarar que los ocupantes no tienen derecho a permanecer en el inmueble enajenado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo declarar que los ocupantes no tienen derecho a permanecer en el inmueble enajenado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo declarar que los ocupantes no tienen derecho a permanecer en el inmueble enajenado

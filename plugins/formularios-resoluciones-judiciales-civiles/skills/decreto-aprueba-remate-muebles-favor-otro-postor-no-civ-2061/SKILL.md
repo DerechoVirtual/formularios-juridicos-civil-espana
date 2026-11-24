@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-remate-muebles-favor-otro-postor-no-civ-2061
-description: "Decreto que aprueba el remate de muebles a favor de otro postor por no consignar el rematante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el remate de muebles a favor de otro postor por no consignar el rematante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el remate de muebles a favor de otro postor por no consignar el rematante

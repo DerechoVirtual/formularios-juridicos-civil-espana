@@ -1,6 +1,6 @@
 ---
 name: escrito-jurisdiccion-voluntaria-convocar-asamblea-civ-1712
-description: "Escrito de jurisdicción voluntaria para convocar la asamblea general de obligacionistas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de jurisdicción voluntaria para convocar la asamblea general de obligacionistas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de jurisdicción voluntaria para convocar la asamblea general de obligacionistas

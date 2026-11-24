@@ -1,6 +1,6 @@
 ---
 name: escrito-juez-primera-instancia-abstiene-ser-conyuge-civ-1935
-description: "Escrito del juez de primera instancia que se abstiene por ser cónyuge del procurador de una parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del juez de primera instancia que se abstiene por ser cónyuge del procurador de una parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del juez de primera instancia que se abstiene por ser cónyuge del procurador de una parte

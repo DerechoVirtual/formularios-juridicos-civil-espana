@@ -1,6 +1,6 @@
 ---
 name: providencia-confirma-casi-todas-medidas-previas-otro-civ-1867
-description: "Providencia que confirma casi todas las medidas previas de otro tribunal y cita a los cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que confirma casi todas las medidas previas de otro tribunal y cita a los cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que confirma casi todas las medidas previas de otro tribunal y cita a los cónyuges

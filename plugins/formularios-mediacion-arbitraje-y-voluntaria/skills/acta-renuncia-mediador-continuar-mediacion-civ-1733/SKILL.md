@@ -1,6 +1,6 @@
 ---
 name: acta-renuncia-mediador-continuar-mediacion-civ-1733
-description: "Acta de renuncia del mediador a continuar la mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de renuncia del mediador a continuar la mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de renuncia del mediador a continuar la mediación

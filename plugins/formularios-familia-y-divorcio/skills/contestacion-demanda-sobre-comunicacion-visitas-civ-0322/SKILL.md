@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-sobre-comunicacion-visitas-civ-0322
-description: "Contestación a la demanda sobre comunicación y visitas de los abuelos con su nieto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda sobre comunicación y visitas de los abuelos con su nieto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda sobre comunicación y visitas de los abuelos con su nieto

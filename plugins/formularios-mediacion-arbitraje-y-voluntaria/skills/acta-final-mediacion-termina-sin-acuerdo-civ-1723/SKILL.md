@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-termina-sin-acuerdo-civ-1723
-description: "Acta final de mediación que termina sin acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación que termina sin acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación que termina sin acuerdo

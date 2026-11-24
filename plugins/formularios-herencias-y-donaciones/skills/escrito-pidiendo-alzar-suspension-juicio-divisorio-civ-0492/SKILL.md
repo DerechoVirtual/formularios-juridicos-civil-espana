@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-alzar-suspension-juicio-divisorio-civ-0492
-description: "Escrito pidiendo alzar la suspensión del juicio divisorio por prejudicialidad penal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo alzar la suspensión del juicio divisorio por prejudicialidad penal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo alzar la suspensión del juicio divisorio por prejudicialidad penal

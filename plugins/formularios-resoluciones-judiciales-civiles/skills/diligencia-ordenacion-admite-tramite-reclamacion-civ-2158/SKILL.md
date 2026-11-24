@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-admite-tramite-reclamacion-civ-2158
-description: "Diligencia de ordenación que admite a trámite la reclamación de cuenta del procurador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que admite a trámite la reclamación de cuenta del procurador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que admite a trámite la reclamación de cuenta del procurador

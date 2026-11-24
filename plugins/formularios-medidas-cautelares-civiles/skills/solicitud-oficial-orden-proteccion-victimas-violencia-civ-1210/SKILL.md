@@ -1,6 +1,6 @@
 ---
 name: solicitud-oficial-orden-proteccion-victimas-violencia-civ-1210
-description: "Solicitud oficial de orden de protección de víctimas de violencia doméstica o de género. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud oficial de orden de protección de víctimas de violencia doméstica o de género. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud oficial de orden de protección de víctimas de violencia doméstica o de género

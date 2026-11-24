@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-acumula-reclamacion-cantidad-civ-1021
-description: "Demanda de juicio ordinario que acumula reclamación de cantidad y de daños y perjuicios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario que acumula reclamación de cantidad y de daños y perjuicios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario que acumula reclamación de cantidad y de daños y perjuicios

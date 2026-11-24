@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-recalcular-intereses-demora-civ-1424
-description: "Escrito del ejecutado pidiendo recalcular los intereses de demora (Disp Trans 2ª Ley 1-2013). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo recalcular los intereses de demora (Disp Trans 2ª Ley 1-2013). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo recalcular los intereses de demora (Disp Trans 2ª Ley 1-2013)

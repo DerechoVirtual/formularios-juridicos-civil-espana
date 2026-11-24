@@ -1,6 +1,6 @@
 ---
 name: providencia-acuerda-practicar-prueba-no-practicada-civ-1854
-description: "Providencia que acuerda practicar la prueba no practicada en el acto de la vista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que acuerda practicar la prueba no practicada en el acto de la vista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que acuerda practicar la prueba no practicada en el acto de la vista

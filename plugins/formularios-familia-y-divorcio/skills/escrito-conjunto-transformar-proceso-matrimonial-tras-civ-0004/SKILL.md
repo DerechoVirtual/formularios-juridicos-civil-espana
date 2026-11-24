@@ -1,6 +1,6 @@
 ---
 name: escrito-conjunto-transformar-proceso-matrimonial-tras-civ-0004
-description: "Escrito conjunto para transformar el proceso matrimonial tras alcanzar un acuerdo en mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito conjunto para transformar el proceso matrimonial tras alcanzar un acuerdo en mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito conjunto para transformar el proceso matrimonial tras alcanzar un acuerdo en mediación

@@ -1,6 +1,6 @@
 ---
 name: declinatoria-falta-competencia-territorial-alegando-civ-0993
-description: "Declinatoria por falta de competencia territorial alegando la nulidad de la sumisión expresa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria por falta de competencia territorial alegando la nulidad de la sumisión expresa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria por falta de competencia territorial alegando la nulidad de la sumisión expresa

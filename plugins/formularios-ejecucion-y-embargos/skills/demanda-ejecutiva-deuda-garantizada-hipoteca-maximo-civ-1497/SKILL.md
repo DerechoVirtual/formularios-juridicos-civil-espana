@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-deuda-garantizada-hipoteca-maximo-civ-1497
-description: "Demanda ejecutiva por deuda garantizada con hipoteca de máximo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva por deuda garantizada con hipoteca de máximo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva por deuda garantizada con hipoteca de máximo

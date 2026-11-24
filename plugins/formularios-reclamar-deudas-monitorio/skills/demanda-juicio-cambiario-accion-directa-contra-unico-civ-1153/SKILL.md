@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-cambiario-accion-directa-contra-unico-civ-1153
-description: "Demanda de juicio cambiario por acción directa contra el único aceptante de una letra a plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio cambiario por acción directa contra el único aceptante de una letra a plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio cambiario por acción directa contra el único aceptante de una letra a plazo

@@ -1,6 +1,6 @@
 ---
 name: contrato-compromiso-venta-tercio-indiviso-herencia-civ-0487
-description: "Contrato de compromiso de venta de un tercio indiviso de una herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compromiso de venta de un tercio indiviso de una herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compromiso de venta de un tercio indiviso de una herencia

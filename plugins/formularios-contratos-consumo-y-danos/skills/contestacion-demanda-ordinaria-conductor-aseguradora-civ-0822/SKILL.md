@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-ordinaria-conductor-aseguradora-civ-0822
-description: "Contestación a demanda ordinaria de conductor y aseguradora codemandados por daños de un accidente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a demanda ordinaria de conductor y aseguradora codemandados por daños de un accidente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a demanda ordinaria de conductor y aseguradora codemandados por daños de un accidente

@@ -1,6 +1,6 @@
 ---
 name: auto-rectifica-error-material-fallo-sentencia-civ-1902
-description: "Auto que rectifica un error material en el fallo de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que rectifica un error material en el fallo de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que rectifica un error material en el fallo de la sentencia

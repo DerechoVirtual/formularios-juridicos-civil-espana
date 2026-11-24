@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-actualizar-pension-alimentos-civ-1450
-description: "Demanda ejecutiva para actualizar la pensión de alimentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva para actualizar la pensión de alimentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva para actualizar la pensión de alimentos

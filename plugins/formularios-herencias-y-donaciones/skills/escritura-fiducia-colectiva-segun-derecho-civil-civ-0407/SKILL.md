@@ -1,6 +1,6 @@
 ---
 name: escritura-fiducia-colectiva-segun-derecho-civil-civ-0407
-description: "Escritura de fiducia colectiva según el Derecho civil aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de fiducia colectiva según el Derecho civil aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de fiducia colectiva según el Derecho civil aragonés

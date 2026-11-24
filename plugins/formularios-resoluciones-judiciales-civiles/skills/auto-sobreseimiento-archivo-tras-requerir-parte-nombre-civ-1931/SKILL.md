@@ -1,6 +1,6 @@
 ---
 name: auto-sobreseimiento-archivo-tras-requerir-parte-nombre-civ-1931
-description: "Auto de sobreseimiento y archivo tras requerir a la parte para que nombre nuevo procurador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de sobreseimiento y archivo tras requerir a la parte para que nombre nuevo procurador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de sobreseimiento y archivo tras requerir a la parte para que nombre nuevo procurador

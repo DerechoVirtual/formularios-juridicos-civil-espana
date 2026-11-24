@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-pide-emplazar-demandado-domiciliado-civ-1082
-description: "Otrosí de demanda que pide emplazar al demandado domiciliado en el extranjero (Convenio de La Haya). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de demanda que pide emplazar al demandado domiciliado en el extranjero (Convenio de La Haya). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de demanda que pide emplazar al demandado domiciliado en el extranjero (Convenio de La Haya)

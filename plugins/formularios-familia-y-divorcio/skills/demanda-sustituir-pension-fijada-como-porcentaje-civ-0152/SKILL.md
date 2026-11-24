@@ -1,6 +1,6 @@
 ---
 name: demanda-sustituir-pension-fijada-como-porcentaje-civ-0152
-description: "Demanda para sustituir la pensión fijada como porcentaje de ingresos por una cantidad fija. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para sustituir la pensión fijada como porcentaje de ingresos por una cantidad fija. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para sustituir la pensión fijada como porcentaje de ingresos por una cantidad fija

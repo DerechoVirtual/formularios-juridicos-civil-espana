@@ -1,6 +1,6 @@
 ---
 name: contestacion-reclamacion-filiacion-no-matrimonial-hijo-civ-0116
-description: "Contestación a la reclamación de filiación no matrimonial del hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reclamación de filiación no matrimonial del hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reclamación de filiación no matrimonial del hijo mayor de edad

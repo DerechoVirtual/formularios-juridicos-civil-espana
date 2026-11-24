@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-cambiario-accion-directa-contra-civ-1151
-description: "Demanda de juicio cambiario por acción directa contra la sociedad aceptante y sus avalistas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio cambiario por acción directa contra la sociedad aceptante y sus avalistas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio cambiario por acción directa contra la sociedad aceptante y sus avalistas

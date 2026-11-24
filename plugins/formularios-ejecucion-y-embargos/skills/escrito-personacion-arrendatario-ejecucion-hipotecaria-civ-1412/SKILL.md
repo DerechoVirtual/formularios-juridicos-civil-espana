@@ -1,6 +1,6 @@
 ---
 name: escrito-personacion-arrendatario-ejecucion-hipotecaria-civ-1412
-description: "Escrito de personación del arrendatario en la ejecución hipotecaria pidiendo intervenir. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de personación del arrendatario en la ejecución hipotecaria pidiendo intervenir. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de personación del arrendatario en la ejecución hipotecaria pidiendo intervenir

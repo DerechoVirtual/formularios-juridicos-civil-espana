@@ -1,6 +1,6 @@
 ---
 name: estatutos-reguladores-urbanizacion-civ-0635
-description: "Estatutos reguladores de una urbanización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos reguladores de una urbanización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos reguladores de una urbanización

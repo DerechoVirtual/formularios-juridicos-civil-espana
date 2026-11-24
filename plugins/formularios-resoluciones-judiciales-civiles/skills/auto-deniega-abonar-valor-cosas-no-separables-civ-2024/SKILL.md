@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-abonar-valor-cosas-no-separables-civ-2024
-description: "Auto que deniega abonar el valor de las cosas no separables. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega abonar el valor de las cosas no separables. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega abonar el valor de las cosas no separables

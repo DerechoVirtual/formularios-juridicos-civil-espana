@@ -1,6 +1,6 @@
 ---
 name: decreto-rectifica-cuentas-anuales-presentadas-civ-2030
-description: "Decreto que rectifica las cuentas anuales presentadas por el ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que rectifica las cuentas anuales presentadas por el ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que rectifica las cuentas anuales presentadas por el ejecutante

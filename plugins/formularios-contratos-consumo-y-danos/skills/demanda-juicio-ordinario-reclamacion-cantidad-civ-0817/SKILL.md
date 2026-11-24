@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamacion-cantidad-civ-0817
-description: "Demanda de juicio ordinario de reclamación de cantidad y enriquecimiento injusto en contrato de obra. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de reclamación de cantidad y enriquecimiento injusto en contrato de obra. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de reclamación de cantidad y enriquecimiento injusto en contrato de obra

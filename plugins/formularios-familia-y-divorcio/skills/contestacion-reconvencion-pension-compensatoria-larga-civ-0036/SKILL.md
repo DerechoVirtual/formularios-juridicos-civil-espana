@@ -1,6 +1,6 @@
 ---
 name: contestacion-reconvencion-pension-compensatoria-larga-civ-0036
-description: "Contestación a la reconvención de pensión compensatoria por larga separación de hecho sin ayuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reconvención de pensión compensatoria por larga separación de hecho sin ayuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reconvención de pensión compensatoria por larga separación de hecho sin ayuda

@@ -1,6 +1,6 @@
 ---
 name: oposicion-recurso-reposicion-contra-providencia-auto-civ-1276
-description: "Oposición al recurso de reposición contra una providencia o un auto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al recurso de reposición contra una providencia o un auto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al recurso de reposición contra una providencia o un auto

@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-parcialmente-vencido-alzar-caucion-civ-1204
-description: "Escrito del demandado parcialmente vencido para alzar la caución sustitutoria del embargo preventivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado parcialmente vencido para alzar la caución sustitutoria del embargo preventivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado parcialmente vencido para alzar la caución sustitutoria del embargo preventivo

@@ -1,6 +1,6 @@
 ---
 name: auto-rechaza-medida-cautelar-anterior-juicio-no-civ-2094
-description: "Auto que rechaza la medida cautelar anterior al juicio por no concurrir urgencia ni necesidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que rechaza la medida cautelar anterior al juicio por no concurrir urgencia ni necesidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que rechaza la medida cautelar anterior al juicio por no concurrir urgencia ni necesidad

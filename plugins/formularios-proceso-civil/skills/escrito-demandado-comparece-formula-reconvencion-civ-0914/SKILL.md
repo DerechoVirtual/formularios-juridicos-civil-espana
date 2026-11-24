@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-comparece-formula-reconvencion-civ-0914
-description: "Escrito del demandado que comparece y formula reconvención en juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado que comparece y formula reconvención en juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado que comparece y formula reconvención en juicio verbal

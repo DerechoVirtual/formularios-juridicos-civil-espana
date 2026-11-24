@@ -1,6 +1,6 @@
 ---
 name: testamento-legado-usufructo-universal-contador-partidor-civ-0462
-description: "Testamento con legado, usufructo universal y contador partidor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con legado, usufructo universal y contador partidor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con legado, usufructo universal y contador partidor

@@ -1,6 +1,6 @@
 ---
 name: demanda-responsabilidad-civil-infidelidad-conyuge-civ-0766
-description: "Demanda de responsabilidad civil por la infidelidad de un cónyuge. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de responsabilidad civil por la infidelidad de un cónyuge. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de responsabilidad civil por la infidelidad de un cónyuge

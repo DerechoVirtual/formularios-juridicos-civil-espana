@@ -1,6 +1,6 @@
 ---
 name: impugnacion-ejecutante-liquidacion-intereses-ejecutado-civ-1583
-description: "Impugnación del ejecutante a la liquidación de intereses del ejecutado opuesto a la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del ejecutante a la liquidación de intereses del ejecutado opuesto a la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del ejecutante a la liquidación de intereses del ejecutado opuesto a la ejecución

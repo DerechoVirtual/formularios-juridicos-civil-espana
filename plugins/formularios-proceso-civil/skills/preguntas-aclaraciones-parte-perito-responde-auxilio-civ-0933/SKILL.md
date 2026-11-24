@@ -1,6 +1,6 @@
 ---
 name: preguntas-aclaraciones-parte-perito-responde-auxilio-civ-0933
-description: "Preguntas y aclaraciones de la parte al perito que responde por auxilio judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Preguntas y aclaraciones de la parte al perito que responde por auxilio judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Preguntas y aclaraciones de la parte al perito que responde por auxilio judicial

@@ -1,6 +1,6 @@
 ---
 name: auto-suspende-ejecucion-oposicion-basada-solo-motivos-civ-1799
-description: "Auto que suspende la ejecución por oposición basada solo en motivos de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que suspende la ejecución por oposición basada solo en motivos de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que suspende la ejecución por oposición basada solo en motivos de fondo

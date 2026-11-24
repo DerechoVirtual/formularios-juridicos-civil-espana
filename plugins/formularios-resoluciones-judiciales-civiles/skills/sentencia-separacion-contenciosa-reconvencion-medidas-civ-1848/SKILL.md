@@ -1,6 +1,6 @@
 ---
 name: sentencia-separacion-contenciosa-reconvencion-medidas-civ-1848
-description: "Sentencia de separación contenciosa con reconvención, medidas previas de otro tribunal y Fiscal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia de separación contenciosa con reconvención, medidas previas de otro tribunal y Fiscal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia de separación contenciosa con reconvención, medidas previas de otro tribunal y Fiscal

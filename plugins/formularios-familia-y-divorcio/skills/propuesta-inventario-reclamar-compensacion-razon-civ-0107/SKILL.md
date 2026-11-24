@@ -1,6 +1,6 @@
 ---
 name: propuesta-inventario-reclamar-compensacion-razon-civ-0107
-description: "Propuesta de inventario para reclamar la compensación por razón de trabajo (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de inventario para reclamar la compensación por razón de trabajo (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de inventario para reclamar la compensación por razón de trabajo (Derecho catalán)

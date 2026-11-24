@@ -1,6 +1,6 @@
 ---
 name: escrito-quien-pidio-exhibicion-cosa-solicitando-civ-1260
-description: "Escrito de quien pidió la exhibición de una cosa solicitando su depósito u otra medida conservativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de quien pidió la exhibición de una cosa solicitando su depósito u otra medida conservativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de quien pidió la exhibición de una cosa solicitando su depósito u otra medida conservativa

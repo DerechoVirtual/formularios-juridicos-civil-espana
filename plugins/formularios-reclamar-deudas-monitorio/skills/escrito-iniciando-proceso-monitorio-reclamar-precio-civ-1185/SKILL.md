@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-proceso-monitorio-reclamar-precio-civ-1185
-description: "Escrito iniciando proceso monitorio para reclamar el precio de la reparación de un automóvil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando proceso monitorio para reclamar el precio de la reparación de un automóvil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando proceso monitorio para reclamar el precio de la reparación de un automóvil

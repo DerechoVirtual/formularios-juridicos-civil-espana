@@ -1,6 +1,6 @@
 ---
 name: hoja-reclamacion-talleres-reparacion-vehiculos-civ-0722
-description: "Hoja de reclamación en talleres de reparación de vehículos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Hoja de reclamación en talleres de reparación de vehículos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Hoja de reclamación en talleres de reparación de vehículos

@@ -1,6 +1,6 @@
 ---
 name: decreto-acepta-tercero-mejora-postura-subasta-bienes-civ-2034
-description: "Decreto que acepta a un tercero que mejora la postura en la subasta de bienes muebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acepta a un tercero que mejora la postura en la subasta de bienes muebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acepta a un tercero que mejora la postura en la subasta de bienes muebles

@@ -1,6 +1,6 @@
 ---
 name: auto-allanamiento-parcial-ejecucion-lo-reconocido-civ-2107
-description: "Auto de allanamiento parcial y ejecución por lo reconocido en monitorio de más de 2.000 euros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de allanamiento parcial y ejecución por lo reconocido en monitorio de más de 2.000 euros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de allanamiento parcial y ejecución por lo reconocido en monitorio de más de 2.000 euros

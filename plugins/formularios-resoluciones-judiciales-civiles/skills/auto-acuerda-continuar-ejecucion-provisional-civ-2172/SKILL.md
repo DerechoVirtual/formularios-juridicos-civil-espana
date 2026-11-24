@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-continuar-ejecucion-provisional-civ-2172
-description: "Auto que acuerda continuar la ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda continuar la ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda continuar la ejecución provisional

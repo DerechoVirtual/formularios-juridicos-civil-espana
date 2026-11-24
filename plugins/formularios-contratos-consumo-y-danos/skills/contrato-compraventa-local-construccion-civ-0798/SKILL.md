@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-local-construccion-civ-0798
-description: "Contrato de compraventa de un local en construcción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de un local en construcción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de un local en construcción

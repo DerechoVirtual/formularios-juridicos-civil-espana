@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-opta-indemnizacion-danos-lugar-civ-1670
-description: "Escrito del ejecutante que opta por la indemnización de daños en lugar del hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante que opta por la indemnización de daños en lugar del hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante que opta por la indemnización de daños en lugar del hacer no personalísimo

@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 125 formularios de Recursos civiles: reposición, apelación, casación y queja. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 125 formularios de Recursos civiles: reposición, apelación, casación y queja. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Recursos civiles: reposición, apelación, casación y queja: índice de formularios

@@ -1,6 +1,6 @@
 ---
 name: solicitud-aclaracion-sentencia-civil-rectificar-error-civ-1360
-description: "Solicitud de aclaración de sentencia civil para rectificar un error material. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de aclaración de sentencia civil para rectificar un error material. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de aclaración de sentencia civil para rectificar un error material

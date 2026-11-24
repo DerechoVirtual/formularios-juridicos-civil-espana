@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-reclamacion-cantidad-compraventa-civ-0805
-description: "Demanda de juicio verbal de reclamación de cantidad por compraventa, obra, contrato mixto o atípico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de reclamación de cantidad por compraventa, obra, contrato mixto o atípico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de reclamación de cantidad por compraventa, obra, contrato mixto o atípico

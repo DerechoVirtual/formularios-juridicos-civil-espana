@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-hipotecaria-despacharse-cantidad-civ-1433
-description: "Oposición a la ejecución hipotecaria por despacharse por una cantidad derivada de cláusula abusiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución hipotecaria por despacharse por una cantidad derivada de cláusula abusiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución hipotecaria por despacharse por una cantidad derivada de cláusula abusiva

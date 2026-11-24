@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-mutuo-acuerdo-segun-derecho-civil-civ-0274
-description: "Demanda de divorcio de mutuo acuerdo según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de mutuo acuerdo según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de mutuo acuerdo según el Derecho civil de Cataluña

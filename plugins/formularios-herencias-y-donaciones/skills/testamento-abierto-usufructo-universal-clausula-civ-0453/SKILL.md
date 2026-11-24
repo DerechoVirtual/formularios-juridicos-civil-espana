@@ -1,6 +1,6 @@
 ---
 name: testamento-abierto-usufructo-universal-clausula-civ-0453
-description: "Testamento abierto con usufructo universal y cláusula de sustitución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento abierto con usufructo universal y cláusula de sustitución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento abierto con usufructo universal y cláusula de sustitución

@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-relacion-danos-perjuicios-no-contestar-civ-1964
-description: "Decreto que aprueba la relación de daños y perjuicios por no contestar el deudor en plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba la relación de daños y perjuicios por no contestar el deudor en plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba la relación de daños y perjuicios por no contestar el deudor en plazo

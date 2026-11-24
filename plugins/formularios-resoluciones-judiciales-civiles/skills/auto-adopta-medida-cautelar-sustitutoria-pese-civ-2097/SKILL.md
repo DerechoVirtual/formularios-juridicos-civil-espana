@@ -1,6 +1,6 @@
 ---
 name: auto-adopta-medida-cautelar-sustitutoria-pese-civ-2097
-description: "Auto que adopta medida cautelar sustitutoria pese a sentencia íntegramente desestimatoria apelada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que adopta medida cautelar sustitutoria pese a sentencia íntegramente desestimatoria apelada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que adopta medida cautelar sustitutoria pese a sentencia íntegramente desestimatoria apelada

@@ -1,6 +1,6 @@
 ---
 name: solicitud-diligencia-preliminar-exhibicion-contrato-civ-1257
-description: "Solicitud de diligencia preliminar de exhibición del contrato de seguro de responsabilidad civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de diligencia preliminar de exhibición del contrato de seguro de responsabilidad civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de diligencia preliminar de exhibición del contrato de seguro de responsabilidad civil

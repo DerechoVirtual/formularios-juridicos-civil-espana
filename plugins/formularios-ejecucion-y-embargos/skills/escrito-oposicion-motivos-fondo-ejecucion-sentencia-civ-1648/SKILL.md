@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-motivos-fondo-ejecucion-sentencia-civ-1648
-description: "Escrito de oposición por motivos de fondo a la ejecución de sentencia firme de condena. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición por motivos de fondo a la ejecución de sentencia firme de condena. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición por motivos de fondo a la ejecución de sentencia firme de condena

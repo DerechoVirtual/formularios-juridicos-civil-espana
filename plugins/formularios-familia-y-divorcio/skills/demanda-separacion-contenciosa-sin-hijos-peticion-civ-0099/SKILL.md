@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-contenciosa-sin-hijos-peticion-civ-0099
-description: "Demanda de separación contenciosa sin hijos con petición de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación contenciosa sin hijos con petición de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación contenciosa sin hijos con petición de medidas

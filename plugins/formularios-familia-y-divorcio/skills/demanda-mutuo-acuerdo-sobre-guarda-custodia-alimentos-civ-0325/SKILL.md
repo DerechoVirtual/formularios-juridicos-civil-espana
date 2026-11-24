@@ -1,6 +1,6 @@
 ---
 name: demanda-mutuo-acuerdo-sobre-guarda-custodia-alimentos-civ-0325
-description: "Demanda de mutuo acuerdo sobre guarda, custodia y alimentos de hijos tras ruptura de unión de hecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de mutuo acuerdo sobre guarda, custodia y alimentos de hijos tras ruptura de unión de hecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de mutuo acuerdo sobre guarda, custodia y alimentos de hijos tras ruptura de unión de hecho

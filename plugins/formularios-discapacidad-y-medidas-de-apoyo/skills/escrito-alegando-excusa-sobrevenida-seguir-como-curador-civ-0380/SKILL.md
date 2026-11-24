@@ -1,6 +1,6 @@
 ---
 name: escrito-alegando-excusa-sobrevenida-seguir-como-curador-civ-0380
-description: "Escrito alegando excusa sobrevenida para seguir como curador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito alegando excusa sobrevenida para seguir como curador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito alegando excusa sobrevenida para seguir como curador

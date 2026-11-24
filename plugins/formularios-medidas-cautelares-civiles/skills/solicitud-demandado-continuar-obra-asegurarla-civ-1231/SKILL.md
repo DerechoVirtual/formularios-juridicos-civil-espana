@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-continuar-obra-asegurarla-civ-1231
-description: "Solicitud del demandado de continuar la obra o asegurarla, ofreciendo caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de continuar la obra o asegurarla, ofreciendo caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de continuar la obra o asegurarla, ofreciendo caución

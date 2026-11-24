@@ -1,6 +1,6 @@
 ---
 name: recusacion-juez-magistrado-juicio-ordinario-enemistad-civ-1045
-description: "Recusación de juez o magistrado en juicio ordinario por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación de juez o magistrado en juicio ordinario por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación de juez o magistrado en juicio ordinario por enemistad manifiesta

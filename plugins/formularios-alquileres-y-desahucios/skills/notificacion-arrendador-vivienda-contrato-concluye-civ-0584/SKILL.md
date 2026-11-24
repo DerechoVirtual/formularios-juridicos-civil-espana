@@ -1,6 +1,6 @@
 ---
 name: notificacion-arrendador-vivienda-contrato-concluye-civ-0584
-description: "Notificación del arrendador de vivienda de que el contrato concluye al expirar el plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación del arrendador de vivienda de que el contrato concluye al expirar el plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación del arrendador de vivienda de que el contrato concluye al expirar el plazo

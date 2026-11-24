@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-divorcio-segun-derecho-civil-civ-0269
-description: "Convenio regulador de divorcio según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de divorcio según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de divorcio según el Derecho civil de Cataluña

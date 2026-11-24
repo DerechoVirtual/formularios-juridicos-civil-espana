@@ -1,6 +1,6 @@
 ---
 name: oficio-recaba-informe-sobre-clausulas-convenio-civ-1893
-description: "Oficio que recaba informe sobre las cláusulas del convenio regulador relativas a los hijos menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oficio que recaba informe sobre las cláusulas del convenio regulador relativas a los hijos menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oficio que recaba informe sobre las cláusulas del convenio regulador relativas a los hijos menores

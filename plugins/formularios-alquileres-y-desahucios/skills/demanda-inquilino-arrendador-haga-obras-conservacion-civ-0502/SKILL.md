@@ -1,6 +1,6 @@
 ---
 name: demanda-inquilino-arrendador-haga-obras-conservacion-civ-0502
-description: "Demanda del inquilino para que el arrendador haga las obras de conservación de la vivienda (LAU 94). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del inquilino para que el arrendador haga las obras de conservación de la vivienda (LAU 94). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del inquilino para que el arrendador haga las obras de conservación de la vivienda (LAU 94)

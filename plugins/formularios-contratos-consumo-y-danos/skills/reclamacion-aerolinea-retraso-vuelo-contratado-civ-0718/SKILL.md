@@ -1,6 +1,6 @@
 ---
 name: reclamacion-aerolinea-retraso-vuelo-contratado-civ-0718
-description: "Reclamación a la aerolínea por retraso del vuelo contratado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación a la aerolínea por retraso del vuelo contratado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación a la aerolínea por retraso del vuelo contratado

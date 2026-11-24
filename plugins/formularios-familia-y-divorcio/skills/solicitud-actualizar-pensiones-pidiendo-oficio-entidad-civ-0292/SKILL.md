@@ -1,6 +1,6 @@
 ---
 name: solicitud-actualizar-pensiones-pidiendo-oficio-entidad-civ-0292
-description: "Solicitud de actualizar pensiones pidiendo oficio a la entidad pagadora para certificar los ingresos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de actualizar pensiones pidiendo oficio a la entidad pagadora para certificar los ingresos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de actualizar pensiones pidiendo oficio a la entidad pagadora para certificar los ingresos

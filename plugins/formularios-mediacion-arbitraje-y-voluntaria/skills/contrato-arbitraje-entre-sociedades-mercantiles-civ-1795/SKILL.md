@@ -1,6 +1,6 @@
 ---
 name: contrato-arbitraje-entre-sociedades-mercantiles-civ-1795
-description: "Contrato de arbitraje entre sociedades mercantiles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arbitraje entre sociedades mercantiles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arbitraje entre sociedades mercantiles

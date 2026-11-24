@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-inmueble-reserva-usufructo-civ-0680
-description: "Contrato de compraventa de inmueble con reserva de usufructo temporal para el vendedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de inmueble con reserva de usufructo temporal para el vendedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de inmueble con reserva de usufructo temporal para el vendedor

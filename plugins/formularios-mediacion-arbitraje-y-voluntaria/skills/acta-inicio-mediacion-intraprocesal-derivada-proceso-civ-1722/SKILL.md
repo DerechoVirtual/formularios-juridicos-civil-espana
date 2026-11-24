@@ -1,6 +1,6 @@
 ---
 name: acta-inicio-mediacion-intraprocesal-derivada-proceso-civ-1722
-description: "Acta de inicio de una mediación intraprocesal derivada de un proceso judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de inicio de una mediación intraprocesal derivada de un proceso judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de inicio de una mediación intraprocesal derivada de un proceso judicial

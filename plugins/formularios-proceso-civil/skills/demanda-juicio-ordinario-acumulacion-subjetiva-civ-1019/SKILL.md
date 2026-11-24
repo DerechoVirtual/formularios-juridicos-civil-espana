@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-acumulacion-subjetiva-civ-1019
-description: "Demanda de juicio ordinario con acumulación subjetiva de acciones por daños de circulación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario con acumulación subjetiva de acciones por daños de circulación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario con acumulación subjetiva de acciones por daños de circulación

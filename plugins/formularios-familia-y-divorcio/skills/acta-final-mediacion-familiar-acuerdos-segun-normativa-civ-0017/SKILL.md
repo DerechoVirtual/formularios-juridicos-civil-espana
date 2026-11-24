@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-familiar-acuerdos-segun-normativa-civ-0017
-description: "Acta final de mediación familiar con acuerdos según la normativa aragonesa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación familiar con acuerdos según la normativa aragonesa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación familiar con acuerdos según la normativa aragonesa

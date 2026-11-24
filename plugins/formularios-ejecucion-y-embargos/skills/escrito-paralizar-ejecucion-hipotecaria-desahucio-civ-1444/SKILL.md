@@ -1,6 +1,6 @@
 ---
 name: escrito-paralizar-ejecucion-hipotecaria-desahucio-civ-1444
-description: "Escrito para paralizar la ejecución hipotecaria y el desahucio de la vivienda habitual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para paralizar la ejecución hipotecaria y el desahucio de la vivienda habitual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para paralizar la ejecución hipotecaria y el desahucio de la vivienda habitual

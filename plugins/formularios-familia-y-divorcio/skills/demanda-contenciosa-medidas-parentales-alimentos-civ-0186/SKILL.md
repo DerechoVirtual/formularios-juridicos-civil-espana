@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-medidas-parentales-alimentos-civ-0186
-description: "Demanda contenciosa de medidas parentales, alimentos y vivienda tras ruptura de pareja (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de medidas parentales, alimentos y vivienda tras ruptura de pareja (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de medidas parentales, alimentos y vivienda tras ruptura de pareja (Cataluña)

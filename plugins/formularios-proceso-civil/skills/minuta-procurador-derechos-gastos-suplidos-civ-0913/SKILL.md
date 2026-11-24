@@ -1,6 +1,6 @@
 ---
 name: minuta-procurador-derechos-gastos-suplidos-civ-0913
-description: "Minuta del procurador con derechos, gastos y suplidos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Minuta del procurador con derechos, gastos y suplidos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Minuta del procurador con derechos, gastos y suplidos

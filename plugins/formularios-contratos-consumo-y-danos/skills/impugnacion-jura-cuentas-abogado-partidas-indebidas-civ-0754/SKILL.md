@@ -1,6 +1,6 @@
 ---
 name: impugnacion-jura-cuentas-abogado-partidas-indebidas-civ-0754
-description: "Impugnación de la jura de cuentas del abogado por partidas indebidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la jura de cuentas del abogado por partidas indebidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la jura de cuentas del abogado por partidas indebidas

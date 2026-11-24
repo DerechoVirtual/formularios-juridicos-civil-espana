@@ -1,6 +1,6 @@
 ---
 name: decreto-faculta-ejecutante-adquirir-cosas-genericas-civ-2040
-description: "Decreto que faculta al ejecutante a adquirir cosas genéricas a costa del ejecutado y embarga bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que faculta al ejecutante a adquirir cosas genéricas a costa del ejecutado y embarga bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que faculta al ejecutante a adquirir cosas genéricas a costa del ejecutado y embarga bienes

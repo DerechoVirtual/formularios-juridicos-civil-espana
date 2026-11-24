@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-fija-cuantia-reclamacion-cantidad-civ-0988
-description: "Otrosí de la demanda que fija la cuantía en una reclamación de cantidad dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda que fija la cuantía en una reclamación de cantidad dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda que fija la cuantía en una reclamación de cantidad dineraria

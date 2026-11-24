@@ -1,6 +1,6 @@
 ---
 name: demanda-declaracion-error-judicial-art-293-lopj-civ-1007
-description: "Demanda de declaración de error judicial (art. 293 LOPJ). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de declaración de error judicial (art. 293 LOPJ). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de declaración de error judicial (art. 293 LOPJ)

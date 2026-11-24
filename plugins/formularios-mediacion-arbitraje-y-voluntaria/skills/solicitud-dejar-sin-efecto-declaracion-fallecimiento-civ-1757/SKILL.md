@@ -1,6 +1,6 @@
 ---
 name: solicitud-dejar-sin-efecto-declaracion-fallecimiento-civ-1757
-description: "Solicitud para dejar sin efecto la declaración de fallecimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud para dejar sin efecto la declaración de fallecimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud para dejar sin efecto la declaración de fallecimiento

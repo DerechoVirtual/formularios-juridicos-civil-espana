@@ -1,6 +1,6 @@
 ---
 name: escrito-deudor-consigna-principal-e-intereses-liberar-civ-1610
-description: "Escrito del deudor que consigna principal e intereses para liberar el bien. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del deudor que consigna principal e intereses para liberar el bien. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del deudor que consigna principal e intereses para liberar el bien

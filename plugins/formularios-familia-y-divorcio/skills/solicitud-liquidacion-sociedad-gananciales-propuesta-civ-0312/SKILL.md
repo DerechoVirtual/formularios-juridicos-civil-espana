@@ -1,6 +1,6 @@
 ---
 name: solicitud-liquidacion-sociedad-gananciales-propuesta-civ-0312
-description: "Solicitud de liquidación de la sociedad de gananciales con propuesta de liquidación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de liquidación de la sociedad de gananciales con propuesta de liquidación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de liquidación de la sociedad de gananciales con propuesta de liquidación

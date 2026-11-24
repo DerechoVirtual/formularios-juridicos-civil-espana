@@ -1,6 +1,6 @@
 ---
 name: contestacion-demandante-declinatoria-aportando-civ-0991
-description: "Contestación del demandante a la declinatoria aportando documentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del demandante a la declinatoria aportando documentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del demandante a la declinatoria aportando documentos

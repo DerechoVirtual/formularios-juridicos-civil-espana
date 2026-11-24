@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-costas-tras-sentencias-absolutorias-civ-1604
-description: "Demanda ejecutiva de costas tras sentencias absolutorias conformes en instancia y apelación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de costas tras sentencias absolutorias conformes en instancia y apelación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de costas tras sentencias absolutorias conformes en instancia y apelación

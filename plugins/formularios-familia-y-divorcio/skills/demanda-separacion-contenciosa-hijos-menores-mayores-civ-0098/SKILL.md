@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-contenciosa-hijos-menores-mayores-civ-0098
-description: "Demanda de separación contenciosa con hijos menores y mayores dependientes y petición de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación contenciosa con hijos menores y mayores dependientes y petición de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación contenciosa con hijos menores y mayores dependientes y petición de medidas

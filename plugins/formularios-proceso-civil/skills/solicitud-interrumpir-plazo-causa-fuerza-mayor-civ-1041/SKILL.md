@@ -1,6 +1,6 @@
 ---
 name: solicitud-interrumpir-plazo-causa-fuerza-mayor-civ-1041
-description: "Solicitud de interrumpir un plazo por causa de fuerza mayor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de interrumpir un plazo por causa de fuerza mayor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de interrumpir un plazo por causa de fuerza mayor

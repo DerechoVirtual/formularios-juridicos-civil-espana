@@ -1,6 +1,6 @@
 ---
 name: auto-declara-improcedente-pretension-acumulada-sigue-civ-1924
-description: "Auto que declara improcedente la pretensión acumulada y sigue el proceso respecto de la otra. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara improcedente la pretensión acumulada y sigue el proceso respecto de la otra. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara improcedente la pretensión acumulada y sigue el proceso respecto de la otra

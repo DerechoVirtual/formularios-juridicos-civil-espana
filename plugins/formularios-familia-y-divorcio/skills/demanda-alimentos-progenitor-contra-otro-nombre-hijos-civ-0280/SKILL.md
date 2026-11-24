@@ -1,6 +1,6 @@
 ---
 name: demanda-alimentos-progenitor-contra-otro-nombre-hijos-civ-0280
-description: "Demanda de alimentos de un progenitor contra el otro en nombre de hijos menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de alimentos de un progenitor contra el otro en nombre de hijos menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de alimentos de un progenitor contra el otro en nombre de hijos menores

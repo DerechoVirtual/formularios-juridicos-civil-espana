@@ -1,6 +1,6 @@
 ---
 name: comunicacion-vendedor-falta-conformidad-producto-civ-0711
-description: "Comunicación al vendedor de falta de conformidad del producto y petición de reparación o cambio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al vendedor de falta de conformidad del producto y petición de reparación o cambio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al vendedor de falta de conformidad del producto y petición de reparación o cambio

@@ -1,6 +1,6 @@
 ---
 name: contestacion-rechaza-arbitraje-consumo-estar-empresa-civ-1785
-description: "Contestación que rechaza el arbitraje de consumo por estar la empresa reclamada en concurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación que rechaza el arbitraje de consumo por estar la empresa reclamada en concurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación que rechaza el arbitraje de consumo por estar la empresa reclamada en concurso

@@ -1,6 +1,6 @@
 ---
 name: recurso-interes-ley-ante-tribunal-supremo-regimen-civ-1323
-description: "Recurso en interés de ley ante el Tribunal Supremo (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso en interés de ley ante el Tribunal Supremo (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso en interés de ley ante el Tribunal Supremo (régimen anterior al RDL 5 2023)

@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-mejorar-embargo-pensiones-civ-1471
-description: "Escrito del ejecutante pidiendo mejorar el embargo por pensiones alimenticias o compensatorias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo mejorar el embargo por pensiones alimenticias o compensatorias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo mejorar el embargo por pensiones alimenticias o compensatorias

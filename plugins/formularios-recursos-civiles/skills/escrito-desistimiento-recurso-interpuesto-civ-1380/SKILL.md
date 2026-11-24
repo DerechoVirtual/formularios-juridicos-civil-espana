@@ -1,6 +1,6 @@
 ---
 name: escrito-desistimiento-recurso-interpuesto-civ-1380
-description: "Escrito de desistimiento de un recurso interpuesto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de desistimiento de un recurso interpuesto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de desistimiento de un recurso interpuesto

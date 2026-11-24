@@ -1,6 +1,6 @@
 ---
 name: comunicacion-junta-propietarios-dividir-materialmente-civ-0609
-description: "Comunicación a la junta de propietarios para dividir materialmente un elemento privativo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación a la junta de propietarios para dividir materialmente un elemento privativo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación a la junta de propietarios para dividir materialmente un elemento privativo

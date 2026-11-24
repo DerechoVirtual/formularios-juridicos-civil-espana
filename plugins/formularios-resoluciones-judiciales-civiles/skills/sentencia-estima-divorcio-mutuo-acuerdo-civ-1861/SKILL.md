@@ -1,6 +1,6 @@
 ---
 name: sentencia-estima-divorcio-mutuo-acuerdo-civ-1861
-description: "Sentencia que estima el divorcio de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia que estima el divorcio de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia que estima el divorcio de mutuo acuerdo

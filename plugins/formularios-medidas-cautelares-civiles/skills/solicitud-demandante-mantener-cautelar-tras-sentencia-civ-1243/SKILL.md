@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandante-mantener-cautelar-tras-sentencia-civ-1243
-description: "Solicitud del demandante de mantener la cautelar tras sentencia absolutoria en primera instancia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandante de mantener la cautelar tras sentencia absolutoria en primera instancia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandante de mantener la cautelar tras sentencia absolutoria en primera instancia

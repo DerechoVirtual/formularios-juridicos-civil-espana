@@ -1,6 +1,6 @@
 ---
 name: estatutos-subcomunidad-plazas-garaje-trasteros-civ-0623
-description: "Estatutos de una subcomunidad de plazas de garaje y trasteros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos de una subcomunidad de plazas de garaje y trasteros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos de una subcomunidad de plazas de garaje y trasteros

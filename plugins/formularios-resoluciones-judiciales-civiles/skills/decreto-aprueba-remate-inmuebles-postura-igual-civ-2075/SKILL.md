@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-remate-inmuebles-postura-igual-civ-2075
-description: "Decreto que aprueba el remate de inmuebles por postura igual o superior al 70 por 100 del avalúo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el remate de inmuebles por postura igual o superior al 70 por 100 del avalúo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el remate de inmuebles por postura igual o superior al 70 por 100 del avalúo

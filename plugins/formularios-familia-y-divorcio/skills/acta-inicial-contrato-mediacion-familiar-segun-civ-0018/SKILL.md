@@ -1,6 +1,6 @@
 ---
 name: acta-inicial-contrato-mediacion-familiar-segun-civ-0018
-description: "Acta inicial o contrato de mediación familiar según la normativa andaluza. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta inicial o contrato de mediación familiar según la normativa andaluza. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta inicial o contrato de mediación familiar según la normativa andaluza

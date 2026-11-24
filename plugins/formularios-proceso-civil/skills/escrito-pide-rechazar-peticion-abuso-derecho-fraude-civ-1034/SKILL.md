@@ -1,6 +1,6 @@
 ---
 name: escrito-pide-rechazar-peticion-abuso-derecho-fraude-civ-1034
-description: "Escrito que pide rechazar la petición por abuso de derecho o fraude de ley frente al auto ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que pide rechazar la petición por abuso de derecho o fraude de ley frente al auto ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que pide rechazar la petición por abuso de derecho o fraude de ley frente al auto ejecutivo

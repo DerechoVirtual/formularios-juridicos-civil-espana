@@ -1,6 +1,6 @@
 ---
 name: oposicion-recurso-casacion-infraccion-norma-procesal-civ-1333
-description: "Oposición al recurso de casación por infracción de norma procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al recurso de casación por infracción de norma procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al recurso de casación por infracción de norma procesal

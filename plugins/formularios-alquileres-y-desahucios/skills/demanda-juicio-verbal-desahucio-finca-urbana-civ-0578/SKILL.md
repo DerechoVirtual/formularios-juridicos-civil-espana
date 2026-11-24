@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-desahucio-finca-urbana-civ-0578
-description: "Demanda de juicio verbal de desahucio de finca urbana por vencimiento del plazo del contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de desahucio de finca urbana por vencimiento del plazo del contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de desahucio de finca urbana por vencimiento del plazo del contrato

@@ -1,6 +1,6 @@
 ---
 name: reposicion-ejecutante-contra-sobreseimiento-ejecucion-civ-1393
-description: "Reposición del ejecutante contra el sobreseimiento de la ejecución provisional por revocación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reposición del ejecutante contra el sobreseimiento de la ejecución provisional por revocación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reposición del ejecutante contra el sobreseimiento de la ejecución provisional por revocación

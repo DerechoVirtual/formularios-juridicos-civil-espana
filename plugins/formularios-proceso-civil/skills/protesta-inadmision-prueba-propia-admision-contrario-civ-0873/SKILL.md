@@ -1,6 +1,6 @@
 ---
 name: protesta-inadmision-prueba-propia-admision-contrario-civ-0873
-description: "Protesta por la inadmisión de una prueba propia o la admisión de la del contrario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Protesta por la inadmisión de una prueba propia o la admisión de la del contrario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Protesta por la inadmisión de una prueba propia o la admisión de la del contrario

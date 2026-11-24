@@ -1,6 +1,6 @@
 ---
 name: demanda-repeticion-promotora-contra-arquitecto-civ-0782
-description: "Demanda de repetición de la promotora contra arquitecto, aparejador y constructora de la edificación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de repetición de la promotora contra arquitecto, aparejador y constructora de la edificación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de repetición de la promotora contra arquitecto, aparejador y constructora de la edificación

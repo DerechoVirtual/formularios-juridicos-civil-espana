@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-archiva-provisionalmente-autos-civ-1899
-description: "Diligencia de ordenación que archiva provisionalmente los autos al acabar el plazo de suspensión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que archiva provisionalmente los autos al acabar el plazo de suspensión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que archiva provisionalmente los autos al acabar el plazo de suspensión

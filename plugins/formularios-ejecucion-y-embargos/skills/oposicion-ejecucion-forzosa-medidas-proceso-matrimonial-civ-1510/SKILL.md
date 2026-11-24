@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-forzosa-medidas-proceso-matrimonial-civ-1510
-description: "Oposición a la ejecución forzosa de medidas de un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución forzosa de medidas de un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución forzosa de medidas de un proceso matrimonial

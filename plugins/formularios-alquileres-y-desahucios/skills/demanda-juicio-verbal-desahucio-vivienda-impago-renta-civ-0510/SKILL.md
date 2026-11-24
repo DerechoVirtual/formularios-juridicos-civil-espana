@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-desahucio-vivienda-impago-renta-civ-0510
-description: "Demanda de juicio verbal de desahucio de vivienda por impago de la renta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de desahucio de vivienda por impago de la renta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de desahucio de vivienda por impago de la renta

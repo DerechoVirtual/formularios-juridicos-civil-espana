@@ -1,6 +1,6 @@
 ---
 name: impugnacion-documento-publico-audiencia-previa-prueba-civ-0976
-description: "Impugnación de documento público en la audiencia previa con prueba sobre su autenticidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de documento público en la audiencia previa con prueba sobre su autenticidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de documento público en la audiencia previa con prueba sobre su autenticidad

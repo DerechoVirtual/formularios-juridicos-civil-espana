@@ -1,6 +1,6 @@
 ---
 name: renuncia-actor-accion-ejercitada-peticion-absolucion-civ-1078
-description: "Renuncia del actor a la acción ejercitada con petición de absolución en costas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Renuncia del actor a la acción ejercitada con petición de absolución en costas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Renuncia del actor a la acción ejercitada con petición de absolución en costas

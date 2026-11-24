@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-alquiler-vivienda-necesidad-civ-0606
-description: "Demanda de resolución de alquiler de vivienda por necesidad del arrendador (anterior a 1985). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de alquiler de vivienda por necesidad del arrendador (anterior a 1985). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de alquiler de vivienda por necesidad del arrendador (anterior a 1985)

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-excluir-cargo-tutor-persona-inhabil-civ-0376
-description: "Escrito pidiendo excluir del cargo de tutor a una persona inhábil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo excluir del cargo de tutor a una persona inhábil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo excluir del cargo de tutor a una persona inhábil

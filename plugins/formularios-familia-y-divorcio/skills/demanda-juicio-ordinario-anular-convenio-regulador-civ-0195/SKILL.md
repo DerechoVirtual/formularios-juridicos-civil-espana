@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-anular-convenio-regulador-civ-0195
-description: "Demanda de juicio ordinario para anular el convenio regulador por vicio del consentimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para anular el convenio regulador por vicio del consentimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para anular el convenio regulador por vicio del consentimiento

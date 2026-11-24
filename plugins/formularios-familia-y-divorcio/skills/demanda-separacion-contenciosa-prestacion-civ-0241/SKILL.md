@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-contenciosa-prestacion-civ-0241
-description: "Demanda de separación contenciosa con prestación compensatoria (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación contenciosa con prestación compensatoria (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación contenciosa con prestación compensatoria (Derecho civil catalán)

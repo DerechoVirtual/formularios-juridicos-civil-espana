@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-contra-sentencia-desestimatoria-civ-1290
-description: "Recurso de apelación contra sentencia desestimatoria en un proceso declarativo de tráfico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación contra sentencia desestimatoria en un proceso declarativo de tráfico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación contra sentencia desestimatoria en un proceso declarativo de tráfico

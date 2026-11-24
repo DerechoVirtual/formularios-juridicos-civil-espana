@@ -1,6 +1,6 @@
 ---
 name: otrosi-contestacion-pide-llamar-tercero-juicio-civ-1029
-description: "Otrosí de la contestación que pide llamar a un tercero al juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la contestación que pide llamar a un tercero al juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la contestación que pide llamar a un tercero al juicio ordinario

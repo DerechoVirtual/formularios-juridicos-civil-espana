@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-demanda-reconvencion-emplaza-contestar-civ-1856
-description: "Decreto que admite la demanda y la reconvención y emplaza para contestar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite la demanda y la reconvención y emplaza para contestar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite la demanda y la reconvención y emplaza para contestar

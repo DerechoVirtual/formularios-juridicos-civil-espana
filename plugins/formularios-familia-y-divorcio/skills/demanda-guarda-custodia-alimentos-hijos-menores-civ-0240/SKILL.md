@@ -1,6 +1,6 @@
 ---
 name: demanda-guarda-custodia-alimentos-hijos-menores-civ-0240
-description: "Demanda de guarda y custodia y alimentos de hijos menores (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de guarda y custodia y alimentos de hijos menores (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de guarda y custodia y alimentos de hijos menores (Derecho civil catalán)

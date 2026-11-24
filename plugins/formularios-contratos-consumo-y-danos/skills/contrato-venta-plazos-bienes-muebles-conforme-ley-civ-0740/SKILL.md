@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-plazos-bienes-muebles-conforme-ley-civ-0740
-description: "Contrato de venta a plazos de bienes muebles conforme a la Ley de Consumidores y Usuarios de 2007. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta a plazos de bienes muebles conforme a la Ley de Consumidores y Usuarios de 2007. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta a plazos de bienes muebles conforme a la Ley de Consumidores y Usuarios de 2007

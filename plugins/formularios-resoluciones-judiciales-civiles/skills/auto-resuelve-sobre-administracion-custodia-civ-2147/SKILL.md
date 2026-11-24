@@ -1,6 +1,6 @@
 ---
 name: auto-resuelve-sobre-administracion-custodia-civ-2147
-description: "Auto que resuelve sobre la administración, custodia y conservación del caudal hereditario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que resuelve sobre la administración, custodia y conservación del caudal hereditario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que resuelve sobre la administración, custodia y conservación del caudal hereditario

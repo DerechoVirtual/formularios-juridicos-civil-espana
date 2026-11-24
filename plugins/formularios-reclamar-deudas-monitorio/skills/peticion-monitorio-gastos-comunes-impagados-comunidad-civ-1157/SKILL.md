@@ -1,6 +1,6 @@
 ---
 name: peticion-monitorio-gastos-comunes-impagados-comunidad-civ-1157
-description: "Petición de monitorio por gastos comunes impagados de una comunidad, con abogado y procurador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de monitorio por gastos comunes impagados de una comunidad, con abogado y procurador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de monitorio por gastos comunes impagados de una comunidad, con abogado y procurador

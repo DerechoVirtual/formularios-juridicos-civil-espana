@@ -1,6 +1,6 @@
 ---
 name: solicitud-embargo-preventivo-junto-demanda-sin-civ-1234
-description: "Solicitud de embargo preventivo junto a la demanda, sin audiencia del demandado y con caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de embargo preventivo junto a la demanda, sin audiencia del demandado y con caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de embargo preventivo junto a la demanda, sin audiencia del demandado y con caución

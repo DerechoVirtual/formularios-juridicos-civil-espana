@@ -1,6 +1,6 @@
 ---
 name: decreto-remueve-depositario-incumplir-obligaciones-civ-1989
-description: "Decreto que remueve al depositario por incumplir sus obligaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que remueve al depositario por incumplir sus obligaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que remueve al depositario por incumplir sus obligaciones

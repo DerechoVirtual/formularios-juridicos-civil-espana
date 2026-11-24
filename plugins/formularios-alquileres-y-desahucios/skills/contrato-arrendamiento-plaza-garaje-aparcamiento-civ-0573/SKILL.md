@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-plaza-garaje-aparcamiento-civ-0573
-description: "Contrato de arrendamiento de plaza de garaje o aparcamiento subterráneo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de plaza de garaje o aparcamiento subterráneo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de plaza de garaje o aparcamiento subterráneo

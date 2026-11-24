@@ -1,6 +1,6 @@
 ---
 name: recurso-queja-vulneracion-derecho-juez-predeterminado-civ-1295
-description: "Recurso de queja por vulneración del derecho al juez predeterminado por la ley (art. 24 CE). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de queja por vulneración del derecho al juez predeterminado por la ley (art. 24 CE). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de queja por vulneración del derecho al juez predeterminado por la ley (art. 24 CE)

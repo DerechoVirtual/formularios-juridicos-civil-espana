@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-libra-mandamiento-registro-civ-2060
-description: "Diligencia de ordenación que libra mandamiento al Registro y requiere la presentación de títulos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que libra mandamiento al Registro y requiere la presentación de títulos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que libra mandamiento al Registro y requiere la presentación de títulos

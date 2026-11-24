@@ -1,6 +1,6 @@
 ---
 name: clausula-testamentaria-legado-pension-alimentos-civ-0418
-description: "Cláusula testamentaria de legado de pensión de alimentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula testamentaria de legado de pensión de alimentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula testamentaria de legado de pensión de alimentos

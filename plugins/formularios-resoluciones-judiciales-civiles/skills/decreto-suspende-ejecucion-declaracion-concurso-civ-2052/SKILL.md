@@ -1,6 +1,6 @@
 ---
 name: decreto-suspende-ejecucion-declaracion-concurso-civ-2052
-description: "Decreto que suspende la ejecución por declaración de concurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que suspende la ejecución por declaración de concurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que suspende la ejecución por declaración de concurso

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-arrancar-arboles-plantados-sin-civ-0659
-description: "Demanda de juicio verbal para arrancar árboles plantados sin la distancia legal, con inspección. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal para arrancar árboles plantados sin la distancia legal, con inspección. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal para arrancar árboles plantados sin la distancia legal, con inspección

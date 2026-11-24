@@ -1,6 +1,6 @@
 ---
 name: declinatoria-falta-competencia-territorial-ejecucion-civ-1465
-description: "Declinatoria por falta de competencia territorial en la ejecución de un acuerdo de media - variante 2. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria por falta de competencia territorial en la ejecución de un acuerdo de media - variante 2. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria por falta de competencia territorial en la ejecución de un acuerdo de media - variante 2

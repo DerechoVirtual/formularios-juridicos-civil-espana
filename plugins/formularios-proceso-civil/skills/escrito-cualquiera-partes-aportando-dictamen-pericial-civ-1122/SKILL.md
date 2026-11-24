@@ -1,6 +1,6 @@
 ---
 name: escrito-cualquiera-partes-aportando-dictamen-pericial-civ-1122
-description: "Escrito de cualquiera de las partes aportando dictamen pericial cinco días antes del juicio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de cualquiera de las partes aportando dictamen pericial cinco días antes del juicio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de cualquiera de las partes aportando dictamen pericial cinco días antes del juicio

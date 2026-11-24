@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-liquidacion-frutos-rentas-sin-civ-1956
-description: "Decreto que aprueba la liquidación de frutos y rentas sin oposición del acreedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba la liquidación de frutos y rentas sin oposición del acreedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba la liquidación de frutos y rentas sin oposición del acreedor

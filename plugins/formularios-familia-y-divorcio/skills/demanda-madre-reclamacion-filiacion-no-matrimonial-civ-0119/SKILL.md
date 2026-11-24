@@ -1,6 +1,6 @@
 ---
 name: demanda-madre-reclamacion-filiacion-no-matrimonial-civ-0119
-description: "Demanda de la madre de reclamación de filiación no matrimonial con prueba biológica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de la madre de reclamación de filiación no matrimonial con prueba biológica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de la madre de reclamación de filiación no matrimonial con prueba biológica

@@ -1,6 +1,6 @@
 ---
 name: demanda-declarar-ilegales-cuotas-participacion-civ-0628
-description: "Demanda para declarar ilegales las cuotas de participación en elementos comunes y redistribuirlas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para declarar ilegales las cuotas de participación en elementos comunes y redistribuirlas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para declarar ilegales las cuotas de participación en elementos comunes y redistribuirlas

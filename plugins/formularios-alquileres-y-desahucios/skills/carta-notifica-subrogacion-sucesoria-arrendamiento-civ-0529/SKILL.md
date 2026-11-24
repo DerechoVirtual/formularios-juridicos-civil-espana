@@ -1,6 +1,6 @@
 ---
 name: carta-notifica-subrogacion-sucesoria-arrendamiento-civ-0529
-description: "Carta que notifica la subrogación sucesoria en el arrendamiento rústico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta que notifica la subrogación sucesoria en el arrendamiento rústico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta que notifica la subrogación sucesoria en el arrendamiento rústico

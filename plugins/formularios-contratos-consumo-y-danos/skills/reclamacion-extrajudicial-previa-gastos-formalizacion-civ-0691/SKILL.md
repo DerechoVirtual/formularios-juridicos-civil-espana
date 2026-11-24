@@ -1,6 +1,6 @@
 ---
 name: reclamacion-extrajudicial-previa-gastos-formalizacion-civ-0691
-description: "Reclamación extrajudicial previa de los gastos de formalización de una hipoteca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación extrajudicial previa de los gastos de formalización de una hipoteca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación extrajudicial previa de los gastos de formalización de una hipoteca

@@ -1,6 +1,6 @@
 ---
 name: cuaderno-particional-herencia-testada-viuda-e-hijos-civ-0458
-description: "Cuaderno particional de herencia testada con viuda e hijos y liquidación de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cuaderno particional de herencia testada con viuda e hijos y liquidación de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cuaderno particional de herencia testada con viuda e hijos y liquidación de gananciales

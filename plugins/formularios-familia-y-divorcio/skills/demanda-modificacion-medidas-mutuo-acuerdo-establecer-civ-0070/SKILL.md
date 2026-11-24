@@ -1,6 +1,6 @@
 ---
 name: demanda-modificacion-medidas-mutuo-acuerdo-establecer-civ-0070
-description: "Demanda de modificación de medidas de mutuo acuerdo para establecer la custodia compartida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de modificación de medidas de mutuo acuerdo para establecer la custodia compartida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de modificación de medidas de mutuo acuerdo para establecer la custodia compartida

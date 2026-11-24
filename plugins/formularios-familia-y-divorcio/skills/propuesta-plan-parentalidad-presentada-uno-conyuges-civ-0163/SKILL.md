@@ -1,6 +1,6 @@
 ---
 name: propuesta-plan-parentalidad-presentada-uno-conyuges-civ-0163
-description: "Propuesta de plan de parentalidad presentada por uno de los cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de plan de parentalidad presentada por uno de los cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de plan de parentalidad presentada por uno de los cónyuges

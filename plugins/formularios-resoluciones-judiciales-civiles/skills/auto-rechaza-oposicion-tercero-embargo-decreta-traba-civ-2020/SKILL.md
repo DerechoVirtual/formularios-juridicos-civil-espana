@@ -1,6 +1,6 @@
 ---
 name: auto-rechaza-oposicion-tercero-embargo-decreta-traba-civ-2020
-description: "Auto que rechaza la oposición de un tercero al embargo y decreta la traba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que rechaza la oposición de un tercero al embargo y decreta la traba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que rechaza la oposición de un tercero al embargo y decreta la traba

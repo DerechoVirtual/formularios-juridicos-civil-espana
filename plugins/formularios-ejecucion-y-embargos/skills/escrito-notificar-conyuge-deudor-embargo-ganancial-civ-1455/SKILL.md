@@ -1,6 +1,6 @@
 ---
 name: escrito-notificar-conyuge-deudor-embargo-ganancial-civ-1455
-description: "Escrito para notificar al cónyuge del deudor el embargo ganancial y anotarlo en el Registro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para notificar al cónyuge del deudor el embargo ganancial y anotarlo en el Registro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para notificar al cónyuge del deudor el embargo ganancial y anotarlo en el Registro

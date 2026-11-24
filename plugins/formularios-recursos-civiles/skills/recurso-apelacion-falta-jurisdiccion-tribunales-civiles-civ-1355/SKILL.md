@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-falta-jurisdiccion-tribunales-civiles-civ-1355
-description: "Recurso de apelación por falta de jurisdicción de los tribunales civiles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación por falta de jurisdicción de los tribunales civiles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación por falta de jurisdicción de los tribunales civiles

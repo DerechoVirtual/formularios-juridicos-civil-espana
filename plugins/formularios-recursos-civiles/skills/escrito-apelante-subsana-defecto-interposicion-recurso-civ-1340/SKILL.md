@@ -1,6 +1,6 @@
 ---
 name: escrito-apelante-subsana-defecto-interposicion-recurso-civ-1340
-description: "Escrito del apelante que subsana un defecto en la interposición del recurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del apelante que subsana un defecto en la interposición del recurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del apelante que subsana un defecto en la interposición del recurso

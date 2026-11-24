@@ -1,6 +1,6 @@
 ---
 name: escrito-general-interposicion-recurso-apelacion-civ-1300
-description: "Escrito general de interposición del recurso de apelación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito general de interposición del recurso de apelación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito general de interposición del recurso de apelación

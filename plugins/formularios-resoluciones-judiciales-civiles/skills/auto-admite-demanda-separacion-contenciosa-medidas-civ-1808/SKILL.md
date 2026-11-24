@@ -1,6 +1,6 @@
 ---
 name: auto-admite-demanda-separacion-contenciosa-medidas-civ-1808
-description: "Auto que admite demanda de separación contenciosa con medidas provisionales previas de otro órgano. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite demanda de separación contenciosa con medidas provisionales previas de otro órgano. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite demanda de separación contenciosa con medidas provisionales previas de otro órgano

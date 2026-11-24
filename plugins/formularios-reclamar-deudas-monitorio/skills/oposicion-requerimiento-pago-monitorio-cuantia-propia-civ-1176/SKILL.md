@@ -1,6 +1,6 @@
 ---
 name: oposicion-requerimiento-pago-monitorio-cuantia-propia-civ-1176
-description: "Oposición al requerimiento de pago en un monitorio de cuantía propia del juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al requerimiento de pago en un monitorio de cuantía propia del juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al requerimiento de pago en un monitorio de cuantía propia del juicio verbal

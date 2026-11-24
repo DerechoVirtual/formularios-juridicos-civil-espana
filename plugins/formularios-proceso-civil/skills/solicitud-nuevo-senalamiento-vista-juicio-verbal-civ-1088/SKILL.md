@@ -1,6 +1,6 @@
 ---
 name: solicitud-nuevo-senalamiento-vista-juicio-verbal-civ-1088
-description: "Solicitud de nuevo señalamiento de vista en juicio verbal por imposibilidad de un testigo citado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nuevo señalamiento de vista en juicio verbal por imposibilidad de un testigo citado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nuevo señalamiento de vista en juicio verbal por imposibilidad de un testigo citado

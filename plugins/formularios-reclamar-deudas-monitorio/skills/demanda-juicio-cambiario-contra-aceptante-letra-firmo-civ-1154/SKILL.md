@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-cambiario-contra-aceptante-letra-firmo-civ-1154
-description: "Demanda de juicio cambiario contra el aceptante de una letra que firmó además un pagaré impagado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio cambiario contra el aceptante de una letra que firmó además un pagaré impagado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio cambiario contra el aceptante de una letra que firmó además un pagaré impagado

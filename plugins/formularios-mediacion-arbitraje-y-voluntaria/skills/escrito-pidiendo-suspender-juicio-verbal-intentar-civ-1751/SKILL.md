@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-suspender-juicio-verbal-intentar-civ-1751
-description: "Escrito pidiendo suspender el juicio verbal para intentar la mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo suspender el juicio verbal para intentar la mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo suspender el juicio verbal para intentar la mediación

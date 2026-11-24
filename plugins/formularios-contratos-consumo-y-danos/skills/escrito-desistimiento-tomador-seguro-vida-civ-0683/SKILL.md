@@ -1,6 +1,6 @@
 ---
 name: escrito-desistimiento-tomador-seguro-vida-civ-0683
-description: "Escrito de desistimiento del tomador de un seguro de vida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de desistimiento del tomador de un seguro de vida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de desistimiento del tomador de un seguro de vida

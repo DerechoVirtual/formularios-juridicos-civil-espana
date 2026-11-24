@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-matrimonial-error-identidad-cualidades-civ-0331
-description: "Demanda de nulidad matrimonial por error en la identidad o cualidades del cónyuge, con indemnización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad matrimonial por error en la identidad o cualidades del cónyuge, con indemnización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad matrimonial por error en la identidad o cualidades del cónyuge, con indemnización

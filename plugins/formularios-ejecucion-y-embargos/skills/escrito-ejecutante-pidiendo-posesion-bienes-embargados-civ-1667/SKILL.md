@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-posesion-bienes-embargados-civ-1667
-description: "Escrito del ejecutante pidiendo la posesión de los bienes embargados para administrarlos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo la posesión de los bienes embargados para administrarlos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo la posesión de los bienes embargados para administrarlos

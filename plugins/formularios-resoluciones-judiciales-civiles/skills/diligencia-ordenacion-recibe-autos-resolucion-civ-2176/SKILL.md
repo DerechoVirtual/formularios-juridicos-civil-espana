@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-recibe-autos-resolucion-civ-2176
-description: "Diligencia de ordenación que recibe los autos con resolución confirmatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que recibe los autos con resolución confirmatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que recibe los autos con resolución confirmatoria

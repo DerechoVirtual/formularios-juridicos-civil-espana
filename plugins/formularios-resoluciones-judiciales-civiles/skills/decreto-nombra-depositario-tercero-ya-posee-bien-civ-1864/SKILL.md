@@ -1,6 +1,6 @@
 ---
 name: decreto-nombra-depositario-tercero-ya-posee-bien-civ-1864
-description: "Decreto que nombra depositario al tercero que ya posee el bien embargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que nombra depositario al tercero que ya posee el bien embargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que nombra depositario al tercero que ya posee el bien embargado

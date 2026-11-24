@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-medidas-judiciales-apoyo-persona-civ-0394
-description: "Contestación a la demanda de medidas judiciales de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de medidas judiciales de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de medidas judiciales de apoyo a persona con discapacidad

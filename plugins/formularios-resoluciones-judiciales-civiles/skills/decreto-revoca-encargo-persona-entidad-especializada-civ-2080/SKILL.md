@@ -1,6 +1,6 @@
 ---
 name: decreto-revoca-encargo-persona-entidad-especializada-civ-2080
-description: "Decreto que revoca el encargo a persona o entidad especializada por transcurso del plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que revoca el encargo a persona o entidad especializada por transcurso del plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que revoca el encargo a persona o entidad especializada por transcurso del plazo

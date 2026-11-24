@@ -1,6 +1,6 @@
 ---
 name: solicitud-embargo-preventivo-como-medida-cautelar-civ-1248
-description: "Solicitud de embargo preventivo como medida cautelar previa a la demanda principal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de embargo preventivo como medida cautelar previa a la demanda principal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de embargo preventivo como medida cautelar previa a la demanda principal

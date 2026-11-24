@@ -1,6 +1,6 @@
 ---
 name: otrosi-apelacion-pidiendo-prueba-segunda-instancia-civ-1346
-description: "Otrosí de apelación pidiendo prueba en segunda instancia por prueba indebidamente denegada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de apelación pidiendo prueba en segunda instancia por prueba indebidamente denegada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de apelación pidiendo prueba en segunda instancia por prueba indebidamente denegada

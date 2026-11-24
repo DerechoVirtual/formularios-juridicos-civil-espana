@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutado-suspender-ejecucion-rescision-civ-1570
-description: "Solicitud del ejecutado de suspender la ejecución por rescisión de sentencia dictada en rebeldía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutado de suspender la ejecución por rescisión de sentencia dictada en rebeldía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutado de suspender la ejecución por rescisión de sentencia dictada en rebeldía

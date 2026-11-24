@@ -1,6 +1,6 @@
 ---
 name: contestacion-reconvencion-formulada-quien-no-es-civ-0985
-description: "Contestación a la reconvención formulada por quien no es demandante, oponiendo falta de legitimación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reconvención formulada por quien no es demandante, oponiendo falta de legitimación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reconvención formulada por quien no es demandante, oponiendo falta de legitimación

@@ -1,6 +1,6 @@
 ---
 name: compromiso-venta-bienes-herencia-civ-0460
-description: "Compromiso de venta de bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Compromiso de venta de bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Compromiso de venta de bienes de la herencia

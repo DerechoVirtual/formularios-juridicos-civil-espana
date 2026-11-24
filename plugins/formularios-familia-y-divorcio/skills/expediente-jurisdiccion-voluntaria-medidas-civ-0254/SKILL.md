@@ -1,6 +1,6 @@
 ---
 name: expediente-jurisdiccion-voluntaria-medidas-civ-0254
-description: "Expediente de jurisdicción voluntaria de medidas provisionales sobre menores (art. 158 CC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Expediente de jurisdicción voluntaria de medidas provisionales sobre menores (art. 158 CC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Expediente de jurisdicción voluntaria de medidas provisionales sobre menores (art. 158 CC)

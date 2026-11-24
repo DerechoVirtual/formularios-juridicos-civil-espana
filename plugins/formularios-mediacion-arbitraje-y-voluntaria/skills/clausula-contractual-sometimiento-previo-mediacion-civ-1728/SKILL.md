@@ -1,6 +1,6 @@
 ---
 name: clausula-contractual-sometimiento-previo-mediacion-civ-1728
-description: "Cláusula contractual de sometimiento previo a mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula contractual de sometimiento previo a mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula contractual de sometimiento previo a mediación

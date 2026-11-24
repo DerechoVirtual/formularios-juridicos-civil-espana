@@ -1,6 +1,6 @@
 ---
 name: demanda-audiencia-demandado-rebelde-rescindir-civ-1317
-description: "Demanda de audiencia al demandado rebelde para rescindir la sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de audiencia al demandado rebelde para rescindir la sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de audiencia al demandado rebelde para rescindir la sentencia firme

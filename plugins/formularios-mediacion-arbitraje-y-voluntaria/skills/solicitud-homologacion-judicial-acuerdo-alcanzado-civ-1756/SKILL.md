@@ -1,6 +1,6 @@
 ---
 name: solicitud-homologacion-judicial-acuerdo-alcanzado-civ-1756
-description: "Solicitud de homologación judicial del acuerdo alcanzado en mediación con proceso suspendido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de homologación judicial del acuerdo alcanzado en mediación con proceso suspendido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de homologación judicial del acuerdo alcanzado en mediación con proceso suspendido

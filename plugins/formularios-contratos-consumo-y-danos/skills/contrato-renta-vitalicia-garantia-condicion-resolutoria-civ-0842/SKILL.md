@@ -1,6 +1,6 @@
 ---
 name: contrato-renta-vitalicia-garantia-condicion-resolutoria-civ-0842
-description: "Contrato de renta vitalicia con garantía y condición resolutoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de renta vitalicia con garantía y condición resolutoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de renta vitalicia con garantía y condición resolutoria

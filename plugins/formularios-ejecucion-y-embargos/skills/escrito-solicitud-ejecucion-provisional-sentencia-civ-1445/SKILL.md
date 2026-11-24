@@ -1,6 +1,6 @@
 ---
 name: escrito-solicitud-ejecucion-provisional-sentencia-civ-1445
-description: "Escrito de solicitud de ejecución provisional de sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de solicitud de ejecución provisional de sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de solicitud de ejecución provisional de sentencia

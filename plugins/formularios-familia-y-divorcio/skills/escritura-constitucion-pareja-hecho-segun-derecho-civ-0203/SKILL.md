@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-pareja-hecho-segun-derecho-civ-0203
-description: "Escritura de constitución de pareja de hecho según el Derecho de Andalucía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de pareja de hecho según el Derecho de Andalucía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de pareja de hecho según el Derecho de Andalucía

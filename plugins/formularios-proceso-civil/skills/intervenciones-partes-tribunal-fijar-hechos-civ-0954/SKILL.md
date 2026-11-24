@@ -1,6 +1,6 @@
 ---
 name: intervenciones-partes-tribunal-fijar-hechos-civ-0954
-description: "Intervenciones de las partes y del tribunal para fijar los hechos controvertidos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervenciones de las partes y del tribunal para fijar los hechos controvertidos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervenciones de las partes y del tribunal para fijar los hechos controvertidos

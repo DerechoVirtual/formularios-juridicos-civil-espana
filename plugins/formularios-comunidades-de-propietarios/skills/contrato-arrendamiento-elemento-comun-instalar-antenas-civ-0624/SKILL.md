@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-elemento-comun-instalar-antenas-civ-0624
-description: "Contrato de arrendamiento de un elemento común para instalar antenas de telefonía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de un elemento común para instalar antenas de telefonía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de un elemento común para instalar antenas de telefonía

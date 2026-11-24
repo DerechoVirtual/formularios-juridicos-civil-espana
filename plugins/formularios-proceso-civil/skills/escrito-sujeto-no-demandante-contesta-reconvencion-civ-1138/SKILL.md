@@ -1,6 +1,6 @@
 ---
 name: escrito-sujeto-no-demandante-contesta-reconvencion-civ-1138
-description: "Escrito de un sujeto no demandante que contesta a la reconvención. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de un sujeto no demandante que contesta a la reconvención. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de un sujeto no demandante que contesta a la reconvención

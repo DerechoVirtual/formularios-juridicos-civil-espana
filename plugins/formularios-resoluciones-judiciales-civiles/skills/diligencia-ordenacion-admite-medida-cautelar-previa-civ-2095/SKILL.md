@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-admite-medida-cautelar-previa-civ-2095
-description: "Diligencia de ordenación que admite la medida cautelar previa pedida por asociación de consumidores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que admite la medida cautelar previa pedida por asociación de consumidores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que admite la medida cautelar previa pedida por asociación de consumidores

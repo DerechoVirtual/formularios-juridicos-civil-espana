@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-contra-banco-ejecucion-aval-civ-0756
-description: "Demanda de juicio ordinario contra el banco por la ejecución de un aval a primer requerimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario contra el banco por la ejecución de un aval a primer requerimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario contra el banco por la ejecución de un aval a primer requerimiento

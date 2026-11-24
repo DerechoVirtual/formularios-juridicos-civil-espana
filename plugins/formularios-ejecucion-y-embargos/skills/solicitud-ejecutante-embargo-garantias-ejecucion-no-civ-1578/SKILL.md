@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutante-embargo-garantias-ejecucion-no-civ-1578
-description: "Solicitud del ejecutante de embargo de garantías en ejecución no dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutante de embargo de garantías en ejecución no dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutante de embargo de garantías en ejecución no dineraria

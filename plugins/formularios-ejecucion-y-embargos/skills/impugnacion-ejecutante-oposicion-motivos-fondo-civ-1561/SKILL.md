@@ -1,6 +1,6 @@
 ---
 name: impugnacion-ejecutante-oposicion-motivos-fondo-civ-1561
-description: "Impugnación del ejecutante a la oposición por motivos de fondo en ejecución de título judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del ejecutante a la oposición por motivos de fondo en ejecución de título judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del ejecutante a la oposición por motivos de fondo en ejecución de título judicial

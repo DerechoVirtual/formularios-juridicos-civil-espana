@@ -1,6 +1,6 @@
 ---
 name: propuesta-liquidacion-regimen-economico-matrimonial-civ-0256
-description: "Propuesta de liquidación del régimen económico matrimonial de participación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de liquidación del régimen económico matrimonial de participación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de liquidación del régimen económico matrimonial de participación

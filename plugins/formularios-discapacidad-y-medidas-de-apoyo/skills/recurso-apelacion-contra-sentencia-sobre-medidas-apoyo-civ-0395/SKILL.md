@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-contra-sentencia-sobre-medidas-apoyo-civ-0395
-description: "Recurso de apelación contra la sentencia sobre medidas de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación contra la sentencia sobre medidas de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación contra la sentencia sobre medidas de apoyo a persona con discapacidad

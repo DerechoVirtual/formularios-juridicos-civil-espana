@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-testimonio-ejecutar-provisionalmente-civ-1392
-description: "Escrito pidiendo testimonio para ejecutar provisionalmente la sentencia apelada por la contraparte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo testimonio para ejecutar provisionalmente la sentencia apelada por la contraparte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo testimonio para ejecutar provisionalmente la sentencia apelada por la contraparte

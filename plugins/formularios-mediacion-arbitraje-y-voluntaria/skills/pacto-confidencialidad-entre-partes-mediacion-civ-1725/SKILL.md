@@ -1,6 +1,6 @@
 ---
 name: pacto-confidencialidad-entre-partes-mediacion-civ-1725
-description: "Pacto de confidencialidad entre las partes de una mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pacto de confidencialidad entre las partes de una mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pacto de confidencialidad entre las partes de una mediación

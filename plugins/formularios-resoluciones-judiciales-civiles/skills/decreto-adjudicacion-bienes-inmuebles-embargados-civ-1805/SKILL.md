@@ -1,6 +1,6 @@
 ---
 name: decreto-adjudicacion-bienes-inmuebles-embargados-civ-1805
-description: "Decreto de adjudicación de los bienes inmuebles embargados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto de adjudicación de los bienes inmuebles embargados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto de adjudicación de los bienes inmuebles embargados

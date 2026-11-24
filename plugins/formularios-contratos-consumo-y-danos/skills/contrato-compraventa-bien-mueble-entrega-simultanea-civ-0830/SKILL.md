@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-bien-mueble-entrega-simultanea-civ-0830
-description: "Contrato de compraventa de bien mueble con entrega simultánea al pago o diferida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de bien mueble con entrega simultánea al pago o diferida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de bien mueble con entrega simultánea al pago o diferida

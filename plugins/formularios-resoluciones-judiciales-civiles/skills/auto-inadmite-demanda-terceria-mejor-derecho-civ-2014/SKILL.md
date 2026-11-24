@@ -1,6 +1,6 @@
 ---
 name: auto-inadmite-demanda-terceria-mejor-derecho-civ-2014
-description: "Auto que inadmite la demanda de tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que inadmite la demanda de tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que inadmite la demanda de tercería de mejor derecho

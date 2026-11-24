@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-resolucion-alquiler-vivienda-civ-0597
-description: "Contestación a demanda de resolución de alquiler de vivienda por necesidad (contrato previo a 1985). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a demanda de resolución de alquiler de vivienda por necesidad (contrato previo a 1985). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a demanda de resolución de alquiler de vivienda por necesidad (contrato previo a 1985)

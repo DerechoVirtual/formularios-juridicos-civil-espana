@@ -1,6 +1,6 @@
 ---
 name: auto-estima-oposicion-defectos-procesales-no-civ-2177
-description: "Auto que estima la oposición por defectos procesales no subsanados por el ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la oposición por defectos procesales no subsanados por el ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la oposición por defectos procesales no subsanados por el ejecutante

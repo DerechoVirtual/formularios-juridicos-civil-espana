@@ -1,6 +1,6 @@
 ---
 name: oposicion-acumulacion-procesos-tramitan-ante-civ-0905
-description: "Oposición a la acumulación de procesos que se tramitan ante tribunales distintos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la acumulación de procesos que se tramitan ante tribunales distintos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la acumulación de procesos que se tramitan ante tribunales distintos

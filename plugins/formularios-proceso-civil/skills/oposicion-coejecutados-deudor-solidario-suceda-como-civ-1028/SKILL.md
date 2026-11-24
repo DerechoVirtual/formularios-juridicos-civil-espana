@@ -1,6 +1,6 @@
 ---
 name: oposicion-coejecutados-deudor-solidario-suceda-como-civ-1028
-description: "Oposición de los coejecutados a que el deudor solidario suceda como ejecutante en el proceso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición de los coejecutados a que el deudor solidario suceda como ejecutante en el proceso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición de los coejecutados a que el deudor solidario suceda como ejecutante en el proceso

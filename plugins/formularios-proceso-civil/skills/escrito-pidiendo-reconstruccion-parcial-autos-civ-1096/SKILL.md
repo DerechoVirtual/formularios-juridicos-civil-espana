@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-reconstruccion-parcial-autos-civ-1096
-description: "Escrito pidiendo la reconstrucción parcial de autos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo la reconstrucción parcial de autos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo la reconstrucción parcial de autos

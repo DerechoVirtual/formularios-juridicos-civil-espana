@@ -1,6 +1,6 @@
 ---
 name: acta-final-procedimiento-mediacion-civ-1717
-description: "Acta final del procedimiento de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final del procedimiento de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final del procedimiento de mediación

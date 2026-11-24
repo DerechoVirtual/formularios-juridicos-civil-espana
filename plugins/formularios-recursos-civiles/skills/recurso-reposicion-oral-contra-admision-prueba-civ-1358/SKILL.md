@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-oral-contra-admision-prueba-civ-1358
-description: "Recurso de reposición oral contra la admisión de prueba en la audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición oral contra la admisión de prueba en la audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición oral contra la admisión de prueba en la audiencia previa

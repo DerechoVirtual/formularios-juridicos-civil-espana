@@ -1,6 +1,6 @@
 ---
 name: contrato-alquiler-vehiculo-sin-conductor-civ-0696
-description: "Contrato de alquiler de vehículo sin conductor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alquiler de vehículo sin conductor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alquiler de vehículo sin conductor

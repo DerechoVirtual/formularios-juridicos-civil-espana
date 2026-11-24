@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamar-actualizacion-rentas-civ-0595
-description: "Demanda de juicio ordinario para reclamar la actualización de rentas, con acumulación subjetiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para reclamar la actualización de rentas, con acumulación subjetiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para reclamar la actualización de rentas, con acumulación subjetiva

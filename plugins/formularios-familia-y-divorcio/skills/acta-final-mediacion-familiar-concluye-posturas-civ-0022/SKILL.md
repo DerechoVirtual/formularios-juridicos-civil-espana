@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-familiar-concluye-posturas-civ-0022
-description: "Acta final de mediación familiar que concluye por posturas irreconciliables de las partes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación familiar que concluye por posturas irreconciliables de las partes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación familiar que concluye por posturas irreconciliables de las partes

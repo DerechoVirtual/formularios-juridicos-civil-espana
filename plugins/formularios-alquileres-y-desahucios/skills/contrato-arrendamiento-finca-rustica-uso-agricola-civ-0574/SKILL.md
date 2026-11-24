@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-finca-rustica-uso-agricola-civ-0574
-description: "Contrato de arrendamiento de finca rústica para uso agrícola. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de finca rústica para uso agrícola. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de finca rústica para uso agrícola

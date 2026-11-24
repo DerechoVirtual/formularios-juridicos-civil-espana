@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 289 formularios de Proceso civil: demandas, contestaciones, prueba y vista. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 289 formularios de Proceso civil: demandas, contestaciones, prueba y vista. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Proceso civil: demandas, contestaciones, prueba y vista: índice de formularios

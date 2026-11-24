@@ -1,6 +1,6 @@
 ---
 name: comunicacion-administrador-comunidad-sobre-necesidad-civ-0611
-description: "Comunicación del administrador de la comunidad sobre la necesidad de reparaciones urgentes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del administrador de la comunidad sobre la necesidad de reparaciones urgentes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del administrador de la comunidad sobre la necesidad de reparaciones urgentes

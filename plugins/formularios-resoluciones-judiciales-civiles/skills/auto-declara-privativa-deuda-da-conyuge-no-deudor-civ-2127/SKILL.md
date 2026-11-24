@@ -1,6 +1,6 @@
 ---
 name: auto-declara-privativa-deuda-da-conyuge-no-deudor-civ-2127
-description: "Auto que declara privativa la deuda y da al cónyuge no deudor la opción de disolver los gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara privativa la deuda y da al cónyuge no deudor la opción de disolver los gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara privativa la deuda y da al cónyuge no deudor la opción de disolver los gananciales

@@ -1,6 +1,6 @@
 ---
 name: providencia-suspende-proceso-comprobar-competencia-civ-1812
-description: "Providencia que suspende el proceso para comprobar competencia internacional y emplazamiento UE. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que suspende el proceso para comprobar competencia internacional y emplazamiento UE. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que suspende el proceso para comprobar competencia internacional y emplazamiento UE

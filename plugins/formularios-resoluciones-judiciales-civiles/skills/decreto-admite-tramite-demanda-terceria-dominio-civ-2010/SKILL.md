@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-tramite-demanda-terceria-dominio-civ-2010
-description: "Decreto que admite a trámite la demanda de tercería de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite a trámite la demanda de tercería de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite a trámite la demanda de tercería de dominio

@@ -1,6 +1,6 @@
 ---
 name: encabezamiento-demanda-monitoria-comunidad-civ-0650
-description: "Encabezamiento de demanda monitoria de la comunidad de propietarios presentada por su presidente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Encabezamiento de demanda monitoria de la comunidad de propietarios presentada por su presidente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Encabezamiento de demanda monitoria de la comunidad de propietarios presentada por su presidente

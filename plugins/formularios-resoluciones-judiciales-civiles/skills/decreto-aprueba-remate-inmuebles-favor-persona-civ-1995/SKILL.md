@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-remate-inmuebles-favor-persona-civ-1995
-description: "Decreto que aprueba el remate de inmuebles a favor de la persona designada por el rematante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el remate de inmuebles a favor de la persona designada por el rematante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el remate de inmuebles a favor de la persona designada por el rematante

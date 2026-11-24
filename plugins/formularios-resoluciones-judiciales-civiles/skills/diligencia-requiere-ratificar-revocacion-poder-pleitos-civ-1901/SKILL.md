@@ -1,6 +1,6 @@
 ---
 name: diligencia-requiere-ratificar-revocacion-poder-pleitos-civ-1901
-description: "Diligencia que requiere ratificar la revocación del poder para pleitos y nombrar nuevo procurador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia que requiere ratificar la revocación del poder para pleitos y nombrar nuevo procurador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia que requiere ratificar la revocación del poder para pleitos y nombrar nuevo procurador

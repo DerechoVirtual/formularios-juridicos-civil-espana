@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-denuncia-inexactitud-copia-dictamen-civ-1113
-description: "Escrito del demandado que denuncia la inexactitud de la copia del dictamen pericial (art. 280 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado que denuncia la inexactitud de la copia del dictamen pericial (art. 280 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado que denuncia la inexactitud de la copia del dictamen pericial (art. 280 LEC)

@@ -1,6 +1,6 @@
 ---
 name: testamento-mejora-labrar-poseer-segun-derecho-gallego-civ-0432
-description: "Testamento con mejora de labrar y poseer según el Derecho gallego. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con mejora de labrar y poseer según el Derecho gallego. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con mejora de labrar y poseer según el Derecho gallego

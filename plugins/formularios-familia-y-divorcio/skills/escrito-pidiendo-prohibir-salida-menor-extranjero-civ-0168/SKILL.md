@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-prohibir-salida-menor-extranjero-civ-0168
-description: "Escrito pidiendo prohibir la salida de un menor al extranjero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo prohibir la salida de un menor al extranjero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo prohibir la salida de un menor al extranjero

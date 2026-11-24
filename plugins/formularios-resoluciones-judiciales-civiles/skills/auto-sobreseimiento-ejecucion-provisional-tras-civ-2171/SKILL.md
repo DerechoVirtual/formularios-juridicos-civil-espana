@@ -1,6 +1,6 @@
 ---
 name: auto-sobreseimiento-ejecucion-provisional-tras-civ-2171
-description: "Auto de sobreseimiento de ejecución provisional tras revocación total de condena de hacer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de sobreseimiento de ejecución provisional tras revocación total de condena de hacer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de sobreseimiento de ejecución provisional tras revocación total de condena de hacer

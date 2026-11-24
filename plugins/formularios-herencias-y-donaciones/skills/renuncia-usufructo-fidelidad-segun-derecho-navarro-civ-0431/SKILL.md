@@ -1,6 +1,6 @@
 ---
 name: renuncia-usufructo-fidelidad-segun-derecho-navarro-civ-0431
-description: "Renuncia al usufructo de fidelidad según el Derecho navarro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Renuncia al usufructo de fidelidad según el Derecho navarro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Renuncia al usufructo de fidelidad según el Derecho navarro

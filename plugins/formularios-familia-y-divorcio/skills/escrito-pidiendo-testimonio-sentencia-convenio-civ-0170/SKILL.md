@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-testimonio-sentencia-convenio-civ-0170
-description: "Escrito pidiendo testimonio de la sentencia y del convenio regulador en separación de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo testimonio de la sentencia y del convenio regulador en separación de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo testimonio de la sentencia y del convenio regulador en separación de mutuo acuerdo

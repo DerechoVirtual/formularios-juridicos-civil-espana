@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-actuacion-concreta-ejecucion-civ-1703
-description: "Escrito de oposición a una actuación concreta de la ejecución provisional dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a una actuación concreta de la ejecución provisional dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a una actuación concreta de la ejecución provisional dineraria

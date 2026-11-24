@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-suspender-juicio-ordinario-civ-1106
-description: "Escrito pidiendo suspender el juicio ordinario por prejudicialidad penal genérica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo suspender el juicio ordinario por prejudicialidad penal genérica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo suspender el juicio ordinario por prejudicialidad penal genérica

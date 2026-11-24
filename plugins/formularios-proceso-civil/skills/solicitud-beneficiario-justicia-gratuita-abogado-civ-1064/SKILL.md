@@ -1,6 +1,6 @@
 ---
 name: solicitud-beneficiario-justicia-gratuita-abogado-civ-1064
-description: "Solicitud del beneficiario de justicia gratuita de abogado y procurador de oficio en verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del beneficiario de justicia gratuita de abogado y procurador de oficio en verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del beneficiario de justicia gratuita de abogado y procurador de oficio en verbal

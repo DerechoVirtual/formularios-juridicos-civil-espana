@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-nulidad-compraventa-civ-0821
-description: "Demanda de juicio ordinario de nulidad de compraventa por simulación absoluta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de nulidad de compraventa por simulación absoluta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de nulidad de compraventa por simulación absoluta

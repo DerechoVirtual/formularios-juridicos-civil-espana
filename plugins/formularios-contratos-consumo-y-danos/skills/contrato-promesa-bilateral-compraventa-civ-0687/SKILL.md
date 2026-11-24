@@ -1,6 +1,6 @@
 ---
 name: contrato-promesa-bilateral-compraventa-civ-0687
-description: "Contrato de promesa bilateral de compraventa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de promesa bilateral de compraventa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de promesa bilateral de compraventa

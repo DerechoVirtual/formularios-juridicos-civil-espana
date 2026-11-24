@@ -1,6 +1,6 @@
 ---
 name: escrito-deudor-presenta-liquidacion-frutos-rentas-civ-1692
-description: "Escrito del deudor que presenta la liquidación de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del deudor que presenta la liquidación de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del deudor que presenta la liquidación de frutos y rentas

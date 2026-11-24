@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-tasacion-costas-no-impugnada-civ-1818
-description: "Decreto que aprueba la tasación de costas no impugnada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba la tasación de costas no impugnada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba la tasación de costas no impugnada

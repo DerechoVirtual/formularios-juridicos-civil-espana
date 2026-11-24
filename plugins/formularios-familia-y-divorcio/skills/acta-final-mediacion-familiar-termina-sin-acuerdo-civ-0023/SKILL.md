@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-familiar-termina-sin-acuerdo-civ-0023
-description: "Acta final de mediación familiar que termina sin acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación familiar que termina sin acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación familiar que termina sin acuerdo

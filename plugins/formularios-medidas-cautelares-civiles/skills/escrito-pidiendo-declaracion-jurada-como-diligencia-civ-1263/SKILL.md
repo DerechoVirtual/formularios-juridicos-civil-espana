@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-declaracion-jurada-como-diligencia-civ-1263
-description: "Escrito pidiendo declaración jurada como diligencia preliminar y ofreciendo caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo declaración jurada como diligencia preliminar y ofreciendo caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo declaración jurada como diligencia preliminar y ofreciendo caución

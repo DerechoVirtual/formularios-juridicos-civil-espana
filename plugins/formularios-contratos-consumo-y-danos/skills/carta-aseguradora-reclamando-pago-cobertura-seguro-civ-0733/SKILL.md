@@ -1,6 +1,6 @@
 ---
 name: carta-aseguradora-reclamando-pago-cobertura-seguro-civ-0733
-description: "Carta a la aseguradora reclamando el pago de la cobertura de un seguro de defensa jurídica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta a la aseguradora reclamando el pago de la cobertura de un seguro de defensa jurídica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta a la aseguradora reclamando el pago de la cobertura de un seguro de defensa jurídica

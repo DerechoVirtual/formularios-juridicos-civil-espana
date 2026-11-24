@@ -1,6 +1,6 @@
 ---
 name: clausula-testamentaria-legado-uso-habitacion-civ-0419
-description: "Cláusula testamentaria de legado de uso o habitación a un legitimario con discapacidad (art. 822 CC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula testamentaria de legado de uso o habitación a un legitimario con discapacidad (art. 822 CC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula testamentaria de legado de uso o habitación a un legitimario con discapacidad (art. 822 CC)

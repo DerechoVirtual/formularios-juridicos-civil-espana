@@ -1,6 +1,6 @@
 ---
 name: solicitud-notario-testamento-abierto-persona-civ-0423
-description: "Solicitud al notario de testamento abierto de una persona judicialmente incapacitada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al notario de testamento abierto de una persona judicialmente incapacitada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al notario de testamento abierto de una persona judicialmente incapacitada

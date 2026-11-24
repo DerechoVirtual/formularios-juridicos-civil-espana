@@ -1,6 +1,6 @@
 ---
 name: recurso-revision-contra-decreto-letrado-administracion-civ-1278
-description: "Recurso de revisión contra un decreto del Letrado de la Administración de Justicia, modelo general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de revisión contra un decreto del Letrado de la Administración de Justicia, modelo general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de revisión contra un decreto del Letrado de la Administración de Justicia, modelo general

@@ -1,6 +1,6 @@
 ---
 name: demanda-propietario-suspender-obra-nueva-hecha-sin-civ-0612
-description: "Demanda de un propietario para suspender una obra nueva hecha sin consentimiento de la comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de un propietario para suspender una obra nueva hecha sin consentimiento de la comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de un propietario para suspender una obra nueva hecha sin consentimiento de la comunidad

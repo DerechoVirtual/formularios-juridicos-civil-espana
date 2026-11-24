@@ -1,6 +1,6 @@
 ---
 name: escrito-aportando-documento-anterior-demanda-civ-1127
-description: "Escrito aportando documento anterior a la demanda o contestación del que no se tenía conocimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito aportando documento anterior a la demanda o contestación del que no se tenía conocimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito aportando documento anterior a la demanda o contestación del que no se tenía conocimiento

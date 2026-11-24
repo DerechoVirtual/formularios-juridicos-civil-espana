@@ -1,6 +1,6 @@
 ---
 name: solicitud-diligenciado-libro-actas-registro-comunidad-civ-0632
-description: "Solicitud de diligenciado del libro de actas en el Registro por una comunidad recién constituida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de diligenciado del libro de actas en el Registro por una comunidad recién constituida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de diligenciado del libro de actas en el Registro por una comunidad recién constituida

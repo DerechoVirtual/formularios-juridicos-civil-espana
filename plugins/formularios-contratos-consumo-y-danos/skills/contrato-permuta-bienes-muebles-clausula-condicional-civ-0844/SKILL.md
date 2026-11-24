@@ -1,6 +1,6 @@
 ---
 name: contrato-permuta-bienes-muebles-clausula-condicional-civ-0844
-description: "Contrato de permuta de bienes muebles con cláusula condicional de prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de permuta de bienes muebles con cláusula condicional de prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de permuta de bienes muebles con cláusula condicional de prueba

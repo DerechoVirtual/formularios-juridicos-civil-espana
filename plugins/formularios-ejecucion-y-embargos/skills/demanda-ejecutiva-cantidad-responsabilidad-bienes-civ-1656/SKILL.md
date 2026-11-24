@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-cantidad-responsabilidad-bienes-civ-1656
-description: "Demanda ejecutiva por cantidad con responsabilidad de bienes gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva por cantidad con responsabilidad de bienes gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva por cantidad con responsabilidad de bienes gananciales

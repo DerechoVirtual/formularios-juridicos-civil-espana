@@ -1,6 +1,6 @@
 ---
 name: escrito-tercer-poseedor-pidiendo-le-exhiban-autos-civ-1608
-description: "Escrito del tercer poseedor pidiendo que se le exhiban los autos de ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del tercer poseedor pidiendo que se le exhiban los autos de ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del tercer poseedor pidiendo que se le exhiban los autos de ejecución

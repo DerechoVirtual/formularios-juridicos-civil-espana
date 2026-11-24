@@ -1,6 +1,6 @@
 ---
 name: ofrecimiento-caucion-sustituir-medida-paralizacion-civ-1241
-description: "Ofrecimiento de caución para sustituir la medida de paralización de actividad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Ofrecimiento de caución para sustituir la medida de paralización de actividad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Ofrecimiento de caución para sustituir la medida de paralización de actividad

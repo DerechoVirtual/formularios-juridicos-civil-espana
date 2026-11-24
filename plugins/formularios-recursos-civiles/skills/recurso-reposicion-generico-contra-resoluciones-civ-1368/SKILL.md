@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-generico-contra-resoluciones-civ-1368
-description: "Recurso de reposición genérico contra resoluciones judiciales o del LAJ. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición genérico contra resoluciones judiciales o del LAJ. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición genérico contra resoluciones judiciales o del LAJ

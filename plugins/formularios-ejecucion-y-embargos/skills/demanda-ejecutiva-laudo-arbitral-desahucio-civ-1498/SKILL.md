@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-laudo-arbitral-desahucio-civ-1498
-description: "Demanda ejecutiva de laudo arbitral de desahucio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de laudo arbitral de desahucio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de laudo arbitral de desahucio

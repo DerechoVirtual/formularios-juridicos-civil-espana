@@ -1,6 +1,6 @@
 ---
 name: escrito-aporta-resolucion-dictada-notificada-despues-civ-0907
-description: "Escrito que aporta una resolución dictada o notificada después del trámite de conclusiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que aporta una resolución dictada o notificada después del trámite de conclusiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que aporta una resolución dictada o notificada después del trámite de conclusiones

@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-contenciosa-separacion-civ-0040
-description: "Contestación a demanda contenciosa de separación con reconvención de divorcio y medidas definitivas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a demanda contenciosa de separación con reconvención de divorcio y medidas definitivas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a demanda contenciosa de separación con reconvención de divorcio y medidas definitivas

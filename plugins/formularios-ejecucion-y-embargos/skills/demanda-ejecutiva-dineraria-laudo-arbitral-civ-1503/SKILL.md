@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-dineraria-laudo-arbitral-civ-1503
-description: "Demanda ejecutiva dineraria de un laudo arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva dineraria de un laudo arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva dineraria de un laudo arbitral

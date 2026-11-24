@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-separacion-regimen-comunicacion-civ-0362
-description: "Convenio regulador de separación con régimen de comunicación de los hijos con los abuelos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de separación con régimen de comunicación de los hijos con los abuelos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de separación con régimen de comunicación de los hijos con los abuelos

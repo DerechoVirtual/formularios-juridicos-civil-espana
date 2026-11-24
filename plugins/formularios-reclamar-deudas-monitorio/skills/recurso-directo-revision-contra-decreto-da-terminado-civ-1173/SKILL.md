@@ -1,6 +1,6 @@
 ---
 name: recurso-directo-revision-contra-decreto-da-terminado-civ-1173
-description: "Recurso directo de revisión contra el decreto que da por terminado el proceso monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso directo de revisión contra el decreto que da por terminado el proceso monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso directo de revisión contra el decreto que da por terminado el proceso monitorio

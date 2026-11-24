@@ -1,6 +1,6 @@
 ---
 name: demanda-mutuo-acuerdo-parejas-hecho-hijos-menores-civ-0083
-description: "Demanda de mutuo acuerdo de parejas de hecho con hijos menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de mutuo acuerdo de parejas de hecho con hijos menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de mutuo acuerdo de parejas de hecho con hijos menores

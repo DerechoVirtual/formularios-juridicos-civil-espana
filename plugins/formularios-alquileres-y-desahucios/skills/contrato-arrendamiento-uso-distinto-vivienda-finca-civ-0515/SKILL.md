@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-uso-distinto-vivienda-finca-civ-0515
-description: "Contrato de arrendamiento para uso distinto de vivienda de una finca destinada a actividad docente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento para uso distinto de vivienda de una finca destinada a actividad docente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento para uso distinto de vivienda de una finca destinada a actividad docente

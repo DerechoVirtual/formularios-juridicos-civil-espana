@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-hijos-menores-mayores-civ-0096
-description: "Demanda de divorcio contencioso con hijos menores y mayores dependientes y petición de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso con hijos menores y mayores dependientes y petición de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso con hijos menores y mayores dependientes y petición de medidas

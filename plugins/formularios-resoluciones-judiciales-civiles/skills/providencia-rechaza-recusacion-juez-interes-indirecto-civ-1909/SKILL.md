@@ -1,6 +1,6 @@
 ---
 name: providencia-rechaza-recusacion-juez-interes-indirecto-civ-1909
-description: "Providencia que rechaza la recusación del juez por interés indirecto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que rechaza la recusación del juez por interés indirecto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que rechaza la recusación del juez por interés indirecto

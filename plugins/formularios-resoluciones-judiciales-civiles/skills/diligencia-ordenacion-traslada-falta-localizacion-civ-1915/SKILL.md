@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-traslada-falta-localizacion-civ-1915
-description: "Diligencia de ordenación que traslada la falta de localización de sucesores del actor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que traslada la falta de localización de sucesores del actor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que traslada la falta de localización de sucesores del actor

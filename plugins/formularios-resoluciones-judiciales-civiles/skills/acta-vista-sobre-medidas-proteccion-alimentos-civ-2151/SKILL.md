@@ -1,6 +1,6 @@
 ---
 name: acta-vista-sobre-medidas-proteccion-alimentos-civ-2151
-description: "Acta de la vista sobre medidas de protección y alimentos provisionales en reclamación de filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la vista sobre medidas de protección y alimentos provisionales en reclamación de filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la vista sobre medidas de protección y alimentos provisionales en reclamación de filiación

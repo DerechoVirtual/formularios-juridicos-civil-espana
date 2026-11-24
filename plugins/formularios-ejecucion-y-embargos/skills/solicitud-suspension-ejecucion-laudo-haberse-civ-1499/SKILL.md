@@ -1,6 +1,6 @@
 ---
 name: solicitud-suspension-ejecucion-laudo-haberse-civ-1499
-description: "Solicitud de suspensión de la ejecución de un laudo por haberse ejercitado la acción de anulación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de suspensión de la ejecución de un laudo por haberse ejercitado la acción de anulación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de suspensión de la ejecución de un laudo por haberse ejercitado la acción de anulación

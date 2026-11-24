@@ -1,6 +1,6 @@
 ---
 name: decreto-cese-procurador-revocacion-poder-impugnada-civ-1930
-description: "Decreto de cese del procurador por revocación del poder impugnada por él. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto de cese del procurador por revocación del poder impugnada por él. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto de cese del procurador por revocación del poder impugnada por él

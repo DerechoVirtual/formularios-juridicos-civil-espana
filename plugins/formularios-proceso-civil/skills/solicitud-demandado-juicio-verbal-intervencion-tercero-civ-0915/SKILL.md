@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-juicio-verbal-intervencion-tercero-civ-0915
-description: "Solicitud del demandado en juicio verbal de intervención de tercero y contestación a esa solicitud. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado en juicio verbal de intervención de tercero y contestación a esa solicitud. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado en juicio verbal de intervención de tercero y contestación a esa solicitud

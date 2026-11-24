@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-usufructuario-civ-0508
-description: "Contrato de arrendamiento de vivienda del usufructuario con consentimiento del nudo propietario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda del usufructuario con consentimiento del nudo propietario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda del usufructuario con consentimiento del nudo propietario

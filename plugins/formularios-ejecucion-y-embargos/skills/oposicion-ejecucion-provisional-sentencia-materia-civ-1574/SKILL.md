@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-provisional-sentencia-materia-civ-1574
-description: "Oposición a la ejecución provisional de sentencia en materia de arrendamientos urbanos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución provisional de sentencia en materia de arrendamientos urbanos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución provisional de sentencia en materia de arrendamientos urbanos

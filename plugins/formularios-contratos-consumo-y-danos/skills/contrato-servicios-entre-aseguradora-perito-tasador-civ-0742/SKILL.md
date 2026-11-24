@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-entre-aseguradora-perito-tasador-civ-0742
-description: "Contrato de servicios entre una aseguradora y un perito tasador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios entre una aseguradora y un perito tasador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios entre una aseguradora y un perito tasador

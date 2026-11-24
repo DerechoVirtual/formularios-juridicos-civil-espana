@@ -1,6 +1,6 @@
 ---
 name: reclamacion-aerolinea-denegacion-embarque-overbooking-civ-0714
-description: "Reclamación a la aerolínea por denegación de embarque por overbooking. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación a la aerolínea por denegación de embarque por overbooking. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación a la aerolínea por denegación de embarque por overbooking

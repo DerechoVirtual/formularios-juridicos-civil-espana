@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-hipotecaria-aplicacion-clausula-civ-1425
-description: "Demanda de ejecución hipotecaria con aplicación de la cláusula de vencimiento anticipado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución hipotecaria con aplicación de la cláusula de vencimiento anticipado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución hipotecaria con aplicación de la cláusula de vencimiento anticipado

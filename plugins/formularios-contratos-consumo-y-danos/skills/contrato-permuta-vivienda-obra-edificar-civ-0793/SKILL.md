@@ -1,6 +1,6 @@
 ---
 name: contrato-permuta-vivienda-obra-edificar-civ-0793
-description: "Contrato de permuta de una vivienda por obra a edificar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de permuta de una vivienda por obra a edificar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de permuta de una vivienda por obra a edificar

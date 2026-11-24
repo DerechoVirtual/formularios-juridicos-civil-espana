@@ -1,6 +1,6 @@
 ---
 name: hechos-fundamentos-contestacion-ordinaria-opone-falta-civ-0960
-description: "Hechos y fundamentos de la contestación ordinaria que opone falta de litisconsorcio necesario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Hechos y fundamentos de la contestación ordinaria que opone falta de litisconsorcio necesario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Hechos y fundamentos de la contestación ordinaria que opone falta de litisconsorcio necesario

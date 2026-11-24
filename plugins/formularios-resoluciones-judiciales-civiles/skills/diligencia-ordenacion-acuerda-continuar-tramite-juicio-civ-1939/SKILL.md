@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acuerda-continuar-tramite-juicio-civ-1939
-description: "Diligencia de ordenación que acuerda continuar el trámite del juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acuerda continuar el trámite del juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acuerda continuar el trámite del juicio ordinario

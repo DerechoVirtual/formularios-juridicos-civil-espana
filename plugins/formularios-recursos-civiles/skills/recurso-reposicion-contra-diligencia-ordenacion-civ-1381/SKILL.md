@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-contra-diligencia-ordenacion-civ-1381
-description: "Recurso de reposición contra diligencia de ordenación que resuelve materia propia de providencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición contra diligencia de ordenación que resuelve materia propia de providencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición contra diligencia de ordenación que resuelve materia propia de providencia

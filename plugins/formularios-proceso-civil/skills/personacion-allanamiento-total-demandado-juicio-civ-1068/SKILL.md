@@ -1,6 +1,6 @@
 ---
 name: personacion-allanamiento-total-demandado-juicio-civ-1068
-description: "Personación y allanamiento total del demandado en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación y allanamiento total del demandado en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación y allanamiento total del demandado en juicio ordinario

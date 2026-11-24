@@ -1,6 +1,6 @@
 ---
 name: demanda-suspender-verano-pago-pension-alimenticia-civ-0151
-description: "Demanda para suspender en verano el pago de la pensión alimenticia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para suspender en verano el pago de la pensión alimenticia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para suspender en verano el pago de la pensión alimenticia

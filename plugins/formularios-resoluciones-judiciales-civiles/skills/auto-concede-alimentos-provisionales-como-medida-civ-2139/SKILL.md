@@ -1,6 +1,6 @@
 ---
 name: auto-concede-alimentos-provisionales-como-medida-civ-2139
-description: "Auto que concede alimentos provisionales como medida cautelar en un proceso de filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que concede alimentos provisionales como medida cautelar en un proceso de filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que concede alimentos provisionales como medida cautelar en un proceso de filiación

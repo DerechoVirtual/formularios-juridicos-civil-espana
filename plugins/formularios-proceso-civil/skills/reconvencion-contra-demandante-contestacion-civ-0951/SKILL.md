@@ -1,6 +1,6 @@
 ---
 name: reconvencion-contra-demandante-contestacion-civ-0951
-description: "Con reconvención contra el demandante (contestación). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Con reconvención contra el demandante (contestación). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Con reconvención contra el demandante (contestación)

@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-titulo-judicial-civ-1559
-description: "Demanda ejecutiva basada en título judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en título judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en título judicial

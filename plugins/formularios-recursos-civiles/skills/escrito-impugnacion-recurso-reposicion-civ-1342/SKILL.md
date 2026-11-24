@@ -1,6 +1,6 @@
 ---
 name: escrito-impugnacion-recurso-reposicion-civ-1342
-description: "Escrito de impugnación de un recurso de reposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de impugnación de un recurso de reposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de impugnación de un recurso de reposición

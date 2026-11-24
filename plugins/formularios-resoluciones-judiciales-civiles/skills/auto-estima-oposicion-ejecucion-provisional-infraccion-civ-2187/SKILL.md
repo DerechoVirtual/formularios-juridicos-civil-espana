@@ -1,6 +1,6 @@
 ---
 name: auto-estima-oposicion-ejecucion-provisional-infraccion-civ-2187
-description: "Auto que estima la oposición a la ejecución provisional por infracción de requisitos procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la oposición a la ejecución provisional por infracción de requisitos procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la oposición a la ejecución provisional por infracción de requisitos procesales

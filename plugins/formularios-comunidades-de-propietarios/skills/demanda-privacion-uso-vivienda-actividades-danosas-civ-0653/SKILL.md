@@ -1,6 +1,6 @@
 ---
 name: demanda-privacion-uso-vivienda-actividades-danosas-civ-0653
-description: "Demanda de privación del uso de vivienda por actividades dañosas o prohibidas en la comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de privación del uso de vivienda por actividades dañosas o prohibidas en la comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de privación del uso de vivienda por actividades dañosas o prohibidas en la comunidad

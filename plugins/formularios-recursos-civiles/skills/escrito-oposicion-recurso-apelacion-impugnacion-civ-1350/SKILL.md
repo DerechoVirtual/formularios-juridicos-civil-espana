@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-recurso-apelacion-impugnacion-civ-1350
-description: "Escrito de oposición al recurso de apelación con impugnación de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición al recurso de apelación con impugnación de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición al recurso de apelación con impugnación de la sentencia

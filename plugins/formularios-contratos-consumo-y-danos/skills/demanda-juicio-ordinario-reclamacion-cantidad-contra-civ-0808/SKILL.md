@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamacion-cantidad-contra-civ-0808
-description: "Demanda de juicio ordinario de reclamación de cantidad contra una sociedad y su administrador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de reclamación de cantidad contra una sociedad y su administrador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de reclamación de cantidad contra una sociedad y su administrador

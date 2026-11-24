@@ -1,6 +1,6 @@
 ---
 name: demanda-hacer-efectivo-derecho-relacion-abuelos-civ-0232
-description: "Demanda para hacer efectivo el derecho de relación con abuelos, hermanos y allegados (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para hacer efectivo el derecho de relación con abuelos, hermanos y allegados (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para hacer efectivo el derecho de relación con abuelos, hermanos y allegados (Cataluña)

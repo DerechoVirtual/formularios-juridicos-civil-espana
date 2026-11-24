@@ -1,6 +1,6 @@
 ---
 name: escrito-tercero-evitar-embargo-vivienda-habitual-civ-1448
-description: "Escrito de tercero para evitar el embargo de su vivienda habitual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de tercero para evitar el embargo de su vivienda habitual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de tercero para evitar el embargo de su vivienda habitual

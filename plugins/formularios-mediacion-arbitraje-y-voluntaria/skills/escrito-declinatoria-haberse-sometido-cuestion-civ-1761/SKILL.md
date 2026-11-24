@@ -1,6 +1,6 @@
 ---
 name: escrito-declinatoria-haberse-sometido-cuestion-civ-1761
-description: "Escrito de declinatoria por haberse sometido la cuestión a mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de declinatoria por haberse sometido la cuestión a mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de declinatoria por haberse sometido la cuestión a mediación

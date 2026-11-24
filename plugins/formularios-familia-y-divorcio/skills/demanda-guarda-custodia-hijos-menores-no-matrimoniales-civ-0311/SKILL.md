@@ -1,6 +1,6 @@
 ---
 name: demanda-guarda-custodia-hijos-menores-no-matrimoniales-civ-0311
-description: "Demanda de guarda y custodia de hijos menores no matrimoniales con medidas provisionales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de guarda y custodia de hijos menores no matrimoniales con medidas provisionales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de guarda y custodia de hijos menores no matrimoniales con medidas provisionales

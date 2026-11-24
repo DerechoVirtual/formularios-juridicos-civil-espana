@@ -1,6 +1,6 @@
 ---
 name: vista-segunda-instancia-personacion-procurador-civ-1084
-description: "Vista en segunda instancia con personación de procurador habilitado (solicitud). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Vista en segunda instancia con personación de procurador habilitado (solicitud). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Vista en segunda instancia con personación de procurador habilitado (solicitud)

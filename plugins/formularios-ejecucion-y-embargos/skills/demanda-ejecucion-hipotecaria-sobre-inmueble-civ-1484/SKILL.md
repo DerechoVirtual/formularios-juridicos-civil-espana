@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-hipotecaria-sobre-inmueble-civ-1484
-description: "Demanda de ejecución hipotecaria sobre un inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución hipotecaria sobre un inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución hipotecaria sobre un inmueble

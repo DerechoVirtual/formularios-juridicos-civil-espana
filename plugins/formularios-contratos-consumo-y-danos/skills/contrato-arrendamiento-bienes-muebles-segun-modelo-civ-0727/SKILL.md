@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-bienes-muebles-segun-modelo-civ-0727
-description: "Contrato de arrendamiento de bienes muebles según modelo aprobado por la DGRN el 13 de marzo de 2000. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de bienes muebles según modelo aprobado por la DGRN el 13 de marzo de 2000. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de bienes muebles según modelo aprobado por la DGRN el 13 de marzo de 2000

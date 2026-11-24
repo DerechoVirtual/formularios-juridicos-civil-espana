@@ -1,6 +1,6 @@
 ---
 name: demanda-oposicion-juicio-cambiario-novacion-extintiva-civ-1149
-description: "Demanda de oposición en juicio cambiario por novación extintiva e incumplimiento del contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de oposición en juicio cambiario por novación extintiva e incumplimiento del contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de oposición en juicio cambiario por novación extintiva e incumplimiento del contrato

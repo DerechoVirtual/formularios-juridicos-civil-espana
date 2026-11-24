@@ -1,6 +1,6 @@
 ---
 name: contrato-alquiler-maquinaria-civ-0501
-description: "Contrato de alquiler de maquinaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alquiler de maquinaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alquiler de maquinaria

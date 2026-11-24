@@ -1,6 +1,6 @@
 ---
 name: solicitud-nuevo-senalamiento-vista-imposibilidad-civ-1085
-description: "Solicitud de nuevo señalamiento de vista por imposibilidad de asistir el representante de la actora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nuevo señalamiento de vista por imposibilidad de asistir el representante de la actora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nuevo señalamiento de vista por imposibilidad de asistir el representante de la actora

@@ -1,6 +1,6 @@
 ---
 name: testamento-excluye-persona-cargo-tutor-civ-0422
-description: "Testamento que excluye a una persona del cargo de tutor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento que excluye a una persona del cargo de tutor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento que excluye a una persona del cargo de tutor

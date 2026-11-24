@@ -1,6 +1,6 @@
 ---
 name: contrato-alimentos-favor-hijo-patria-potestad-civ-0358
-description: "Contrato de alimentos a favor de hijo con patria potestad prorrogada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alimentos a favor de hijo con patria potestad prorrogada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alimentos a favor de hijo con patria potestad prorrogada

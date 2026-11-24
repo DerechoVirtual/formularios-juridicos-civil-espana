@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-materia-trafico-infraccion-normas-civ-1390
-description: "Recurso de apelación en materia de tráfico por infracción de normas y garantías procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación en materia de tráfico por infracción de normas y garantías procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación en materia de tráfico por infracción de normas y garantías procesales

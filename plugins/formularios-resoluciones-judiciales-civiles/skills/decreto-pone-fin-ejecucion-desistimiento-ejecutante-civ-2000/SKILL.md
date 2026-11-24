@@ -1,6 +1,6 @@
 ---
 name: decreto-pone-fin-ejecucion-desistimiento-ejecutante-civ-2000
-description: "Decreto que pone fin a la ejecución por desistimiento del ejecutante tras tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que pone fin a la ejecución por desistimiento del ejecutante tras tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que pone fin a la ejecución por desistimiento del ejecutante tras tercería de mejor derecho

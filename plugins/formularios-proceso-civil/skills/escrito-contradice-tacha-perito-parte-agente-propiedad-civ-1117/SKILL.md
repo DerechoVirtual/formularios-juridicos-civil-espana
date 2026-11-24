@@ -1,6 +1,6 @@
 ---
 name: escrito-contradice-tacha-perito-parte-agente-propiedad-civ-1117
-description: "Escrito que contradice la tacha de un perito de parte (agente de la propiedad inmobiliaria). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que contradice la tacha de un perito de parte (agente de la propiedad inmobiliaria). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que contradice la tacha de un perito de parte (agente de la propiedad inmobiliaria)

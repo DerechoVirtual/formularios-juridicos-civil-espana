@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-reclamacion-cantidad-basada-civ-1655
-description: "Demanda ejecutiva por reclamación de cantidad basada en sentencia de condena firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva por reclamación de cantidad basada en sentencia de condena firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva por reclamación de cantidad basada en sentencia de condena firme

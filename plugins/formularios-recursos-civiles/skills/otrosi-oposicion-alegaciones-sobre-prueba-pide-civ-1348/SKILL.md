@@ -1,6 +1,6 @@
 ---
 name: otrosi-oposicion-alegaciones-sobre-prueba-pide-civ-1348
-description: "Otrosí de la oposición con alegaciones sobre la prueba que pide el apelante en segunda instancia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la oposición con alegaciones sobre la prueba que pide el apelante en segunda instancia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la oposición con alegaciones sobre la prueba que pide el apelante en segunda instancia

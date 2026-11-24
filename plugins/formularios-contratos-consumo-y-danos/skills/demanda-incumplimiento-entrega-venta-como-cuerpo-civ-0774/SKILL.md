@@ -1,6 +1,6 @@
 ---
 name: demanda-incumplimiento-entrega-venta-como-cuerpo-civ-0774
-description: "Demanda por incumplimiento de la entrega en una venta como cuerpo cierto con defecto de cabida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda por incumplimiento de la entrega en una venta como cuerpo cierto con defecto de cabida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda por incumplimiento de la entrega en una venta como cuerpo cierto con defecto de cabida

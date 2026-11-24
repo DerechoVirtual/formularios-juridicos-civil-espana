@@ -1,6 +1,6 @@
 ---
 name: solicitud-cumplimiento-regimen-visitas-fijado-civ-0289
-description: "Solicitud de cumplimiento del régimen de visitas fijado en la sentencia de separación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de cumplimiento del régimen de visitas fijado en la sentencia de separación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de cumplimiento del régimen de visitas fijado en la sentencia de separación

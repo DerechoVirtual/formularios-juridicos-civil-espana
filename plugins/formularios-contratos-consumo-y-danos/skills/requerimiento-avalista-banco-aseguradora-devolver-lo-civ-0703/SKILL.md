@@ -1,6 +1,6 @@
 ---
 name: requerimiento-avalista-banco-aseguradora-devolver-lo-civ-0703
-description: "Requerimiento al avalista (banco o aseguradora) de devolver lo pagado tras resolver la compraventa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento al avalista (banco o aseguradora) de devolver lo pagado tras resolver la compraventa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento al avalista (banco o aseguradora) de devolver lo pagado tras resolver la compraventa

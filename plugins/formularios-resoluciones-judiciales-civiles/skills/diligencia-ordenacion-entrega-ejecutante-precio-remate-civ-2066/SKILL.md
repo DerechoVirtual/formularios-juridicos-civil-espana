@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-entrega-ejecutante-precio-remate-civ-2066
-description: "Diligencia de ordenación que entrega al ejecutante el precio del remate. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que entrega al ejecutante el precio del remate. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que entrega al ejecutante el precio del remate

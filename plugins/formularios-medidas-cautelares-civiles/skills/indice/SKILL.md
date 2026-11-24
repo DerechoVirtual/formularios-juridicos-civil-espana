@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 70 formularios de Medidas cautelares y diligencias preliminares. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 70 formularios de Medidas cautelares y diligencias preliminares. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Medidas cautelares y diligencias preliminares: índice de formularios

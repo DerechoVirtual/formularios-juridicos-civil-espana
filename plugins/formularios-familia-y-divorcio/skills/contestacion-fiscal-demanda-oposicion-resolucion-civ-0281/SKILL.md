@@ -1,6 +1,6 @@
 ---
 name: contestacion-fiscal-demanda-oposicion-resolucion-civ-0281
-description: "Contestación del Fiscal a demanda de oposición a resolución administrativa de protección de menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del Fiscal a demanda de oposición a resolución administrativa de protección de menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del Fiscal a demanda de oposición a resolución administrativa de protección de menores

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-contra-banco-comisiones-civ-0752
-description: "Demanda de juicio ordinario contra el banco por comisiones por descubiertos y efectos devueltos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario contra el banco por comisiones por descubiertos y efectos devueltos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario contra el banco por comisiones por descubiertos y efectos devueltos

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-posesion-contador-le-entrega-civ-2142
-description: "Diligencia de ordenación que da posesión al contador y le entrega los autos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da posesión al contador y le entrega los autos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da posesión al contador y le entrega los autos

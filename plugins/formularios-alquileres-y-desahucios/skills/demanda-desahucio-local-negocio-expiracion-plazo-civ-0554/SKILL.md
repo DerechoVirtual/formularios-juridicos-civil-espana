@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-local-negocio-expiracion-plazo-civ-0554
-description: "Demanda de desahucio de local de negocio por expiración del plazo del contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio de local de negocio por expiración del plazo del contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio de local de negocio por expiración del plazo del contrato

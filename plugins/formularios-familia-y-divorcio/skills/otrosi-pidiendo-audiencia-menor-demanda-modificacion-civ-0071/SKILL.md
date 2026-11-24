@@ -1,6 +1,6 @@
 ---
 name: otrosi-pidiendo-audiencia-menor-demanda-modificacion-civ-0071
-description: "Otrosí pidiendo la audiencia del menor en demanda de modificación de medidas sobre custodia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí pidiendo la audiencia del menor en demanda de modificación de medidas sobre custodia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí pidiendo la audiencia del menor en demanda de modificación de medidas sobre custodia

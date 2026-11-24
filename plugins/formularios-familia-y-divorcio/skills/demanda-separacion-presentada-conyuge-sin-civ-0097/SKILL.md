@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-presentada-conyuge-sin-civ-0097
-description: "Demanda de separación presentada por un cónyuge sin el consentimiento del otro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación presentada por un cónyuge sin el consentimiento del otro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación presentada por un cónyuge sin el consentimiento del otro

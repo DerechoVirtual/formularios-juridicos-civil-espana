@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-oral-generico-contra-resolucion-civ-1362
-description: "Recurso de reposición oral genérico contra la resolución sobre admisión de prueba, con protesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición oral genérico contra la resolución sobre admisión de prueba, con protesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición oral genérico contra la resolución sobre admisión de prueba, con protesta

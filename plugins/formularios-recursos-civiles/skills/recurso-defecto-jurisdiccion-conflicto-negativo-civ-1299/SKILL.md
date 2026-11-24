@@ -1,6 +1,6 @@
 ---
 name: recurso-defecto-jurisdiccion-conflicto-negativo-civ-1299
-description: "Recurso por defecto de jurisdicción en conflicto negativo de competencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso por defecto de jurisdicción en conflicto negativo de competencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso por defecto de jurisdicción en conflicto negativo de competencia

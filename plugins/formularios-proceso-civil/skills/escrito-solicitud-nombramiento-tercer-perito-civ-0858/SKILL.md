@@ -1,6 +1,6 @@
 ---
 name: escrito-solicitud-nombramiento-tercer-perito-civ-0858
-description: "Escrito de solicitud de nombramiento de un tercer perito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de solicitud de nombramiento de un tercer perito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de solicitud de nombramiento de un tercer perito

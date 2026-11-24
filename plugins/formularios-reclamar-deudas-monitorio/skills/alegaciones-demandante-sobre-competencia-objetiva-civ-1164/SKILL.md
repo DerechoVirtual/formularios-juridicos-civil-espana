@@ -1,6 +1,6 @@
 ---
 name: alegaciones-demandante-sobre-competencia-objetiva-civ-1164
-description: "Alegaciones del demandante sobre competencia objetiva en un monitorio por transporte de mercancías. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del demandante sobre competencia objetiva en un monitorio por transporte de mercancías. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del demandante sobre competencia objetiva en un monitorio por transporte de mercancías

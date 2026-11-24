@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-ejecucion-provisional-solicitada-civ-1659
-description: "Escrito de oposición a la ejecución provisional solicitada tras remitirse los autos a la Audiencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la ejecución provisional solicitada tras remitirse los autos a la Audiencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la ejecución provisional solicitada tras remitirse los autos a la Audiencia

@@ -1,9 +1,10 @@
 {
   "name": "formularios-familia-y-divorcio",
   "version": "1.0.0",
-  "description": "Familia: divorcio, custodia, pensiones y parejas: 372 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el Derecho de familia: separación y divorcio de mutuo acuerdo o contencioso, convenio regulador, medidas provisionales y su modificación, custodia, visitas y pensiones, filiación, adopción, parejas de hecho, regímenes económicos y liquidación de gananciales, con especialidades forales. Requiere Jurisprudenciator.",
+  "description": "Familia: divorcio, custodia, pensiones y parejas: 372 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el Derecho de familia: separación y divorcio de mutuo acuerdo o contencioso, convenio regulador, medidas provisionales y su modificación, custodia, visitas y pensiones, filiación, adopción, parejas de hecho, regímenes económicos y liquidación de gananciales, con especialidades forales. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
-    "name": "Derecho Virtual"
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "displayName": "Familia: divorcio, custodia, pensiones y parejas · España",
   "icon": "./.claude-plugin/icon.png",
@@ -19,5 +20,7 @@
     "modelos",
     "civil",
     "familia"
-  ]
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana",
+  "documentationUrl": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana/tree/main/plugins/formularios-familia-y-divorcio"
 }

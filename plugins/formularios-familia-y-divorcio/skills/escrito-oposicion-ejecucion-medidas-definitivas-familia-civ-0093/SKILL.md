@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-ejecucion-medidas-definitivas-familia-civ-0093
-description: "Escrito de oposición a la ejecución de medidas definitivas de familia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la ejecución de medidas definitivas de familia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la ejecución de medidas definitivas de familia

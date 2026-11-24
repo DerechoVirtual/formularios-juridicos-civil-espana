@@ -1,6 +1,6 @@
 ---
 name: escrito-general-ampliacion-hechos-juicio-declarativo-civ-1132
-description: "Escrito general de ampliación de hechos en juicio declarativo ordinario (art. 286 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito general de ampliación de hechos en juicio declarativo ordinario (art. 286 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito general de ampliación de hechos en juicio declarativo ordinario (art. 286 LEC)

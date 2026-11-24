@@ -1,6 +1,6 @@
 ---
 name: solicitud-acreedor-fije-cantidad-debida-concepto-civ-1543
-description: "Solicitud del acreedor para que se fije la cantidad debida en concepto de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del acreedor para que se fije la cantidad debida en concepto de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del acreedor para que se fije la cantidad debida en concepto de frutos y rentas

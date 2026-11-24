@@ -1,6 +1,6 @@
 ---
 name: peticion-proceso-monitorio-comunidad-propietarios-civ-1156
-description: "Petición de proceso monitorio de la comunidad de propietarios por gastos comunes impagados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de proceso monitorio de la comunidad de propietarios por gastos comunes impagados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de proceso monitorio de la comunidad de propietarios por gastos comunes impagados

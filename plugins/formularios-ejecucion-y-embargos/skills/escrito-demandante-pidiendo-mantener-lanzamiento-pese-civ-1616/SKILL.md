@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-pidiendo-mantener-lanzamiento-pese-civ-1616
-description: "Escrito del demandante pidiendo mantener el lanzamiento pese al desalojo voluntario del ocupante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante pidiendo mantener el lanzamiento pese al desalojo voluntario del ocupante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante pidiendo mantener el lanzamiento pese al desalojo voluntario del ocupante

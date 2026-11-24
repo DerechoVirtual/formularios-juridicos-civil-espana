@@ -1,6 +1,6 @@
 ---
 name: intervencion-actor-integra-voluntariamente-litis-civ-0962
-description: "Intervención del actor que integra voluntariamente la litis en la audiencia previa, y resolución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervención del actor que integra voluntariamente la litis en la audiencia previa, y resolución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervención del actor que integra voluntariamente la litis en la audiencia previa, y resolución

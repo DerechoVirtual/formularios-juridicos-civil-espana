@@ -1,6 +1,6 @@
 ---
 name: acta-diligencia-embargo-bienes-ejecutado-comision-civ-1615
-description: "Acta de la diligencia de embargo de bienes del ejecutado por la comisión judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la diligencia de embargo de bienes del ejecutado por la comisión judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la diligencia de embargo de bienes del ejecutado por la comisión judicial

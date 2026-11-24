@@ -1,6 +1,6 @@
 ---
 name: decreto-sobresee-monitorio-no-formalizar-peticionario-civ-2108
-description: "Decreto que sobresee el monitorio por no formalizar el peticionario la demanda de juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que sobresee el monitorio por no formalizar el peticionario la demanda de juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que sobresee el monitorio por no formalizar el peticionario la demanda de juicio ordinario

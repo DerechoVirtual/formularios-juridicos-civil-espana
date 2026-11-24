@@ -1,6 +1,6 @@
 ---
 name: decreto-concreta-medidas-ejecutivas-tras-despachar-civ-1817
-description: "Decreto que concreta medidas ejecutivas tras despachar la ejecución de medidas de separación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que concreta medidas ejecutivas tras despachar la ejecución de medidas de separación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que concreta medidas ejecutivas tras despachar la ejecución de medidas de separación

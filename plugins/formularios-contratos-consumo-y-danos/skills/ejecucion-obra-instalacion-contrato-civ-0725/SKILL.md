@@ -1,6 +1,6 @@
 ---
 name: ejecucion-obra-instalacion-contrato-civ-0725
-description: "Ejecución de obra o instalación (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Ejecución de obra o instalación (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Ejecución de obra o instalación (contrato)

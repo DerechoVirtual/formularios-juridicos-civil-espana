@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-danos-cosas-trafico-contra-civ-0823
-description: "Demanda de juicio verbal por daños en cosas de tráfico contra el Consorcio de Seguros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal por daños en cosas de tráfico contra el Consorcio de Seguros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal por daños en cosas de tráfico contra el Consorcio de Seguros

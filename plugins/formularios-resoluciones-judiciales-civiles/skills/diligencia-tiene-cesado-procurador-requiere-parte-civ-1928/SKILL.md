@@ -1,6 +1,6 @@
 ---
 name: diligencia-tiene-cesado-procurador-requiere-parte-civ-1928
-description: "Diligencia que tiene por cesado al procurador y requiere a la parte para nombrar uno nuevo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia que tiene por cesado al procurador y requiere a la parte para nombrar uno nuevo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia que tiene por cesado al procurador y requiere a la parte para nombrar uno nuevo

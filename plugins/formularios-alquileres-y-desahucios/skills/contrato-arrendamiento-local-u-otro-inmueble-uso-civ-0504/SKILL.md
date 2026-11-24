@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-local-u-otro-inmueble-uso-civ-0504
-description: "Contrato de arrendamiento de local u otro inmueble para uso distinto del de vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de local u otro inmueble para uso distinto del de vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de local u otro inmueble para uso distinto del de vivienda

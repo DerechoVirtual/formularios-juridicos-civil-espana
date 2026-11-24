@@ -5,14 +5,14 @@
     "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "metadata": {
-    "description": "Formularios jurídicos de España para Claude · Civil: 14 plugins por materia (2195 formularios), una skill por formulario, cada una conectada a Jurisprudenciator para verificar las normas.",
+    "description": "Formularios jurídicos de España para Claude · Civil: 14 plugins por materia (2195 formularios), una skill por formulario, cada una conectada a Jurisprudenciator: sin él las skills no redactan ni verifican nada.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "formularios-familia-y-divorcio",
       "source": "./plugins/formularios-familia-y-divorcio",
-      "description": "Familia: divorcio, custodia, pensiones y parejas · España (372 formularios). Para el Derecho de familia: separación y divorcio de mutuo acuerdo o contencioso, convenio regulador, medidas provisionales y su modificación, custodia, visitas y pensiones, filiación, adopción, parejas de hecho, regímenes económicos y liquidación de gananciales, con especialidades forales. Requiere Jurisprudenciator.",
+      "description": "Familia: divorcio, custodia, pensiones y parejas · España (372 formularios). Para el Derecho de familia: separación y divorcio de mutuo acuerdo o contencioso, convenio regulador, medidas provisionales y su modificación, custodia, visitas y pensiones, filiación, adopción, parejas de hecho, regímenes económicos y liquidación de gananciales, con especialidades forales. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -28,7 +28,7 @@
     {
       "name": "formularios-discapacidad-y-medidas-de-apoyo",
       "source": "./plugins/formularios-discapacidad-y-medidas-de-apoyo",
-      "description": "Discapacidad y medidas de apoyo (Ley 8/2021) · España (28 formularios). Para las personas con discapacidad tras la Ley 8/2021: provisión de medidas de apoyo, curatela, defensor judicial, guarda de hecho, autocuratela, revisión de medidas, internamientos no voluntarios y rendición de cuentas. Requiere Jurisprudenciator.",
+      "description": "Discapacidad y medidas de apoyo (Ley 8/2021) · España (28 formularios). Para las personas con discapacidad tras la Ley 8/2021: provisión de medidas de apoyo, curatela, defensor judicial, guarda de hecho, autocuratela, revisión de medidas, internamientos no voluntarios y rendición de cuentas. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -44,7 +44,7 @@
     {
       "name": "formularios-herencias-y-donaciones",
       "source": "./plugins/formularios-herencias-y-donaciones",
-      "description": "Herencias, testamentos y donaciones · España (94 formularios). Para las sucesiones: testamentos (también forales), aceptación y renuncia de la herencia, declaración de herederos, partición y división judicial, legítimas, colación, desheredación, albaceas y contadores-partidores, y donaciones. Requiere Jurisprudenciator.",
+      "description": "Herencias, testamentos y donaciones · España (94 formularios). Para las sucesiones: testamentos (también forales), aceptación y renuncia de la herencia, declaración de herederos, partición y división judicial, legítimas, colación, desheredación, albaceas y contadores-partidores, y donaciones. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -60,7 +60,7 @@
     {
       "name": "formularios-alquileres-y-desahucios",
       "source": "./plugins/formularios-alquileres-y-desahucios",
-      "description": "Alquileres y desahucios · España (114 formularios). Para los arrendamientos urbanos y rústicos: contratos de vivienda y de local, cesión y subarriendo, actualización de renta, obras, fianza, requerimientos y burofaxes, desahucio por impago, por expiración del plazo y por precario, y reclamación de rentas. Requiere Jurisprudenciator.",
+      "description": "Alquileres y desahucios · España (114 formularios). Para los arrendamientos urbanos y rústicos: contratos de vivienda y de local, cesión y subarriendo, actualización de renta, obras, fianza, requerimientos y burofaxes, desahucio por impago, por expiración del plazo y por precario, y reclamación de rentas. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -76,7 +76,7 @@
     {
       "name": "formularios-comunidades-de-propietarios",
       "source": "./plugins/formularios-comunidades-de-propietarios",
-      "description": "Comunidades de propietarios · España (46 formularios). Para la propiedad horizontal: convocatorias y actas de junta, estatutos, impugnación de acuerdos, reclamación de cuotas a morosos, obras en elementos comunes y privativos, actividades molestas y relaciones con el administrador. Requiere Jurisprudenciator.",
+      "description": "Comunidades de propietarios · España (46 formularios). Para la propiedad horizontal: convocatorias y actas de junta, estatutos, impugnación de acuerdos, reclamación de cuotas a morosos, obras en elementos comunes y privativos, actividades molestas y relaciones con el administrador. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -92,7 +92,7 @@
     {
       "name": "formularios-propiedad-y-derechos-reales",
       "source": "./plugins/formularios-propiedad-y-derechos-reales",
-      "description": "Propiedad, posesión, servidumbres e hipotecas · España (28 formularios). Para los derechos reales: acción reivindicatoria y declarativa de dominio, tutela de la posesión, servidumbres, división de cosa común, retractos, deslinde, inmatriculación y asuntos registrales, usufructo y derecho de superficie. Requiere Jurisprudenciator.",
+      "description": "Propiedad, posesión, servidumbres e hipotecas · España (28 formularios). Para los derechos reales: acción reivindicatoria y declarativa de dominio, tutela de la posesión, servidumbres, división de cosa común, retractos, deslinde, inmatriculación y asuntos registrales, usufructo y derecho de superficie. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -108,7 +108,7 @@
     {
       "name": "formularios-contratos-consumo-y-danos",
       "source": "./plugins/formularios-contratos-consumo-y-danos",
-      "description": "Contratos civiles, consumo y reclamación de daños · España (173 formularios). Para los contratos y la responsabilidad civil: compraventa, préstamo, permuta, obra y servicios entre particulares, reclamaciones de consumo y cláusulas abusivas, seguros reclamados por particulares, resolución e incumplimiento de contratos y reclamación de daños y perjuicios. Requiere Jurisprudenciator.",
+      "description": "Contratos civiles, consumo y reclamación de daños · España (173 formularios). Para los contratos y la responsabilidad civil: compraventa, préstamo, permuta, obra y servicios entre particulares, reclamaciones de consumo y cláusulas abusivas, seguros reclamados por particulares, resolución e incumplimiento de contratos y reclamación de daños y perjuicios. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -124,7 +124,7 @@
     {
       "name": "formularios-proceso-civil",
       "source": "./plugins/formularios-proceso-civil",
-      "description": "Proceso civil: demandas, contestaciones, prueba y vista · España (289 formularios). Para tramitar un pleito civil de principio a fin: demandas y contestaciones (ordinario y verbal), reconvención, excepciones procesales, declinatoria, audiencia previa, proposición y práctica de prueba, conclusiones, acumulación, desistimiento, allanamiento y escritos de trámite. Requiere Jurisprudenciator.",
+      "description": "Proceso civil: demandas, contestaciones, prueba y vista · España (289 formularios). Para tramitar un pleito civil de principio a fin: demandas y contestaciones (ordinario y verbal), reconvención, excepciones procesales, declinatoria, audiencia previa, proposición y práctica de prueba, conclusiones, acumulación, desistimiento, allanamiento y escritos de trámite. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -140,7 +140,7 @@
     {
       "name": "formularios-reclamar-deudas-monitorio",
       "source": "./plugins/formularios-reclamar-deudas-monitorio",
-      "description": "Cobrar deudas: monitorio y cambiario · España (54 formularios). Para reclamar deudas: petición inicial de monitorio (también de comunidad de propietarios), oposición del deudor, impugnación de la oposición, paso al declarativo y juicio cambiario con letras, pagarés y cheques. Requiere Jurisprudenciator.",
+      "description": "Cobrar deudas: monitorio y cambiario · España (54 formularios). Para reclamar deudas: petición inicial de monitorio (también de comunidad de propietarios), oposición del deudor, impugnación de la oposición, paso al declarativo y juicio cambiario con letras, pagarés y cheques. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -156,7 +156,7 @@
     {
       "name": "formularios-medidas-cautelares-civiles",
       "source": "./plugins/formularios-medidas-cautelares-civiles",
-      "description": "Medidas cautelares y diligencias preliminares · España (70 formularios). Para asegurar el pleito antes o durante el proceso: embargo preventivo, anotación preventiva de demanda, prohibiciones de disponer, administración judicial, diligencias preliminares, aseguramiento y anticipación de prueba, y oposición a las medidas. Requiere Jurisprudenciator.",
+      "description": "Medidas cautelares y diligencias preliminares · España (70 formularios). Para asegurar el pleito antes o durante el proceso: embargo preventivo, anotación preventiva de demanda, prohibiciones de disponer, administración judicial, diligencias preliminares, aseguramiento y anticipación de prueba, y oposición a las medidas. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -172,7 +172,7 @@
     {
       "name": "formularios-recursos-civiles",
       "source": "./plugins/formularios-recursos-civiles",
-      "description": "Recursos civiles: reposición, apelación, casación y queja · España (125 formularios). Para recurrir en el proceso civil: reposición y revisión contra resoluciones del Letrado de la Administración de Justicia, apelación y oposición o impugnación, casación tras el Real Decreto-ley 5/2023, queja, nulidad de actuaciones, aclaración y complemento de sentencia, y revisión de sentencias firmes. Requiere Jurisprudenciator.",
+      "description": "Recursos civiles: reposición, apelación, casación y queja · España (125 formularios). Para recurrir en el proceso civil: reposición y revisión contra resoluciones del Letrado de la Administración de Justicia, apelación y oposición o impugnación, casación tras el Real Decreto-ley 5/2023, queja, nulidad de actuaciones, aclaración y complemento de sentencia, y revisión de sentencias firmes. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -188,7 +188,7 @@
     {
       "name": "formularios-ejecucion-y-embargos",
       "source": "./plugins/formularios-ejecucion-y-embargos",
-      "description": "Ejecución de sentencias y embargos · España (311 formularios). Para ejecutar lo ganado: demanda ejecutiva (título judicial, no judicial, laudo, acuerdo de mediación), ejecución provisional, embargo y mejora de embargo, averiguación patrimonial, subasta, lanzamiento, ejecución hipotecaria, tercerías, oposición del ejecutado y liquidación de intereses y costas. Requiere Jurisprudenciator.",
+      "description": "Ejecución de sentencias y embargos · España (311 formularios). Para ejecutar lo ganado: demanda ejecutiva (título judicial, no judicial, laudo, acuerdo de mediación), ejecución provisional, embargo y mejora de embargo, averiguación patrimonial, subasta, lanzamiento, ejecución hipotecaria, tercerías, oposición del ejecutado y liquidación de intereses y costas. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -204,7 +204,7 @@
     {
       "name": "formularios-mediacion-arbitraje-y-voluntaria",
       "source": "./plugins/formularios-mediacion-arbitraje-y-voluntaria",
-      "description": "Mediación, MASC, arbitraje y jurisdicción voluntaria · España (92 formularios). Para resolver sin pleito o por cauces especiales: medios adecuados de solución de controversias (LO 1/2025), mediación civil y familiar, conciliación, arbitraje (convenio, solicitud, recusación, anulación de laudo), expedientes de jurisdicción voluntaria, justicia gratuita y reconocimiento de resoluciones extranjeras. Requiere Jurisprudenciator.",
+      "description": "Mediación, MASC, arbitraje y jurisdicción voluntaria · España (92 formularios). Para resolver sin pleito o por cauces especiales: medios adecuados de solución de controversias (LO 1/2025), mediación civil y familiar, conciliación, arbitraje (convenio, solicitud, recusación, anulación de laudo), expedientes de jurisdicción voluntaria, justicia gratuita y reconocimiento de resoluciones extranjeras. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [
@@ -220,7 +220,7 @@
     {
       "name": "formularios-resoluciones-judiciales-civiles",
       "source": "./plugins/formularios-resoluciones-judiciales-civiles",
-      "description": "Resoluciones judiciales civiles: autos, decretos y diligencias · España (399 formularios). Modelos de las resoluciones que dicta el órgano judicial en el proceso civil: autos, sentencias, providencias, decretos y diligencias de ordenación del Letrado de la Administración de Justicia (admisión, ejecución, embargo, subasta, medidas cautelares, suspensión…). Útil para jueces, LAJ, opositores y para anticipar o revisar lo que dicta el juzgado. Requiere Jurisprudenciator.",
+      "description": "Resoluciones judiciales civiles: autos, decretos y diligencias · España (399 formularios). Modelos de las resoluciones que dicta el órgano judicial en el proceso civil: autos, sentencias, providencias, decretos y diligencias de ordenación del Letrado de la Administración de Justicia (admisión, ejecución, embargo, subasta, medidas cautelares, suspensión…). Útil para jueces, LAJ, opositores y para anticipar o revisar lo que dicta el juzgado. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
       "version": "1.0.0",
       "category": "legal",
       "keywords": [

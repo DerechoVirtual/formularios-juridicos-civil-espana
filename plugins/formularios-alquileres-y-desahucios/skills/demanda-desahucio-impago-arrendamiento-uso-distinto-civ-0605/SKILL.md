@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-impago-arrendamiento-uso-distinto-civ-0605
-description: "Demanda de desahucio por impago en arrendamiento de uso distinto de vivienda posterior a 1995. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio por impago en arrendamiento de uso distinto de vivienda posterior a 1995. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio por impago en arrendamiento de uso distinto de vivienda posterior a 1995

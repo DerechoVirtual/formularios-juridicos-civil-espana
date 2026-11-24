@@ -1,6 +1,6 @@
 ---
 name: escrito-exigir-asentimiento-necesario-adopcion-civ-0261
-description: "Escrito para exigir el asentimiento necesario en la adopción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para exigir el asentimiento necesario en la adopción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para exigir el asentimiento necesario en la adopción

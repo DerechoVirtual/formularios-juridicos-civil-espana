@@ -1,6 +1,6 @@
 ---
 name: escritura-revocacion-poder-pleitos-otorgamiento-uno-civ-0912
-description: "Escritura de revocación de poder para pleitos y otorgamiento de uno nuevo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de revocación de poder para pleitos y otorgamiento de uno nuevo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de revocación de poder para pleitos y otorgamiento de uno nuevo

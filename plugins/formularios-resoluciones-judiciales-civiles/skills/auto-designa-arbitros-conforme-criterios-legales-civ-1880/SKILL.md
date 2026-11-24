@@ -1,6 +1,6 @@
 ---
 name: auto-designa-arbitros-conforme-criterios-legales-civ-1880
-description: "Auto que designa árbitros conforme a los criterios legales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que designa árbitros conforme a los criterios legales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que designa árbitros conforme a los criterios legales

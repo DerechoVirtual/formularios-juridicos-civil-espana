@@ -1,6 +1,6 @@
 ---
 name: providencia-ordena-examinar-parientes-amigos-vecinos-civ-1838
-description: "Providencia que ordena examinar a parientes, amigos o vecinos del fallecido sin testamento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que ordena examinar a parientes, amigos o vecinos del fallecido sin testamento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que ordena examinar a parientes, amigos o vecinos del fallecido sin testamento

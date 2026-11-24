@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-reclamar-gastos-sepelio-civ-0875
-description: "Demanda de juicio verbal para reclamar los gastos del sepelio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal para reclamar los gastos del sepelio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal para reclamar los gastos del sepelio

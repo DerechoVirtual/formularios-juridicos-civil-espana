@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-monitorio-comunidad-contra-varios-civ-2111
-description: "Auto que deniega el monitorio de una comunidad contra varios deudores por acumulación indebida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega el monitorio de una comunidad contra varios deudores por acumulación indebida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega el monitorio de una comunidad contra varios deudores por acumulación indebida

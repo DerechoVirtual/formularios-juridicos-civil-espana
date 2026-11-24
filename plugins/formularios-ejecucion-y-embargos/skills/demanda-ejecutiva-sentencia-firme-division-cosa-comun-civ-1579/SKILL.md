@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-sentencia-firme-division-cosa-comun-civ-1579
-description: "Demanda ejecutiva de sentencia firme de división de cosa común sobre finca rústica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de sentencia firme de división de cosa común sobre finca rústica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de sentencia firme de división de cosa común sobre finca rústica

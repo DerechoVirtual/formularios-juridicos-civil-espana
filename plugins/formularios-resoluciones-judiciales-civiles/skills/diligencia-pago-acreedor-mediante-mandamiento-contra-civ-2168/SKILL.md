@@ -1,6 +1,6 @@
 ---
 name: diligencia-pago-acreedor-mediante-mandamiento-contra-civ-2168
-description: "Diligencia de pago al acreedor mediante mandamiento contra la cuenta de consignaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de pago al acreedor mediante mandamiento contra la cuenta de consignaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de pago al acreedor mediante mandamiento contra la cuenta de consignaciones

@@ -1,6 +1,6 @@
 ---
 name: demanda-extincion-arrendamiento-vivienda-no-notificar-civ-0568
-description: "Demanda de extinción de arrendamiento de vivienda por no notificar la subrogación mortis causa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de extinción de arrendamiento de vivienda por no notificar la subrogación mortis causa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de extinción de arrendamiento de vivienda por no notificar la subrogación mortis causa

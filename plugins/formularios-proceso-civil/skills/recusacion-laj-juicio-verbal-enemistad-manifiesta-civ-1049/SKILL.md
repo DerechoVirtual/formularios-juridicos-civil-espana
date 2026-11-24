@@ -1,6 +1,6 @@
 ---
 name: recusacion-laj-juicio-verbal-enemistad-manifiesta-civ-1049
-description: "Recusación del LAJ en juicio verbal por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación del LAJ en juicio verbal por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación del LAJ en juicio verbal por enemistad manifiesta

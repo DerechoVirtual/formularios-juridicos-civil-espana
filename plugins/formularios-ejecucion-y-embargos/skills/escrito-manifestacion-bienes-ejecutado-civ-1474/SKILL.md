@@ -1,6 +1,6 @@
 ---
 name: escrito-manifestacion-bienes-ejecutado-civ-1474
-description: "Escrito de manifestación de bienes del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de manifestación de bienes del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de manifestación de bienes del ejecutado

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-copia-grabaciones-originales-vista-civ-1090
-description: "Escrito pidiendo copia de las grabaciones originales de la vista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo copia de las grabaciones originales de la vista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo copia de las grabaciones originales de la vista

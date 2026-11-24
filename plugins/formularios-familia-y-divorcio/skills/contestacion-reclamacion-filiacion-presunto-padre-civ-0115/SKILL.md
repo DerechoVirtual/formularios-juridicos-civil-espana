@@ -1,6 +1,6 @@
 ---
 name: contestacion-reclamacion-filiacion-presunto-padre-civ-0115
-description: "Contestación a la reclamación de filiación del presunto padre con impugnación de la contradictoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reclamación de filiación del presunto padre con impugnación de la contradictoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reclamación de filiación del presunto padre con impugnación de la contradictoria

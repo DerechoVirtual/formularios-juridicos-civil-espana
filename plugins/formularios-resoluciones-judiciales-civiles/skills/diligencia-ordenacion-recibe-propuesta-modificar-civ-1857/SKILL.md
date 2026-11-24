@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-recibe-propuesta-modificar-civ-1857
-description: "Diligencia de ordenación que recibe propuesta de modificar el convenio y la traslada al Fiscal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que recibe propuesta de modificar el convenio y la traslada al Fiscal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que recibe propuesta de modificar el convenio y la traslada al Fiscal

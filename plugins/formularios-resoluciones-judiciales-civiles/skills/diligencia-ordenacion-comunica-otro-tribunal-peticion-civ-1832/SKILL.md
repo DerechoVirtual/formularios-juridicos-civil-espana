@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-comunica-otro-tribunal-peticion-civ-1832
-description: "Diligencia de ordenación que comunica a otro tribunal la petición de acumulación de autos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que comunica a otro tribunal la petición de acumulación de autos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que comunica a otro tribunal la petición de acumulación de autos

@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-sobre-derechos-articulo-160-civ-0268
-description: "Contestación a la demanda sobre los derechos del artículo 160 del Código Civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda sobre los derechos del artículo 160 del Código Civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda sobre los derechos del artículo 160 del Código Civil

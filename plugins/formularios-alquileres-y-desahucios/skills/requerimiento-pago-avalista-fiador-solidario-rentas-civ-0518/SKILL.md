@@ -1,6 +1,6 @@
 ---
 name: requerimiento-pago-avalista-fiador-solidario-rentas-civ-0518
-description: "Requerimiento de pago al avalista o fiador solidario de las rentas debidas, previo a reclamar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento de pago al avalista o fiador solidario de las rentas debidas, previo a reclamar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento de pago al avalista o fiador solidario de las rentas debidas, previo a reclamar

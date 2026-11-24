@@ -1,6 +1,6 @@
 ---
 name: clausula-garantia-retencion-parte-precio-contrato-obra-civ-0835
-description: "Cláusula de garantía y retención de parte del precio en un contrato de obra de vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula de garantía y retención de parte del precio en un contrato de obra de vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula de garantía y retención de parte del precio en un contrato de obra de vivienda

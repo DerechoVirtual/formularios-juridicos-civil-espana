@@ -1,6 +1,6 @@
 ---
 name: oposicion-deudor-pluspeticion-monitorio-mas-2-000-euros-civ-1195
-description: "Oposición del deudor por pluspetición en monitorio de más de 2.000 euros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del deudor por pluspetición en monitorio de más de 2.000 euros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del deudor por pluspetición en monitorio de más de 2.000 euros

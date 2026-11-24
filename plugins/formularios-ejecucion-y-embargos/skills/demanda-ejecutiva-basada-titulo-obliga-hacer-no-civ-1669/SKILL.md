@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-titulo-obliga-hacer-no-civ-1669
-description: "Demanda ejecutiva basada en título que obliga a un hacer no personalísimo (art. 705 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en título que obliga a un hacer no personalísimo (art. 705 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en título que obliga a un hacer no personalísimo (art. 705 LEC)

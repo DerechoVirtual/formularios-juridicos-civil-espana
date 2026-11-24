@@ -1,6 +1,6 @@
 ---
 name: impugnacion-informe-elaborado-detective-privado-civ-0953
-description: "Impugnación del informe elaborado por detective privado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del informe elaborado por detective privado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del informe elaborado por detective privado

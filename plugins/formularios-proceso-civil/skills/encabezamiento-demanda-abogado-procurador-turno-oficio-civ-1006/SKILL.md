@@ -1,6 +1,6 @@
 ---
 name: encabezamiento-demanda-abogado-procurador-turno-oficio-civ-1006
-description: "Encabezamiento de demanda con abogado y procurador del turno de oficio en nombre de persona física. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Encabezamiento de demanda con abogado y procurador del turno de oficio en nombre de persona física. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Encabezamiento de demanda con abogado y procurador del turno de oficio en nombre de persona física

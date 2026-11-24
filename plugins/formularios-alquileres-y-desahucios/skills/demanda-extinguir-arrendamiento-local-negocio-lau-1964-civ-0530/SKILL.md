@@ -1,6 +1,6 @@
 ---
 name: demanda-extinguir-arrendamiento-local-negocio-lau-1964-civ-0530
-description: "Demanda para extinguir el arrendamiento de local de negocio (LAU 1964) por necesidad del hijo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para extinguir el arrendamiento de local de negocio (LAU 1964) por necesidad del hijo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para extinguir el arrendamiento de local de negocio (LAU 1964) por necesidad del hijo

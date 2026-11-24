@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-recurrido-recurso-casacion-civ-1378
-description: "Escrito de oposición del recurrido al recurso de casación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición del recurrido al recurso de casación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición del recurrido al recurso de casación

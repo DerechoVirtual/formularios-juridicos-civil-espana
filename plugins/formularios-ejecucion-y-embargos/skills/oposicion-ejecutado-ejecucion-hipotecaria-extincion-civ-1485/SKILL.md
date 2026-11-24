@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecutado-ejecucion-hipotecaria-extincion-civ-1485
-description: "Oposición del ejecutado en la ejecución hipotecaria por extinción de la obligación garantizada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del ejecutado en la ejecución hipotecaria por extinción de la obligación garantizada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del ejecutado en la ejecución hipotecaria por extinción de la obligación garantizada

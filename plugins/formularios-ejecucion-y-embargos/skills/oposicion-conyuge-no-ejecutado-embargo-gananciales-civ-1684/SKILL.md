@@ -1,6 +1,6 @@
 ---
 name: oposicion-conyuge-no-ejecutado-embargo-gananciales-civ-1684
-description: "Oposición del cónyuge no ejecutado al embargo de gananciales por existir bienes privativos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del cónyuge no ejecutado al embargo de gananciales por existir bienes privativos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del cónyuge no ejecutado al embargo de gananciales por existir bienes privativos

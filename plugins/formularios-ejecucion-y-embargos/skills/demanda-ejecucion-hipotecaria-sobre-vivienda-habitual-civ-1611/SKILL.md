@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-hipotecaria-sobre-vivienda-habitual-civ-1611
-description: "Demanda de ejecución hipotecaria sobre la vivienda habitual del deudor - variante 2. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución hipotecaria sobre la vivienda habitual del deudor - variante 2. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución hipotecaria sobre la vivienda habitual del deudor - variante 2

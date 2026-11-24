@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reivindicar-titulo-nobiliario-civ-0863
-description: "Demanda de juicio ordinario para reivindicar un título nobiliario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para reivindicar un título nobiliario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para reivindicar un título nobiliario

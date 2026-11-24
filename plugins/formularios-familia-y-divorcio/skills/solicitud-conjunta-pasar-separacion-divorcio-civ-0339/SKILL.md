@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-pasar-separacion-divorcio-civ-0339
-description: "Solicitud conjunta de pasar la separación o divorcio contencioso a procedimiento de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de pasar la separación o divorcio contencioso a procedimiento de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de pasar la separación o divorcio contencioso a procedimiento de mutuo acuerdo

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-reclamar-cuotas-comunidad-civ-0621
-description: "Demanda de juicio verbal para reclamar cuotas de la comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal para reclamar cuotas de la comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal para reclamar cuotas de la comunidad de propietarios

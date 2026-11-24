@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 92 formularios de Mediación, MASC, arbitraje y jurisdicción voluntaria. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 92 formularios de Mediación, MASC, arbitraje y jurisdicción voluntaria. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Mediación, MASC, arbitraje y jurisdicción voluntaria: índice de formularios

@@ -1,6 +1,6 @@
 ---
 name: decreto-designa-persona-entidad-especializada-fija-civ-2078
-description: "Decreto que designa persona o entidad especializada y fija condiciones para realizar los inmuebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que designa persona o entidad especializada y fija condiciones para realizar los inmuebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que designa persona o entidad especializada y fija condiciones para realizar los inmuebles

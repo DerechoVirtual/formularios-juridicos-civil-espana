@@ -1,6 +1,6 @@
 ---
 name: solicitud-adquirente-objeto-litigioso-cesion-credito-civ-1027
-description: "Solicitud del adquirente del objeto litigioso por cesión de crédito de suceder al transmitente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del adquirente del objeto litigioso por cesión de crédito de suceder al transmitente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del adquirente del objeto litigioso por cesión de crédito de suceder al transmitente

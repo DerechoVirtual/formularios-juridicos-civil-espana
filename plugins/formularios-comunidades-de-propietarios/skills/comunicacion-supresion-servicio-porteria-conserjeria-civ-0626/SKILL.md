@@ -1,6 +1,6 @@
 ---
 name: comunicacion-supresion-servicio-porteria-conserjeria-civ-0626
-description: "Comunicación de supresión del servicio de portería o conserjería. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación de supresión del servicio de portería o conserjería. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación de supresión del servicio de portería o conserjería

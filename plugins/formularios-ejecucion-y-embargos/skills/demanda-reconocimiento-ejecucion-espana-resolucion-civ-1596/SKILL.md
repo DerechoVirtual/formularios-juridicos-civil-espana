@@ -1,6 +1,6 @@
 ---
 name: demanda-reconocimiento-ejecucion-espana-resolucion-civ-1596
-description: "Demanda de reconocimiento y ejecución en España de resolución extranjera con convenio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reconocimiento y ejecución en España de resolución extranjera con convenio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reconocimiento y ejecución en España de resolución extranjera con convenio

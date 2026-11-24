@@ -1,6 +1,6 @@
 ---
 name: demanda-resolver-compraventa-inmueble-retraso-entrega-civ-0787
-description: "Demanda para resolver la compraventa de inmueble por retraso en la entrega y recuperar lo pagado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para resolver la compraventa de inmueble por retraso en la entrega y recuperar lo pagado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para resolver la compraventa de inmueble por retraso en la entrega y recuperar lo pagado

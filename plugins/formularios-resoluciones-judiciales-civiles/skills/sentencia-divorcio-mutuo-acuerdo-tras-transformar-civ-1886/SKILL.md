@@ -1,6 +1,6 @@
 ---
 name: sentencia-divorcio-mutuo-acuerdo-tras-transformar-civ-1886
-description: "Sentencia de divorcio de mutuo acuerdo tras transformar el contencioso, sin aprobar una cláusula. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia de divorcio de mutuo acuerdo tras transformar el contencioso, sin aprobar una cláusula. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia de divorcio de mutuo acuerdo tras transformar el contencioso, sin aprobar una cláusula

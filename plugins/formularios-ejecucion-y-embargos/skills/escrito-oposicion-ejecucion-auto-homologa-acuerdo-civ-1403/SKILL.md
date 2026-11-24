@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-ejecucion-auto-homologa-acuerdo-civ-1403
-description: "Escrito de oposición a la ejecución de un auto que homologa un acuerdo de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la ejecución de un auto que homologa un acuerdo de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la ejecución de un auto que homologa un acuerdo de mediación

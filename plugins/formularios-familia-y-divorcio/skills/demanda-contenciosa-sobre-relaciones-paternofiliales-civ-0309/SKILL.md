@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-sobre-relaciones-paternofiliales-civ-0309
-description: "Demanda contenciosa sobre relaciones paternofiliales tras ruptura de pareja de hecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa sobre relaciones paternofiliales tras ruptura de pareja de hecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa sobre relaciones paternofiliales tras ruptura de pareja de hecho

@@ -1,6 +1,6 @@
 ---
 name: autorizacion-notarial-viaje-menor-civ-0214
-description: "Autorización notarial de viaje de un menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Autorización notarial de viaje de un menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Autorización notarial de viaje de un menor

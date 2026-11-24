@@ -1,6 +1,6 @@
 ---
 name: solicitud-ex-parte-declinatoria-falta-competencia-civ-0881
-description: "Solicitud ex parte de declinatoria por falta de competencia internacional (Bruselas I refundido). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud ex parte de declinatoria por falta de competencia internacional (Bruselas I refundido). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud ex parte de declinatoria por falta de competencia internacional (Bruselas I refundido)

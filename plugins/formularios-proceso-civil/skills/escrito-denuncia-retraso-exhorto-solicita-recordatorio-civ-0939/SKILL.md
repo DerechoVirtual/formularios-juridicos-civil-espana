@@ -1,6 +1,6 @@
 ---
 name: escrito-denuncia-retraso-exhorto-solicita-recordatorio-civ-0939
-description: "Escrito que denuncia el retraso de un exhorto y solicita recordatorio de urgencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que denuncia el retraso de un exhorto y solicita recordatorio de urgencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que denuncia el retraso de un exhorto y solicita recordatorio de urgencia

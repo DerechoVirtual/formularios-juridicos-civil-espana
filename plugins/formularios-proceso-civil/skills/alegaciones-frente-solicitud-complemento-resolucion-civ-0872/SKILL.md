@@ -1,6 +1,6 @@
 ---
 name: alegaciones-frente-solicitud-complemento-resolucion-civ-0872
-description: "Alegaciones frente a la solicitud de complemento de una resolución procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones frente a la solicitud de complemento de una resolución procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones frente a la solicitud de complemento de una resolución procesal

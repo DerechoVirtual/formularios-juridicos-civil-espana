@@ -1,6 +1,6 @@
 ---
 name: demanda-aseguradora-contra-otra-ejercicio-accion-civ-0690
-description: "Demanda de una aseguradora contra otra en ejercicio de la acción de repetición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de una aseguradora contra otra en ejercicio de la acción de repetición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de una aseguradora contra otra en ejercicio de la acción de repetición

@@ -1,6 +1,6 @@
 ---
 name: solicitud-nombramiento-defensor-judicial-tutelado-civ-0382
-description: "Solicitud de nombramiento de defensor judicial para el tutelado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nombramiento de defensor judicial para el tutelado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nombramiento de defensor judicial para el tutelado

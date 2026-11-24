@@ -1,6 +1,6 @@
 ---
 name: auto-suspende-proceso-prejudicialidad-penal-generica-civ-2159
-description: "Auto que suspende el proceso por prejudicialidad penal genérica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que suspende el proceso por prejudicialidad penal genérica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que suspende el proceso por prejudicialidad penal genérica

@@ -1,6 +1,6 @@
 ---
 name: comunicacion-demandado-comparecera-juicio-verbal-civ-1059
-description: "Comunicación del demandado de que comparecerá en juicio verbal con procurador y abogado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del demandado de que comparecerá en juicio verbal con procurador y abogado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del demandado de que comparecerá en juicio verbal con procurador y abogado

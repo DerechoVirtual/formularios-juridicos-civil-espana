@@ -1,6 +1,6 @@
 ---
 name: demanda-reconocimiento-ejecucion-sentencia-suiza-civ-0313
-description: "Demanda de reconocimiento y ejecución de sentencia suiza de divorcio (tratado de 1896). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reconocimiento y ejecución de sentencia suiza de divorcio (tratado de 1896). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reconocimiento y ejecución de sentencia suiza de divorcio (tratado de 1896)

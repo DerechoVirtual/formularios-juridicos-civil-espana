@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-separacion-hecho-escritura-hijos-civ-0357
-description: "Convenio regulador de separación de hecho en escritura con hijos menores y custodia exclusiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de separación de hecho en escritura con hijos menores y custodia exclusiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de separación de hecho en escritura con hijos menores y custodia exclusiva

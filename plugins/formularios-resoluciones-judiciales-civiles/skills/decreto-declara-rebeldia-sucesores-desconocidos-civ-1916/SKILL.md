@@ -1,6 +1,6 @@
 ---
 name: decreto-declara-rebeldia-sucesores-desconocidos-civ-1916
-description: "Decreto que declara en rebeldía a los sucesores desconocidos o ilocalizables del litigante fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que declara en rebeldía a los sucesores desconocidos o ilocalizables del litigante fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que declara en rebeldía a los sucesores desconocidos o ilocalizables del litigante fallecido

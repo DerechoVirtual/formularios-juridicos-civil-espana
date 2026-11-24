@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-monitorio-compras-reiteradas-civ-1190
-description: "Escrito iniciando monitorio por compras reiteradas con reconocimiento de deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando monitorio por compras reiteradas con reconocimiento de deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando monitorio por compras reiteradas con reconocimiento de deuda

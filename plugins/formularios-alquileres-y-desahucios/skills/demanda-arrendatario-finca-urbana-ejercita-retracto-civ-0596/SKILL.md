@@ -1,6 +1,6 @@
 ---
 name: demanda-arrendatario-finca-urbana-ejercita-retracto-civ-0596
-description: "Demanda del arrendatario de finca urbana que ejercita el retracto contra el comprador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del arrendatario de finca urbana que ejercita el retracto contra el comprador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del arrendatario de finca urbana que ejercita el retracto contra el comprador

@@ -1,6 +1,6 @@
 ---
 name: escrito-comunica-tribunal-fallecimiento-tutelado-civ-0381
-description: "Escrito que comunica al tribunal el fallecimiento del tutelado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que comunica al tribunal el fallecimiento del tutelado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que comunica al tribunal el fallecimiento del tutelado

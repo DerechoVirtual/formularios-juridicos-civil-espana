@@ -1,6 +1,6 @@
 ---
 name: oposicion-acreedor-liquidacion-frutos-rentas-civ-1539
-description: "Oposición del acreedor a la liquidación de frutos y rentas presentada por el deudor (modelo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del acreedor a la liquidación de frutos y rentas presentada por el deudor (modelo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del acreedor a la liquidación de frutos y rentas presentada por el deudor (modelo)

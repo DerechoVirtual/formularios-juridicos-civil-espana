@@ -1,6 +1,6 @@
 ---
 name: interrogatorio-testigos-proceso-nulidad-canonica-canon-civ-0059
-description: "Interrogatorio de testigos en un proceso de nulidad canónica por el canon 1095.2. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Interrogatorio de testigos en un proceso de nulidad canónica por el canon 1095.2. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Interrogatorio de testigos en un proceso de nulidad canónica por el canon 1095.2

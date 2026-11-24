@@ -1,6 +1,6 @@
 ---
 name: escrito-alegaciones-valoracion-bienes-hecha-perito-civ-0892
-description: "Escrito de alegaciones a la valoración de bienes hecha por el perito tasador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de alegaciones a la valoración de bienes hecha por el perito tasador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de alegaciones a la valoración de bienes hecha por el perito tasador

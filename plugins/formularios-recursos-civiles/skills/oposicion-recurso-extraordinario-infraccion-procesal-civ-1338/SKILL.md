@@ -1,6 +1,6 @@
 ---
 name: oposicion-recurso-extraordinario-infraccion-procesal-civ-1338
-description: "Oposición al recurso extraordinario por infracción procesal (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al recurso extraordinario por infracción procesal (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al recurso extraordinario por infracción procesal (régimen anterior al RDL 5 2023)

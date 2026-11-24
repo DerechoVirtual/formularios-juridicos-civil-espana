@@ -1,6 +1,6 @@
 ---
 name: solicitud-tribunal-auxilio-judicial-practicar-prueba-civ-1764
-description: "Solicitud al tribunal de auxilio judicial para practicar prueba en un arbitraje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al tribunal de auxilio judicial para practicar prueba en un arbitraje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al tribunal de auxilio judicial para practicar prueba en un arbitraje

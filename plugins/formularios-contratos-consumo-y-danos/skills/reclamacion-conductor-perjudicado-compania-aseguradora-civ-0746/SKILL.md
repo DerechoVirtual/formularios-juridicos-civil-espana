@@ -1,6 +1,6 @@
 ---
 name: reclamacion-conductor-perjudicado-compania-aseguradora-civ-0746
-description: "Reclamación del conductor perjudicado a la compañía aseguradora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación del conductor perjudicado a la compañía aseguradora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación del conductor perjudicado a la compañía aseguradora

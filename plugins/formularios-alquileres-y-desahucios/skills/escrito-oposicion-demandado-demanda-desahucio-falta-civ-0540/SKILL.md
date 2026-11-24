@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-demandado-demanda-desahucio-falta-civ-0540
-description: "Escrito de oposición del demandado a la demanda de desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición del demandado a la demanda de desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición del demandado a la demanda de desahucio por falta de pago

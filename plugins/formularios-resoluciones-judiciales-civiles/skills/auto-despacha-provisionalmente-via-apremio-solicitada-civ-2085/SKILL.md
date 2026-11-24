@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-provisionalmente-via-apremio-solicitada-civ-2085
-description: "Auto que despacha provisionalmente la vía de apremio solicitada por el ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha provisionalmente la vía de apremio solicitada por el ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha provisionalmente la vía de apremio solicitada por el ejecutante

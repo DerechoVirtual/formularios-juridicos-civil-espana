@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-subsanar-omision-resolucion-poder-civ-1097
-description: "Escrito pidiendo subsanar la omisión de una resolución para poder cumplirla. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo subsanar la omisión de una resolución para poder cumplirla. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo subsanar la omisión de una resolución para poder cumplirla

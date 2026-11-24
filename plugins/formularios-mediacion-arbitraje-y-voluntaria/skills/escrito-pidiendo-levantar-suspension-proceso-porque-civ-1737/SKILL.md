@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-levantar-suspension-proceso-porque-civ-1737
-description: "Escrito pidiendo levantar la suspensión del proceso porque la mediación quedó sin efecto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo levantar la suspensión del proceso porque la mediación quedó sin efecto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo levantar la suspensión del proceso porque la mediación quedó sin efecto

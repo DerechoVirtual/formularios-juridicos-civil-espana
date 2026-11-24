@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-oponiendose-desahucio-enervacion-civ-0516
-description: "Escrito del demandado oponiéndose al desahucio por enervación de la acción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado oponiéndose al desahucio por enervación de la acción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado oponiéndose al desahucio por enervación de la acción

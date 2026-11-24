@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 311 formularios de Ejecución de sentencias y embargos. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 311 formularios de Ejecución de sentencias y embargos. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Ejecución de sentencias y embargos: índice de formularios

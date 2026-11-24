@@ -1,6 +1,6 @@
 ---
 name: providencia-cita-partes-fiscal-posible-violencia-civ-1875
-description: "Providencia que cita a partes y Fiscal por posible violencia de género sin procedimiento penal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que cita a partes y Fiscal por posible violencia de género sin procedimiento penal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que cita a partes y Fiscal por posible violencia de género sin procedimiento penal

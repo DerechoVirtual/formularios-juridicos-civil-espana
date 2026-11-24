@@ -1,6 +1,6 @@
 ---
 name: clausula-arrendamiento-vivienda-fija-indemnizacion-si-civ-0512
-description: "Cláusula de arrendamiento de vivienda que fija indemnización si el inquilino desiste del contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula de arrendamiento de vivienda que fija indemnización si el inquilino desiste del contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula de arrendamiento de vivienda que fija indemnización si el inquilino desiste del contrato

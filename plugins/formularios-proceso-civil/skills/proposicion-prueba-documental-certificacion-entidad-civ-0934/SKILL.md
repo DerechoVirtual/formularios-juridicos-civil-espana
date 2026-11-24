@@ -1,6 +1,6 @@
 ---
 name: proposicion-prueba-documental-certificacion-entidad-civ-0934
-description: "Proposición de prueba documental por certificación de entidad prestadora de servicio público. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de prueba documental por certificación de entidad prestadora de servicio público. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de prueba documental por certificación de entidad prestadora de servicio público

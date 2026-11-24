@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-compensacion-razon-civ-0239
-description: "Demanda de divorcio contencioso con compensación por razón de trabajo (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso con compensación por razón de trabajo (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso con compensación por razón de trabajo (Derecho civil catalán)

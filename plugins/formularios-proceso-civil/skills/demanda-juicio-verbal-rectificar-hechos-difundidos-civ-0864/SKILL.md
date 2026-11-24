@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-rectificar-hechos-difundidos-civ-0864
-description: "Demanda de juicio verbal para rectificar hechos difundidos en un medio de comunicación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal para rectificar hechos difundidos en un medio de comunicación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal para rectificar hechos difundidos en un medio de comunicación

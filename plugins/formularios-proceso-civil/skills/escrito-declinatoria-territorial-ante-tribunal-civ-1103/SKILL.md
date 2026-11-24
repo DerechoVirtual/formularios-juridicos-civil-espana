@@ -1,6 +1,6 @@
 ---
 name: escrito-declinatoria-territorial-ante-tribunal-civ-1103
-description: "Escrito de declinatoria territorial ante el tribunal del domicilio del demandado (juicio verbal). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de declinatoria territorial ante el tribunal del domicilio del demandado (juicio verbal). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de declinatoria territorial ante el tribunal del domicilio del demandado (juicio verbal)

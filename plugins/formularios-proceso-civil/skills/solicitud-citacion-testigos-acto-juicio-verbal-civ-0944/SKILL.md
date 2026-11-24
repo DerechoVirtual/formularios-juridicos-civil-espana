@@ -1,6 +1,6 @@
 ---
 name: solicitud-citacion-testigos-acto-juicio-verbal-civ-0944
-description: "Solicitud de citación de testigos para el acto del juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de citación de testigos para el acto del juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de citación de testigos para el acto del juicio verbal

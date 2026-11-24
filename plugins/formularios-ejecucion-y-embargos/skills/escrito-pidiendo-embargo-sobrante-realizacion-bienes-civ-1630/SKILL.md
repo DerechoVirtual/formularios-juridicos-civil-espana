@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-embargo-sobrante-realizacion-bienes-civ-1630
-description: "Escrito pidiendo el embargo del sobrante de la realización de bienes en otro procedimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo el embargo del sobrante de la realización de bienes en otro procedimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo el embargo del sobrante de la realización de bienes en otro procedimiento

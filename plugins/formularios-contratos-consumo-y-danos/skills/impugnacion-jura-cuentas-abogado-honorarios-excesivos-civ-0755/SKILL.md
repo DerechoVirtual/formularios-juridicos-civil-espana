@@ -1,6 +1,6 @@
 ---
 name: impugnacion-jura-cuentas-abogado-honorarios-excesivos-civ-0755
-description: "Impugnación de la jura de cuentas del abogado por honorarios excesivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la jura de cuentas del abogado por honorarios excesivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la jura de cuentas del abogado por honorarios excesivos

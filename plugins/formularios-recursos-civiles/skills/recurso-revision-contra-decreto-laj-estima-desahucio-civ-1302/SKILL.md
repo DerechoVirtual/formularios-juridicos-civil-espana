@@ -1,6 +1,6 @@
 ---
 name: recurso-revision-contra-decreto-laj-estima-desahucio-civ-1302
-description: "Recurso de revisión contra el decreto del LAJ que estima el desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de revisión contra el decreto del LAJ que estima el desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de revisión contra el decreto del LAJ que estima el desahucio por falta de pago

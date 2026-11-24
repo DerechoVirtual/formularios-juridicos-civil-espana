@@ -1,6 +1,6 @@
 ---
 name: escrito-conjunto-pidiendo-homologar-acuerdo-parcial-civ-1734
-description: "Escrito conjunto pidiendo homologar un acuerdo parcial de mediación y continuar el proceso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito conjunto pidiendo homologar un acuerdo parcial de mediación y continuar el proceso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito conjunto pidiendo homologar un acuerdo parcial de mediación y continuar el proceso

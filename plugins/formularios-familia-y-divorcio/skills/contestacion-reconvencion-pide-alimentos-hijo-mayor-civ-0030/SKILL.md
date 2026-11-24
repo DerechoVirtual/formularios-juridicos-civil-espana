@@ -1,6 +1,6 @@
 ---
 name: contestacion-reconvencion-pide-alimentos-hijo-mayor-civ-0030
-description: "Contestación a la reconvención que pide alimentos para un hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reconvención que pide alimentos para un hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reconvención que pide alimentos para un hijo mayor de edad

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-notificar-ejecucion-hipotecaria-civ-1612
-description: "Escrito pidiendo notificar la ejecución hipotecaria al último titular registral de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo notificar la ejecución hipotecaria al último titular registral de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo notificar la ejecución hipotecaria al último titular registral de dominio

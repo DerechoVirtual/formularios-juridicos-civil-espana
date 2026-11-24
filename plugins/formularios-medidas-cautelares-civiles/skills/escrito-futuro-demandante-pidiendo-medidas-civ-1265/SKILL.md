@@ -1,6 +1,6 @@
 ---
 name: escrito-futuro-demandante-pidiendo-medidas-civ-1265
-description: "Escrito del futuro demandante pidiendo medidas de aseguramiento de la prueba antes del proceso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del futuro demandante pidiendo medidas de aseguramiento de la prueba antes del proceso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del futuro demandante pidiendo medidas de aseguramiento de la prueba antes del proceso

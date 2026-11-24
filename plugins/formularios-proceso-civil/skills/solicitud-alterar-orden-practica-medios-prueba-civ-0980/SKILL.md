@@ -1,6 +1,6 @@
 ---
 name: solicitud-alterar-orden-practica-medios-prueba-civ-0980
-description: "Solicitud de alterar el orden de práctica de los medios de prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de alterar el orden de práctica de los medios de prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de alterar el orden de práctica de los medios de prueba

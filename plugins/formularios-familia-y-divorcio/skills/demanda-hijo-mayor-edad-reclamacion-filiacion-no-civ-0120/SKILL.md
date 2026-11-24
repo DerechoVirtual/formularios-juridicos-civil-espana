@@ -1,6 +1,6 @@
 ---
 name: demanda-hijo-mayor-edad-reclamacion-filiacion-no-civ-0120
-description: "Demanda del hijo mayor de edad de reclamación de filiación no matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del hijo mayor de edad de reclamación de filiación no matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del hijo mayor de edad de reclamación de filiación no matrimonial

@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-tras-ruptura-union-hecho-derecho-civ-0141
-description: "Convenio regulador tras la ruptura de la unión de hecho (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador tras la ruptura de la unión de hecho (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador tras la ruptura de la unión de hecho (Derecho civil catalán)

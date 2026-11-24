@@ -1,6 +1,6 @@
 ---
 name: demanda-extincion-convivencia-alimentos-pension-civ-0089
-description: "Demanda de extinción de convivencia con alimentos y pensión compensatoria (convivientes en Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de extinción de convivencia con alimentos y pensión compensatoria (convivientes en Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de extinción de convivencia con alimentos y pensión compensatoria (convivientes en Cataluña)

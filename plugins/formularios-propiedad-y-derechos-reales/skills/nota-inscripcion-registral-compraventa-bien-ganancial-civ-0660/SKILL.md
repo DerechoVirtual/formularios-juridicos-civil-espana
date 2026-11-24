@@ -1,6 +1,6 @@
 ---
 name: nota-inscripcion-registral-compraventa-bien-ganancial-civ-0660
-description: "Nota de inscripción registral de la compraventa de un bien ganancial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Nota de inscripción registral de la compraventa de un bien ganancial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Nota de inscripción registral de la compraventa de un bien ganancial

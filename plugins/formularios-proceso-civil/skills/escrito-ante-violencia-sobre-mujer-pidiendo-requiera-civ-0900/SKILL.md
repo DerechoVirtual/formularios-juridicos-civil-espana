@@ -1,6 +1,6 @@
 ---
 name: escrito-ante-violencia-sobre-mujer-pidiendo-requiera-civ-0900
-description: "Escrito ante Violencia sobre la Mujer pidiendo que se requiera de inhibición a una sección civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito ante Violencia sobre la Mujer pidiendo que se requiera de inhibición a una sección civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito ante Violencia sobre la Mujer pidiendo que se requiera de inhibición a una sección civil

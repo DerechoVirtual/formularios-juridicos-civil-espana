@@ -1,6 +1,6 @@
 ---
 name: desistimiento-actor-tras-contestacion-traslado-civ-1076
-description: "Desistimiento del actor tras la contestación con traslado al demandado y petición de no pagar costas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del actor tras la contestación con traslado al demandado y petición de no pagar costas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del actor tras la contestación con traslado al demandado y petición de no pagar costas

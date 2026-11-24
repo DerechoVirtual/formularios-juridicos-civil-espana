@@ -1,6 +1,6 @@
 ---
 name: contestacion-ministerio-fiscal-demanda-separacion-civ-0323
-description: "Contestación del Ministerio Fiscal a la demanda de separación matrimonial contenciosa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del Ministerio Fiscal a la demanda de separación matrimonial contenciosa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del Ministerio Fiscal a la demanda de separación matrimonial contenciosa

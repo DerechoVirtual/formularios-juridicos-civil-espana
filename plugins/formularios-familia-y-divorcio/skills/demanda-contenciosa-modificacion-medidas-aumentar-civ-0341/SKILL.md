@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-modificacion-medidas-aumentar-civ-0341
-description: "Demanda contenciosa de modificación de medidas para aumentar la pensión de alimentos del hijo menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de modificación de medidas para aumentar la pensión de alimentos del hijo menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de modificación de medidas para aumentar la pensión de alimentos del hijo menor

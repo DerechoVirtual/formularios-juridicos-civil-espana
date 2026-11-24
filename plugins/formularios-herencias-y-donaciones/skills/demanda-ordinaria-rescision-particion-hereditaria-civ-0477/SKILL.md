@@ -1,6 +1,6 @@
 ---
 name: demanda-ordinaria-rescision-particion-hereditaria-civ-0477
-description: "Demanda ordinaria de rescisión de partición hereditaria por lesión en la valoración de bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ordinaria de rescisión de partición hereditaria por lesión en la valoración de bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ordinaria de rescisión de partición hereditaria por lesión en la valoración de bienes

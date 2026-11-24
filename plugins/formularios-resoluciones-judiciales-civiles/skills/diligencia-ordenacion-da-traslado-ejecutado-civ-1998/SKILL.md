@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-traslado-ejecutado-civ-1998
-description: "Diligencia de ordenación que da traslado al ejecutado del allanamiento del ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da traslado al ejecutado del allanamiento del ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da traslado al ejecutado del allanamiento del ejecutante

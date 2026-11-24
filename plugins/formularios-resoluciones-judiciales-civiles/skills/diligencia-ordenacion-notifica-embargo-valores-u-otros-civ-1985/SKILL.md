@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-notifica-embargo-valores-u-otros-civ-1985
-description: "Diligencia de ordenación que notifica el embargo de valores u otros instrumentos financieros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que notifica el embargo de valores u otros instrumentos financieros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que notifica el embargo de valores u otros instrumentos financieros

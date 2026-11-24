@@ -1,6 +1,6 @@
 ---
 name: alegaciones-contraparte-sobre-sentencia-aportada-tras-civ-1126
-description: "Alegaciones de la contraparte sobre una sentencia aportada tras las conclusiones (art. 271.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones de la contraparte sobre una sentencia aportada tras las conclusiones (art. 271.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones de la contraparte sobre una sentencia aportada tras las conclusiones (art. 271.2 LEC)

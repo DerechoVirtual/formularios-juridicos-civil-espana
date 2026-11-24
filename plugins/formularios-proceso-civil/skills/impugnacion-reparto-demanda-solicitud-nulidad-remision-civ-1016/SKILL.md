@@ -1,6 +1,6 @@
 ---
 name: impugnacion-reparto-demanda-solicitud-nulidad-remision-civ-1016
-description: "Impugnación del reparto de la demanda con solicitud de nulidad y remisión al órgano competente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del reparto de la demanda con solicitud de nulidad y remisión al órgano competente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del reparto de la demanda con solicitud de nulidad y remisión al órgano competente

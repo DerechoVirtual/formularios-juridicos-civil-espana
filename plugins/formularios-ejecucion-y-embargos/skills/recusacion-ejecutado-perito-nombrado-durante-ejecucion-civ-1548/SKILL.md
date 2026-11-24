@@ -1,6 +1,6 @@
 ---
 name: recusacion-ejecutado-perito-nombrado-durante-ejecucion-civ-1548
-description: "Recusación por el ejecutado del perito nombrado durante la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación por el ejecutado del perito nombrado durante la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación por el ejecutado del perito nombrado durante la ejecución

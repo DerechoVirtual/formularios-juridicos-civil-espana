@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-requerimiento-edictos-monitorios-ajenos-civ-2165
-description: "Auto que deniega el requerimiento por edictos en monitorios ajenos a cuotas de propiedad horizontal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega el requerimiento por edictos en monitorios ajenos a cuotas de propiedad horizontal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega el requerimiento por edictos en monitorios ajenos a cuotas de propiedad horizontal

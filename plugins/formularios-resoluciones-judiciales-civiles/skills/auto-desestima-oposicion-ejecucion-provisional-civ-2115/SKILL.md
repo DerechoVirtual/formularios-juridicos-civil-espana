@@ -1,6 +1,6 @@
 ---
 name: auto-desestima-oposicion-ejecucion-provisional-civ-2115
-description: "Auto que desestima la oposición a la ejecución provisional por infracción de requisitos procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que desestima la oposición a la ejecución provisional por infracción de requisitos procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que desestima la oposición a la ejecución provisional por infracción de requisitos procesales

@@ -1,6 +1,6 @@
 ---
 name: otrosi-recurso-apelacion-aporta-documento-conforme-civ-1347
-description: "Otrosí del recurso de apelación que aporta un documento conforme al artículo 270 LEC. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí del recurso de apelación que aporta un documento conforme al artículo 270 LEC. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí del recurso de apelación que aporta un documento conforme al artículo 270 LEC

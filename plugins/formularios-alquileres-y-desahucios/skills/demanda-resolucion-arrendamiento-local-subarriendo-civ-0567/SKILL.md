@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-local-subarriendo-civ-0567
-description: "Demanda de resolución de arrendamiento de local por subarriendo o traspaso no autorizado (LAU 1964). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de arrendamiento de local por subarriendo o traspaso no autorizado (LAU 1964). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de arrendamiento de local por subarriendo o traspaso no autorizado (LAU 1964)

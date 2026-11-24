@@ -1,6 +1,6 @@
 ---
 name: escrito-conjunto-partes-pidiendo-homologacion-lo-civ-1124
-description: "Escrito conjunto de las partes pidiendo la homologación de lo convenido extrajudicialmente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito conjunto de las partes pidiendo la homologación de lo convenido extrajudicialmente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito conjunto de las partes pidiendo la homologación de lo convenido extrajudicialmente

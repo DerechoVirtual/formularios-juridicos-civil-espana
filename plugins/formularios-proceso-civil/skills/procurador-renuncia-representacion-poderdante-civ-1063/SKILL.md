@@ -1,6 +1,6 @@
 ---
 name: procurador-renuncia-representacion-poderdante-civ-1063
-description: "Procurador de su renuncia a la representación del poderdante (comunicación). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Procurador de su renuncia a la representación del poderdante (comunicación). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Procurador de su renuncia a la representación del poderdante (comunicación)

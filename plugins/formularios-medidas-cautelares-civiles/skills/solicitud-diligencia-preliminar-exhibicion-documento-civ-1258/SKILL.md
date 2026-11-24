@@ -1,6 +1,6 @@
 ---
 name: solicitud-diligencia-preliminar-exhibicion-documento-civ-1258
-description: "Solicitud de diligencia preliminar de exhibición de documento sucesorio (art. 256.1.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de diligencia preliminar de exhibición de documento sucesorio (art. 256.1.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de diligencia preliminar de exhibición de documento sucesorio (art. 256.1.3 LEC)

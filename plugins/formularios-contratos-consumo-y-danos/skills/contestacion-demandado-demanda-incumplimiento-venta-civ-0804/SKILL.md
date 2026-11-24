@@ -1,6 +1,6 @@
 ---
 name: contestacion-demandado-demanda-incumplimiento-venta-civ-0804
-description: "Contestación del demandado a la demanda por incumplimiento de venta de bienes muebles a plazos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del demandado a la demanda por incumplimiento de venta de bienes muebles a plazos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del demandado a la demanda por incumplimiento de venta de bienes muebles a plazos

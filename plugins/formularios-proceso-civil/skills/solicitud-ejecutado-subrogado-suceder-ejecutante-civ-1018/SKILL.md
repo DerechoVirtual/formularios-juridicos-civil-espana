@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutado-subrogado-suceder-ejecutante-civ-1018
-description: "Solicitud del ejecutado subrogado de suceder al ejecutante en el proceso contra el codeudor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutado subrogado de suceder al ejecutante en el proceso contra el codeudor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutado subrogado de suceder al ejecutante en el proceso contra el codeudor

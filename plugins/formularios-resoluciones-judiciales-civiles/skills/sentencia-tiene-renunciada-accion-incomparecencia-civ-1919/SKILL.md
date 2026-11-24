@@ -1,6 +1,6 @@
 ---
 name: sentencia-tiene-renunciada-accion-incomparecencia-civ-1919
-description: "Sentencia que tiene por renunciada la acción por incomparecencia de los sucesores del actor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia que tiene por renunciada la acción por incomparecencia de los sucesores del actor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia que tiene por renunciada la acción por incomparecencia de los sucesores del actor

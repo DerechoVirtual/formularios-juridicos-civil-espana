@@ -1,6 +1,6 @@
 ---
 name: auto-tiene-emitida-declaracion-voluntad-fue-condenado-civ-1977
-description: "Auto que tiene por emitida la declaración de voluntad a la que fue condenado el ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que tiene por emitida la declaración de voluntad a la que fue condenado el ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que tiene por emitida la declaración de voluntad a la que fue condenado el ejecutado

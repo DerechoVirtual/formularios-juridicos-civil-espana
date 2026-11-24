@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acuerda-lanzamiento-ocupantes-civ-2047
-description: "Diligencia de ordenación que acuerda el lanzamiento de los ocupantes de hecho del inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acuerda el lanzamiento de los ocupantes de hecho del inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acuerda el lanzamiento de los ocupantes de hecho del inmueble

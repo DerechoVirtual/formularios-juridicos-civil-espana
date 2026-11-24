@@ -1,6 +1,6 @@
 ---
 name: solicitud-propuesta-liquidacion-regimen-matrimonial-civ-0242
-description: "Solicitud y propuesta de liquidación del régimen matrimonial por un cónyuge (foral vasca). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud y propuesta de liquidación del régimen matrimonial por un cónyuge (foral vasca). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud y propuesta de liquidación del régimen matrimonial por un cónyuge (foral vasca)

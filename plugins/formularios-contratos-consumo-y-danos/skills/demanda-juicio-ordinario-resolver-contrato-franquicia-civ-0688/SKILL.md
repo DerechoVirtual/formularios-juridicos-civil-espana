@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-resolver-contrato-franquicia-civ-0688
-description: "Demanda de juicio ordinario para resolver un contrato de franquicia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para resolver un contrato de franquicia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para resolver un contrato de franquicia

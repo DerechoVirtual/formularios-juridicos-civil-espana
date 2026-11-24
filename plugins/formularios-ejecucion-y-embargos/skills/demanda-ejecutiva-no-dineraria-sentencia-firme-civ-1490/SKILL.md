@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-no-dineraria-sentencia-firme-civ-1490
-description: "Demanda ejecutiva no dineraria de sentencia firme de desahucio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva no dineraria de sentencia firme de desahucio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva no dineraria de sentencia firme de desahucio

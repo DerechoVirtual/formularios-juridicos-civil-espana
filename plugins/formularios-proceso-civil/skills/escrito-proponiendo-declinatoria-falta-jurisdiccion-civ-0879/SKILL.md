@@ -1,6 +1,6 @@
 ---
 name: escrito-proponiendo-declinatoria-falta-jurisdiccion-civ-0879
-description: "Escrito proponiendo la declinatoria por falta de jurisdicción debida a inmunidad de jurisdicción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito proponiendo la declinatoria por falta de jurisdicción debida a inmunidad de jurisdicción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito proponiendo la declinatoria por falta de jurisdicción debida a inmunidad de jurisdicción

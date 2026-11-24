@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-contra-aseguradora-incumplir-civ-0737
-description: "Demanda de juicio verbal contra la aseguradora por incumplir el seguro de defensa jurídica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal contra la aseguradora por incumplir el seguro de defensa jurídica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal contra la aseguradora por incumplir el seguro de defensa jurídica

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-juicio-celebre-dos-meses-desde-civ-1143
-description: "Escrito pidiendo que el juicio se celebre en dos meses desde la audiencia previa (art. 429.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo que el juicio se celebre en dos meses desde la audiencia previa (art. 429.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo que el juicio se celebre en dos meses desde la audiencia previa (art. 429.3 LEC)

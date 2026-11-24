@@ -1,6 +1,6 @@
 ---
 name: escrito-deudor-requerido-juicio-cambiario-alzar-civ-1150
-description: "Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación

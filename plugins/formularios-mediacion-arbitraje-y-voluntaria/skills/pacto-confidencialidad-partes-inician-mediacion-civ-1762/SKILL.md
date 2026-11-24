@@ -1,6 +1,6 @@
 ---
 name: pacto-confidencialidad-partes-inician-mediacion-civ-1762
-description: "Pacto de confidencialidad de las partes que inician una mediación mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pacto de confidencialidad de las partes que inician una mediación mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pacto de confidencialidad de las partes que inician una mediación mercantil

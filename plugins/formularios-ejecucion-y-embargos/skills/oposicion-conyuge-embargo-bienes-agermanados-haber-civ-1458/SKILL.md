@@ -1,6 +1,6 @@
 ---
 name: oposicion-conyuge-embargo-bienes-agermanados-haber-civ-1458
-description: "Oposición del cónyuge al embargo de bienes agermanados por haber bienes privativos suficientes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del cónyuge al embargo de bienes agermanados por haber bienes privativos suficientes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del cónyuge al embargo de bienes agermanados por haber bienes privativos suficientes

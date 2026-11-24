@@ -1,6 +1,6 @@
 ---
 name: escrito-proposicion-prueba-procedimiento-separacion-civ-0169
-description: "Escrito de proposición de prueba en el procedimiento de separación contenciosa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de proposición de prueba en el procedimiento de separación contenciosa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de proposición de prueba en el procedimiento de separación contenciosa

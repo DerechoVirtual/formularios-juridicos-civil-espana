@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-pronunciamiento-sobre-atribucion-civ-0337
-description: "Solicitud de ejecución del pronunciamiento sobre atribución del uso de la vivienda familiar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución del pronunciamiento sobre atribución del uso de la vivienda familiar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución del pronunciamiento sobre atribución del uso de la vivienda familiar

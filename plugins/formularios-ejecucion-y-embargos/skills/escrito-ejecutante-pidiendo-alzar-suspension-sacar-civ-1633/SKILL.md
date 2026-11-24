@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-alzar-suspension-sacar-civ-1633
-description: "Escrito del ejecutante pidiendo alzar la suspensión y sacar los bienes a subasta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo alzar la suspensión y sacar los bienes a subasta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo alzar la suspensión y sacar los bienes a subasta

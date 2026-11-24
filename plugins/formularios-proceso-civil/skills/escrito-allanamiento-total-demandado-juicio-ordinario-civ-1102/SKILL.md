@@ -1,6 +1,6 @@
 ---
 name: escrito-allanamiento-total-demandado-juicio-ordinario-civ-1102
-description: "Escrito de allanamiento total del demandado en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de allanamiento total del demandado en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de allanamiento total del demandado en juicio ordinario

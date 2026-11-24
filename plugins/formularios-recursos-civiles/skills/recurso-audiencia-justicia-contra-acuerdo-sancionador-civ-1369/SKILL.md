@@ -1,6 +1,6 @@
 ---
 name: recurso-audiencia-justicia-contra-acuerdo-sancionador-civ-1369
-description: "Recurso de audiencia en justicia contra el acuerdo sancionador por vulnerar la buena fe procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de audiencia en justicia contra el acuerdo sancionador por vulnerar la buena fe procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de audiencia en justicia contra el acuerdo sancionador por vulnerar la buena fe procesal

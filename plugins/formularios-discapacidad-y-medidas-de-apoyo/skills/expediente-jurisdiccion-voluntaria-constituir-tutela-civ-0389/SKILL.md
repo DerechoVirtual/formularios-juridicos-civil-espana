@@ -1,6 +1,6 @@
 ---
 name: expediente-jurisdiccion-voluntaria-constituir-tutela-civ-0389
-description: "Expediente de jurisdicción voluntaria para constituir tutela y nombrar tutor (Aragón). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Expediente de jurisdicción voluntaria para constituir tutela y nombrar tutor (Aragón). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Expediente de jurisdicción voluntaria para constituir tutela y nombrar tutor (Aragón)

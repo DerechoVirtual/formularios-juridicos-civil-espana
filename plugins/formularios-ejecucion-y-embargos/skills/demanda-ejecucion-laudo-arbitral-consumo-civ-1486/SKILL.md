@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-laudo-arbitral-consumo-civ-1486
-description: "Demanda de ejecución de un laudo arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución de un laudo arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución de un laudo arbitral de consumo

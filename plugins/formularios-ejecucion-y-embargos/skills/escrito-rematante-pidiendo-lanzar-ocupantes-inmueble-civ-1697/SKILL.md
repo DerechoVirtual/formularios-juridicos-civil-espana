@@ -1,6 +1,6 @@
 ---
 name: escrito-rematante-pidiendo-lanzar-ocupantes-inmueble-civ-1697
-description: "Escrito del rematante pidiendo lanzar a los ocupantes del inmueble subastado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del rematante pidiendo lanzar a los ocupantes del inmueble subastado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del rematante pidiendo lanzar a los ocupantes del inmueble subastado

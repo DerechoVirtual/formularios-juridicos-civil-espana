@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-expone-niega-hacer-lo-dispone-titulo-civ-1662
-description: "Escrito del ejecutado que expone por qué se niega a hacer lo que dispone el título. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que expone por qué se niega a hacer lo que dispone el título. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que expone por qué se niega a hacer lo que dispone el título

@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 28 formularios de Propiedad, posesión, servidumbres e hipotecas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 28 formularios de Propiedad, posesión, servidumbres e hipotecas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Propiedad, posesión, servidumbres e hipotecas: índice de formularios

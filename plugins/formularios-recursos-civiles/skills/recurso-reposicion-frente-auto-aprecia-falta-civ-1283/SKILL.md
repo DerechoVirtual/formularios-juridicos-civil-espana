@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-frente-auto-aprecia-falta-civ-1283
-description: "Recurso de reposición frente al auto que aprecia la falta de competencia territorial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición frente al auto que aprecia la falta de competencia territorial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición frente al auto que aprecia la falta de competencia territorial

@@ -1,6 +1,6 @@
 ---
 name: demanda-cese-convivencia-pareja-hecho-segun-derecho-civ-0236
-description: "Demanda por cese de la convivencia de pareja de hecho según el Derecho vasco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda por cese de la convivencia de pareja de hecho según el Derecho vasco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda por cese de la convivencia de pareja de hecho según el Derecho vasco

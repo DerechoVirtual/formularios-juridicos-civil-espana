@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandante-excepcion-falta-litisconsorcio-civ-0967
-description: "Oposición del demandante a la excepción de falta de litisconsorcio pasivo necesario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandante a la excepción de falta de litisconsorcio pasivo necesario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandante a la excepción de falta de litisconsorcio pasivo necesario

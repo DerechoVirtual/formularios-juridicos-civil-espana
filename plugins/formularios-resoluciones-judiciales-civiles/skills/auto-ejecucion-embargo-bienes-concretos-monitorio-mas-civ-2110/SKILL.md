@@ -1,6 +1,6 @@
 ---
 name: auto-ejecucion-embargo-bienes-concretos-monitorio-mas-civ-2110
-description: "Auto de ejecución con embargo de bienes concretos en monitorio de más de 2.000 euros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de ejecución con embargo de bienes concretos en monitorio de más de 2.000 euros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de ejecución con embargo de bienes concretos en monitorio de más de 2.000 euros

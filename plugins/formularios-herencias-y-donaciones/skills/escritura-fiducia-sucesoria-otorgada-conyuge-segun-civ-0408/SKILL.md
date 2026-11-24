@@ -1,6 +1,6 @@
 ---
 name: escritura-fiducia-sucesoria-otorgada-conyuge-segun-civ-0408
-description: "Escritura de fiducia sucesoria otorgada por un cónyuge según el Derecho civil aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de fiducia sucesoria otorgada por un cónyuge según el Derecho civil aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de fiducia sucesoria otorgada por un cónyuge según el Derecho civil aragonés

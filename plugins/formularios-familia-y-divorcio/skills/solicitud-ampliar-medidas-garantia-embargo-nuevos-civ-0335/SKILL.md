@@ -1,6 +1,6 @@
 ---
 name: solicitud-ampliar-medidas-garantia-embargo-nuevos-civ-0335
-description: "Solicitud de ampliar las medidas de garantía del embargo a nuevos vencimientos de pensiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ampliar las medidas de garantía del embargo a nuevos vencimientos de pensiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ampliar las medidas de garantía del embargo a nuevos vencimientos de pensiones

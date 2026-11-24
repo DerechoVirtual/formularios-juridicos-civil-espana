@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-cita-partes-ante-instructor-civ-1829
-description: "Diligencia de ordenación que cita a las partes ante el instructor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que cita a las partes ante el instructor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que cita a las partes ante el instructor

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-libra-mandamiento-notario-civ-2072
-description: "Diligencia de ordenación que libra mandamiento al notario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que libra mandamiento al notario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que libra mandamiento al notario

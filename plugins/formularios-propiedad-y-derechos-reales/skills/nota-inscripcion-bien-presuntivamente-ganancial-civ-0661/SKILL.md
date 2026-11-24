@@ -1,6 +1,6 @@
 ---
 name: nota-inscripcion-bien-presuntivamente-ganancial-civ-0661
-description: "Nota de inscripción de bien presuntivamente ganancial con afección fiscal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Nota de inscripción de bien presuntivamente ganancial con afección fiscal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Nota de inscripción de bien presuntivamente ganancial con afección fiscal

@@ -1,6 +1,6 @@
 ---
 name: solicitud-reconocimiento-espana-sentencia-divorcio-civ-0021
-description: "Solicitud de reconocimiento en España de una sentencia de divorcio colombiana (Convenio de 1908). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de reconocimiento en España de una sentencia de divorcio colombiana (Convenio de 1908). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de reconocimiento en España de una sentencia de divorcio colombiana (Convenio de 1908)

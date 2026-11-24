@@ -1,6 +1,6 @@
 ---
 name: auto-inadmite-impugnacion-tasacion-costas-civ-1946
-description: "Auto que inadmite la impugnación de la tasación de costas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que inadmite la impugnación de la tasación de costas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que inadmite la impugnación de la tasación de costas

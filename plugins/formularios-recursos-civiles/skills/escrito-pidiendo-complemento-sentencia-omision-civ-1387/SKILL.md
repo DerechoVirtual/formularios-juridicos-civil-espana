@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-complemento-sentencia-omision-civ-1387
-description: "Escrito pidiendo complemento de sentencia por omisión de pretensiones (art. 215.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo complemento de sentencia por omisión de pretensiones (art. 215.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo complemento de sentencia por omisión de pretensiones (art. 215.2 LEC)

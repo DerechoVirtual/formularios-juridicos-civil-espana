@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-demanda-filiacion-presentada-madre-hijo-civ-2140
-description: "Decreto que admite la demanda de filiación presentada por la madre del hijo menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite la demanda de filiación presentada por la madre del hijo menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite la demanda de filiación presentada por la madre del hijo menor

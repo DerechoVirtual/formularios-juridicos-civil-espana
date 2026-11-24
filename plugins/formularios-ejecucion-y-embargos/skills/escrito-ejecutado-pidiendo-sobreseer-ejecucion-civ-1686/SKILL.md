@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-sobreseer-ejecucion-civ-1686
-description: "Escrito del ejecutado pidiendo sobreseer la ejecución provisional, devolución de lo cobrado y daños. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo sobreseer la ejecución provisional, devolución de lo cobrado y daños. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo sobreseer la ejecución provisional, devolución de lo cobrado y daños

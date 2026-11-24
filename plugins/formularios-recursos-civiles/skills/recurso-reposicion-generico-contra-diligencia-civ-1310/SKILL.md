@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-generico-contra-diligencia-civ-1310
-description: "Recurso de reposición genérico contra una diligencia de ordenación del LAJ. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición genérico contra una diligencia de ordenación del LAJ. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición genérico contra una diligencia de ordenación del LAJ

@@ -1,6 +1,6 @@
 ---
 name: solicitud-procurador-oficio-parte-alega-derecho-civ-1058
-description: "Solicitud de procurador de oficio por parte que alega derecho a justicia gratuita. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de procurador de oficio por parte que alega derecho a justicia gratuita. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de procurador de oficio por parte que alega derecho a justicia gratuita

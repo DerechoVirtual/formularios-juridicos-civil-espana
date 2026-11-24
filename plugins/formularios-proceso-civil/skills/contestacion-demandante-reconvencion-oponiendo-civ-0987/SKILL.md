@@ -1,6 +1,6 @@
 ---
 name: contestacion-demandante-reconvencion-oponiendo-civ-0987
-description: "Contestación del demandante a la reconvención oponiendo excepciones de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del demandante a la reconvención oponiendo excepciones de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del demandante a la reconvención oponiendo excepciones de fondo

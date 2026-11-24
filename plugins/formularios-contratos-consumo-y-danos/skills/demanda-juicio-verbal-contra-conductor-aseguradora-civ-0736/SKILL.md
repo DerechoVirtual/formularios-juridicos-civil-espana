@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-contra-conductor-aseguradora-civ-0736
-description: "Demanda de juicio verbal contra conductor y aseguradora por daños y lucro cesante en accidente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal contra conductor y aseguradora por daños y lucro cesante en accidente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal contra conductor y aseguradora por daños y lucro cesante en accidente

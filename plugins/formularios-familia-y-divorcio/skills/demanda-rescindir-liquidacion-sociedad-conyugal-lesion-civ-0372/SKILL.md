@@ -1,6 +1,6 @@
 ---
 name: demanda-rescindir-liquidacion-sociedad-conyugal-lesion-civ-0372
-description: "Demanda para rescindir la liquidación de la sociedad conyugal por lesión en más de la cuarta parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para rescindir la liquidación de la sociedad conyugal por lesión en más de la cuarta parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para rescindir la liquidación de la sociedad conyugal por lesión en más de la cuarta parte

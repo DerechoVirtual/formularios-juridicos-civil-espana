@@ -1,9 +1,10 @@
 {
   "name": "formularios-proceso-civil",
   "version": "1.0.0",
-  "description": "Proceso civil: demandas, contestaciones, prueba y vista: 289 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para tramitar un pleito civil de principio a fin: demandas y contestaciones (ordinario y verbal), reconvención, excepciones procesales, declinatoria, audiencia previa, proposición y práctica de prueba, conclusiones, acumulación, desistimiento, allanamiento y escritos de trámite. Requiere Jurisprudenciator.",
+  "description": "Proceso civil: demandas, contestaciones, prueba y vista: 289 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para tramitar un pleito civil de principio a fin: demandas y contestaciones (ordinario y verbal), reconvención, excepciones procesales, declinatoria, audiencia previa, proposición y práctica de prueba, conclusiones, acumulación, desistimiento, allanamiento y escritos de trámite. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
-    "name": "Derecho Virtual"
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "displayName": "Proceso civil: demandas, contestaciones, prueba y vista · España",
   "icon": "./.claude-plugin/icon.png",
@@ -19,5 +20,7 @@
     "modelos",
     "civil",
     "escritos-procesales"
-  ]
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana",
+  "documentationUrl": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana/tree/main/plugins/formularios-proceso-civil"
 }

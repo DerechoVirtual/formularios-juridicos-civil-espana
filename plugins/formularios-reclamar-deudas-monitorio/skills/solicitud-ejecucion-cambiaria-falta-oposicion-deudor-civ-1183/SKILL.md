@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-cambiaria-falta-oposicion-deudor-civ-1183
-description: "Solicitud de ejecución cambiaria por falta de oposición del deudor, con embargo de bien ganancial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución cambiaria por falta de oposición del deudor, con embargo de bien ganancial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución cambiaria por falta de oposición del deudor, con embargo de bien ganancial

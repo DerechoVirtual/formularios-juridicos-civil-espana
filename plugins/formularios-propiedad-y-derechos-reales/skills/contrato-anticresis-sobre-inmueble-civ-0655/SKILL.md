@@ -1,6 +1,6 @@
 ---
 name: contrato-anticresis-sobre-inmueble-civ-0655
-description: "Contrato de anticresis sobre un inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de anticresis sobre un inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de anticresis sobre un inmueble

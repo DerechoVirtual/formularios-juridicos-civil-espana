@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-profesionales-asesoria-juridica-civ-0732
-description: "Contrato de servicios profesionales de asesoría jurídica o de abogado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios profesionales de asesoría jurídica o de abogado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios profesionales de asesoría jurídica o de abogado

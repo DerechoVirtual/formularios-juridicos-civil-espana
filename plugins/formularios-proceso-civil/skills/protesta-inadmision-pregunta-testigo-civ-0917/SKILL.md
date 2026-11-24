@@ -1,6 +1,6 @@
 ---
 name: protesta-inadmision-pregunta-testigo-civ-0917
-description: "Protesta por la inadmisión de una pregunta al testigo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Protesta por la inadmisión de una pregunta al testigo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Protesta por la inadmisión de una pregunta al testigo

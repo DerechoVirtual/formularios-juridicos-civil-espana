@@ -1,6 +1,6 @@
 ---
 name: expediente-jurisdiccion-voluntaria-constituir-curatela-civ-0388
-description: "Expediente de jurisdicción voluntaria para constituir curatela de menor emancipado (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Expediente de jurisdicción voluntaria para constituir curatela de menor emancipado (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Expediente de jurisdicción voluntaria para constituir curatela de menor emancipado (Cataluña)

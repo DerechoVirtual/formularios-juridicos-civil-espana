@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-como-diligencia-preliminar-exhibicion-civ-1262
-description: "Escrito pidiendo como diligencia preliminar la exhibición de testamento, codicilo o memoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo como diligencia preliminar la exhibición de testamento, codicilo o memoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo como diligencia preliminar la exhibición de testamento, codicilo o memoria

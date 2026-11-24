@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-incumplimiento-contrato-civ-0815
-description: "Demanda de juicio ordinario por incumplimiento de contrato de compraventa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por incumplimiento de contrato de compraventa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por incumplimiento de contrato de compraventa

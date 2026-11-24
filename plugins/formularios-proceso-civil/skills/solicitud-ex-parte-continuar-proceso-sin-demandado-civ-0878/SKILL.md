@@ -1,6 +1,6 @@
 ---
 name: solicitud-ex-parte-continuar-proceso-sin-demandado-civ-0878
-description: "Solicitud ex parte de continuar el proceso sin el demandado (artículo 22.2 Reglamento 2020-1784). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud ex parte de continuar el proceso sin el demandado (artículo 22.2 Reglamento 2020-1784). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud ex parte de continuar el proceso sin el demandado (artículo 22.2 Reglamento 2020-1784)

@@ -1,6 +1,6 @@
 ---
 name: contestacion-empresa-arbitraje-alegando-reclamante-no-civ-1779
-description: "Contestación de la empresa al arbitraje alegando que el reclamante no es consumidor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación de la empresa al arbitraje alegando que el reclamante no es consumidor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación de la empresa al arbitraje alegando que el reclamante no es consumidor

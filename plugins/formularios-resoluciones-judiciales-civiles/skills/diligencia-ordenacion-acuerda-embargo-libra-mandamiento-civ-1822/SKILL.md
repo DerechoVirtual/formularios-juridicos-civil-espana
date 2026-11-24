@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acuerda-embargo-libra-mandamiento-civ-1822
-description: "Diligencia de ordenación que acuerda el embargo y libra el mandamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acuerda el embargo y libra el mandamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acuerda el embargo y libra el mandamiento

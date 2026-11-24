@@ -1,6 +1,6 @@
 ---
 name: auto-declara-reservadas-actuaciones-civ-1905
-description: "Auto que declara reservadas las actuaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara reservadas las actuaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara reservadas las actuaciones

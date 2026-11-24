@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-contesta-alegaciones-ejecutado-pide-civ-1673
-description: "Escrito del ejecutante que contesta a las alegaciones del ejecutado y pide aprobar las cuentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante que contesta a las alegaciones del ejecutado y pide aprobar las cuentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante que contesta a las alegaciones del ejecutado y pide aprobar las cuentas

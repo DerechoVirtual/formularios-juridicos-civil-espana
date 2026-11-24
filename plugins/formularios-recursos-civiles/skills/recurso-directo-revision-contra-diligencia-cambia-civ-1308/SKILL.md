@@ -1,6 +1,6 @@
 ---
 name: recurso-directo-revision-contra-diligencia-cambia-civ-1308
-description: "Recurso directo de revisión contra la diligencia que cambia el procedimiento por razón de cuantía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso directo de revisión contra la diligencia que cambia el procedimiento por razón de cuantía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso directo de revisión contra la diligencia que cambia el procedimiento por razón de cuantía

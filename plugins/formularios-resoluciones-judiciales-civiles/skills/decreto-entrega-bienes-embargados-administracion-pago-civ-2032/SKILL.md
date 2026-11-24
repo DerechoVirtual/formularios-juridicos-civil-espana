@@ -1,6 +1,6 @@
 ---
 name: decreto-entrega-bienes-embargados-administracion-pago-civ-2032
-description: "Decreto que entrega los bienes embargados en administración para pago al ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que entrega los bienes embargados en administración para pago al ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que entrega los bienes embargados en administración para pago al ejecutante

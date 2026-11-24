@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-suspende-proceso-dar-traslado-civ-1921
-description: "Diligencia de ordenación que suspende el proceso para dar traslado de la sucesión procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que suspende el proceso para dar traslado de la sucesión procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que suspende el proceso para dar traslado de la sucesión procesal

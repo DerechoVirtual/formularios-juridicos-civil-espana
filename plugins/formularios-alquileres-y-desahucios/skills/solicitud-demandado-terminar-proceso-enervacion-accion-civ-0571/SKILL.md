@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-terminar-proceso-enervacion-accion-civ-0571
-description: "Solicitud del demandado de terminar el proceso por enervación de la acción de desahucio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de terminar el proceso por enervación de la acción de desahucio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de terminar el proceso por enervación de la acción de desahucio

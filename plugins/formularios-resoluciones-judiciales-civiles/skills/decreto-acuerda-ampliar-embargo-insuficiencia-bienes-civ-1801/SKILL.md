@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-ampliar-embargo-insuficiencia-bienes-civ-1801
-description: "Decreto que acuerda ampliar el embargo por insuficiencia de los bienes embargados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda ampliar el embargo por insuficiencia de los bienes embargados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda ampliar el embargo por insuficiencia de los bienes embargados

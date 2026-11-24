@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-resolver-suministro-exclusiva-civ-0738
-description: "Demanda de juicio ordinario para resolver un suministro con exclusiva y reclamar cantidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para resolver un suministro con exclusiva y reclamar cantidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para resolver un suministro con exclusiva y reclamar cantidad

@@ -1,6 +1,6 @@
 ---
 name: solicitud-suspender-ejecucion-laudo-arbitral-no-firme-civ-1586
-description: "Solicitud de suspender la ejecución de laudo arbitral no firme por acción de anulación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de suspender la ejecución de laudo arbitral no firme por acción de anulación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de suspender la ejecución de laudo arbitral no firme por acción de anulación

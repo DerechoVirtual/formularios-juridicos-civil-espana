@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-investigar-patrimonio-ejecutado-civ-1646
-description: "Escrito pidiendo investigar el patrimonio del ejecutado mediante oficio a una entidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo investigar el patrimonio del ejecutado mediante oficio a una entidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo investigar el patrimonio del ejecutado mediante oficio a una entidad

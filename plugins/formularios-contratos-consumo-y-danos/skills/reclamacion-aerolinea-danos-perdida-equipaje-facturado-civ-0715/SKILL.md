@@ -1,6 +1,6 @@
 ---
 name: reclamacion-aerolinea-danos-perdida-equipaje-facturado-civ-0715
-description: "Reclamación a la aerolínea por daños o pérdida del equipaje facturado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación a la aerolínea por daños o pérdida del equipaje facturado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación a la aerolínea por daños o pérdida del equipaje facturado

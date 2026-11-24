@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-convoca-comparecencia-realizar-civ-1943
-description: "Diligencia de ordenación que convoca comparecencia para realizar inmuebles por entidad especializada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que convoca comparecencia para realizar inmuebles por entidad especializada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que convoca comparecencia para realizar inmuebles por entidad especializada

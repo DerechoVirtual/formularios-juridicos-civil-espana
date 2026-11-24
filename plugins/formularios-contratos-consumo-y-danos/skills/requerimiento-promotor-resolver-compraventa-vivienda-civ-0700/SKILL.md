@@ -1,6 +1,6 @@
 ---
 name: requerimiento-promotor-resolver-compraventa-vivienda-civ-0700
-description: "Requerimiento al promotor para resolver la compraventa de vivienda sobre plano y devolver lo pagado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento al promotor para resolver la compraventa de vivienda sobre plano y devolver lo pagado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento al promotor para resolver la compraventa de vivienda sobre plano y devolver lo pagado

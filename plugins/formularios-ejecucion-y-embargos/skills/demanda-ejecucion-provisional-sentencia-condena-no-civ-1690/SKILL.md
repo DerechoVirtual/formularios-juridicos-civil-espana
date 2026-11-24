@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-provisional-sentencia-condena-no-civ-1690
-description: "Demanda de ejecución provisional de sentencia de condena no dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución provisional de sentencia de condena no dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución provisional de sentencia de condena no dineraria

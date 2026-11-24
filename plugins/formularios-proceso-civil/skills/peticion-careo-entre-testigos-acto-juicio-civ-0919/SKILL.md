@@ -1,6 +1,6 @@
 ---
 name: peticion-careo-entre-testigos-acto-juicio-civ-0919
-description: "Petición de careo entre testigos en el acto del juicio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de careo entre testigos en el acto del juicio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de careo entre testigos en el acto del juicio

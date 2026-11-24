@@ -1,6 +1,6 @@
 ---
 name: proposicion-prueba-audiencia-previa-juicio-ordinario-civ-0937
-description: "Proposición de prueba en la audiencia previa del juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de prueba en la audiencia previa del juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de prueba en la audiencia previa del juicio ordinario

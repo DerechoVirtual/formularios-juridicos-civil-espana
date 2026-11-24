@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-devuelve-bienes-ejecutado-vez-civ-2041
-description: "Diligencia de ordenación que devuelve los bienes al ejecutado una vez cobrada la deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que devuelve los bienes al ejecutado una vez cobrada la deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que devuelve los bienes al ejecutado una vez cobrada la deuda

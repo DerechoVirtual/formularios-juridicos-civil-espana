@@ -1,6 +1,6 @@
 ---
 name: escrito-tacha-testigo-juicio-ordinario-civ-0941
-description: "Escrito de tacha de testigo en el juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de tacha de testigo en el juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de tacha de testigo en el juicio ordinario

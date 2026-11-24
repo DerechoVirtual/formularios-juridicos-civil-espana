@@ -1,6 +1,6 @@
 ---
 name: escrito-plantea-competencia-violencia-sobre-mujer-civ-0262
-description: "Escrito que plantea la competencia de Violencia sobre la Mujer en un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que plantea la competencia de Violencia sobre la Mujer en un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que plantea la competencia de Violencia sobre la Mujer en un proceso matrimonial

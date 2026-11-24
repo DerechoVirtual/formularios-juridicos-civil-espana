@@ -1,6 +1,6 @@
 ---
 name: impugnacion-generica-recurso-reposicion-contra-decreto-civ-1311
-description: "Impugnación genérica del recurso de reposición contra un decreto del LAJ. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación genérica del recurso de reposición contra un decreto del LAJ. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación genérica del recurso de reposición contra un decreto del LAJ

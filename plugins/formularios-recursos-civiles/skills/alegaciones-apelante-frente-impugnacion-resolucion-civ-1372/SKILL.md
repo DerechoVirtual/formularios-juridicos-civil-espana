@@ -1,6 +1,6 @@
 ---
 name: alegaciones-apelante-frente-impugnacion-resolucion-civ-1372
-description: "Alegaciones del apelante frente a la impugnación de la resolución apelada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del apelante frente a la impugnación de la resolución apelada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del apelante frente a la impugnación de la resolución apelada

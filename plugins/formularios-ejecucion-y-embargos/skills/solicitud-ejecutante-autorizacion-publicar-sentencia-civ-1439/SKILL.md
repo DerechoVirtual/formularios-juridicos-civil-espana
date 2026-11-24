@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutante-autorizacion-publicar-sentencia-civ-1439
-description: "Solicitud del ejecutante de autorización para publicar la sentencia en medios a costa del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutante de autorización para publicar la sentencia en medios a costa del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutante de autorización para publicar la sentencia en medios a costa del ejecutado

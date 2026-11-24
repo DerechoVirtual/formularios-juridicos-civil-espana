@@ -1,6 +1,6 @@
 ---
 name: escrito-parte-no-proponente-pide-otros-extremos-civ-0922
-description: "Escrito de la parte no proponente que pide otros extremos en el reconocimiento judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de la parte no proponente que pide otros extremos en el reconocimiento judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de la parte no proponente que pide otros extremos en el reconocimiento judicial

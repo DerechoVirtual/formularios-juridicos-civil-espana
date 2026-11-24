@@ -1,6 +1,6 @@
 ---
 name: cuaderno-particional-presentado-contador-civ-0485
-description: "Cuaderno particional presentado por el contador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cuaderno particional presentado por el contador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cuaderno particional presentado por el contador

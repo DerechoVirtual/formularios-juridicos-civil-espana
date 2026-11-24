@@ -1,6 +1,6 @@
 ---
 name: solicitud-tercero-interes-legitimo-copia-documento-civ-1017
-description: "Solicitud de tercero con interés legítimo de copia de un documento obrante en el proceso civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de tercero con interés legítimo de copia de un documento obrante en el proceso civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de tercero con interés legítimo de copia de un documento obrante en el proceso civil

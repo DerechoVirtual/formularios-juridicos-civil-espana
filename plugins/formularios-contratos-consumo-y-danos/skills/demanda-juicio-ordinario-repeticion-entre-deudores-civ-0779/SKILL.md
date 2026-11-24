@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-repeticion-entre-deudores-civ-0779
-description: "Demanda de juicio ordinario de repetición entre deudores solidarios condenados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de repetición entre deudores solidarios condenados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de repetición entre deudores solidarios condenados

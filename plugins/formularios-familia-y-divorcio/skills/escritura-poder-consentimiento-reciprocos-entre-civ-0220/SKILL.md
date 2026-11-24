@@ -1,6 +1,6 @@
 ---
 name: escritura-poder-consentimiento-reciprocos-entre-civ-0220
-description: "Escritura de poder y consentimiento recíprocos entre cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de poder y consentimiento recíprocos entre cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de poder y consentimiento recíprocos entre cónyuges

@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-ejecucion-dineraria-clausulas-civ-1409
-description: "Escrito de oposición a la ejecución dineraria por cláusulas abusivas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la ejecución dineraria por cláusulas abusivas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la ejecución dineraria por cláusulas abusivas

@@ -1,6 +1,6 @@
 ---
 name: contrato-restitucion-mejora-bien-mueble-transmitido-civ-0839
-description: "Contrato de restitución y mejora de un bien mueble transmitido sin consentimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de restitución y mejora de un bien mueble transmitido sin consentimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de restitución y mejora de un bien mueble transmitido sin consentimiento

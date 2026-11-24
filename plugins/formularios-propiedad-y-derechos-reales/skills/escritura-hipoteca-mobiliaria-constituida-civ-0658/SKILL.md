@@ -1,6 +1,6 @@
 ---
 name: escritura-hipoteca-mobiliaria-constituida-civ-0658
-description: "Escritura de hipoteca mobiliaria constituida unilateralmente por el propietario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de hipoteca mobiliaria constituida unilateralmente por el propietario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de hipoteca mobiliaria constituida unilateralmente por el propietario

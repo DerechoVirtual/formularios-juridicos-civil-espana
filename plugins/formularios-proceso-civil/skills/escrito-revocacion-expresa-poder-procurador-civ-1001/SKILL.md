@@ -1,6 +1,6 @@
 ---
 name: escrito-revocacion-expresa-poder-procurador-civ-1001
-description: "Escrito de revocación expresa del poder del procurador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de revocación expresa del poder del procurador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de revocación expresa del poder del procurador

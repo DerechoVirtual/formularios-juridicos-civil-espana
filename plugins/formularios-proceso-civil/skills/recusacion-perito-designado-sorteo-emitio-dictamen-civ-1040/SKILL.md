@@ -1,6 +1,6 @@
 ---
 name: recusacion-perito-designado-sorteo-emitio-dictamen-civ-1040
-description: "Recusación del perito designado por sorteo que emitió dictamen extrajudicial sobre el mismo asunto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación del perito designado por sorteo que emitió dictamen extrajudicial sobre el mismo asunto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación del perito designado por sorteo que emitió dictamen extrajudicial sobre el mismo asunto

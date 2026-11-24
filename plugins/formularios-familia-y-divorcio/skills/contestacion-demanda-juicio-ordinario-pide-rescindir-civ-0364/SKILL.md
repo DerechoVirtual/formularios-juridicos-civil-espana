@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-juicio-ordinario-pide-rescindir-civ-0364
-description: "Contestación a demanda de juicio ordinario que pide rescindir la liquidación de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a demanda de juicio ordinario que pide rescindir la liquidación de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a demanda de juicio ordinario que pide rescindir la liquidación de gananciales

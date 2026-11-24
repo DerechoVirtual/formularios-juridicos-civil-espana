@@ -1,6 +1,6 @@
 ---
 name: recurso-casacion-ante-tsj-oposicion-doctrina-civ-1374
-description: "Recurso de casación ante el TSJ por oposición a doctrina jurisprudencial en Derecho civil propio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de casación ante el TSJ por oposición a doctrina jurisprudencial en Derecho civil propio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de casación ante el TSJ por oposición a doctrina jurisprudencial en Derecho civil propio

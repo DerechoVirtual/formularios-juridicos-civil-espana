@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamar-precio-impagado-civ-0735
-description: "Demanda de juicio ordinario para reclamar el precio impagado de una compraventa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para reclamar el precio impagado de una compraventa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para reclamar el precio impagado de una compraventa

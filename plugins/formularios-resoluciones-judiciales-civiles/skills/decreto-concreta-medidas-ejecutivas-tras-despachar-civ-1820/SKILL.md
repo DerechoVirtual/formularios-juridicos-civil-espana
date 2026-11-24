@@ -1,6 +1,6 @@
 ---
 name: decreto-concreta-medidas-ejecutivas-tras-despachar-civ-1820
-description: "Decreto que concreta las medidas ejecutivas tras despachar ejecución de una obligación de no hacer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que concreta las medidas ejecutivas tras despachar ejecución de una obligación de no hacer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que concreta las medidas ejecutivas tras despachar ejecución de una obligación de no hacer

@@ -1,6 +1,6 @@
 ---
 name: demanda-indemnizacion-resolucion-unilateral-civ-0520
-description: "Demanda de indemnización por resolución unilateral del arrendamiento de local por el inquilino. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de indemnización por resolución unilateral del arrendamiento de local por el inquilino. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de indemnización por resolución unilateral del arrendamiento de local por el inquilino

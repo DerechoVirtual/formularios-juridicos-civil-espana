@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-indicando-tribunal-remision-autos-civ-0890
-description: "Escrito del demandante indicando el tribunal de remisión de los autos ante varios fueros electivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante indicando el tribunal de remisión de los autos ante varios fueros electivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante indicando el tribunal de remisión de los autos ante varios fueros electivos

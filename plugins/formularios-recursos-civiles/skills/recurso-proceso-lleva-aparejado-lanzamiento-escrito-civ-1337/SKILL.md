@@ -1,6 +1,6 @@
 ---
 name: recurso-proceso-lleva-aparejado-lanzamiento-escrito-civ-1337
-description: "Recurso en proceso que lleva aparejado el lanzamiento (escrito). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso en proceso que lleva aparejado el lanzamiento (escrito). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso en proceso que lleva aparejado el lanzamiento (escrito)

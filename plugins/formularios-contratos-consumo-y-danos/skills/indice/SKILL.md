@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 173 formularios de Contratos civiles, consumo y reclamación de daños. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 173 formularios de Contratos civiles, consumo y reclamación de daños. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Contratos civiles, consumo y reclamación de daños: índice de formularios

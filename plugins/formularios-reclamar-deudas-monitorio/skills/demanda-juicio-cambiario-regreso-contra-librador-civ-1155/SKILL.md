@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-cambiario-regreso-contra-librador-civ-1155
-description: "Demanda de juicio cambiario por regreso contra el librador y directa contra el aceptante solidario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio cambiario por regreso contra el librador y directa contra el aceptante solidario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio cambiario por regreso contra el librador y directa contra el aceptante solidario

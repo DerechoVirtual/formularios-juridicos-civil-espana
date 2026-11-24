@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-sobre-comunicacion-visitas-civ-0359
-description: "Demanda de juicio verbal sobre comunicación y visitas de los abuelos con su nieto menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal sobre comunicación y visitas de los abuelos con su nieto menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal sobre comunicación y visitas de los abuelos con su nieto menor

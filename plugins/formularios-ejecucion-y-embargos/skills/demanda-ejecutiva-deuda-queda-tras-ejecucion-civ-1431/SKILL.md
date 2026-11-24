@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-deuda-queda-tras-ejecucion-civ-1431
-description: "Demanda ejecutiva por la deuda que queda tras una ejecución hipotecaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva por la deuda que queda tras una ejecución hipotecaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva por la deuda que queda tras una ejecución hipotecaria

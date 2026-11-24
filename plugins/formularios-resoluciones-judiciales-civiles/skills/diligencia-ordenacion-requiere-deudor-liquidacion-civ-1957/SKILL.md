@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-requiere-deudor-liquidacion-civ-1957
-description: "Diligencia de ordenación que requiere al deudor la liquidación de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que requiere al deudor la liquidación de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que requiere al deudor la liquidación de frutos y rentas

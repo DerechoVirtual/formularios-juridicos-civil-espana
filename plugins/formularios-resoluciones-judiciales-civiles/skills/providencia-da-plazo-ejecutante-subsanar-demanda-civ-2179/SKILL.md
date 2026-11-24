@@ -1,6 +1,6 @@
 ---
 name: providencia-da-plazo-ejecutante-subsanar-demanda-civ-2179
-description: "Providencia que da plazo al ejecutante para subsanar la demanda de ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que da plazo al ejecutante para subsanar la demanda de ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que da plazo al ejecutante para subsanar la demanda de ejecución

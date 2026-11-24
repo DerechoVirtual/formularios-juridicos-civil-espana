@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-matrimonial-ante-tribunal-eclesiastico-civ-0055
-description: "Demanda de nulidad matrimonial ante el Tribunal Eclesiástico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad matrimonial ante el Tribunal Eclesiástico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad matrimonial ante el Tribunal Eclesiástico

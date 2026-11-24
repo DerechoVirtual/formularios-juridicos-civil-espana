@@ -1,6 +1,6 @@
 ---
 name: demanda-rescision-contrato-garantizado-hipoteca-civ-0790
-description: "Demanda de rescisión de un contrato garantizado con hipoteca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de rescisión de un contrato garantizado con hipoteca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de rescisión de un contrato garantizado con hipoteca

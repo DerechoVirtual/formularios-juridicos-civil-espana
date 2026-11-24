@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-cambiario-pagare-declaracion-civ-1180
-description: "Demanda de juicio cambiario por pagaré con declaración sustitutiva de protesto y embargo preventivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio cambiario por pagaré con declaración sustitutiva de protesto y embargo preventivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio cambiario por pagaré con declaración sustitutiva de protesto y embargo preventivo

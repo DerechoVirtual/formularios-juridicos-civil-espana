@@ -1,6 +1,6 @@
 ---
 name: demanda-contra-declaracion-desamparo-razones-fondo-civ-0174
-description: "Demanda contra la declaración de desamparo por razones de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contra la declaración de desamparo por razones de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contra la declaración de desamparo por razones de fondo

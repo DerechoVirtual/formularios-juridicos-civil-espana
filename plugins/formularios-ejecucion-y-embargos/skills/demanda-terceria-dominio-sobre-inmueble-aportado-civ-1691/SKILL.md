@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-dominio-sobre-inmueble-aportado-civ-1691
-description: "Demanda de tercería de dominio sobre inmueble aportado a una sociedad sin inscribir en el Registro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de dominio sobre inmueble aportado a una sociedad sin inscribir en el Registro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de dominio sobre inmueble aportado a una sociedad sin inscribir en el Registro

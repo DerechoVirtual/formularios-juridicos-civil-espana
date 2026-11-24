@@ -1,6 +1,6 @@
 ---
 name: solicitud-dispensa-pontificia-matrimonio-rato-no-civ-0058
-description: "Solicitud de dispensa pontificia de matrimonio rato y no consumado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de dispensa pontificia de matrimonio rato y no consumado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de dispensa pontificia de matrimonio rato y no consumado

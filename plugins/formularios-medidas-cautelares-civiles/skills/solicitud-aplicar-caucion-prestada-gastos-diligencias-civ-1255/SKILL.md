@@ -1,6 +1,6 @@
 ---
 name: solicitud-aplicar-caucion-prestada-gastos-diligencias-civ-1255
-description: "Solicitud de aplicar la caución prestada a los gastos de las diligencias preliminares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de aplicar la caución prestada a los gastos de las diligencias preliminares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de aplicar la caución prestada a los gastos de las diligencias preliminares

@@ -1,6 +1,6 @@
 ---
 name: personacion-ante-audiencia-apelacion-pidiendo-civ-1577
-description: "Personación ante la Audiencia en apelación pidiendo testimonio para la ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación ante la Audiencia en apelación pidiendo testimonio para la ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación ante la Audiencia en apelación pidiendo testimonio para la ejecución provisional

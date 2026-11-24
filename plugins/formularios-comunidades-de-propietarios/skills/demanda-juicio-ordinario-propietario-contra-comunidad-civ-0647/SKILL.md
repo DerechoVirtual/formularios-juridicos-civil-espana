@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-propietario-contra-comunidad-civ-0647
-description: "Demanda de juicio ordinario de un propietario contra la comunidad por daños de elementos comunes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de un propietario contra la comunidad por daños de elementos comunes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de un propietario contra la comunidad por daños de elementos comunes

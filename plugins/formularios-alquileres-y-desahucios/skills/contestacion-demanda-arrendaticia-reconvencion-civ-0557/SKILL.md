@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-arrendaticia-reconvencion-civ-0557
-description: "Contestación a la demanda arrendaticia con reconvención para que el arrendador pague las obras. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda arrendaticia con reconvención para que el arrendador pague las obras. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda arrendaticia con reconvención para que el arrendador pague las obras

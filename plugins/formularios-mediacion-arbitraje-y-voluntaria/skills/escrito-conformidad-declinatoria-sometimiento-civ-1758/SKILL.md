@@ -1,6 +1,6 @@
 ---
 name: escrito-conformidad-declinatoria-sometimiento-civ-1758
-description: "Escrito de conformidad con la declinatoria por sometimiento a mediación (Ley 5 de 2012). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de conformidad con la declinatoria por sometimiento a mediación (Ley 5 de 2012). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de conformidad con la declinatoria por sometimiento a mediación (Ley 5 de 2012)

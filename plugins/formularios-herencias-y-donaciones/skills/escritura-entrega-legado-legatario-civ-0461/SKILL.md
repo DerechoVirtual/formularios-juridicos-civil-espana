@@ -1,6 +1,6 @@
 ---
 name: escritura-entrega-legado-legatario-civ-0461
-description: "Escritura de entrega del legado al legatario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de entrega del legado al legatario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de entrega del legado al legatario

@@ -1,6 +1,6 @@
 ---
 name: solicitud-autorizacion-retirar-vivienda-familiar-civ-0288
-description: "Solicitud de autorización para retirar de la vivienda familiar bienes de uso personal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de autorización para retirar de la vivienda familiar bienes de uso personal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de autorización para retirar de la vivienda familiar bienes de uso personal

@@ -1,6 +1,6 @@
 ---
 name: escritura-institucion-reciproca-heredero-segun-derecho-civ-0448
-description: "Escritura de institución recíproca de heredero según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de institución recíproca de heredero según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de institución recíproca de heredero según el Derecho aragonés

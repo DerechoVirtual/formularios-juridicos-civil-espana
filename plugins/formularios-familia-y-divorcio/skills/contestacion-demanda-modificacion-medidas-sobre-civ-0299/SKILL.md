@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-modificacion-medidas-sobre-civ-0299
-description: "Contestación a la demanda de modificación de medidas sobre aumento de gastos de los hijos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de modificación de medidas sobre aumento de gastos de los hijos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de modificación de medidas sobre aumento de gastos de los hijos

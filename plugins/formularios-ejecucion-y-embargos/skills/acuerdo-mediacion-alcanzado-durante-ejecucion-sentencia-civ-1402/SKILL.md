@@ -1,6 +1,6 @@
 ---
 name: acuerdo-mediacion-alcanzado-durante-ejecucion-sentencia-civ-1402
-description: "Acuerdo de mediación alcanzado durante la ejecución de una sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de mediación alcanzado durante la ejecución de una sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de mediación alcanzado durante la ejecución de una sentencia

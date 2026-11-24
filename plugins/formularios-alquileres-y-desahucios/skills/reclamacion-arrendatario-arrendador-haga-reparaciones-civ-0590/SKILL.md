@@ -1,6 +1,6 @@
 ---
 name: reclamacion-arrendatario-arrendador-haga-reparaciones-civ-0590
-description: "Reclamación del arrendatario al arrendador para que haga las reparaciones necesarias en la vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación del arrendatario al arrendador para que haga las reparaciones necesarias en la vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación del arrendatario al arrendador para que haga las reparaciones necesarias en la vivienda

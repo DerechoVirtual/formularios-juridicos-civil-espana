@@ -1,6 +1,6 @@
 ---
 name: demanda-modificacion-medidas-incumplimiento-reiterado-civ-0014
-description: "Demanda de modificación de medidas por incumplimiento reiterado del régimen de visitas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de modificación de medidas por incumplimiento reiterado del régimen de visitas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de modificación de medidas por incumplimiento reiterado del régimen de visitas

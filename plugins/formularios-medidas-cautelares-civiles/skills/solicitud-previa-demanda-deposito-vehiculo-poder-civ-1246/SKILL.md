@@ -1,6 +1,6 @@
 ---
 name: solicitud-previa-demanda-deposito-vehiculo-poder-civ-1246
-description: "Solicitud previa a la demanda de depósito del vehículo en poder del demandado, con caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud previa a la demanda de depósito del vehículo en poder del demandado, con caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud previa a la demanda de depósito del vehículo en poder del demandado, con caución

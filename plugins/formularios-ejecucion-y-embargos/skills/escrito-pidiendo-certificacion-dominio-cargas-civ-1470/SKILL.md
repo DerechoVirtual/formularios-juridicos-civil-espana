@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-certificacion-dominio-cargas-civ-1470
-description: "Escrito pidiendo certificación de dominio y cargas en el procedimiento ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo certificación de dominio y cargas en el procedimiento ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo certificación de dominio y cargas en el procedimiento ejecutivo

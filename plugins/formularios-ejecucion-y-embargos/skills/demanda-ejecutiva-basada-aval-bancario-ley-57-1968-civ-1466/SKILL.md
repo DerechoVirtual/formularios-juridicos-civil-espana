@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-aval-bancario-ley-57-1968-civ-1466
-description: "Demanda ejecutiva basada en aval bancario de la Ley 57 de 1968 sobre cantidades anticipadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en aval bancario de la Ley 57 de 1968 sobre cantidades anticipadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en aval bancario de la Ley 57 de 1968 sobre cantidades anticipadas

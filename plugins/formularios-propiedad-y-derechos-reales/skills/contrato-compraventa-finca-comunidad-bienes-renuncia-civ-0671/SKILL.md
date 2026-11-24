@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-finca-comunidad-bienes-renuncia-civ-0671
-description: "Contrato de compraventa de finca de una comunidad de bienes con renuncia solo al retracto legal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de finca de una comunidad de bienes con renuncia solo al retracto legal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de finca de una comunidad de bienes con renuncia solo al retracto legal

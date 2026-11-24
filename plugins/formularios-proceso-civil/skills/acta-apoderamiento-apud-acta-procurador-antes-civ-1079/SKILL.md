@@ -1,6 +1,6 @@
 ---
 name: acta-apoderamiento-apud-acta-procurador-antes-civ-1079
-description: "Acta de apoderamiento apud acta a procurador antes de presentar la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de apoderamiento apud acta a procurador antes de presentar la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de apoderamiento apud acta a procurador antes de presentar la demanda

@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-recoge-acuerdo-alcanzado-mediacion-civ-0011
-description: "Convenio regulador que recoge un acuerdo alcanzado en mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador que recoge un acuerdo alcanzado en mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador que recoge un acuerdo alcanzado en mediación

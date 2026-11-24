@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-haga-obra-indemnice-contra-civ-0734
-description: "Demanda de juicio verbal para que se haga una obra y se indemnice, contra fontanero y aseguradora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal para que se haga una obra y se indemnice, contra fontanero y aseguradora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal para que se haga una obra y se indemnice, contra fontanero y aseguradora

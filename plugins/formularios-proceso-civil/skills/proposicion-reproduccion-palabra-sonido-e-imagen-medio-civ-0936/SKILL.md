@@ -1,6 +1,6 @@
 ---
 name: proposicion-reproduccion-palabra-sonido-e-imagen-medio-civ-0936
-description: "Proposición de reproducción de palabra, sonido e imagen con medio instrumental. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de reproducción de palabra, sonido e imagen con medio instrumental. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de reproducción de palabra, sonido e imagen con medio instrumental

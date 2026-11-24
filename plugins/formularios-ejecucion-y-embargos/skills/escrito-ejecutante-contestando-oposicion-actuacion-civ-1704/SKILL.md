@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-contestando-oposicion-actuacion-civ-1704
-description: "Escrito del ejecutante contestando a la oposición a una actuación concreta en ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante contestando a la oposición a una actuación concreta en ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante contestando a la oposición a una actuación concreta en ejecución provisional

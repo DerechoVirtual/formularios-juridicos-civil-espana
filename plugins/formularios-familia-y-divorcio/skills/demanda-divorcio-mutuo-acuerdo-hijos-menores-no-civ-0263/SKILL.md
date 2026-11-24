@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-mutuo-acuerdo-hijos-menores-no-civ-0263
-description: "Demanda de divorcio de mutuo acuerdo con hijos menores no emancipados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de mutuo acuerdo con hijos menores no emancipados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de mutuo acuerdo con hijos menores no emancipados

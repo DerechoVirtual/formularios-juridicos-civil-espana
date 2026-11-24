@@ -1,6 +1,6 @@
 ---
 name: demanda-revision-renta-finca-rustica-arrendamiento-civ-0603
-description: "Demanda de revisión de renta de finca rústica (arrendamiento sujeto a la LAR 1980). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de revisión de renta de finca rústica (arrendamiento sujeto a la LAR 1980). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de revisión de renta de finca rústica (arrendamiento sujeto a la LAR 1980)

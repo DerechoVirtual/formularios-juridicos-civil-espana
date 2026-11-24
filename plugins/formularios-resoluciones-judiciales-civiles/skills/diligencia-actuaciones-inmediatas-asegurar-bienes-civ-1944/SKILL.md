@@ -1,6 +1,6 @@
 ---
 name: diligencia-actuaciones-inmediatas-asegurar-bienes-civ-1944
-description: "Diligencia de actuaciones inmediatas para asegurar los bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de actuaciones inmediatas para asegurar los bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de actuaciones inmediatas para asegurar los bienes de la herencia

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-contra-aseguradora-impago-civ-0692
-description: "Demanda de juicio ordinario contra la aseguradora por impago de un seguro contra robo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario contra la aseguradora por impago de un seguro contra robo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario contra la aseguradora por impago de un seguro contra robo

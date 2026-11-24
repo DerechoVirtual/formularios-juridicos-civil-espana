@@ -1,6 +1,6 @@
 ---
 name: oposicion-motivos-procesales-fondo-ejecucion-auto-civ-1482
-description: "Oposición por motivos procesales y de fondo a la ejecución de un auto de cuantía máxima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición por motivos procesales y de fondo a la ejecución de un auto de cuantía máxima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición por motivos procesales y de fondo a la ejecución de un auto de cuantía máxima

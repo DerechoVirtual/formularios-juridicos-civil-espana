@@ -1,6 +1,6 @@
 ---
 name: escrito-continuar-procedimiento-filiacion-contra-civ-0131
-description: "Escrito para continuar el procedimiento de filiación contra los herederos del demandado fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para continuar el procedimiento de filiación contra los herederos del demandado fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para continuar el procedimiento de filiación contra los herederos del demandado fallecido

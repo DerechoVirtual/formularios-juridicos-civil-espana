@@ -1,6 +1,6 @@
 ---
 name: escrito-renuncia-mediador-expediente-mediacion-civ-1743
-description: "Escrito de renuncia del mediador al expediente de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de renuncia del mediador al expediente de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de renuncia del mediador al expediente de mediación

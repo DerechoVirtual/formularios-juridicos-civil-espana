@@ -1,6 +1,6 @@
 ---
 name: peticion-correccion-laudo-extralimitarse-parcialmente-civ-1771
-description: "Petición de corrección del laudo por extralimitarse parcialmente el árbitro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de corrección del laudo por extralimitarse parcialmente el árbitro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de corrección del laudo por extralimitarse parcialmente el árbitro

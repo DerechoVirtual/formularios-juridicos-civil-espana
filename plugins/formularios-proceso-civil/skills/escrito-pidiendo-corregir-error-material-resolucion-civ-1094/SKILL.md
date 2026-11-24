@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-corregir-error-material-resolucion-civ-1094
-description: "Escrito pidiendo corregir por error material una resolución judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo corregir por error material una resolución judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo corregir por error material una resolución judicial

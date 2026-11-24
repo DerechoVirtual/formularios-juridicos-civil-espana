@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-conyuge-consentimiento-otro-convenio-civ-0101
-description: "Demanda de divorcio de un cónyuge con el consentimiento del otro y convenio regulador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de un cónyuge con el consentimiento del otro y convenio regulador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de un cónyuge con el consentimiento del otro y convenio regulador

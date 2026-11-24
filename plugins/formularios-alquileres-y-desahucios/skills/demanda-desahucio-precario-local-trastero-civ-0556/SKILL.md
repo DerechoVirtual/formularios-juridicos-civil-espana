@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-precario-local-trastero-civ-0556
-description: "Demanda de desahucio por precario de local trastero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio por precario de local trastero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio por precario de local trastero

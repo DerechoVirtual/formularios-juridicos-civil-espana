@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-arrendamiento-rustico-anterior-2004-civ-0601
-description: "Demanda de desahucio de arrendamiento rústico anterior a 2004 por fin del plazo y prórrogas legales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio de arrendamiento rústico anterior a 2004 por fin del plazo y prórrogas legales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio de arrendamiento rústico anterior a 2004 por fin del plazo y prórrogas legales

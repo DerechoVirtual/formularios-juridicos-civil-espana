@@ -1,6 +1,6 @@
 ---
 name: contrato-permuta-bienes-inmuebles-civ-0843
-description: "Contrato de permuta de bienes inmuebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de permuta de bienes inmuebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de permuta de bienes inmuebles

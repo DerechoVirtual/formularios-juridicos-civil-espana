@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-acuerdo-realizacion-bienes-embargados-civ-2069
-description: "Decreto que aprueba el acuerdo de realización de los bienes embargados y suspende la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el acuerdo de realización de los bienes embargados y suspende la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el acuerdo de realización de los bienes embargados y suspende la ejecución

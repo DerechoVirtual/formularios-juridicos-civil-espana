@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-presenciar-reconocimiento-lugares-civ-1111
-description: "Escrito pidiendo presenciar el reconocimiento de lugares, objetos o personas para el peritaje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo presenciar el reconocimiento de lugares, objetos o personas para el peritaje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo presenciar el reconocimiento de lugares, objetos o personas para el peritaje

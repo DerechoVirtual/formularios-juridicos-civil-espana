@@ -1,6 +1,6 @@
 ---
 name: solicitud-medidas-cautelares-proceso-filiacion-civ-0191
-description: "Solicitud de medidas cautelares en un proceso de filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de medidas cautelares en un proceso de filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de medidas cautelares en un proceso de filiación

@@ -1,6 +1,6 @@
 ---
 name: planteamiento-actor-falta-representacion-demandado-civ-0965
-description: "Planteamiento por el actor de la falta de representación del demandado en la audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Planteamiento por el actor de la falta de representación del demandado en la audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Planteamiento por el actor de la falta de representación del demandado en la audiencia previa

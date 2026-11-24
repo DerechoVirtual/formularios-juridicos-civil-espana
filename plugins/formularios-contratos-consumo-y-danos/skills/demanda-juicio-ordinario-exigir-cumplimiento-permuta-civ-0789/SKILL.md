@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-exigir-cumplimiento-permuta-civ-0789
-description: "Demanda de juicio ordinario para exigir el cumplimiento de una permuta inmobiliaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para exigir el cumplimiento de una permuta inmobiliaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para exigir el cumplimiento de una permuta inmobiliaria

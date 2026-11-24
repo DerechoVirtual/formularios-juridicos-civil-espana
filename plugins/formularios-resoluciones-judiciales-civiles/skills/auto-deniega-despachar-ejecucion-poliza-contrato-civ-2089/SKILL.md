@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-despachar-ejecucion-poliza-contrato-civ-2089
-description: "Auto que deniega despachar ejecución de póliza de contrato mercantil por falta de firma del corredor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega despachar ejecución de póliza de contrato mercantil por falta de firma del corredor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega despachar ejecución de póliza de contrato mercantil por falta de firma del corredor

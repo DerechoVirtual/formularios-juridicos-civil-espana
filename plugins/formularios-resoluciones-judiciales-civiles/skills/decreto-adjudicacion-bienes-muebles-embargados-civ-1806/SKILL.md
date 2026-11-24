@@ -1,6 +1,6 @@
 ---
 name: decreto-adjudicacion-bienes-muebles-embargados-civ-1806
-description: "Decreto de adjudicación de los bienes muebles embargados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto de adjudicación de los bienes muebles embargados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto de adjudicación de los bienes muebles embargados

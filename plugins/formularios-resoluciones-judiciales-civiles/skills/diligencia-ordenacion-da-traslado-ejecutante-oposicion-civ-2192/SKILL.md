@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-traslado-ejecutante-oposicion-civ-2192
-description: "Diligencia de ordenación que da traslado al ejecutante de la oposición solo por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da traslado al ejecutante de la oposición solo por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da traslado al ejecutante de la oposición solo por motivos de fondo

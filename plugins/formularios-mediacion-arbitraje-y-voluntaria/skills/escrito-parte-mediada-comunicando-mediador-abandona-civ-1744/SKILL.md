@@ -1,6 +1,6 @@
 ---
 name: escrito-parte-mediada-comunicando-mediador-abandona-civ-1744
-description: "Escrito de una parte mediada comunicando al mediador que abandona la mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de una parte mediada comunicando al mediador que abandona la mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de una parte mediada comunicando al mediador que abandona la mediación

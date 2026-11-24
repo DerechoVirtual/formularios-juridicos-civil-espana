@@ -1,6 +1,6 @@
 ---
 name: auto-ordena-devolver-parte-lo-cobrado-cuando-condena-civ-2175
-description: "Auto que ordena devolver parte de lo cobrado cuando la condena dineraria se revoca en parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que ordena devolver parte de lo cobrado cuando la condena dineraria se revoca en parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que ordena devolver parte de lo cobrado cuando la condena dineraria se revoca en parte

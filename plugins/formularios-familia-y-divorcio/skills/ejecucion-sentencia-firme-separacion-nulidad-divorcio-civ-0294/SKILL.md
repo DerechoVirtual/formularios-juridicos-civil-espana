@@ -1,6 +1,6 @@
 ---
 name: ejecucion-sentencia-firme-separacion-nulidad-divorcio-civ-0294
-description: "Ejecución de sentencia firme de separación, nulidad o divorcio (solicitud). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Ejecución de sentencia firme de separación, nulidad o divorcio (solicitud). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Ejecución de sentencia firme de separación, nulidad o divorcio (solicitud)

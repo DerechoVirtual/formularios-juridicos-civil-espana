@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-deudor-procedimiento-monitorio-civ-1168
-description: "Escrito de oposición del deudor en el procedimiento monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición del deudor en el procedimiento monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición del deudor en el procedimiento monitorio

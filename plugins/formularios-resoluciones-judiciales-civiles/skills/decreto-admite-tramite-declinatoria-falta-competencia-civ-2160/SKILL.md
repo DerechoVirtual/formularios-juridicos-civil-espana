@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-tramite-declinatoria-falta-competencia-civ-2160
-description: "Decreto que admite a trámite la declinatoria por falta de competencia territorial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite a trámite la declinatoria por falta de competencia territorial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite a trámite la declinatoria por falta de competencia territorial

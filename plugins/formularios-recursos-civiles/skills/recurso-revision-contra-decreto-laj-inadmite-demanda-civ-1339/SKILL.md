@@ -1,6 +1,6 @@
 ---
 name: recurso-revision-contra-decreto-laj-inadmite-demanda-civ-1339
-description: "Recurso de revisión contra el decreto del LAJ que inadmite la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de revisión contra el decreto del LAJ que inadmite la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de revisión contra el decreto del LAJ que inadmite la demanda

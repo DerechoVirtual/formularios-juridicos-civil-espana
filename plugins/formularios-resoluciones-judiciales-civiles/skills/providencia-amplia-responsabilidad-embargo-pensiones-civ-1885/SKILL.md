@@ -1,6 +1,6 @@
 ---
 name: providencia-amplia-responsabilidad-embargo-pensiones-civ-1885
-description: "Providencia que amplía la responsabilidad del embargo por pensiones impagadas en proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que amplía la responsabilidad del embargo por pensiones impagadas en proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que amplía la responsabilidad del embargo por pensiones impagadas en proceso matrimonial

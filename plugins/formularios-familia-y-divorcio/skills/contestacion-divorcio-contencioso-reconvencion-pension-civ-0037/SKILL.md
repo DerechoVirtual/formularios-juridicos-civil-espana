@@ -1,6 +1,6 @@
 ---
 name: contestacion-divorcio-contencioso-reconvencion-pension-civ-0037
-description: "Contestación a divorcio contencioso con reconvención de pensión compensatoria, Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a divorcio contencioso con reconvención de pensión compensatoria, Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a divorcio contencioso con reconvención de pensión compensatoria, Derecho catalán

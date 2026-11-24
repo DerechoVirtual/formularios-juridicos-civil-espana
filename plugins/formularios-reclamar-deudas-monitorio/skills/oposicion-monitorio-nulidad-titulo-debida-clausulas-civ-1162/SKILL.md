@@ -1,6 +1,6 @@
 ---
 name: oposicion-monitorio-nulidad-titulo-debida-clausulas-civ-1162
-description: "Oposición al monitorio por nulidad del título debida a cláusulas abusivas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al monitorio por nulidad del título debida a cláusulas abusivas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al monitorio por nulidad del título debida a cláusulas abusivas

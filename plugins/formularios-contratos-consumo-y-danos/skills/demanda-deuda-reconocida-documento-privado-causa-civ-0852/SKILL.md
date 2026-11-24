@@ -1,6 +1,6 @@
 ---
 name: demanda-deuda-reconocida-documento-privado-causa-civ-0852
-description: "Demanda por deuda reconocida en documento privado con causa fiduciaria o simulación relativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda por deuda reconocida en documento privado con causa fiduciaria o simulación relativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda por deuda reconocida en documento privado con causa fiduciaria o simulación relativa

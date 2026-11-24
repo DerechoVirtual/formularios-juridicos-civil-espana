@@ -1,6 +1,6 @@
 ---
 name: oposicion-reclamacion-actualizacion-pensiones-fijadas-civ-0286
-description: "Oposición a la reclamación de actualización de pensiones fijadas judicialmente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la reclamación de actualización de pensiones fijadas judicialmente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la reclamación de actualización de pensiones fijadas judicialmente

@@ -1,6 +1,6 @@
 ---
 name: contestacion-empresa-solicitud-arbitraje-reconvencion-civ-1778
-description: "Contestación de la empresa a la solicitud de arbitraje con reconvención contra el reclamante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación de la empresa a la solicitud de arbitraje con reconvención contra el reclamante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación de la empresa a la solicitud de arbitraje con reconvención contra el reclamante

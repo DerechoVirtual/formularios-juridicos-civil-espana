@@ -1,6 +1,6 @@
 ---
 name: otrosi-pide-embargo-preventivo-sin-audiencia-civ-1225
-description: "Otrosí que pide embargo preventivo sin audiencia de los demandados con proposición de prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que pide embargo preventivo sin audiencia de los demandados con proposición de prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que pide embargo preventivo sin audiencia de los demandados con proposición de prueba

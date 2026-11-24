@@ -1,6 +1,6 @@
 ---
 name: solicitud-nulidad-actuaciones-sentencia-quien-debio-civ-1321
-description: "Solicitud de nulidad de actuaciones de la sentencia por quien debió ser parte en el juicio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nulidad de actuaciones de la sentencia por quien debió ser parte en el juicio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nulidad de actuaciones de la sentencia por quien debió ser parte en el juicio

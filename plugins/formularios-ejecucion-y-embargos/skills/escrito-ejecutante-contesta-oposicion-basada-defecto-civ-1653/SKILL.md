@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-contesta-oposicion-basada-defecto-civ-1653
-description: "Escrito del ejecutante que contesta a la oposición basada en defecto procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante que contesta a la oposición basada en defecto procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante que contesta a la oposición basada en defecto procesal

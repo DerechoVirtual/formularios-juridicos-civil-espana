@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-costas-multa-mala-fe-procesal-civ-1188
-description: "Escrito pidiendo costas y multa por mala fe procesal al demandante que desiste en el monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo costas y multa por mala fe procesal al demandante que desiste en el monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo costas y multa por mala fe procesal al demandante que desiste en el monitorio

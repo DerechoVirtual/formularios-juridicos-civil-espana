@@ -1,6 +1,6 @@
 ---
 name: solicitud-inicio-mediacion-parte-cumplimiento-pacto-civ-1729
-description: "Solicitud de inicio de mediación por una parte en cumplimiento de un pacto de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de inicio de mediación por una parte en cumplimiento de un pacto de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de inicio de mediación por una parte en cumplimiento de un pacto de mediación

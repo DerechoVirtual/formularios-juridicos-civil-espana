@@ -1,6 +1,6 @@
 ---
 name: escrito-ampliacion-hechos-demanda-cambio-liquidador-civ-1116
-description: "Escrito de ampliación de hechos de la demanda por cambio de liquidador, con documentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de ampliación de hechos de la demanda por cambio de liquidador, con documentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de ampliación de hechos de la demanda por cambio de liquidador, con documentos

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-audiencia-vencedor-sobre-civ-2096
-description: "Diligencia de ordenación que da audiencia al vencedor sobre mantener o sustituir la medida cautelar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da audiencia al vencedor sobre mantener o sustituir la medida cautelar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da audiencia al vencedor sobre mantener o sustituir la medida cautelar

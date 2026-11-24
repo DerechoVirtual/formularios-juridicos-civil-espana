@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-danos-derivados-accidente-civ-0845
-description: "Demanda de juicio ordinario por daños derivados de accidente de circulación de vehículos de motor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por daños derivados de accidente de circulación de vehículos de motor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por daños derivados de accidente de circulación de vehículos de motor

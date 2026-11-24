@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-convoca-vista-sobre-medidas-civ-2138
-description: "Diligencia de ordenación que convoca vista sobre medidas protectoras y alimentos en filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que convoca vista sobre medidas protectoras y alimentos en filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que convoca vista sobre medidas protectoras y alimentos en filiación

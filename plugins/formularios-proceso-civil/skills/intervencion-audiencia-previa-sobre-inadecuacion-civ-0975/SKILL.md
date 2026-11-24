@@ -1,6 +1,6 @@
 ---
 name: intervencion-audiencia-previa-sobre-inadecuacion-civ-0975
-description: "Intervención en la audiencia previa sobre inadecuación de procedimiento por razón de la materia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervención en la audiencia previa sobre inadecuación de procedimiento por razón de la materia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervención en la audiencia previa sobre inadecuación de procedimiento por razón de la materia

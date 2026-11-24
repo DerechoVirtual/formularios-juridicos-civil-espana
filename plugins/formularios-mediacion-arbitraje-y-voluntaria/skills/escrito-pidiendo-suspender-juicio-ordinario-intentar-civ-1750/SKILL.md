@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-suspender-juicio-ordinario-intentar-civ-1750
-description: "Escrito pidiendo suspender el juicio ordinario para intentar la mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo suspender el juicio ordinario para intentar la mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo suspender el juicio ordinario para intentar la mediación

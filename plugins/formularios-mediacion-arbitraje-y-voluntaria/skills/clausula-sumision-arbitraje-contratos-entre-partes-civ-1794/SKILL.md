@@ -1,6 +1,6 @@
 ---
 name: clausula-sumision-arbitraje-contratos-entre-partes-civ-1794
-description: "Cláusula de sumisión a arbitraje en los contratos entre las partes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula de sumisión a arbitraje en los contratos entre las partes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula de sumisión a arbitraje en los contratos entre las partes

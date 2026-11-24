@@ -1,6 +1,6 @@
 ---
 name: demanda-reclamacion-filiacion-paterna-civ-0264
-description: "Demanda de reclamación de filiación paterna. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reclamación de filiación paterna. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reclamación de filiación paterna

@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-diligencia-final-extraordinaria-civ-2119
-description: "Auto que acuerda una diligencia final extraordinaria de ampliación del dictamen pericial económico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda una diligencia final extraordinaria de ampliación del dictamen pericial económico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda una diligencia final extraordinaria de ampliación del dictamen pericial económico

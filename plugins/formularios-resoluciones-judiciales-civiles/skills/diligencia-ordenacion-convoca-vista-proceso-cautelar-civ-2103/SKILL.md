@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-convoca-vista-proceso-cautelar-civ-2103
-description: "Diligencia de ordenación que convoca vista en el proceso cautelar instado con la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que convoca vista en el proceso cautelar instado con la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que convoca vista en el proceso cautelar instado con la demanda

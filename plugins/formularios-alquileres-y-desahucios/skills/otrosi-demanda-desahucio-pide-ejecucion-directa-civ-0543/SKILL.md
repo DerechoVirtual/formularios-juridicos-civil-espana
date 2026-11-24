@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-desahucio-pide-ejecucion-directa-civ-0543
-description: "Otrosí de demanda de desahucio que pide la ejecución directa de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de demanda de desahucio que pide la ejecución directa de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de demanda de desahucio que pide la ejecución directa de la sentencia

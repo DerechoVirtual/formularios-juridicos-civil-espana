@@ -1,6 +1,6 @@
 ---
 name: requerimiento-inicial-ante-notario-declaracion-civ-0470
-description: "Requerimiento inicial ante notario para la declaración de herederos abintestato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento inicial ante notario para la declaración de herederos abintestato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento inicial ante notario para la declaración de herederos abintestato

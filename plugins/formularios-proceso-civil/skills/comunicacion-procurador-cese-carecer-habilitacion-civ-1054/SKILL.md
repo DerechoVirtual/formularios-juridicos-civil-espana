@@ -1,6 +1,6 @@
 ---
 name: comunicacion-procurador-cese-carecer-habilitacion-civ-1054
-description: "Comunicación del procurador de su cese por carecer de habilitación para actuar en el recurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del procurador de su cese por carecer de habilitación para actuar en el recurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del procurador de su cese por carecer de habilitación para actuar en el recurso

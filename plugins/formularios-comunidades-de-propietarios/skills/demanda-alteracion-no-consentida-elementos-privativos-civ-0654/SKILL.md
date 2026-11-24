@@ -1,6 +1,6 @@
 ---
 name: demanda-alteracion-no-consentida-elementos-privativos-civ-0654
-description: "Demanda por alteración no consentida de elementos privativos que afecta a elementos comunes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda por alteración no consentida de elementos privativos que afecta a elementos comunes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda por alteración no consentida de elementos privativos que afecta a elementos comunes

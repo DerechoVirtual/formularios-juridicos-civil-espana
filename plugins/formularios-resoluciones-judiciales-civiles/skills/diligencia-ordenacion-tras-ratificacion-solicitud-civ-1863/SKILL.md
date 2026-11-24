@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-tras-ratificacion-solicitud-civ-1863
-description: "Diligencia de ordenación tras la ratificación de la solicitud de divorcio de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación tras la ratificación de la solicitud de divorcio de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación tras la ratificación de la solicitud de divorcio de mutuo acuerdo

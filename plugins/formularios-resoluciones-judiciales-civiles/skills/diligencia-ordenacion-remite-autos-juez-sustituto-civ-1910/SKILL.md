@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-remite-autos-juez-sustituto-civ-1910
-description: "Diligencia de ordenación que remite los autos al juez sustituto y la recusación a la Audiencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que remite los autos al juez sustituto y la recusación a la Audiencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que remite los autos al juez sustituto y la recusación a la Audiencia

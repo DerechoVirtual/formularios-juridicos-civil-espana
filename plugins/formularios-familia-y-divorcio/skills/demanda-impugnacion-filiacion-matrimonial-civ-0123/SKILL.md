@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-filiacion-matrimonial-civ-0123
-description: "Demanda de impugnación de filiación matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de filiación matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de filiación matrimonial

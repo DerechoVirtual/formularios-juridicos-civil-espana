@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-pone-fin-administracion-pago-civ-2042
-description: "Diligencia de ordenación que pone fin a la administración para pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que pone fin a la administración para pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que pone fin a la administración para pago

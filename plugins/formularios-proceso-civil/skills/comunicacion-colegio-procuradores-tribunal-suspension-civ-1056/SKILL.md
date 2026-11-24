@@ -1,6 +1,6 @@
 ---
 name: comunicacion-colegio-procuradores-tribunal-suspension-civ-1056
-description: "Comunicación del Colegio de Procuradores al tribunal de la suspensión de un procurador por sanción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del Colegio de Procuradores al tribunal de la suspensión de un procurador por sanción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del Colegio de Procuradores al tribunal de la suspensión de un procurador por sanción

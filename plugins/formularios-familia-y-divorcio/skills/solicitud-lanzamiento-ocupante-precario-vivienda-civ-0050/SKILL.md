@@ -1,6 +1,6 @@
 ---
 name: solicitud-lanzamiento-ocupante-precario-vivienda-civ-0050
-description: "Solicitud de lanzamiento del ocupante en precario de la vivienda familiar tras separación o divorcio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de lanzamiento del ocupante en precario de la vivienda familiar tras separación o divorcio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de lanzamiento del ocupante en precario de la vivienda familiar tras separación o divorcio

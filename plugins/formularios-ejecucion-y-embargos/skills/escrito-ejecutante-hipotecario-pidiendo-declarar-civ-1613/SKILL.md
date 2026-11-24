@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-hipotecario-pidiendo-declarar-civ-1613
-description: "Escrito del ejecutante hipotecario pidiendo declarar que el ocupante de la finca no puede permanecer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante hipotecario pidiendo declarar que el ocupante de la finca no puede permanecer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante hipotecario pidiendo declarar que el ocupante de la finca no puede permanecer

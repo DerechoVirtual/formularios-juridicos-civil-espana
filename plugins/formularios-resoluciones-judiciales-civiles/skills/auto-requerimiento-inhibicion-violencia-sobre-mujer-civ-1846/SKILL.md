@@ -1,6 +1,6 @@
 ---
 name: auto-requerimiento-inhibicion-violencia-sobre-mujer-civ-1846
-description: "Auto de requerimiento de inhibición de Violencia sobre la Mujer a Familia tras denuncia del Fiscal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de requerimiento de inhibición de Violencia sobre la Mujer a Familia tras denuncia del Fiscal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de requerimiento de inhibición de Violencia sobre la Mujer a Familia tras denuncia del Fiscal

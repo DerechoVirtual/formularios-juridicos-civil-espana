@@ -1,6 +1,6 @@
 ---
 name: contestacion-divorcio-contencioso-medidas-propuestas-civ-0039
-description: "Contestación a divorcio contencioso con medidas propuestas y reconvención de alimentos a hijo mayor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a divorcio contencioso con medidas propuestas y reconvención de alimentos a hijo mayor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a divorcio contencioso con medidas propuestas y reconvención de alimentos a hijo mayor

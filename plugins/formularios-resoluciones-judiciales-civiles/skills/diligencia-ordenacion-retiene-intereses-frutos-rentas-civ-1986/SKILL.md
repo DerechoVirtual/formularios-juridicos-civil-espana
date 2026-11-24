@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-retiene-intereses-frutos-rentas-civ-1986
-description: "Diligencia de ordenación que retiene intereses, frutos o rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que retiene intereses, frutos o rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que retiene intereses, frutos o rentas

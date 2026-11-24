@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-provisional-pide-reducir-pension-civ-1452
-description: "Oposición a la ejecución provisional que pide reducir la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución provisional que pide reducir la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución provisional que pide reducir la pensión compensatoria

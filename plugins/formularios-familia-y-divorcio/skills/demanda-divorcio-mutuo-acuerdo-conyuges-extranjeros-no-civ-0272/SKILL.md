@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-mutuo-acuerdo-conyuges-extranjeros-no-civ-0272
-description: "Demanda de divorcio de mutuo acuerdo de cónyuges extranjeros no comunitarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de mutuo acuerdo de cónyuges extranjeros no comunitarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de mutuo acuerdo de cónyuges extranjeros no comunitarios

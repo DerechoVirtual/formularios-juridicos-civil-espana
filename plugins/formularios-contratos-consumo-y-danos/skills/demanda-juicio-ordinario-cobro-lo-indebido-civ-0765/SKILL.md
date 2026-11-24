@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-cobro-lo-indebido-civ-0765
-description: "Demanda de juicio ordinario por cobro de lo indebido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por cobro de lo indebido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por cobro de lo indebido

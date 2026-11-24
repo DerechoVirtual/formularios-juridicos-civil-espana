@@ -1,6 +1,6 @@
 ---
 name: oposicion-actuaciones-ejecutivas-concretas-infraccion-civ-1565
-description: "Oposición a actuaciones ejecutivas concretas por infracción de la ley. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a actuaciones ejecutivas concretas por infracción de la ley. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a actuaciones ejecutivas concretas por infracción de la ley

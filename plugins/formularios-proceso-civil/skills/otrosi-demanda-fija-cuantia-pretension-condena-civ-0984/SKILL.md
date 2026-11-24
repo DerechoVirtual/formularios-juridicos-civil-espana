@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-fija-cuantia-pretension-condena-civ-0984
-description: "Otrosí de la demanda que fija la cuantía en la pretensión de condena a entregar un inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda que fija la cuantía en la pretensión de condena a entregar un inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda que fija la cuantía en la pretensión de condena a entregar un inmueble

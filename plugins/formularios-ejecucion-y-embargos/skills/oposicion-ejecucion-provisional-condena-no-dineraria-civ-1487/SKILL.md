@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-provisional-condena-no-dineraria-civ-1487
-description: "Oposición a la ejecución provisional de una condena no dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución provisional de una condena no dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución provisional de una condena no dineraria

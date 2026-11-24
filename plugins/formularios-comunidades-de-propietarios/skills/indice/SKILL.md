@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 46 formularios de Comunidades de propietarios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 46 formularios de Comunidades de propietarios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Comunidades de propietarios: índice de formularios

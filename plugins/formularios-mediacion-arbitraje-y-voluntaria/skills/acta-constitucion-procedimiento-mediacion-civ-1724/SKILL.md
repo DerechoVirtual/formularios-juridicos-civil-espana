@@ -1,6 +1,6 @@
 ---
 name: acta-constitucion-procedimiento-mediacion-civ-1724
-description: "Acta de constitución de un procedimiento de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de constitución de un procedimiento de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de constitución de un procedimiento de mediación

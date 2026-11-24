@@ -1,6 +1,6 @@
 ---
 name: escrito-comunicando-tribunal-cambio-domicilio-empresa-civ-1147
-description: "Escrito comunicando al Tribunal el cambio de domicilio de la empresa demandada en el monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito comunicando al Tribunal el cambio de domicilio de la empresa demandada en el monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito comunicando al Tribunal el cambio de domicilio de la empresa demandada en el monitorio

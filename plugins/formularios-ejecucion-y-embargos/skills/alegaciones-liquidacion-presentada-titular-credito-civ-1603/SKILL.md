@@ -1,6 +1,6 @@
 ---
 name: alegaciones-liquidacion-presentada-titular-credito-civ-1603
-description: "Alegaciones a la liquidación presentada por el titular de un crédito posterior. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones a la liquidación presentada por el titular de un crédito posterior. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones a la liquidación presentada por el titular de un crédito posterior

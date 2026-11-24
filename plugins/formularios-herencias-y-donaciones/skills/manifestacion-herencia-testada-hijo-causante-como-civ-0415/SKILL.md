@@ -1,6 +1,6 @@
 ---
 name: manifestacion-herencia-testada-hijo-causante-como-civ-0415
-description: "Manifestación de herencia testada por el hijo del causante como heredero único. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Manifestación de herencia testada por el hijo del causante como heredero único. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Manifestación de herencia testada por el hijo del causante como heredero único

@@ -1,6 +1,6 @@
 ---
 name: nulidad-actuaciones-falta-inmediacion-judicial-vista-civ-1385
-description: "Nulidad de actuaciones por falta de inmediación judicial en la vista del incidente de intereses. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Nulidad de actuaciones por falta de inmediación judicial en la vista del incidente de intereses. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Nulidad de actuaciones por falta de inmediación judicial en la vista del incidente de intereses

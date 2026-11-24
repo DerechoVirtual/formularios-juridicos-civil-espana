@@ -1,6 +1,6 @@
 ---
 name: demanda-generica-juicio-ordinario-reclamacion-cantidad-civ-0780
-description: "Demanda genérica de juicio ordinario de reclamación de cantidad por incumplimiento de contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda genérica de juicio ordinario de reclamación de cantidad por incumplimiento de contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda genérica de juicio ordinario de reclamación de cantidad por incumplimiento de contrato

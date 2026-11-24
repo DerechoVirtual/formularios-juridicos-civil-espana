@@ -1,6 +1,6 @@
 ---
 name: cuestion-incidental-previo-pronunciamiento-falta-civ-0927
-description: "Cuestión incidental de previo pronunciamiento por falta de capacidad del demandante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cuestión incidental de previo pronunciamiento por falta de capacidad del demandante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cuestión incidental de previo pronunciamiento por falta de capacidad del demandante

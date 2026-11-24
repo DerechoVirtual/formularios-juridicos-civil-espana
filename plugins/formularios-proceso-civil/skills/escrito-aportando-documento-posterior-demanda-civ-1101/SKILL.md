@@ -1,6 +1,6 @@
 ---
 name: escrito-aportando-documento-posterior-demanda-civ-1101
-description: "Escrito aportando un documento posterior a la demanda, a la contestación o a la audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito aportando un documento posterior a la demanda, a la contestación o a la audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito aportando un documento posterior a la demanda, a la contestación o a la audiencia previa

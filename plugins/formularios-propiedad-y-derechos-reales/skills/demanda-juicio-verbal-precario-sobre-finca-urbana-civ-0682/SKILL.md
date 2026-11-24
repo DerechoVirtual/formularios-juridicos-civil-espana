@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-precario-sobre-finca-urbana-civ-0682
-description: "Demanda de juicio verbal de precario sobre finca urbana. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de precario sobre finca urbana. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de precario sobre finca urbana

@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-pidiendo-contestar-alegacion-nulidad-civ-1107
-description: "Escrito del actor pidiendo contestar a la alegación de nulidad del negocio hecha por el demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor pidiendo contestar a la alegación de nulidad del negocio hecha por el demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor pidiendo contestar a la alegación de nulidad del negocio hecha por el demandado

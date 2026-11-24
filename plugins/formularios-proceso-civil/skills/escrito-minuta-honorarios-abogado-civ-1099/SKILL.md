@@ -1,6 +1,6 @@
 ---
 name: escrito-minuta-honorarios-abogado-civ-1099
-description: "Escrito de minuta de honorarios del abogado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de minuta de honorarios del abogado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de minuta de honorarios del abogado

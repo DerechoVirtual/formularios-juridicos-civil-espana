@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-acuerdo-junta-propietarios-abuso-civ-0631
-description: "Demanda de impugnación de un acuerdo de la junta de propietarios por abuso de derecho (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de un acuerdo de la junta de propietarios por abuso de derecho (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de un acuerdo de la junta de propietarios por abuso de derecho (Cataluña)

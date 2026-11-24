@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutante-ampliar-embargo-tras-admitirse-civ-1535
-description: "Solicitud del ejecutante de ampliar el embargo tras admitirse una tercería de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutante de ampliar el embargo tras admitirse una tercería de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutante de ampliar el embargo tras admitirse una tercería de dominio

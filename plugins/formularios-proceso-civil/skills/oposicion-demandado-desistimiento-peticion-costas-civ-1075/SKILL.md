@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandado-desistimiento-peticion-costas-civ-1075
-description: "Oposición del demandado al desistimiento con petición de costas, antes de contestar a la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandado al desistimiento con petición de costas, antes de contestar a la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandado al desistimiento con petición de costas, antes de contestar a la demanda

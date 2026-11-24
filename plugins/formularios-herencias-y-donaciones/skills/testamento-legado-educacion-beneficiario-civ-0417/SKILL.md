@@ -1,6 +1,6 @@
 ---
 name: testamento-legado-educacion-beneficiario-civ-0417
-description: "Testamento con legado para la educación de un beneficiario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con legado para la educación de un beneficiario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con legado para la educación de un beneficiario

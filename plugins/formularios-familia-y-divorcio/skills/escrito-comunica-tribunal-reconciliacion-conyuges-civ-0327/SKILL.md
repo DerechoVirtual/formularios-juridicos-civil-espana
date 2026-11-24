@@ -1,6 +1,6 @@
 ---
 name: escrito-comunica-tribunal-reconciliacion-conyuges-civ-0327
-description: "Escrito que comunica al tribunal la reconciliación de los cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que comunica al tribunal la reconciliación de los cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que comunica al tribunal la reconciliación de los cónyuges

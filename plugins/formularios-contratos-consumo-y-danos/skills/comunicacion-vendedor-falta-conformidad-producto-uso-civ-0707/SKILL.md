@@ -1,6 +1,6 @@
 ---
 name: comunicacion-vendedor-falta-conformidad-producto-uso-civ-0707
-description: "Comunicación al vendedor de falta de conformidad del producto de uso especial y reparación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al vendedor de falta de conformidad del producto de uso especial y reparación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al vendedor de falta de conformidad del producto de uso especial y reparación

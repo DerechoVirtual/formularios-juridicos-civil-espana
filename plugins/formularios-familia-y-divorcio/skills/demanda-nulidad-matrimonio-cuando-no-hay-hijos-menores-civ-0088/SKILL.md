@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-matrimonio-cuando-no-hay-hijos-menores-civ-0088
-description: "Demanda de nulidad del matrimonio cuando no hay hijos menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad del matrimonio cuando no hay hijos menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad del matrimonio cuando no hay hijos menores

@@ -1,6 +1,6 @@
 ---
 name: escrito-impugnando-cuenta-final-justificada-civ-1628
-description: "Escrito impugnando la cuenta final justificada del administrador judicial en la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito impugnando la cuenta final justificada del administrador judicial en la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito impugnando la cuenta final justificada del administrador judicial en la ejecución

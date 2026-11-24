@@ -1,6 +1,6 @@
 ---
 name: solicitud-arbitraje-consumo-facturacion-telefonia-civ-1786
-description: "Solicitud de arbitraje de consumo por la facturación de telefonía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de arbitraje de consumo por la facturación de telefonía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de arbitraje de consumo por la facturación de telefonía

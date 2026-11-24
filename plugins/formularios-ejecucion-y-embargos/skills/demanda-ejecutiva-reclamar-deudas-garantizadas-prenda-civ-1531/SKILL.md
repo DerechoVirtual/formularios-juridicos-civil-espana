@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-reclamar-deudas-garantizadas-prenda-civ-1531
-description: "Demanda ejecutiva para reclamar deudas garantizadas con prenda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva para reclamar deudas garantizadas con prenda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva para reclamar deudas garantizadas con prenda

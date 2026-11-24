@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-divorcio-peticion-modificar-civ-0043
-description: "Demanda contenciosa de divorcio con petición de modificar la pensión de alimentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de divorcio con petición de modificar la pensión de alimentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de divorcio con petición de modificar la pensión de alimentos

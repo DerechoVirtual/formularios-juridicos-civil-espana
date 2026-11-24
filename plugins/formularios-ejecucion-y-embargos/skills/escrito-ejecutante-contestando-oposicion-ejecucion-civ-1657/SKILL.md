@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-contestando-oposicion-ejecucion-civ-1657
-description: "Escrito del ejecutante contestando a la oposición a la ejecución provisional por infracción procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante contestando a la oposición a la ejecución provisional por infracción procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante contestando a la oposición a la ejecución provisional por infracción procesal

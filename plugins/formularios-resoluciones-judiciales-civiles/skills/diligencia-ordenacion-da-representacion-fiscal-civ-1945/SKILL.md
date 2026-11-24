@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-representacion-fiscal-civ-1945
-description: "Diligencia de ordenación que da representación al fiscal del heredero ausente y cita a inventario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da representación al fiscal del heredero ausente y cita a inventario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da representación al fiscal del heredero ausente y cita a inventario

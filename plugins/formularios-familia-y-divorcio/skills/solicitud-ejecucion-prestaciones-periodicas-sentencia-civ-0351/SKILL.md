@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-prestaciones-periodicas-sentencia-civ-0351
-description: "Solicitud de ejecución de prestaciones periódicas de la sentencia de separación y las provisionales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución de prestaciones periódicas de la sentencia de separación y las provisionales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución de prestaciones periódicas de la sentencia de separación y las provisionales

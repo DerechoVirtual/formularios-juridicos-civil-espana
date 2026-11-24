@@ -1,6 +1,6 @@
 ---
 name: escritura-poder-vender-bienes-gananciales-civ-0221
-description: "Escritura de poder para vender bienes gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de poder para vender bienes gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de poder para vender bienes gananciales

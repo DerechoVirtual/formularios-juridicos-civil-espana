@@ -1,6 +1,6 @@
 ---
 name: auto-ratifica-embargo-gananciales-deuda-no-privativa-civ-2124
-description: "Auto que ratifica el embargo de gananciales por deuda no privativa derivada de accidente de tráfico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que ratifica el embargo de gananciales por deuda no privativa derivada de accidente de tráfico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que ratifica el embargo de gananciales por deuda no privativa derivada de accidente de tráfico

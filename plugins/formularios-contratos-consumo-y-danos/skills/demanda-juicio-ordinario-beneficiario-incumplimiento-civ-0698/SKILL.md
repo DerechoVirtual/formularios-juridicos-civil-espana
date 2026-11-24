@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-beneficiario-incumplimiento-civ-0698
-description: "Demanda de juicio ordinario del beneficiario por incumplimiento de un seguro de accidentes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario del beneficiario por incumplimiento de un seguro de accidentes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario del beneficiario por incumplimiento de un seguro de accidentes

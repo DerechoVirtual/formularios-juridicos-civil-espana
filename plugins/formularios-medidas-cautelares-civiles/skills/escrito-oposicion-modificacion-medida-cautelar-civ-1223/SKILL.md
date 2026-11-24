@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-modificacion-medida-cautelar-civ-1223
-description: "Escrito de oposición a la modificación de una medida cautelar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la modificación de una medida cautelar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la modificación de una medida cautelar

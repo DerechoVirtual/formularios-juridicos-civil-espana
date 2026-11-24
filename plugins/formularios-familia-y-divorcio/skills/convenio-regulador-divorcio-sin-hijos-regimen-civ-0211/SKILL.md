@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-divorcio-sin-hijos-regimen-civ-0211
-description: "Convenio regulador de divorcio sin hijos con régimen de separación de bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de divorcio sin hijos con régimen de separación de bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de divorcio sin hijos con régimen de separación de bienes

@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-sentencia-firme-contra-herederos-civ-1400
-description: "Demanda ejecutiva de sentencia firme contra los herederos del condenado fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de sentencia firme contra los herederos del condenado fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de sentencia firme contra los herederos del condenado fallecido

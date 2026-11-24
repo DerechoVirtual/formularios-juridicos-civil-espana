@@ -1,6 +1,6 @@
 ---
 name: contrato-opcion-compra-civ-0802
-description: "Contrato de opción de compra. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de opción de compra. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de opción de compra

@@ -1,6 +1,6 @@
 ---
 name: reglamento-regimen-interior-comunidad-propietarios-civ-0636
-description: "Reglamento de régimen interior de una comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reglamento de régimen interior de una comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reglamento de régimen interior de una comunidad de propietarios

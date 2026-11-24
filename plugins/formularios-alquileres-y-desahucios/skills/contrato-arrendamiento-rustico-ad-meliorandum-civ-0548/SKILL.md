@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-rustico-ad-meliorandum-civ-0548
-description: "Contrato de arrendamiento rústico ad meliorandum. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento rústico ad meliorandum. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento rústico ad meliorandum

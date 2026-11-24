@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutante-mandamiento-conforme-articulo-144-civ-1606
-description: "Solicitud del ejecutante de mandamiento conforme al artículo 144 de la Ley Hipotecaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutante de mandamiento conforme al artículo 144 de la Ley Hipotecaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutante de mandamiento conforme al artículo 144 de la Ley Hipotecaria

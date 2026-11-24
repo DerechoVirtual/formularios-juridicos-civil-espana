@@ -1,6 +1,6 @@
 ---
 name: recurso-casacion-conflicto-aplicacion-derecho-civil-civ-1305
-description: "Recurso de casación por conflicto en la aplicación del Derecho civil foral o especial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de casación por conflicto en la aplicación del Derecho civil foral o especial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de casación por conflicto en la aplicación del Derecho civil foral o especial

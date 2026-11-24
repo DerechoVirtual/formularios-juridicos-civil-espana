@@ -1,6 +1,6 @@
 ---
 name: escritura-institucion-heredero-presente-segun-derecho-civ-0450
-description: "Escritura de institución de heredero de presente según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de institución de heredero de presente según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de institución de heredero de presente según el Derecho aragonés

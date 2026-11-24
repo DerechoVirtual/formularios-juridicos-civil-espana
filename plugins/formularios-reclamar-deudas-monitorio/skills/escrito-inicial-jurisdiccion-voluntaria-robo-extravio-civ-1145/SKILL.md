@@ -1,6 +1,6 @@
 ---
 name: escrito-inicial-jurisdiccion-voluntaria-robo-extravio-civ-1145
-description: "Escrito inicial de jurisdicción voluntaria por robo o extravío de cheque bancario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito inicial de jurisdicción voluntaria por robo o extravío de cheque bancario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito inicial de jurisdicción voluntaria por robo o extravío de cheque bancario

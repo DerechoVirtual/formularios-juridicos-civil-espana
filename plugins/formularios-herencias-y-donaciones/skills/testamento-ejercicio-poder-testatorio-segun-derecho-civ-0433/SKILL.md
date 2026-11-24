@@ -1,6 +1,6 @@
 ---
 name: testamento-ejercicio-poder-testatorio-segun-derecho-civ-0433
-description: "Testamento en ejercicio del poder testatorio según el Derecho gallego. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento en ejercicio del poder testatorio según el Derecho gallego. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento en ejercicio del poder testatorio según el Derecho gallego

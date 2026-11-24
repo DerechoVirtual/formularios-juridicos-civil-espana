@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-autoriza-subarriendo-civ-0507
-description: "Contrato de arrendamiento de vivienda que autoriza el subarriendo parcial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda que autoriza el subarriendo parcial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda que autoriza el subarriendo parcial

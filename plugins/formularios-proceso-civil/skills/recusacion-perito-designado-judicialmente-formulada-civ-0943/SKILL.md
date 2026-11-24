@@ -1,6 +1,6 @@
 ---
 name: recusacion-perito-designado-judicialmente-formulada-civ-0943
-description: "Recusación del perito designado judicialmente formulada en la audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación del perito designado judicialmente formulada en la audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación del perito designado judicialmente formulada en la audiencia previa

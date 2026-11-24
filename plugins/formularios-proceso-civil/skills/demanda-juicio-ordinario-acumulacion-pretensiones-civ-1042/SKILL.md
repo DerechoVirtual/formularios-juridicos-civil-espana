@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-acumulacion-pretensiones-civ-1042
-description: "Demanda de juicio ordinario con acumulación de pretensiones incompatibles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario con acumulación de pretensiones incompatibles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario con acumulación de pretensiones incompatibles

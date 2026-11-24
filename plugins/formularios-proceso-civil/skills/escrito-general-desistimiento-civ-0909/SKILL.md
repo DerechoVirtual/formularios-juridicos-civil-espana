@@ -1,6 +1,6 @@
 ---
 name: escrito-general-desistimiento-civ-0909
-description: "Escrito general de desistimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito general de desistimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito general de desistimiento

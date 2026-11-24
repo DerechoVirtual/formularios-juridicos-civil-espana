@@ -1,6 +1,6 @@
 ---
 name: reclamacion-inquilino-vivienda-pago-rentas-atrasadas-civ-0591
-description: "Reclamación al inquilino de vivienda del pago de las rentas atrasadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación al inquilino de vivienda del pago de las rentas atrasadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación al inquilino de vivienda del pago de las rentas atrasadas

@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-tramite-demanda-revision-sentencia-firme-civ-1866
-description: "Decreto que admite a trámite la demanda de revisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite a trámite la demanda de revisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite a trámite la demanda de revisión de sentencia firme

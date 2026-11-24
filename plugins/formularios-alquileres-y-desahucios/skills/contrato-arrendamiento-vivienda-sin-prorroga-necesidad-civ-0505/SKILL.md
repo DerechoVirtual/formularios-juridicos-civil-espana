@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-sin-prorroga-necesidad-civ-0505
-description: "Contrato de arrendamiento de vivienda sin prórroga por necesidad del arrendador y con indemnización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda sin prórroga por necesidad del arrendador y con indemnización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda sin prórroga por necesidad del arrendador y con indemnización

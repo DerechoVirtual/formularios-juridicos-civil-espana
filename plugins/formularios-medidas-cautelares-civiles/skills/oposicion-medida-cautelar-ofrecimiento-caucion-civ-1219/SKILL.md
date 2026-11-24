@@ -1,6 +1,6 @@
 ---
 name: oposicion-medida-cautelar-ofrecimiento-caucion-civ-1219
-description: "Oposición a una medida cautelar con ofrecimiento de caución sustitutoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a una medida cautelar con ofrecimiento de caución sustitutoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a una medida cautelar con ofrecimiento de caución sustitutoria

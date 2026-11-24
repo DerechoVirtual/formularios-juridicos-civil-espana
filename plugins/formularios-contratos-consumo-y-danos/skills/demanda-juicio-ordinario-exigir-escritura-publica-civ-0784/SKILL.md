@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-exigir-escritura-publica-civ-0784
-description: "Demanda de juicio ordinario para exigir escritura pública de una compraventa privada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para exigir escritura pública de una compraventa privada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para exigir escritura pública de una compraventa privada

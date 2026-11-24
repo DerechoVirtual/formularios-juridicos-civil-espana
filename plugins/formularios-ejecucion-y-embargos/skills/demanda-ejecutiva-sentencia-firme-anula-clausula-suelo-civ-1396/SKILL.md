@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-sentencia-firme-anula-clausula-suelo-civ-1396
-description: "Demanda ejecutiva de sentencia firme que anula la cláusula suelo y ordena devolver cantidades. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de sentencia firme que anula la cláusula suelo y ordena devolver cantidades. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de sentencia firme que anula la cláusula suelo y ordena devolver cantidades

@@ -1,6 +1,6 @@
 ---
 name: auto-manda-seguir-ejecucion-allanamiento-ejecutante-civ-1980
-description: "Auto que manda seguir la ejecución por allanamiento del ejecutante a la tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que manda seguir la ejecución por allanamiento del ejecutante a la tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que manda seguir la ejecución por allanamiento del ejecutante a la tercería de mejor derecho

@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-contra-providencia-auto-civil-civ-1277
-description: "Recurso de reposición contra una providencia o un auto civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición contra una providencia o un auto civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición contra una providencia o un auto civil

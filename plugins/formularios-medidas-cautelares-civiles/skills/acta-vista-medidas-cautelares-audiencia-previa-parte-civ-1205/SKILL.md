@@ -1,6 +1,6 @@
 ---
 name: acta-vista-medidas-cautelares-audiencia-previa-parte-civ-1205
-description: "Acta de la vista de medidas cautelares con audiencia previa de la parte contraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la vista de medidas cautelares con audiencia previa de la parte contraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la vista de medidas cautelares con audiencia previa de la parte contraria

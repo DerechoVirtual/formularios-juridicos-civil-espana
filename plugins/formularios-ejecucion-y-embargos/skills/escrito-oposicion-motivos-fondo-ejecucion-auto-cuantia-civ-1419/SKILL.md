@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-motivos-fondo-ejecucion-auto-cuantia-civ-1419
-description: "Escrito de oposición por motivos de fondo a la ejecución con auto de cuantía máxima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición por motivos de fondo a la ejecución con auto de cuantía máxima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición por motivos de fondo a la ejecución con auto de cuantía máxima

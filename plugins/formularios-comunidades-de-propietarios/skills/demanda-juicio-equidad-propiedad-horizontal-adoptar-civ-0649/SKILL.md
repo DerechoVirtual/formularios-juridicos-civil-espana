@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-equidad-propiedad-horizontal-adoptar-civ-0649
-description: "Demanda de juicio de equidad en propiedad horizontal para adoptar acuerdo sin mayorías legales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio de equidad en propiedad horizontal para adoptar acuerdo sin mayorías legales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio de equidad en propiedad horizontal para adoptar acuerdo sin mayorías legales

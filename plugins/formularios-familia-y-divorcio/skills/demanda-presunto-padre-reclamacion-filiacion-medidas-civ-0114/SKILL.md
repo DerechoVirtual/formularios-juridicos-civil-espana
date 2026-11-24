@@ -1,6 +1,6 @@
 ---
 name: demanda-presunto-padre-reclamacion-filiacion-medidas-civ-0114
-description: "Demanda del presunto padre de reclamación de filiación con medidas de protección del menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del presunto padre de reclamación de filiación con medidas de protección del menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del presunto padre de reclamación de filiación con medidas de protección del menor

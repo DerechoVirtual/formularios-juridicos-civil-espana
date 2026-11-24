@@ -1,6 +1,6 @@
 ---
 name: solicitud-nulidad-actuaciones-falta-diligencia-reparto-civ-1386
-description: "Solicitud de nulidad de actuaciones por falta de diligencia de reparto en la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nulidad de actuaciones por falta de diligencia de reparto en la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nulidad de actuaciones por falta de diligencia de reparto en la demanda

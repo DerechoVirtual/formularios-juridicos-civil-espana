@@ -1,6 +1,6 @@
 ---
 name: carta-conyuge-conviviente-arrendatario-fallecido-civ-0526
-description: "Carta del cónyuge o conviviente del arrendatario fallecido que renuncia a subrogarse. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta del cónyuge o conviviente del arrendatario fallecido que renuncia a subrogarse. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta del cónyuge o conviviente del arrendatario fallecido que renuncia a subrogarse

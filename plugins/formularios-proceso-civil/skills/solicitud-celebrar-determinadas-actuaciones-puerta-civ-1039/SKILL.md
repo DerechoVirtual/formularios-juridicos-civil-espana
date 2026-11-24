@@ -1,6 +1,6 @@
 ---
 name: solicitud-celebrar-determinadas-actuaciones-puerta-civ-1039
-description: "Solicitud de celebrar determinadas actuaciones a puerta cerrada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de celebrar determinadas actuaciones a puerta cerrada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de celebrar determinadas actuaciones a puerta cerrada

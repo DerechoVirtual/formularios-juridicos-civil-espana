@@ -1,6 +1,6 @@
 ---
 name: comunicacion-organizador-minorista-incumplimientos-civ-0716
-description: "Comunicación al organizador o minorista de incumplimientos en la ejecución del viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al organizador o minorista de incumplimientos en la ejecución del viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al organizador o minorista de incumplimientos en la ejecución del viaje combinado

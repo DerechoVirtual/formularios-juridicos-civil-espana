@@ -1,6 +1,6 @@
 ---
 name: auto-tiene-emitida-declaracion-voluntad-fija-elementos-civ-1975
-description: "Auto que tiene por emitida la declaración de voluntad y fija los elementos no esenciales del negocio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que tiene por emitida la declaración de voluntad y fija los elementos no esenciales del negocio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que tiene por emitida la declaración de voluntad y fija los elementos no esenciales del negocio

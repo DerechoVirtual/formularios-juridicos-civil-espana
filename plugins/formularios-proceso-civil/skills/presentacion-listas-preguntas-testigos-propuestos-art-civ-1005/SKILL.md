@@ -1,6 +1,6 @@
 ---
 name: presentacion-listas-preguntas-testigos-propuestos-art-civ-1005
-description: "Presentación de listas de preguntas para los testigos propuestos (art. 429.5 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Presentación de listas de preguntas para los testigos propuestos (art. 429.5 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Presentación de listas de preguntas para los testigos propuestos (art. 429.5 LEC)

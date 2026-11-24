@@ -1,6 +1,6 @@
 ---
 name: escrito-ampliacion-objetiva-demanda-civ-0860
-description: "Escrito de ampliación objetiva de la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de ampliación objetiva de la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de ampliación objetiva de la demanda

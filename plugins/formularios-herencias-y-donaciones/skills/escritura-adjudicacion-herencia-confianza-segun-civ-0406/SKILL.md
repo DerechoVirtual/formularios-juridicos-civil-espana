@@ -1,6 +1,6 @@
 ---
 name: escritura-adjudicacion-herencia-confianza-segun-civ-0406
-description: "Escritura de adjudicación de la herencia de confianza según el Derecho civil catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de adjudicación de la herencia de confianza según el Derecho civil catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de adjudicación de la herencia de confianza según el Derecho civil catalán

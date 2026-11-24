@@ -1,6 +1,6 @@
 ---
 name: escrito-notaria-heredero-delibera-sin-tener-bienes-civ-0410
-description: "Escrito a la notaría del heredero que delibera sin tener los bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito a la notaría del heredero que delibera sin tener los bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito a la notaría del heredero que delibera sin tener los bienes de la herencia

@@ -1,6 +1,6 @@
 ---
 name: auto-declara-ocupante-no-tiene-derecho-permanecer-civ-1982
-description: "Auto que declara que el ocupante no tiene derecho a permanecer en el inmueble enajenado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara que el ocupante no tiene derecho a permanecer en el inmueble enajenado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara que el ocupante no tiene derecho a permanecer en el inmueble enajenado

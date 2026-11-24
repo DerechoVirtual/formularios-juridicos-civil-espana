@@ -1,6 +1,6 @@
 ---
 name: otrosi-medidas-provisionales-coetaneas-convenidas-civ-0229
-description: "Otrosí de medidas provisionales coetáneas convenidas en demanda de nulidad, separación o divorcio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de medidas provisionales coetáneas convenidas en demanda de nulidad, separación o divorcio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de medidas provisionales coetáneas convenidas en demanda de nulidad, separación o divorcio

@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-cumplir-condena-otorgar-escritura-civ-1508
-description: "Demanda ejecutiva para cumplir la condena de otorgar escritura pública. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva para cumplir la condena de otorgar escritura pública. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva para cumplir la condena de otorgar escritura pública

@@ -1,6 +1,6 @@
 ---
 name: diligencia-remision-tribunal-superior-tribunal-civ-2153
-description: "Diligencia de remisión al tribunal superior por el tribunal requirente tras denegarse la acumulación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de remisión al tribunal superior por el tribunal requirente tras denegarse la acumulación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de remisión al tribunal superior por el tribunal requirente tras denegarse la acumulación

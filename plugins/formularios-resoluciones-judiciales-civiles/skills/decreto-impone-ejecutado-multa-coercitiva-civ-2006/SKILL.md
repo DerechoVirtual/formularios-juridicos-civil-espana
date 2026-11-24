@@ -1,6 +1,6 @@
 ---
 name: decreto-impone-ejecutado-multa-coercitiva-civ-2006
-description: "Decreto que impone al ejecutado una multa coercitiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que impone al ejecutado una multa coercitiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que impone al ejecutado una multa coercitiva

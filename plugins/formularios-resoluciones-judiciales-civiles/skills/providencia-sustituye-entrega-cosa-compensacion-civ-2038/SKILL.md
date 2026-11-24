@@ -1,6 +1,6 @@
 ---
 name: providencia-sustituye-entrega-cosa-compensacion-civ-2038
-description: "Providencia que sustituye la entrega de la cosa por una compensación pecuniaria justa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que sustituye la entrega de la cosa por una compensación pecuniaria justa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que sustituye la entrega de la cosa por una compensación pecuniaria justa

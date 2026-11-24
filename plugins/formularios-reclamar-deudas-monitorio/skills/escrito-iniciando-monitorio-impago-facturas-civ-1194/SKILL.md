@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-monitorio-impago-facturas-civ-1194
-description: "Escrito iniciando monitorio por impago de facturas de una compraventa de muebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando monitorio por impago de facturas de una compraventa de muebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando monitorio por impago de facturas de una compraventa de muebles

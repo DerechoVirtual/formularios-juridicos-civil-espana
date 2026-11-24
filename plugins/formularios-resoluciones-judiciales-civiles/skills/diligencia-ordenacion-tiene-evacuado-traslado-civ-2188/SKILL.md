@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-tiene-evacuado-traslado-civ-2188
-description: "Diligencia de ordenación que tiene por evacuado el traslado de la oposición a ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que tiene por evacuado el traslado de la oposición a ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que tiene por evacuado el traslado de la oposición a ejecución provisional

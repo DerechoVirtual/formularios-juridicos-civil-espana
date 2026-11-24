@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-titulo-judicial-extranjero-conforme-civ-1605
-description: "Demanda de ejecución de título judicial extranjero conforme al Reglamento (CE) 44 2001. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución de título judicial extranjero conforme al Reglamento (CE) 44 2001. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución de título judicial extranjero conforme al Reglamento (CE) 44 2001

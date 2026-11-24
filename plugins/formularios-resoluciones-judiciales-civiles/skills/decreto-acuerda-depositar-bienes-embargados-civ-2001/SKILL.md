@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-depositar-bienes-embargados-civ-2001
-description: "Decreto que acuerda depositar los bienes embargados en un establecimiento público o privado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda depositar los bienes embargados en un establecimiento público o privado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda depositar los bienes embargados en un establecimiento público o privado

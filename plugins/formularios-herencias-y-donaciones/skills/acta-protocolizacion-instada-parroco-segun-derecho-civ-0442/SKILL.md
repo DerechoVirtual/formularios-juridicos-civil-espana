@@ -1,6 +1,6 @@
 ---
 name: acta-protocolizacion-instada-parroco-segun-derecho-civ-0442
-description: "Acta de protocolización instada por el párroco según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de protocolización instada por el párroco según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de protocolización instada por el párroco según el Derecho catalán

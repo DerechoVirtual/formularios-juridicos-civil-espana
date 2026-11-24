@@ -1,6 +1,6 @@
 ---
 name: escrito-conyuge-no-deudor-ejerce-opcion-ante-embargo-civ-1683
-description: "Escrito del cónyuge no deudor que ejerce la opción ante el embargo de gananciales (art. 541.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del cónyuge no deudor que ejerce la opción ante el embargo de gananciales (art. 541.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del cónyuge no deudor que ejerce la opción ante el embargo de gananciales (art. 541.3 LEC)

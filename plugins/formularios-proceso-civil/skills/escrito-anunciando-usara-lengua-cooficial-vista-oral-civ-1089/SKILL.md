@@ -1,6 +1,6 @@
 ---
 name: escrito-anunciando-usara-lengua-cooficial-vista-oral-civ-1089
-description: "Escrito anunciando que se usará una lengua cooficial en la vista oral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito anunciando que se usará una lengua cooficial en la vista oral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito anunciando que se usará una lengua cooficial en la vista oral

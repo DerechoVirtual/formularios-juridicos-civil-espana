@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reduccion-cuota-hereditaria-civ-0478
-description: "Demanda de juicio ordinario de reducción de la cuota hereditaria por donación inoficiosa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de reducción de la cuota hereditaria por donación inoficiosa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de reducción de la cuota hereditaria por donación inoficiosa

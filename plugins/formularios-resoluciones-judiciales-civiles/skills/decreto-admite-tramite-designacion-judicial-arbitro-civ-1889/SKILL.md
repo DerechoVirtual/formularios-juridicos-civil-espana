@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-tramite-designacion-judicial-arbitro-civ-1889
-description: "Decreto que admite a trámite la designación judicial de árbitro único. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite a trámite la designación judicial de árbitro único. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite a trámite la designación judicial de árbitro único

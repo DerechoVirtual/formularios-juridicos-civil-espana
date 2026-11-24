@@ -1,6 +1,6 @@
 ---
 name: escrito-tercer-perito-acepta-cargo-pide-acceso-civ-0859
-description: "Escrito del tercer perito que acepta el cargo y pide acceso al expediente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del tercer perito que acepta el cargo y pide acceso al expediente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del tercer perito que acepta el cargo y pide acceso al expediente

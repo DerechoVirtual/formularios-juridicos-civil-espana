@@ -1,6 +1,6 @@
 ---
 name: providencia-inadmite-oposicion-ejecucion-provisional-civ-2194
-description: "Providencia que inadmite la oposición a ejecución provisional sin medidas alternativas ni caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que inadmite la oposición a ejecución provisional sin medidas alternativas ni caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que inadmite la oposición a ejecución provisional sin medidas alternativas ni caución

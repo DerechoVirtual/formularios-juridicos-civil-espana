@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-traslado-ejecutante-civ-2044
-description: "Diligencia de ordenación que da traslado al ejecutante de las alegaciones del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da traslado al ejecutante de las alegaciones del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da traslado al ejecutante de las alegaciones del ejecutado

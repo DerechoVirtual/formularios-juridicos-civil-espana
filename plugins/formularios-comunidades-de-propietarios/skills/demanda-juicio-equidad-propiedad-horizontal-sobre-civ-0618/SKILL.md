@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-equidad-propiedad-horizontal-sobre-civ-0618
-description: "Demanda de juicio de equidad en propiedad horizontal sobre instalar contadores individuales de agua. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio de equidad en propiedad horizontal sobre instalar contadores individuales de agua. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio de equidad en propiedad horizontal sobre instalar contadores individuales de agua

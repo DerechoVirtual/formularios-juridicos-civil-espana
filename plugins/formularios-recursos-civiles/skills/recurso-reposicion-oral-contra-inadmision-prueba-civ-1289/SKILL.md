@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-oral-contra-inadmision-prueba-civ-1289
-description: "Recurso de reposición oral contra la inadmisión de una prueba propuesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición oral contra la inadmisión de una prueba propuesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición oral contra la inadmisión de una prueba propuesta

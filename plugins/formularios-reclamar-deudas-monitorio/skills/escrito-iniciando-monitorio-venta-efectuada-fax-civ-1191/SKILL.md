@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-monitorio-venta-efectuada-fax-civ-1191
-description: "Escrito iniciando monitorio por una venta efectuada por fax. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando monitorio por una venta efectuada por fax. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando monitorio por una venta efectuada por fax

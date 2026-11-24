@@ -1,6 +1,6 @@
 ---
 name: recurso-directo-revision-contra-decreto-laj-declara-civ-1521
-description: "Recurso directo de revisión contra el decreto del LAJ que declara terminada la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso directo de revisión contra el decreto del LAJ que declara terminada la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso directo de revisión contra el decreto del LAJ que declara terminada la ejecución

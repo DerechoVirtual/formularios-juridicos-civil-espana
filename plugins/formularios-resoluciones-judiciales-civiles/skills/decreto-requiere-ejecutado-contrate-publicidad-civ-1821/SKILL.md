@@ -1,6 +1,6 @@
 ---
 name: decreto-requiere-ejecutado-contrate-publicidad-civ-1821
-description: "Decreto que requiere al ejecutado para que contrate la publicidad de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que requiere al ejecutado para que contrate la publicidad de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que requiere al ejecutado para que contrate la publicidad de la sentencia

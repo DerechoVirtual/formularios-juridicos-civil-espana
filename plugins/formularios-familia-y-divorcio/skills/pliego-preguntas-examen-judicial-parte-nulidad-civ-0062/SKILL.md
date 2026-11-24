@@ -1,6 +1,6 @@
 ---
 name: pliego-preguntas-examen-judicial-parte-nulidad-civ-0062
-description: "Pliego de preguntas para el examen judicial de la parte en una nulidad canónica por el canon 1095.2. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pliego de preguntas para el examen judicial de la parte en una nulidad canónica por el canon 1095.2. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pliego de preguntas para el examen judicial de la parte en una nulidad canónica por el canon 1095.2

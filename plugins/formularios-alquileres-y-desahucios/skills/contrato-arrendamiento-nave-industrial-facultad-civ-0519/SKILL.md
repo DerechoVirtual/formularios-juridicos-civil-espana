@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-nave-industrial-facultad-civ-0519
-description: "Contrato de arrendamiento de nave industrial con facultad de subarrendar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de nave industrial con facultad de subarrendar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de nave industrial con facultad de subarrendar

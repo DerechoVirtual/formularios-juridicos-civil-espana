@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-separacion-mutuo-acuerdo-convenio-civ-0053
-description: "Demanda de divorcio o separación de mutuo acuerdo con convenio que recoge una mediación previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio o separación de mutuo acuerdo con convenio que recoge una mediación previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio o separación de mutuo acuerdo con convenio que recoge una mediación previa

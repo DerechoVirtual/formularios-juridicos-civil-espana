@@ -1,6 +1,6 @@
 ---
 name: testamento-usufructo-poderoso-segun-derecho-civil-vasco-civ-0402
-description: "Testamento con usufructo poderoso según el Derecho civil vasco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con usufructo poderoso según el Derecho civil vasco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con usufructo poderoso según el Derecho civil vasco

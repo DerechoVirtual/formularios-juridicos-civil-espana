@@ -1,6 +1,6 @@
 ---
 name: auto-estima-oposicion-ejecucion-provisional-si-fuera-civ-2116
-description: "Auto que estima la oposición a la ejecución provisional si fuera muy difícil restaurar la situación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la oposición a la ejecución provisional si fuera muy difícil restaurar la situación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la oposición a la ejecución provisional si fuera muy difícil restaurar la situación

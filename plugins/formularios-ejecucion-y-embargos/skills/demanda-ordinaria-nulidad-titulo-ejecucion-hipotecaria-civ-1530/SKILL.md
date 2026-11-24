@@ -1,6 +1,6 @@
 ---
 name: demanda-ordinaria-nulidad-titulo-ejecucion-hipotecaria-civ-1530
-description: "Demanda ordinaria de nulidad del título de ejecución hipotecaria con retención de lo obtenido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ordinaria de nulidad del título de ejecución hipotecaria con retención de lo obtenido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ordinaria de nulidad del título de ejecución hipotecaria con retención de lo obtenido

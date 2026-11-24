@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-ante-letrado-administracion-civ-1273
-description: "Recurso de reposición ante el Letrado de la Administración de Justicia contra decretos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición ante el Letrado de la Administración de Justicia contra decretos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición ante el Letrado de la Administración de Justicia contra decretos

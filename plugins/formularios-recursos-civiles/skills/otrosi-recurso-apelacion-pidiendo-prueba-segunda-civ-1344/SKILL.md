@@ -1,6 +1,6 @@
 ---
 name: otrosi-recurso-apelacion-pidiendo-prueba-segunda-civ-1344
-description: "Otrosí del recurso de apelación pidiendo prueba en segunda instancia por rebeldía involuntaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí del recurso de apelación pidiendo prueba en segunda instancia por rebeldía involuntaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí del recurso de apelación pidiendo prueba en segunda instancia por rebeldía involuntaria

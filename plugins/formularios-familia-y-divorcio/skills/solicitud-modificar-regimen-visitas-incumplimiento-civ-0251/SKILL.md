@@ -1,6 +1,6 @@
 ---
 name: solicitud-modificar-regimen-visitas-incumplimiento-civ-0251
-description: "Solicitud de modificar el régimen de visitas por incumplimiento del otro progenitor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de modificar el régimen de visitas por incumplimiento del otro progenitor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de modificar el régimen de visitas por incumplimiento del otro progenitor

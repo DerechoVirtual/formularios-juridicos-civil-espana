@@ -1,6 +1,6 @@
 ---
 name: demanda-reduccion-exoneracion-renta-finca-rustica-civ-0602
-description: "Demanda de reducción o exoneración de renta de finca rústica (arrendamiento sujeto a la LAR 1980). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reducción o exoneración de renta de finca rústica (arrendamiento sujeto a la LAR 1980). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reducción o exoneración de renta de finca rústica (arrendamiento sujeto a la LAR 1980)

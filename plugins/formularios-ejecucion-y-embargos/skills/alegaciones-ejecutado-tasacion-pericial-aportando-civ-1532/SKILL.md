@@ -1,6 +1,6 @@
 ---
 name: alegaciones-ejecutado-tasacion-pericial-aportando-civ-1532
-description: "Alegaciones del ejecutado a la tasación pericial aportando dictamen contradictorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del ejecutado a la tasación pericial aportando dictamen contradictorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del ejecutado a la tasación pericial aportando dictamen contradictorio

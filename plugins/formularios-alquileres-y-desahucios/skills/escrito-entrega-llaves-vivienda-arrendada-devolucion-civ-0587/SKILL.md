@@ -1,6 +1,6 @@
 ---
 name: escrito-entrega-llaves-vivienda-arrendada-devolucion-civ-0587
-description: "Escrito de entrega de llaves de la vivienda arrendada y devolución de la fianza. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de entrega de llaves de la vivienda arrendada y devolución de la fianza. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de entrega de llaves de la vivienda arrendada y devolución de la fianza

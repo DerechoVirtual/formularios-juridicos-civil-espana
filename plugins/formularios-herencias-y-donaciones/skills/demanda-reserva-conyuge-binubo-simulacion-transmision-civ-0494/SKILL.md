@@ -1,6 +1,6 @@
 ---
 name: demanda-reserva-conyuge-binubo-simulacion-transmision-civ-0494
-description: "Demanda de reserva del cónyuge binubo y de simulación en la transmisión de un inmueble reservable. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reserva del cónyuge binubo y de simulación en la transmisión de un inmueble reservable. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reserva del cónyuge binubo y de simulación en la transmisión de un inmueble reservable

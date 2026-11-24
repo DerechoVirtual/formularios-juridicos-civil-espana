@@ -1,6 +1,6 @@
 ---
 name: aportacion-dictamen-pericial-antes-juicio-peticion-civ-0932
-description: "Aportación de dictamen pericial antes del juicio con petición de que comparezca el perito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Aportación de dictamen pericial antes del juicio con petición de que comparezca el perito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Aportación de dictamen pericial antes del juicio con petición de que comparezca el perito

@@ -1,6 +1,6 @@
 ---
 name: decreto-alza-embargo-constar-bien-inscrito-nombre-civ-2057
-description: "Decreto que alza el embargo por constar el bien inscrito a nombre de persona distinta del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que alza el embargo por constar el bien inscrito a nombre de persona distinta del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que alza el embargo por constar el bien inscrito a nombre de persona distinta del ejecutado

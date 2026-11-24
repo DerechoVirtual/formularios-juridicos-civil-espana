@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-abogado-procurador-oficio-civ-0517
-description: "Solicitud del demandado de abogado y procurador de oficio en un desahucio por impago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de abogado y procurador de oficio en un desahucio por impago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de abogado y procurador de oficio en un desahucio por impago

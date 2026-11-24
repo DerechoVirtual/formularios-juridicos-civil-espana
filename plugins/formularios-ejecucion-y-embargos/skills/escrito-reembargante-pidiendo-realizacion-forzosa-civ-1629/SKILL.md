@@ -1,6 +1,6 @@
 ---
 name: escrito-reembargante-pidiendo-realizacion-forzosa-civ-1629
-description: "Escrito del reembargante pidiendo la realización forzosa de los bienes si se alza el embargo previo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del reembargante pidiendo la realización forzosa de los bienes si se alza el embargo previo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del reembargante pidiendo la realización forzosa de los bienes si se alza el embargo previo

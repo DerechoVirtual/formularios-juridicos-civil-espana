@@ -1,6 +1,6 @@
 ---
 name: escrito-allanamiento-arrendatario-local-compromiso-civ-0604
-description: "Escrito de allanamiento del arrendatario de un local con compromiso de desalojo voluntario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de allanamiento del arrendatario de un local con compromiso de desalojo voluntario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de allanamiento del arrendatario de un local con compromiso de desalojo voluntario

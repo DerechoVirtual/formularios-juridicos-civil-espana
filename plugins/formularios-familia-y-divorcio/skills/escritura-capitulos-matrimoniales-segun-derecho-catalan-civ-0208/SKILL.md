@@ -1,6 +1,6 @@
 ---
 name: escritura-capitulos-matrimoniales-segun-derecho-catalan-civ-0208
-description: "Escritura de capítulos matrimoniales según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de capítulos matrimoniales según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de capítulos matrimoniales según el Derecho catalán

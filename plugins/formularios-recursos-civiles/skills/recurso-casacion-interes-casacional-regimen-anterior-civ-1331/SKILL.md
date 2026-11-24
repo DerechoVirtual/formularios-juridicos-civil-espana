@@ -1,6 +1,6 @@
 ---
 name: recurso-casacion-interes-casacional-regimen-anterior-civ-1331
-description: "Recurso de casación por interés casacional (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de casación por interés casacional (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de casación por interés casacional (régimen anterior al RDL 5 2023)

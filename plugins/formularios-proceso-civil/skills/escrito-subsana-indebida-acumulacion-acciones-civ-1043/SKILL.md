@@ -1,6 +1,6 @@
 ---
 name: escrito-subsana-indebida-acumulacion-acciones-civ-1043
-description: "Escrito que subsana la indebida acumulación de acciones desistiendo de la no acumulable. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que subsana la indebida acumulación de acciones desistiendo de la no acumulable. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que subsana la indebida acumulación de acciones desistiendo de la no acumulable

@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-contra-auto-deniega-despachar-civ-1501
-description: "Recurso de reposición contra el auto que deniega despachar ejecución de un laudo arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición contra el auto que deniega despachar ejecución de un laudo arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición contra el auto que deniega despachar ejecución de un laudo arbitral

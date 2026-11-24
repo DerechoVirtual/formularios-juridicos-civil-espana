@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-avalista-clausula-civ-0506
-description: "Contrato de arrendamiento de vivienda con avalista o cláusula de garantía del inquilino. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda con avalista o cláusula de garantía del inquilino. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda con avalista o cláusula de garantía del inquilino

@@ -1,6 +1,6 @@
 ---
 name: escrito-allanamiento-deudor-procedimiento-monitorio-civ-1170
-description: "Escrito de allanamiento del deudor en el procedimiento monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de allanamiento del deudor en el procedimiento monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de allanamiento del deudor en el procedimiento monitorio

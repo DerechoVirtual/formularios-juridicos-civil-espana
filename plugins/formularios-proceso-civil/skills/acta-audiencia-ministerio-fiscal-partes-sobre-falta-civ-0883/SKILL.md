@@ -1,6 +1,6 @@
 ---
 name: acta-audiencia-ministerio-fiscal-partes-sobre-falta-civ-0883
-description: "Acta de audiencia al Ministerio Fiscal y a las partes sobre la falta de jurisdicción por inmunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de audiencia al Ministerio Fiscal y a las partes sobre la falta de jurisdicción por inmunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de audiencia al Ministerio Fiscal y a las partes sobre la falta de jurisdicción por inmunidad

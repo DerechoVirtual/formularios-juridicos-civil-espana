@@ -1,6 +1,6 @@
 ---
 name: decreto-sobresee-ejecucion-cumplimiento-convenio-entre-civ-2068
-description: "Decreto que sobresee la ejecución por cumplimiento del convenio entre ejecutante y ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que sobresee la ejecución por cumplimiento del convenio entre ejecutante y ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que sobresee la ejecución por cumplimiento del convenio entre ejecutante y ejecutado

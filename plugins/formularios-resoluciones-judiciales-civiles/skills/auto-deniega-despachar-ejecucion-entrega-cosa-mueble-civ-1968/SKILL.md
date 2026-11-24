@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-despachar-ejecucion-entrega-cosa-mueble-civ-1968
-description: "Auto que deniega despachar ejecución para la entrega de cosa mueble cierta y determinada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega despachar ejecución para la entrega de cosa mueble cierta y determinada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega despachar ejecución para la entrega de cosa mueble cierta y determinada

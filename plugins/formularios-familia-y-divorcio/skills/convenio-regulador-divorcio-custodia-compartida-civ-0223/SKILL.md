@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-divorcio-custodia-compartida-civ-0223
-description: "Convenio regulador de divorcio con custodia compartida y liquidación del régimen económico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de divorcio con custodia compartida y liquidación del régimen económico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de divorcio con custodia compartida y liquidación del régimen económico

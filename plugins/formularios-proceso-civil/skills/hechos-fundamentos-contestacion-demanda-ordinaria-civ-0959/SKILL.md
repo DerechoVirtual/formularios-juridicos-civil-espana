@@ -1,6 +1,6 @@
 ---
 name: hechos-fundamentos-contestacion-demanda-ordinaria-civ-0959
-description: "Hechos y fundamentos de la contestación a la demanda ordinaria que opone defectos de la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Hechos y fundamentos de la contestación a la demanda ordinaria que opone defectos de la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Hechos y fundamentos de la contestación a la demanda ordinaria que opone defectos de la demanda

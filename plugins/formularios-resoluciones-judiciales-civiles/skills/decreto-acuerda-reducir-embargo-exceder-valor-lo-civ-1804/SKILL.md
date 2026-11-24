@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-reducir-embargo-exceder-valor-lo-civ-1804
-description: "Decreto que acuerda reducir el embargo por exceder el valor de lo embargado a la cantidad reclamada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda reducir el embargo por exceder el valor de lo embargado a la cantidad reclamada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda reducir el embargo por exceder el valor de lo embargado a la cantidad reclamada

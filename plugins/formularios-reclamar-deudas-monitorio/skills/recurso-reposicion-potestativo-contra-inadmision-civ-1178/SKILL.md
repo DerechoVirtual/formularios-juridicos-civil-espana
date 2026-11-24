@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-potestativo-contra-inadmision-civ-1178
-description: "Recurso de reposición potestativo contra la inadmisión en el juicio cambiario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición potestativo contra la inadmisión en el juicio cambiario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición potestativo contra la inadmisión en el juicio cambiario

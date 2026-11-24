@@ -1,6 +1,6 @@
 ---
 name: cedula-citacion-partes-vista-juicio-verbal-civ-1937
-description: "Cédula de citación a las partes para la vista del juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cédula de citación a las partes para la vista del juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cédula de citación a las partes para la vista del juicio verbal

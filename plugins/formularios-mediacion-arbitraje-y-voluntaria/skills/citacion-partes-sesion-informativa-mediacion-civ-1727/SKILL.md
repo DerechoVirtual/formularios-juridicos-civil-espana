@@ -1,6 +1,6 @@
 ---
 name: citacion-partes-sesion-informativa-mediacion-civ-1727
-description: "Citación de las partes a la sesión informativa de una mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Citación de las partes a la sesión informativa de una mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Citación de las partes a la sesión informativa de una mediación

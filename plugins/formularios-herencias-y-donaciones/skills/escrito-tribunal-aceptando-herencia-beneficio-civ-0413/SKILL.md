@@ -1,6 +1,6 @@
 ---
 name: escrito-tribunal-aceptando-herencia-beneficio-civ-0413
-description: "Escrito al tribunal aceptando la herencia a beneficio de inventario sin tener los bienes el heredero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito al tribunal aceptando la herencia a beneficio de inventario sin tener los bienes el heredero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito al tribunal aceptando la herencia a beneficio de inventario sin tener los bienes el heredero

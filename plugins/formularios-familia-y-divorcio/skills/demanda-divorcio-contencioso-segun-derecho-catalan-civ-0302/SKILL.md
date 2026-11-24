@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-segun-derecho-catalan-civ-0302
-description: "Demanda de divorcio contencioso según el Derecho catalán con acción de división de cosa común. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso según el Derecho catalán con acción de división de cosa común. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso según el Derecho catalán con acción de división de cosa común

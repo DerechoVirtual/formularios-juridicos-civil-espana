@@ -1,6 +1,6 @@
 ---
 name: demanda-extincion-pension-alimenticia-hijo-mayor-civ-0146
-description: "Demanda de extinción de la pensión alimenticia del hijo mayor por su matrimonio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de extinción de la pensión alimenticia del hijo mayor por su matrimonio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de extinción de la pensión alimenticia del hijo mayor por su matrimonio

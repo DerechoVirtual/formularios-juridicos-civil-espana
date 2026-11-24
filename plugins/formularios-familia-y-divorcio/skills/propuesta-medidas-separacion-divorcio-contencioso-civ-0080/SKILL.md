@@ -1,6 +1,6 @@
 ---
 name: propuesta-medidas-separacion-divorcio-contencioso-civ-0080
-description: "Propuesta de medidas por separación o divorcio contencioso (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de medidas por separación o divorcio contencioso (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de medidas por separación o divorcio contencioso (Derecho catalán)

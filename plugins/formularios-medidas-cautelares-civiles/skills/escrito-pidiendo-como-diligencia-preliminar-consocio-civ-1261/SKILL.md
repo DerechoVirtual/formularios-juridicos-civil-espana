@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-como-diligencia-preliminar-consocio-civ-1261
-description: "Escrito pidiendo como diligencia preliminar que el consocio o condueño exhiba documentos y cuentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo como diligencia preliminar que el consocio o condueño exhiba documentos y cuentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo como diligencia preliminar que el consocio o condueño exhiba documentos y cuentas

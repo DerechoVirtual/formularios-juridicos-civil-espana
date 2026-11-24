@@ -1,6 +1,6 @@
 ---
 name: solicitud-embargo-gananciales-contra-conyuge-deuda-civ-1675
-description: "Solicitud de embargo de gananciales contra un cónyuge por deuda consorcial extracontractual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de embargo de gananciales contra un cónyuge por deuda consorcial extracontractual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de embargo de gananciales contra un cónyuge por deuda consorcial extracontractual

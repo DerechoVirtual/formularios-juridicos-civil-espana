@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-pidiendo-procurador-practique-actos-civ-0901
-description: "Otrosí de demanda pidiendo que el procurador practique los actos de comunicación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de demanda pidiendo que el procurador practique los actos de comunicación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de demanda pidiendo que el procurador practique los actos de comunicación

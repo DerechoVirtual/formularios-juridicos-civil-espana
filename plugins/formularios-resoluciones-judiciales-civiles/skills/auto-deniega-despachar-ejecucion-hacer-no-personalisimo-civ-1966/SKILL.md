@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-despachar-ejecucion-hacer-no-personalisimo-civ-1966
-description: "Auto que deniega despachar ejecución de un hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega despachar ejecución de un hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega despachar ejecución de un hacer no personalísimo

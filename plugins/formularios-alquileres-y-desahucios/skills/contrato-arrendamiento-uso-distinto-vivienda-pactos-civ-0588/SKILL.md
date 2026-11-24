@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-uso-distinto-vivienda-pactos-civ-0588
-description: "Contrato de arrendamiento de uso distinto de vivienda con pactos sobre cesión y subarriendo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de uso distinto de vivienda con pactos sobre cesión y subarriendo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de uso distinto de vivienda con pactos sobre cesión y subarriendo

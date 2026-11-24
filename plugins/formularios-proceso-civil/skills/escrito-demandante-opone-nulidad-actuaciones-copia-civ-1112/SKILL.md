@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-opone-nulidad-actuaciones-copia-civ-1112
-description: "Escrito del demandante que se opone a la nulidad de actuaciones por copia inexacta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante que se opone a la nulidad de actuaciones por copia inexacta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante que se opone a la nulidad de actuaciones por copia inexacta

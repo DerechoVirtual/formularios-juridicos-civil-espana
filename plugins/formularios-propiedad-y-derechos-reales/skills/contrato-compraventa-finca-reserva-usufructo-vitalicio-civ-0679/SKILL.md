@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-finca-reserva-usufructo-vitalicio-civ-0679
-description: "Contrato de compraventa de finca con reserva de usufructo vitalicio para el vendedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de finca con reserva de usufructo vitalicio para el vendedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de finca con reserva de usufructo vitalicio para el vendedor

@@ -1,6 +1,6 @@
 ---
 name: diligencia-preliminar-exhibicion-cosa-refiera-juicio-civ-1253
-description: "Diligencia preliminar de exhibición de la cosa a que se refiera el juicio (art. 256.1.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia preliminar de exhibición de la cosa a que se refiera el juicio (art. 256.1.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia preliminar de exhibición de la cosa a que se refiera el juicio (art. 256.1.2 LEC)

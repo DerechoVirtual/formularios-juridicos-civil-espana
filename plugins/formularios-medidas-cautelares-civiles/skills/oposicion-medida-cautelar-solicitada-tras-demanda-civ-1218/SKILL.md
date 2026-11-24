@@ -1,6 +1,6 @@
 ---
 name: oposicion-medida-cautelar-solicitada-tras-demanda-civ-1218
-description: "Oposición a una medida cautelar solicitada tras la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a una medida cautelar solicitada tras la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a una medida cautelar solicitada tras la demanda

@@ -1,6 +1,6 @@
 ---
 name: escrito-perjudicado-pidiendo-exhibicion-contrato-civ-1264
-description: "Escrito del perjudicado pidiendo la exhibición del contrato de seguro de responsabilidad civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del perjudicado pidiendo la exhibición del contrato de seguro de responsabilidad civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del perjudicado pidiendo la exhibición del contrato de seguro de responsabilidad civil

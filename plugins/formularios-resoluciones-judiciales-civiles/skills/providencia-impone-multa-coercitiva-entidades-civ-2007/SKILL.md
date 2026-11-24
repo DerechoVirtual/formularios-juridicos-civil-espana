@@ -1,6 +1,6 @@
 ---
 name: providencia-impone-multa-coercitiva-entidades-civ-2007
-description: "Providencia que impone multa coercitiva a entidades financieras, organismos y particulares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que impone multa coercitiva a entidades financieras, organismos y particulares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que impone multa coercitiva a entidades financieras, organismos y particulares

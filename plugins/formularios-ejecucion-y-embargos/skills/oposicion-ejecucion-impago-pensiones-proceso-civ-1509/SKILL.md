@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-impago-pensiones-proceso-civ-1509
-description: "Oposición a la ejecución por impago de pensiones en proceso matrimonial alegando compensación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución por impago de pensiones en proceso matrimonial alegando compensación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución por impago de pensiones en proceso matrimonial alegando compensación

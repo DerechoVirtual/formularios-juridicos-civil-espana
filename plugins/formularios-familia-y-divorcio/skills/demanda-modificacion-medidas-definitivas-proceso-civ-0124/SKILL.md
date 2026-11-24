@@ -1,6 +1,6 @@
 ---
 name: demanda-modificacion-medidas-definitivas-proceso-civ-0124
-description: "Demanda de modificación de las medidas definitivas de un proceso matrimonial (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de modificación de las medidas definitivas de un proceso matrimonial (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de modificación de las medidas definitivas de un proceso matrimonial (Derecho catalán)

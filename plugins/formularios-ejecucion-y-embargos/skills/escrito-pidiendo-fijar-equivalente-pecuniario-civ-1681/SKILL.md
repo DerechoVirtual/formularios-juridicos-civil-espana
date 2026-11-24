@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-fijar-equivalente-pecuniario-civ-1681
-description: "Escrito pidiendo fijar el equivalente pecuniario de una prestación no dineraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo fijar el equivalente pecuniario de una prestación no dineraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo fijar el equivalente pecuniario de una prestación no dineraria

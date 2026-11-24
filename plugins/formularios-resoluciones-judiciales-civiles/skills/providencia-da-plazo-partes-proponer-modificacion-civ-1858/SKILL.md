@@ -1,6 +1,6 @@
 ---
 name: providencia-da-plazo-partes-proponer-modificacion-civ-1858
-description: "Providencia que da plazo a las partes para proponer la modificación del convenio regulador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que da plazo a las partes para proponer la modificación del convenio regulador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que da plazo a las partes para proponer la modificación del convenio regulador

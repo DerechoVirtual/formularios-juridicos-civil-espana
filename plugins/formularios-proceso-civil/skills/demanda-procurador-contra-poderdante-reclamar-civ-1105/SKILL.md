@@ -1,6 +1,6 @@
 ---
 name: demanda-procurador-contra-poderdante-reclamar-civ-1105
-description: "Demanda del procurador contra su poderdante para reclamar provisión de fondos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del procurador contra su poderdante para reclamar provisión de fondos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del procurador contra su poderdante para reclamar provisión de fondos

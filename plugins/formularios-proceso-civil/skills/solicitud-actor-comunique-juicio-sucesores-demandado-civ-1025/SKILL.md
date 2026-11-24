@@ -1,6 +1,6 @@
 ---
 name: solicitud-actor-comunique-juicio-sucesores-demandado-civ-1025
-description: "Solicitud del actor de que se comunique el juicio a los sucesores del demandado fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del actor de que se comunique el juicio a los sucesores del demandado fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del actor de que se comunique el juicio a los sucesores del demandado fallecido

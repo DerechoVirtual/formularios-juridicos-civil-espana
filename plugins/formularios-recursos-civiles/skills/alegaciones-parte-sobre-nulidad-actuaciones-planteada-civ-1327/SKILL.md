@@ -1,6 +1,6 @@
 ---
 name: alegaciones-parte-sobre-nulidad-actuaciones-planteada-civ-1327
-description: "Alegaciones de la parte sobre la nulidad de actuaciones planteada de oficio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones de la parte sobre la nulidad de actuaciones planteada de oficio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones de la parte sobre la nulidad de actuaciones planteada de oficio

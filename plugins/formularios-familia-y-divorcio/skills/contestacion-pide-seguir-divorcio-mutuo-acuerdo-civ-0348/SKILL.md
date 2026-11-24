@@ -1,6 +1,6 @@
 ---
 name: contestacion-pide-seguir-divorcio-mutuo-acuerdo-civ-0348
-description: "Contestación que pide seguir el divorcio por mutuo acuerdo aportando convenio regulador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación que pide seguir el divorcio por mutuo acuerdo aportando convenio regulador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación que pide seguir el divorcio por mutuo acuerdo aportando convenio regulador

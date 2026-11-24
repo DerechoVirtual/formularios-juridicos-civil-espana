@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-alzar-embargo-extincion-obligacion-civ-0072
-description: "Escrito pidiendo alzar el embargo por extinción de la obligación de pagar alimentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo alzar el embargo por extinción de la obligación de pagar alimentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo alzar el embargo por extinción de la obligación de pagar alimentos

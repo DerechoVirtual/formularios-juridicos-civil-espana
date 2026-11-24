@@ -1,6 +1,6 @@
 ---
 name: demanda-sucinta-desahucio-falta-pago-rentas-civ-0541
-description: "Demanda sucinta de desahucio por falta de pago de las rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda sucinta de desahucio por falta de pago de las rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda sucinta de desahucio por falta de pago de las rentas

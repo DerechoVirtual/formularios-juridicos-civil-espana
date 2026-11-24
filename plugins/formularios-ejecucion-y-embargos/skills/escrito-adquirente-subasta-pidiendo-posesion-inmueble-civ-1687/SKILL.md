@@ -1,6 +1,6 @@
 ---
 name: escrito-adquirente-subasta-pidiendo-posesion-inmueble-civ-1687
-description: "Escrito del adquirente en subasta pidiendo posesión de inmueble con ocupante declarado sin derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del adquirente en subasta pidiendo posesión de inmueble con ocupante declarado sin derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del adquirente en subasta pidiendo posesión de inmueble con ocupante declarado sin derecho

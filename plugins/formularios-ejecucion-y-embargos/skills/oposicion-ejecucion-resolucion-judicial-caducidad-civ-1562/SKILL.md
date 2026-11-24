@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-resolucion-judicial-caducidad-civ-1562
-description: "Oposición a la ejecución de resolución judicial por caducidad de la acción ejecutiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución de resolución judicial por caducidad de la acción ejecutiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución de resolución judicial por caducidad de la acción ejecutiva

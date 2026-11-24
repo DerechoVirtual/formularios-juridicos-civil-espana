@@ -1,6 +1,6 @@
 ---
 name: requerimiento-propietario-cese-actividades-prohibidas-civ-0641
-description: "Requerimiento al propietario para que cese en actividades prohibidas en la comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento al propietario para que cese en actividades prohibidas en la comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento al propietario para que cese en actividades prohibidas en la comunidad

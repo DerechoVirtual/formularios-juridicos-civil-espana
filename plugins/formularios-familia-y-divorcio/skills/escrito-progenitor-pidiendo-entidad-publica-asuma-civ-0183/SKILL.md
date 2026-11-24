@@ -1,6 +1,6 @@
 ---
 name: escrito-progenitor-pidiendo-entidad-publica-asuma-civ-0183
-description: "Escrito del progenitor pidiendo a la entidad pública que asuma temporalmente la guarda del menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del progenitor pidiendo a la entidad pública que asuma temporalmente la guarda del menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del progenitor pidiendo a la entidad pública que asuma temporalmente la guarda del menor

@@ -1,6 +1,6 @@
 ---
 name: escrito-consumidor-desistir-servicios-financieros-civ-0684
-description: "Escrito del consumidor para desistir de servicios financieros contratados a distancia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del consumidor para desistir de servicios financieros contratados a distancia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del consumidor para desistir de servicios financieros contratados a distancia

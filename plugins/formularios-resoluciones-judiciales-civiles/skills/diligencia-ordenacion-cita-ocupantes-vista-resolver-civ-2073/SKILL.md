@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-cita-ocupantes-vista-resolver-civ-2073
-description: "Diligencia de ordenación que cita a los ocupantes a vista para resolver sobre su ocupación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que cita a los ocupantes a vista para resolver sobre su ocupación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que cita a los ocupantes a vista para resolver sobre su ocupación

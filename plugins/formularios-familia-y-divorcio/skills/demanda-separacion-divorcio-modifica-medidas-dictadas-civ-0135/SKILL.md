@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-divorcio-modifica-medidas-dictadas-civ-0135
-description: "Demanda de separación o divorcio que modifica las medidas dictadas por Violencia sobre la Mujer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación o divorcio que modifica las medidas dictadas por Violencia sobre la Mujer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación o divorcio que modifica las medidas dictadas por Violencia sobre la Mujer

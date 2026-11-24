@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-separacion-segun-derecho-civil-civ-0283
-description: "Convenio regulador de separación según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de separación según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de separación según el Derecho civil de Cataluña

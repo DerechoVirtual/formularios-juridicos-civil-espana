@@ -1,6 +1,6 @@
 ---
 name: acta-otorgamiento-poder-apud-acta-articulo-23-3-lec-civ-0886
-description: "Acta de otorgamiento de poder apud acta (artículo 23.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de otorgamiento de poder apud acta (artículo 23.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de otorgamiento de poder apud acta (artículo 23.3 LEC)

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-requiere-subsanar-acumulacion-civ-1897
-description: "Diligencia de ordenación que requiere subsanar la acumulación indebida de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que requiere subsanar la acumulación indebida de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que requiere subsanar la acumulación indebida de acciones

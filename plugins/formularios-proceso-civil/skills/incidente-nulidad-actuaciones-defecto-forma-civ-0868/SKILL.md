@@ -1,6 +1,6 @@
 ---
 name: incidente-nulidad-actuaciones-defecto-forma-civ-0868
-description: "Incidente de nulidad de actuaciones por defecto de forma. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Incidente de nulidad de actuaciones por defecto de forma. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Incidente de nulidad de actuaciones por defecto de forma

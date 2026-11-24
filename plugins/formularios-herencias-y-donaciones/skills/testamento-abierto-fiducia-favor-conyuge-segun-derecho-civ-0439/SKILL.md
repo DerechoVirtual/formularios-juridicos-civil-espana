@@ -1,6 +1,6 @@
 ---
 name: testamento-abierto-fiducia-favor-conyuge-segun-derecho-civ-0439
-description: "Testamento abierto con fiducia a favor del cónyuge según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento abierto con fiducia a favor del cónyuge según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento abierto con fiducia a favor del cónyuge según el Derecho catalán

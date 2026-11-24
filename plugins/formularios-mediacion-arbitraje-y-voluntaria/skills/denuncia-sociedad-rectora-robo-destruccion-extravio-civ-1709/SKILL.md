@@ -1,6 +1,6 @@
 ---
 name: denuncia-sociedad-rectora-robo-destruccion-extravio-civ-1709
-description: "Denuncia a la sociedad rectora por robo, destrucción o extravío de valores de mercados oficiales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Denuncia a la sociedad rectora por robo, destrucción o extravío de valores de mercados oficiales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Denuncia a la sociedad rectora por robo, destrucción o extravío de valores de mercados oficiales

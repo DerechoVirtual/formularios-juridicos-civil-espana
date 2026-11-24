@@ -1,6 +1,6 @@
 ---
 name: acta-deposito-pacto-hermandad-segun-derecho-navarro-civ-0434
-description: "Acta de depósito de pacto de hermandad según el Derecho navarro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de depósito de pacto de hermandad según el Derecho navarro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de depósito de pacto de hermandad según el Derecho navarro

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-suspende-proceso-acumulado-mas-civ-1828
-description: "Diligencia de ordenación que suspende el proceso acumulado más avanzado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que suspende el proceso acumulado más avanzado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que suspende el proceso acumulado más avanzado

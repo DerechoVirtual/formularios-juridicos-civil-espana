@@ -1,6 +1,6 @@
 ---
 name: estatutos-comunidad-propietarios-civ-0633
-description: "Estatutos de una comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos de una comunidad de propietarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos de una comunidad de propietarios

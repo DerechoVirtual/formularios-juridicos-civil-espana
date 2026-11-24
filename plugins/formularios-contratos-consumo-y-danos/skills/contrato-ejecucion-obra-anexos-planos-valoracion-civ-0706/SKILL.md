@@ -1,6 +1,6 @@
 ---
 name: contrato-ejecucion-obra-anexos-planos-valoracion-civ-0706
-description: "Contrato de ejecución de obra con anexos de planos y valoración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de ejecución de obra con anexos de planos y valoración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de ejecución de obra con anexos de planos y valoración

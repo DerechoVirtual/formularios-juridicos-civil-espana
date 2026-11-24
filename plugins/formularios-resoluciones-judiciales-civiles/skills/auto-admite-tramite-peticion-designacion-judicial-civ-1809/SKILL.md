@@ -1,6 +1,6 @@
 ---
 name: auto-admite-tramite-peticion-designacion-judicial-civ-1809
-description: "Auto que admite a trámite la petición de designación judicial de un árbitro único. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite a trámite la petición de designación judicial de un árbitro único. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite a trámite la petición de designación judicial de un árbitro único

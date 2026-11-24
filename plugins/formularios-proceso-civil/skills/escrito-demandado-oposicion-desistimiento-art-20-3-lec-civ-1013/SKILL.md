@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-oposicion-desistimiento-art-20-3-lec-civ-1013
-description: "Escrito del demandado de oposición al desistimiento (art. 20.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado de oposición al desistimiento (art. 20.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado de oposición al desistimiento (art. 20.3 LEC)

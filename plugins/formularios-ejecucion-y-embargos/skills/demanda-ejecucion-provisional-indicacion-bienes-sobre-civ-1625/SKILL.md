@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-provisional-indicacion-bienes-sobre-civ-1625
-description: "Demanda de ejecución provisional con indicación de los bienes sobre los que trabar embargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución provisional con indicación de los bienes sobre los que trabar embargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución provisional con indicación de los bienes sobre los que trabar embargo

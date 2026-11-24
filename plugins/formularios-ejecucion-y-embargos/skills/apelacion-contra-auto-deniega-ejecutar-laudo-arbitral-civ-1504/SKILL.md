@@ -1,6 +1,6 @@
 ---
 name: apelacion-contra-auto-deniega-ejecutar-laudo-arbitral-civ-1504
-description: "Apelación contra el auto que deniega ejecutar un laudo arbitral en materia de arrendamientos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación contra el auto que deniega ejecutar un laudo arbitral en materia de arrendamientos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación contra el auto que deniega ejecutar un laudo arbitral en materia de arrendamientos

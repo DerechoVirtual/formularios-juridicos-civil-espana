@@ -1,6 +1,6 @@
 ---
 name: comparecencia-demandado-rebelde-durante-proceso-civ-1322
-description: "Comparecencia del demandado rebelde durante el proceso con solicitud de nulidad de actuaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comparecencia del demandado rebelde durante el proceso con solicitud de nulidad de actuaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comparecencia del demandado rebelde durante el proceso con solicitud de nulidad de actuaciones

@@ -1,6 +1,6 @@
 ---
 name: requerimiento-comprador-resolver-compraventa-inmueble-civ-0699
-description: "Requerimiento del comprador para resolver la compraventa de inmueble e indemnizar daños y perjuicios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento del comprador para resolver la compraventa de inmueble e indemnizar daños y perjuicios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento del comprador para resolver la compraventa de inmueble e indemnizar daños y perjuicios

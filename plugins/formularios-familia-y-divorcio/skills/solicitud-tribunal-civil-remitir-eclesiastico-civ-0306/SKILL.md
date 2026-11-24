@@ -1,6 +1,6 @@
 ---
 name: solicitud-tribunal-civil-remitir-eclesiastico-civ-0306
-description: "Solicitud al tribunal civil de remitir al eclesiástico certificación del auto de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al tribunal civil de remitir al eclesiástico certificación del auto de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al tribunal civil de remitir al eclesiástico certificación del auto de medidas

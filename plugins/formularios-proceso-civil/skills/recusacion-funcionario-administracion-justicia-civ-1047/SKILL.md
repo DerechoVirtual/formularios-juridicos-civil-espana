@@ -1,6 +1,6 @@
 ---
 name: recusacion-funcionario-administracion-justicia-civ-1047
-description: "Recusación de funcionario de la Administración de Justicia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación de funcionario de la Administración de Justicia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación de funcionario de la Administración de Justicia

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-comunica-poderdante-civ-1925
-description: "Diligencia de ordenación que comunica al poderdante el fallecimiento de su procurador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que comunica al poderdante el fallecimiento de su procurador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que comunica al poderdante el fallecimiento de su procurador

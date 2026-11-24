@@ -1,6 +1,6 @@
 ---
 name: peticion-reanudar-divorcio-separacion-contenciosos-civ-0138
-description: "Petición de reanudar divorcio o separación contenciosos suspendidos y convertirlos en mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de reanudar divorcio o separación contenciosos suspendidos y convertirlos en mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de reanudar divorcio o separación contenciosos suspendidos y convertirlos en mutuo acuerdo

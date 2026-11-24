@@ -1,6 +1,6 @@
 ---
 name: impugnacion-resolucion-deniega-justicia-gratuita-civ-0876
-description: "Impugnación de la resolución que deniega la justicia gratuita, con reconocimiento excepcional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la resolución que deniega la justicia gratuita, con reconocimiento excepcional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la resolución que deniega la justicia gratuita, con reconocimiento excepcional

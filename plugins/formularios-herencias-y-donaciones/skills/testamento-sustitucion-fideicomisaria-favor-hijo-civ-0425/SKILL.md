@@ -1,6 +1,6 @@
 ---
 name: testamento-sustitucion-fideicomisaria-favor-hijo-civ-0425
-description: "Testamento con sustitución fideicomisaria a favor de un hijo o descendiente incapacitado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con sustitución fideicomisaria a favor de un hijo o descendiente incapacitado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con sustitución fideicomisaria a favor de un hijo o descendiente incapacitado

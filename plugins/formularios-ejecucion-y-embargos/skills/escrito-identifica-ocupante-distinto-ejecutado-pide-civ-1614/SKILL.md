@@ -1,6 +1,6 @@
 ---
 name: escrito-identifica-ocupante-distinto-ejecutado-pide-civ-1614
-description: "Escrito que identifica a un ocupante distinto del ejecutado y pide declarar que no puede permanecer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que identifica a un ocupante distinto del ejecutado y pide declarar que no puede permanecer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que identifica a un ocupante distinto del ejecutado y pide declarar que no puede permanecer

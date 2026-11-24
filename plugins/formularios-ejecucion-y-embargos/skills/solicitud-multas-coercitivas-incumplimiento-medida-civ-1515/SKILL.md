@@ -1,6 +1,6 @@
 ---
 name: solicitud-multas-coercitivas-incumplimiento-medida-civ-1515
-description: "Solicitud de multas coercitivas por incumplimiento de una medida de un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de multas coercitivas por incumplimiento de una medida de un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de multas coercitivas por incumplimiento de una medida de un proceso matrimonial

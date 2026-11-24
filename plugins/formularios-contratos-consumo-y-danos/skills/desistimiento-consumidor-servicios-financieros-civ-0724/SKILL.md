@@ -1,6 +1,6 @@
 ---
 name: desistimiento-consumidor-servicios-financieros-civ-0724
-description: "Desistimiento del consumidor en servicios financieros a distancia con datos del producto adquirido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del consumidor en servicios financieros a distancia con datos del producto adquirido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del consumidor en servicios financieros a distancia con datos del producto adquirido

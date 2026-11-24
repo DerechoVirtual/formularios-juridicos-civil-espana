@@ -1,6 +1,6 @@
 ---
 name: auto-estima-oposicion-defectos-procesales-insubsanables-civ-2088
-description: "Auto que estima la oposición por defectos procesales insubsanables. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la oposición por defectos procesales insubsanables. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la oposición por defectos procesales insubsanables

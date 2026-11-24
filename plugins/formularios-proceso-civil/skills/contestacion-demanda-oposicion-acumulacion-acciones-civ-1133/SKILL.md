@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-oposicion-acumulacion-acciones-civ-1133
-description: "Contestación a la demanda con oposición a la acumulación de acciones planteada en la propia demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda con oposición a la acumulación de acciones planteada en la propia demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda con oposición a la acumulación de acciones planteada en la propia demanda

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-danos-trafico-contra-civ-0825
-description: "Demanda de juicio ordinario por daños de tráfico contra conductor, propietario y aseguradora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por daños de tráfico contra conductor, propietario y aseguradora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por daños de tráfico contra conductor, propietario y aseguradora

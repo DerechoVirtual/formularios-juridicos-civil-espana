@@ -1,6 +1,6 @@
 ---
 name: capitulaciones-matrimoniales-posteriores-matrimonio-civ-0365
-description: "Capitulaciones matrimoniales posteriores al matrimonio que modifican el régimen económico (Bizkaia). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Capitulaciones matrimoniales posteriores al matrimonio que modifican el régimen económico (Bizkaia). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Capitulaciones matrimoniales posteriores al matrimonio que modifican el régimen económico (Bizkaia)

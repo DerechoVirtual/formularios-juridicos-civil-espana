@@ -1,6 +1,6 @@
 ---
 name: acta-sesion-constitutiva-mediacion-pacto-civ-1749
-description: "Acta de la sesión constitutiva de mediación con pacto de confidencialidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la sesión constitutiva de mediación con pacto de confidencialidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la sesión constitutiva de mediación con pacto de confidencialidad

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamacion-cantidad-civ-0816
-description: "Demanda de juicio ordinario de reclamación de cantidad por ejecución de obra civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de reclamación de cantidad por ejecución de obra civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de reclamación de cantidad por ejecución de obra civil

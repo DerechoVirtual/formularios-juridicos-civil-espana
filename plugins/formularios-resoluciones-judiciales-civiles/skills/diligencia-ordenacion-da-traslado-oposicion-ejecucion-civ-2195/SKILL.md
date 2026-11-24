@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-traslado-oposicion-ejecucion-civ-2195
-description: "Diligencia de ordenación que da traslado de la oposición a la ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da traslado de la oposición a la ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da traslado de la oposición a la ejecución provisional

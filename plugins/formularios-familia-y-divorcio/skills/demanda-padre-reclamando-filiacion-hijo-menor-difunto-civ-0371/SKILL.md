@@ -1,6 +1,6 @@
 ---
 name: demanda-padre-reclamando-filiacion-hijo-menor-difunto-civ-0371
-description: "Demanda del padre reclamando filiación de hijo menor difunto e impugnando otra filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del padre reclamando filiación de hijo menor difunto e impugnando otra filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del padre reclamando filiación de hijo menor difunto e impugnando otra filiación

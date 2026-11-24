@@ -1,6 +1,6 @@
 ---
 name: solicitud-lanzamiento-vivienda-familiar-proceso-civ-0293
-description: "Solicitud de lanzamiento de la vivienda familiar en proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de lanzamiento de la vivienda familiar en proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de lanzamiento de la vivienda familiar en proceso matrimonial

@@ -1,6 +1,6 @@
 ---
 name: escritura-heredamiento-simple-segun-derecho-catalan-civ-0441
-description: "Escritura de heredamiento simple según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de heredamiento simple según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de heredamiento simple según el Derecho catalán

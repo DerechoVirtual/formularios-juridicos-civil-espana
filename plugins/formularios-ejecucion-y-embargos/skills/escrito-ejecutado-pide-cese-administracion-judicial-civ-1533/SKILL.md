@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pide-cese-administracion-judicial-civ-1533
-description: "Escrito del ejecutado que pide el cese de la administración judicial por mala gestión del ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que pide el cese de la administración judicial por mala gestión del ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que pide el cese de la administración judicial por mala gestión del ejecutante

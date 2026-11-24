@@ -1,6 +1,6 @@
 ---
 name: requerimiento-notarial-inquilino-cesar-actividades-civ-0586
-description: "Requerimiento notarial al inquilino para cesar actividades molestas, nocivas, peligrosas o ilícitas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento notarial al inquilino para cesar actividades molestas, nocivas, peligrosas o ilícitas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento notarial al inquilino para cesar actividades molestas, nocivas, peligrosas o ilícitas

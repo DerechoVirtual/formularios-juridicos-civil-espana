@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-mediacion-partes-contrato-suministro-civ-1740
-description: "Solicitud conjunta de mediación por las partes de un contrato de suministro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de mediación por las partes de un contrato de suministro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de mediación por las partes de un contrato de suministro

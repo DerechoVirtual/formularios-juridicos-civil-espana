@@ -1,6 +1,6 @@
 ---
 name: auto-resuelve-oposicion-medida-cautelar-acordada-sin-civ-2099
-description: "Auto que resuelve la oposición a una medida cautelar acordada sin audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que resuelve la oposición a una medida cautelar acordada sin audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que resuelve la oposición a una medida cautelar acordada sin audiencia previa

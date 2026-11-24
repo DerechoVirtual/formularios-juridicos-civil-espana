@@ -1,6 +1,6 @@
 ---
 name: decreto-resuelve-impugnacion-cuenta-final-civ-1993
-description: "Decreto que resuelve la impugnación de la cuenta final del administrador judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que resuelve la impugnación de la cuenta final del administrador judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que resuelve la impugnación de la cuenta final del administrador judicial

@@ -1,6 +1,6 @@
 ---
 name: promesa-arrendar-local-negocio-precontrato-civ-0533
-description: "Promesa de arrendar un local de negocio (precontrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Promesa de arrendar un local de negocio (precontrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Promesa de arrendar un local de negocio (precontrato)

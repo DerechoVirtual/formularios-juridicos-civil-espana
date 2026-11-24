@@ -1,6 +1,6 @@
 ---
 name: contrato-aparceria-finca-rustica-civ-0545
-description: "Contrato de aparcería de finca rústica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de aparcería de finca rústica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de aparcería de finca rústica

@@ -1,6 +1,6 @@
 ---
 name: sentencia-estima-separacion-mutuo-acuerdo-aprueba-civ-1887
-description: "Sentencia que estima la separación de mutuo acuerdo y aprueba el convenio regulador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia que estima la separación de mutuo acuerdo y aprueba el convenio regulador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia que estima la separación de mutuo acuerdo y aprueba el convenio regulador

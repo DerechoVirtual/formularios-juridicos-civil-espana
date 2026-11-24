@@ -1,6 +1,6 @@
 ---
 name: solicitud-inventario-liquidacion-sociedad-conquistas-civ-0243
-description: "Solicitud de inventario en la liquidación de la sociedad de conquistas (Derecho foral navarro). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de inventario en la liquidación de la sociedad de conquistas (Derecho foral navarro). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de inventario en la liquidación de la sociedad de conquistas (Derecho foral navarro)

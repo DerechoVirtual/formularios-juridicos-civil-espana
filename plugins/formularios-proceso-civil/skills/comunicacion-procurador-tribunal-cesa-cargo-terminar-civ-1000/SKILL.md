@@ -1,6 +1,6 @@
 ---
 name: comunicacion-procurador-tribunal-cesa-cargo-terminar-civ-1000
-description: "Comunicación del procurador al tribunal de que cesa en su cargo por terminar el proceso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del procurador al tribunal de que cesa en su cargo por terminar el proceso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del procurador al tribunal de que cesa en su cargo por terminar el proceso

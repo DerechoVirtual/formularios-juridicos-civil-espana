@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-conyuges-extranjeros-no-civ-0320
-description: "Demanda de divorcio contencioso de cónyuges extranjeros no comunitarios por fuero de los demandantes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso de cónyuges extranjeros no comunitarios por fuero de los demandantes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso de cónyuges extranjeros no comunitarios por fuero de los demandantes

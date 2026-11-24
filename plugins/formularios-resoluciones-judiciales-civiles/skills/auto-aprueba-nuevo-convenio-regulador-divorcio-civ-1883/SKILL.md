@@ -1,6 +1,6 @@
 ---
 name: auto-aprueba-nuevo-convenio-regulador-divorcio-civ-1883
-description: "Auto que aprueba el nuevo convenio regulador de divorcio con la estipulación modificada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que aprueba el nuevo convenio regulador de divorcio con la estipulación modificada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que aprueba el nuevo convenio regulador de divorcio con la estipulación modificada

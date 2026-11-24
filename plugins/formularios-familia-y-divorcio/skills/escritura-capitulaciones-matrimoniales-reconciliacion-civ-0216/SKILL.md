@@ -1,6 +1,6 @@
 ---
 name: escritura-capitulaciones-matrimoniales-reconciliacion-civ-0216
-description: "Escritura de capitulaciones matrimoniales con reconciliación de los cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de capitulaciones matrimoniales con reconciliación de los cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de capitulaciones matrimoniales con reconciliación de los cónyuges

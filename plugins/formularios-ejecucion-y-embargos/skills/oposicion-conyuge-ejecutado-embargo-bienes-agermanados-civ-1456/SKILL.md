@@ -1,6 +1,6 @@
 ---
 name: oposicion-conyuge-ejecutado-embargo-bienes-agermanados-civ-1456
-description: "Oposición del cónyuge del ejecutado al embargo de bienes agermanados seguido como deuda consorcial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del cónyuge del ejecutado al embargo de bienes agermanados seguido como deuda consorcial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del cónyuge del ejecutado al embargo de bienes agermanados seguido como deuda consorcial

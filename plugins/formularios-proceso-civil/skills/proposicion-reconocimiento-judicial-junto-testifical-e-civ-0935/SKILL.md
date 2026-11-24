@@ -1,6 +1,6 @@
 ---
 name: proposicion-reconocimiento-judicial-junto-testifical-e-civ-0935
-description: "Proposición de reconocimiento judicial junto con testifical e interrogatorio de parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de reconocimiento judicial junto con testifical e interrogatorio de parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de reconocimiento judicial junto con testifical e interrogatorio de parte

@@ -1,6 +1,6 @@
 ---
 name: escrito-arrendador-opone-enervacion-accion-desahucio-civ-0539
-description: "Escrito del arrendador que se opone a la enervación de la acción de desahucio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del arrendador que se opone a la enervación de la acción de desahucio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del arrendador que se opone a la enervación de la acción de desahucio

@@ -1,6 +1,6 @@
 ---
 name: apelacion-trafico-error-factico-e-infraccion-material-civ-1389
-description: "Apelación de tráfico por error fáctico e infracción material, con vista (pleito previo al 20-3-2024). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación de tráfico por error fáctico e infracción material, con vista (pleito previo al 20-3-2024). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación de tráfico por error fáctico e infracción material, con vista (pleito previo al 20-3-2024)

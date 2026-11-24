@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-medida-cautelar-sin-oir-antes-demandado-civ-1797
-description: "Auto que acuerda una medida cautelar sin oír antes al demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda una medida cautelar sin oír antes al demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda una medida cautelar sin oír antes al demandado

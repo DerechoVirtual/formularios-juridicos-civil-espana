@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-pareja-estable-no-casada-segun-civ-0204
-description: "Escritura de constitución de pareja estable no casada según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de pareja estable no casada según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de pareja estable no casada según el Derecho aragonés

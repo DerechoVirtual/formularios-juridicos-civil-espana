@@ -1,6 +1,6 @@
 ---
 name: demanda-aumento-pension-alimenticia-incremento-gastos-civ-0165
-description: "Demanda de aumento de la pensión alimenticia por incremento de los gastos de los hijos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de aumento de la pensión alimenticia por incremento de los gastos de los hijos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de aumento de la pensión alimenticia por incremento de los gastos de los hijos

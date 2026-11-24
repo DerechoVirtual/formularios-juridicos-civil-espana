@@ -1,6 +1,6 @@
 ---
 name: recusacion-laj-juicio-ordinario-enemistad-manifiesta-civ-1048
-description: "Recusación del LAJ en juicio ordinario por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación del LAJ en juicio ordinario por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación del LAJ en juicio ordinario por enemistad manifiesta

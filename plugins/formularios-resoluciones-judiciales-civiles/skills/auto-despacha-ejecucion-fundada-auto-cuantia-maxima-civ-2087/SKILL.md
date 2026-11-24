@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-fundada-auto-cuantia-maxima-civ-2087
-description: "Auto que despacha ejecución fundada en auto de cuantía máxima del seguro obligatorio de automóviles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución fundada en auto de cuantía máxima del seguro obligatorio de automóviles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución fundada en auto de cuantía máxima del seguro obligatorio de automóviles

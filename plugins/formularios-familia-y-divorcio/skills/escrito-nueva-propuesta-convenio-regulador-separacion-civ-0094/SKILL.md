@@ -1,6 +1,6 @@
 ---
 name: escrito-nueva-propuesta-convenio-regulador-separacion-civ-0094
-description: "Escrito con nueva propuesta de convenio regulador de separación o divorcio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito con nueva propuesta de convenio regulador de separación o divorcio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito con nueva propuesta de convenio regulador de separación o divorcio

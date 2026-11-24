@@ -1,6 +1,6 @@
 ---
 name: recurso-conjunto-infraccion-procesal-casacion-interes-civ-1316
-description: "Recurso conjunto por infracción procesal y casación por interés casacional (anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso conjunto por infracción procesal y casación por interés casacional (anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso conjunto por infracción procesal y casación por interés casacional (anterior al RDL 5 2023)

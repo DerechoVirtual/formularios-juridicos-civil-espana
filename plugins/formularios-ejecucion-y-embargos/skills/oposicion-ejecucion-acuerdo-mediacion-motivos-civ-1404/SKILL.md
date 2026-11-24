@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-acuerdo-mediacion-motivos-civ-1404
-description: "Oposición a la ejecución de un acuerdo de mediación por motivos procesales o de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución de un acuerdo de mediación por motivos procesales o de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución de un acuerdo de mediación por motivos procesales o de fondo

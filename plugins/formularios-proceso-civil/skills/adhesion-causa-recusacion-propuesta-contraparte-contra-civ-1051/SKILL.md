@@ -1,6 +1,6 @@
 ---
 name: adhesion-causa-recusacion-propuesta-contraparte-contra-civ-1051
-description: "Adhesión a la causa de recusación propuesta por la contraparte contra el juez. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Adhesión a la causa de recusación propuesta por la contraparte contra el juez. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Adhesión a la causa de recusación propuesta por la contraparte contra el juez

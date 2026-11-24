@@ -1,6 +1,6 @@
 ---
 name: escrito-excusa-no-aceptar-cargo-tutor-civ-0378
-description: "Escrito de excusa para no aceptar el cargo de tutor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de excusa para no aceptar el cargo de tutor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de excusa para no aceptar el cargo de tutor

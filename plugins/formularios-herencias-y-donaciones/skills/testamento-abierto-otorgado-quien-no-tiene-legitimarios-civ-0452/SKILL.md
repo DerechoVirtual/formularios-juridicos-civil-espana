@@ -1,6 +1,6 @@
 ---
 name: testamento-abierto-otorgado-quien-no-tiene-legitimarios-civ-0452
-description: "Testamento abierto otorgado por quien no tiene legitimarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento abierto otorgado por quien no tiene legitimarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento abierto otorgado por quien no tiene legitimarios

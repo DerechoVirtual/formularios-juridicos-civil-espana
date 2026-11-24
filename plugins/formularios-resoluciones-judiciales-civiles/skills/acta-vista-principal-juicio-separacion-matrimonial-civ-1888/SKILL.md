@@ -1,6 +1,6 @@
 ---
 name: acta-vista-principal-juicio-separacion-matrimonial-civ-1888
-description: "Acta de la vista principal en juicio de separación matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la vista principal en juicio de separación matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la vista principal en juicio de separación matrimonial

@@ -1,6 +1,6 @@
 ---
 name: solicitud-parte-intervenga-juicio-perito-designado-civ-0942
-description: "Solicitud de la parte para que intervenga en el juicio el perito designado judicialmente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de la parte para que intervenga en el juicio el perito designado judicialmente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de la parte para que intervenga en el juicio el perito designado judicialmente

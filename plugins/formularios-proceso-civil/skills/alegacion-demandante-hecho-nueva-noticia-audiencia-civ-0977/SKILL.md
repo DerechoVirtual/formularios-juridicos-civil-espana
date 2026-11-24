@@ -1,6 +1,6 @@
 ---
 name: alegacion-demandante-hecho-nueva-noticia-audiencia-civ-0977
-description: "Alegación del demandante de un hecho de nueva noticia en la audiencia previa, y oposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegación del demandante de un hecho de nueva noticia en la audiencia previa, y oposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegación del demandante de un hecho de nueva noticia en la audiencia previa, y oposición

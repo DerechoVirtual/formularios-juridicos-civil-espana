@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-acuerdo-ejecucion-medidas-civ-0010
-description: "Acta final de mediación con acuerdo en la ejecución de medidas definitivas de un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación con acuerdo en la ejecución de medidas definitivas de un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación con acuerdo en la ejecución de medidas definitivas de un proceso matrimonial

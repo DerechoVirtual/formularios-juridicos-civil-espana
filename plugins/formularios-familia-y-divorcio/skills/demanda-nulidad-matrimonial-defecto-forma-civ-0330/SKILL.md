@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-matrimonial-defecto-forma-civ-0330
-description: "Demanda de nulidad matrimonial por defecto de forma con indemnización al cónyuge de buena fe. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad matrimonial por defecto de forma con indemnización al cónyuge de buena fe. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad matrimonial por defecto de forma con indemnización al cónyuge de buena fe

@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-pareja-estable-segun-derecho-civ-0202
-description: "Escritura de constitución de pareja estable según el Derecho de Asturias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de pareja estable según el Derecho de Asturias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de pareja estable según el Derecho de Asturias

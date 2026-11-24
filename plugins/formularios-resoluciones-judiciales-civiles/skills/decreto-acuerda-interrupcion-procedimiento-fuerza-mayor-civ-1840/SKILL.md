@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-interrupcion-procedimiento-fuerza-mayor-civ-1840
-description: "Decreto que acuerda la interrupción del procedimiento por fuerza mayor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda la interrupción del procedimiento por fuerza mayor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda la interrupción del procedimiento por fuerza mayor

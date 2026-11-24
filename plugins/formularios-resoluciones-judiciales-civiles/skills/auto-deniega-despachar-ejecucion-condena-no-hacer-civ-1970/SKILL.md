@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-despachar-ejecucion-condena-no-hacer-civ-1970
-description: "Auto que deniega despachar ejecución de una condena de no hacer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega despachar ejecución de una condena de no hacer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega despachar ejecución de una condena de no hacer

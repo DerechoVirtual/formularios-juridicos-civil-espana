@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-convocar-subasta-bien-civ-1415
-description: "Escrito del ejecutante pidiendo convocar la subasta del bien hipotecado y la inspección del inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo convocar la subasta del bien hipotecado y la inspección del inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo convocar la subasta del bien hipotecado y la inspección del inmueble

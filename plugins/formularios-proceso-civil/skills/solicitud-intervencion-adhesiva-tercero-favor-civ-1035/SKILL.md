@@ -1,6 +1,6 @@
 ---
 name: solicitud-intervencion-adhesiva-tercero-favor-civ-1035
-description: "Solicitud de intervención adhesiva de tercero a favor del demandado en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de intervención adhesiva de tercero a favor del demandado en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de intervención adhesiva de tercero a favor del demandado en juicio ordinario

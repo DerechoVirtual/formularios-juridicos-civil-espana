@@ -1,6 +1,6 @@
 ---
 name: decreto-estima-impugnacion-tasacion-costas-exclusiones-civ-1951
-description: "Decreto que estima la impugnación de la tasación de costas por exclusiones indebidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que estima la impugnación de la tasación de costas por exclusiones indebidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que estima la impugnación de la tasación de costas por exclusiones indebidas

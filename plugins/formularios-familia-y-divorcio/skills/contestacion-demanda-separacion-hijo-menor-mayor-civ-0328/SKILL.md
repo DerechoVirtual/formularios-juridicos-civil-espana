@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-separacion-hijo-menor-mayor-civ-0328
-description: "Contestación a demanda de separación con hijo menor y mayor conviviente, y reconvención de divorcio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a demanda de separación con hijo menor y mayor conviviente, y reconvención de divorcio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a demanda de separación con hijo menor y mayor conviviente, y reconvención de divorcio

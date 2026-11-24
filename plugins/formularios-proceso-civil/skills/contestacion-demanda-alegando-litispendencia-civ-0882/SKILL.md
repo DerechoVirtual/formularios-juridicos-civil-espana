@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-alegando-litispendencia-civ-0882
-description: "Contestación a la demanda alegando litispendencia internacional (artículo 29 Bruselas I bis). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda alegando litispendencia internacional (artículo 29 Bruselas I bis). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda alegando litispendencia internacional (artículo 29 Bruselas I bis)

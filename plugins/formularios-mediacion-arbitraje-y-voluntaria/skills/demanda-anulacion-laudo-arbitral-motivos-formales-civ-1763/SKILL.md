@@ -1,6 +1,6 @@
 ---
 name: demanda-anulacion-laudo-arbitral-motivos-formales-civ-1763
-description: "Demanda de anulación de laudo arbitral por motivos formales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de anulación de laudo arbitral por motivos formales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de anulación de laudo arbitral por motivos formales

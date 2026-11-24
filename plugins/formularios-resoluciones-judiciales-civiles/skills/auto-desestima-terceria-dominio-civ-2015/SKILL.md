@@ -1,6 +1,6 @@
 ---
 name: auto-desestima-terceria-dominio-civ-2015
-description: "Auto que desestima la tercería de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que desestima la tercería de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que desestima la tercería de dominio

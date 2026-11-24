@@ -1,6 +1,6 @@
 ---
 name: solicitud-conyuge-dejo-vivienda-orden-judicial-civ-0291
-description: "Solicitud del cónyuge que dejó la vivienda por orden judicial de recuperar sus bienes personales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del cónyuge que dejó la vivienda por orden judicial de recuperar sus bienes personales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del cónyuge que dejó la vivienda por orden judicial de recuperar sus bienes personales

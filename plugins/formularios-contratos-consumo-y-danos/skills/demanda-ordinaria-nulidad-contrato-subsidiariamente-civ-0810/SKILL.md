@@ -1,6 +1,6 @@
 ---
 name: demanda-ordinaria-nulidad-contrato-subsidiariamente-civ-0810
-description: "Demanda ordinaria de nulidad del contrato y, subsidiariamente, incumplimiento e indemnización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ordinaria de nulidad del contrato y, subsidiariamente, incumplimiento e indemnización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ordinaria de nulidad del contrato y, subsidiariamente, incumplimiento e indemnización

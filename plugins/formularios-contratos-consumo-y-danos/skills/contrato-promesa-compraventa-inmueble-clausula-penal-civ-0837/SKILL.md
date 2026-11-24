@@ -1,6 +1,6 @@
 ---
 name: contrato-promesa-compraventa-inmueble-clausula-penal-civ-0837
-description: "Contrato de promesa de compraventa de inmueble con cláusula penal y pago aplazado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de promesa de compraventa de inmueble con cláusula penal y pago aplazado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de promesa de compraventa de inmueble con cláusula penal y pago aplazado

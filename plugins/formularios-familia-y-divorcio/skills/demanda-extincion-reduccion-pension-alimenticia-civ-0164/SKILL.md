@@ -1,6 +1,6 @@
 ---
 name: demanda-extincion-reduccion-pension-alimenticia-civ-0164
-description: "Demanda de extinción o reducción de la pensión alimenticia por disminución de ingresos del obligado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de extinción o reducción de la pensión alimenticia por disminución de ingresos del obligado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de extinción o reducción de la pensión alimenticia por disminución de ingresos del obligado

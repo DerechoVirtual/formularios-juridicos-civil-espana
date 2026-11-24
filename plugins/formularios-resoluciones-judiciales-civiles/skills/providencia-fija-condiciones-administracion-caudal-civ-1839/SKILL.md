@@ -1,6 +1,6 @@
 ---
 name: providencia-fija-condiciones-administracion-caudal-civ-1839
-description: "Providencia que fija las condiciones de administración del caudal hereditario en el juicio divisorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que fija las condiciones de administración del caudal hereditario en el juicio divisorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que fija las condiciones de administración del caudal hereditario en el juicio divisorio

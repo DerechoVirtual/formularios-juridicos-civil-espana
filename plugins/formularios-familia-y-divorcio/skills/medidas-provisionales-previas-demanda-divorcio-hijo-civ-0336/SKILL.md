@@ -1,6 +1,6 @@
 ---
 name: medidas-provisionales-previas-demanda-divorcio-hijo-civ-0336
-description: "Medidas provisionales previas a la demanda de divorcio con hijo menor y riesgo para el solicitante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Medidas provisionales previas a la demanda de divorcio con hijo menor y riesgo para el solicitante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Medidas provisionales previas a la demanda de divorcio con hijo menor y riesgo para el solicitante

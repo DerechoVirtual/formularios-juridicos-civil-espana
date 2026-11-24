@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-indefension-practica-prueba-civ-1293
-description: "Recurso de reposición por indefensión en la práctica de la prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición por indefensión en la práctica de la prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición por indefensión en la práctica de la prueba

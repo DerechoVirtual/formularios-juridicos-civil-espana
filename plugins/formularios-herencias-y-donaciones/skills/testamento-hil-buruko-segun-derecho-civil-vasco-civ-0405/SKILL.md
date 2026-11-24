@@ -1,6 +1,6 @@
 ---
 name: testamento-hil-buruko-segun-derecho-civil-vasco-civ-0405
-description: "Testamento hil buruko según el Derecho civil vasco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento hil buruko según el Derecho civil vasco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento hil buruko según el Derecho civil vasco

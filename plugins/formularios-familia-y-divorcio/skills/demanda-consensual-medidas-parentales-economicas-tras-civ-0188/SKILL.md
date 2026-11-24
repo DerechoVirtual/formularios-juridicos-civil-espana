@@ -1,6 +1,6 @@
 ---
 name: demanda-consensual-medidas-parentales-economicas-tras-civ-0188
-description: "Demanda consensual de medidas parentales y económicas tras ruptura de pareja de hecho (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda consensual de medidas parentales y económicas tras ruptura de pareja de hecho (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda consensual de medidas parentales y económicas tras ruptura de pareja de hecho (Cataluña)

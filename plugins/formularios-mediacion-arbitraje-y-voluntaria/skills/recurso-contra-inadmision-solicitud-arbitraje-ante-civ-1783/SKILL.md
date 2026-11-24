@@ -1,6 +1,6 @@
 ---
 name: recurso-contra-inadmision-solicitud-arbitraje-ante-civ-1783
-description: "Recurso contra la inadmisión de una solicitud de arbitraje ante la Comisión de Juntas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso contra la inadmisión de una solicitud de arbitraje ante la Comisión de Juntas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso contra la inadmisión de una solicitud de arbitraje ante la Comisión de Juntas

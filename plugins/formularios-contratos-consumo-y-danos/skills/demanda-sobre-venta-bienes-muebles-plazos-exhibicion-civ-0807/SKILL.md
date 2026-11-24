@@ -1,6 +1,6 @@
 ---
 name: demanda-sobre-venta-bienes-muebles-plazos-exhibicion-civ-0807
-description: "Demanda sobre venta de bienes muebles a plazos con exhibición de los bienes y depositario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda sobre venta de bienes muebles a plazos con exhibición de los bienes y depositario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda sobre venta de bienes muebles a plazos con exhibición de los bienes y depositario

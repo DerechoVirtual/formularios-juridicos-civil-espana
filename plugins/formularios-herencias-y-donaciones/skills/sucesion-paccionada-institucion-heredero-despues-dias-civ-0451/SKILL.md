@@ -1,6 +1,6 @@
 ---
 name: sucesion-paccionada-institucion-heredero-despues-dias-civ-0451
-description: "Sucesión paccionada con institución de heredero para después de los días según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sucesión paccionada con institución de heredero para después de los días según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sucesión paccionada con institución de heredero para después de los días según el Derecho aragonés

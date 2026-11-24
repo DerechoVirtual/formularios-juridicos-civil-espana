@@ -1,6 +1,6 @@
 ---
 name: contestacion-ministerio-fiscal-demanda-impugnacion-civ-0118
-description: "Contestación del Ministerio Fiscal a la demanda de impugnación de filiación matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del Ministerio Fiscal a la demanda de impugnación de filiación matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del Ministerio Fiscal a la demanda de impugnación de filiación matrimonial

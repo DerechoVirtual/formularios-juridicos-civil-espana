@@ -1,6 +1,6 @@
 ---
 name: contrato-resarcimiento-gastos-incumplimiento-promesa-civ-0363
-description: "Contrato de resarcimiento de gastos por incumplimiento de promesa de matrimonio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de resarcimiento de gastos por incumplimiento de promesa de matrimonio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de resarcimiento de gastos por incumplimiento de promesa de matrimonio

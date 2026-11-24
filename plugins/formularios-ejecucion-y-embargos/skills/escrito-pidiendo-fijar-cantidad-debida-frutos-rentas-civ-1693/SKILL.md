@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-fijar-cantidad-debida-frutos-rentas-civ-1693
-description: "Escrito pidiendo fijar la cantidad debida por frutos, rentas, utilidades o productos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo fijar la cantidad debida por frutos, rentas, utilidades o productos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo fijar la cantidad debida por frutos, rentas, utilidades o productos

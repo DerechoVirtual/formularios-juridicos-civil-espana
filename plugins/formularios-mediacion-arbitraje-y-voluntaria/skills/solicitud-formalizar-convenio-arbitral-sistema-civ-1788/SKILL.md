@@ -1,6 +1,6 @@
 ---
 name: solicitud-formalizar-convenio-arbitral-sistema-civ-1788
-description: "Solicitud de formalizar el convenio arbitral en el sistema arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de formalizar el convenio arbitral en el sistema arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de formalizar el convenio arbitral en el sistema arbitral de consumo

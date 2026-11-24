@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-prohibicion-transmitir-letras-cambio-civ-1707
-description: "Escrito de oposición a la prohibición de transmitir letras de cambio solicitada por el tenedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la prohibición de transmitir letras de cambio solicitada por el tenedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la prohibición de transmitir letras de cambio solicitada por el tenedor

@@ -1,6 +1,6 @@
 ---
 name: impugnacion-recurso-reposicion-inadmisible-civ-1292
-description: "Impugnación de un recurso de reposición por inadmisible al interponerse fuera de plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de un recurso de reposición por inadmisible al interponerse fuera de plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de un recurso de reposición por inadmisible al interponerse fuera de plazo

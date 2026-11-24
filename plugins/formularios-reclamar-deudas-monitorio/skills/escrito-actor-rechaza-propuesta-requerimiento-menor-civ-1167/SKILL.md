@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-rechaza-propuesta-requerimiento-menor-civ-1167
-description: "Escrito del actor que rechaza la propuesta de requerimiento por menor cantidad en el monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que rechaza la propuesta de requerimiento por menor cantidad en el monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que rechaza la propuesta de requerimiento por menor cantidad en el monitorio

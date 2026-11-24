@@ -1,6 +1,6 @@
 ---
 name: auto-medidas-inmediatas-sobre-custodia-hijos-uso-civ-1802
-description: "Auto de medidas inmediatas sobre custodia de los hijos y uso de la vivienda familiar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de medidas inmediatas sobre custodia de los hijos y uso de la vivienda familiar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de medidas inmediatas sobre custodia de los hijos y uso de la vivienda familiar

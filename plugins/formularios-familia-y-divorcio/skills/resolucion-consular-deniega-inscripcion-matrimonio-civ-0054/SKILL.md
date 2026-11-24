@@ -1,6 +1,6 @@
 ---
 name: resolucion-consular-deniega-inscripcion-matrimonio-civ-0054
-description: "Resolución consular que deniega la inscripción de un matrimonio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Resolución consular que deniega la inscripción de un matrimonio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Resolución consular que deniega la inscripción de un matrimonio

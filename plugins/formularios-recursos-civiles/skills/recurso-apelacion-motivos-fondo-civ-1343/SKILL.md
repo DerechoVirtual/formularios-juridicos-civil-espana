@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-motivos-fondo-civ-1343
-description: "Recurso de apelación por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación por motivos de fondo

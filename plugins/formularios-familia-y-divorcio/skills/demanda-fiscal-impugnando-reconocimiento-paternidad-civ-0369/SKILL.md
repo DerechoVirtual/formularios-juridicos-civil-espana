@@ -1,6 +1,6 @@
 ---
 name: demanda-fiscal-impugnando-reconocimiento-paternidad-civ-0369
-description: "Demanda del fiscal impugnando un reconocimiento de paternidad que encubre una adopción ilícita. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del fiscal impugnando un reconocimiento de paternidad que encubre una adopción ilícita. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del fiscal impugnando un reconocimiento de paternidad que encubre una adopción ilícita

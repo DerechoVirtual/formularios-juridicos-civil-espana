@@ -1,6 +1,6 @@
 ---
 name: oposicion-demanda-ejecutiva-condena-sentencia-indebido-civ-1582
-description: "Oposición a la demanda ejecutiva de condena en sentencia por indebido tipo de interés moratorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la demanda ejecutiva de condena en sentencia por indebido tipo de interés moratorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la demanda ejecutiva de condena en sentencia por indebido tipo de interés moratorio

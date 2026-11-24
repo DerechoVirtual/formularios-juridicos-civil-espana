@@ -1,6 +1,6 @@
 ---
 name: reposicion-oral-juicio-contra-denegacion-ilicitud-civ-1359
-description: "Reposición oral en el juicio contra la denegación de ilicitud de prueba por vulnerar derechos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reposición oral en el juicio contra la denegación de ilicitud de prueba por vulnerar derechos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reposición oral en el juicio contra la denegación de ilicitud de prueba por vulnerar derechos

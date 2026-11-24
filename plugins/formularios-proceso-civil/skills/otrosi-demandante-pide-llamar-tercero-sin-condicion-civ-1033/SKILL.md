@@ -1,6 +1,6 @@
 ---
 name: otrosi-demandante-pide-llamar-tercero-sin-condicion-civ-1033
-description: "Otrosí del demandante que pide llamar a un tercero sin la condición de demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí del demandante que pide llamar a un tercero sin la condición de demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí del demandante que pide llamar a un tercero sin la condición de demandado

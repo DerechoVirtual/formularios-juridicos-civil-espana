@@ -1,6 +1,6 @@
 ---
 name: contrato-restitucion-bien-recibido-mala-fe-error-civ-0834
-description: "Contrato de restitución de un bien recibido de mala fe por error de entrega. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de restitución de un bien recibido de mala fe por error de entrega. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de restitución de un bien recibido de mala fe por error de entrega

@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-mutuo-acuerdo-sobre-hijos-fuera-civ-0157
-description: "Convenio regulador de mutuo acuerdo sobre hijos fuera de matrimonio y de pareja estable (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de mutuo acuerdo sobre hijos fuera de matrimonio y de pareja estable (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de mutuo acuerdo sobre hijos fuera de matrimonio y de pareja estable (Cataluña)

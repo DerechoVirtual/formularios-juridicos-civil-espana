@@ -1,6 +1,6 @@
 ---
 name: testamento-comisario-segun-derecho-civil-gallego-civ-0430
-description: "Testamento por comisario según el Derecho civil gallego. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento por comisario según el Derecho civil gallego. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento por comisario según el Derecho civil gallego

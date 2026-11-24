@@ -1,6 +1,6 @@
 ---
 name: oposicion-causa-recusacion-laj-propuesta-parte-civ-1046
-description: "Oposición a la causa de recusación del LAJ propuesta por la parte contraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la causa de recusación del LAJ propuesta por la parte contraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la causa de recusación del LAJ propuesta por la parte contraria

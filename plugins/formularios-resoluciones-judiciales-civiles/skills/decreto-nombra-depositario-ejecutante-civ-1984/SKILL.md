@@ -1,6 +1,6 @@
 ---
 name: decreto-nombra-depositario-ejecutante-civ-1984
-description: "Decreto que nombra depositario al ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que nombra depositario al ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que nombra depositario al ejecutante

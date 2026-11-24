@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-notoriedad-declarar-herederos-abintestato-civ-0456
-description: "Acta notarial de notoriedad para declarar herederos abintestato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial de notoriedad para declarar herederos abintestato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial de notoriedad para declarar herederos abintestato

@@ -1,6 +1,6 @@
 ---
 name: intervencion-audiencia-previa-sobre-defectos-demanda-civ-0978
-description: "Intervención en la audiencia previa sobre defectos de la demanda y aclaraciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervención en la audiencia previa sobre defectos de la demanda y aclaraciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervención en la audiencia previa sobre defectos de la demanda y aclaraciones

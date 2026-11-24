@@ -1,6 +1,6 @@
 ---
 name: auto-sobresee-ejecucion-provisional-condena-dineraria-civ-2170
-description: "Auto que sobresee la ejecución provisional de condena dineraria por revocación total de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que sobresee la ejecución provisional de condena dineraria por revocación total de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que sobresee la ejecución provisional de condena dineraria por revocación total de la sentencia

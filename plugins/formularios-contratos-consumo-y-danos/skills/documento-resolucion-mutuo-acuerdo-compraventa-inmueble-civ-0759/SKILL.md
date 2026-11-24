@@ -1,6 +1,6 @@
 ---
 name: documento-resolucion-mutuo-acuerdo-compraventa-inmueble-civ-0759
-description: "Documento de resolución por mutuo acuerdo de una compraventa de inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Documento de resolución por mutuo acuerdo de una compraventa de inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Documento de resolución por mutuo acuerdo de una compraventa de inmueble

@@ -1,6 +1,6 @@
 ---
 name: providencia-abre-expediente-gubernativo-da-audiencia-civ-1932
-description: "Providencia que abre expediente gubernativo y da audiencia sobre sanción por mala fe procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que abre expediente gubernativo y da audiencia sobre sanción por mala fe procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que abre expediente gubernativo y da audiencia sobre sanción por mala fe procesal

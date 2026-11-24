@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-audiencia-contraparte-sobre-civ-1914
-description: "Diligencia de ordenación que da audiencia a la contraparte sobre sucesión procesal por transmisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da audiencia a la contraparte sobre sucesión procesal por transmisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da audiencia a la contraparte sobre sucesión procesal por transmisión

@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-apremiar-ejecutado-aporte-civ-1635
-description: "Escrito del ejecutante pidiendo apremiar al ejecutado para que aporte los títulos de propiedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo apremiar al ejecutado para que aporte los títulos de propiedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo apremiar al ejecutado para que aporte los títulos de propiedad

@@ -1,6 +1,6 @@
 ---
 name: documento-reconocimiento-deuda-aplazamiento-pago-civ-0814
-description: "Documento de reconocimiento de deuda con aplazamiento de pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Documento de reconocimiento de deuda con aplazamiento de pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Documento de reconocimiento de deuda con aplazamiento de pago

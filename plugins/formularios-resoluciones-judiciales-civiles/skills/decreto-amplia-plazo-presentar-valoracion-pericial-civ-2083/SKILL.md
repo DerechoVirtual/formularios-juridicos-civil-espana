@@ -1,6 +1,6 @@
 ---
 name: decreto-amplia-plazo-presentar-valoracion-pericial-civ-2083
-description: "Decreto que amplía el plazo para presentar la valoración pericial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que amplía el plazo para presentar la valoración pericial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que amplía el plazo para presentar la valoración pericial

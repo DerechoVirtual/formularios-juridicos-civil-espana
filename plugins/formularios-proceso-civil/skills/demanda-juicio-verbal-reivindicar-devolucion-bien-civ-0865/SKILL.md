@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-reivindicar-devolucion-bien-civ-0865
-description: "Demanda de juicio verbal para reivindicar la devolución de un bien mueble (ordenador personal). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal para reivindicar la devolución de un bien mueble (ordenador personal). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal para reivindicar la devolución de un bien mueble (ordenador personal)

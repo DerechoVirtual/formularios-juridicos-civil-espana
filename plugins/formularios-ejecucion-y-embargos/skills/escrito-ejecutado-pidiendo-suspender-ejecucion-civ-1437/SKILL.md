@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-suspender-ejecucion-civ-1437
-description: "Escrito del ejecutado pidiendo suspender la ejecución hipotecaria por cláusulas abusivas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo suspender la ejecución hipotecaria por cláusulas abusivas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo suspender la ejecución hipotecaria por cláusulas abusivas

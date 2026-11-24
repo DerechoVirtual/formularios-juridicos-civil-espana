@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-mejora-embargo-civ-1645
-description: "Escrito del ejecutante pidiendo mejora de embargo por insuficiencia de los bienes trabados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo mejora de embargo por insuficiencia de los bienes trabados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo mejora de embargo por insuficiencia de los bienes trabados

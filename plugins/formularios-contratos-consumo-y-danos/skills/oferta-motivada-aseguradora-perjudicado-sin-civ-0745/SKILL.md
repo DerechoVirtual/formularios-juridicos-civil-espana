@@ -1,6 +1,6 @@
 ---
 name: oferta-motivada-aseguradora-perjudicado-sin-civ-0745
-description: "Oferta motivada de la aseguradora al perjudicado sin reclamación previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oferta motivada de la aseguradora al perjudicado sin reclamación previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oferta motivada de la aseguradora al perjudicado sin reclamación previa

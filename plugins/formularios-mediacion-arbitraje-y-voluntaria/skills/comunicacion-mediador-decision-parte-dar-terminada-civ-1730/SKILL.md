@@ -1,6 +1,6 @@
 ---
 name: comunicacion-mediador-decision-parte-dar-terminada-civ-1730
-description: "Comunicación al mediador de la decisión de una parte de dar por terminada la mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al mediador de la decisión de una parte de dar por terminada la mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al mediador de la decisión de una parte de dar por terminada la mediación

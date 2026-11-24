@@ -1,6 +1,6 @@
 ---
 name: escrito-aportando-sentencia-resolucion-fecha-no-civ-1123
-description: "Escrito aportando sentencia o resolución de fecha no anterior a las conclusiones (art. 271.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito aportando sentencia o resolución de fecha no anterior a las conclusiones (art. 271.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito aportando sentencia o resolución de fecha no anterior a las conclusiones (art. 271.2 LEC)

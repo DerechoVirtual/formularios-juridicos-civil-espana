@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-sucesion-procesal-subrogacion-cesion-civ-1912
-description: "Auto que acuerda la sucesión procesal por subrogación o cesión del crédito ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda la sucesión procesal por subrogación o cesión del crédito ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda la sucesión procesal por subrogación o cesión del crédito ejecutivo

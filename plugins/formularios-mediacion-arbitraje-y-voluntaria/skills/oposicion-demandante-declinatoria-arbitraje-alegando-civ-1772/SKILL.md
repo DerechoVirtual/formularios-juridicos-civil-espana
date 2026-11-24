@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandante-declinatoria-arbitraje-alegando-civ-1772
-description: "Oposición del demandante a la declinatoria por arbitraje alegando nulidad del convenio arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandante a la declinatoria por arbitraje alegando nulidad del convenio arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandante a la declinatoria por arbitraje alegando nulidad del convenio arbitral

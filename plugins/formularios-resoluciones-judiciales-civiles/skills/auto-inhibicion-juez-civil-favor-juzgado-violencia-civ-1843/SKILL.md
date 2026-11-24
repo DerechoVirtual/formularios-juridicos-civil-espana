@@ -1,6 +1,6 @@
 ---
 name: auto-inhibicion-juez-civil-favor-juzgado-violencia-civ-1843
-description: "Auto de inhibición del juez civil a favor del Juzgado de Violencia sobre la Mujer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de inhibición del juez civil a favor del Juzgado de Violencia sobre la Mujer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de inhibición del juez civil a favor del Juzgado de Violencia sobre la Mujer

@@ -1,6 +1,6 @@
 ---
 name: oposicion-despacho-ejecucion-laudo-arbitral-defectos-civ-1502
-description: "Oposición al despacho de ejecución de un laudo arbitral por defectos procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al despacho de ejecución de un laudo arbitral por defectos procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al despacho de ejecución de un laudo arbitral por defectos procesales

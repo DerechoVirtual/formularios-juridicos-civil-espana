@@ -1,6 +1,6 @@
 ---
 name: escrito-conjunto-homologar-acuerdo-mediacion-familiar-civ-0006
-description: "Escrito conjunto para homologar un acuerdo de mediación familiar en un proceso de filiación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito conjunto para homologar un acuerdo de mediación familiar en un proceso de filiación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito conjunto para homologar un acuerdo de mediación familiar en un proceso de filiación

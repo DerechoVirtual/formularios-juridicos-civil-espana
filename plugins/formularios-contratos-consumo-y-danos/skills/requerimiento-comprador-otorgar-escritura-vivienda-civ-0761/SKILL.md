@@ -1,6 +1,6 @@
 ---
 name: requerimiento-comprador-otorgar-escritura-vivienda-civ-0761
-description: "Requerimiento al comprador para otorgar la escritura de la vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento al comprador para otorgar la escritura de la vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento al comprador para otorgar la escritura de la vivienda

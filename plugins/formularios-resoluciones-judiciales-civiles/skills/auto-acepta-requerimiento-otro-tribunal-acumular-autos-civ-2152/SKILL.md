@@ -1,6 +1,6 @@
 ---
 name: auto-acepta-requerimiento-otro-tribunal-acumular-autos-civ-2152
-description: "Auto que acepta el requerimiento de otro tribunal para acumular los autos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acepta el requerimiento de otro tribunal para acumular los autos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acepta el requerimiento de otro tribunal para acumular los autos

@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-oficio-intervenir-caudal-hereditario-civ-2145
-description: "Auto que acuerda de oficio intervenir el caudal hereditario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda de oficio intervenir el caudal hereditario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda de oficio intervenir el caudal hereditario

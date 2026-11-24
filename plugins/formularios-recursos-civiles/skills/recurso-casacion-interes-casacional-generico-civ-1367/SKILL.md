@@ -1,6 +1,6 @@
 ---
 name: recurso-casacion-interes-casacional-generico-civ-1367
-description: "Recurso de casación por interés casacional genérico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de casación por interés casacional genérico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de casación por interés casacional genérico

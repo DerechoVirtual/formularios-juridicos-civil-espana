@@ -1,6 +1,6 @@
 ---
 name: declaracion-jurada-obtener-habilitacion-ante-tribunal-civ-0885
-description: "Declaración jurada para obtener la habilitación ante el Tribunal Eclesiástico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declaración jurada para obtener la habilitación ante el Tribunal Eclesiástico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declaración jurada para obtener la habilitación ante el Tribunal Eclesiástico

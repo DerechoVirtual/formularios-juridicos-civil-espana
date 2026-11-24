@@ -1,6 +1,6 @@
 ---
 name: diligencia-celebracion-sesion-informativa-mediacion-civ-1739
-description: "Diligencia de celebración de la sesión informativa de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de celebración de la sesión informativa de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de celebración de la sesión informativa de mediación

@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-juicio-verbal-anuncia-uso-abogado-civ-1062
-description: "Otrosí de la demanda de juicio verbal que anuncia el uso de abogado y procurador no preceptivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda de juicio verbal que anuncia el uso de abogado y procurador no preceptivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda de juicio verbal que anuncia el uso de abogado y procurador no preceptivos

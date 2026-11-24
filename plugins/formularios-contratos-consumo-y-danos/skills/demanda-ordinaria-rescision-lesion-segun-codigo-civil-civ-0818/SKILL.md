@@ -1,6 +1,6 @@
 ---
 name: demanda-ordinaria-rescision-lesion-segun-codigo-civil-civ-0818
-description: "Demanda ordinaria de rescisión por lesión según el Código civil catalán, con dictamen pericial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ordinaria de rescisión por lesión según el Código civil catalán, con dictamen pericial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ordinaria de rescisión por lesión según el Código civil catalán, con dictamen pericial

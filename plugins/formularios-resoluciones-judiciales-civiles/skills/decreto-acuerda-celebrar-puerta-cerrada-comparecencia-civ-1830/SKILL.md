@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-celebrar-puerta-cerrada-comparecencia-civ-1830
-description: "Decreto que acuerda celebrar a puerta cerrada la comparecencia para formar inventario de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda celebrar a puerta cerrada la comparecencia para formar inventario de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda celebrar a puerta cerrada la comparecencia para formar inventario de gananciales

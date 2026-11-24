@@ -1,6 +1,6 @@
 ---
 name: solicitud-suspension-vista-senalada-acuerdo-partes-art-civ-1086
-description: "Solicitud de suspensión de la vista señalada por acuerdo de las partes (art. 188.1.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de suspensión de la vista señalada por acuerdo de las partes (art. 188.1.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de suspensión de la vista señalada por acuerdo de las partes (art. 188.1.3 LEC)

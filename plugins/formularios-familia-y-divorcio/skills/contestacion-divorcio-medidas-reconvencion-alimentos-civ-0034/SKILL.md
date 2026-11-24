@@ -1,6 +1,6 @@
 ---
 name: contestacion-divorcio-medidas-reconvencion-alimentos-civ-0034
-description: "Contestación a divorcio con medidas y reconvención de alimentos a hijo mayor, Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a divorcio con medidas y reconvención de alimentos a hijo mayor, Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a divorcio con medidas y reconvención de alimentos a hijo mayor, Derecho catalán

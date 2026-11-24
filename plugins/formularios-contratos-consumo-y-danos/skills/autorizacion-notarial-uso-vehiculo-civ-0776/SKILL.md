@@ -1,6 +1,6 @@
 ---
 name: autorizacion-notarial-uso-vehiculo-civ-0776
-description: "Autorización notarial para el uso de un vehículo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Autorización notarial para el uso de un vehículo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Autorización notarial para el uso de un vehículo

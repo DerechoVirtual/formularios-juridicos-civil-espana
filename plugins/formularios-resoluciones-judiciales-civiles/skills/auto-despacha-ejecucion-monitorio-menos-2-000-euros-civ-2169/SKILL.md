@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-monitorio-menos-2-000-euros-civ-2169
-description: "Auto que despacha ejecución en monitorio de menos de 2.000 euros por incomparecencia del deudor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución en monitorio de menos de 2.000 euros por incomparecencia del deudor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución en monitorio de menos de 2.000 euros por incomparecencia del deudor

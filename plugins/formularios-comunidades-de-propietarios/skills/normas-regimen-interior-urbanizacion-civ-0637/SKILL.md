@@ -1,6 +1,6 @@
 ---
 name: normas-regimen-interior-urbanizacion-civ-0637
-description: "Normas de régimen interior de una urbanización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Normas de régimen interior de una urbanización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Normas de régimen interior de una urbanización

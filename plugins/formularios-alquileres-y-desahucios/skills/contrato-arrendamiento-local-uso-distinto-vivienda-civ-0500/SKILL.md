@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-local-uso-distinto-vivienda-civ-0500
-description: "Contrato de arrendamiento de local para uso distinto del de vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de local para uso distinto del de vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de local para uso distinto del de vivienda

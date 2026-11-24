@@ -1,6 +1,6 @@
 ---
 name: escrito-contestacion-demanda-terceria-mejor-derecho-civ-1536
-description: "Escrito de contestación a una demanda de tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de contestación a una demanda de tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de contestación a una demanda de tercería de mejor derecho

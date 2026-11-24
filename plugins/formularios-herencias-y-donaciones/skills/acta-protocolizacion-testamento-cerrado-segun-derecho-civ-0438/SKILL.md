@@ -1,6 +1,6 @@
 ---
 name: acta-protocolizacion-testamento-cerrado-segun-derecho-civ-0438
-description: "Acta de protocolización de testamento cerrado según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de protocolización de testamento cerrado según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de protocolización de testamento cerrado según el Derecho catalán

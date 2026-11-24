@@ -1,6 +1,6 @@
 ---
 name: contrato-arras-confirmatorias-sobre-finca-civ-0801
-description: "Contrato de arras confirmatorias sobre una finca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arras confirmatorias sobre una finca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arras confirmatorias sobre una finca

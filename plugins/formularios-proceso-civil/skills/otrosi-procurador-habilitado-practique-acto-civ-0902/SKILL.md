@@ -1,6 +1,6 @@
 ---
 name: otrosi-procurador-habilitado-practique-acto-civ-0902
-description: "Otrosí para que un procurador habilitado practique un acto de comunicación ante órgano exhortado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí para que un procurador habilitado practique un acto de comunicación ante órgano exhortado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí para que un procurador habilitado practique un acto de comunicación ante órgano exhortado

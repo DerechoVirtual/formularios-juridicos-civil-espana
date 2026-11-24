@@ -1,6 +1,6 @@
 ---
 name: auto-admite-tramite-demanda-determinacion-filiacion-civ-1810
-description: "Auto que admite a trámite la demanda de determinación de la filiación de un menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite a trámite la demanda de determinación de la filiación de un menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite a trámite la demanda de determinación de la filiación de un menor

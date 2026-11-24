@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-oponiendose-suspender-lanzamiento-civ-1420
-description: "Escrito del ejecutante oponiéndose a suspender el lanzamiento pedido por el ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante oponiéndose a suspender el lanzamiento pedido por el ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante oponiéndose a suspender el lanzamiento pedido por el ejecutado

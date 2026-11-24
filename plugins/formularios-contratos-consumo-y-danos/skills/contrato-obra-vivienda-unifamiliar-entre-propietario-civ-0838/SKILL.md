@@ -1,6 +1,6 @@
 ---
 name: contrato-obra-vivienda-unifamiliar-entre-propietario-civ-0838
-description: "Contrato de obra de vivienda unifamiliar entre propietario y constructor con pago aplazado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de obra de vivienda unifamiliar entre propietario y constructor con pago aplazado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de obra de vivienda unifamiliar entre propietario y constructor con pago aplazado

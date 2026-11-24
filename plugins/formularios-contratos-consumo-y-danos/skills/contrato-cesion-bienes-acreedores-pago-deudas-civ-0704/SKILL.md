@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-bienes-acreedores-pago-deudas-civ-0704
-description: "Contrato de cesión de bienes a los acreedores en pago de deudas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de bienes a los acreedores en pago de deudas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de bienes a los acreedores en pago de deudas

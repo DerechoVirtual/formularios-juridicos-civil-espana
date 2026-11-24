@@ -1,6 +1,6 @@
 ---
 name: recurso-revision-demandante-contra-decreto-inadmite-civ-1309
-description: "Recurso de revisión del demandante contra el decreto que inadmite la demanda en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de revisión del demandante contra el decreto que inadmite la demanda en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de revisión del demandante contra el decreto que inadmite la demanda en juicio ordinario

@@ -1,6 +1,6 @@
 ---
 name: contrato-mediacion-acuerdos-sobre-efectos-divorcio-civ-0184
-description: "Contrato de mediación con acuerdos sobre los efectos del divorcio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de mediación con acuerdos sobre los efectos del divorcio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de mediación con acuerdos sobre los efectos del divorcio

@@ -1,6 +1,6 @@
 ---
 name: escrito-ampliacion-hechos-nuevos-posteriores-audiencia-civ-0940
-description: "Escrito de ampliación de hechos nuevos posteriores a la audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de ampliación de hechos nuevos posteriores a la audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de ampliación de hechos nuevos posteriores a la audiencia previa

@@ -1,6 +1,6 @@
 ---
 name: escrito-familiares-pidiendo-les-entregue-menor-civ-0178
-description: "Escrito de familiares pidiendo que se les entregue al menor desamparado en acogimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de familiares pidiendo que se les entregue al menor desamparado en acogimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de familiares pidiendo que se les entregue al menor desamparado en acogimiento

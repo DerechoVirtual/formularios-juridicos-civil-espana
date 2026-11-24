@@ -1,6 +1,6 @@
 ---
 name: auto-juez-civil-abstiene-enemistad-manifiesta-civ-1907
-description: "Auto del juez civil que se abstiene por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto del juez civil que se abstiene por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto del juez civil que se abstiene por enemistad manifiesta

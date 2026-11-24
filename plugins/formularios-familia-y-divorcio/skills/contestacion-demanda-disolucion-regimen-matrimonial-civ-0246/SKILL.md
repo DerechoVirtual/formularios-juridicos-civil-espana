@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-disolucion-regimen-matrimonial-civ-0246
-description: "Contestación a la demanda de disolución del régimen matrimonial que impugna su determinación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de disolución del régimen matrimonial que impugna su determinación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de disolución del régimen matrimonial que impugna su determinación

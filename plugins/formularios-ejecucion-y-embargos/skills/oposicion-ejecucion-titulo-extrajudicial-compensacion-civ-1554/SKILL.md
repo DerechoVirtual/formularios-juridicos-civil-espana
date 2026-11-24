@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-titulo-extrajudicial-compensacion-civ-1554
-description: "Oposición a la ejecución de título extrajudicial por compensación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución de título extrajudicial por compensación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución de título extrajudicial por compensación

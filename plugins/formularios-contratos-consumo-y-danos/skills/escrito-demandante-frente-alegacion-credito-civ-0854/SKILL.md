@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-frente-alegacion-credito-civ-0854
-description: "Escrito del demandante frente a la alegación de un crédito compensable por el demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante frente a la alegación de un crédito compensable por el demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante frente a la alegación de un crédito compensable por el demandado

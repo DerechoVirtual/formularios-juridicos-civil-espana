@@ -1,6 +1,6 @@
 ---
 name: sentencia-desestima-terceria-mejor-derecho-civ-1981
-description: "Sentencia que desestima la tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia que desestima la tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia que desestima la tercería de mejor derecho

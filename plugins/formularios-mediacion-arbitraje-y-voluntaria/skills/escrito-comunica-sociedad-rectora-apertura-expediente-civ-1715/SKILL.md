@@ -1,6 +1,6 @@
 ---
 name: escrito-comunica-sociedad-rectora-apertura-expediente-civ-1715
-description: "Escrito que comunica a la sociedad rectora la apertura del expediente de jurisdicción voluntaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que comunica a la sociedad rectora la apertura del expediente de jurisdicción voluntaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que comunica a la sociedad rectora la apertura del expediente de jurisdicción voluntaria

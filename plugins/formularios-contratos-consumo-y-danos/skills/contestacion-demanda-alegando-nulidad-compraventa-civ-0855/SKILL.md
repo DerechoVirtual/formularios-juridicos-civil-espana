@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-alegando-nulidad-compraventa-civ-0855
-description: "Contestación a la demanda alegando nulidad de la compraventa de vivienda por dolo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda alegando nulidad de la compraventa de vivienda por dolo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda alegando nulidad de la compraventa de vivienda por dolo

@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-impugnacion-condiciones-civ-0812
-description: "Demanda de juicio ordinario de impugnación de condiciones generales de la contratación (Ley 7 1998). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de impugnación de condiciones generales de la contratación (Ley 7 1998). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de impugnación de condiciones generales de la contratación (Ley 7 1998)

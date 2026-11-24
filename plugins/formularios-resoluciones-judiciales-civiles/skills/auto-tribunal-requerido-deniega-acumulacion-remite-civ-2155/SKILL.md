@@ -1,6 +1,6 @@
 ---
 name: auto-tribunal-requerido-deniega-acumulacion-remite-civ-2155
-description: "Auto del tribunal requerido que deniega la acumulación y remite los autos al tribunal superior. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto del tribunal requerido que deniega la acumulación y remite los autos al tribunal superior. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto del tribunal requerido que deniega la acumulación y remite los autos al tribunal superior

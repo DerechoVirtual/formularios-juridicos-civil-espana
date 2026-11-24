@@ -1,6 +1,6 @@
 ---
 name: demanda-madre-reclamando-filiacion-no-matrimonial-hijo-civ-0368
-description: "Demanda de la madre reclamando filiación no matrimonial del hijo menor sin posesión de estado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de la madre reclamando filiación no matrimonial del hijo menor sin posesión de estado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de la madre reclamando filiación no matrimonial del hijo menor sin posesión de estado

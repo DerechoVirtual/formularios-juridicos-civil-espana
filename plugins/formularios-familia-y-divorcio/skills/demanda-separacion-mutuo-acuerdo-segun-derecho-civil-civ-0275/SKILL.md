@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-mutuo-acuerdo-segun-derecho-civil-civ-0275
-description: "Demanda de separación de mutuo acuerdo según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación de mutuo acuerdo según el Derecho civil de Cataluña. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación de mutuo acuerdo según el Derecho civil de Cataluña

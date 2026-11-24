@@ -1,6 +1,6 @@
 ---
 name: escrito-alzar-medidas-provisionales-previas-no-civ-0102
-description: "Escrito para alzar las medidas provisionales previas por no presentar la demanda en plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para alzar las medidas provisionales previas por no presentar la demanda en plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para alzar las medidas provisionales previas por no presentar la demanda en plazo

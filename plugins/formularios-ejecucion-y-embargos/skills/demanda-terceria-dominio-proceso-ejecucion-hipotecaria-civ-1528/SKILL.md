@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-dominio-proceso-ejecucion-hipotecaria-civ-1528
-description: "Demanda de tercería de dominio en un proceso de ejecución hipotecaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de dominio en un proceso de ejecución hipotecaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de dominio en un proceso de ejecución hipotecaria

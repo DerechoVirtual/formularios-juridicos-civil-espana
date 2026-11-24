@@ -1,6 +1,6 @@
 ---
 name: escrito-tacha-perito-parte-civ-0997
-description: "Escrito de tacha de perito de parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de tacha de perito de parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de tacha de perito de parte

@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-finca-rustica-impago-enervacion-civ-0564
-description: "Demanda de desahucio de finca rústica por impago, con enervación y lanzamiento anticipado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio de finca rústica por impago, con enervación y lanzamiento anticipado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio de finca rústica por impago, con enervación y lanzamiento anticipado

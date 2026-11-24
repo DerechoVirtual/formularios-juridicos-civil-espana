@@ -1,6 +1,6 @@
 ---
 name: decreto-desestima-impugnacion-tasacion-costas-civ-1947
-description: "Decreto que desestima la impugnación de la tasación de costas por honorarios excesivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que desestima la impugnación de la tasación de costas por honorarios excesivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que desestima la impugnación de la tasación de costas por honorarios excesivos

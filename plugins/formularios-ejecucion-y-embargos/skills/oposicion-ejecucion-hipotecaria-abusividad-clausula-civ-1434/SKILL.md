@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-hipotecaria-abusividad-clausula-civ-1434
-description: "Oposición a la ejecución hipotecaria por abusividad de la cláusula que fundamenta el despacho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución hipotecaria por abusividad de la cláusula que fundamenta el despacho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución hipotecaria por abusividad de la cláusula que fundamenta el despacho

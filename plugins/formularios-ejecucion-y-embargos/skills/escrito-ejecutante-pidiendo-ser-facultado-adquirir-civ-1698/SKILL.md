@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-ser-facultado-adquirir-civ-1698
-description: "Escrito del ejecutante pidiendo ser facultado para adquirir la cosa debida a costa del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo ser facultado para adquirir la cosa debida a costa del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo ser facultado para adquirir la cosa debida a costa del ejecutado

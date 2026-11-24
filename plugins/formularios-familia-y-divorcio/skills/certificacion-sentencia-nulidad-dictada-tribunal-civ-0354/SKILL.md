@@ -1,6 +1,6 @@
 ---
 name: certificacion-sentencia-nulidad-dictada-tribunal-civ-0354
-description: "Certificación de la sentencia de nulidad dictada por el tribunal eclesiástico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de la sentencia de nulidad dictada por el tribunal eclesiástico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de la sentencia de nulidad dictada por el tribunal eclesiástico

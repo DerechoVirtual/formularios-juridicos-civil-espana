@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-homologacion-transaccion-juicio-civ-0670
-description: "Solicitud conjunta de homologación de transacción en juicio de división de cosa común. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de homologación de transacción en juicio de división de cosa común. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de homologación de transacción en juicio de división de cosa común

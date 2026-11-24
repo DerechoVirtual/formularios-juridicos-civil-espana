@@ -1,6 +1,6 @@
 ---
 name: plan-parentalidad-mutuo-acuerdo-custodia-compartida-civ-0161
-description: "Plan de parentalidad de mutuo acuerdo con custodia compartida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Plan de parentalidad de mutuo acuerdo con custodia compartida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Plan de parentalidad de mutuo acuerdo con custodia compartida

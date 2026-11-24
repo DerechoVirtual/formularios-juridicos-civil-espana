@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-resolucion-impago-previo-civ-0514
-description: "Contrato de arrendamiento con resolución por impago previo requerimiento en el domicilio registral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento con resolución por impago previo requerimiento en el domicilio registral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento con resolución por impago previo requerimiento en el domicilio registral

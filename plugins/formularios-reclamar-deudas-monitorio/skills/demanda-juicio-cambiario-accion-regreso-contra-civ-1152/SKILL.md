@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-cambiario-accion-regreso-contra-civ-1152
-description: "Demanda de juicio cambiario por acción de regreso contra el librador de un cheque impagado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio cambiario por acción de regreso contra el librador de un cheque impagado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio cambiario por acción de regreso contra el librador de un cheque impagado

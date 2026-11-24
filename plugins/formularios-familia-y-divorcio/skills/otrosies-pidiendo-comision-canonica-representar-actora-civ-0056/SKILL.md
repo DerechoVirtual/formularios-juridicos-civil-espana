@@ -1,6 +1,6 @@
 ---
 name: otrosies-pidiendo-comision-canonica-representar-actora-civ-0056
-description: "Otrosíes pidiendo comisión canónica para representar a la actora y reducción de costas en la nulidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosíes pidiendo comisión canónica para representar a la actora y reducción de costas en la nulidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosíes pidiendo comisión canónica para representar a la actora y reducción de costas en la nulidad

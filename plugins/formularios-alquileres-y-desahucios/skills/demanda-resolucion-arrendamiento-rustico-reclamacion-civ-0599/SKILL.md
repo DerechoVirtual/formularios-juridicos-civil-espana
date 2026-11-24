@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-rustico-reclamacion-civ-0599
-description: "Demanda de resolución de arrendamiento rústico y reclamación de daños por obras no autorizadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de arrendamiento rústico y reclamación de daños por obras no autorizadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de arrendamiento rústico y reclamación de daños por obras no autorizadas

@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-suspender-proceso-intentar-mediacion-civ-1735
-description: "Solicitud conjunta de suspender el proceso para intentar una mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de suspender el proceso para intentar una mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de suspender el proceso para intentar una mediación

@@ -1,6 +1,6 @@
 ---
 name: apelacion-contra-sentencia-proceso-matrimonial-derecho-civ-1287
-description: "Apelación contra la sentencia de un proceso matrimonial (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación contra la sentencia de un proceso matrimonial (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación contra la sentencia de un proceso matrimonial (Derecho civil catalán)

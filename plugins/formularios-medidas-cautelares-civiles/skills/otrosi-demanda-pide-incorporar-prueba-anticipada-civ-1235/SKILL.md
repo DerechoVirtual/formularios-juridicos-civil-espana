@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-pide-incorporar-prueba-anticipada-civ-1235
-description: "Otrosí de la demanda que pide incorporar prueba anticipada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda que pide incorporar prueba anticipada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda que pide incorporar prueba anticipada

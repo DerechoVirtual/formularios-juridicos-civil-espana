@@ -1,6 +1,6 @@
 ---
 name: audiencia-previa-sobre-inadecuacion-procedimiento-civ-0963
-description: "Audiencia previa sobre inadecuación de procedimiento por la cuantía y paso a juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Audiencia previa sobre inadecuación de procedimiento por la cuantía y paso a juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Audiencia previa sobre inadecuación de procedimiento por la cuantía y paso a juicio verbal

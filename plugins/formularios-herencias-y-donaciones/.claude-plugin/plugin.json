@@ -1,9 +1,10 @@
 {
   "name": "formularios-herencias-y-donaciones",
   "version": "1.0.0",
-  "description": "Herencias, testamentos y donaciones: 94 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las sucesiones: testamentos (también forales), aceptación y renuncia de la herencia, declaración de herederos, partición y división judicial, legítimas, colación, desheredación, albaceas y contadores-partidores, y donaciones. Requiere Jurisprudenciator.",
+  "description": "Herencias, testamentos y donaciones: 94 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las sucesiones: testamentos (también forales), aceptación y renuncia de la herencia, declaración de herederos, partición y división judicial, legítimas, colación, desheredación, albaceas y contadores-partidores, y donaciones. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
-    "name": "Derecho Virtual"
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "displayName": "Herencias, testamentos y donaciones · España",
   "icon": "./.claude-plugin/icon.png",
@@ -19,5 +20,7 @@
     "modelos",
     "civil",
     "sucesiones"
-  ]
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana",
+  "documentationUrl": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana/tree/main/plugins/formularios-herencias-y-donaciones"
 }

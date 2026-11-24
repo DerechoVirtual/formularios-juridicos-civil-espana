@@ -1,6 +1,6 @@
 ---
 name: contestacion-reclamacion-filiacion-madre-impugnacion-civ-0112
-description: "Contestación a la reclamación de filiación de la madre con impugnación de la contradictoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reclamación de filiación de la madre con impugnación de la contradictoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reclamación de filiación de la madre con impugnación de la contradictoria

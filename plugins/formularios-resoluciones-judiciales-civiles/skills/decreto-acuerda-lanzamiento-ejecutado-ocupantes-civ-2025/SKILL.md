@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-lanzamiento-ejecutado-ocupantes-civ-2025
-description: "Decreto que acuerda el lanzamiento del ejecutado y de los ocupantes del inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda el lanzamiento del ejecutado y de los ocupantes del inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda el lanzamiento del ejecutado y de los ocupantes del inmueble

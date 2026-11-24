@@ -1,6 +1,6 @@
 ---
 name: escrito-emisor-pague-rendimientos-titulo-tras-seis-civ-1714
-description: "Escrito para que el emisor pague los rendimientos del título tras seis meses sin oposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para que el emisor pague los rendimientos del título tras seis meses sin oposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para que el emisor pague los rendimientos del título tras seis meses sin oposición

@@ -1,6 +1,6 @@
 ---
 name: divorcio-contencioso-conyuges-extranjeros-comunitarios-civ-0296
-description: "Divorcio contencioso de cónyuges extranjeros comunitarios (demanda). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Divorcio contencioso de cónyuges extranjeros comunitarios (demanda). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Divorcio contencioso de cónyuges extranjeros comunitarios (demanda)

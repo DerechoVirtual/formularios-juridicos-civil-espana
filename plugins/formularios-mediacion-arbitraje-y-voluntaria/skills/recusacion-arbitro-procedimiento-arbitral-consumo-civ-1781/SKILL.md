@@ -1,6 +1,6 @@
 ---
 name: recusacion-arbitro-procedimiento-arbitral-consumo-civ-1781
-description: "Recusación de un árbitro en un procedimiento arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación de un árbitro en un procedimiento arbitral de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación de un árbitro en un procedimiento arbitral de consumo

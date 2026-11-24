@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-escritura-publica-prestamo-civ-1495
-description: "Demanda ejecutiva basada en escritura pública de préstamo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en escritura pública de préstamo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en escritura pública de préstamo

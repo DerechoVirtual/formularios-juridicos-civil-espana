@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-finca-rustica-arrendada-sin-civ-0677
-description: "Contrato de compraventa de finca rústica arrendada, con o sin notificación previa al arrendatario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de finca rústica arrendada, con o sin notificación previa al arrendatario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de finca rústica arrendada, con o sin notificación previa al arrendatario

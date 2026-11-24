@@ -1,6 +1,6 @@
 ---
 name: escrito-recuperar-guarda-menor-asumida-temporalmente-civ-0140
-description: "Escrito para recuperar la guarda del menor asumida temporalmente por la entidad pública. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para recuperar la guarda del menor asumida temporalmente por la entidad pública. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para recuperar la guarda del menor asumida temporalmente por la entidad pública

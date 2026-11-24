@@ -1,6 +1,6 @@
 ---
 name: escrito-impugnando-excesivos-honorarios-abogado-juicio-civ-1098
-description: "Escrito impugnando por excesivos los honorarios de abogado en un juicio de desahucio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito impugnando por excesivos los honorarios de abogado en un juicio de desahucio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito impugnando por excesivos los honorarios de abogado en un juicio de desahucio

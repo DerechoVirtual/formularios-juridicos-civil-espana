@@ -1,6 +1,6 @@
 ---
 name: demanda-restitucion-menores-segun-convenio-hispano-civ-0103
-description: "Demanda de restitución de menores según el Convenio hispano-marroquí de 1997. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de restitución de menores según el Convenio hispano-marroquí de 1997. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de restitución de menores según el Convenio hispano-marroquí de 1997

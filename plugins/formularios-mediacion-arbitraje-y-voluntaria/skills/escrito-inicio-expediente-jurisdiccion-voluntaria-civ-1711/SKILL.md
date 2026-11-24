@@ -1,6 +1,6 @@
 ---
 name: escrito-inicio-expediente-jurisdiccion-voluntaria-civ-1711
-description: "Escrito de inicio del expediente de jurisdicción voluntaria sobre valores mobiliarios sustraídos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de inicio del expediente de jurisdicción voluntaria sobre valores mobiliarios sustraídos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de inicio del expediente de jurisdicción voluntaria sobre valores mobiliarios sustraídos

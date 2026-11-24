@@ -1,6 +1,6 @@
 ---
 name: designacion-representante-junta-copropietarios-civ-0645
-description: "Designación de representante en la junta por los copropietarios proindiviso de un piso o local. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Designación de representante en la junta por los copropietarios proindiviso de un piso o local. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Designación de representante en la junta por los copropietarios proindiviso de un piso o local

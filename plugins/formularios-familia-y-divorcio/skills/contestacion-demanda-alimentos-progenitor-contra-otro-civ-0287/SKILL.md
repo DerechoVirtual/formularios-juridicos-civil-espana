@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-alimentos-progenitor-contra-otro-civ-0287
-description: "Contestación a la demanda de alimentos de un progenitor contra el otro para hijos menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de alimentos de un progenitor contra el otro para hijos menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de alimentos de un progenitor contra el otro para hijos menores

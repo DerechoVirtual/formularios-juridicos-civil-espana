@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-ejecutado-entregue-hijos-madre-civ-0338
-description: "Solicitud de ejecución para que el ejecutado entregue los hijos a la madre custodia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución para que el ejecutado entregue los hijos a la madre custodia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución para que el ejecutado entregue los hijos a la madre custodia

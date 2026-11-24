@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-traslado-oposicion-basada-civ-2178
-description: "Diligencia de ordenación que da traslado de la oposición basada solo en defectos procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da traslado de la oposición basada solo en defectos procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da traslado de la oposición basada solo en defectos procesales

@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-enerva-accion-desahucio-falta-pago-civ-0553
-description: "Escrito del demandado que enerva la acción de desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado que enerva la acción de desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado que enerva la acción de desahucio por falta de pago

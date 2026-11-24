@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-auto-homologa-transaccion-civ-1397
-description: "Demanda ejecutiva basada en auto que homologa una transacción judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en auto que homologa una transacción judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en auto que homologa una transacción judicial

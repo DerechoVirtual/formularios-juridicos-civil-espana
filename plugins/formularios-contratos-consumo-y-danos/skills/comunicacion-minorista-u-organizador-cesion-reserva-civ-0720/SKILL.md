@@ -1,6 +1,6 @@
 ---
 name: comunicacion-minorista-u-organizador-cesion-reserva-civ-0720
-description: "Comunicación al minorista u organizador de la cesión de la reserva de un viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al minorista u organizador de la cesión de la reserva de un viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al minorista u organizador de la cesión de la reserva de un viaje combinado

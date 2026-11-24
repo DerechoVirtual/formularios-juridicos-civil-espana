@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-designa-perito-valorar-bienes-civ-2084
-description: "Diligencia de ordenación que designa perito para valorar los bienes embargados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que designa perito para valorar los bienes embargados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que designa perito para valorar los bienes embargados

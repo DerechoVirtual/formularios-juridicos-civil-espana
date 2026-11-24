@@ -1,6 +1,6 @@
 ---
 name: escrito-iniciando-monitorio-reclamar-precio-obras-civ-1189
-description: "Escrito iniciando monitorio para reclamar el precio de obras de albañilería. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito iniciando monitorio para reclamar el precio de obras de albañilería. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito iniciando monitorio para reclamar el precio de obras de albañilería

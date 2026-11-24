@@ -1,6 +1,6 @@
 ---
 name: contrato-construccion-edificio-viviendas-mano-obra-civ-0744
-description: "Contrato de construcción de un edificio de viviendas con mano de obra y materiales del constructor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de construcción de un edificio de viviendas con mano de obra y materiales del constructor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de construcción de un edificio de viviendas con mano de obra y materiales del constructor

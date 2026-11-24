@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-acepta-inspeccion-inmueble-hipotecado-civ-1414
-description: "Escrito del ejecutado que acepta la inspección del inmueble hipotecado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que acepta la inspección del inmueble hipotecado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que acepta la inspección del inmueble hipotecado

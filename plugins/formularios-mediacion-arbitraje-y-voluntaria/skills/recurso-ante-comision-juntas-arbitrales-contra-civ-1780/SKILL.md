@@ -1,6 +1,6 @@
 ---
 name: recurso-ante-comision-juntas-arbitrales-contra-civ-1780
-description: "Recurso ante la Comisión de Juntas Arbitrales contra la inadmisión de arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso ante la Comisión de Juntas Arbitrales contra la inadmisión de arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso ante la Comisión de Juntas Arbitrales contra la inadmisión de arbitraje de consumo

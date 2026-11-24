@@ -1,6 +1,6 @@
 ---
 name: interrogatorio-escrito-testigo-declara-exhorto-orden-civ-0931
-description: "Interrogatorio escrito para testigo que declara por exhorto en el orden civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Interrogatorio escrito para testigo que declara por exhorto en el orden civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Interrogatorio escrito para testigo que declara por exhorto en el orden civil

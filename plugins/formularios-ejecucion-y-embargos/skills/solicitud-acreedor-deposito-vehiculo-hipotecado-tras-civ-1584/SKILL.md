@@ -1,6 +1,6 @@
 ---
 name: solicitud-acreedor-deposito-vehiculo-hipotecado-tras-civ-1584
-description: "Solicitud del acreedor de depósito del vehículo hipotecado tras despacharse ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del acreedor de depósito del vehículo hipotecado tras despacharse ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del acreedor de depósito del vehículo hipotecado tras despacharse ejecución

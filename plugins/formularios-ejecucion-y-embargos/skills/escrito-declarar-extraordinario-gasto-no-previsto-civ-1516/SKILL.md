@@ -1,6 +1,6 @@
 ---
 name: escrito-declarar-extraordinario-gasto-no-previsto-civ-1516
-description: "Escrito para declarar extraordinario un gasto no previsto en las medidas a efectos de ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para declarar extraordinario un gasto no previsto en las medidas a efectos de ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para declarar extraordinario un gasto no previsto en las medidas a efectos de ejecución

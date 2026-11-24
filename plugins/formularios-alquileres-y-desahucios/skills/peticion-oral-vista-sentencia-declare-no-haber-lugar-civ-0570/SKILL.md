@@ -1,6 +1,6 @@
 ---
 name: peticion-oral-vista-sentencia-declare-no-haber-lugar-civ-0570
-description: "Petición oral en la vista de sentencia que declare no haber lugar al desahucio por falta de objeto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición oral en la vista de sentencia que declare no haber lugar al desahucio por falta de objeto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición oral en la vista de sentencia que declare no haber lugar al desahucio por falta de objeto

@@ -1,6 +1,6 @@
 ---
 name: escrito-excusa-sobrevenida-seguir-cargo-tutor-curador-civ-0377
-description: "Escrito de excusa sobrevenida para seguir en el cargo de tutor o curador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de excusa sobrevenida para seguir en el cargo de tutor o curador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de excusa sobrevenida para seguir en el cargo de tutor o curador

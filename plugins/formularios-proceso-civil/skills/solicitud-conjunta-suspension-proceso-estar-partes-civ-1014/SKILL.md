@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-suspension-proceso-estar-partes-civ-1014
-description: "Solicitud conjunta de suspensión del proceso por estar las partes en vías de acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de suspensión del proceso por estar las partes en vías de acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de suspensión del proceso por estar las partes en vías de acuerdo

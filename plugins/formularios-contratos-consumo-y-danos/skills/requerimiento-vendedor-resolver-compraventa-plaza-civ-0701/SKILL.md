@@ -1,6 +1,6 @@
 ---
 name: requerimiento-vendedor-resolver-compraventa-plaza-civ-0701
-description: "Requerimiento al vendedor para resolver la compraventa de una plaza de garaje por incumplimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento al vendedor para resolver la compraventa de una plaza de garaje por incumplimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento al vendedor para resolver la compraventa de una plaza de garaje por incumplimiento

@@ -1,6 +1,6 @@
 ---
 name: testamento-abierto-segun-derecho-civil-navarro-civ-0426
-description: "Testamento abierto según el Derecho civil navarro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento abierto según el Derecho civil navarro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento abierto según el Derecho civil navarro

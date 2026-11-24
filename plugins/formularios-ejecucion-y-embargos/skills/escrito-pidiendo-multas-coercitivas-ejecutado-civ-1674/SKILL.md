@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-multas-coercitivas-ejecutado-civ-1674
-description: "Escrito pidiendo multas coercitivas al ejecutado que obstaculiza la administración para pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo multas coercitivas al ejecutado que obstaculiza la administración para pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo multas coercitivas al ejecutado que obstaculiza la administración para pago

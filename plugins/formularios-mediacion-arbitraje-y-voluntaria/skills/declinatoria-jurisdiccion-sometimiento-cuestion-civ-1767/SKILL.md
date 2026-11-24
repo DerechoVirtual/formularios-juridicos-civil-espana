@@ -1,6 +1,6 @@
 ---
 name: declinatoria-jurisdiccion-sometimiento-cuestion-civ-1767
-description: "Declinatoria de jurisdicción por sometimiento de la cuestión a arbitraje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria de jurisdicción por sometimiento de la cuestión a arbitraje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria de jurisdicción por sometimiento de la cuestión a arbitraje

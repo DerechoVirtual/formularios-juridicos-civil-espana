@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-mutuo-acuerdo-modifica-medidas-civ-0075
-description: "Demanda de divorcio de mutuo acuerdo que modifica las medidas acordadas en la separación previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio de mutuo acuerdo que modifica las medidas acordadas en la separación previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio de mutuo acuerdo que modifica las medidas acordadas en la separación previa

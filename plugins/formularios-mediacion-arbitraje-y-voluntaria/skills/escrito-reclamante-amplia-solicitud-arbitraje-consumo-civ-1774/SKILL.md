@@ -1,6 +1,6 @@
 ---
 name: escrito-reclamante-amplia-solicitud-arbitraje-consumo-civ-1774
-description: "Escrito del reclamante que amplía la solicitud en un arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del reclamante que amplía la solicitud en un arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del reclamante que amplía la solicitud en un arbitraje de consumo

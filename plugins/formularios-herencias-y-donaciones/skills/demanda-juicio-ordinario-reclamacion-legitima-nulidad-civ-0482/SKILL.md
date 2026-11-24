@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamacion-legitima-nulidad-civ-0482
-description: "Demanda de juicio ordinario de reclamación de legítima por nulidad de la desheredación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de reclamación de legítima por nulidad de la desheredación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de reclamación de legítima por nulidad de la desheredación

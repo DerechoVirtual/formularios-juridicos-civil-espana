@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-defecto-procesal-ejecucion-poliza-civ-1652
-description: "Escrito de oposición por defecto procesal a la ejecución de póliza de contrato mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición por defecto procesal a la ejecución de póliza de contrato mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición por defecto procesal a la ejecución de póliza de contrato mercantil

@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-pidiendo-mantener-medidas-civ-1220
-description: "Escrito del demandante pidiendo mantener las medidas cautelares tras sentencia absolutoria no firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante pidiendo mantener las medidas cautelares tras sentencia absolutoria no firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante pidiendo mantener las medidas cautelares tras sentencia absolutoria no firme

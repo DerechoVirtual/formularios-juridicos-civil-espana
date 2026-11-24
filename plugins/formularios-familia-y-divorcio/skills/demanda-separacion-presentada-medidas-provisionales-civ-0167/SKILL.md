@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-presentada-medidas-provisionales-civ-0167
-description: "Demanda de separación presentada con medidas provisionales previas vigentes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación presentada con medidas provisionales previas vigentes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación presentada con medidas provisionales previas vigentes

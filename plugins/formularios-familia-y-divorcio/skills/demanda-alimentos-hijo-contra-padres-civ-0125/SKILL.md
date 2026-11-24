@@ -1,6 +1,6 @@
 ---
 name: demanda-alimentos-hijo-contra-padres-civ-0125
-description: "Demanda de alimentos de un hijo contra sus padres. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de alimentos de un hijo contra sus padres. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de alimentos de un hijo contra sus padres

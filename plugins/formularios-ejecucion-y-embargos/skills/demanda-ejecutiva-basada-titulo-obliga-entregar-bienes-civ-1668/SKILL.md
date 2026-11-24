@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-titulo-obliga-entregar-bienes-civ-1668
-description: "Demanda ejecutiva basada en título que obliga a entregar bienes inmuebles (art. 703 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en título que obliga a entregar bienes inmuebles (art. 703 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en título que obliga a entregar bienes inmuebles (art. 703 LEC)

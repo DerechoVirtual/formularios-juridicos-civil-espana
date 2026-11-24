@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-uso-distinto-vivienda-civ-0565
-description: "Demanda de resolución de arrendamiento de uso distinto de vivienda por subarriendo (LAU 1994). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de arrendamiento de uso distinto de vivienda por subarriendo (LAU 1994). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de arrendamiento de uso distinto de vivienda por subarriendo (LAU 1994)

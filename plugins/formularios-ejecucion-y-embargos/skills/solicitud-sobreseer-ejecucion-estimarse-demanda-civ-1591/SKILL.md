@@ -1,6 +1,6 @@
 ---
 name: solicitud-sobreseer-ejecucion-estimarse-demanda-civ-1591
-description: "Solicitud de sobreseer la ejecución por estimarse la demanda de revisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de sobreseer la ejecución por estimarse la demanda de revisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de sobreseer la ejecución por estimarse la demanda de revisión de sentencia firme

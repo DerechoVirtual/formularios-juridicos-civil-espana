@@ -1,6 +1,6 @@
 ---
 name: comunicacion-encargar-informe-tecnico-sobre-civ-0627
-description: "Comunicación para encargar un informe técnico sobre una instalación o servicio común. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación para encargar un informe técnico sobre una instalación o servicio común. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación para encargar un informe técnico sobre una instalación o servicio común

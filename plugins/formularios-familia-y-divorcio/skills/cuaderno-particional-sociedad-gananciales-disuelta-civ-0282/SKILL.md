@@ -1,6 +1,6 @@
 ---
 name: cuaderno-particional-sociedad-gananciales-disuelta-civ-0282
-description: "Cuaderno particional de la sociedad de gananciales disuelta, elaborado por el contador-partidor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cuaderno particional de la sociedad de gananciales disuelta, elaborado por el contador-partidor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cuaderno particional de la sociedad de gananciales disuelta, elaborado por el contador-partidor

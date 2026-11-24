@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-repeticion-contra-obligado-civ-0764
-description: "Demanda de juicio ordinario de repetición contra el obligado cuando pagó un tercero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de repetición contra el obligado cuando pagó un tercero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de repetición contra el obligado cuando pagó un tercero

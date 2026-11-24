@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-contra-diligencia-exige-tasa-civ-1281
-description: "Recurso de reposición contra la diligencia que exige la tasa judicial por falta de hecho imponible. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición contra la diligencia que exige la tasa judicial por falta de hecho imponible. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición contra la diligencia que exige la tasa judicial por falta de hecho imponible

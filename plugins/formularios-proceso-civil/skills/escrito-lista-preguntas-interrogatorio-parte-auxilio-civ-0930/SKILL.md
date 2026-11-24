@@ -1,6 +1,6 @@
 ---
 name: escrito-lista-preguntas-interrogatorio-parte-auxilio-civ-0930
-description: "Escrito con lista de preguntas para el interrogatorio de parte por auxilio judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito con lista de preguntas para el interrogatorio de parte por auxilio judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito con lista de preguntas para el interrogatorio de parte por auxilio judicial

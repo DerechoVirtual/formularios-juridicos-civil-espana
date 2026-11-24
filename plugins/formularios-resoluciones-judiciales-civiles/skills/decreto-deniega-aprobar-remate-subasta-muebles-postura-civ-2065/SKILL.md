@@ -1,6 +1,6 @@
 ---
 name: decreto-deniega-aprobar-remate-subasta-muebles-postura-civ-2065
-description: "Decreto que deniega aprobar el remate en la subasta de muebles por postura inferior al 30 por 100. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que deniega aprobar el remate en la subasta de muebles por postura inferior al 30 por 100. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que deniega aprobar el remate en la subasta de muebles por postura inferior al 30 por 100

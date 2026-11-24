@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-matrimonial-pide-modificar-medidas-civ-0252
-description: "Otrosí de demanda matrimonial que pide modificar las medidas provisionales previas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de demanda matrimonial que pide modificar las medidas provisionales previas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de demanda matrimonial que pide modificar las medidas provisionales previas

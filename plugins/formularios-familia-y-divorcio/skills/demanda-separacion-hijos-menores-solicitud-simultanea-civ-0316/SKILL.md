@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-hijos-menores-solicitud-simultanea-civ-0316
-description: "Demanda de separación con hijos menores y solicitud simultánea de medidas provisionales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación con hijos menores y solicitud simultánea de medidas provisionales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación con hijos menores y solicitud simultánea de medidas provisionales

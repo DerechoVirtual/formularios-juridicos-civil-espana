@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-demandante-contra-admision-civ-1363
-description: "Recurso de reposición del demandante contra la admisión de la reconvención por ser inadmisible. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición del demandante contra la admisión de la reconvención por ser inadmisible. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición del demandante contra la admisión de la reconvención por ser inadmisible

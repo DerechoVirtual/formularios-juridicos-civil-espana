@@ -1,6 +1,6 @@
 ---
 name: escrito-curador-pidiendo-prorroga-plazo-inventariar-civ-0374
-description: "Escrito del curador pidiendo prórroga del plazo para inventariar los bienes del curatelado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del curador pidiendo prórroga del plazo para inventariar los bienes del curatelado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del curador pidiendo prórroga del plazo para inventariar los bienes del curatelado

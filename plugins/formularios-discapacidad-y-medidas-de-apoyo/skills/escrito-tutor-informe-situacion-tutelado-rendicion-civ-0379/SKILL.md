@@ -1,6 +1,6 @@
 ---
 name: escrito-tutor-informe-situacion-tutelado-rendicion-civ-0379
-description: "Escrito del tutor con informe de la situación del tutelado y rendición anual de cuentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del tutor con informe de la situación del tutelado y rendición anual de cuentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del tutor con informe de la situación del tutelado y rendición anual de cuentas

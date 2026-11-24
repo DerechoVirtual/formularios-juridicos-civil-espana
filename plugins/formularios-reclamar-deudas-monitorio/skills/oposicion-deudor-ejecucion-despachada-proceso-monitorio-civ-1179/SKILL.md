@@ -1,6 +1,6 @@
 ---
 name: oposicion-deudor-ejecucion-despachada-proceso-monitorio-civ-1179
-description: "Oposición del deudor a la ejecución despachada en un proceso monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del deudor a la ejecución despachada en un proceso monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del deudor a la ejecución despachada en un proceso monitorio

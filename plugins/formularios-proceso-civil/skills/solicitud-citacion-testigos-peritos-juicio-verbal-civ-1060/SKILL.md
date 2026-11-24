@@ -1,6 +1,6 @@
 ---
 name: solicitud-citacion-testigos-peritos-juicio-verbal-civ-1060
-description: "Solicitud de citación de testigos y peritos para el juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de citación de testigos y peritos para el juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de citación de testigos y peritos para el juicio verbal

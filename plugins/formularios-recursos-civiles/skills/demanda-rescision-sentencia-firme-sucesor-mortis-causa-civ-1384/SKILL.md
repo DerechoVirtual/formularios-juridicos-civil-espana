@@ -1,6 +1,6 @@
 ---
 name: demanda-rescision-sentencia-firme-sucesor-mortis-causa-civ-1384
-description: "Demanda de rescisión de sentencia firme por el sucesor mortis causa del rebelde, con edictos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de rescisión de sentencia firme por el sucesor mortis causa del rebelde, con edictos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de rescisión de sentencia firme por el sucesor mortis causa del rebelde, con edictos

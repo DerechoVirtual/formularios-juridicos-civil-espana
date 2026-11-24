@@ -1,6 +1,6 @@
 ---
 name: decreto-declara-caducidad-instancia-primera-instancia-civ-1895
-description: "Decreto que declara la caducidad de la instancia en primera instancia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que declara la caducidad de la instancia en primera instancia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que declara la caducidad de la instancia en primera instancia

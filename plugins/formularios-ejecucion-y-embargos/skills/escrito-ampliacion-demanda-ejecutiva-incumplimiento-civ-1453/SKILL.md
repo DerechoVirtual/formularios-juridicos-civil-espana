@@ -1,6 +1,6 @@
 ---
 name: escrito-ampliacion-demanda-ejecutiva-incumplimiento-civ-1453
-description: "Escrito de ampliación de la demanda ejecutiva por incumplimiento reiterado del régimen de visitas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de ampliación de la demanda ejecutiva por incumplimiento reiterado del régimen de visitas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de ampliación de la demanda ejecutiva por incumplimiento reiterado del régimen de visitas

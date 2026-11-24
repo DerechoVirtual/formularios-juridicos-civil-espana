@@ -1,6 +1,6 @@
 ---
 name: solicitud-extender-inscripcion-marginal-sentencia-civ-0271
-description: "Solicitud de extender la inscripción marginal de sentencia de divorcio de otro Estado de la UE. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de extender la inscripción marginal de sentencia de divorcio de otro Estado de la UE. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de extender la inscripción marginal de sentencia de divorcio de otro Estado de la UE

@@ -1,6 +1,6 @@
 ---
 name: reclamacion-extrajudicial-operadora-defectos-servicio-civ-0723
-description: "Reclamación extrajudicial a la operadora por defectos en el servicio de telefonía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación extrajudicial a la operadora por defectos en el servicio de telefonía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación extrajudicial a la operadora por defectos en el servicio de telefonía

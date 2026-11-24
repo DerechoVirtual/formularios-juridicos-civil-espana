@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-sentencia-firme-ante-tribunal-civ-1654
-description: "Demanda ejecutiva basada en sentencia firme ante el tribunal competente para la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en sentencia firme ante el tribunal competente para la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en sentencia firme ante el tribunal competente para la ejecución

@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-solicitud-eficacia-civil-resolucion-civ-1874
-description: "Decreto que admite la solicitud de eficacia civil de resolución canónica con petición de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite la solicitud de eficacia civil de resolución canónica con petición de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite la solicitud de eficacia civil de resolución canónica con petición de medidas

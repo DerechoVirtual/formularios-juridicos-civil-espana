@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-poliza-credito-garantizada-prenda-civ-1512
-description: "Demanda de ejecución de póliza de crédito garantizada con prenda de acciones cotizadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución de póliza de crédito garantizada con prenda de acciones cotizadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución de póliza de crédito garantizada con prenda de acciones cotizadas

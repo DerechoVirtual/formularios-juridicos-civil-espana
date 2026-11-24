@@ -1,6 +1,6 @@
 ---
 name: contrato-alquiler-equipos-informaticos-civ-0729
-description: "Contrato de alquiler de equipos informáticos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alquiler de equipos informáticos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alquiler de equipos informáticos

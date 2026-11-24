@@ -1,6 +1,6 @@
 ---
 name: escrito-conclusiones-proceso-nulidad-matrimonial-ante-civ-0047
-description: "Escrito de conclusiones en un proceso de nulidad matrimonial ante el Tribunal Eclesiástico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de conclusiones en un proceso de nulidad matrimonial ante el Tribunal Eclesiástico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de conclusiones en un proceso de nulidad matrimonial ante el Tribunal Eclesiástico

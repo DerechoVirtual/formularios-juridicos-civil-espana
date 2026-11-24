@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-sobre-vivienda-efectos-reagrupacion-civ-0213
-description: "Acta notarial sobre la vivienda a efectos de reagrupación familiar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial sobre la vivienda a efectos de reagrupación familiar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial sobre la vivienda a efectos de reagrupación familiar

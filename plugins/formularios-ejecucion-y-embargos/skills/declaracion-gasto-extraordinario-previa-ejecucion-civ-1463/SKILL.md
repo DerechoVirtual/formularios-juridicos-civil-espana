@@ -1,6 +1,6 @@
 ---
 name: declaracion-gasto-extraordinario-previa-ejecucion-civ-1463
-description: "Declaración de gasto extraordinario previa a la ejecución por el carné de ciclomotor del hijo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declaración de gasto extraordinario previa a la ejecución por el carné de ciclomotor del hijo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declaración de gasto extraordinario previa a la ejecución por el carné de ciclomotor del hijo

@@ -1,6 +1,6 @@
 ---
 name: solicitud-asociacion-consumidores-medida-cautelar-cese-civ-1207
-description: "Solicitud de asociación de consumidores de medida cautelar de cese de conducta previa a la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de asociación de consumidores de medida cautelar de cese de conducta previa a la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de asociación de consumidores de medida cautelar de cese de conducta previa a la demanda

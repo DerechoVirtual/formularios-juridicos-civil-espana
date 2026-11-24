@@ -1,6 +1,6 @@
 ---
 name: decreto-archivo-falta-ratificacion-solicitud-civ-1849
-description: "Decreto de archivo por falta de ratificación de la solicitud de separación de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto de archivo por falta de ratificación de la solicitud de separación de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto de archivo por falta de ratificación de la solicitud de separación de mutuo acuerdo

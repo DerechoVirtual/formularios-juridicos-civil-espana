@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-citacion-judicial-testigos-peritos-civ-0891
-description: "Escrito pidiendo la citación judicial de testigos y peritos para el acto del juicio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo la citación judicial de testigos y peritos para el acto del juicio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo la citación judicial de testigos y peritos para el acto del juicio

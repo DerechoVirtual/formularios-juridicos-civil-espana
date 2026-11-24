@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-auto-cuantia-maxima-seguro-civ-1588
-description: "Demanda ejecutiva de auto de cuantía máxima por seguro obligatorio, con bienes a embargar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de auto de cuantía máxima por seguro obligatorio, con bienes a embargar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de auto de cuantía máxima por seguro obligatorio, con bienes a embargar

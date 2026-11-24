@@ -1,6 +1,6 @@
 ---
 name: solicitud-conversion-proceso-separacion-divorcio-tras-civ-0100
-description: "Solicitud de conversión del proceso de separación en divorcio tras la Ley 15 de 2005. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de conversión del proceso de separación en divorcio tras la Ley 15 de 2005. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de conversión del proceso de separación en divorcio tras la Ley 15 de 2005

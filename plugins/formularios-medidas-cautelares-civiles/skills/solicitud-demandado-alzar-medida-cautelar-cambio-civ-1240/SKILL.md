@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-alzar-medida-cautelar-cambio-civ-1240
-description: "Solicitud del demandado de alzar la medida cautelar por cambio de las circunstancias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de alzar la medida cautelar por cambio de las circunstancias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de alzar la medida cautelar por cambio de las circunstancias

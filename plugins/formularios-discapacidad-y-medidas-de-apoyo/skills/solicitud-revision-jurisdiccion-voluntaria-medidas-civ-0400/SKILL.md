@@ -1,6 +1,6 @@
 ---
 name: solicitud-revision-jurisdiccion-voluntaria-medidas-civ-0400
-description: "Solicitud de revisión en jurisdicción voluntaria de las medidas de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de revisión en jurisdicción voluntaria de las medidas de apoyo a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de revisión en jurisdicción voluntaria de las medidas de apoyo a persona con discapacidad

@@ -1,6 +1,6 @@
 ---
 name: demanda-recuperacion-finca-rustica-adquirida-civ-0608
-description: "Demanda de recuperación de finca rústica adquirida por el arrendatario histórico (LAR 1980). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de recuperación de finca rústica adquirida por el arrendatario histórico (LAR 1980). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de recuperación de finca rústica adquirida por el arrendatario histórico (LAR 1980)

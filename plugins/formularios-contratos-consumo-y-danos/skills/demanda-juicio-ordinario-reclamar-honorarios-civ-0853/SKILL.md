@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamar-honorarios-civ-0853
-description: "Demanda de juicio ordinario para reclamar honorarios de asesoramiento jurídico por iguala. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para reclamar honorarios de asesoramiento jurídico por iguala. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para reclamar honorarios de asesoramiento jurídico por iguala

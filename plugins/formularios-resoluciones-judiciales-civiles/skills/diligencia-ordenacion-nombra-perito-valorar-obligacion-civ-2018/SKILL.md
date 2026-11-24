@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-nombra-perito-valorar-obligacion-civ-2018
-description: "Diligencia de ordenación que nombra perito para valorar la obligación de hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que nombra perito para valorar la obligación de hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que nombra perito para valorar la obligación de hacer no personalísimo

@@ -1,6 +1,6 @@
 ---
 name: impugnacion-audiencia-previa-dictamen-pericial-civ-0952
-description: "Impugnación en la audiencia previa de un dictamen pericial con petición de ampliación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación en la audiencia previa de un dictamen pericial con petición de ampliación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación en la audiencia previa de un dictamen pericial con petición de ampliación

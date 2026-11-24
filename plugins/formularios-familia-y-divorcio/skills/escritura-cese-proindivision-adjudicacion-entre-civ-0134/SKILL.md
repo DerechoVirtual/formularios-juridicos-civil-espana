@@ -1,6 +1,6 @@
 ---
 name: escritura-cese-proindivision-adjudicacion-entre-civ-0134
-description: "Escritura de cese de proindivisión y adjudicación entre cónyuges en separación de bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de cese de proindivisión y adjudicación entre cónyuges en separación de bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de cese de proindivisión y adjudicación entre cónyuges en separación de bienes

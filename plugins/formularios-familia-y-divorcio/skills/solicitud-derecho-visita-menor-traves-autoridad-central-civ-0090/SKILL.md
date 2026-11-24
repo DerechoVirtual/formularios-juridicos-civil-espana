@@ -1,6 +1,6 @@
 ---
 name: solicitud-derecho-visita-menor-traves-autoridad-central-civ-0090
-description: "Solicitud de derecho de visita de un menor a través de la Autoridad Central. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de derecho de visita de un menor a través de la Autoridad Central. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de derecho de visita de un menor a través de la Autoridad Central

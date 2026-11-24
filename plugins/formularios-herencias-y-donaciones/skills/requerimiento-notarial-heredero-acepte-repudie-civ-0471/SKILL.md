@@ -1,6 +1,6 @@
 ---
 name: requerimiento-notarial-heredero-acepte-repudie-civ-0471
-description: "Requerimiento notarial para que el heredero acepte o repudie la herencia (interrogatio in iure). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento notarial para que el heredero acepte o repudie la herencia (interrogatio in iure). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento notarial para que el heredero acepte o repudie la herencia (interrogatio in iure)

@@ -1,6 +1,6 @@
 ---
 name: auto-estima-oposicion-ejecucion-motivos-fondo-civ-2050
-description: "Auto que estima la oposición a la ejecución por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la oposición a la ejecución por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la oposición a la ejecución por motivos de fondo

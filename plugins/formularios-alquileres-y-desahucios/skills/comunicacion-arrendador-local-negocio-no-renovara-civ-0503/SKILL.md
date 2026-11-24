@@ -1,6 +1,6 @@
 ---
 name: comunicacion-arrendador-local-negocio-no-renovara-civ-0503
-description: "Comunicación del arrendador de local de negocio de que no renovará el contrato al vencer el plazo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del arrendador de local de negocio de que no renovará el contrato al vencer el plazo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del arrendador de local de negocio de que no renovará el contrato al vencer el plazo

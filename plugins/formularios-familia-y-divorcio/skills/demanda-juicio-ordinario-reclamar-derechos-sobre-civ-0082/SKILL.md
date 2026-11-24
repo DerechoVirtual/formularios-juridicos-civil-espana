@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-reclamar-derechos-sobre-civ-0082
-description: "Demanda de juicio ordinario para reclamar derechos sobre bienes adjudicados como privativos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario para reclamar derechos sobre bienes adjudicados como privativos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario para reclamar derechos sobre bienes adjudicados como privativos

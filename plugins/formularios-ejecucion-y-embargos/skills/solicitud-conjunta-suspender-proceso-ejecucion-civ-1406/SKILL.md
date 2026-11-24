@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-suspender-proceso-ejecucion-civ-1406
-description: "Solicitud conjunta de suspender el proceso de ejecución para intentar una mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de suspender el proceso de ejecución para intentar una mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de suspender el proceso de ejecución para intentar una mediación

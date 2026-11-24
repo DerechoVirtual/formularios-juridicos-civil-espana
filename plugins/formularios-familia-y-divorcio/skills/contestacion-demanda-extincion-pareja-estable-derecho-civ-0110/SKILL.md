@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-extincion-pareja-estable-derecho-civ-0110
-description: "Contestación a la demanda de extinción de pareja estable (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de extinción de pareja estable (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de extinción de pareja estable (Derecho catalán)

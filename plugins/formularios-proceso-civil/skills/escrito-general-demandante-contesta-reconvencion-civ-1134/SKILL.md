@@ -1,6 +1,6 @@
 ---
 name: escrito-general-demandante-contesta-reconvencion-civ-1134
-description: "Escrito general del demandante que contesta a la reconvención. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito general del demandante que contesta a la reconvención. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito general del demandante que contesta a la reconvención

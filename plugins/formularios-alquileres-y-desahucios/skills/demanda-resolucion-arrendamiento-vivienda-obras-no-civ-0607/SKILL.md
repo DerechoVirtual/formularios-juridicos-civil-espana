@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-vivienda-obras-no-civ-0607
-description: "Demanda de resolución de arrendamiento de vivienda por obras no consentidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de arrendamiento de vivienda por obras no consentidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de arrendamiento de vivienda por obras no consentidas

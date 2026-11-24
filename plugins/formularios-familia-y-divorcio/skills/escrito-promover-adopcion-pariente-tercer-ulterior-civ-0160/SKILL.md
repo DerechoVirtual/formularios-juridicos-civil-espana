@@ -1,6 +1,6 @@
 ---
 name: escrito-promover-adopcion-pariente-tercer-ulterior-civ-0160
-description: "Escrito para promover la adopción de un pariente en tercer o ulterior grado colateral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para promover la adopción de un pariente en tercer o ulterior grado colateral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para promover la adopción de un pariente en tercer o ulterior grado colateral

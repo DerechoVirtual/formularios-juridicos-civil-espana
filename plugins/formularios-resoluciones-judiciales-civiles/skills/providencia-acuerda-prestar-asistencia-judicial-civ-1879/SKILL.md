@@ -1,6 +1,6 @@
 ---
 name: providencia-acuerda-prestar-asistencia-judicial-civ-1879
-description: "Providencia que acuerda prestar asistencia judicial a los árbitros practicando prueba ante el juez. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que acuerda prestar asistencia judicial a los árbitros practicando prueba ante el juez. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que acuerda prestar asistencia judicial a los árbitros practicando prueba ante el juez

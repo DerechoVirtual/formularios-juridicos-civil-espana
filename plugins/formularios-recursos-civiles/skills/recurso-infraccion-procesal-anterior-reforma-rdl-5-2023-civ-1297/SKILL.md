@@ -1,6 +1,6 @@
 ---
 name: recurso-infraccion-procesal-anterior-reforma-rdl-5-2023-civ-1297
-description: "Recurso por infracción procesal anterior a la reforma del RDL 5 de 2023. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso por infracción procesal anterior a la reforma del RDL 5 de 2023. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso por infracción procesal anterior a la reforma del RDL 5 de 2023

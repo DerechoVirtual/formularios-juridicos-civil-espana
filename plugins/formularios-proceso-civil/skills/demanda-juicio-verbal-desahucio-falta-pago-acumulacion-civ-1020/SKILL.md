@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-desahucio-falta-pago-acumulacion-civ-1020
-description: "Demanda de juicio verbal de desahucio por falta de pago con acumulación de reclamación de cantidades. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de desahucio por falta de pago con acumulación de reclamación de cantidades. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de desahucio por falta de pago con acumulación de reclamación de cantidades

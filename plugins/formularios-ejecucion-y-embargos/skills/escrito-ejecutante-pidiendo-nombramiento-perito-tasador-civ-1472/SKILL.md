@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-nombramiento-perito-tasador-civ-1472
-description: "Escrito del ejecutante pidiendo el nombramiento de perito tasador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo el nombramiento de perito tasador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo el nombramiento de perito tasador

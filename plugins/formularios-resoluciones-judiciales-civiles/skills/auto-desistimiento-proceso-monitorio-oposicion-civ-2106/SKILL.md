@@ -1,6 +1,6 @@
 ---
 name: auto-desistimiento-proceso-monitorio-oposicion-civ-2106
-description: "Auto de desistimiento en proceso monitorio con oposición del demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de desistimiento en proceso monitorio con oposición del demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de desistimiento en proceso monitorio con oposición del demandado

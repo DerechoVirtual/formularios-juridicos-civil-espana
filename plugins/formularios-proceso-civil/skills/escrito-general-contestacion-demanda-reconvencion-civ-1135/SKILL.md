@@ -1,6 +1,6 @@
 ---
 name: escrito-general-contestacion-demanda-reconvencion-civ-1135
-description: "Escrito general de contestación a la demanda con reconvención. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito general de contestación a la demanda con reconvención. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito general de contestación a la demanda con reconvención

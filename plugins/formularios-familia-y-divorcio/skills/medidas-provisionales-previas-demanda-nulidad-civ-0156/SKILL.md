@@ -1,6 +1,6 @@
 ---
 name: medidas-provisionales-previas-demanda-nulidad-civ-0156
-description: "Medidas provisionales previas a la demanda de nulidad, separación o divorcio (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Medidas provisionales previas a la demanda de nulidad, separación o divorcio (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Medidas provisionales previas a la demanda de nulidad, separación o divorcio (Derecho catalán)

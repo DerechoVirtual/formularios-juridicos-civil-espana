@@ -1,6 +1,6 @@
 ---
 name: solicitud-embargo-preventivo-buque-conforme-convenio-civ-1247
-description: "Solicitud de embargo preventivo de buque conforme al Convenio de 10 de mayo de 1952. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de embargo preventivo de buque conforme al Convenio de 10 de mayo de 1952. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de embargo preventivo de buque conforme al Convenio de 10 de mayo de 1952

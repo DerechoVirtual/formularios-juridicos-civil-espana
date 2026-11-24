@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-sobre-regimen-visitas-hijo-menor-civ-0360
-description: "Demanda de juicio verbal sobre régimen de visitas con un hijo menor extramatrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal sobre régimen de visitas con un hijo menor extramatrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal sobre régimen de visitas con un hijo menor extramatrimonial

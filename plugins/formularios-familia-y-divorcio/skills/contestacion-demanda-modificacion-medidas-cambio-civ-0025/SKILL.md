@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-modificacion-medidas-cambio-civ-0025
-description: "Contestación a la demanda de modificación de medidas por cambio de domicilio del progenitor custodio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de modificación de medidas por cambio de domicilio del progenitor custodio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de modificación de medidas por cambio de domicilio del progenitor custodio

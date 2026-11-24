@@ -1,6 +1,6 @@
 ---
 name: contestacion-cuestion-incidental-previo-civ-0928
-description: "Contestación a la cuestión incidental de previo pronunciamiento por falta de capacidad del actor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la cuestión incidental de previo pronunciamiento por falta de capacidad del actor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la cuestión incidental de previo pronunciamiento por falta de capacidad del actor

@@ -1,6 +1,6 @@
 ---
 name: apelacion-contra-sentencia-juicio-ordinario-infraccion-civ-1370
-description: "Apelación contra sentencia de juicio ordinario por infracción de normas y garantías procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación contra sentencia de juicio ordinario por infracción de normas y garantías procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación contra sentencia de juicio ordinario por infracción de normas y garantías procesales

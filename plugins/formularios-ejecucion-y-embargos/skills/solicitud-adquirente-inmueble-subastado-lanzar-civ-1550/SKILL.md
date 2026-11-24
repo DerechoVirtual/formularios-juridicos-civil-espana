@@ -1,6 +1,6 @@
 ---
 name: solicitud-adquirente-inmueble-subastado-lanzar-civ-1550
-description: "Solicitud del adquirente del inmueble subastado de lanzar a los ocupantes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del adquirente del inmueble subastado de lanzar a los ocupantes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del adquirente del inmueble subastado de lanzar a los ocupantes

@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-suspender-plazo-contestar-civ-0877
-description: "Solicitud del demandado de suspender el plazo para contestar y reconvenir. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de suspender el plazo para contestar y reconvenir. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de suspender el plazo para contestar y reconvenir

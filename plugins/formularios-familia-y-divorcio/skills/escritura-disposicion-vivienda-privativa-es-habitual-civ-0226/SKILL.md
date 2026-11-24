@@ -1,6 +1,6 @@
 ---
 name: escritura-disposicion-vivienda-privativa-es-habitual-civ-0226
-description: "Escritura de disposición de la vivienda privativa que es la habitual del matrimonio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de disposición de la vivienda privativa que es la habitual del matrimonio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de disposición de la vivienda privativa que es la habitual del matrimonio

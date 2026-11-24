@@ -1,6 +1,6 @@
 ---
 name: poder-notarial-general-pleitos-especial-otras-civ-0861
-description: "Poder notarial general para pleitos y especial para otras facultades. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Poder notarial general para pleitos y especial para otras facultades. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Poder notarial general para pleitos y especial para otras facultades

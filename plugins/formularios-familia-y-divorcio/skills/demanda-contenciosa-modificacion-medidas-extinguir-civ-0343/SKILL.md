@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-modificacion-medidas-extinguir-civ-0343
-description: "Demanda contenciosa de modificación de medidas para extinguir la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de modificación de medidas para extinguir la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de modificación de medidas para extinguir la pensión compensatoria

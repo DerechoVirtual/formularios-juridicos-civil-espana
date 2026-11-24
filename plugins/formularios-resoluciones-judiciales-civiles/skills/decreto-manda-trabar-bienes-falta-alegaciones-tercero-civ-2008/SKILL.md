@@ -1,6 +1,6 @@
 ---
 name: decreto-manda-trabar-bienes-falta-alegaciones-tercero-civ-2008
-description: "Decreto que manda trabar los bienes por falta de alegaciones del tercero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que manda trabar los bienes por falta de alegaciones del tercero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que manda trabar los bienes por falta de alegaciones del tercero

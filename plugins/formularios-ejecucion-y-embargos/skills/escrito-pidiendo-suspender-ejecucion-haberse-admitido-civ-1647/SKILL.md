@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-suspender-ejecucion-haberse-admitido-civ-1647
-description: "Escrito pidiendo suspender la ejecución por haberse admitido la rescisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo suspender la ejecución por haberse admitido la rescisión de sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo suspender la ejecución por haberse admitido la rescisión de sentencia firme

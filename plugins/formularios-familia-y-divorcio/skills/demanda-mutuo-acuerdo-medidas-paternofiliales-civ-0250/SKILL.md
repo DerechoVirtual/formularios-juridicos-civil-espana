@@ -1,6 +1,6 @@
 ---
 name: demanda-mutuo-acuerdo-medidas-paternofiliales-civ-0250
-description: "Demanda de mutuo acuerdo de medidas paternofiliales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de mutuo acuerdo de medidas paternofiliales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de mutuo acuerdo de medidas paternofiliales

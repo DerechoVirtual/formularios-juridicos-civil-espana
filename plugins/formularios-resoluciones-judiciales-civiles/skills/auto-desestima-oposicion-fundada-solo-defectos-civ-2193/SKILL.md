@@ -1,6 +1,6 @@
 ---
 name: auto-desestima-oposicion-fundada-solo-defectos-civ-2193
-description: "Auto que desestima la oposición fundada solo en defectos procesales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que desestima la oposición fundada solo en defectos procesales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que desestima la oposición fundada solo en defectos procesales

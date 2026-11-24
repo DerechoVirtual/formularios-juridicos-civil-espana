@@ -1,6 +1,6 @@
 ---
 name: providencia-acuerda-reducir-embargo-civ-2182
-description: "Providencia que acuerda reducir el embargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que acuerda reducir el embargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que acuerda reducir el embargo

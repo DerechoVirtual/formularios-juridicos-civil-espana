@@ -1,6 +1,6 @@
 ---
 name: decreto-impone-multas-coercitivas-quien-impida-civ-2029
-description: "Decreto que impone multas coercitivas a quien impida o dificulte la administración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que impone multas coercitivas a quien impida o dificulte la administración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que impone multas coercitivas a quien impida o dificulte la administración

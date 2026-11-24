@@ -1,6 +1,6 @@
 ---
 name: solicitud-dispensa-impedimento-matrimonial-parentesco-civ-0248
-description: "Solicitud de dispensa del impedimento matrimonial de parentesco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de dispensa del impedimento matrimonial de parentesco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de dispensa del impedimento matrimonial de parentesco

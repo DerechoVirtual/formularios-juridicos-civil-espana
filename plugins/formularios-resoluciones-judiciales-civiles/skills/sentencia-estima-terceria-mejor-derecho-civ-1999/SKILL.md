@@ -1,6 +1,6 @@
 ---
 name: sentencia-estima-terceria-mejor-derecho-civ-1999
-description: "Sentencia que estima la tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sentencia que estima la tercería de mejor derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sentencia que estima la tercería de mejor derecho

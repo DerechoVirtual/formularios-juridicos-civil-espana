@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecutar-impago-pensiones-alegando-mayoria-civ-1506
-description: "Oposición a ejecutar el impago de pensiones alegando la mayoría de edad e independencia del hijo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a ejecutar el impago de pensiones alegando la mayoría de edad e independencia del hijo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a ejecutar el impago de pensiones alegando la mayoría de edad e independencia del hijo

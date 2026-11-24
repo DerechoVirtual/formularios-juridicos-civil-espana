@@ -1,6 +1,6 @@
 ---
 name: acuerdo-resolucion-contrato-arrendamiento-local-negocio-civ-0497
-description: "Acuerdo de resolución del contrato de arrendamiento de local de negocio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de resolución del contrato de arrendamiento de local de negocio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de resolución del contrato de arrendamiento de local de negocio

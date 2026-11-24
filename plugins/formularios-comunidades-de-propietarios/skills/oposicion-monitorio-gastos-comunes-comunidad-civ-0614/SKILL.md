@@ -1,6 +1,6 @@
 ---
 name: oposicion-monitorio-gastos-comunes-comunidad-civ-0614
-description: "Oposición al monitorio por gastos comunes de comunidad de propietarios de entre 2.000 y 15.000 euros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al monitorio por gastos comunes de comunidad de propietarios de entre 2.000 y 15.000 euros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al monitorio por gastos comunes de comunidad de propietarios de entre 2.000 y 15.000 euros

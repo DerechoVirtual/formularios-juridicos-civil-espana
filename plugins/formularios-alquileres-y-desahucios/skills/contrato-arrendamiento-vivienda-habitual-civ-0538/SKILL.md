@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-habitual-civ-0538
-description: "Contrato de arrendamiento de vivienda habitual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda habitual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda habitual

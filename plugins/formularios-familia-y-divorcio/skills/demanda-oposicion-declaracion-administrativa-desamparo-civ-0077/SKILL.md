@@ -1,6 +1,6 @@
 ---
 name: demanda-oposicion-declaracion-administrativa-desamparo-civ-0077
-description: "Demanda de oposición a la declaración administrativa de desamparo de un menor (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de oposición a la declaración administrativa de desamparo de un menor (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de oposición a la declaración administrativa de desamparo de un menor (Derecho catalán)

@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-provisional-sentencia-condena-pago-civ-1568
-description: "Demanda de ejecución provisional de sentencia de condena al pago de cantidad líquida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución provisional de sentencia de condena al pago de cantidad líquida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución provisional de sentencia de condena al pago de cantidad líquida

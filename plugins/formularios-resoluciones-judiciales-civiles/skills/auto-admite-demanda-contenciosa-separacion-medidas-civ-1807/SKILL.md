@@ -1,6 +1,6 @@
 ---
 name: auto-admite-demanda-contenciosa-separacion-medidas-civ-1807
-description: "Auto que admite la demanda contenciosa de separación con medidas provisionales simultáneas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite la demanda contenciosa de separación con medidas provisionales simultáneas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite la demanda contenciosa de separación con medidas provisionales simultáneas

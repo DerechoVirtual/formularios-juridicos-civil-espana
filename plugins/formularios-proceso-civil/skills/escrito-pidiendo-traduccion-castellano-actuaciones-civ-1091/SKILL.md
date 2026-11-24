@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-traduccion-castellano-actuaciones-civ-1091
-description: "Escrito pidiendo la traducción al castellano de las actuaciones redactadas en lengua cooficial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo la traducción al castellano de las actuaciones redactadas en lengua cooficial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo la traducción al castellano de las actuaciones redactadas en lengua cooficial

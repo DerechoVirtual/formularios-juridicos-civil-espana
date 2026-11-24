@@ -1,6 +1,6 @@
 ---
 name: escritura-renuncia-herencia-legitimario-preterido-civ-0459
-description: "Escritura de renuncia a la herencia por legitimario preterido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de renuncia a la herencia por legitimario preterido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de renuncia a la herencia por legitimario preterido

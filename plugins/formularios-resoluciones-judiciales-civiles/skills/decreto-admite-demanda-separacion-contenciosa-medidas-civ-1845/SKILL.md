@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-demanda-separacion-contenciosa-medidas-civ-1845
-description: "Decreto que admite la demanda de separación contenciosa con medidas provisionales coetáneas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite la demanda de separación contenciosa con medidas provisionales coetáneas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite la demanda de separación contenciosa con medidas provisionales coetáneas

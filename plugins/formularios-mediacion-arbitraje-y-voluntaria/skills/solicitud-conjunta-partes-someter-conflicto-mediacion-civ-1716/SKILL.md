@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-partes-someter-conflicto-mediacion-civ-1716
-description: "Solicitud conjunta de las partes para someter el conflicto a mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de las partes para someter el conflicto a mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de las partes para someter el conflicto a mediación

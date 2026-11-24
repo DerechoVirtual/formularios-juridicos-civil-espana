@@ -1,6 +1,6 @@
 ---
 name: escrito-perito-designado-rechaza-cargo-causa-civ-0857
-description: "Escrito del perito designado que rechaza el cargo por causa justificada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del perito designado que rechaza el cargo por causa justificada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del perito designado que rechaza el cargo por causa justificada

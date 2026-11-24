@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-exhibicion-historia-clinica-civ-1227
-description: "Escrito pidiendo la exhibición de la historia clínica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo la exhibición de la historia clínica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo la exhibición de la historia clínica

@@ -1,6 +1,6 @@
 ---
 name: contrato-cede-vivienda-precario-civ-0669
-description: "Contrato por el que se cede una vivienda en precario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato por el que se cede una vivienda en precario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato por el que se cede una vivienda en precario

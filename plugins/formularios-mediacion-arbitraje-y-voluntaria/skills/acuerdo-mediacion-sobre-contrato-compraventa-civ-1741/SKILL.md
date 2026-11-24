@@ -1,6 +1,6 @@
 ---
 name: acuerdo-mediacion-sobre-contrato-compraventa-civ-1741
-description: "Acuerdo de mediación sobre un contrato de compraventa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de mediación sobre un contrato de compraventa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de mediación sobre un contrato de compraventa

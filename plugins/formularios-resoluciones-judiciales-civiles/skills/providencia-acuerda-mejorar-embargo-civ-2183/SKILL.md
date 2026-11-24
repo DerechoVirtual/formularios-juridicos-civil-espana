@@ -1,6 +1,6 @@
 ---
 name: providencia-acuerda-mejorar-embargo-civ-2183
-description: "Providencia que acuerda mejorar el embargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que acuerda mejorar el embargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que acuerda mejorar el embargo

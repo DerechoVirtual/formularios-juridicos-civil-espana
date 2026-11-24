@@ -1,6 +1,6 @@
 ---
 name: novacion-contrato-arrendamiento-vivienda-reducir-renta-civ-0532
-description: "Novación del contrato de arrendamiento de vivienda para reducir la renta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Novación del contrato de arrendamiento de vivienda para reducir la renta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Novación del contrato de arrendamiento de vivienda para reducir la renta

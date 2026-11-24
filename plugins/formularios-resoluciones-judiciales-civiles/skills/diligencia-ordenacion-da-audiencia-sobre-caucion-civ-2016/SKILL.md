@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-audiencia-sobre-caucion-civ-2016
-description: "Diligencia de ordenación que da audiencia sobre la caución del tercerista para admitir su demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da audiencia sobre la caución del tercerista para admitir su demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da audiencia sobre la caución del tercerista para admitir su demanda

@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-titulo-extrajudicial-civ-1557
-description: "Demanda ejecutiva basada en título extrajudicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en título extrajudicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en título extrajudicial

@@ -1,6 +1,6 @@
 ---
 name: escritura-declaracion-obra-nueva-vivienda-unifamiliar-civ-0667
-description: "Escritura de declaración de obra nueva de vivienda unifamiliar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de declaración de obra nueva de vivienda unifamiliar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de declaración de obra nueva de vivienda unifamiliar

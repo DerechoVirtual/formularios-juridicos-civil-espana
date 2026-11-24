@@ -1,6 +1,6 @@
 ---
 name: oposicion-e-impugnacion-apelacion-trafico-motivos-civ-1391
-description: "Oposición e impugnación de la apelación de tráfico por motivos materiales y falta de consignación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición e impugnación de la apelación de tráfico por motivos materiales y falta de consignación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición e impugnación de la apelación de tráfico por motivos materiales y falta de consignación

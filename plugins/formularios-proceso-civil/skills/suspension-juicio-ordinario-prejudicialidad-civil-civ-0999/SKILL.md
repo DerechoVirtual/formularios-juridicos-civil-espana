@@ -1,6 +1,6 @@
 ---
 name: suspension-juicio-ordinario-prejudicialidad-civil-civ-0999
-description: "Suspensión del juicio ordinario por prejudicialidad civil (solicitud). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Suspensión del juicio ordinario por prejudicialidad civil (solicitud). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Suspensión del juicio ordinario por prejudicialidad civil (solicitud)

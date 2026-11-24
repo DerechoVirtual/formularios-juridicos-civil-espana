@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-desahucio-finca-rustica-civ-0559
-description: "Demanda de juicio verbal de desahucio de finca rústica por expiración del plazo del contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de desahucio de finca rústica por expiración del plazo del contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de desahucio de finca rústica por expiración del plazo del contrato

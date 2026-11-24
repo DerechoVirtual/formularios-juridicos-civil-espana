@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-diligencia-final-ordinaria-art-435-1-civ-1129
-description: "Escrito pidiendo diligencia final ordinaria (art. 435.1.2.ª LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo diligencia final ordinaria (art. 435.1.2.ª LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo diligencia final ordinaria (art. 435.1.2.ª LEC)

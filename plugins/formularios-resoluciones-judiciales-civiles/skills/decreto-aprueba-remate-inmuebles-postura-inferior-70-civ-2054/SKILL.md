@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-remate-inmuebles-postura-inferior-70-civ-2054
-description: "Decreto que aprueba el remate de inmuebles por postura inferior al 70 y superior al 50 por 100. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el remate de inmuebles por postura inferior al 70 y superior al 50 por 100. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el remate de inmuebles por postura inferior al 70 y superior al 50 por 100

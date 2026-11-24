@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-nombrar-depositario-bien-civ-1525
-description: "Escrito del ejecutante pidiendo nombrar depositario de un bien embargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo nombrar depositario de un bien embargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo nombrar depositario de un bien embargado

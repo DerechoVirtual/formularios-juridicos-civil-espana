@@ -1,6 +1,6 @@
 ---
 name: acta-ratificacion-peticion-divorcio-convenio-regulador-civ-1894
-description: "Acta de ratificación de la petición de divorcio y del convenio regulador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de ratificación de la petición de divorcio y del convenio regulador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de ratificación de la petición de divorcio y del convenio regulador

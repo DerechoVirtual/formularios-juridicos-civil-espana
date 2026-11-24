@@ -1,6 +1,6 @@
 ---
 name: demanda-liquidacion-gananciales-particion-herencia-civ-0052
-description: "Demanda de liquidación de gananciales y partición de herencia de un hijo adoptivo del fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de liquidación de gananciales y partición de herencia de un hijo adoptivo del fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de liquidación de gananciales y partición de herencia de un hijo adoptivo del fallecido

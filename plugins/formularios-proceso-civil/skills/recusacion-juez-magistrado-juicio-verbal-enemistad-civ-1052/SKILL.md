@@ -1,6 +1,6 @@
 ---
 name: recusacion-juez-magistrado-juicio-verbal-enemistad-civ-1052
-description: "Recusación de juez o magistrado en juicio verbal por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recusación de juez o magistrado en juicio verbal por enemistad manifiesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recusación de juez o magistrado en juicio verbal por enemistad manifiesta

@@ -1,6 +1,6 @@
 ---
 name: solicitud-aprobacion-judicial-acuerdo-mediacion-sobre-civ-0009
-description: "Solicitud de aprobación judicial de un acuerdo de mediación sobre visitas de los abuelos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de aprobación judicial de un acuerdo de mediación sobre visitas de los abuelos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de aprobación judicial de un acuerdo de mediación sobre visitas de los abuelos

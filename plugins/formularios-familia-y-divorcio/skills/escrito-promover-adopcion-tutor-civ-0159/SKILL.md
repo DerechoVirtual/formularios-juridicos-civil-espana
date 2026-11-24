@@ -1,6 +1,6 @@
 ---
 name: escrito-promover-adopcion-tutor-civ-0159
-description: "Escrito para promover la adopción por el tutor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para promover la adopción por el tutor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para promover la adopción por el tutor

@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandante-terminar-proceso-satisfaccion-civ-1067
-description: "Solicitud del demandante de terminar el proceso por satisfacción extraprocesal (art. 22 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandante de terminar el proceso por satisfacción extraprocesal (art. 22 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandante de terminar el proceso por satisfacción extraprocesal (art. 22 LEC)

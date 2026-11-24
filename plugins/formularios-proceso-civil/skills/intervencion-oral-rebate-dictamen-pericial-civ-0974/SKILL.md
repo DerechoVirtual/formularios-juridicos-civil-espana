@@ -1,6 +1,6 @@
 ---
 name: intervencion-oral-rebate-dictamen-pericial-civ-0974
-description: "Intervención oral que rebate el dictamen pericial de la contestación y propone la tacha del perito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervención oral que rebate el dictamen pericial de la contestación y propone la tacha del perito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervención oral que rebate el dictamen pericial de la contestación y propone la tacha del perito

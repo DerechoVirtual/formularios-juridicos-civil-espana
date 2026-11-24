@@ -1,6 +1,6 @@
 ---
 name: escrito-notaria-aceptando-beneficio-inventario-bienes-civ-0411
-description: "Escrito a la notaría aceptando a beneficio de inventario con los bienes en poder del heredero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito a la notaría aceptando a beneficio de inventario con los bienes en poder del heredero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito a la notaría aceptando a beneficio de inventario con los bienes en poder del heredero

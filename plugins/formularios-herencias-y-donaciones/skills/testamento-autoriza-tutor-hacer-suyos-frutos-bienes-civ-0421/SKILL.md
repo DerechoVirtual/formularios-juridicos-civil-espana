@@ -1,6 +1,6 @@
 ---
 name: testamento-autoriza-tutor-hacer-suyos-frutos-bienes-civ-0421
-description: "Testamento que autoriza al tutor a hacer suyos los frutos de los bienes del tutelado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento que autoriza al tutor a hacer suyos los frutos de los bienes del tutelado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento que autoriza al tutor a hacer suyos los frutos de los bienes del tutelado

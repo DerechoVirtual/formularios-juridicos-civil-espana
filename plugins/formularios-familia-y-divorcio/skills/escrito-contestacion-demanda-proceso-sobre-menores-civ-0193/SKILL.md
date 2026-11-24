@@ -1,6 +1,6 @@
 ---
 name: escrito-contestacion-demanda-proceso-sobre-menores-civ-0193
-description: "Escrito de contestación a la demanda en proceso sobre menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de contestación a la demanda en proceso sobre menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de contestación a la demanda en proceso sobre menores

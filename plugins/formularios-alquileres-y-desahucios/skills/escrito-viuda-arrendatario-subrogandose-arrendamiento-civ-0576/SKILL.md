@@ -1,6 +1,6 @@
 ---
 name: escrito-viuda-arrendatario-subrogandose-arrendamiento-civ-0576
-description: "Escrito de la viuda del arrendatario subrogándose en el arrendamiento por su fallecimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de la viuda del arrendatario subrogándose en el arrendamiento por su fallecimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de la viuda del arrendatario subrogándose en el arrendamiento por su fallecimiento

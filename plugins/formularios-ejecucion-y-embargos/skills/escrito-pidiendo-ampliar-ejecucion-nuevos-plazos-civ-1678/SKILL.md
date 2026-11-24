@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-ampliar-ejecucion-nuevos-plazos-civ-1678
-description: "Escrito pidiendo ampliar la ejecución a nuevos plazos vencidos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo ampliar la ejecución a nuevos plazos vencidos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo ampliar la ejecución a nuevos plazos vencidos

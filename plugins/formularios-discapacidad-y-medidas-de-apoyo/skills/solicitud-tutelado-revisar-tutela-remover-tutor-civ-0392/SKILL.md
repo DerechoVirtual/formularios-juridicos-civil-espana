@@ -1,6 +1,6 @@
 ---
 name: solicitud-tutelado-revisar-tutela-remover-tutor-civ-0392
-description: "Solicitud del tutelado de revisar la tutela y remover al tutor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del tutelado de revisar la tutela y remover al tutor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del tutelado de revisar la tutela y remover al tutor

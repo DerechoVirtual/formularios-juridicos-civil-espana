@@ -1,6 +1,6 @@
 ---
 name: auto-declara-no-personalisimo-hacer-sentencia-civ-1971
-description: "Auto que declara no personalísimo el hacer de la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara no personalísimo el hacer de la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara no personalísimo el hacer de la sentencia

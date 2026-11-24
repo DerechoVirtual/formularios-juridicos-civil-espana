@@ -1,6 +1,6 @@
 ---
 name: reclamacion-aerolinea-cancelacion-vuelo-contratado-civ-0726
-description: "Reclamación a la aerolínea por cancelación del vuelo contratado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación a la aerolínea por cancelación del vuelo contratado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación a la aerolínea por cancelación del vuelo contratado

@@ -1,6 +1,6 @@
 ---
 name: acta-final-mediacion-termina-acuerdo-entre-partes-civ-1731
-description: "Acta final de mediación que termina con acuerdo entre las partes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta final de mediación que termina con acuerdo entre las partes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta final de mediación que termina con acuerdo entre las partes

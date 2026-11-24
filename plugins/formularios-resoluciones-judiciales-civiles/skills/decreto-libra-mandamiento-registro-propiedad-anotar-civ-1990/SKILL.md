@@ -1,6 +1,6 @@
 ---
 name: decreto-libra-mandamiento-registro-propiedad-anotar-civ-1990
-description: "Decreto que libra mandamiento al Registro de la Propiedad para anotar el embargo de inmuebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que libra mandamiento al Registro de la Propiedad para anotar el embargo de inmuebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que libra mandamiento al Registro de la Propiedad para anotar el embargo de inmuebles

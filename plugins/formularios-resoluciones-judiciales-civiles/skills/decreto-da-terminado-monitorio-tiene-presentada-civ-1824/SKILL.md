@@ -1,6 +1,6 @@
 ---
 name: decreto-da-terminado-monitorio-tiene-presentada-civ-1824
-description: "Decreto que da por terminado el monitorio y tiene por presentada la demanda de juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que da por terminado el monitorio y tiene por presentada la demanda de juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que da por terminado el monitorio y tiene por presentada la demanda de juicio ordinario

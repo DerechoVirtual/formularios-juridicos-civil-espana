@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-aportando-prueba-pericial-modelo-civ-0871
-description: "Escrito del demandado aportando prueba pericial, modelo general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado aportando prueba pericial, modelo general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado aportando prueba pericial, modelo general

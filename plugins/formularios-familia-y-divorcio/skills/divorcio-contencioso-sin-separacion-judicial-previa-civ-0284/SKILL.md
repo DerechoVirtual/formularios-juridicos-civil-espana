@@ -1,6 +1,6 @@
 ---
 name: divorcio-contencioso-sin-separacion-judicial-previa-civ-0284
-description: "Divorcio contencioso sin separación judicial previa (demanda). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Divorcio contencioso sin separación judicial previa (demanda). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Divorcio contencioso sin separación judicial previa (demanda)

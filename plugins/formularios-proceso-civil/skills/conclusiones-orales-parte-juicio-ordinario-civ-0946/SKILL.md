@@ -1,6 +1,6 @@
 ---
 name: conclusiones-orales-parte-juicio-ordinario-civ-0946
-description: "Conclusiones orales de la parte en el juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Conclusiones orales de la parte en el juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Conclusiones orales de la parte en el juicio ordinario

@@ -1,6 +1,6 @@
 ---
 name: oposicion-juicio-cambiario-indebida-acumulacion-accion-civ-1184
-description: "Oposición en juicio cambiario por indebida acumulación de la acción cambiaria y la del contrato caus. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición en juicio cambiario por indebida acumulación de la acción cambiaria y la del contrato caus. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición en juicio cambiario por indebida acumulación de la acción cambiaria y la del contrato caus

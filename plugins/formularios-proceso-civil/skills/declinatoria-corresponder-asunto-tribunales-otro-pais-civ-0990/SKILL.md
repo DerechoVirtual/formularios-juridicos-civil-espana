@@ -1,6 +1,6 @@
 ---
 name: declinatoria-corresponder-asunto-tribunales-otro-pais-civ-0990
-description: "Declinatoria por corresponder el asunto a los tribunales de otro país. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria por corresponder el asunto a los tribunales de otro país. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria por corresponder el asunto a los tribunales de otro país

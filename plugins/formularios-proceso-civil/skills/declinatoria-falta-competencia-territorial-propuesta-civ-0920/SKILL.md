@@ -1,6 +1,6 @@
 ---
 name: declinatoria-falta-competencia-territorial-propuesta-civ-0920
-description: "Declinatoria por falta de competencia territorial propuesta por el demandado en juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria por falta de competencia territorial propuesta por el demandado en juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria por falta de competencia territorial propuesta por el demandado en juicio verbal

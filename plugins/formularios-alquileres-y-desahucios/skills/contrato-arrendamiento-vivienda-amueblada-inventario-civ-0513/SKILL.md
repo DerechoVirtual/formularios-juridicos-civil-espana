@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-amueblada-inventario-civ-0513
-description: "Contrato de arrendamiento de vivienda amueblada con inventario del mobiliario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de vivienda amueblada con inventario del mobiliario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de vivienda amueblada con inventario del mobiliario

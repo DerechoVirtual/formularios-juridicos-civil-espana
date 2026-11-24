@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-divorcio-reconviniendo-prestacion-civ-0001
-description: "Contestación a demanda de divorcio reconviniendo por la prestación compensatoria del Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a demanda de divorcio reconviniendo por la prestación compensatoria del Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a demanda de divorcio reconviniendo por la prestación compensatoria del Derecho catalán

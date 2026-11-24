@@ -1,6 +1,6 @@
 ---
 name: decreto-resuelve-discrepancia-actos-administrador-civ-1992
-description: "Decreto que resuelve la discrepancia con los actos del administrador judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que resuelve la discrepancia con los actos del administrador judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que resuelve la discrepancia con los actos del administrador judicial

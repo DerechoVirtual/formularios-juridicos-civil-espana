@@ -1,6 +1,6 @@
 ---
 name: demanda-reclamacion-gastos-extraordinarios-propietario-civ-0617
-description: "Demanda de reclamación de gastos extraordinarios a un propietario de una comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reclamación de gastos extraordinarios a un propietario de una comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reclamación de gastos extraordinarios a un propietario de una comunidad

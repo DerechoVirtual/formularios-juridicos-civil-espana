@@ -1,6 +1,6 @@
 ---
 name: recurso-extraordinario-infraccion-procesal-generico-civ-1366
-description: "Recurso extraordinario por infracción procesal genérico (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso extraordinario por infracción procesal genérico (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso extraordinario por infracción procesal genérico (régimen anterior al RDL 5 2023)

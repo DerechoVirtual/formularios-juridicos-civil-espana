@@ -1,6 +1,6 @@
 ---
 name: codicilo-segun-derecho-civil-baleares-mallorca-menorca-civ-0444
-description: "Codicilo según el Derecho civil de Baleares (Mallorca y Menorca). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Codicilo según el Derecho civil de Baleares (Mallorca y Menorca). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Codicilo según el Derecho civil de Baleares (Mallorca y Menorca)

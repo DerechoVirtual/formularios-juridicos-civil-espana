@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-sentencia-dictada-juicio-desahucio-civ-1496
-description: "Solicitud de ejecución de la sentencia dictada en un juicio de desahucio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución de la sentencia dictada en un juicio de desahucio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución de la sentencia dictada en un juicio de desahucio

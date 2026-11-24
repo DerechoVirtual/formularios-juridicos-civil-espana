@@ -1,6 +1,6 @@
 ---
 name: escrito-perito-parte-defiende-profesionalidad-frente-civ-1118
-description: "Escrito del perito de parte que defiende su profesionalidad frente a una tacha. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del perito de parte que defiende su profesionalidad frente a una tacha. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del perito de parte que defiende su profesionalidad frente a una tacha

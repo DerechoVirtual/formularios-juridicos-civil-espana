@@ -1,6 +1,6 @@
 ---
 name: personacion-ante-supremo-oposicion-admitir-casacion-civ-1298
-description: "Personación ante el Supremo y oposición a admitir la casación (previo al RDL 5 de 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación ante el Supremo y oposición a admitir la casación (previo al RDL 5 de 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación ante el Supremo y oposición a admitir la casación (previo al RDL 5 de 2023)

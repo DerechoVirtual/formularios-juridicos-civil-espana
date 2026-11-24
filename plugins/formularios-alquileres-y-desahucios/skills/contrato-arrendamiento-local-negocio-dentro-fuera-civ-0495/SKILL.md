@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-local-negocio-dentro-fuera-civ-0495
-description: "Contrato de arrendamiento de local de negocio, dentro o fuera de centro comercial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de local de negocio, dentro o fuera de centro comercial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de local de negocio, dentro o fuera de centro comercial

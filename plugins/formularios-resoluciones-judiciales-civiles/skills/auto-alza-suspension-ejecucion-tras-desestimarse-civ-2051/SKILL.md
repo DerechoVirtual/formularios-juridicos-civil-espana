@@ -1,6 +1,6 @@
 ---
 name: auto-alza-suspension-ejecucion-tras-desestimarse-civ-2051
-description: "Auto que alza la suspensión de la ejecución tras desestimarse la revisión o rescisión de sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que alza la suspensión de la ejecución tras desestimarse la revisión o rescisión de sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que alza la suspensión de la ejecución tras desestimarse la revisión o rescisión de sentencia

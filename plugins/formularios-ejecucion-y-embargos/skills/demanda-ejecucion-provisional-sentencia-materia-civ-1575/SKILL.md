@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecucion-provisional-sentencia-materia-civ-1575
-description: "Demanda de ejecución provisional de sentencia en materia de arrendamientos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de ejecución provisional de sentencia en materia de arrendamientos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de ejecución provisional de sentencia en materia de arrendamientos

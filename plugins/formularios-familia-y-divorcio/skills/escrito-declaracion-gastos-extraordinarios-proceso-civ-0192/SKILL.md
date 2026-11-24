@@ -1,6 +1,6 @@
 ---
 name: escrito-declaracion-gastos-extraordinarios-proceso-civ-0192
-description: "Escrito de declaración de gastos extraordinarios en un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de declaración de gastos extraordinarios en un proceso matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de declaración de gastos extraordinarios en un proceso matrimonial

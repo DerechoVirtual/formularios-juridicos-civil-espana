@@ -1,6 +1,6 @@
 ---
 name: medidas-provisionales-previas-separacion-hijo-mayor-civ-0304
-description: "Medidas provisionales previas a la separación con hijo mayor conviviente sin independencia económica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Medidas provisionales previas a la separación con hijo mayor conviviente sin independencia económica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Medidas provisionales previas a la separación con hijo mayor conviviente sin independencia económica

@@ -1,6 +1,6 @@
 ---
 name: oposicion-ocupante-inmueble-subastado-lanzamiento-civ-1552
-description: "Oposición del ocupante del inmueble subastado al lanzamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del ocupante del inmueble subastado al lanzamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del ocupante del inmueble subastado al lanzamiento

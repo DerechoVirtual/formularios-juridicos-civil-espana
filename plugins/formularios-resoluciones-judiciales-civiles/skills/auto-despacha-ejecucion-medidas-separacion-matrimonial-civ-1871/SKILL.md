@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-medidas-separacion-matrimonial-civ-1871
-description: "Auto que despacha ejecución de las medidas de separación matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución de las medidas de separación matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución de las medidas de separación matrimonial

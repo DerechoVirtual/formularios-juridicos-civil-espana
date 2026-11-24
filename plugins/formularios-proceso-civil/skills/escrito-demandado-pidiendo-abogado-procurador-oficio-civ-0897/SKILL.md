@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-pidiendo-abogado-procurador-oficio-civ-0897
-description: "Escrito del demandado pidiendo abogado y procurador de oficio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado pidiendo abogado y procurador de oficio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado pidiendo abogado y procurador de oficio

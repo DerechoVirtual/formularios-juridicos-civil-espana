@@ -1,6 +1,6 @@
 ---
 name: adhesion-recusacion-laj-propuesta-parte-contraria-civ-1050
-description: "Adhesión a la recusación del LAJ propuesta por la parte contraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Adhesión a la recusación del LAJ propuesta por la parte contraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Adhesión a la recusación del LAJ propuesta por la parte contraria

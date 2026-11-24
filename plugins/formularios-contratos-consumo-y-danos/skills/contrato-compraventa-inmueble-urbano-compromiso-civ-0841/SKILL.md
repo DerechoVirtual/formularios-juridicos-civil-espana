@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-inmueble-urbano-compromiso-civ-0841
-description: "Contrato de compraventa de inmueble urbano con compromiso de elevarlo a escritura pública. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de inmueble urbano con compromiso de elevarlo a escritura pública. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de inmueble urbano con compromiso de elevarlo a escritura pública

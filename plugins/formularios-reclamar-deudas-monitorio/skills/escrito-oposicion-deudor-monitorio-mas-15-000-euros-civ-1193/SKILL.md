@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-deudor-monitorio-mas-15-000-euros-civ-1193
-description: "Escrito de oposición del deudor en monitorio de más de 15.000 euros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición del deudor en monitorio de más de 15.000 euros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición del deudor en monitorio de más de 15.000 euros

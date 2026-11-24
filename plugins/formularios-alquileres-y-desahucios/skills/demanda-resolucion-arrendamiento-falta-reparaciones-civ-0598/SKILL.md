@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-falta-reparaciones-civ-0598
-description: "Demanda de resolución de arrendamiento por falta de reparaciones del arrendador (vivienda, LAU 1994). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de arrendamiento por falta de reparaciones del arrendador (vivienda, LAU 1994). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de arrendamiento por falta de reparaciones del arrendador (vivienda, LAU 1994)

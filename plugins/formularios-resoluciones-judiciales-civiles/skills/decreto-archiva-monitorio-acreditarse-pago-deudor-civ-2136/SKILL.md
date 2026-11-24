@@ -1,6 +1,6 @@
 ---
 name: decreto-archiva-monitorio-acreditarse-pago-deudor-civ-2136
-description: "Decreto que archiva el monitorio por acreditarse el pago del deudor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que archiva el monitorio por acreditarse el pago del deudor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que archiva el monitorio por acreditarse el pago del deudor

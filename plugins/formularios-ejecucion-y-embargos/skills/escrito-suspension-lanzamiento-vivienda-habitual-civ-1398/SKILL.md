@@ -1,6 +1,6 @@
 ---
 name: escrito-suspension-lanzamiento-vivienda-habitual-civ-1398
-description: "Escrito de suspensión del lanzamiento de vivienda habitual de colectivos especialmente vulnerables. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de suspensión del lanzamiento de vivienda habitual de colectivos especialmente vulnerables. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de suspensión del lanzamiento de vivienda habitual de colectivos especialmente vulnerables

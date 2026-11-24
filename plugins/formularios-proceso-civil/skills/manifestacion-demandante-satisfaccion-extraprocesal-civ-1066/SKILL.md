@@ -1,6 +1,6 @@
 ---
 name: manifestacion-demandante-satisfaccion-extraprocesal-civ-1066
-description: "Manifestación del demandante de satisfacción extraprocesal del derecho de reparación civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Manifestación del demandante de satisfacción extraprocesal del derecho de reparación civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Manifestación del demandante de satisfacción extraprocesal del derecho de reparación civil

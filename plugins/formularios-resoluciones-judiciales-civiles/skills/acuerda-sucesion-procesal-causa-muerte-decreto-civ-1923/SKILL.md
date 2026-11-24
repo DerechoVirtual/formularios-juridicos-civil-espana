@@ -1,6 +1,6 @@
 ---
 name: acuerda-sucesion-procesal-causa-muerte-decreto-civ-1923
-description: "Acuerda la sucesión procesal por causa de muerte (decreto). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerda la sucesión procesal por causa de muerte (decreto). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerda la sucesión procesal por causa de muerte (decreto)

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-acumular-ejecuciones-monitorios-entre-civ-1682
-description: "Escrito pidiendo acumular ejecuciones de monitorios entre las mismas partes ante el mismo tribunal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo acumular ejecuciones de monitorios entre las mismas partes ante el mismo tribunal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo acumular ejecuciones de monitorios entre las mismas partes ante el mismo tribunal

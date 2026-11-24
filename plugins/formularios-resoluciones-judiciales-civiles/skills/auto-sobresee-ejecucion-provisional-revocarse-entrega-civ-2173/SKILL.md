@@ -1,6 +1,6 @@
 ---
 name: auto-sobresee-ejecucion-provisional-revocarse-entrega-civ-2173
-description: "Auto que sobresee la ejecución provisional al revocarse la entrega de un bien determinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que sobresee la ejecución provisional al revocarse la entrega de un bien determinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que sobresee la ejecución provisional al revocarse la entrega de un bien determinado

@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-filiacion-paterna-civ-0265
-description: "Demanda de impugnación de la filiación paterna. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de la filiación paterna. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de la filiación paterna

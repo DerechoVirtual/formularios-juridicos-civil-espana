@@ -1,6 +1,6 @@
 ---
 name: auto-suspende-ejecucion-laudo-arbitral-previa-civ-1878
-description: "Auto que suspende la ejecución del laudo arbitral previa prestación de caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que suspende la ejecución del laudo arbitral previa prestación de caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que suspende la ejecución del laudo arbitral previa prestación de caución

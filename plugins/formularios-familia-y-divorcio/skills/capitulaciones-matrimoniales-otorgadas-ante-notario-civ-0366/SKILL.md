@@ -1,6 +1,6 @@
 ---
 name: capitulaciones-matrimoniales-otorgadas-ante-notario-civ-0366
-description: "Capitulaciones matrimoniales otorgadas ante notario antes del matrimonio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Capitulaciones matrimoniales otorgadas ante notario antes del matrimonio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Capitulaciones matrimoniales otorgadas ante notario antes del matrimonio

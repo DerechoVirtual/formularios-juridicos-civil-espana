@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-alimentos-vivienda-hijo-civ-0046
-description: "Demanda de divorcio contencioso con alimentos y vivienda para hijo mayor sin ingresos conviviente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso con alimentos y vivienda para hijo mayor sin ingresos conviviente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso con alimentos y vivienda para hijo mayor sin ingresos conviviente

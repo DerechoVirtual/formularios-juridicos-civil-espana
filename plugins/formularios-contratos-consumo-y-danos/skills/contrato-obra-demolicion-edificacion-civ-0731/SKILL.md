@@ -1,6 +1,6 @@
 ---
 name: contrato-obra-demolicion-edificacion-civ-0731
-description: "Contrato de obra para la demolición de una edificación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de obra para la demolición de una edificación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de obra para la demolición de una edificación

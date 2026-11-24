@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-equidad-propiedad-horizontal-nombrar-civ-0648
-description: "Demanda de juicio de equidad en propiedad horizontal para nombrar presidente de la comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio de equidad en propiedad horizontal para nombrar presidente de la comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio de equidad en propiedad horizontal para nombrar presidente de la comunidad

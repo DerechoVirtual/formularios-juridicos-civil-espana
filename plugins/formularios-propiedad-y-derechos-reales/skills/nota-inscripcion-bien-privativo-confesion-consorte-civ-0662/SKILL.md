@@ -1,6 +1,6 @@
 ---
 name: nota-inscripcion-bien-privativo-confesion-consorte-civ-0662
-description: "Nota de inscripción de bien privativo por confesión del consorte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Nota de inscripción de bien privativo por confesión del consorte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Nota de inscripción de bien privativo por confesión del consorte

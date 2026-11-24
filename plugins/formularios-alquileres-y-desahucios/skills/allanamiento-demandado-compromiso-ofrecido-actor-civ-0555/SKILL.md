@@ -1,6 +1,6 @@
 ---
 name: allanamiento-demandado-compromiso-ofrecido-actor-civ-0555
-description: "Allanamiento del demandado al compromiso ofrecido por el actor en desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Allanamiento del demandado al compromiso ofrecido por el actor en desahucio por falta de pago. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Allanamiento del demandado al compromiso ofrecido por el actor en desahucio por falta de pago

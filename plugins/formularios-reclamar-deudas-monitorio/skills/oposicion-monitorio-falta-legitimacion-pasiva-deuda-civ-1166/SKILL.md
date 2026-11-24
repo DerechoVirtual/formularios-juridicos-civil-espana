@@ -1,6 +1,6 @@
 ---
 name: oposicion-monitorio-falta-legitimacion-pasiva-deuda-civ-1166
-description: "Oposición al monitorio por falta de legitimación pasiva en una deuda de suministro eléctrico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al monitorio por falta de legitimación pasiva en una deuda de suministro eléctrico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al monitorio por falta de legitimación pasiva en una deuda de suministro eléctrico

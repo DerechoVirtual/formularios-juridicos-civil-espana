@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-generico-contra-resolucion-dictada-civ-1555
-description: "Recurso de reposición genérico contra resolución dictada en la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición genérico contra resolución dictada en la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición genérico contra resolución dictada en la ejecución

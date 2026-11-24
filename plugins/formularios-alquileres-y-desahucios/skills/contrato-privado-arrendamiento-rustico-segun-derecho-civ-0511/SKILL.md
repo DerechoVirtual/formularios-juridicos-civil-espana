@@ -1,6 +1,6 @@
 ---
 name: contrato-privado-arrendamiento-rustico-segun-derecho-civ-0511
-description: "Contrato privado de arrendamiento rústico según el Derecho civil catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato privado de arrendamiento rústico según el Derecho civil catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato privado de arrendamiento rústico según el Derecho civil catalán

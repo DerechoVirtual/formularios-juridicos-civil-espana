@@ -1,6 +1,6 @@
 ---
 name: comunicacion-repudiacion-herencia-parientes-demandado-civ-1024
-description: "Comunicación de repudiación de herencia por parientes del demandado contra la sucesión procesal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación de repudiación de herencia por parientes del demandado contra la sucesión procesal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación de repudiación de herencia por parientes del demandado contra la sucesión procesal

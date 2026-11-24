@@ -1,6 +1,6 @@
 ---
 name: comunicacion-inquilino-actualizacion-renta-finca-urbana-civ-0593
-description: "Comunicación al inquilino de la actualización de la renta de finca urbana. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al inquilino de la actualización de la renta de finca urbana. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al inquilino de la actualización de la renta de finca urbana

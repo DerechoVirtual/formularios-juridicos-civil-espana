@@ -1,6 +1,6 @@
 ---
 name: impugnacion-oposicion-ejecutante-ofreciendo-caucion-civ-1573
-description: "Impugnación de la oposición por el ejecutante ofreciendo caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la oposición por el ejecutante ofreciendo caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la oposición por el ejecutante ofreciendo caución

@@ -1,6 +1,6 @@
 ---
 name: instancia-registro-propiedad-diligenciar-libro-actas-civ-0643
-description: "Instancia al Registro de la Propiedad para diligenciar el libro de actas de la comunidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Instancia al Registro de la Propiedad para diligenciar el libro de actas de la comunidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Instancia al Registro de la Propiedad para diligenciar el libro de actas de la comunidad

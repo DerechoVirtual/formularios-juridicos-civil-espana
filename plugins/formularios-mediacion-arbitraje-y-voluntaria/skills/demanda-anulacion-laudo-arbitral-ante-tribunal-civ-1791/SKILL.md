@@ -1,6 +1,6 @@
 ---
 name: demanda-anulacion-laudo-arbitral-ante-tribunal-civ-1791
-description: "Demanda de anulación de laudo arbitral ante el Tribunal Superior de Justicia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de anulación de laudo arbitral ante el Tribunal Superior de Justicia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de anulación de laudo arbitral ante el Tribunal Superior de Justicia

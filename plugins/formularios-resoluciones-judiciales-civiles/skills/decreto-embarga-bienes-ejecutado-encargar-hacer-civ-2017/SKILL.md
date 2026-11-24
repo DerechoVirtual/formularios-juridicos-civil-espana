@@ -1,6 +1,6 @@
 ---
 name: decreto-embarga-bienes-ejecutado-encargar-hacer-civ-2017
-description: "Decreto que embarga bienes del ejecutado para encargar el hacer a un tercero a su costa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que embarga bienes del ejecutado para encargar el hacer a un tercero a su costa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que embarga bienes del ejecutado para encargar el hacer a un tercero a su costa

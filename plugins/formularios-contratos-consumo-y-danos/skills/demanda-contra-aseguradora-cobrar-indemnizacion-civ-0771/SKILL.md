@@ -1,6 +1,6 @@
 ---
 name: demanda-contra-aseguradora-cobrar-indemnizacion-civ-0771
-description: "Demanda contra la aseguradora para cobrar la indemnización de un siniestro de responsabilidad civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contra la aseguradora para cobrar la indemnización de un siniestro de responsabilidad civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contra la aseguradora para cobrar la indemnización de un siniestro de responsabilidad civil

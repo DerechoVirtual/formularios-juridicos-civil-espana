@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-terminar-proceso-satisfaccion-civ-1069
-description: "Solicitud del demandado de terminar el proceso por satisfacción extraprocesal de las pretensiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de terminar el proceso por satisfacción extraprocesal de las pretensiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de terminar el proceso por satisfacción extraprocesal de las pretensiones

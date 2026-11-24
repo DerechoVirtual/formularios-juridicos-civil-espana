@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-titulo-obliga-no-hacer-art-civ-1661
-description: "Demanda ejecutiva basada en título que obliga a no hacer (art. 711 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en título que obliga a no hacer (art. 711 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en título que obliga a no hacer (art. 711 LEC)

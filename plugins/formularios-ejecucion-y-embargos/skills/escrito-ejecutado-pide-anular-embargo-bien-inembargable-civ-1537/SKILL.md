@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pide-anular-embargo-bien-inembargable-civ-1537
-description: "Escrito del ejecutado que pide anular el embargo de un bien inembargable. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que pide anular el embargo de un bien inembargable. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que pide anular el embargo de un bien inembargable

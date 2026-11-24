@@ -1,6 +1,6 @@
 ---
 name: certificado-falta-limitacion-ejecutoriedad-titulo-civ-1601
-description: "Certificado de falta o limitación de ejecutoriedad del título ejecutivo europeo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificado de falta o limitación de ejecutoriedad del título ejecutivo europeo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificado de falta o limitación de ejecutoriedad del título ejecutivo europeo

@@ -1,6 +1,6 @@
 ---
 name: reclamacion-aerolinea-cambio-clase-pasajero-vuelo-civ-0717
-description: "Reclamación a la aerolínea por cambio de clase del pasajero en el vuelo contratado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación a la aerolínea por cambio de clase del pasajero en el vuelo contratado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación a la aerolínea por cambio de clase del pasajero en el vuelo contratado

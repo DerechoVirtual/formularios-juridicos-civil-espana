@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acuerda-pagar-ejecutante-civ-1870
-description: "Diligencia de ordenación que acuerda pagar al ejecutante las cantidades retenidas al ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acuerda pagar al ejecutante las cantidades retenidas al ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acuerda pagar al ejecutante las cantidades retenidas al ejecutado

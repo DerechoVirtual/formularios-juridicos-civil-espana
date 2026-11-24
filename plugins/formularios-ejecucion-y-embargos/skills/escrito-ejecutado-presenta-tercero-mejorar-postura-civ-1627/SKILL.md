@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-presenta-tercero-mejorar-postura-civ-1627
-description: "Escrito del ejecutado que presenta a un tercero para mejorar la postura de la subasta ya celebrada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que presenta a un tercero para mejorar la postura de la subasta ya celebrada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que presenta a un tercero para mejorar la postura de la subasta ya celebrada

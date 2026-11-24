@@ -1,6 +1,6 @@
 ---
 name: escrito-subsana-defectos-capacidad-representacion-art-civ-1004
-description: "Escrito que subsana defectos de capacidad o representación (art. 418.1 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que subsana defectos de capacidad o representación (art. 418.1 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que subsana defectos de capacidad o representación (art. 418.1 LEC)

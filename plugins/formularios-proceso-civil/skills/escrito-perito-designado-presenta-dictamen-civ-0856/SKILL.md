@@ -1,6 +1,6 @@
 ---
 name: escrito-perito-designado-presenta-dictamen-civ-0856
-description: "Escrito del perito designado que presenta su dictamen. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del perito designado que presenta su dictamen. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del perito designado que presenta su dictamen

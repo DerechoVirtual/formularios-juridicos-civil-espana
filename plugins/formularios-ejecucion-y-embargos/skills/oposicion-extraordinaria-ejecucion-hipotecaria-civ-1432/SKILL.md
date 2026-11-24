@@ -1,6 +1,6 @@
 ---
 name: oposicion-extraordinaria-ejecucion-hipotecaria-civ-1432
-description: "Oposición extraordinaria a ejecución hipotecaria por abusividad de la cláusula de cantidad exigible. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición extraordinaria a ejecución hipotecaria por abusividad de la cláusula de cantidad exigible. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición extraordinaria a ejecución hipotecaria por abusividad de la cláusula de cantidad exigible

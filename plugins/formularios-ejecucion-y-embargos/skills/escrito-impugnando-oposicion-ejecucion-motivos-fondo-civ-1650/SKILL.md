@@ -1,6 +1,6 @@
 ---
 name: escrito-impugnando-oposicion-ejecucion-motivos-fondo-civ-1650
-description: "Escrito impugnando la oposición a la ejecución por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito impugnando la oposición a la ejecución por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito impugnando la oposición a la ejecución por motivos de fondo

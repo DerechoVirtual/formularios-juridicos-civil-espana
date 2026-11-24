@@ -1,6 +1,6 @@
 ---
 name: alegaciones-ejecutante-sobre-reducir-deuda-hipotecaria-civ-1416
-description: "Alegaciones del ejecutante sobre reducir la deuda hipotecaria por colaboración del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del ejecutante sobre reducir la deuda hipotecaria por colaboración del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del ejecutante sobre reducir la deuda hipotecaria por colaboración del ejecutado

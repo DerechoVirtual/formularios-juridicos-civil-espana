@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-juicio-ordinario-oposicion-civ-0948
-description: "Contestación a la demanda de juicio ordinario con oposición por disconformidad en los hechos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de juicio ordinario con oposición por disconformidad en los hechos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de juicio ordinario con oposición por disconformidad en los hechos

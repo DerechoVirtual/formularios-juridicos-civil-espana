@@ -1,6 +1,6 @@
 ---
 name: auto-estima-terceria-dominio-civ-2012
-description: "Auto que estima la tercería de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la tercería de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la tercería de dominio

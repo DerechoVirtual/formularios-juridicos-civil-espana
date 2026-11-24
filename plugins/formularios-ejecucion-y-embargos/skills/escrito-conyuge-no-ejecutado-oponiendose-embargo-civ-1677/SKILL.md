@@ -1,6 +1,6 @@
 ---
 name: escrito-conyuge-no-ejecutado-oponiendose-embargo-civ-1677
-description: "Escrito del cónyuge no ejecutado oponiéndose al embargo de ganancial por ser privativa la deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del cónyuge no ejecutado oponiéndose al embargo de ganancial por ser privativa la deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del cónyuge no ejecutado oponiéndose al embargo de ganancial por ser privativa la deuda

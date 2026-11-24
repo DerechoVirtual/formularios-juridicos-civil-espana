@@ -1,6 +1,6 @@
 ---
 name: escrito-condenado-opone-actualizacion-pension-impagos-civ-0092
-description: "Escrito del condenado que se opone a la actualización de la pensión y a los impagos reclamados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del condenado que se opone a la actualización de la pensión y a los impagos reclamados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del condenado que se opone a la actualización de la pensión y a los impagos reclamados

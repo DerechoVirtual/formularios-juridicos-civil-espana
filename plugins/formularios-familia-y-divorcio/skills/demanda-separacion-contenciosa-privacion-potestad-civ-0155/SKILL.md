@@ -1,6 +1,6 @@
 ---
 name: demanda-separacion-contenciosa-privacion-potestad-civ-0155
-description: "Demanda de separación contenciosa con privación de la potestad parental (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de separación contenciosa con privación de la potestad parental (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de separación contenciosa con privación de la potestad parental (Derecho catalán)

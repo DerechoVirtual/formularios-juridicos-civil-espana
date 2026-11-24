@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-contesta-requerimiento-indebida-civ-0903
-description: "Escrito del actor que contesta al requerimiento por indebida acumulación de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que contesta al requerimiento por indebida acumulación de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que contesta al requerimiento por indebida acumulación de acciones

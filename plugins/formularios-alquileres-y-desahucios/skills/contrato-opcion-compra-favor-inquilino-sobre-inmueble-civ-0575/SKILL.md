@@ -1,6 +1,6 @@
 ---
 name: contrato-opcion-compra-favor-inquilino-sobre-inmueble-civ-0575
-description: "Contrato de opción de compra a favor del inquilino sobre el inmueble arrendado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de opción de compra a favor del inquilino sobre el inmueble arrendado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de opción de compra a favor del inquilino sobre el inmueble arrendado

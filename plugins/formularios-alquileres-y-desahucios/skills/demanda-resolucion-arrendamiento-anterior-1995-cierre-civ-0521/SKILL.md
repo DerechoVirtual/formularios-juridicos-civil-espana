@@ -1,6 +1,6 @@
 ---
 name: demanda-resolucion-arrendamiento-anterior-1995-cierre-civ-0521
-description: "Demanda de resolución de arrendamiento anterior a 1995 por cierre del local o desocupación sin causa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de resolución de arrendamiento anterior a 1995 por cierre del local o desocupación sin causa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de resolución de arrendamiento anterior a 1995 por cierre del local o desocupación sin causa

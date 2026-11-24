@@ -1,6 +1,6 @@
 ---
 name: contestacion-propiedad-horizontal-reconvencion-civ-0640
-description: "Contestación en propiedad horizontal con reconvención de reclamación de cantidades al propietario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación en propiedad horizontal con reconvención de reclamación de cantidades al propietario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación en propiedad horizontal con reconvención de reclamación de cantidades al propietario

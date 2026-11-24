@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-cambiar-procedimiento-contencioso-uno-civ-1850
-description: "Auto que acuerda cambiar el procedimiento contencioso por uno de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda cambiar el procedimiento contencioso por uno de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda cambiar el procedimiento contencioso por uno de mutuo acuerdo

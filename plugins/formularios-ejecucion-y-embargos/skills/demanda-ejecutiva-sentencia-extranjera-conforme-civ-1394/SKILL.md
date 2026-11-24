@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-sentencia-extranjera-conforme-civ-1394
-description: "Demanda ejecutiva de sentencia extranjera conforme al Reglamento (UE) nº 1215-2012. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de sentencia extranjera conforme al Reglamento (UE) nº 1215-2012. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de sentencia extranjera conforme al Reglamento (UE) nº 1215-2012

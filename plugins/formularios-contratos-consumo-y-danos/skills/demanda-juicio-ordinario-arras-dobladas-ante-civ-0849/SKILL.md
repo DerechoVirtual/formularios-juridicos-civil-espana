@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-arras-dobladas-ante-civ-0849
-description: "Demanda de juicio ordinario por las arras dobladas ante el desistimiento en la venta de un inmueble. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por las arras dobladas ante el desistimiento en la venta de un inmueble. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por las arras dobladas ante el desistimiento en la venta de un inmueble

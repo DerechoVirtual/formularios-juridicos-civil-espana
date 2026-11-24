@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-acepta-propuesta-requerir-pago-cantidad-civ-1165
-description: "Escrito del actor que acepta la propuesta de requerir de pago por una cantidad menor en el monitorio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que acepta la propuesta de requerir de pago por una cantidad menor en el monitorio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que acepta la propuesta de requerir de pago por una cantidad menor en el monitorio

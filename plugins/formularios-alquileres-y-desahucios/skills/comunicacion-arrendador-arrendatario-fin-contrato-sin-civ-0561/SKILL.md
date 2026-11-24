@@ -1,6 +1,6 @@
 ---
 name: comunicacion-arrendador-arrendatario-fin-contrato-sin-civ-0561
-description: "Comunicación del arrendador al arrendatario de fin del contrato sin tácita reconducción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del arrendador al arrendatario de fin del contrato sin tácita reconducción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del arrendador al arrendatario de fin del contrato sin tácita reconducción

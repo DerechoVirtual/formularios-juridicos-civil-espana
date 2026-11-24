@@ -1,6 +1,6 @@
 ---
 name: decreto-embarga-bienes-gananciales-ejecucion-contra-civ-2125
-description: "Decreto que embarga bienes gananciales en ejecución contra un solo cónyuge por deuda consorcial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que embarga bienes gananciales en ejecución contra un solo cónyuge por deuda consorcial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que embarga bienes gananciales en ejecución contra un solo cónyuge por deuda consorcial

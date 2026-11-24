@@ -1,6 +1,6 @@
 ---
 name: escritura-ratificacion-venta-bienes-gananciales-civ-0225
-description: "Escritura de ratificación de la venta de bienes gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de ratificación de la venta de bienes gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de ratificación de la venta de bienes gananciales

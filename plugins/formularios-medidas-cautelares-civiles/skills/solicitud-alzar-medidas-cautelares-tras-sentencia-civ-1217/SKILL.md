@@ -1,6 +1,6 @@
 ---
 name: solicitud-alzar-medidas-cautelares-tras-sentencia-civ-1217
-description: "Solicitud de alzar medidas cautelares tras sentencia absolutoria firme y de indemnización de daños. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de alzar medidas cautelares tras sentencia absolutoria firme y de indemnización de daños. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de alzar medidas cautelares tras sentencia absolutoria firme y de indemnización de daños

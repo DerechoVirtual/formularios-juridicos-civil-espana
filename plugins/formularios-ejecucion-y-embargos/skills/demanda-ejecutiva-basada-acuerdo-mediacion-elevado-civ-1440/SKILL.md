@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-acuerdo-mediacion-elevado-civ-1440
-description: "Demanda ejecutiva basada en un acuerdo de mediación elevado a escritura pública. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en un acuerdo de mediación elevado a escritura pública. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en un acuerdo de mediación elevado a escritura pública

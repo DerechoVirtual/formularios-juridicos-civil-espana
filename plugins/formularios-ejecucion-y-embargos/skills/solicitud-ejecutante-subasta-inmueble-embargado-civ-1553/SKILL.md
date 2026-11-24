@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutante-subasta-inmueble-embargado-civ-1553
-description: "Solicitud del ejecutante de subasta del inmueble embargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutante de subasta del inmueble embargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutante de subasta del inmueble embargado

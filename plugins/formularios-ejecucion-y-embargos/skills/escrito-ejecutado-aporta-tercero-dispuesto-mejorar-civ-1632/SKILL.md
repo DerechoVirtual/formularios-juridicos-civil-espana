@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-aporta-tercero-dispuesto-mejorar-civ-1632
-description: "Escrito del ejecutado que aporta un tercero dispuesto a mejorar la postura. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que aporta un tercero dispuesto a mejorar la postura. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que aporta un tercero dispuesto a mejorar la postura

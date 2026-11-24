@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-notificacion-ruptura-requerimiento-dejar-civ-0081
-description: "Acta notarial de notificación de ruptura y requerimiento para dejar sin efecto la escritura de unión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial de notificación de ruptura y requerimiento para dejar sin efecto la escritura de unión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial de notificación de ruptura y requerimiento para dejar sin efecto la escritura de unión

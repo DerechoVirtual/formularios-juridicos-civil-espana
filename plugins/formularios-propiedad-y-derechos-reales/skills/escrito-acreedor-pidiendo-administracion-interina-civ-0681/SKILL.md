@@ -1,6 +1,6 @@
 ---
 name: escrito-acreedor-pidiendo-administracion-interina-civ-0681
-description: "Escrito del acreedor pidiendo la administración interina de la finca hipotecada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del acreedor pidiendo la administración interina de la finca hipotecada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del acreedor pidiendo la administración interina de la finca hipotecada

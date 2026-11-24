@@ -1,6 +1,6 @@
 ---
 name: escritura-extincion-pareja-hecho-segun-derecho-vasco-civ-0197
-description: "Escritura de extinción de pareja de hecho según el Derecho vasco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de extinción de pareja de hecho según el Derecho vasco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de extinción de pareja de hecho según el Derecho vasco

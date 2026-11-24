@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-modificacion-convenio-regulador-civ-0196
-description: "Demanda contenciosa de modificación del convenio regulador para extinguir la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de modificación del convenio regulador para extinguir la pensión compensatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de modificación del convenio regulador para extinguir la pensión compensatoria

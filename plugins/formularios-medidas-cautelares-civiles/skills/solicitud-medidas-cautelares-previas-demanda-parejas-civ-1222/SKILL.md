@@ -1,6 +1,6 @@
 ---
 name: solicitud-medidas-cautelares-previas-demanda-parejas-civ-1222
-description: "Solicitud de medidas cautelares previas a la demanda en parejas de hecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de medidas cautelares previas a la demanda en parejas de hecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de medidas cautelares previas a la demanda en parejas de hecho

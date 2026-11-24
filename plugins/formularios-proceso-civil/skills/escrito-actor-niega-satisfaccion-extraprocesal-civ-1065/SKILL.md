@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-niega-satisfaccion-extraprocesal-civ-1065
-description: "Escrito del actor que niega la satisfacción extraprocesal de sus pretensiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que niega la satisfacción extraprocesal de sus pretensiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que niega la satisfacción extraprocesal de sus pretensiones

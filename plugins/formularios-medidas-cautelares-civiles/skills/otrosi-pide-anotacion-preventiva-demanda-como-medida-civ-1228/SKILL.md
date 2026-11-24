@@ -1,6 +1,6 @@
 ---
 name: otrosi-pide-anotacion-preventiva-demanda-como-medida-civ-1228
-description: "Otrosí que pide la anotación preventiva de la demanda como medida cautelar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que pide la anotación preventiva de la demanda como medida cautelar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que pide la anotación preventiva de la demanda como medida cautelar

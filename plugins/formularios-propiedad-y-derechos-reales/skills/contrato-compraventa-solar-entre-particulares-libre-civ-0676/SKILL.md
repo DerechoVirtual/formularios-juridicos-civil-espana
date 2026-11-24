@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-solar-entre-particulares-libre-civ-0676
-description: "Contrato de compraventa de solar entre particulares, libre o con cargas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de solar entre particulares, libre o con cargas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de solar entre particulares, libre o con cargas

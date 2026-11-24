@@ -1,6 +1,6 @@
 ---
 name: solicitud-embargo-preventivo-como-medida-cautelar-civ-1251
-description: "Solicitud de embargo preventivo como medida cautelar en un procedimiento arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de embargo preventivo como medida cautelar en un procedimiento arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de embargo preventivo como medida cautelar en un procedimiento arbitral

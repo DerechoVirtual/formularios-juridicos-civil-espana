@@ -1,6 +1,6 @@
 ---
 name: notificacion-menor-emancipado-poner-fin-arrendamiento-civ-0525
-description: "Notificación del menor emancipado para poner fin al arrendamiento rústico concertado por sus padres. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación del menor emancipado para poner fin al arrendamiento rústico concertado por sus padres. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación del menor emancipado para poner fin al arrendamiento rústico concertado por sus padres

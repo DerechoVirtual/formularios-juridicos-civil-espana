@@ -1,6 +1,6 @@
 ---
 name: decreto-alza-embargo-bienes-subastados-sin-exito-civ-2056
-description: "Decreto que alza el embargo de bienes subastados sin éxito al transcurrir el plazo del acreedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que alza el embargo de bienes subastados sin éxito al transcurrir el plazo del acreedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que alza el embargo de bienes subastados sin éxito al transcurrir el plazo del acreedor

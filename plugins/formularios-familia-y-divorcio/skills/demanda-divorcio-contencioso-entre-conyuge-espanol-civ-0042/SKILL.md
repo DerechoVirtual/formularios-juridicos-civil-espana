@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-entre-conyuge-espanol-civ-0042
-description: "Demanda de divorcio contencioso entre cónyuge español en España y cónyuge extracomunitario fuera. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso entre cónyuge español en España y cónyuge extracomunitario fuera. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso entre cónyuge español en España y cónyuge extracomunitario fuera

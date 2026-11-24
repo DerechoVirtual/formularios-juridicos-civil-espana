@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-ejecucion-provisional-no-ser-sentencia-civ-2113
-description: "Auto que deniega la ejecución provisional por no ser la sentencia provisionalmente ejecutable. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega la ejecución provisional por no ser la sentencia provisionalmente ejecutable. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega la ejecución provisional por no ser la sentencia provisionalmente ejecutable

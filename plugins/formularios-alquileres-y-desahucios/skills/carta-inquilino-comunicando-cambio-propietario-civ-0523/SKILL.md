@@ -1,6 +1,6 @@
 ---
 name: carta-inquilino-comunicando-cambio-propietario-civ-0523
-description: "Carta al inquilino comunicando el cambio de propietario de la vivienda alquilada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta al inquilino comunicando el cambio de propietario de la vivienda alquilada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta al inquilino comunicando el cambio de propietario de la vivienda alquilada

@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-canonica-grave-defecto-discrecion-civ-0038
-description: "Demanda de nulidad canónica por grave defecto de discreción de juicio y prórroga de competencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad canónica por grave defecto de discreción de juicio y prórroga de competencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad canónica por grave defecto de discreción de juicio y prórroga de competencia

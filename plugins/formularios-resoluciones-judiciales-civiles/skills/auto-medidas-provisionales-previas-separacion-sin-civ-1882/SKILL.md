@@ -1,6 +1,6 @@
 ---
 name: auto-medidas-provisionales-previas-separacion-sin-civ-1882
-description: "Auto de medidas provisionales previas a la separación sin hijos y sin acuerdo entre las partes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de medidas provisionales previas a la separación sin hijos y sin acuerdo entre las partes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de medidas provisionales previas a la separación sin hijos y sin acuerdo entre las partes

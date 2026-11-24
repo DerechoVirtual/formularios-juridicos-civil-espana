@@ -1,6 +1,6 @@
 ---
 name: demanda-anadir-bienes-liquidacion-previa-sociedad-civ-0194
-description: "Demanda para añadir bienes a una liquidación previa de la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para añadir bienes a una liquidación previa de la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para añadir bienes a una liquidación previa de la sociedad de gananciales

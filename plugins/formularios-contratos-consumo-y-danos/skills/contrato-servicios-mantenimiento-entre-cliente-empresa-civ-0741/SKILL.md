@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-mantenimiento-entre-cliente-empresa-civ-0741
-description: "Contrato de servicios de mantenimiento entre un cliente y una empresa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de mantenimiento entre un cliente y una empresa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de mantenimiento entre un cliente y una empresa

@@ -1,6 +1,6 @@
 ---
 name: desistimiento-recurso-apelacion-alegaciones-sobre-civ-1352
-description: "Desistimiento del recurso de apelación con alegaciones sobre costas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del recurso de apelación con alegaciones sobre costas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del recurso de apelación con alegaciones sobre costas

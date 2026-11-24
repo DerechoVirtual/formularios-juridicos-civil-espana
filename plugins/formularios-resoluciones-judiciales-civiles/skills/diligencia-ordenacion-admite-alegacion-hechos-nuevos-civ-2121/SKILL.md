@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-admite-alegacion-hechos-nuevos-civ-2121
-description: "Diligencia de ordenación que admite la alegación de hechos nuevos y da traslado a la contraparte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que admite la alegación de hechos nuevos y da traslado a la contraparte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que admite la alegación de hechos nuevos y da traslado a la contraparte

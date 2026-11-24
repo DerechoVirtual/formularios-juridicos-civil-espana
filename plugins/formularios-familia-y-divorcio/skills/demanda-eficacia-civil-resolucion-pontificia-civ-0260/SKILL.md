@@ -1,6 +1,6 @@
 ---
 name: demanda-eficacia-civil-resolucion-pontificia-civ-0260
-description: "Demanda de eficacia civil de resolución pontificia de matrimonio rato y no consumado con medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de eficacia civil de resolución pontificia de matrimonio rato y no consumado con medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de eficacia civil de resolución pontificia de matrimonio rato y no consumado con medidas

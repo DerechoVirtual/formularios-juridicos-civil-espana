@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandante-mantener-embargos-preventivos-civ-1229
-description: "Solicitud del demandante de mantener los embargos preventivos tras sentencia estimatoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandante de mantener los embargos preventivos tras sentencia estimatoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandante de mantener los embargos preventivos tras sentencia estimatoria

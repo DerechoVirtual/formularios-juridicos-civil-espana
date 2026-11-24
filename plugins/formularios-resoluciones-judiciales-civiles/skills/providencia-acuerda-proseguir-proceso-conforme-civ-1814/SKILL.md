@@ -1,6 +1,6 @@
 ---
 name: providencia-acuerda-proseguir-proceso-conforme-civ-1814
-description: "Providencia que acuerda proseguir el proceso conforme al artículo 15 del Convenio de La Haya de 1965. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que acuerda proseguir el proceso conforme al artículo 15 del Convenio de La Haya de 1965. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que acuerda proseguir el proceso conforme al artículo 15 del Convenio de La Haya de 1965

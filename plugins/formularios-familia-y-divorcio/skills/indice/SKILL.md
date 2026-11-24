@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 372 formularios de Familia: divorcio, custodia, pensiones y parejas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 372 formularios de Familia: divorcio, custodia, pensiones y parejas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Familia: divorcio, custodia, pensiones y parejas: índice de formularios

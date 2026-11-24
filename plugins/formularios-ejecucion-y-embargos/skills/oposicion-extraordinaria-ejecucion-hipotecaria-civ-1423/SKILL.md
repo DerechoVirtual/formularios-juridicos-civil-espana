@@ -1,6 +1,6 @@
 ---
 name: oposicion-extraordinaria-ejecucion-hipotecaria-civ-1423
-description: "Oposición extraordinaria a la ejecución hipotecaria por abusividad de la cláusula que la fundamenta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición extraordinaria a la ejecución hipotecaria por abusividad de la cláusula que la fundamenta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición extraordinaria a la ejecución hipotecaria por abusividad de la cláusula que la fundamenta

@@ -1,6 +1,6 @@
 ---
 name: auto-apremia-multas-ejecutado-tras-declarar-civ-1972
-description: "Auto que apremia con multas al ejecutado tras declarar personalísimo el hacer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que apremia con multas al ejecutado tras declarar personalísimo el hacer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que apremia con multas al ejecutado tras declarar personalísimo el hacer

@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-remate-postura-inferior-40-100-valor-civ-2062
-description: "Decreto que aprueba el remate por postura inferior al 40 por 100 del valor de tasación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el remate por postura inferior al 40 por 100 del valor de tasación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el remate por postura inferior al 40 por 100 del valor de tasación

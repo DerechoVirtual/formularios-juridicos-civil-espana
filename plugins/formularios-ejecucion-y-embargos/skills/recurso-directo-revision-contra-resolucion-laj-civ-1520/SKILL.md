@@ -1,6 +1,6 @@
 ---
 name: recurso-directo-revision-contra-resolucion-laj-civ-1520
-description: "Recurso directo de revisión contra la resolución del LAJ contraria al título ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso directo de revisión contra la resolución del LAJ contraria al título ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso directo de revisión contra la resolución del LAJ contraria al título ejecutivo

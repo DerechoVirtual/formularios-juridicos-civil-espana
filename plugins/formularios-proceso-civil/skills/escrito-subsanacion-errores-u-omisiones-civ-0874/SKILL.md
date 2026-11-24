@@ -1,6 +1,6 @@
 ---
 name: escrito-subsanacion-errores-u-omisiones-civ-0874
-description: "Escrito de subsanación de errores u omisiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de subsanación de errores u omisiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de subsanación de errores u omisiones

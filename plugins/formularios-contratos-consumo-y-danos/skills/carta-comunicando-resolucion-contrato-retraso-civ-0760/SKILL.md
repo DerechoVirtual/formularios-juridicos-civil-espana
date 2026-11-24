@@ -1,6 +1,6 @@
 ---
 name: carta-comunicando-resolucion-contrato-retraso-civ-0760
-description: "Carta comunicando la resolución del contrato por retraso en la construcción de las viviendas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta comunicando la resolución del contrato por retraso en la construcción de las viviendas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta comunicando la resolución del contrato por retraso en la construcción de las viviendas

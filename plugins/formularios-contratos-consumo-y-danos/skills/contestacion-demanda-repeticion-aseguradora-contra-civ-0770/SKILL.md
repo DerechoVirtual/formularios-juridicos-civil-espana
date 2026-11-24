@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-repeticion-aseguradora-contra-civ-0770
-description: "Contestación a la demanda de repetición de la aseguradora contra el asegurado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de repetición de la aseguradora contra el asegurado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de repetición de la aseguradora contra el asegurado

@@ -1,6 +1,6 @@
 ---
 name: clausula-excluye-subrogacion-fallecimiento-civ-0528
-description: "Cláusula que excluye la subrogación por fallecimiento del arrendatario en el alquiler de vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula que excluye la subrogación por fallecimiento del arrendatario en el alquiler de vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula que excluye la subrogación por fallecimiento del arrendatario en el alquiler de vivienda

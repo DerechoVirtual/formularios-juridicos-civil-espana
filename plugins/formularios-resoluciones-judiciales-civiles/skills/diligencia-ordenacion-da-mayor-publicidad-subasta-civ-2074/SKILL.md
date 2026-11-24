@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-mayor-publicidad-subasta-civ-2074
-description: "Diligencia de ordenación que da mayor publicidad a la subasta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da mayor publicidad a la subasta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da mayor publicidad a la subasta

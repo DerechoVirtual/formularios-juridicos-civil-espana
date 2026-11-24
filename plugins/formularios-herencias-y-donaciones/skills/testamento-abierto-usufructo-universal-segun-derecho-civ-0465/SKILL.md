@@ -1,6 +1,6 @@
 ---
 name: testamento-abierto-usufructo-universal-segun-derecho-civ-0465
-description: "Testamento abierto con usufructo universal según el Derecho de Baleares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento abierto con usufructo universal según el Derecho de Baleares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento abierto con usufructo universal según el Derecho de Baleares

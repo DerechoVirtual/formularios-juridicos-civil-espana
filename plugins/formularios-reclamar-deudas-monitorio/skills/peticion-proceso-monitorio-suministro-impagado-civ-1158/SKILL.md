@@ -1,6 +1,6 @@
 ---
 name: peticion-proceso-monitorio-suministro-impagado-civ-1158
-description: "Petición de proceso monitorio por suministro impagado de productos de carnicería y embutidos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición de proceso monitorio por suministro impagado de productos de carnicería y embutidos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición de proceso monitorio por suministro impagado de productos de carnicería y embutidos

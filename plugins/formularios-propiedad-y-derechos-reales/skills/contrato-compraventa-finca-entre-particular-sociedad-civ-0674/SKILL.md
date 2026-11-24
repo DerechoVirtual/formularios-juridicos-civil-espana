@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-finca-entre-particular-sociedad-civ-0674
-description: "Contrato de compraventa de finca entre particular y sociedad con constitución de hipoteca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de finca entre particular y sociedad con constitución de hipoteca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de finca entre particular y sociedad con constitución de hipoteca

@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-bien-mueble-embargado-descuento-civ-0836
-description: "Contrato de compraventa de bien mueble embargado con descuento de la deuda del precio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de bien mueble embargado con descuento de la deuda del precio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de bien mueble embargado con descuento de la deuda del precio

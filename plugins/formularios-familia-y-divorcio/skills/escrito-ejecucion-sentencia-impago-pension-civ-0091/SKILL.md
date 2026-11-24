@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecucion-sentencia-impago-pension-civ-0091
-description: "Escrito de ejecución de sentencia por impago de pensión y su actualización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de ejecución de sentencia por impago de pensión y su actualización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de ejecución de sentencia por impago de pensión y su actualización

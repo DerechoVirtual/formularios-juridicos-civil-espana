@@ -1,6 +1,6 @@
 ---
 name: demanda-sucesoria-conflicto-aplicacion-derechos-civ-0467
-description: "Demanda sucesoria con conflicto de aplicación de derechos civiles forales o especiales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda sucesoria con conflicto de aplicación de derechos civiles forales o especiales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda sucesoria con conflicto de aplicación de derechos civiles forales o especiales

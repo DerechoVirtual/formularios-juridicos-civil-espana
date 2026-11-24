@@ -1,6 +1,6 @@
 ---
 name: demanda-suspension-temporal-pago-pension-alimenticia-civ-0149
-description: "Demanda de suspensión temporal del pago de la pensión alimenticia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de suspensión temporal del pago de la pensión alimenticia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de suspensión temporal del pago de la pensión alimenticia

@@ -1,6 +1,6 @@
 ---
 name: demanda-completar-adicionar-particion-herencia-civ-0409
-description: "Demanda para completar o adicionar la partición de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para completar o adicionar la partición de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para completar o adicionar la partición de la herencia

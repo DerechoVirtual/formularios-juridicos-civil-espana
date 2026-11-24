@@ -1,6 +1,6 @@
 ---
 name: comunicacion-consumidor-acepta-modificacion-contrato-civ-0712
-description: "Comunicación del consumidor que acepta la modificación del contrato de viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del consumidor que acepta la modificación del contrato de viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del consumidor que acepta la modificación del contrato de viaje combinado

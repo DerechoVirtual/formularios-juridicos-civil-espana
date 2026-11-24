@@ -1,6 +1,6 @@
 ---
 name: contestacion-incidente-nulidad-actuaciones-planteado-civ-1326
-description: "Contestación al incidente de nulidad de actuaciones planteado por la parte contraria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación al incidente de nulidad de actuaciones planteado por la parte contraria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación al incidente de nulidad de actuaciones planteado por la parte contraria

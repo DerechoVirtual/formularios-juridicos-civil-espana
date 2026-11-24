@@ -1,6 +1,6 @@
 ---
 name: solicitud-ex-parte-declinatoria-sumision-tribunales-civ-0880
-description: "Solicitud ex parte de declinatoria por sumisión a tribunales extranjeros (DIPr autónomo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud ex parte de declinatoria por sumisión a tribunales extranjeros (DIPr autónomo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud ex parte de declinatoria por sumisión a tribunales extranjeros (DIPr autónomo)

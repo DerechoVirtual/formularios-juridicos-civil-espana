@@ -1,6 +1,6 @@
 ---
 name: demanda-presunto-padre-reclamacion-filiacion-no-civ-0122
-description: "Demanda del presunto padre de reclamación de filiación no matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del presunto padre de reclamación de filiación no matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del presunto padre de reclamación de filiación no matrimonial

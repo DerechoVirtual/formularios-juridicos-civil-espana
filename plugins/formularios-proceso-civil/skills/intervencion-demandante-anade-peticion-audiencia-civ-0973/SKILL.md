@@ -1,6 +1,6 @@
 ---
 name: intervencion-demandante-anade-peticion-audiencia-civ-0973
-description: "Intervención del demandante que añade una petición en la audiencia previa, con oposición y protesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervención del demandante que añade una petición en la audiencia previa, con oposición y protesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervención del demandante que añade una petición en la audiencia previa, con oposición y protesta

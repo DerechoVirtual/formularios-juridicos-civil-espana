@@ -1,6 +1,6 @@
 ---
 name: escritura-emancipacion-concesion-quienes-ejercen-civ-0227
-description: "Escritura de emancipación por concesión de quienes ejercen la patria potestad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de emancipación por concesión de quienes ejercen la patria potestad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de emancipación por concesión de quienes ejercen la patria potestad

@@ -1,6 +1,6 @@
 ---
 name: escrito-proposicion-prueba-proceso-nulidad-canonica-civ-0061
-description: "Escrito de proposición de prueba en un proceso de nulidad canónica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de proposición de prueba en un proceso de nulidad canónica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de proposición de prueba en un proceso de nulidad canónica

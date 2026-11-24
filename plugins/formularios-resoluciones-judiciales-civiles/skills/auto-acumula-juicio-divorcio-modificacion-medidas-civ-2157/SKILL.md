@@ -1,6 +1,6 @@
 ---
 name: auto-acumula-juicio-divorcio-modificacion-medidas-civ-2157
-description: "Auto que acumula el juicio de divorcio al de modificación de medidas de separación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acumula el juicio de divorcio al de modificación de medidas de separación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acumula el juicio de divorcio al de modificación de medidas de separación

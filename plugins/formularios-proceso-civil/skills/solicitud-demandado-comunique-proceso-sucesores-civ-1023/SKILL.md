@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-comunique-proceso-sucesores-civ-1023
-description: "Solicitud del demandado de que se comunique el proceso a los sucesores del demandante fallecido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado de que se comunique el proceso a los sucesores del demandante fallecido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado de que se comunique el proceso a los sucesores del demandante fallecido

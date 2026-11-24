@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-posterior-oposicion-monitorio-civ-1182
-description: "Demanda de juicio ordinario posterior a la oposición en monitorio por precio de suministro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario posterior a la oposición en monitorio por precio de suministro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario posterior a la oposición en monitorio por precio de suministro

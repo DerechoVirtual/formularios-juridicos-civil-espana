@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-tutela-derecho-fundamental-civ-0950
-description: "Demanda de juicio ordinario de tutela del derecho fundamental al secreto de las comunicaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de tutela del derecho fundamental al secreto de las comunicaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de tutela del derecho fundamental al secreto de las comunicaciones

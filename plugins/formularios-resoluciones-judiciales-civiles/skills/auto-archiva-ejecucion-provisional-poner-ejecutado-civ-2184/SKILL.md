@@ -1,6 +1,6 @@
 ---
 name: auto-archiva-ejecucion-provisional-poner-ejecutado-civ-2184
-description: "Auto que archiva la ejecución provisional al poner el ejecutado la suma a disposición del tribunal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que archiva la ejecución provisional al poner el ejecutado la suma a disposición del tribunal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que archiva la ejecución provisional al poner el ejecutado la suma a disposición del tribunal

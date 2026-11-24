@@ -1,6 +1,6 @@
 ---
 name: propuesta-modificacion-convenio-regulador-divorcio-no-civ-0356
-description: "Propuesta de modificación del convenio regulador de divorcio no aprobado en la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de modificación del convenio regulador de divorcio no aprobado en la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de modificación del convenio regulador de divorcio no aprobado en la sentencia

@@ -1,6 +1,6 @@
 ---
 name: hechos-fundamentos-contestacion-ordinaria-opone-civ-0958
-description: "Hechos y fundamentos de la contestación ordinaria que se opone a la acumulación de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Hechos y fundamentos de la contestación ordinaria que se opone a la acumulación de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Hechos y fundamentos de la contestación ordinaria que se opone a la acumulación de acciones

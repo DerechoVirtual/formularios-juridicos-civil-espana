@@ -1,6 +1,6 @@
 ---
 name: apelacion-ejecutante-contra-auto-estima-oposicion-auto-civ-1481
-description: "Apelación del ejecutante contra el auto que estima la oposición (auto de cuantía máxima). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación del ejecutante contra el auto que estima la oposición (auto de cuantía máxima). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación del ejecutante contra el auto que estima la oposición (auto de cuantía máxima)

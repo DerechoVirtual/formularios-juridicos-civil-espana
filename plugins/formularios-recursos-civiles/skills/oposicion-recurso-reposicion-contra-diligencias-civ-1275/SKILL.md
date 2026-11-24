@@ -1,6 +1,6 @@
 ---
 name: oposicion-recurso-reposicion-contra-diligencias-civ-1275
-description: "Oposición al recurso de reposición contra diligencias de ordenación o decretos no definitivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al recurso de reposición contra diligencias de ordenación o decretos no definitivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al recurso de reposición contra diligencias de ordenación o decretos no definitivos

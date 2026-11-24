@@ -1,6 +1,6 @@
 ---
 name: alegacion-audiencia-previa-falta-capacidad-actor-civ-0969
-description: "Alegación en la audiencia previa de falta de capacidad del actor por carecer de personalidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegación en la audiencia previa de falta de capacidad del actor por carecer de personalidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegación en la audiencia previa de falta de capacidad del actor por carecer de personalidad

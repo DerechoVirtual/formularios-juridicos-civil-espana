@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-sin-acuerdo-entre-conyuges-civ-0258
-description: "Demanda de divorcio contencioso sin acuerdo entre los cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso sin acuerdo entre los cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso sin acuerdo entre los cónyuges

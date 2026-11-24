@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecutar-acuerdo-mediacion-sobre-alimentos-civ-1468
-description: "Oposición a ejecutar un acuerdo de mediación sobre alimentos del hijo mayor de edad (Ley 5 de 2012). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a ejecutar un acuerdo de mediación sobre alimentos del hijo mayor de edad (Ley 5 de 2012). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a ejecutar un acuerdo de mediación sobre alimentos del hijo mayor de edad (Ley 5 de 2012)

@@ -1,6 +1,6 @@
 ---
 name: pacto-convivencia-union-hecho-segun-derecho-valenciano-civ-0179
-description: "Pacto de convivencia de una unión de hecho según el Derecho valenciano. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pacto de convivencia de una unión de hecho según el Derecho valenciano. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pacto de convivencia de una unión de hecho según el Derecho valenciano

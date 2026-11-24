@@ -1,6 +1,6 @@
 ---
 name: oposicion-apelacion-motivos-procesales-materia-trafico-civ-1388
-description: "Oposición a la apelación por motivos procesales en materia de tráfico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la apelación por motivos procesales en materia de tráfico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la apelación por motivos procesales en materia de tráfico

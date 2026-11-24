@@ -1,6 +1,6 @@
 ---
 name: proposicion-interrogatorio-cuando-parte-es-persona-civ-0979
-description: "Proposición de interrogatorio cuando la parte es una persona jurídica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de interrogatorio cuando la parte es una persona jurídica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de interrogatorio cuando la parte es una persona jurídica

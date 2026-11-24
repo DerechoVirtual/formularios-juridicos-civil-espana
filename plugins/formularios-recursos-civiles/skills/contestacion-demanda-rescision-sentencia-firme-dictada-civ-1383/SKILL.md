@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-rescision-sentencia-firme-dictada-civ-1383
-description: "Contestación a la demanda de rescisión de sentencia firme dictada en rebeldía. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de rescisión de sentencia firme dictada en rebeldía. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de rescisión de sentencia firme dictada en rebeldía

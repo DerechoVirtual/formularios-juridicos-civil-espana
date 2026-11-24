@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-poliza-contrato-mercantil-civ-1401
-description: "Demanda ejecutiva basada en una póliza de contrato mercantil por cuotas impagadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en una póliza de contrato mercantil por cuotas impagadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en una póliza de contrato mercantil por cuotas impagadas

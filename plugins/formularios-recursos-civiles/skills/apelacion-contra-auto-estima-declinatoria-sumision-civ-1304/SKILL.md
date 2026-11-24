@@ -1,6 +1,6 @@
 ---
 name: apelacion-contra-auto-estima-declinatoria-sumision-civ-1304
-description: "Apelación contra el auto que estima la declinatoria por sumisión a arbitraje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación contra el auto que estima la declinatoria por sumisión a arbitraje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación contra el auto que estima la declinatoria por sumisión a arbitraje

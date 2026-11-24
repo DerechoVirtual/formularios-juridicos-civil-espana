@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-provisional-sentencia-apelada-civ-1576
-description: "Solicitud de ejecución provisional de sentencia apelada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución provisional de sentencia apelada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución provisional de sentencia apelada

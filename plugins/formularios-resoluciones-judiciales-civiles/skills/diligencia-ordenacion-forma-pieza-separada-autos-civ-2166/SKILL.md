@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-forma-pieza-separada-autos-civ-2166
-description: "Diligencia de ordenación que forma pieza separada con los autos principales ya en la Audiencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que forma pieza separada con los autos principales ya en la Audiencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que forma pieza separada con los autos principales ya en la Audiencia

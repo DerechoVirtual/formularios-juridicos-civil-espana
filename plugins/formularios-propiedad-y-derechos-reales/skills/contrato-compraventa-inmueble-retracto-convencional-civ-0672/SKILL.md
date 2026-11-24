@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-inmueble-retracto-convencional-civ-0672
-description: "Contrato de compraventa de inmueble con retracto convencional a favor del vendedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de inmueble con retracto convencional a favor del vendedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de inmueble con retracto convencional a favor del vendedor

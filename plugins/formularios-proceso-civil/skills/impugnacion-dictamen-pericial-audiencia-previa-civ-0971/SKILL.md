@@ -1,6 +1,6 @@
 ---
 name: impugnacion-dictamen-pericial-audiencia-previa-civ-0971
-description: "Impugnación de dictamen pericial en la audiencia previa pidiendo que el perito actúe en el juicio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de dictamen pericial en la audiencia previa pidiendo que el perito actúe en el juicio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de dictamen pericial en la audiencia previa pidiendo que el perito actúe en el juicio

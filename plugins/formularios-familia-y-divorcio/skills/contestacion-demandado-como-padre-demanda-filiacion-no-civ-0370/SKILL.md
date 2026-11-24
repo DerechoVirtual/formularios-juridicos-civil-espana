@@ -1,6 +1,6 @@
 ---
 name: contestacion-demandado-como-padre-demanda-filiacion-no-civ-0370
-description: "Contestación del demandado como padre a la demanda de filiación no matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación del demandado como padre a la demanda de filiación no matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación del demandado como padre a la demanda de filiación no matrimonial

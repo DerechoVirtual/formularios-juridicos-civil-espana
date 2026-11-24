@@ -1,6 +1,6 @@
 ---
 name: testamento-otorgado-comisario-segun-derecho-civil-vasco-civ-0404
-description: "Testamento otorgado por el comisario según el Derecho civil vasco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento otorgado por el comisario según el Derecho civil vasco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento otorgado por el comisario según el Derecho civil vasco

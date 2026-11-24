@@ -1,6 +1,6 @@
 ---
 name: demanda-disolucion-sociedad-gananciales-discapacidad-civ-0187
-description: "Demanda de disolución de la sociedad de gananciales por discapacidad de un cónyuge con liquidación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de disolución de la sociedad de gananciales por discapacidad de un cónyuge con liquidación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de disolución de la sociedad de gananciales por discapacidad de un cónyuge con liquidación

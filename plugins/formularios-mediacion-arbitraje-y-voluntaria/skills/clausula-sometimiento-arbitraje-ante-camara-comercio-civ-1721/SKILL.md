@@ -1,6 +1,6 @@
 ---
 name: clausula-sometimiento-arbitraje-ante-camara-comercio-civ-1721
-description: "Cláusula de sometimiento a arbitraje ante una cámara de comercio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula de sometimiento a arbitraje ante una cámara de comercio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula de sometimiento a arbitraje ante una cámara de comercio

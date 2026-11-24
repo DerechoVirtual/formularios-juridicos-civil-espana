@@ -1,6 +1,6 @@
 ---
 name: escritura-poder-realizar-actos-disposicion-civ-0796
-description: "Escritura de poder para realizar actos de disposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de poder para realizar actos de disposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de poder para realizar actos de disposición

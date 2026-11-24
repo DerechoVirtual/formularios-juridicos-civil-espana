@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-aplazar-lanzamiento-civ-1527
-description: "Escrito del ejecutado pidiendo aplazar el lanzamiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo aplazar el lanzamiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo aplazar el lanzamiento

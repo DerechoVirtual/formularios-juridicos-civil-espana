@@ -1,6 +1,6 @@
 ---
 name: solicitud-arbitraje-consumo-consumidor-ante-junta-civ-1718
-description: "Solicitud de arbitraje de consumo del consumidor ante la Junta Arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de arbitraje de consumo del consumidor ante la Junta Arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de arbitraje de consumo del consumidor ante la Junta Arbitral

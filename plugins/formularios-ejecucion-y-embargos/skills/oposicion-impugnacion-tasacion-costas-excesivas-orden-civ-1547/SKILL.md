@@ -1,6 +1,6 @@
 ---
 name: oposicion-impugnacion-tasacion-costas-excesivas-orden-civ-1547
-description: "Oposición a la impugnación de la tasación de costas por excesivas en el orden civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la impugnación de la tasación de costas por excesivas en el orden civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la impugnación de la tasación de costas por excesivas en el orden civil

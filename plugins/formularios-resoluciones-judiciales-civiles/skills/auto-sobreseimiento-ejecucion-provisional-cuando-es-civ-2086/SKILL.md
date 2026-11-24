@@ -1,6 +1,6 @@
 ---
 name: auto-sobreseimiento-ejecucion-provisional-cuando-es-civ-2086
-description: "Auto de sobreseimiento de la ejecución provisional cuando es imposible devolver el bien. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de sobreseimiento de la ejecución provisional cuando es imposible devolver el bien. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de sobreseimiento de la ejecución provisional cuando es imposible devolver el bien

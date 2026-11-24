@@ -1,6 +1,6 @@
 ---
 name: escrito-licitador-pide-reserve-cantidad-consignada-civ-1551
-description: "Escrito del licitador que pide que se reserve la cantidad consignada en la subasta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del licitador que pide que se reserve la cantidad consignada en la subasta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del licitador que pide que se reserve la cantidad consignada en la subasta

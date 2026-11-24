@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 54 formularios de Cobrar deudas: monitorio y cambiario. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 54 formularios de Cobrar deudas: monitorio y cambiario. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Cobrar deudas: monitorio y cambiario: índice de formularios

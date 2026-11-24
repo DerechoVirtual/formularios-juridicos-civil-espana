@@ -1,6 +1,6 @@
 ---
 name: otrosi-medidas-provisionales-sobre-guarda-custodia-civ-0069
-description: "Otrosí de medidas provisionales sobre guarda y custodia en demanda de modificación de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de medidas provisionales sobre guarda y custodia en demanda de modificación de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de medidas provisionales sobre guarda y custodia en demanda de modificación de medidas

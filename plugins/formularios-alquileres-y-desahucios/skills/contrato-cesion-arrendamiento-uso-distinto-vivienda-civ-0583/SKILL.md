@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-arrendamiento-uso-distinto-vivienda-civ-0583
-description: "Contrato de cesión de arrendamiento para uso distinto de vivienda, con o sin existencias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de arrendamiento para uso distinto de vivienda, con o sin existencias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de arrendamiento para uso distinto de vivienda, con o sin existencias

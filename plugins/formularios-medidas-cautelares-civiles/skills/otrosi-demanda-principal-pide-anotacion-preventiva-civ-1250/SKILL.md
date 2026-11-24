@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-principal-pide-anotacion-preventiva-civ-1250
-description: "Otrosí de la demanda principal que pide anotación preventiva de demanda con audiencia del demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda principal que pide anotación preventiva de demanda con audiencia del demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda principal que pide anotación preventiva de demanda con audiencia del demandado

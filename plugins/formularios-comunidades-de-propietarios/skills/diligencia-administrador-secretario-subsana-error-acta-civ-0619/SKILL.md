@@ -1,6 +1,6 @@
 ---
 name: diligencia-administrador-secretario-subsana-error-acta-civ-0619
-description: "Diligencia del administrador-secretario que subsana un error en el acta de la junta de propietarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia del administrador-secretario que subsana un error en el acta de la junta de propietarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia del administrador-secretario que subsana un error en el acta de la junta de propietarios

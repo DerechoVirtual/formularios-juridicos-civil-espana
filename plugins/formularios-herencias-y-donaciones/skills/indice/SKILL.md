@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 94 formularios de Herencias, testamentos y donaciones. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 94 formularios de Herencias, testamentos y donaciones. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Herencias, testamentos y donaciones: índice de formularios

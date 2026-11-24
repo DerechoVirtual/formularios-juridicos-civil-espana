@@ -1,6 +1,6 @@
 ---
 name: escritura-poder-especial-entre-conyuges-otorgar-civ-0414
-description: "Escritura de poder especial entre cónyuges para otorgar la partición de herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de poder especial entre cónyuges para otorgar la partición de herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de poder especial entre cónyuges para otorgar la partición de herencia

@@ -1,6 +1,6 @@
 ---
 name: personacion-ante-tribunal-supremo-casacion-pidiendo-civ-1332
-description: "Personación ante el Tribunal Supremo en casación pidiendo testimonio para ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación ante el Tribunal Supremo en casación pidiendo testimonio para ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación ante el Tribunal Supremo en casación pidiendo testimonio para ejecución provisional

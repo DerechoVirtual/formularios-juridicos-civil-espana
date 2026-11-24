@@ -1,6 +1,6 @@
 ---
 name: solicitud-notarial-adveracion-apertura-protocolizacion-civ-0468
-description: "Solicitud notarial de adveración, apertura y protocolización de testamento cerrado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud notarial de adveración, apertura y protocolización de testamento cerrado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud notarial de adveración, apertura y protocolización de testamento cerrado

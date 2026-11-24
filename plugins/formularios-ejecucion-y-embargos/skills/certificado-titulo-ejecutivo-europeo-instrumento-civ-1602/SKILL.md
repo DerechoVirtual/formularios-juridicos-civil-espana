@@ -1,6 +1,6 @@
 ---
 name: certificado-titulo-ejecutivo-europeo-instrumento-civ-1602
-description: "Certificado de título ejecutivo europeo para instrumento auténtico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificado de título ejecutivo europeo para instrumento auténtico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificado de título ejecutivo europeo para instrumento auténtico

@@ -1,6 +1,6 @@
 ---
 name: demanda-conviviente-superstite-pareja-estable-contra-civ-0233
-description: "Demanda del conviviente supérstite de pareja estable contra el heredero (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del conviviente supérstite de pareja estable contra el heredero (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del conviviente supérstite de pareja estable contra el heredero (Cataluña)

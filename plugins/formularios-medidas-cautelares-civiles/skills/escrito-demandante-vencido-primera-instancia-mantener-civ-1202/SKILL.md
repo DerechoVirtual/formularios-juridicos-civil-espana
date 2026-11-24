@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-vencido-primera-instancia-mantener-civ-1202
-description: "Escrito del demandante vencido en primera instancia para mantener la cautelar en apelación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante vencido en primera instancia para mantener la cautelar en apelación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante vencido en primera instancia para mantener la cautelar en apelación

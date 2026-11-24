@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-requiere-ejecutante-aclarar-pide-civ-2123
-description: "Diligencia de ordenación que requiere al ejecutante aclarar por qué pide embargar bienes gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que requiere al ejecutante aclarar por qué pide embargar bienes gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que requiere al ejecutante aclarar por qué pide embargar bienes gananciales

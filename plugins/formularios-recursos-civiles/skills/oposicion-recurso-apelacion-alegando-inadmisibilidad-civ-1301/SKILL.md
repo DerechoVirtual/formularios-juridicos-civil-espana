@@ -1,6 +1,6 @@
 ---
 name: oposicion-recurso-apelacion-alegando-inadmisibilidad-civ-1301
-description: "Oposición al recurso de apelación alegando su inadmisibilidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al recurso de apelación alegando su inadmisibilidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al recurso de apelación alegando su inadmisibilidad

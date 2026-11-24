@@ -1,6 +1,6 @@
 ---
 name: recurso-apelacion-contra-auto-estima-oposicion-civ-1564
-description: "Recurso de apelación contra el auto que estima la oposición a la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de apelación contra el auto que estima la oposición a la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de apelación contra el auto que estima la oposición a la ejecución

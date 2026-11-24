@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandante-declinatoria-sumision-mediacion-civ-1738
-description: "Oposición del demandante a la declinatoria por sumisión a mediación en un contrato de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandante a la declinatoria por sumisión a mediación en un contrato de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandante a la declinatoria por sumisión a mediación en un contrato de consumo

@@ -1,6 +1,6 @@
 ---
 name: acumulacion-ejecuciones-titulos-judiciales-contra-civ-1556
-description: "Acumulación de ejecuciones de títulos judiciales contra el mismo deudor ante distintos tribunales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acumulación de ejecuciones de títulos judiciales contra el mismo deudor ante distintos tribunales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acumulación de ejecuciones de títulos judiciales contra el mismo deudor ante distintos tribunales

@@ -1,6 +1,6 @@
 ---
 name: decreto-resuelve-sobre-abono-valor-cosas-no-separables-civ-2026
-description: "Decreto que resuelve sobre el abono del valor de las cosas no separables. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que resuelve sobre el abono del valor de las cosas no separables. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que resuelve sobre el abono del valor de las cosas no separables

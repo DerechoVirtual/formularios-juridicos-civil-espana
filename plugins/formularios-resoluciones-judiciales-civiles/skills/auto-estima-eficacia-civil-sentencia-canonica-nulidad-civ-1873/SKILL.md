@@ -1,6 +1,6 @@
 ---
 name: auto-estima-eficacia-civil-sentencia-canonica-nulidad-civ-1873
-description: "Auto que estima la eficacia civil de sentencia canónica de nulidad matrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que estima la eficacia civil de sentencia canónica de nulidad matrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que estima la eficacia civil de sentencia canónica de nulidad matrimonial

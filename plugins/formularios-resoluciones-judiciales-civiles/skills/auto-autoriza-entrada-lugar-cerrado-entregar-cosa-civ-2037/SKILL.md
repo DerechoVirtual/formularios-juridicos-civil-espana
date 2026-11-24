@@ -1,6 +1,6 @@
 ---
 name: auto-autoriza-entrada-lugar-cerrado-entregar-cosa-civ-2037
-description: "Auto que autoriza la entrada en lugar cerrado para entregar la cosa al ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que autoriza la entrada en lugar cerrado para entregar la cosa al ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que autoriza la entrada en lugar cerrado para entregar la cosa al ejecutante

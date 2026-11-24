@@ -1,6 +1,6 @@
 ---
 name: contrato-obra-vivienda-unifamiliar-precio-alzado-pago-civ-0827
-description: "Contrato de obra de vivienda unifamiliar a precio alzado con pago aplazado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de obra de vivienda unifamiliar a precio alzado con pago aplazado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de obra de vivienda unifamiliar a precio alzado con pago aplazado

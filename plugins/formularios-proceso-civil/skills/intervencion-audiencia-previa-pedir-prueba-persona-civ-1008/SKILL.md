@@ -1,6 +1,6 @@
 ---
 name: intervencion-audiencia-previa-pedir-prueba-persona-civ-1008
-description: "Intervención en la audiencia previa para pedir prueba de persona con domicilio en el extranjero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Intervención en la audiencia previa para pedir prueba de persona con domicilio en el extranjero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Intervención en la audiencia previa para pedir prueba de persona con domicilio en el extranjero

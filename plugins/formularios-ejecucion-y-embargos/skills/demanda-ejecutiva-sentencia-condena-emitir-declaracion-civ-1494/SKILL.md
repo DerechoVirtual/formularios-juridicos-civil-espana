@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-sentencia-condena-emitir-declaracion-civ-1494
-description: "Demanda ejecutiva de sentencia que condena a emitir una declaración de voluntad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de sentencia que condena a emitir una declaración de voluntad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de sentencia que condena a emitir una declaración de voluntad

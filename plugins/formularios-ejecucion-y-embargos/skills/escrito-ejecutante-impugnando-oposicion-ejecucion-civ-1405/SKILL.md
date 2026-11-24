@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-impugnando-oposicion-ejecucion-civ-1405
-description: "Escrito del ejecutante impugnando la oposición a la ejecución de un acuerdo de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante impugnando la oposición a la ejecución de un acuerdo de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante impugnando la oposición a la ejecución de un acuerdo de mediación

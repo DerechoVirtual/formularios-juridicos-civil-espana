@@ -1,6 +1,6 @@
 ---
 name: oposicion-eficacia-civil-sentencia-canonica-nulidad-civ-0333
-description: "Oposición a la eficacia civil de sentencia canónica de nulidad sin petición de medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la eficacia civil de sentencia canónica de nulidad sin petición de medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la eficacia civil de sentencia canónica de nulidad sin petición de medidas

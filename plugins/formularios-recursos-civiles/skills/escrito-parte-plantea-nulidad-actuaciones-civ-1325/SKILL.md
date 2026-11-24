@@ -1,6 +1,6 @@
 ---
 name: escrito-parte-plantea-nulidad-actuaciones-civ-1325
-description: "Escrito de la parte que plantea la nulidad de actuaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de la parte que plantea la nulidad de actuaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de la parte que plantea la nulidad de actuaciones

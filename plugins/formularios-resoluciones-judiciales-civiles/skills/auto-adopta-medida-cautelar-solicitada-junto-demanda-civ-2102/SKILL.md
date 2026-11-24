@@ -1,6 +1,6 @@
 ---
 name: auto-adopta-medida-cautelar-solicitada-junto-demanda-civ-2102
-description: "Auto que adopta una medida cautelar solicitada junto con la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que adopta una medida cautelar solicitada junto con la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que adopta una medida cautelar solicitada junto con la demanda

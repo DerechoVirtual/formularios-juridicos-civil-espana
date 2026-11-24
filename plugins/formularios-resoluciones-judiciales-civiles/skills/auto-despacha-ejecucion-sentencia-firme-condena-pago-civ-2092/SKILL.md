@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-sentencia-firme-condena-pago-civ-2092
-description: "Auto que despacha ejecución de sentencia firme de condena al pago de cantidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución de sentencia firme de condena al pago de cantidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución de sentencia firme de condena al pago de cantidad

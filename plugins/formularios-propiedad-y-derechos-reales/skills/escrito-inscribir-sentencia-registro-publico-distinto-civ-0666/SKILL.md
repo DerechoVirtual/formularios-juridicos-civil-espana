@@ -1,6 +1,6 @@
 ---
 name: escrito-inscribir-sentencia-registro-publico-distinto-civ-0666
-description: "Escrito para inscribir una sentencia en un registro público distinto del Registro Civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para inscribir una sentencia en un registro público distinto del Registro Civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para inscribir una sentencia en un registro público distinto del Registro Civil

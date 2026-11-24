@@ -1,6 +1,6 @@
 ---
 name: alegaciones-ejecutante-sobre-limitacion-intereses-civ-1430
-description: "Alegaciones del ejecutante sobre la limitación de los intereses de demora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del ejecutante sobre la limitación de los intereses de demora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del ejecutante sobre la limitación de los intereses de demora

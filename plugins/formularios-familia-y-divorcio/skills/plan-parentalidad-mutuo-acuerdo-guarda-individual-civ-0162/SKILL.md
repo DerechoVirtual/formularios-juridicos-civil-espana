@@ -1,6 +1,6 @@
 ---
 name: plan-parentalidad-mutuo-acuerdo-guarda-individual-civ-0162
-description: "Plan de parentalidad de mutuo acuerdo con guarda individual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Plan de parentalidad de mutuo acuerdo con guarda individual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Plan de parentalidad de mutuo acuerdo con guarda individual

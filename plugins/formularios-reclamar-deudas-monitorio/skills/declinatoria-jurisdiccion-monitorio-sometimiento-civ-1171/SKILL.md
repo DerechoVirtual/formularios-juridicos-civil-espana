@@ -1,6 +1,6 @@
 ---
 name: declinatoria-jurisdiccion-monitorio-sometimiento-civ-1171
-description: "Declinatoria de jurisdicción en un monitorio por sometimiento a arbitraje. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declinatoria de jurisdicción en un monitorio por sometimiento a arbitraje. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declinatoria de jurisdicción en un monitorio por sometimiento a arbitraje

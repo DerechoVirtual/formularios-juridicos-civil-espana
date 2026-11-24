@@ -1,6 +1,6 @@
 ---
 name: demanda-exigir-cumplimiento-regimen-visitas-nietos-civ-0095
-description: "Demanda para exigir el cumplimiento del régimen de visitas de los nietos con sus abuelos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para exigir el cumplimiento del régimen de visitas de los nietos con sus abuelos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para exigir el cumplimiento del régimen de visitas de los nietos con sus abuelos

@@ -1,6 +1,6 @@
 ---
 name: pronunciamientos-sentencia-definitiva-sobre-medidas-civ-1798
-description: "Pronunciamientos de la sentencia definitiva sobre las medidas cautelares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pronunciamientos de la sentencia definitiva sobre las medidas cautelares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pronunciamientos de la sentencia definitiva sobre las medidas cautelares

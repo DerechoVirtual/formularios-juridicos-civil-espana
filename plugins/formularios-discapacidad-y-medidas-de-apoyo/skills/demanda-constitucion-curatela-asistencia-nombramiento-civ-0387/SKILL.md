@@ -1,6 +1,6 @@
 ---
 name: demanda-constitucion-curatela-asistencia-nombramiento-civ-0387
-description: "Demanda de constitución de curatela o asistencia y nombramiento de curador (Derecho foral aragonés). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de constitución de curatela o asistencia y nombramiento de curador (Derecho foral aragonés). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de constitución de curatela o asistencia y nombramiento de curador (Derecho foral aragonés)

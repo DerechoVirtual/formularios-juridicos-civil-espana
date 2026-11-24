@@ -1,6 +1,6 @@
 ---
 name: escrito-declinatoria-falta-competencia-internacional-civ-1109
-description: "Escrito de declinatoria por falta de competencia internacional en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de declinatoria por falta de competencia internacional en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de declinatoria por falta de competencia internacional en juicio ordinario

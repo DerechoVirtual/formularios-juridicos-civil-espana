@@ -1,6 +1,6 @@
 ---
 name: providencia-plazo-extraordinario-pedir-divorcio-mutuo-civ-1892
-description: "Providencia con plazo extraordinario para pedir divorcio en mutuo acuerdo pendiente de sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia con plazo extraordinario para pedir divorcio en mutuo acuerdo pendiente de sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia con plazo extraordinario para pedir divorcio en mutuo acuerdo pendiente de sentencia

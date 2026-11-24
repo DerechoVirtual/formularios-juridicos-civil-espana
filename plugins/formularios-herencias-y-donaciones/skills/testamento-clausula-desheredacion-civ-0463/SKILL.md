@@ -1,6 +1,6 @@
 ---
 name: testamento-clausula-desheredacion-civ-0463
-description: "Testamento con cláusula de desheredación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con cláusula de desheredación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con cláusula de desheredación

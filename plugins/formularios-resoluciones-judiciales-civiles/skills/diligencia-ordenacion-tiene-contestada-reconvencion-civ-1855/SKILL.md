@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-tiene-contestada-reconvencion-civ-1855
-description: "Diligencia de ordenación que tiene por contestada la reconvención en separación y cita a vista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que tiene por contestada la reconvención en separación y cita a vista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que tiene por contestada la reconvención en separación y cita a vista

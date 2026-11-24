@@ -1,6 +1,6 @@
 ---
 name: alegaciones-recurrente-admision-recurso-casacion-civ-1334
-description: "Alegaciones del recurrente en la admisión del recurso de casación (anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del recurrente en la admisión del recurso de casación (anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del recurrente en la admisión del recurso de casación (anterior al RDL 5 2023)

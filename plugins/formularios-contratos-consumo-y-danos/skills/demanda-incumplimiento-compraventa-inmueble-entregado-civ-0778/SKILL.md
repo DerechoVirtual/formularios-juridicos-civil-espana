@@ -1,6 +1,6 @@
 ---
 name: demanda-incumplimiento-compraventa-inmueble-entregado-civ-0778
-description: "Demanda por incumplimiento de compraventa de inmueble entregado con menor cabida de la pactada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda por incumplimiento de compraventa de inmueble entregado con menor cabida de la pactada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda por incumplimiento de compraventa de inmueble entregado con menor cabida de la pactada

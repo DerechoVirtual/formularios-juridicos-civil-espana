@@ -1,6 +1,6 @@
 ---
 name: solicitud-mediacion-familiar-parte-cumplimiento-pacto-civ-0007
-description: "Solicitud de mediación familiar por una parte en cumplimiento de un pacto previo de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de mediación familiar por una parte en cumplimiento de un pacto previo de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de mediación familiar por una parte en cumplimiento de un pacto previo de mediación

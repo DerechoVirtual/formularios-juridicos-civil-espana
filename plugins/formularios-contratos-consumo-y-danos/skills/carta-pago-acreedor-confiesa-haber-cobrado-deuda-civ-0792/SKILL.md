@@ -1,6 +1,6 @@
 ---
 name: carta-pago-acreedor-confiesa-haber-cobrado-deuda-civ-0792
-description: "Carta de pago en que el acreedor confiesa haber cobrado la deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de pago en que el acreedor confiesa haber cobrado la deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de pago en que el acreedor confiesa haber cobrado la deuda

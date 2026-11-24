@@ -1,6 +1,6 @@
 ---
 name: proposicion-prueba-documental-exhibicion-documento-civ-0981
-description: "Proposición de prueba documental por exhibición de un documento en poder de un tercero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de prueba documental por exhibición de un documento en poder de un tercero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de prueba documental por exhibición de un documento en poder de un tercero

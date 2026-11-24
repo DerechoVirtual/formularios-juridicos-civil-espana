@@ -1,6 +1,6 @@
 ---
 name: compraventa-vehiculo-contrato-civ-0813
-description: "Compraventa de vehículo (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Compraventa de vehículo (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Compraventa de vehículo (contrato)

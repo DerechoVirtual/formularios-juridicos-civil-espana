@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-resolucion-subarriendo-falta-civ-0600
-description: "Contestación a la demanda de resolución por subarriendo y falta de ocupación (vivienda, LAU 1994). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de resolución por subarriendo y falta de ocupación (vivienda, LAU 1994). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de resolución por subarriendo y falta de ocupación (vivienda, LAU 1994)

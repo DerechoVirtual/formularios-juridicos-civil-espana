@@ -1,6 +1,6 @@
 ---
 name: notificacion-traslado-demanda-juicio-ordinario-segun-civ-1009
-description: "Notificación y traslado de demanda de juicio ordinario según el Convenio de La Haya de 1965. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación y traslado de demanda de juicio ordinario según el Convenio de La Haya de 1965. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación y traslado de demanda de juicio ordinario según el Convenio de La Haya de 1965

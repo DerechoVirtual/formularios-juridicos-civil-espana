@@ -1,6 +1,6 @@
 ---
 name: escrito-sucinto-inicial-oposicion-declaracion-no-civ-0139
-description: "Escrito sucinto inicial de oposición a la declaración de no idoneidad para adoptar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito sucinto inicial de oposición a la declaración de no idoneidad para adoptar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito sucinto inicial de oposición a la declaración de no idoneidad para adoptar

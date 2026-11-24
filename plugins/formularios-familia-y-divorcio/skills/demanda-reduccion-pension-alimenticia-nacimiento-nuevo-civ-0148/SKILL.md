@@ -1,6 +1,6 @@
 ---
 name: demanda-reduccion-pension-alimenticia-nacimiento-nuevo-civ-0148
-description: "Demanda de reducción de la pensión alimenticia por el nacimiento de un nuevo hijo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reducción de la pensión alimenticia por el nacimiento de un nuevo hijo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reducción de la pensión alimenticia por el nacimiento de un nuevo hijo

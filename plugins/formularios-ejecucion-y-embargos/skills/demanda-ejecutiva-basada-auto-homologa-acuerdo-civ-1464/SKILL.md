@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-auto-homologa-acuerdo-civ-1464
-description: "Demanda ejecutiva basada en el auto que homologa un acuerdo de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en el auto que homologa un acuerdo de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en el auto que homologa un acuerdo de mediación

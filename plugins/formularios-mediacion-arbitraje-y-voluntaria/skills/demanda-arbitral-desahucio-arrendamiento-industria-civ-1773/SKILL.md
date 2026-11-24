@@ -1,6 +1,6 @@
 ---
 name: demanda-arbitral-desahucio-arrendamiento-industria-civ-1773
-description: "Demanda arbitral de desahucio de un arrendamiento de industria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda arbitral de desahucio de un arrendamiento de industria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda arbitral de desahucio de un arrendamiento de industria

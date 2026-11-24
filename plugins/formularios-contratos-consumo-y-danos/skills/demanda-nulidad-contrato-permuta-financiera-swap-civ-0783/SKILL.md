@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-contrato-permuta-financiera-swap-civ-0783
-description: "Demanda de nulidad de un contrato de permuta financiera (swap) contra el banco. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad de un contrato de permuta financiera (swap) contra el banco. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad de un contrato de permuta financiera (swap) contra el banco

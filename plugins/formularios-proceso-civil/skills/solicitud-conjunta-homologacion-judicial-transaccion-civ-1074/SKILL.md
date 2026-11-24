@@ -1,6 +1,6 @@
 ---
 name: solicitud-conjunta-homologacion-judicial-transaccion-civ-1074
-description: "Solicitud conjunta de homologación judicial de la transacción que pone fin al litigio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud conjunta de homologación judicial de la transacción que pone fin al litigio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud conjunta de homologación judicial de la transacción que pone fin al litigio

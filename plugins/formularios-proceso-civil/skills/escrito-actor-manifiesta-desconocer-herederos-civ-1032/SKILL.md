@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-manifiesta-desconocer-herederos-civ-1032
-description: "Escrito del actor que manifiesta desconocer a los herederos del demandado fallecido y su paradero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que manifiesta desconocer a los herederos del demandado fallecido y su paradero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que manifiesta desconocer a los herederos del demandado fallecido y su paradero

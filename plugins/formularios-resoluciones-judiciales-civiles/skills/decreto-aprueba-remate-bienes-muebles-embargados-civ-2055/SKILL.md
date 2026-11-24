@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-remate-bienes-muebles-embargados-civ-2055
-description: "Decreto que aprueba el remate de los bienes muebles embargados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba el remate de los bienes muebles embargados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba el remate de los bienes muebles embargados

@@ -1,6 +1,6 @@
 ---
 name: hoja-reclamacion-servicios-asistencia-tecnica-aparatos-civ-0721
-description: "Hoja de reclamación en servicios de asistencia técnica de aparatos de uso doméstico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Hoja de reclamación en servicios de asistencia técnica de aparatos de uso doméstico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Hoja de reclamación en servicios de asistencia técnica de aparatos de uso doméstico

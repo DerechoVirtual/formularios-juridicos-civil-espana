@@ -1,6 +1,6 @@
 ---
 name: impugnacion-oposicion-ejecucion-forzosa-laudo-arbitral-civ-1500
-description: "Impugnación de la oposición a la ejecución forzosa de un laudo arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la oposición a la ejecución forzosa de un laudo arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la oposición a la ejecución forzosa de un laudo arbitral

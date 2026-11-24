@@ -1,6 +1,6 @@
 ---
 name: auto-inadmite-demanda-terceria-dominio-civ-2011
-description: "Auto que inadmite la demanda de tercería de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que inadmite la demanda de tercería de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que inadmite la demanda de tercería de dominio

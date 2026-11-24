@@ -1,6 +1,6 @@
 ---
 name: escrito-medidas-cautelares-previas-demanda-apoyos-civ-0399
-description: "Escrito de medidas cautelares previas a la demanda de apoyos judiciales a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de medidas cautelares previas a la demanda de apoyos judiciales a persona con discapacidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de medidas cautelares previas a la demanda de apoyos judiciales a persona con discapacidad

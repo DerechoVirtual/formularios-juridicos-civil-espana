@@ -1,6 +1,6 @@
 ---
 name: escrito-tasacion-costas-abogado-defiende-si-mismo-como-civ-1443
-description: "Escrito de tasación de costas del abogado que se defiende a sí mismo como parte demandante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de tasación de costas del abogado que se defiende a sí mismo como parte demandante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de tasación de costas del abogado que se defiende a sí mismo como parte demandante

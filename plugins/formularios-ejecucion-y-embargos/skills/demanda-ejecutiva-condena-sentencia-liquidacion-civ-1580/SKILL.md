@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-condena-sentencia-liquidacion-civ-1580
-description: "Demanda ejecutiva de condena en sentencia con liquidación de intereses moratorios vencidos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de condena en sentencia con liquidación de intereses moratorios vencidos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de condena en sentencia con liquidación de intereses moratorios vencidos

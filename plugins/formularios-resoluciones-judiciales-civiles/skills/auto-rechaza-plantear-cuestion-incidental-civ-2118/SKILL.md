@@ -1,6 +1,6 @@
 ---
 name: auto-rechaza-plantear-cuestion-incidental-civ-2118
-description: "Auto que rechaza plantear la cuestión incidental. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que rechaza plantear la cuestión incidental. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que rechaza plantear la cuestión incidental

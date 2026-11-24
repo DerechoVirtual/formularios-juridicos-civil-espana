@@ -1,6 +1,6 @@
 ---
 name: desistimiento-actor-traslado-demandado-ya-emplazado-civ-1077
-description: "Desistimiento del actor con traslado al demandado ya emplazado o citado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del actor con traslado al demandado ya emplazado o citado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del actor con traslado al demandado ya emplazado o citado

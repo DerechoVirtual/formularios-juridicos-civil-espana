@@ -1,6 +1,6 @@
 ---
 name: auto-desestima-oposicion-ejecucion-motivos-fondo-civ-2048
-description: "Auto que desestima la oposición a la ejecución por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que desestima la oposición a la ejecución por motivos de fondo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que desestima la oposición a la ejecución por motivos de fondo

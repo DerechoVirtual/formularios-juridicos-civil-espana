@@ -1,6 +1,6 @@
 ---
 name: personacion-ante-tribunal-supremo-casacion-civil-civ-1335
-description: "Personación ante el Tribunal Supremo en casación civil con oposición a la admisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación ante el Tribunal Supremo en casación civil con oposición a la admisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación ante el Tribunal Supremo en casación civil con oposición a la admisión

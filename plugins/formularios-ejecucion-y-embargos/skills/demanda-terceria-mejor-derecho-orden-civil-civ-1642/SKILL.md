@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-mejor-derecho-orden-civil-civ-1642
-description: "Demanda de tercería de mejor derecho en el orden civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de mejor derecho en el orden civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de mejor derecho en el orden civil

@@ -1,6 +1,6 @@
 ---
 name: oposicion-embargo-ejecucion-provisional-inactividad-civ-1621
-description: "Oposición al embargo en ejecución provisional por inactividad real de la empresa ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al embargo en ejecución provisional por inactividad real de la empresa ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al embargo en ejecución provisional por inactividad real de la empresa ejecutante

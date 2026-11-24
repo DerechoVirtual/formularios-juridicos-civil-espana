@@ -1,6 +1,6 @@
 ---
 name: demanda-hijos-obtengan-posesion-bienes-herencia-civ-0491
-description: "Demanda para que los hijos obtengan la posesión de los bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para que los hijos obtengan la posesión de los bienes de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para que los hijos obtengan la posesión de los bienes de la herencia

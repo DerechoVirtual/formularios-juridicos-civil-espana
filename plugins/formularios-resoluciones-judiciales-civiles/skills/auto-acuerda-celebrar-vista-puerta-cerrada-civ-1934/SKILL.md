@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-celebrar-vista-puerta-cerrada-civ-1934
-description: "Auto que acuerda celebrar la vista a puerta cerrada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda celebrar la vista a puerta cerrada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda celebrar la vista a puerta cerrada

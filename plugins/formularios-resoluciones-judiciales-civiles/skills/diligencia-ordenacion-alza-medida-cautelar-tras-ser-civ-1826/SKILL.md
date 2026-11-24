@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-alza-medida-cautelar-tras-ser-civ-1826
-description: "Diligencia de ordenación que alza la medida cautelar tras ser firme la sentencia absolutoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que alza la medida cautelar tras ser firme la sentencia absolutoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que alza la medida cautelar tras ser firme la sentencia absolutoria

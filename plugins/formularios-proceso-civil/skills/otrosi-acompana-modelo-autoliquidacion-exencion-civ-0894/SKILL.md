@@ -1,6 +1,6 @@
 ---
 name: otrosi-acompana-modelo-autoliquidacion-exencion-civ-0894
-description: "Otrosí que acompaña el modelo de autoliquidación por exención subjetiva de la tasa (Cataluña). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que acompaña el modelo de autoliquidación por exención subjetiva de la tasa (Cataluña). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que acompaña el modelo de autoliquidación por exención subjetiva de la tasa (Cataluña)

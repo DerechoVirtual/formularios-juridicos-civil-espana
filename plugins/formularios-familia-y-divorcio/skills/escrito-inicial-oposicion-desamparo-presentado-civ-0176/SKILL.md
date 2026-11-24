@@ -1,6 +1,6 @@
 ---
 name: escrito-inicial-oposicion-desamparo-presentado-civ-0176
-description: "Escrito inicial de oposición al desamparo presentado por el guardador de hecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito inicial de oposición al desamparo presentado por el guardador de hecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito inicial de oposición al desamparo presentado por el guardador de hecho

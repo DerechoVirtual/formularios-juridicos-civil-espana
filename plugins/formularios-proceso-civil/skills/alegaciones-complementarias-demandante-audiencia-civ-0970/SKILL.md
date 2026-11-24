@@ -1,6 +1,6 @@
 ---
 name: alegaciones-complementarias-demandante-audiencia-civ-0970
-description: "Alegaciones complementarias del demandante en la audiencia previa, oposición y resolución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones complementarias del demandante en la audiencia previa, oposición y resolución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones complementarias del demandante en la audiencia previa, oposición y resolución

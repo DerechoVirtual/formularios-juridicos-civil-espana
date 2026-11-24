@@ -1,6 +1,6 @@
 ---
 name: burofax-comunicando-cambio-domicilio-civ-0026
-description: "Burofax comunicando un cambio de domicilio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Burofax comunicando un cambio de domicilio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Burofax comunicando un cambio de domicilio

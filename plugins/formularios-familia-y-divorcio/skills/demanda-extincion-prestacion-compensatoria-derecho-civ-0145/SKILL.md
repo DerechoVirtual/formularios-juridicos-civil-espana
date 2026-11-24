@@ -1,6 +1,6 @@
 ---
 name: demanda-extincion-prestacion-compensatoria-derecho-civ-0145
-description: "Demanda de extinción de la prestación compensatoria (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de extinción de la prestación compensatoria (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de extinción de la prestación compensatoria (Derecho civil catalán)

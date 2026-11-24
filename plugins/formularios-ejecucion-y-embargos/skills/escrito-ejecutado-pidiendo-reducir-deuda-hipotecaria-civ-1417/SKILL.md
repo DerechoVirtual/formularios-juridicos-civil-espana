@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-reducir-deuda-hipotecaria-civ-1417
-description: "Escrito del ejecutado pidiendo reducir la deuda hipotecaria por colaborar en la subasta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo reducir la deuda hipotecaria por colaborar en la subasta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo reducir la deuda hipotecaria por colaborar en la subasta

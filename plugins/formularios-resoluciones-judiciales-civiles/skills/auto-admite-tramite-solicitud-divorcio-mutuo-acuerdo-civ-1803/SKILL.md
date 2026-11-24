@@ -1,6 +1,6 @@
 ---
 name: auto-admite-tramite-solicitud-divorcio-mutuo-acuerdo-civ-1803
-description: "Auto que admite a trámite la solicitud de divorcio de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite a trámite la solicitud de divorcio de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite a trámite la solicitud de divorcio de mutuo acuerdo

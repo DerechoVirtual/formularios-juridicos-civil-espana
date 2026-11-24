@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-comparecencia-partes-convenir-como-civ-1108
-description: "Escrito pidiendo comparecencia de las partes para convenir cómo realizar los bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo comparecencia de las partes para convenir cómo realizar los bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo comparecencia de las partes para convenir cómo realizar los bienes

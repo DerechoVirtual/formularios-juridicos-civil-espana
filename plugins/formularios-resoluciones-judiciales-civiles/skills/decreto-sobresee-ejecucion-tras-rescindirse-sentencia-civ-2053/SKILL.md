@@ -1,6 +1,6 @@
 ---
 name: decreto-sobresee-ejecucion-tras-rescindirse-sentencia-civ-2053
-description: "Decreto que sobresee la ejecución tras rescindirse la sentencia firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que sobresee la ejecución tras rescindirse la sentencia firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que sobresee la ejecución tras rescindirse la sentencia firme

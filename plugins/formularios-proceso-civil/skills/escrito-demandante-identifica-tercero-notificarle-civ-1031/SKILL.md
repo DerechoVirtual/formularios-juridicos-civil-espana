@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-identifica-tercero-notificarle-civ-1031
-description: "Escrito del demandante que identifica a un tercero para notificarle la pendencia del juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante que identifica a un tercero para notificarle la pendencia del juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante que identifica a un tercero para notificarle la pendencia del juicio verbal

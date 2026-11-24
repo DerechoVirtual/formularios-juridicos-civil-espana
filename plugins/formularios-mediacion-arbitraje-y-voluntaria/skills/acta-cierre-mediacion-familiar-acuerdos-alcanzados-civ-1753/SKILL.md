@@ -1,6 +1,6 @@
 ---
 name: acta-cierre-mediacion-familiar-acuerdos-alcanzados-civ-1753
-description: "Acta de cierre de la mediación familiar con los acuerdos alcanzados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de cierre de la mediación familiar con los acuerdos alcanzados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de cierre de la mediación familiar con los acuerdos alcanzados

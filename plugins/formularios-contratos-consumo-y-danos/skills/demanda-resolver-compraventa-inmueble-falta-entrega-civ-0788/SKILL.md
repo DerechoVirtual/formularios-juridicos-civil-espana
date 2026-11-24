@@ -1,6 +1,6 @@
 ---
 name: demanda-resolver-compraventa-inmueble-falta-entrega-civ-0788
-description: "Demanda para resolver la compraventa de inmueble por falta de entrega del bien por la promotora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda para resolver la compraventa de inmueble por falta de entrega del bien por la promotora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda para resolver la compraventa de inmueble por falta de entrega del bien por la promotora

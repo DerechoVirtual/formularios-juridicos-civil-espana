@@ -1,6 +1,6 @@
 ---
 name: peticion-oral-interrumpir-juicio-incomparecencia-civ-0924
-description: "Petición oral de interrumpir el juicio por incomparecencia de testigo citado judicialmente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición oral de interrumpir el juicio por incomparecencia de testigo citado judicialmente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición oral de interrumpir el juicio por incomparecencia de testigo citado judicialmente

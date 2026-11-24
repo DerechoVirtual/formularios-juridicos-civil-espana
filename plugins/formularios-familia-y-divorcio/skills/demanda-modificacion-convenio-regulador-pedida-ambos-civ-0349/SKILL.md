@@ -1,6 +1,6 @@
 ---
 name: demanda-modificacion-convenio-regulador-pedida-ambos-civ-0349
-description: "Demanda de modificación del convenio regulador pedida por ambos cónyuges o uno con el otro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de modificación del convenio regulador pedida por ambos cónyuges o uno con el otro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de modificación del convenio regulador pedida por ambos cónyuges o uno con el otro

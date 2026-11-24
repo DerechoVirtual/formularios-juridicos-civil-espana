@@ -1,6 +1,6 @@
 ---
 name: escrito-parte-pidiendo-medidas-aseguramiento-prueba-civ-1266
-description: "Escrito de parte pidiendo medidas de aseguramiento de la prueba durante el proceso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de parte pidiendo medidas de aseguramiento de la prueba durante el proceso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de parte pidiendo medidas de aseguramiento de la prueba durante el proceso

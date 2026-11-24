@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-entrega-bienes-inmuebles-civ-2027
-description: "Auto que despacha ejecución para la entrega de bienes inmuebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución para la entrega de bienes inmuebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución para la entrega de bienes inmuebles

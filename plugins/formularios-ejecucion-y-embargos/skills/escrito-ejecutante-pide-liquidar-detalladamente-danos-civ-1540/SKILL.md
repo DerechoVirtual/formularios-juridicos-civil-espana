@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pide-liquidar-detalladamente-danos-civ-1540
-description: "Escrito del ejecutante que pide liquidar detalladamente daños y perjuicios (arts. 713 y ss. LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante que pide liquidar detalladamente daños y perjuicios (arts. 713 y ss. LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante que pide liquidar detalladamente daños y perjuicios (arts. 713 y ss. LEC)

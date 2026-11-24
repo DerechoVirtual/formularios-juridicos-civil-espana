@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-ordinaria-conforme-hechos-opuesta-civ-0949
-description: "Contestación a la demanda ordinaria conforme en los hechos y opuesta en los fundamentos de derecho. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda ordinaria conforme en los hechos y opuesta en los fundamentos de derecho. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda ordinaria conforme en los hechos y opuesta en los fundamentos de derecho

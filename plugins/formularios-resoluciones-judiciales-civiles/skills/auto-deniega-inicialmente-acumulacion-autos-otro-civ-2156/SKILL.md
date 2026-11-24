@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-inicialmente-acumulacion-autos-otro-civ-2156
-description: "Auto que deniega inicialmente la acumulación de autos de otro tribunal (art. 78 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega inicialmente la acumulación de autos de otro tribunal (art. 78 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega inicialmente la acumulación de autos de otro tribunal (art. 78 LEC)

@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-vivienda-impago-rentas-contrato-civ-0577
-description: "Demanda de desahucio de vivienda por impago de rentas (contrato posterior a 1995), sin enervación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio de vivienda por impago de rentas (contrato posterior a 1995), sin enervación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio de vivienda por impago de rentas (contrato posterior a 1995), sin enervación

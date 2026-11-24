@@ -1,6 +1,6 @@
 ---
 name: contrato-ceden-derechos-hereditarios-civ-0455
-description: "Contrato por el que se ceden derechos hereditarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato por el que se ceden derechos hereditarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato por el que se ceden derechos hereditarios

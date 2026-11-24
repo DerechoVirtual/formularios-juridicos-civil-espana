@@ -1,6 +1,6 @@
 ---
 name: decreto-aprueba-valoracion-coste-hacer-no-civ-2019
-description: "Decreto que aprueba la valoración del coste del hacer no personalísimo y exige su depósito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que aprueba la valoración del coste del hacer no personalísimo y exige su depósito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que aprueba la valoración del coste del hacer no personalísimo y exige su depósito

@@ -1,6 +1,6 @@
 ---
 name: decreto-rectifica-error-material-resolucion-letrado-aj-civ-1819
-description: "Decreto que rectifica un error material en una resolución del Letrado de la AJ. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que rectifica un error material en una resolución del Letrado de la AJ. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que rectifica un error material en una resolución del Letrado de la AJ

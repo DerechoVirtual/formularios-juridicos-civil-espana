@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-vivienda-portero-civ-0531
-description: "Contrato de arrendamiento de la vivienda del portero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de la vivienda del portero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de la vivienda del portero

@@ -1,6 +1,6 @@
 ---
 name: oposicion-motivos-fondo-ejecucion-sentencia-civ-1476
-description: "Oposición por motivos de fondo a la ejecución de sentencia matrimonial por impago de pensiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición por motivos de fondo a la ejecución de sentencia matrimonial por impago de pensiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición por motivos de fondo a la ejecución de sentencia matrimonial por impago de pensiones

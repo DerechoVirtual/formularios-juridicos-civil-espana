@@ -1,6 +1,6 @@
 ---
 name: escrito-alegando-tacha-testigo-art-377-lec-civ-1141
-description: "Escrito alegando tacha de testigo (art. 377 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito alegando tacha de testigo (art. 377 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito alegando tacha de testigo (art. 377 LEC)

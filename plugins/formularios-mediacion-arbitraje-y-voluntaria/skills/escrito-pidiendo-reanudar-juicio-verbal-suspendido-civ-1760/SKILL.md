@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-reanudar-juicio-verbal-suspendido-civ-1760
-description: "Escrito pidiendo reanudar el juicio verbal suspendido tras una mediación sin acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo reanudar el juicio verbal suspendido tras una mediación sin acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo reanudar el juicio verbal suspendido tras una mediación sin acuerdo

@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-convoca-interesados-contador-civ-2141
-description: "Diligencia de ordenación que convoca a los interesados y al contador a comparecencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que convoca a los interesados y al contador a comparecencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que convoca a los interesados y al contador a comparecencia

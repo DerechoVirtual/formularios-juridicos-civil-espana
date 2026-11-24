@@ -1,6 +1,6 @@
 ---
 name: solicitud-generica-arbitraje-consumo-civ-1777
-description: "Solicitud genérica de arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud genérica de arbitraje de consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud genérica de arbitraje de consumo

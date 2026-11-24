@@ -1,6 +1,6 @@
 ---
 name: contestacion-reclamacion-filiacion-madre-pide-prueba-civ-0127
-description: "Contestación a la reclamación de filiación de la madre que pide prueba biológica. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reclamación de filiación de la madre que pide prueba biológica. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reclamación de filiación de la madre que pide prueba biológica

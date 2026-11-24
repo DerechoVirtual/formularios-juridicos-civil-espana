@@ -1,6 +1,6 @@
 ---
 name: escrito-inicial-oposicion-resolucion-desamparo-menor-civ-0078
-description: "Escrito inicial de oposición a la resolución de desamparo de un menor (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito inicial de oposición a la resolución de desamparo de un menor (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito inicial de oposición a la resolución de desamparo de un menor (Derecho catalán)

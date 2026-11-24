@@ -1,6 +1,6 @@
 ---
 name: recurso-casacion-razon-cuantia-regimen-anterior-rdl-5-civ-1330
-description: "Recurso de casación por razón de la cuantía (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de casación por razón de la cuantía (régimen anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de casación por razón de la cuantía (régimen anterior al RDL 5 2023)

@@ -1,6 +1,6 @@
 ---
 name: recurso-directo-revision-contra-decreto-alza-civ-1314
-description: "Recurso directo de revisión contra el decreto que alza la suspensión por prejudicialidad penal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso directo de revisión contra el decreto que alza la suspensión por prejudicialidad penal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso directo de revisión contra el decreto que alza la suspensión por prejudicialidad penal

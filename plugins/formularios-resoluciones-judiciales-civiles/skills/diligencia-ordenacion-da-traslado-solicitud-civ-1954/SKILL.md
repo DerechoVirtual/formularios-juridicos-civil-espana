@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-traslado-solicitud-civ-1954
-description: "Diligencia de ordenación que da traslado de la solicitud de acumulación de ejecuciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da traslado de la solicitud de acumulación de ejecuciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da traslado de la solicitud de acumulación de ejecuciones

@@ -1,6 +1,6 @@
 ---
 name: solicitud-inventario-liquidacion-regimen-matrimonial-civ-0238
-description: "Solicitud de inventario en la liquidación del régimen matrimonial (comunicación foral vasca). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de inventario en la liquidación del régimen matrimonial (comunicación foral vasca). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de inventario en la liquidación del régimen matrimonial (comunicación foral vasca)

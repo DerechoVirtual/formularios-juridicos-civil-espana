@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-resolucion-judicial-motivos-fondo-civ-1563
-description: "Oposición a la ejecución de resolución judicial por motivos de fondo (pago). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la ejecución de resolución judicial por motivos de fondo (pago). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la ejecución de resolución judicial por motivos de fondo (pago)

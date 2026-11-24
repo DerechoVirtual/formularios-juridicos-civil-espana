@@ -1,6 +1,6 @@
 ---
 name: capitulos-matrimoniales-heredamiento-cumulativo-segun-civ-0443
-description: "Capítulos matrimoniales con heredamiento cumulativo según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Capítulos matrimoniales con heredamiento cumulativo según el Derecho catalán. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Capítulos matrimoniales con heredamiento cumulativo según el Derecho catalán

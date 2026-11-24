@@ -1,6 +1,6 @@
 ---
 name: auto-da-terminado-juicio-cambiario-despacha-ejecucion-civ-2105
-description: "Auto que da por terminado el juicio cambiario y despacha ejecución con embargo ya practicado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que da por terminado el juicio cambiario y despacha ejecución con embargo ya practicado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que da por terminado el juicio cambiario y despacha ejecución con embargo ya practicado

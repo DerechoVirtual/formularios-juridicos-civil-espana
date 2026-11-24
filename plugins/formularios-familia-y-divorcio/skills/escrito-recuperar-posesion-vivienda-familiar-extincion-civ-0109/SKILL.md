@@ -1,6 +1,6 @@
 ---
 name: escrito-recuperar-posesion-vivienda-familiar-extincion-civ-0109
-description: "Escrito para recuperar la posesión de la vivienda familiar por extinción del uso (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito para recuperar la posesión de la vivienda familiar por extinción del uso (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito para recuperar la posesión de la vivienda familiar por extinción del uso (Derecho catalán)

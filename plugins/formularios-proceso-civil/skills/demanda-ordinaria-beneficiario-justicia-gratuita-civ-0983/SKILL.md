@@ -1,6 +1,6 @@
 ---
 name: demanda-ordinaria-beneficiario-justicia-gratuita-civ-0983
-description: "Demanda ordinaria de beneficiario de justicia gratuita que anuncia prueba pericial (art. 339.1 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ordinaria de beneficiario de justicia gratuita que anuncia prueba pericial (art. 339.1 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ordinaria de beneficiario de justicia gratuita que anuncia prueba pericial (art. 339.1 LEC)

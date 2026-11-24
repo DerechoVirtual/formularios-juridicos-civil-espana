@@ -1,6 +1,6 @@
 ---
 name: convenio-conyuges-liquidar-sociedad-gananciales-civ-0247
-description: "Convenio de los cónyuges para liquidar la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio de los cónyuges para liquidar la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio de los cónyuges para liquidar la sociedad de gananciales

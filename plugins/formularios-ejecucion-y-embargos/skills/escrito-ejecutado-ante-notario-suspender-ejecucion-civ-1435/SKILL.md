@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-ante-notario-suspender-ejecucion-civ-1435
-description: "Escrito del ejecutado ante notario para suspender la ejecución hipotecaria extrajudicial por abusiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado ante notario para suspender la ejecución hipotecaria extrajudicial por abusiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado ante notario para suspender la ejecución hipotecaria extrajudicial por abusiva

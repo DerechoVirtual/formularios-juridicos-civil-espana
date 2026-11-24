@@ -1,6 +1,6 @@
 ---
 name: acta-comparecencia-contador-partes-art-787-3-lec-civ-0488
-description: "Acta de comparecencia del contador y de las partes (art. 787.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de comparecencia del contador y de las partes (art. 787.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de comparecencia del contador y de las partes (art. 787.3 LEC)

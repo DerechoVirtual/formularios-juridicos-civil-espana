@@ -1,6 +1,6 @@
 ---
 name: contestacion-reconvencion-pide-indemnizacion-articulo-civ-0031
-description: "Contestación a la reconvención que pide indemnización por el artículo 98 del Código Civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reconvención que pide indemnización por el artículo 98 del Código Civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reconvención que pide indemnización por el artículo 98 del Código Civil

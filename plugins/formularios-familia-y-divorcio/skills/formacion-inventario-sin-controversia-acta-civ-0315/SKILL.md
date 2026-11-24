@@ -1,6 +1,6 @@
 ---
 name: formacion-inventario-sin-controversia-acta-civ-0315
-description: "Formación de inventario sin controversia (acta). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Formación de inventario sin controversia (acta). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Formación de inventario sin controversia (acta)

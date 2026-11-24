@@ -1,6 +1,6 @@
 ---
 name: decreto-estima-parte-reposicion-sobre-devolver-lo-civ-2164
-description: "Decreto que estima en parte la reposición sobre devolver lo cobrado en ejecución provisional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que estima en parte la reposición sobre devolver lo cobrado en ejecución provisional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que estima en parte la reposición sobre devolver lo cobrado en ejecución provisional

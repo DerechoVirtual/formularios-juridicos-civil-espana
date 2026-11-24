@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-mejor-derecho-acreedores-laborales-civ-1623
-description: "Demanda de tercería de mejor derecho de acreedores laborales frente a la Seguridad Social en apremio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de mejor derecho de acreedores laborales frente a la Seguridad Social en apremio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de mejor derecho de acreedores laborales frente a la Seguridad Social en apremio

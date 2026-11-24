@@ -1,6 +1,6 @@
 ---
 name: escrito-actor-dirige-demanda-contra-litisconsortes-civ-1104
-description: "Escrito del actor que dirige la demanda contra los litisconsortes señalados por el demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del actor que dirige la demanda contra los litisconsortes señalados por el demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del actor que dirige la demanda contra los litisconsortes señalados por el demandado

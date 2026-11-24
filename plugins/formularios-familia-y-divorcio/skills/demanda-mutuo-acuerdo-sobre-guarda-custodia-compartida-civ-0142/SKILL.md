@@ -1,6 +1,6 @@
 ---
 name: demanda-mutuo-acuerdo-sobre-guarda-custodia-compartida-civ-0142
-description: "Demanda de mutuo acuerdo sobre guarda y custodia compartida tras ruptura de pareja (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de mutuo acuerdo sobre guarda y custodia compartida tras ruptura de pareja (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de mutuo acuerdo sobre guarda y custodia compartida tras ruptura de pareja (Derecho catalán)

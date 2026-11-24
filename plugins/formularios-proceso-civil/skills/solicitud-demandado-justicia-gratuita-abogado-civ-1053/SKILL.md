@@ -1,6 +1,6 @@
 ---
 name: solicitud-demandado-justicia-gratuita-abogado-civ-1053
-description: "Solicitud del demandado con justicia gratuita de abogado y procurador de oficio en desahucio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del demandado con justicia gratuita de abogado y procurador de oficio en desahucio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del demandado con justicia gratuita de abogado y procurador de oficio en desahucio verbal

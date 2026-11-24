@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-verbal-reclamacion-cantidad-contrato-civ-0819
-description: "Demanda de juicio verbal de reclamación de cantidad por contrato de obra entre 2.000 y 15.000 euros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio verbal de reclamación de cantidad por contrato de obra entre 2.000 y 15.000 euros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio verbal de reclamación de cantidad por contrato de obra entre 2.000 y 15.000 euros

@@ -1,6 +1,6 @@
 ---
 name: recurso-reposicion-contra-resolucion-ejecucion-civ-1572
-description: "Recurso de reposición contra resolución de ejecución que contradice el título ejecutivo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de reposición contra resolución de ejecución que contradice el título ejecutivo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de reposición contra resolución de ejecución que contradice el título ejecutivo

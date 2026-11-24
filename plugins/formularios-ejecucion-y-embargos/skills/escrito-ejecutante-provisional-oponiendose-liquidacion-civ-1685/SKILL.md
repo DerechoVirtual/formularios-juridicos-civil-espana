@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-provisional-oponiendose-liquidacion-civ-1685
-description: "Escrito del ejecutante provisional oponiéndose a la liquidación de daños tras revocarse la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante provisional oponiéndose a la liquidación de daños tras revocarse la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante provisional oponiéndose a la liquidación de daños tras revocarse la sentencia

@@ -1,6 +1,6 @@
 ---
 name: contestacion-terceria-dominio-alegando-abuso-civ-1622
-description: "Contestación a tercería de dominio alegando abuso de personalidad jurídica y fraude de acreedores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a tercería de dominio alegando abuso de personalidad jurídica y fraude de acreedores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a tercería de dominio alegando abuso de personalidad jurídica y fraude de acreedores

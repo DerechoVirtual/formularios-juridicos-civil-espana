@@ -1,6 +1,6 @@
 ---
 name: encargo-arbitraje-institucion-arbitral-virtud-convenio-civ-1792
-description: "Encargo de arbitraje a institución arbitral en virtud de convenio arbitral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Encargo de arbitraje a institución arbitral en virtud de convenio arbitral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Encargo de arbitraje a institución arbitral en virtud de convenio arbitral

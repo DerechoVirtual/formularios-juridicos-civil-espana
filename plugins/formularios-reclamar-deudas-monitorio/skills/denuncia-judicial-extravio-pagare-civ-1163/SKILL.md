@@ -1,6 +1,6 @@
 ---
 name: denuncia-judicial-extravio-pagare-civ-1163
-description: "Denuncia judicial por extravío de un pagaré. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Denuncia judicial por extravío de un pagaré. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Denuncia judicial por extravío de un pagaré

@@ -1,6 +1,6 @@
 ---
 name: solicitud-notarial-requerimiento-aceptar-repudiar-civ-0437
-description: "Solicitud notarial de requerimiento para aceptar o repudiar la herencia (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud notarial de requerimiento para aceptar o repudiar la herencia (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud notarial de requerimiento para aceptar o repudiar la herencia (Derecho civil catalán)

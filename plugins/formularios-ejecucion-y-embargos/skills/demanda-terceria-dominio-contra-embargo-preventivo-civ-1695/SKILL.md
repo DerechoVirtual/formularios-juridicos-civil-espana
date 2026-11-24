@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-dominio-contra-embargo-preventivo-civ-1695
-description: "Demanda de tercería de dominio contra embargo preventivo de finca recibida en dación sin escritura. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de dominio contra embargo preventivo de finca recibida en dación sin escritura. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de dominio contra embargo preventivo de finca recibida en dación sin escritura

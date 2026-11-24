@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-reembargo-bien-civ-1523
-description: "Escrito del ejecutante pidiendo el reembargo de un bien. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo el reembargo de un bien. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo el reembargo de un bien

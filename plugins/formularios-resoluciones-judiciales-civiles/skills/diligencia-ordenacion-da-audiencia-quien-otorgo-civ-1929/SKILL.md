@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-da-audiencia-quien-otorgo-civ-1929
-description: "Diligencia de ordenación que da audiencia a quien otorgó poderes sucesivos sobre la representación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que da audiencia a quien otorgó poderes sucesivos sobre la representación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que da audiencia a quien otorgó poderes sucesivos sobre la representación

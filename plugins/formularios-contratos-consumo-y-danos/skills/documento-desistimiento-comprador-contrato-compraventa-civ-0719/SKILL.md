@@ -1,6 +1,6 @@
 ---
 name: documento-desistimiento-comprador-contrato-compraventa-civ-0719
-description: "Documento de desistimiento del comprador en un contrato de compraventa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Documento de desistimiento del comprador en un contrato de compraventa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Documento de desistimiento del comprador en un contrato de compraventa

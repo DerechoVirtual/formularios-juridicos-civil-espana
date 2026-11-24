@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-tacha-testigo-art-379-2-lec-civ-1144
-description: "Escrito de oposición a la tacha de un testigo (art. 379.2 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la tacha de un testigo (art. 379.2 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la tacha de un testigo (art. 379.2 LEC)

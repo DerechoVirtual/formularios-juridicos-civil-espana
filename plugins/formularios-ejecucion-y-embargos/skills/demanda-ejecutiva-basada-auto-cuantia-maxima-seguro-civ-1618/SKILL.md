@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-basada-auto-cuantia-maxima-seguro-civ-1618
-description: "Demanda ejecutiva basada en auto de cuantía máxima por el seguro obligatorio de vehículos de motor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva basada en auto de cuantía máxima por el seguro obligatorio de vehículos de motor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva basada en auto de cuantía máxima por el seguro obligatorio de vehículos de motor

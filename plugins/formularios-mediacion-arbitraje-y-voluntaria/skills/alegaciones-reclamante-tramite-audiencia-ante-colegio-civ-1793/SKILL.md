@@ -1,6 +1,6 @@
 ---
 name: alegaciones-reclamante-tramite-audiencia-ante-colegio-civ-1793
-description: "Alegaciones del reclamante en el trámite de audiencia ante el Colegio Arbitral de Consumo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alegaciones del reclamante en el trámite de audiencia ante el Colegio Arbitral de Consumo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alegaciones del reclamante en el trámite de audiencia ante el Colegio Arbitral de Consumo

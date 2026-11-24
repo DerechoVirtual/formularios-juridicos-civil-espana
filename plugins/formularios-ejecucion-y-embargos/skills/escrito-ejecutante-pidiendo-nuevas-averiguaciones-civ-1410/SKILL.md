@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-nuevas-averiguaciones-civ-1410
-description: "Escrito del ejecutante pidiendo nuevas averiguaciones sobre el patrimonio del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo nuevas averiguaciones sobre el patrimonio del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo nuevas averiguaciones sobre el patrimonio del ejecutado

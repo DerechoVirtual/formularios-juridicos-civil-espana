@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-ejecutar-lo-convenido-conciliacion-civ-1624
-description: "Escrito pidiendo ejecutar lo convenido en la conciliación (general). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo ejecutar lo convenido en la conciliación (general). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo ejecutar lo convenido en la conciliación (general)

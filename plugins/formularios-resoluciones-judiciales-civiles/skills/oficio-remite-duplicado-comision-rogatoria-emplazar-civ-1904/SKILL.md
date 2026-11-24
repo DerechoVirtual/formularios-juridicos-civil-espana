@@ -1,6 +1,6 @@
 ---
 name: oficio-remite-duplicado-comision-rogatoria-emplazar-civ-1904
-description: "Oficio que remite por duplicado comisión rogatoria para emplazar a demandado en el extranjero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oficio que remite por duplicado comisión rogatoria para emplazar a demandado en el extranjero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oficio que remite por duplicado comisión rogatoria para emplazar a demandado en el extranjero

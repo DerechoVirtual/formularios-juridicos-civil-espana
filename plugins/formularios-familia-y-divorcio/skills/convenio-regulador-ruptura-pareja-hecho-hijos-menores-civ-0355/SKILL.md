@@ -1,6 +1,6 @@
 ---
 name: convenio-regulador-ruptura-pareja-hecho-hijos-menores-civ-0355
-description: "Convenio regulador de la ruptura de pareja de hecho con hijos menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio regulador de la ruptura de pareja de hecho con hijos menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio regulador de la ruptura de pareja de hecho con hijos menores

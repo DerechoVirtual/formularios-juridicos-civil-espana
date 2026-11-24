@@ -1,9 +1,10 @@
 {
   "name": "formularios-resoluciones-judiciales-civiles",
   "version": "1.0.0",
-  "description": "Resoluciones judiciales civiles: autos, decretos y diligencias: 399 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Modelos de las resoluciones que dicta el órgano judicial en el proceso civil: autos, sentencias, providencias, decretos y diligencias de ordenación del Letrado de la Administración de Justicia (admisión, ejecución, embargo, subasta, medidas cautelares, suspensión…). Útil para jueces, LAJ, opositores y para anticipar o revisar lo que dicta el juzgado. Requiere Jurisprudenciator.",
+  "description": "Resoluciones judiciales civiles: autos, decretos y diligencias: 399 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Modelos de las resoluciones que dicta el órgano judicial en el proceso civil: autos, sentencias, providencias, decretos y diligencias de ordenación del Letrado de la Administración de Justicia (admisión, ejecución, embargo, subasta, medidas cautelares, suspensión…). Útil para jueces, LAJ, opositores y para anticipar o revisar lo que dicta el juzgado. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
-    "name": "Derecho Virtual"
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "displayName": "Resoluciones judiciales civiles: autos, decretos y diligencias · España",
   "icon": "./.claude-plugin/icon.png",
@@ -19,5 +20,7 @@
     "modelos",
     "civil",
     "resoluciones-judiciales"
-  ]
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana",
+  "documentationUrl": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana/tree/main/plugins/formularios-resoluciones-judiciales-civiles"
 }

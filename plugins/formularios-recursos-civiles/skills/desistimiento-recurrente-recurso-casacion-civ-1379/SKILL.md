@@ -1,6 +1,6 @@
 ---
 name: desistimiento-recurrente-recurso-casacion-civ-1379
-description: "Desistimiento del recurrente del recurso de casación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del recurrente del recurso de casación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del recurrente del recurso de casación

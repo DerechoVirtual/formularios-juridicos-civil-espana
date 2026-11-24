@@ -1,6 +1,6 @@
 ---
 name: encabezamiento-demanda-procurador-nombre-tutor-menor-civ-1081
-description: "Encabezamiento de demanda con procurador en nombre del tutor de un menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Encabezamiento de demanda con procurador en nombre del tutor de un menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Encabezamiento de demanda con procurador en nombre del tutor de un menor

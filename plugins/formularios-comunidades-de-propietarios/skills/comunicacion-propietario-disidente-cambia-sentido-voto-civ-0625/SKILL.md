@@ -1,6 +1,6 @@
 ---
 name: comunicacion-propietario-disidente-cambia-sentido-voto-civ-0625
-description: "Comunicación del propietario disidente que cambia el sentido de su voto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del propietario disidente que cambia el sentido de su voto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del propietario disidente que cambia el sentido de su voto

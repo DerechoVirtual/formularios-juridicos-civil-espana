@@ -1,6 +1,6 @@
 ---
 name: cuenta-final-justificada-administrador-herencia-civ-0489
-description: "Cuenta final justificada del administrador de la herencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cuenta final justificada del administrador de la herencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cuenta final justificada del administrador de la herencia

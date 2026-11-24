@@ -1,6 +1,6 @@
 ---
 name: solicitud-actor-dicte-auto-allanamiento-parcial-pedido-civ-1070
-description: "Solicitud del actor de que se dicte auto de allanamiento parcial pedido por el demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del actor de que se dicte auto de allanamiento parcial pedido por el demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del actor de que se dicte auto de allanamiento parcial pedido por el demandado

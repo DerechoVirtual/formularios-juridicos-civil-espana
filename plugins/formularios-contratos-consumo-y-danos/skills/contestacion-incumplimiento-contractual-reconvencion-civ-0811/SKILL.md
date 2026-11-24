@@ -1,6 +1,6 @@
 ---
 name: contestacion-incumplimiento-contractual-reconvencion-civ-0811
-description: "Contestación por incumplimiento contractual con reconvención de resolución e indemnización. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación por incumplimiento contractual con reconvención de resolución e indemnización. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación por incumplimiento contractual con reconvención de resolución e indemnización

@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecucion-tras-decreto-termina-monitorio-civ-1172
-description: "Solicitud de ejecución tras el decreto que termina el monitorio por incomparecencia del deudor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ejecución tras el decreto que termina el monitorio por incomparecencia del deudor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ejecución tras el decreto que termina el monitorio por incomparecencia del deudor

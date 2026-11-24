@@ -1,6 +1,6 @@
 ---
 name: demanda-terceria-dominio-conyuge-deudor-bien-privativo-civ-1446
-description: "Demanda de tercería de dominio del cónyuge del deudor por bien privativo embargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de tercería de dominio del cónyuge del deudor por bien privativo embargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de tercería de dominio del cónyuge del deudor por bien privativo embargado

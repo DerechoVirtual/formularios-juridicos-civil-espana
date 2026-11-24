@@ -1,6 +1,6 @@
 ---
 name: reconocimiento-ejecucion-espana-sentencia-extranjera-civ-0352
-description: "Reconocimiento y ejecución en España de sentencia extranjera de alimentos (demanda). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reconocimiento y ejecución en España de sentencia extranjera de alimentos (demanda). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reconocimiento y ejecución en España de sentencia extranjera de alimentos (demanda)

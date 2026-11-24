@@ -1,6 +1,6 @@
 ---
 name: demanda-revision-sentencia-firme-recuperacion-civ-1329
-description: "Demanda de revisión de sentencia firme por recuperación de documentos decisivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de revisión de sentencia firme por recuperación de documentos decisivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de revisión de sentencia firme por recuperación de documentos decisivos

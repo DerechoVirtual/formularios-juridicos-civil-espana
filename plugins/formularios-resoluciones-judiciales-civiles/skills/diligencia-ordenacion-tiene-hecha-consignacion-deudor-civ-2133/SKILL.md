@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-tiene-hecha-consignacion-deudor-civ-2133
-description: "Diligencia de ordenación que tiene por hecha la consignación del deudor y el pago al acreedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que tiene por hecha la consignación del deudor y el pago al acreedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que tiene por hecha la consignación del deudor y el pago al acreedor

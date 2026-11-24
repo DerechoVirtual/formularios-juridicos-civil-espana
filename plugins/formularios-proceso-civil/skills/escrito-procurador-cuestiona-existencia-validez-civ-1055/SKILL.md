@@ -1,6 +1,6 @@
 ---
 name: escrito-procurador-cuestiona-existencia-validez-civ-1055
-description: "Escrito del procurador que cuestiona la existencia y validez de una revocación tácita de su poder. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del procurador que cuestiona la existencia y validez de una revocación tácita de su poder. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del procurador que cuestiona la existencia y validez de una revocación tácita de su poder

@@ -1,6 +1,6 @@
 ---
 name: escrito-demandante-aportando-dictamen-pericial-cinco-civ-1125
-description: "Escrito del demandante aportando dictamen pericial cinco días antes de la audiencia previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandante aportando dictamen pericial cinco días antes de la audiencia previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandante aportando dictamen pericial cinco días antes de la audiencia previa

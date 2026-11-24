@@ -1,6 +1,6 @@
 ---
 name: escrito-procurador-aporta-acto-comunicacion-no-civ-0896
-description: "Escrito del procurador que aporta el acto de comunicación no entregado a su destinatario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del procurador que aporta el acto de comunicación no entregado a su destinatario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del procurador que aporta el acto de comunicación no entregado a su destinatario

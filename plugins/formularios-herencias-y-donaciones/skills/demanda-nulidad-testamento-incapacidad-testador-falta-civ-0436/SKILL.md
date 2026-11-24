@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-testamento-incapacidad-testador-falta-civ-0436
-description: "Demanda de nulidad de testamento por incapacidad del testador y falta de formalidades. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad de testamento por incapacidad del testador y falta de formalidades. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad de testamento por incapacidad del testador y falta de formalidades

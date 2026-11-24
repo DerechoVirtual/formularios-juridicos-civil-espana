@@ -1,6 +1,6 @@
 ---
 name: acta-notificacion-pago-legitima-metalico-segun-derecho-civ-0428
-description: "Acta de notificación del pago de la legítima en metálico según el Derecho gallego. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de notificación del pago de la legítima en metálico según el Derecho gallego. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de notificación del pago de la legítima en metálico según el Derecho gallego

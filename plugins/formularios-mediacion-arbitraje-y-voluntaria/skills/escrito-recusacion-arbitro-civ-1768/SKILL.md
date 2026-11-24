@@ -1,6 +1,6 @@
 ---
 name: escrito-recusacion-arbitro-civ-1768
-description: "Escrito de recusación de un árbitro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de recusación de un árbitro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de recusación de un árbitro

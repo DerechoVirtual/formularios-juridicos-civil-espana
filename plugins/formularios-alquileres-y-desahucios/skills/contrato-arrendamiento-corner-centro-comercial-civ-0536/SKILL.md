@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-corner-centro-comercial-civ-0536
-description: "Contrato de arrendamiento de un corner en centro comercial con prohibición de cesión y subarriendo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de un corner en centro comercial con prohibición de cesión y subarriendo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de un corner en centro comercial con prohibición de cesión y subarriendo

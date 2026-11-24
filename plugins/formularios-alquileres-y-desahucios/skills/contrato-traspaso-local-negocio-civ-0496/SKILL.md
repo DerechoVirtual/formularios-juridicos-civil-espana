@@ -1,6 +1,6 @@
 ---
 name: contrato-traspaso-local-negocio-civ-0496
-description: "Contrato de traspaso de local de negocio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de traspaso de local de negocio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de traspaso de local de negocio

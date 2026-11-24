@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-separacion-previa-civ-0345
-description: "Demanda de divorcio contencioso con separación previa y modificación provisional de las medidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso con separación previa y modificación provisional de las medidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso con separación previa y modificación provisional de las medidas

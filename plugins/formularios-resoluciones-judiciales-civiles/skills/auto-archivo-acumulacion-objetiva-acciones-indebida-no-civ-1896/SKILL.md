@@ -1,6 +1,6 @@
 ---
 name: auto-archivo-acumulacion-objetiva-acciones-indebida-no-civ-1896
-description: "Auto de archivo por acumulación objetiva de acciones indebida no subsanada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de archivo por acumulación objetiva de acciones indebida no subsanada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de archivo por acumulación objetiva de acciones indebida no subsanada

@@ -1,6 +1,6 @@
 ---
 name: demanda-repeticion-aseguradora-contra-conductor-civ-0768
-description: "Demanda de repetición de la aseguradora contra el conductor condenado por delito vial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de repetición de la aseguradora contra el conductor condenado por delito vial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de repetición de la aseguradora contra el conductor condenado por delito vial

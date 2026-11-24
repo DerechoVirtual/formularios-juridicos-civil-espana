@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-bienes-embargados-realice-persona-civ-1696
-description: "Escrito pidiendo que los bienes embargados los realice una persona o entidad especializada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo que los bienes embargados los realice una persona o entidad especializada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo que los bienes embargados los realice una persona o entidad especializada

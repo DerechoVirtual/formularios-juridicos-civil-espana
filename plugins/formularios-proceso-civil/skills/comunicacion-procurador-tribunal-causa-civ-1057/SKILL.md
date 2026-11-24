@@ -1,6 +1,6 @@
 ---
 name: comunicacion-procurador-tribunal-causa-civ-1057
-description: "Comunicación del procurador al tribunal de una causa de incompatibilidad para representar a la parte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del procurador al tribunal de una causa de incompatibilidad para representar a la parte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del procurador al tribunal de una causa de incompatibilidad para representar a la parte

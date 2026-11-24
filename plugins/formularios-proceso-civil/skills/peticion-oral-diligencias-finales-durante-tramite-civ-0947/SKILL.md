@@ -1,6 +1,6 @@
 ---
 name: peticion-oral-diligencias-finales-durante-tramite-civ-0947
-description: "Petición oral de diligencias finales durante el trámite de conclusiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Petición oral de diligencias finales durante el trámite de conclusiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Petición oral de diligencias finales durante el trámite de conclusiones

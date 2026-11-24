@@ -1,6 +1,6 @@
 ---
 name: escrito-procurador-aporta-documentacion-acto-civ-0906
-description: "Escrito del procurador que aporta la documentación de un acto de comunicación cumplimentado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del procurador que aporta la documentación de un acto de comunicación cumplimentado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del procurador que aporta la documentación de un acto de comunicación cumplimentado

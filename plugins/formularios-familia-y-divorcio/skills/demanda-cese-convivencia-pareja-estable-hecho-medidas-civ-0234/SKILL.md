@@ -1,6 +1,6 @@
 ---
 name: demanda-cese-convivencia-pareja-estable-hecho-medidas-civ-0234
-description: "Demanda por cese de convivencia de pareja estable de hecho con medidas cautelares (Derecho común). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda por cese de convivencia de pareja estable de hecho con medidas cautelares (Derecho común). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda por cese de convivencia de pareja estable de hecho con medidas cautelares (Derecho común)

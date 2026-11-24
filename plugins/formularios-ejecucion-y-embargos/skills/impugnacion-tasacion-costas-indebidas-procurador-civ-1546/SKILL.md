@@ -1,6 +1,6 @@
 ---
 name: impugnacion-tasacion-costas-indebidas-procurador-civ-1546
-description: "Impugnación de la tasación de costas por indebidas (procurador) y por excesivas (abogado). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación de la tasación de costas por indebidas (procurador) y por excesivas (abogado). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación de la tasación de costas por indebidas (procurador) y por excesivas (abogado)

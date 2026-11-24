@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-rescision-lesion-derecho-civil-civ-0769
-description: "Contestación a la demanda de rescisión por lesión (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de rescisión por lesión (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de rescisión por lesión (Derecho civil catalán)

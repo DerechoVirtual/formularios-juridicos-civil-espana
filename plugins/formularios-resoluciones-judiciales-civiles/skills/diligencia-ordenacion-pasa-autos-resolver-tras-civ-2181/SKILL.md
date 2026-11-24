@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-pasa-autos-resolver-tras-civ-2181
-description: "Diligencia de ordenación que pasa los autos para resolver tras contestarse la oposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que pasa los autos para resolver tras contestarse la oposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que pasa los autos para resolver tras contestarse la oposición

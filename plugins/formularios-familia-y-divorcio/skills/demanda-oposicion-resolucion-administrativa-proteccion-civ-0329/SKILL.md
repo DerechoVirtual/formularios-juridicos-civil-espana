@@ -1,6 +1,6 @@
 ---
 name: demanda-oposicion-resolucion-administrativa-proteccion-civ-0329
-description: "Demanda de oposición a resolución administrativa de protección de menores tras recabar el expediente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de oposición a resolución administrativa de protección de menores tras recabar el expediente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de oposición a resolución administrativa de protección de menores tras recabar el expediente

@@ -1,6 +1,6 @@
 ---
 name: escrito-conjunto-ejecutante-ejecutado-acuerdan-civ-1549
-description: "Escrito conjunto de ejecutante y ejecutado que acuerdan la valoración del bien embargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito conjunto de ejecutante y ejecutado que acuerdan la valoración del bien embargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito conjunto de ejecutante y ejecutado que acuerdan la valoración del bien embargado

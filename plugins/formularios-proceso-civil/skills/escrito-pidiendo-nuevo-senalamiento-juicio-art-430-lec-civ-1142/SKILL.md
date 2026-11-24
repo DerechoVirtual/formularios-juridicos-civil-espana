@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-nuevo-senalamiento-juicio-art-430-lec-civ-1142
-description: "Escrito pidiendo nuevo señalamiento del juicio (art. 430 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo nuevo señalamiento del juicio (art. 430 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo nuevo señalamiento del juicio (art. 430 LEC)

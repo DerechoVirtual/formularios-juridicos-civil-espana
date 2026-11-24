@@ -1,6 +1,6 @@
 ---
 name: decreto-sobresee-ejecucion-provisional-ordena-devolver-civ-2093
-description: "Decreto que sobresee la ejecución provisional y ordena devolver lo cobrado tras revocarse la condena. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que sobresee la ejecución provisional y ordena devolver lo cobrado tras revocarse la condena. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que sobresee la ejecución provisional y ordena devolver lo cobrado tras revocarse la condena

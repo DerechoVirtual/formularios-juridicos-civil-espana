@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-opone-allanamiento-ejecutante-civ-1700
-description: "Escrito del ejecutado que se opone al allanamiento del ejecutante a la tercería. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que se opone al allanamiento del ejecutante a la tercería. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que se opone al allanamiento del ejecutante a la tercería

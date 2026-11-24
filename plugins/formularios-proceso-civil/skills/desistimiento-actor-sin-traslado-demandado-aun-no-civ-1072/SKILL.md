@@ -1,6 +1,6 @@
 ---
 name: desistimiento-actor-sin-traslado-demandado-aun-no-civ-1072
-description: "Desistimiento del actor sin traslado al demandado aún no emplazado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento del actor sin traslado al demandado aún no emplazado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento del actor sin traslado al demandado aún no emplazado

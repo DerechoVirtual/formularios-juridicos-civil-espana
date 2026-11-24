@@ -1,6 +1,6 @@
 ---
 name: solicitud-designacion-judicial-arbitro-unico-civ-1790
-description: "Solicitud de designación judicial de árbitro único. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de designación judicial de árbitro único. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de designación judicial de árbitro único

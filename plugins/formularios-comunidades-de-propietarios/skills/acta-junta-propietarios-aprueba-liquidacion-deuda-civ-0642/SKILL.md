@@ -1,6 +1,6 @@
 ---
 name: acta-junta-propietarios-aprueba-liquidacion-deuda-civ-0642
-description: "Acta de junta de propietarios que aprueba la liquidación de deuda y la reclamación al moroso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de propietarios que aprueba la liquidación de deuda y la reclamación al moroso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de propietarios que aprueba la liquidación de deuda y la reclamación al moroso

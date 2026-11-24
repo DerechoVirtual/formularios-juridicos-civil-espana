@@ -1,6 +1,6 @@
 ---
 name: demanda-reconocimiento-necesidad-asentimiento-adopcion-civ-0298
-description: "Demanda de reconocimiento de necesidad de asentimiento en la adopción, con suspensión del expediente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reconocimiento de necesidad de asentimiento en la adopción, con suspensión del expediente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reconocimiento de necesidad de asentimiento en la adopción, con suspensión del expediente

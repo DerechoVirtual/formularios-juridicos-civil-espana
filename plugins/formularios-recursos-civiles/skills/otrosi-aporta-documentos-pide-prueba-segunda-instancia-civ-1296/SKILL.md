@@ -1,6 +1,6 @@
 ---
 name: otrosi-aporta-documentos-pide-prueba-segunda-instancia-civ-1296
-description: "Otrosí que aporta documentos y pide prueba en segunda instancia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que aporta documentos y pide prueba en segunda instancia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que aporta documentos y pide prueba en segunda instancia

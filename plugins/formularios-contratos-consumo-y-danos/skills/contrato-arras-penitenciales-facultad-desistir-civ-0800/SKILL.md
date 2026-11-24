@@ -1,6 +1,6 @@
 ---
 name: contrato-arras-penitenciales-facultad-desistir-civ-0800
-description: "Contrato de arras penitenciales con facultad de desistir. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arras penitenciales con facultad de desistir. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arras penitenciales con facultad de desistir

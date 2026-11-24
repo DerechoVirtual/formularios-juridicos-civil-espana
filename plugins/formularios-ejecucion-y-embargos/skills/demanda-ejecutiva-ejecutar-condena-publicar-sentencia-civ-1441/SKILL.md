@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-ejecutar-condena-publicar-sentencia-civ-1441
-description: "Demanda ejecutiva para ejecutar la condena a publicar la sentencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva para ejecutar la condena a publicar la sentencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva para ejecutar la condena a publicar la sentencia

@@ -1,6 +1,6 @@
 ---
 name: oposicion-ejecucion-titulo-extrajudicial-falta-civ-1560
-description: "Oposición a ejecución de título extrajudicial por falta de capacidad o representación del ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a ejecución de título extrajudicial por falta de capacidad o representación del ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a ejecución de título extrajudicial por falta de capacidad o representación del ejecutante

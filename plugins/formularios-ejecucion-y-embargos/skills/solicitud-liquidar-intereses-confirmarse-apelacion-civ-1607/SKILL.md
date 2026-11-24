@@ -1,6 +1,6 @@
 ---
 name: solicitud-liquidar-intereses-confirmarse-apelacion-civ-1607
-description: "Solicitud de liquidar intereses al confirmarse en apelación la condena consignada por la aseguradora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de liquidar intereses al confirmarse en apelación la condena consignada por la aseguradora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de liquidar intereses al confirmarse en apelación la condena consignada por la aseguradora

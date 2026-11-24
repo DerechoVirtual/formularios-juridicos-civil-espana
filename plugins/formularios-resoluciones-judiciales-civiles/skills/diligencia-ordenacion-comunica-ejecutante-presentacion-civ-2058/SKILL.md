@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-comunica-ejecutante-presentacion-civ-2058
-description: "Diligencia de ordenación que comunica al ejecutante la presentación de títulos por el ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que comunica al ejecutante la presentación de títulos por el ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que comunica al ejecutante la presentación de títulos por el ejecutado

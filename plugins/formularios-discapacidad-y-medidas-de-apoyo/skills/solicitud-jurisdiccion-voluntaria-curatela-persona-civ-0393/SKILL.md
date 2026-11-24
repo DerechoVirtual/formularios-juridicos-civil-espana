@@ -1,6 +1,6 @@
 ---
 name: solicitud-jurisdiccion-voluntaria-curatela-persona-civ-0393
-description: "Solicitud en jurisdicción voluntaria de curatela para persona con ludopatía grave. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud en jurisdicción voluntaria de curatela para persona con ludopatía grave. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud en jurisdicción voluntaria de curatela para persona con ludopatía grave

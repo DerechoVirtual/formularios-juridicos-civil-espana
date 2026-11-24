@@ -1,6 +1,6 @@
 ---
 name: escrito-tercero-titular-no-registral-vivienda-familiar-civ-0267
-description: "Escrito del tercero titular no registral de la vivienda familiar que se opone a su embargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del tercero titular no registral de la vivienda familiar que se opone a su embargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del tercero titular no registral de la vivienda familiar que se opone a su embargo

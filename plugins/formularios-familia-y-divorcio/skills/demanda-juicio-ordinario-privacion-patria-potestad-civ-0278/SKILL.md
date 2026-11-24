@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-privacion-patria-potestad-civ-0278
-description: "Demanda de juicio ordinario de privación de la patria potestad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario de privación de la patria potestad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario de privación de la patria potestad

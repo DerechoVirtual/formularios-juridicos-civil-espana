@@ -1,6 +1,6 @@
 ---
 name: requerimiento-resolver-compraventa-inmueble-retraso-civ-0702
-description: "Requerimiento para resolver la compraventa de inmueble por retraso y devolver lo pagado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento para resolver la compraventa de inmueble por retraso y devolver lo pagado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento para resolver la compraventa de inmueble por retraso y devolver lo pagado

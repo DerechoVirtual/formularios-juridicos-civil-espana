@@ -1,6 +1,6 @@
 ---
 name: contestacion-reclamacion-filiacion-hijo-impugnacion-civ-0117
-description: "Contestación a la reclamación de filiación del hijo con impugnación de la contradictoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reclamación de filiación del hijo con impugnación de la contradictoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reclamación de filiación del hijo con impugnación de la contradictoria

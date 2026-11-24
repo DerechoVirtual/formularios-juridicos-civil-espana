@@ -1,6 +1,6 @@
 ---
 name: demanda-modificacion-medidas-definitivas-porque-civ-0024
-description: "Demanda de modificación de medidas definitivas porque el progenitor custodio cambia de domicilio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de modificación de medidas definitivas porque el progenitor custodio cambia de domicilio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de modificación de medidas definitivas porque el progenitor custodio cambia de domicilio

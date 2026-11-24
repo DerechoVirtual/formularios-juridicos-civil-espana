@@ -1,6 +1,6 @@
 ---
 name: solicitud-autorizacion-internamiento-no-voluntario-civ-0385
-description: "Solicitud de autorización de internamiento no voluntario en un centro geriátrico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de autorización de internamiento no voluntario en un centro geriátrico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de autorización de internamiento no voluntario en un centro geriátrico

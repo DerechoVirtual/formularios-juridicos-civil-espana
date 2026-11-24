@@ -1,6 +1,6 @@
 ---
 name: decreto-nombra-depositario-tercero-no-posee-bien-civ-1988
-description: "Decreto que nombra depositario a un tercero que no posee el bien embargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que nombra depositario a un tercero que no posee el bien embargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que nombra depositario a un tercero que no posee el bien embargado

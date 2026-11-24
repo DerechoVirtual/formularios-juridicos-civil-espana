@@ -1,6 +1,6 @@
 ---
 name: solicitud-autorizacion-judicial-vender-bienes-hijos-civ-0189
-description: "Solicitud de autorización judicial para vender bienes de hijos menores (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de autorización judicial para vender bienes de hijos menores (Derecho civil catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de autorización judicial para vender bienes de hijos menores (Derecho civil catalán)

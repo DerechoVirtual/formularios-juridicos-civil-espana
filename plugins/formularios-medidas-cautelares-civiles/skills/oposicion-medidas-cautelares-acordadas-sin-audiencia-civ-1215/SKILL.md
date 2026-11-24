@@ -1,6 +1,6 @@
 ---
 name: oposicion-medidas-cautelares-acordadas-sin-audiencia-civ-1215
-description: "Oposición a las medidas cautelares acordadas sin audiencia del demandado (embargo preventivo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a las medidas cautelares acordadas sin audiencia del demandado (embargo preventivo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a las medidas cautelares acordadas sin audiencia del demandado (embargo preventivo)

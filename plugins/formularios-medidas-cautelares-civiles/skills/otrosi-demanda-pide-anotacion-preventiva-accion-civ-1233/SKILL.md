@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-pide-anotacion-preventiva-accion-civ-1233
-description: "Otrosí de demanda que pide anotación preventiva en acción reivindicatoria, con caución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de demanda que pide anotación preventiva en acción reivindicatoria, con caución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de demanda que pide anotación preventiva en acción reivindicatoria, con caución

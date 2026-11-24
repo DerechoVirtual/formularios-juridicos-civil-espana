@@ -1,6 +1,6 @@
 ---
 name: notificacion-arrendatario-vivienda-no-renovara-contrato-civ-0585
-description: "Notificación del arrendatario de vivienda de que no renovará el contrato. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación del arrendatario de vivienda de que no renovará el contrato. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación del arrendatario de vivienda de que no renovará el contrato

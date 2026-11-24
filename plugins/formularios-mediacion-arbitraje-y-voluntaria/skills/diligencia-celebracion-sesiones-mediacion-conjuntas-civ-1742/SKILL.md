@@ -1,6 +1,6 @@
 ---
 name: diligencia-celebracion-sesiones-mediacion-conjuntas-civ-1742
-description: "Diligencia de celebración de las sesiones de mediación, conjuntas o individuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de celebración de las sesiones de mediación, conjuntas o individuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de celebración de las sesiones de mediación, conjuntas o individuales

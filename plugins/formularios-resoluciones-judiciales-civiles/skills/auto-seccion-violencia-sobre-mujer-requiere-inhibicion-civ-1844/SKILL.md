@@ -1,6 +1,6 @@
 ---
 name: auto-seccion-violencia-sobre-mujer-requiere-inhibicion-civ-1844
-description: "Auto de la Sección de Violencia sobre la Mujer que requiere de inhibición a la Sección de Familia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto de la Sección de Violencia sobre la Mujer que requiere de inhibición a la Sección de Familia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto de la Sección de Violencia sobre la Mujer que requiere de inhibición a la Sección de Familia

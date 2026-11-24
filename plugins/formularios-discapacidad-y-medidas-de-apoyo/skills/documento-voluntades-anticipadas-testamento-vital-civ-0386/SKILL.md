@@ -1,6 +1,6 @@
 ---
 name: documento-voluntades-anticipadas-testamento-vital-civ-0386
-description: "Documento de voluntades anticipadas o testamento vital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Documento de voluntades anticipadas o testamento vital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Documento de voluntades anticipadas o testamento vital

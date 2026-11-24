@@ -1,6 +1,6 @@
 ---
 name: testamento-reconocimiento-hijo-extramatrimonial-civ-0424
-description: "Testamento con reconocimiento de hijo extramatrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento con reconocimiento de hijo extramatrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento con reconocimiento de hijo extramatrimonial

@@ -1,6 +1,6 @@
 ---
 name: solicitud-medidas-sobre-hijos-menores-ante-seccion-civ-0084
-description: "Solicitud de medidas sobre hijos menores ante la Sección de Violencia sobre la Mujer. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de medidas sobre hijos menores ante la Sección de Violencia sobre la Mujer. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de medidas sobre hijos menores ante la Sección de Violencia sobre la Mujer

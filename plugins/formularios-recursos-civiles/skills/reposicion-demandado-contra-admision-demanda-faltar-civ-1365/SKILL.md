@@ -1,6 +1,6 @@
 ---
 name: reposicion-demandado-contra-admision-demanda-faltar-civ-1365
-description: "Reposición del demandado contra la admisión de la demanda por faltar documentos esenciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reposición del demandado contra la admisión de la demanda por faltar documentos esenciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reposición del demandado contra la admisión de la demanda por faltar documentos esenciales

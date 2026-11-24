@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-gastos-extraordinarios-no-previstos-civ-1517
-description: "Demanda ejecutiva de gastos extraordinarios no previstos en la resolución judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de gastos extraordinarios no previstos en la resolución judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de gastos extraordinarios no previstos en la resolución judicial

@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-impugna-oposicion-fondo-ejecucion-civ-1505
-description: "Escrito del ejecutante que impugna la oposición de fondo a la ejecución por impago de pensiones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante que impugna la oposición de fondo a la ejecución por impago de pensiones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante que impugna la oposición de fondo a la ejecución por impago de pensiones

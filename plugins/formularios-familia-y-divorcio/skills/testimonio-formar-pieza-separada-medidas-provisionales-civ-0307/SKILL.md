@@ -1,6 +1,6 @@
 ---
 name: testimonio-formar-pieza-separada-medidas-provisionales-civ-0307
-description: "Testimonio para formar pieza separada de medidas provisionales pedidas en la demanda de separación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testimonio para formar pieza separada de medidas provisionales pedidas en la demanda de separación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testimonio para formar pieza separada de medidas provisionales pedidas en la demanda de separación

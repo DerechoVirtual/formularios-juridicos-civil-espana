@@ -1,6 +1,6 @@
 ---
 name: escrito-tutor-pidiendo-autorizacion-judicial-demandar-civ-0375
-description: "Escrito del tutor pidiendo autorización judicial para demandar en nombre del tutelado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del tutor pidiendo autorización judicial para demandar en nombre del tutelado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del tutor pidiendo autorización judicial para demandar en nombre del tutelado

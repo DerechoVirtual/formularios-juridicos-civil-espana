@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-suspender-procedimiento-prejudicialidad-civ-2161
-description: "Auto que deniega suspender el procedimiento por prejudicialidad civil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega suspender el procedimiento por prejudicialidad civil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega suspender el procedimiento por prejudicialidad civil

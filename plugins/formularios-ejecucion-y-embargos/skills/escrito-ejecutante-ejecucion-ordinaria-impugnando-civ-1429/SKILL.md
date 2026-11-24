@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-ejecucion-ordinaria-impugnando-civ-1429
-description: "Escrito del ejecutante en la ejecución ordinaria impugnando la oposición por abusividad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante en la ejecución ordinaria impugnando la oposición por abusividad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante en la ejecución ordinaria impugnando la oposición por abusividad

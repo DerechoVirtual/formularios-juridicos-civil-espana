@@ -1,6 +1,6 @@
 ---
 name: decreto-tiene-desistido-ejecutante-sigue-ejecucion-civ-2022
-description: "Decreto que tiene por desistido al ejecutante y sigue la ejecución a favor del tercerista con título. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que tiene por desistido al ejecutante y sigue la ejecución a favor del tercerista con título. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que tiene por desistido al ejecutante y sigue la ejecución a favor del tercerista con título

@@ -1,6 +1,6 @@
 ---
 name: oposicion-incidente-excepcional-nulidad-actuaciones-civ-1319
-description: "Oposición al incidente excepcional de nulidad de actuaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición al incidente excepcional de nulidad de actuaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición al incidente excepcional de nulidad de actuaciones

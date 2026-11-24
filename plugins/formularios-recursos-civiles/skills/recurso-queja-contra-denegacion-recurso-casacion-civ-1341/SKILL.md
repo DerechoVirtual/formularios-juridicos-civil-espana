@@ -1,6 +1,6 @@
 ---
 name: recurso-queja-contra-denegacion-recurso-casacion-civ-1341
-description: "Recurso de queja contra la denegación del recurso de casación (anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso de queja contra la denegación del recurso de casación (anterior al RDL 5 2023). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso de queja contra la denegación del recurso de casación (anterior al RDL 5 2023)

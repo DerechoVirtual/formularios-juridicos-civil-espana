@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutante-pidiendo-celebre-subasta-civ-1473
-description: "Escrito del ejecutante pidiendo que se celebre la subasta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutante pidiendo que se celebre la subasta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutante pidiendo que se celebre la subasta

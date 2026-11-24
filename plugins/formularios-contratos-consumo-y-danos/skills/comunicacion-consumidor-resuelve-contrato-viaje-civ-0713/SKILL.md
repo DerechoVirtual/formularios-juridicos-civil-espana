@@ -1,6 +1,6 @@
 ---
 name: comunicacion-consumidor-resuelve-contrato-viaje-civ-0713
-description: "Comunicación del consumidor que resuelve el contrato de viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del consumidor que resuelve el contrato de viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del consumidor que resuelve el contrato de viaje combinado

@@ -1,6 +1,6 @@
 ---
 name: recurso-directo-revision-contra-decreto-laj-deniega-civ-1526
-description: "Recurso directo de revisión contra el decreto del LAJ que deniega la mejora de embargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recurso directo de revisión contra el decreto del LAJ que deniega la mejora de embargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recurso directo de revisión contra el decreto del LAJ que deniega la mejora de embargo

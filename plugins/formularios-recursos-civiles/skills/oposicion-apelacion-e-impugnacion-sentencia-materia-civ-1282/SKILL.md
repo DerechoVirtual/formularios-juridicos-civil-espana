@@ -1,6 +1,6 @@
 ---
 name: oposicion-apelacion-e-impugnacion-sentencia-materia-civ-1282
-description: "Oposición a la apelación e impugnación de la sentencia en materia familiar (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la apelación e impugnación de la sentencia en materia familiar (Derecho catalán). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la apelación e impugnación de la sentencia en materia familiar (Derecho catalán)

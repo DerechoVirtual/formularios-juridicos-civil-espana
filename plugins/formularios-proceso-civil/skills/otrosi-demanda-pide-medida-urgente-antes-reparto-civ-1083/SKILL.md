@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-pide-medida-urgente-antes-reparto-civ-1083
-description: "Otrosí de la demanda que pide una medida urgente antes del reparto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda que pide una medida urgente antes del reparto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda que pide una medida urgente antes del reparto

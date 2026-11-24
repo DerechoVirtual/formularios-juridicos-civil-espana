@@ -1,6 +1,6 @@
 ---
 name: providencia-plazo-extraordinario-pedir-divorcio-civ-1876
-description: "Providencia con plazo extraordinario para pedir divorcio en procesos contenciosos (Ley 15 2005). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia con plazo extraordinario para pedir divorcio en procesos contenciosos (Ley 15 2005). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia con plazo extraordinario para pedir divorcio en procesos contenciosos (Ley 15 2005)

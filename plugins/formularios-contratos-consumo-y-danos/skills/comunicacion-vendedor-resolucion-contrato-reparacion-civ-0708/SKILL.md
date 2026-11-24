@@ -1,6 +1,6 @@
 ---
 name: comunicacion-vendedor-resolucion-contrato-reparacion-civ-0708
-description: "Comunicación al vendedor de la resolución del contrato por reparación o sustitución insatisfactoria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al vendedor de la resolución del contrato por reparación o sustitución insatisfactoria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al vendedor de la resolución del contrato por reparación o sustitución insatisfactoria

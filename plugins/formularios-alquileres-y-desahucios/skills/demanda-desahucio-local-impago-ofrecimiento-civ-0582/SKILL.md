@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-local-impago-ofrecimiento-civ-0582
-description: "Demanda de desahucio de local por impago, con ofrecimiento de transacción sobre las rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio de local por impago, con ofrecimiento de transacción sobre las rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio de local por impago, con ofrecimiento de transacción sobre las rentas

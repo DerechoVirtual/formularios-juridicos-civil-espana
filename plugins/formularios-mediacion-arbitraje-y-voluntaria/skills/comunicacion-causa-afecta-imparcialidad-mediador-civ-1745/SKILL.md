@@ -1,6 +1,6 @@
 ---
 name: comunicacion-causa-afecta-imparcialidad-mediador-civ-1745
-description: "Comunicación de causa que afecta a la imparcialidad del mediador, con conformidad para que siga. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación de causa que afecta a la imparcialidad del mediador, con conformidad para que siga. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación de causa que afecta a la imparcialidad del mediador, con conformidad para que siga

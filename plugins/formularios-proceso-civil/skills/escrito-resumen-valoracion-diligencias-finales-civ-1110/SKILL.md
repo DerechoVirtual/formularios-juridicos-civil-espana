@@ -1,6 +1,6 @@
 ---
 name: escrito-resumen-valoracion-diligencias-finales-civ-1110
-description: "Escrito de resumen y valoración de las diligencias finales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de resumen y valoración de las diligencias finales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de resumen y valoración de las diligencias finales

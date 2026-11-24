@@ -1,6 +1,6 @@
 ---
 name: demanda-ejecutiva-titulo-judicial-condena-dineraria-civ-1418
-description: "Demanda ejecutiva de título judicial con condena dineraria y de hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda ejecutiva de título judicial con condena dineraria y de hacer no personalísimo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda ejecutiva de título judicial con condena dineraria y de hacer no personalísimo

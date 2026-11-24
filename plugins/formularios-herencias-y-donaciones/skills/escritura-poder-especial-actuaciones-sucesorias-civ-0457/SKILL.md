@@ -1,6 +1,6 @@
 ---
 name: escritura-poder-especial-actuaciones-sucesorias-civ-0457
-description: "Escritura de poder especial para actuaciones sucesorias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de poder especial para actuaciones sucesorias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de poder especial para actuaciones sucesorias

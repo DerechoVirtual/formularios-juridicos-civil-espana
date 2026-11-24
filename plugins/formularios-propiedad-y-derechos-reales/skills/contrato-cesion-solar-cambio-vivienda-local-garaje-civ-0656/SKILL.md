@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-solar-cambio-vivienda-local-garaje-civ-0656
-description: "Contrato de cesión de un solar a cambio de vivienda, local y garaje futuros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de un solar a cambio de vivienda, local y garaje futuros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de un solar a cambio de vivienda, local y garaje futuros

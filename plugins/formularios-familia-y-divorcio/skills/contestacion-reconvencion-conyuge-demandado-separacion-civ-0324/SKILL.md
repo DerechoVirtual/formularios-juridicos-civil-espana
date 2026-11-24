@@ -1,6 +1,6 @@
 ---
 name: contestacion-reconvencion-conyuge-demandado-separacion-civ-0324
-description: "Contestación a la reconvención del cónyuge demandado en separación matrimonial contenciosa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la reconvención del cónyuge demandado en separación matrimonial contenciosa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la reconvención del cónyuge demandado en separación matrimonial contenciosa

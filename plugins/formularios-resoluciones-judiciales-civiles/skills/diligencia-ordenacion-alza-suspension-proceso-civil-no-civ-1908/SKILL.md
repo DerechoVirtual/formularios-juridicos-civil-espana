@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-alza-suspension-proceso-civil-no-civ-1908
-description: "Diligencia de ordenación que alza la suspensión del proceso civil por no aceptarse la abstención. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que alza la suspensión del proceso civil por no aceptarse la abstención. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que alza la suspensión del proceso civil por no aceptarse la abstención

@@ -1,6 +1,6 @@
 ---
 name: demanda-generica-juicio-ordinario-civ-1121
-description: "Demanda genérica de juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda genérica de juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda genérica de juicio ordinario

@@ -1,6 +1,6 @@
 ---
 name: auto-admite-juicio-division-herencia-intervencion-civ-2148
-description: "Auto que admite el juicio de división de herencia y la intervención del caudal hereditario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que admite el juicio de división de herencia y la intervención del caudal hereditario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que admite el juicio de división de herencia y la intervención del caudal hereditario

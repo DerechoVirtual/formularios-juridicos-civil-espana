@@ -1,6 +1,6 @@
 ---
 name: escrito-demandado-opone-compensacion-relaciones-civ-0916
-description: "Escrito del demandado que opone compensación por relaciones comerciales con el actor en verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del demandado que opone compensación por relaciones comerciales con el actor en verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del demandado que opone compensación por relaciones comerciales con el actor en verbal

@@ -1,6 +1,6 @@
 ---
 name: apelacion-ejecutado-contra-auto-desestima-oposicion-civ-1480
-description: "Apelación del ejecutado contra el auto que desestima la oposición (auto de cuantía máxima). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación del ejecutado contra el auto que desestima la oposición (auto de cuantía máxima). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación del ejecutado contra el auto que desestima la oposición (auto de cuantía máxima)

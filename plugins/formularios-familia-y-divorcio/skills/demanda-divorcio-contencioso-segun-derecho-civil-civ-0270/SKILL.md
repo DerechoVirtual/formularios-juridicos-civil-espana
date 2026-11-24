@@ -1,6 +1,6 @@
 ---
 name: demanda-divorcio-contencioso-segun-derecho-civil-civ-0270
-description: "Demanda de divorcio contencioso según el Derecho civil catalán tras separación judicial previa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de divorcio contencioso según el Derecho civil catalán tras separación judicial previa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de divorcio contencioso según el Derecho civil catalán tras separación judicial previa

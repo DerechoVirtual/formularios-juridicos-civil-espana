@@ -1,6 +1,6 @@
 ---
 name: decreto-admite-tramite-medidas-provisionales-previas-civ-1853
-description: "Decreto que admite a trámite las medidas provisionales previas a la demanda y cita a los cónyuges. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que admite a trámite las medidas provisionales previas a la demanda y cita a los cónyuges. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que admite a trámite las medidas provisionales previas a la demanda y cita a los cónyuges

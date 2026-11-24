@@ -1,6 +1,6 @@
 ---
 name: acta-inicial-mediacion-familiar-contrato-mediacion-civ-1752
-description: "Acta inicial de mediación familiar y contrato de mediación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta inicial de mediación familiar y contrato de mediación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta inicial de mediación familiar y contrato de mediación

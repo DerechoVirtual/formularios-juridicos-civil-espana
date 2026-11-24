@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-impugnacion-acuerdos-comunitarios-pide-civ-1249
-description: "Otrosí de la demanda de impugnación de acuerdos comunitarios que pide su suspensión cautelar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda de impugnación de acuerdos comunitarios que pide su suspensión cautelar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda de impugnación de acuerdos comunitarios que pide su suspensión cautelar

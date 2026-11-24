@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-despachar-ejecucion-sentencia-condena-no-civ-2090
-description: "Auto que deniega despachar ejecución de una sentencia de condena que no es firme. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega despachar ejecución de una sentencia de condena que no es firme. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega despachar ejecución de una sentencia de condena que no es firme

@@ -1,6 +1,6 @@
 ---
 name: personacion-nuevo-procurador-revocacion-tacita-anterior-civ-1061
-description: "Personación de nuevo procurador por revocación tácita del anterior. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Personación de nuevo procurador por revocación tácita del anterior. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Personación de nuevo procurador por revocación tácita del anterior

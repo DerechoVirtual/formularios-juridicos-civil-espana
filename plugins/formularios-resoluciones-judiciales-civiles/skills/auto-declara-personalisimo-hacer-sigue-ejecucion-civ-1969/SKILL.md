@@ -1,6 +1,6 @@
 ---
 name: auto-declara-personalisimo-hacer-sigue-ejecucion-civ-1969
-description: "Auto que declara personalísimo el hacer y sigue la ejecución por su equivalente con multa única. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que declara personalísimo el hacer y sigue la ejecución por su equivalente con multa única. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que declara personalísimo el hacer y sigue la ejecución por su equivalente con multa única

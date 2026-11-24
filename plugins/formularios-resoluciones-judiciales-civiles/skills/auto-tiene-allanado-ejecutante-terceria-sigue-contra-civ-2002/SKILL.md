@@ -1,6 +1,6 @@
 ---
 name: auto-tiene-allanado-ejecutante-terceria-sigue-contra-civ-2002
-description: "Auto que tiene por allanado al ejecutante en la tercería y la sigue contra el ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que tiene por allanado al ejecutante en la tercería y la sigue contra el ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que tiene por allanado al ejecutante en la tercería y la sigue contra el ejecutado

@@ -1,6 +1,6 @@
 ---
 name: escrito-peticion-embargo-bienes-ejecutado-tras-civ-1442
-description: "Escrito de petición de embargo de bienes del ejecutado tras la averiguación patrimonial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de petición de embargo de bienes del ejecutado tras la averiguación patrimonial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de petición de embargo de bienes del ejecutado tras la averiguación patrimonial

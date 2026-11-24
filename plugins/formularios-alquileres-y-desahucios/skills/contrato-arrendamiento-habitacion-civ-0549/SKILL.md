@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-habitacion-civ-0549
-description: "Contrato de arrendamiento de una habitación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de una habitación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de una habitación

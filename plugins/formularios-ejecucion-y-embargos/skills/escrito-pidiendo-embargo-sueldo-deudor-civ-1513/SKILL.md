@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-embargo-sueldo-deudor-civ-1513
-description: "Escrito pidiendo el embargo del sueldo del deudor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo el embargo del sueldo del deudor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo el embargo del sueldo del deudor

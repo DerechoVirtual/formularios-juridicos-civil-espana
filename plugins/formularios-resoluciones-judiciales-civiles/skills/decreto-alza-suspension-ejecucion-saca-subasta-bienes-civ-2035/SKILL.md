@@ -1,6 +1,6 @@
 ---
 name: decreto-alza-suspension-ejecucion-saca-subasta-bienes-civ-2035
-description: "Decreto que alza la suspensión de la ejecución y saca a subasta los bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que alza la suspensión de la ejecución y saca a subasta los bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que alza la suspensión de la ejecución y saca a subasta los bienes

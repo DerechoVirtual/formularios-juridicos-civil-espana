@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-ejecucion-fiador-solidario-avalista-civ-1395
-description: "Escrito de oposición a la ejecución del fiador solidario o avalista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la ejecución del fiador solidario o avalista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la ejecución del fiador solidario o avalista

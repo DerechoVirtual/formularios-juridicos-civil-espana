@@ -1,6 +1,6 @@
 ---
 name: auto-deniega-embargo-bienes-pertenecer-tercero-civ-2021
-description: "Auto que deniega el embargo de bienes por pertenecer a un tercero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que deniega el embargo de bienes por pertenecer a un tercero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que deniega el embargo de bienes por pertenecer a un tercero

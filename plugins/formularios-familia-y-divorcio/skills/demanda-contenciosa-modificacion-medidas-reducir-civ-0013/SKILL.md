@@ -1,6 +1,6 @@
 ---
 name: demanda-contenciosa-modificacion-medidas-reducir-civ-0013
-description: "Demanda contenciosa de modificación de medidas para reducir la pensión de alimentos de un hijo menor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contenciosa de modificación de medidas para reducir la pensión de alimentos de un hijo menor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contenciosa de modificación de medidas para reducir la pensión de alimentos de un hijo menor

@@ -1,6 +1,6 @@
 ---
 name: escrito-pidiendo-suspender-vista-coincidencia-civ-1092
-description: "Escrito pidiendo suspender la vista por coincidencia de señalamientos del letrado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito pidiendo suspender la vista por coincidencia de señalamientos del letrado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito pidiendo suspender la vista por coincidencia de señalamientos del letrado

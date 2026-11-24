@@ -1,6 +1,6 @@
 ---
 name: providencia-da-plazo-aportar-capitulaciones-civ-1851
-description: "Providencia que da plazo para aportar capitulaciones matrimoniales en separación de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Providencia que da plazo para aportar capitulaciones matrimoniales en separación de mutuo acuerdo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Providencia que da plazo para aportar capitulaciones matrimoniales en separación de mutuo acuerdo

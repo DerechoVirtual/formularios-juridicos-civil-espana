@@ -1,6 +1,6 @@
 ---
 name: solicitud-intervencion-tercero-juicio-ordinario-verbal-civ-1015
-description: "Solicitud de intervención de un tercero en juicio ordinario o verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de intervención de un tercero en juicio ordinario o verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de intervención de un tercero en juicio ordinario o verbal

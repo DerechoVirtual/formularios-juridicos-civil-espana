@@ -1,6 +1,6 @@
 ---
 name: escrito-plantea-cuestion-incidental-especial-civ-0998
-description: "Escrito que plantea cuestión incidental de especial pronunciamiento en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito que plantea cuestión incidental de especial pronunciamiento en juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito que plantea cuestión incidental de especial pronunciamiento en juicio ordinario

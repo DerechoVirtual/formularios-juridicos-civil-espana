@@ -1,6 +1,6 @@
 ---
 name: decreto-resuelve-sobre-reparto-sumas-recaudadas-civ-2028
-description: "Decreto que resuelve sobre el reparto de las sumas recaudadas en la ejecución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que resuelve sobre el reparto de las sumas recaudadas en la ejecución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que resuelve sobre el reparto de las sumas recaudadas en la ejecución

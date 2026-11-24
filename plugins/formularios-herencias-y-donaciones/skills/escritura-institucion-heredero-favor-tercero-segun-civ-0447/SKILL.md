@@ -1,6 +1,6 @@
 ---
 name: escritura-institucion-heredero-favor-tercero-segun-civ-0447
-description: "Escritura de institución de heredero a favor de un tercero según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de institución de heredero a favor de un tercero según el Derecho aragonés. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de institución de heredero a favor de un tercero según el Derecho aragonés

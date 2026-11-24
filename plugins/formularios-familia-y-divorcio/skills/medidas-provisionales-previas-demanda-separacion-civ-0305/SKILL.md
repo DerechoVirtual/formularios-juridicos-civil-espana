@@ -1,6 +1,6 @@
 ---
 name: medidas-provisionales-previas-demanda-separacion-civ-0305
-description: "Medidas provisionales previas a la demanda de separación de matrimonio sin hijos (solicitud). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Medidas provisionales previas a la demanda de separación de matrimonio sin hijos (solicitud). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Medidas provisionales previas a la demanda de separación de matrimonio sin hijos (solicitud)

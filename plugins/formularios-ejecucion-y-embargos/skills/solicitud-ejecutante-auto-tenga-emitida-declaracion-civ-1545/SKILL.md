@@ -1,6 +1,6 @@
 ---
 name: solicitud-ejecutante-auto-tenga-emitida-declaracion-civ-1545
-description: "Solicitud del ejecutante de auto que tenga por emitida la declaración de voluntad del ejecutado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del ejecutante de auto que tenga por emitida la declaración de voluntad del ejecutado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del ejecutante de auto que tenga por emitida la declaración de voluntad del ejecutado

@@ -1,6 +1,6 @@
 ---
 name: testamento-delega-otro-facultad-mejorar-civ-0420
-description: "Testamento que delega en otro la facultad de mejorar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Testamento que delega en otro la facultad de mejorar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Testamento que delega en otro la facultad de mejorar

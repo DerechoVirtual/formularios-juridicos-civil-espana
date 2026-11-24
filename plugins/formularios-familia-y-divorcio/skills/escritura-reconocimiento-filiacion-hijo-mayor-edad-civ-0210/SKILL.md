@@ -1,6 +1,6 @@
 ---
 name: escritura-reconocimiento-filiacion-hijo-mayor-edad-civ-0210
-description: "Escritura de reconocimiento de filiación de un hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de reconocimiento de filiación de un hijo mayor de edad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de reconocimiento de filiación de un hijo mayor de edad

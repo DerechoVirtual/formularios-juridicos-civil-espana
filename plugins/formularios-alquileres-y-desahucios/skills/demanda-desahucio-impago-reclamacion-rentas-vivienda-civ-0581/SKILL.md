@@ -1,6 +1,6 @@
 ---
 name: demanda-desahucio-impago-reclamacion-rentas-vivienda-civ-0581
-description: "Demanda de desahucio por impago y reclamación de rentas de vivienda, con posibilidad de enervación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de desahucio por impago y reclamación de rentas de vivienda, con posibilidad de enervación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de desahucio por impago y reclamación de rentas de vivienda, con posibilidad de enervación

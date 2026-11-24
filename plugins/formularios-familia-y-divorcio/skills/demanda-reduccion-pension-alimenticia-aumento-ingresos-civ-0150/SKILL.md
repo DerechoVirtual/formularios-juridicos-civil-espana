@@ -1,6 +1,6 @@
 ---
 name: demanda-reduccion-pension-alimenticia-aumento-ingresos-civ-0150
-description: "Demanda de reducción de la pensión alimenticia por el aumento de ingresos del progenitor custodio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reducción de la pensión alimenticia por el aumento de ingresos del progenitor custodio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reducción de la pensión alimenticia por el aumento de ingresos del progenitor custodio

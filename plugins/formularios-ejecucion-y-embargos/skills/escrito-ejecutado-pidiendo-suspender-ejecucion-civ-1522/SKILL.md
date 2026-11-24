@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-pidiendo-suspender-ejecucion-civ-1522
-description: "Escrito del ejecutado pidiendo suspender la ejecución por encontrarse en situación concursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado pidiendo suspender la ejecución por encontrarse en situación concursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado pidiendo suspender la ejecución por encontrarse en situación concursal

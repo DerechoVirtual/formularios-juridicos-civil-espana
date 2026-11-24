@@ -1,6 +1,6 @@
 ---
 name: acta-audiencia-menor-sobre-regimen-visitas-civ-1890
-description: "Acta de audiencia del menor sobre el régimen de visitas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de audiencia del menor sobre el régimen de visitas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de audiencia del menor sobre el régimen de visitas

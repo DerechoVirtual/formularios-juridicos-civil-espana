@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-incumplimiento-contrato-obra-civ-0750
-description: "Demanda de juicio ordinario por incumplimiento de un contrato de obra a precio alzado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por incumplimiento de un contrato de obra a precio alzado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por incumplimiento de un contrato de obra a precio alzado

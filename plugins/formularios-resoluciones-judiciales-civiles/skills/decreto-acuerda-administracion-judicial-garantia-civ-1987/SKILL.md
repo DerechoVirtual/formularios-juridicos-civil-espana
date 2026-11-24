@@ -1,6 +1,6 @@
 ---
 name: decreto-acuerda-administracion-judicial-garantia-civ-1987
-description: "Decreto que acuerda la administración judicial en garantía del embargo de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que acuerda la administración judicial en garantía del embargo de frutos y rentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que acuerda la administración judicial en garantía del embargo de frutos y rentas

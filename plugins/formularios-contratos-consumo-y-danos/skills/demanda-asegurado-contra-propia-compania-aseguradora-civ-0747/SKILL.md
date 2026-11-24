@@ -1,6 +1,6 @@
 ---
 name: demanda-asegurado-contra-propia-compania-aseguradora-civ-0747
-description: "Demanda del asegurado contra su propia compañía aseguradora. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del asegurado contra su propia compañía aseguradora. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del asegurado contra su propia compañía aseguradora

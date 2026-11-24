@@ -1,6 +1,6 @@
 ---
 name: oposicion-persona-requerida-diligencias-preliminares-civ-1252
-description: "Oposición de la persona requerida a las diligencias preliminares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición de la persona requerida a las diligencias preliminares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición de la persona requerida a las diligencias preliminares

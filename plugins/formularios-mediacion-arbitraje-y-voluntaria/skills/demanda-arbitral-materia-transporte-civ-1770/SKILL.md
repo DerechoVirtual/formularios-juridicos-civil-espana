@@ -1,6 +1,6 @@
 ---
 name: demanda-arbitral-materia-transporte-civ-1770
-description: "Demanda arbitral en materia de transporte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda arbitral en materia de transporte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda arbitral en materia de transporte

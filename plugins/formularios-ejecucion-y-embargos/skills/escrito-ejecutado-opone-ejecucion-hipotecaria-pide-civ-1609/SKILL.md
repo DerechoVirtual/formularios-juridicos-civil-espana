@@ -1,6 +1,6 @@
 ---
 name: escrito-ejecutado-opone-ejecucion-hipotecaria-pide-civ-1609
-description: "Escrito del ejecutado que se opone a la ejecución hipotecaria y pide su suspensión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del ejecutado que se opone a la ejecución hipotecaria y pide su suspensión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del ejecutado que se opone a la ejecución hipotecaria y pide su suspensión

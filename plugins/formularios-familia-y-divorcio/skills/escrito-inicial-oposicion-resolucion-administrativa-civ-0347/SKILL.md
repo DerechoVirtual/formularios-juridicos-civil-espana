@@ -1,6 +1,6 @@
 ---
 name: escrito-inicial-oposicion-resolucion-administrativa-civ-0347
-description: "Escrito inicial de oposición a resolución administrativa de protección de menores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito inicial de oposición a resolución administrativa de protección de menores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito inicial de oposición a resolución administrativa de protección de menores

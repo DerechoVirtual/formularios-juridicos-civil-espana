@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-suspende-proceso-notificarlo-civ-1920
-description: "Diligencia de ordenación que suspende el proceso para notificarlo a los sucesores del actor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que suspende el proceso para notificarlo a los sucesores del actor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que suspende el proceso para notificarlo a los sucesores del actor

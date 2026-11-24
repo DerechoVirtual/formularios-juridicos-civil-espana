@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-cita-conyuges-acordar-civ-1868
-description: "Diligencia de ordenación que cita a los cónyuges para acordar la liquidación del régimen económico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que cita a los cónyuges para acordar la liquidación del régimen económico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que cita a los cónyuges para acordar la liquidación del régimen económico

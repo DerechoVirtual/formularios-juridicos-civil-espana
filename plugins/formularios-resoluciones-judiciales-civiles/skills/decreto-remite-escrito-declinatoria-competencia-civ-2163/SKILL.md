@@ -1,6 +1,6 @@
 ---
 name: decreto-remite-escrito-declinatoria-competencia-civ-2163
-description: "Decreto que remite el escrito de declinatoria de competencia territorial en juicio verbal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Decreto que remite el escrito de declinatoria de competencia territorial en juicio verbal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Decreto que remite el escrito de declinatoria de competencia territorial en juicio verbal

@@ -1,6 +1,6 @@
 ---
 name: oposicion-aseguradora-obligatoria-ejecucion-auto-civ-1589
-description: "Oposición de la aseguradora obligatoria a la ejecución de auto de cuantía máxima por accidente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición de la aseguradora obligatoria a la ejecución de auto de cuantía máxima por accidente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición de la aseguradora obligatoria a la ejecución de auto de cuantía máxima por accidente

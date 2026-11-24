@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-danos-trafico-tras-juicio-civ-0763
-description: "Demanda de juicio ordinario por daños de tráfico tras juicio por delito leve y reserva de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por daños de tráfico tras juicio por delito leve y reserva de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por daños de tráfico tras juicio por delito leve y reserva de acciones

@@ -1,6 +1,6 @@
 ---
 name: contestacion-demanda-guarda-visitas-alimentos-menores-civ-0143
-description: "Contestación a la demanda de guarda, visitas y alimentos de menores presentada por un progenitor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contestación a la demanda de guarda, visitas y alimentos de menores presentada por un progenitor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contestación a la demanda de guarda, visitas y alimentos de menores presentada por un progenitor

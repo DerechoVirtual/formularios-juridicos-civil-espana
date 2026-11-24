@@ -1,6 +1,6 @@
 ---
 name: otrosi-demanda-pide-mantener-medidas-cautelares-civ-1245
-description: "Otrosí de la demanda que pide mantener las medidas cautelares decretadas con carácter previo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí de la demanda que pide mantener las medidas cautelares decretadas con carácter previo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí de la demanda que pide mantener las medidas cautelares decretadas con carácter previo

@@ -1,6 +1,6 @@
 ---
 name: nota-inscripcion-registral-compraventa-sociedad-civ-0132
-description: "Nota de inscripción registral de la compraventa para la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Nota de inscripción registral de la compraventa para la sociedad de gananciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Nota de inscripción registral de la compraventa para la sociedad de gananciales

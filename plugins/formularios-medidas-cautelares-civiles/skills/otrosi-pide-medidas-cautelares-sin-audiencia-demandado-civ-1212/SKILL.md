@@ -1,6 +1,6 @@
 ---
 name: otrosi-pide-medidas-cautelares-sin-audiencia-demandado-civ-1212
-description: "Otrosí que pide medidas cautelares sin audiencia del demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que pide medidas cautelares sin audiencia del demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que pide medidas cautelares sin audiencia del demandado

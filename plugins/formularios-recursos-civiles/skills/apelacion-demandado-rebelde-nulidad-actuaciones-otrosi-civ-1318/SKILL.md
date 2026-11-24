@@ -1,6 +1,6 @@
 ---
 name: apelacion-demandado-rebelde-nulidad-actuaciones-otrosi-civ-1318
-description: "Apelación del demandado rebelde por nulidad de actuaciones, con otrosí subsidiario de prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Apelación del demandado rebelde por nulidad de actuaciones, con otrosí subsidiario de prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Apelación del demandado rebelde por nulidad de actuaciones, con otrosí subsidiario de prueba

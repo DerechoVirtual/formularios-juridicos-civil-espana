@@ -1,6 +1,6 @@
 ---
 name: escrito-subsanacion-no-presentar-modelo-civ-0887
-description: "Escrito de subsanación por no presentar el modelo de autoliquidación de la tasa judicial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de subsanación por no presentar el modelo de autoliquidación de la tasa judicial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de subsanación por no presentar el modelo de autoliquidación de la tasa judicial

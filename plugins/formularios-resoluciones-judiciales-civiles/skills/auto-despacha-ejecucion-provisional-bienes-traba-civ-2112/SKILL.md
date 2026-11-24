@@ -1,6 +1,6 @@
 ---
 name: auto-despacha-ejecucion-provisional-bienes-traba-civ-2112
-description: "Auto que despacha ejecución provisional con bienes para la traba designados por el ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que despacha ejecución provisional con bienes para la traba designados por el ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que despacha ejecución provisional con bienes para la traba designados por el ejecutante

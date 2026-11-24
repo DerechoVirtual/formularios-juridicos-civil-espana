@@ -1,6 +1,6 @@
 ---
 name: oposicion-demandante-excepcion-litispendencia-cosa-civ-0964
-description: "Oposición del demandante a la excepción de litispendencia o cosa juzgada, con resolución y protesta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición del demandante a la excepción de litispendencia o cosa juzgada, con resolución y protesta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición del demandante a la excepción de litispendencia o cosa juzgada, con resolución y protesta

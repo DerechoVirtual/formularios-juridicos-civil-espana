@@ -1,6 +1,6 @@
 ---
 name: demanda-contra-declaracion-no-idoneidad-adoptar-civ-0137
-description: "Demanda contra la declaración de no idoneidad para adoptar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda contra la declaración de no idoneidad para adoptar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda contra la declaración de no idoneidad para adoptar

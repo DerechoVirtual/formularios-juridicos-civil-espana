@@ -1,6 +1,6 @@
 ---
 name: oposicion-apelacion-e-impugnacion-sentencia-peticion-civ-1270
-description: "Oposición a la apelación e impugnación de la sentencia con petición de prueba en segunda instancia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oposición a la apelación e impugnación de la sentencia con petición de prueba en segunda instancia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oposición a la apelación e impugnación de la sentencia con petición de prueba en segunda instancia

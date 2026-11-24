@@ -1,6 +1,6 @@
 ---
 name: escrito-parte-pidiendo-prueba-anticipada-antes-inicio-civ-1268
-description: "Escrito de parte pidiendo prueba anticipada antes del inicio del proceso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de parte pidiendo prueba anticipada antes del inicio del proceso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de parte pidiendo prueba anticipada antes del inicio del proceso

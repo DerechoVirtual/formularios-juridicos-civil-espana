@@ -1,6 +1,6 @@
 ---
 name: proposicion-prueba-otros-estados-ue-audiencia-previa-civ-0899
-description: "Proposición de prueba en otros Estados de la UE en la audiencia previa del juicio ordinario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proposición de prueba en otros Estados de la UE en la audiencia previa del juicio ordinario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proposición de prueba en otros Estados de la UE en la audiencia previa del juicio ordinario

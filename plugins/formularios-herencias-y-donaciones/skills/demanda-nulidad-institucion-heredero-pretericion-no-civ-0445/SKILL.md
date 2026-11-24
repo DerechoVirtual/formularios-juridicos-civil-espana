@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-institucion-heredero-pretericion-no-civ-0445
-description: "Demanda de nulidad de la institución de heredero por preterición no intencional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad de la institución de heredero por preterición no intencional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad de la institución de heredero por preterición no intencional

@@ -1,6 +1,6 @@
 ---
 name: escrito-aportando-documento-anterior-no-fue-posible-civ-1128
-description: "Escrito aportando documento anterior que no fue posible obtener con antelación (art. 270.1.3 LEC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito aportando documento anterior que no fue posible obtener con antelación (art. 270.1.3 LEC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito aportando documento anterior que no fue posible obtener con antelación (art. 270.1.3 LEC)

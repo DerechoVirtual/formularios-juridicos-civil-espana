@@ -1,6 +1,6 @@
 ---
 name: otrosi-recurso-apelacion-solicitando-celebracion-vista-civ-1351
-description: "Otrosí del recurso de apelación solicitando la celebración de vista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí del recurso de apelación solicitando la celebración de vista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí del recurso de apelación solicitando la celebración de vista

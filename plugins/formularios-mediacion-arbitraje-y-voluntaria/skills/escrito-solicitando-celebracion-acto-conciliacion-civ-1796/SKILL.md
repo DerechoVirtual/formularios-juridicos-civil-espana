@@ -1,6 +1,6 @@
 ---
 name: escrito-solicitando-celebracion-acto-conciliacion-civ-1796
-description: "Escrito solicitando la celebración de acto de conciliación (general). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito solicitando la celebración de acto de conciliación (general). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito solicitando la celebración de acto de conciliación (general)

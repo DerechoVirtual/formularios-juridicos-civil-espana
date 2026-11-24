@@ -1,6 +1,6 @@
 ---
 name: escrito-arrendatario-inmueble-hipotecado-subastado-civ-1413
-description: "Escrito del arrendatario de inmueble hipotecado subastado para que se declare su derecho a quedarse. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del arrendatario de inmueble hipotecado subastado para que se declare su derecho a quedarse. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del arrendatario de inmueble hipotecado subastado para que se declare su derecho a quedarse
