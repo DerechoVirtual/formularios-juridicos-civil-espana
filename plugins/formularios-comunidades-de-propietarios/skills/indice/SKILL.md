@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 46 formularios de Comunidades de propietarios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 59 formularios de Comunidades de propietarios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Comunidades de propietarios: índice de formularios
 
-> Plugin `formularios-comunidades-de-propietarios` · 46 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-comunidades-de-propietarios` · 59 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,7 +50,7 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
 ### Demandas, peticiones y solicitudes iniciales (16)
 
@@ -69,9 +69,9 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0647 | Demanda de juicio ordinario de un propietario contra la comunidad por daños de elementos comunes | `demanda-juicio-ordinario-propietario-contra-comunidad-civ-0647` |
 | CIV-0648 | Demanda de juicio de equidad en propiedad horizontal para nombrar presidente de la comunidad | `demanda-juicio-equidad-propiedad-horizontal-nombrar-civ-0648` |
 | CIV-0649 | Demanda de juicio de equidad en propiedad horizontal para adoptar acuerdo sin mayorías legales | `demanda-juicio-equidad-propiedad-horizontal-adoptar-civ-0649` |
-| CIV-0652 | Demanda de impugnación de acuerdos de la comunidad por falta de citación a la junta | `demanda-impugnacion-acuerdos-comunidad-falta-citacion-civ-0652` |
 | CIV-0653 | Demanda de privación del uso de vivienda por actividades dañosas o prohibidas en la comunidad | `demanda-privacion-uso-vivienda-actividades-danosas-civ-0653` |
 | CIV-0654 | Demanda por alteración no consentida de elementos privativos que afecta a elementos comunes | `demanda-alteracion-no-consentida-elementos-privativos-civ-0654` |
+| CIV-2516 | Demanda para constituir servidumbre sobre un elemento privativo e instalar el ascensor aprobado | `demanda-constituir-servidumbre-sobre-elemento-civ-2516` |
 
 ### Contestaciones, oposiciones y alegaciones (4)
 
@@ -89,7 +89,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0622 | Contrato de servicios de limpieza para una comunidad de propietarios | `contrato-servicios-limpieza-comunidad-propietarios-civ-0622` |
 | CIV-0624 | Contrato de arrendamiento de un elemento común para instalar antenas de telefonía | `contrato-arrendamiento-elemento-comun-instalar-antenas-civ-0624` |
 
-### Estatutos, actas, certificaciones y escrituras (8)
+### Estatutos, actas, certificaciones y escrituras (17)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -101,18 +101,31 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0642 | Acta de junta de propietarios que aprueba la liquidación de deuda y la reclamación al moroso | `acta-junta-propietarios-aprueba-liquidacion-deuda-civ-0642` |
 | CIV-0646 | Acta de junta de propietarios que acuerda la remoción de cargos electos | `acta-junta-propietarios-acuerda-remocion-cargos-electos-civ-0646` |
 | CIV-0651 | Convocatoria de junta ordinaria de propietarios por el presidente de la comunidad | `convocatoria-junta-ordinaria-propietarios-presidente-civ-0651` |
+| CIV-2517 | Acta de junta de propietarios sobre la solicitud de uso privativo de elementos comunes | `acta-junta-propietarios-sobre-solicitud-uso-privativo-civ-2517` |
+| CIV-2519 | Convocatoria de junta ordinaria hecha por los propios propietarios de la comunidad | `convocatoria-junta-ordinaria-hecha-propios-civ-2519` |
+| CIV-2520 | Convocatoria de junta extraordinaria hecha por el presidente de la comunidad | `convocatoria-junta-extraordinaria-hecha-presidente-civ-2520` |
+| CIV-2524 | Acta de junta de propietarios que aprueba reparaciones urgentes e imprescindibles | `acta-junta-propietarios-aprueba-reparaciones-urgentes-civ-2524` |
+| CIV-2525 | Acta de junta de propietarios que aprueba las normas de uso de la piscina | `acta-junta-propietarios-aprueba-normas-uso-piscina-civ-2525` |
+| CIV-2526 | Acta de junta de propietarios sobre la dotación o reposición del fondo de reserva | `acta-junta-propietarios-sobre-dotacion-reposicion-civ-2526` |
+| CIV-2527 | Acta de junta de propietarios sobre la construcción de cuartos trasteros | `acta-junta-propietarios-sobre-construccion-cuartos-civ-2527` |
+| CIV-2528 | Certificado de la comunidad de estar al corriente de cuotas para escriturar la venta | `certificado-comunidad-estar-corriente-cuotas-civ-2528` |
+| CIV-2530 | Escritura de desafectación de un elemento común y su posterior venta | `escritura-desafectacion-elemento-comun-posterior-venta-civ-2530` |
 
-### Comunicaciones, requerimientos y cartas (7)
+### Comunicaciones, requerimientos y cartas (11)
 
 | Código | Formulario | Skill |
 |---|---|---|
 | CIV-0609 | Comunicación a la junta de propietarios para dividir materialmente un elemento privativo | `comunicacion-junta-propietarios-dividir-materialmente-civ-0609` |
 | CIV-0611 | Comunicación del administrador de la comunidad sobre la necesidad de reparaciones urgentes | `comunicacion-administrador-comunidad-sobre-necesidad-civ-0611` |
 | CIV-0625 | Comunicación del propietario disidente que cambia el sentido de su voto | `comunicacion-propietario-disidente-cambia-sentido-voto-civ-0625` |
-| CIV-0626 | Comunicación de supresión del servicio de portería o conserjería | `comunicacion-supresion-servicio-porteria-conserjeria-civ-0626` |
 | CIV-0627 | Comunicación para encargar un informe técnico sobre una instalación o servicio común | `comunicacion-encargar-informe-tecnico-sobre-civ-0627` |
 | CIV-0632 | Solicitud de diligenciado del libro de actas en el Registro por una comunidad recién constituida | `solicitud-diligenciado-libro-actas-registro-comunidad-civ-0632` |
 | CIV-0641 | Requerimiento al propietario para que cese en actividades prohibidas en la comunidad | `requerimiento-propietario-cese-actividades-prohibidas-civ-0641` |
+| CIV-2518 | Carta del presidente de la comunidad que reclama a un vecino las cuotas vencidas | `carta-presidente-comunidad-reclama-vecino-cuotas-civ-2518` |
+| CIV-2521 | Comunicación del antiguo propietario a la comunidad del cambio de titularidad | `comunicacion-antiguo-propietario-comunidad-cambio-civ-2521` |
+| CIV-2522 | Solicitud a la comunidad del certificado de deudas pendientes para escriturar la venta | `solicitud-comunidad-certificado-deudas-pendientes-civ-2522` |
+| CIV-2523 | Carta del administrador con la liquidación de la deuda y requerimiento de pago al moroso | `carta-administrador-liquidacion-deuda-requerimiento-civ-2523` |
+| CIV-2529 | Comunicación del propietario no residente de su domicilio para notificaciones de la comunidad | `comunicacion-propietario-no-residente-domicilio-civ-2529` |
 
 ### Escritos de trámite y otros (9)
 

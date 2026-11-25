@@ -1,22 +1,22 @@
 # Comunidades de propietarios
 
-> Plugin de Claude Code `formularios-comunidades-de-propietarios` · **46 formularios** · Civil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-comunidades-de-propietarios` · **59 formularios** · Civil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para la propiedad horizontal: convocatorias y actas de junta, estatutos, impugnación de acuerdos, reclamación de cuotas a morosos, obras en elementos comunes y privativos, actividades molestas y relaciones con el administrador.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 46 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 59 está al final):
 
 - **Demandas, peticiones y solicitudes iniciales** (16). Por ejemplo: Demanda de un propietario para suspender una obra nueva hecha sin consentimiento de la comunidad; Demanda de la comunidad contra el secretario-administrador cesado para que entregue la documentación; Demanda de reclamación de gastos extraordinarios a un propietario de una comunidad.
 - **Contestaciones, oposiciones y alegaciones** (4). Por ejemplo: Oposición al monitorio por gastos comunes de comunidad de propietarios de menos de 2.000 euros; Oposición al monitorio por gastos comunes de comunidad de propietarios de entre 2.000 y 15.000 euros; Oposición al monitorio por gastos comunes de comunidad de propietarios de más de 15.000 euros.
 - **Contratos, pactos y cláusulas** (2). Por ejemplo: Contrato de servicios de limpieza para una comunidad de propietarios; Contrato de arrendamiento de un elemento común para instalar antenas de telefonía.
-- **Estatutos, actas, certificaciones y escrituras** (8). Por ejemplo: Estatutos de una subcomunidad de plazas de garaje y trasteros; Estatutos de una comunidad de propietarios; Acta de constitución de una comunidad de propietarios.
-- **Comunicaciones, requerimientos y cartas** (7). Por ejemplo: Comunicación a la junta de propietarios para dividir materialmente un elemento privativo; Comunicación del administrador de la comunidad sobre la necesidad de reparaciones urgentes; Comunicación del propietario disidente que cambia el sentido de su voto.
+- **Estatutos, actas, certificaciones y escrituras** (17). Por ejemplo: Estatutos de una subcomunidad de plazas de garaje y trasteros; Estatutos de una comunidad de propietarios; Acta de constitución de una comunidad de propietarios.
+- **Comunicaciones, requerimientos y cartas** (11). Por ejemplo: Comunicación a la junta de propietarios para dividir materialmente un elemento privativo; Comunicación del administrador de la comunidad sobre la necesidad de reparaciones urgentes; Comunicación del propietario disidente que cambia el sentido de su voto.
 - **Escritos de trámite y otros** (9). Por ejemplo: Escrito del propietario disidente que solicita acceso a servicios o instalaciones comunitarias; Diligencia del administrador-secretario que subsana un error en el acta de la junta de propietarios; División Horizontal (escritura).
 
 ## Cómo se usa
@@ -33,9 +33,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -43,7 +43,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 2.863 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-comunidades-de-propietarios@formularios-juridicos-civil-espana`).
+- **Espacio que ocupa:** unos 3.656 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-comunidades-de-propietarios@formularios-juridicos-civil-espana`).
 
 ## Instalación
 
@@ -58,7 +58,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (46)
+## Lista completa de formularios (59)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -79,7 +79,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-0623 | Estatutos de una subcomunidad de plazas de garaje y trasteros | `estatutos-subcomunidad-plazas-garaje-trasteros-civ-0623` |
 | CIV-0624 | Contrato de arrendamiento de un elemento común para instalar antenas de telefonía | `contrato-arrendamiento-elemento-comun-instalar-antenas-civ-0624` |
 | CIV-0625 | Comunicación del propietario disidente que cambia el sentido de su voto | `comunicacion-propietario-disidente-cambia-sentido-voto-civ-0625` |
-| CIV-0626 | Comunicación de supresión del servicio de portería o conserjería | `comunicacion-supresion-servicio-porteria-conserjeria-civ-0626` |
 | CIV-0627 | Comunicación para encargar un informe técnico sobre una instalación o servicio común | `comunicacion-encargar-informe-tecnico-sobre-civ-0627` |
 | CIV-0628 | Demanda para declarar ilegales las cuotas de participación en elementos comunes y redistribuirlas | `demanda-declarar-ilegales-cuotas-participacion-civ-0628` |
 | CIV-0629 | División Horizontal (escritura) | `division-horizontal-escritura-civ-0629` |
@@ -105,9 +104,23 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-0649 | Demanda de juicio de equidad en propiedad horizontal para adoptar acuerdo sin mayorías legales | `demanda-juicio-equidad-propiedad-horizontal-adoptar-civ-0649` |
 | CIV-0650 | Encabezamiento de demanda monitoria de la comunidad de propietarios presentada por su presidente | `encabezamiento-demanda-monitoria-comunidad-civ-0650` |
 | CIV-0651 | Convocatoria de junta ordinaria de propietarios por el presidente de la comunidad | `convocatoria-junta-ordinaria-propietarios-presidente-civ-0651` |
-| CIV-0652 | Demanda de impugnación de acuerdos de la comunidad por falta de citación a la junta | `demanda-impugnacion-acuerdos-comunidad-falta-citacion-civ-0652` |
 | CIV-0653 | Demanda de privación del uso de vivienda por actividades dañosas o prohibidas en la comunidad | `demanda-privacion-uso-vivienda-actividades-danosas-civ-0653` |
 | CIV-0654 | Demanda por alteración no consentida de elementos privativos que afecta a elementos comunes | `demanda-alteracion-no-consentida-elementos-privativos-civ-0654` |
+| CIV-2516 | Demanda para constituir servidumbre sobre un elemento privativo e instalar el ascensor aprobado | `demanda-constituir-servidumbre-sobre-elemento-civ-2516` |
+| CIV-2517 | Acta de junta de propietarios sobre la solicitud de uso privativo de elementos comunes | `acta-junta-propietarios-sobre-solicitud-uso-privativo-civ-2517` |
+| CIV-2518 | Carta del presidente de la comunidad que reclama a un vecino las cuotas vencidas | `carta-presidente-comunidad-reclama-vecino-cuotas-civ-2518` |
+| CIV-2519 | Convocatoria de junta ordinaria hecha por los propios propietarios de la comunidad | `convocatoria-junta-ordinaria-hecha-propios-civ-2519` |
+| CIV-2520 | Convocatoria de junta extraordinaria hecha por el presidente de la comunidad | `convocatoria-junta-extraordinaria-hecha-presidente-civ-2520` |
+| CIV-2521 | Comunicación del antiguo propietario a la comunidad del cambio de titularidad | `comunicacion-antiguo-propietario-comunidad-cambio-civ-2521` |
+| CIV-2522 | Solicitud a la comunidad del certificado de deudas pendientes para escriturar la venta | `solicitud-comunidad-certificado-deudas-pendientes-civ-2522` |
+| CIV-2523 | Carta del administrador con la liquidación de la deuda y requerimiento de pago al moroso | `carta-administrador-liquidacion-deuda-requerimiento-civ-2523` |
+| CIV-2524 | Acta de junta de propietarios que aprueba reparaciones urgentes e imprescindibles | `acta-junta-propietarios-aprueba-reparaciones-urgentes-civ-2524` |
+| CIV-2525 | Acta de junta de propietarios que aprueba las normas de uso de la piscina | `acta-junta-propietarios-aprueba-normas-uso-piscina-civ-2525` |
+| CIV-2526 | Acta de junta de propietarios sobre la dotación o reposición del fondo de reserva | `acta-junta-propietarios-sobre-dotacion-reposicion-civ-2526` |
+| CIV-2527 | Acta de junta de propietarios sobre la construcción de cuartos trasteros | `acta-junta-propietarios-sobre-construccion-cuartos-civ-2527` |
+| CIV-2528 | Certificado de la comunidad de estar al corriente de cuotas para escriturar la venta | `certificado-comunidad-estar-corriente-cuotas-civ-2528` |
+| CIV-2529 | Comunicación del propietario no residente de su domicilio para notificaciones de la comunidad | `comunicacion-propietario-no-residente-domicilio-civ-2529` |
+| CIV-2530 | Escritura de desafectación de un elemento común y su posterior venta | `escritura-desafectacion-elemento-comun-posterior-venta-civ-2530` |
 
 ## Privacidad
 

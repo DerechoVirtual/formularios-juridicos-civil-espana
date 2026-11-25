@@ -5,7 +5,7 @@ description: "Recurso directo de revisión contra el decreto del LAJ que inadmit
 
 # Recurso directo de revisión contra el decreto del LAJ que inadmite un recurso de reposición
 
-> Formulario **CIV-1315** del plugin **Recursos civiles: reposición, apelación, casación y queja** (`formularios-recursos-civiles`) · Civil › Recursos · normativa revisada el 24-11-2026.
+> Formulario **CIV-1315** del plugin **Recursos civiles: reposición, apelación, casación y queja** (`formularios-recursos-civiles`) · Civil › Recursos · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Recurso directo de rev
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Recurso directo de revisión contra el decreto del LAJ que inadmite un recurso de reposición” para mi caso». También puedes invocarla directamente con `/formularios-recursos-civiles:recurso-directo-revision-contra-decreto-laj-inadmite-civ-1315`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-recursos-civiles:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -83,69 +84,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Proceso número
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales y de [NOMBRE DEL REPRESENTADO/A], según tengo acreditado en los autos de proceso civil [Nº DE PROCEDIMIENTO] arriba referenciados, ante el Tribunal comparezco y como mejor proceda en derecho DIGO:
-
-Que habiendo sido notificado a esta representación el decreto de fecha [FECHA], dictado por el Letrado de la Administración de Justicia del órgano al que me dirijo, por el que se inadmite el recurso de reposición contra [ACTO O RESOLUCIÓN] de fecha [FECHA], mediante el presente escrito, al amparo del art. 452.2 y art. 454.bis de la LEC, interpongo recurso directo de revisión de la mencionada resolución citando como infringido el mismo artículo 452 de la Ley de Enjuiciamiento Civil en base a los siguientes motivos:
-
-Motivos
-
-[OPCIONAL — incluir si procede]
-
-La inadmisión se funda en el incumplimiento del plazo para recurrir, estimando que se infringe el art. 452 en relación con el art. 135.1 de la LEC por cuanto que la resolución recurrida fue notificada el día [FECHA] y el recurso de reposición se presentó el día [FECHA], no habiendo transcurrido el plazo de cinco días establecido en el art. 452.1 de la LEC.
-
-Por tanto, se solicita que se revoque la resolución, acordando en su lugar la admisión del recurso.
-
-[OPCIONAL — incluir si procede]
-
-La inadmisión se funda en que no se ha citado el precepto infringido en el escrito de recurso, cuestión ésta sobre la que se ha pronunciado reiteradamente la jurisprudencia en relación al recurso de reposición contra providencias y autos, donde se entendía que es un requisito que tan solo es necesario en los casos en que efectivamente se infrinja un precepto legal, pero no así como se impugna por motivos fondo, añadiendo que era suficiente la cita de un precepto constitucional.
-
-Así, la jurisprudencia ya vino indicando que la reposición podía interponerse por motivos de forma o de fondo, de manera que en el caso de que se impugnara por motivos de fondo era inútil citar el precepto procesal, entendiéndose que no había obligación de citar normas procesales que no habían sido vulneradas (S.T.C. 162/1990, de 22 de octubre; y que la cita de un precepto constitucional, como es el art. 24 CE referido a la tutela efectiva, es suficiente para fundamentar cualquier recurso en cuanto se alega indefensión (ATS 10 abril 2003).
-
-De acuerdo a ello, se solicita que se revoque la resolución, acordando en su lugar la admisión del recurso
-
-[OPCIONAL — incluir si procede]
-
-El decreto de inadmisión impugnado infringe lo dispuesto en el art. de la Ley de Enjuiciamiento Civil por cuanto [FUNDAMENTOS]
-
-La resolución es susceptible de recurso de revisión, de acuerdo a lo establecido en la doctrina constitucional expresada en la STC 15/2020, de 28 de enero, en la cual se afirma que las resoluciones dictadas por los Letrados de la Administración de Justicia han de ser objeto de control judicial, lo que determinó la declaración de inconstitucionalidad y nulidad del artículo 454 bis.1, párrafo primero, de la LECiv, por lo que debe entrarse a conocer del fondo del recurso de revisión planteado.
-
-En consecuencia, se solicita también por este motivo revocar el Decreto impugnado y en su lugar acordar la admisión del recurso de reposición interpuesto por esta parte.
-
-En su virtud,
-
-SUPLICO AL TRIBUNAL que teniendo por presentado este escrito, con justificante de traslado, se sirva admitirlo, tener por interpuesto recurso directo de revisión contra el decreto dictado por el Letrado de la Administración de Justicia de ese órgano de fecha [FECHA] y, tras los trámites legales, se dicte por el Tribunal auto por el que se revoque y deje sin efecto el Decreto impugnado, ordenando en su lugar la admisión del recurso de reposición interpuesto por esta parte.
-
-[OPCIONAL — incluir si procede]
-
-OTROSÍ DIGO que, de conformidad con lo dispuesto en los apartados 4 y 6 de la disposición adicional decimoquinta de la LOPJ acompaño a este escrito resguardo de consignación en la cuenta de Depósitos y Consignaciones abierta a nombre del Tribunal del depósito exigido para interponer el recurso por importe de 25 euros.
-
-Por lo que SUPLICO AL TRIBUNAL que tenga por constituido el depósito, dejando interesada desde este momento su devolución para el caso de estimación total o parcial del recurso.
-
-En [LUGAR], a [FECHA].
-
-Procurador/a	Abogado/a
-
-Fdo. D. Dña. [NOMBRE Y APELLIDOS]: Fdo. D. Dña. [NOMBRE Y APELLIDOS]:
-
-========================================================================

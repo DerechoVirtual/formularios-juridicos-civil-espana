@@ -1,22 +1,22 @@
 # Recursos civiles: reposición, apelación, casación y queja
 
-> Plugin de Claude Code `formularios-recursos-civiles` · **125 formularios** · Civil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-recursos-civiles` · **145 formularios** · Civil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para recurrir en el proceso civil: reposición y revisión contra resoluciones del Letrado de la Administración de Justicia, apelación y oposición o impugnación, casación tras el Real Decreto-ley 5/2023, queja, nulidad de actuaciones, aclaración y complemento de sentencia, y revisión de sentencias firmes.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 125 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 145 está al final):
 
 - **Demandas, peticiones y solicitudes iniciales** (6). Por ejemplo: Demanda de revisión de sentencia firme; Demanda de audiencia al demandado rebelde para rescindir la sentencia firme; Demanda de revisión de sentencia firme por maquinación fraudulenta.
-- **Contestaciones, oposiciones y alegaciones** (23). Por ejemplo: Oposición a la apelación e impugnación de la sentencia con petición de prueba en segunda instancia; Escrito de oposición al recurso de apelación, modelo general; Escrito de oposición al recurso de revisión contra un decreto por razones formales o de fondo.
-- **Recursos** (55). Por ejemplo: Escrito de interposición de recurso de apelación por cláusula suelo; Recurso de apelación contra el auto que estima la declinatoria por sumisión a mediación; Recurso de reposición ante el Letrado de la Administración de Justicia contra decretos.
+- **Contestaciones, oposiciones y alegaciones** (30). Por ejemplo: Oposición a la apelación e impugnación de la sentencia con petición de prueba en segunda instancia; Escrito de oposición al recurso de apelación, modelo general; Escrito de oposición al recurso de revisión contra un decreto por razones formales o de fondo.
+- **Recursos** (65). Por ejemplo: Escrito de interposición de recurso de apelación por cláusula suelo; Recurso de apelación contra el auto que estima la declinatoria por sumisión a mediación; Recurso de reposición ante el Letrado de la Administración de Justicia contra decretos.
 - **Comunicaciones, requerimientos y cartas** (7). Por ejemplo: Solicitud de que el tribunal resuelva tras desestimar la reposición ante el Letrado de la AJ; Solicitud de nulidad de actuaciones de la sentencia por falta de citación a juicio; Solicitud de nulidad de actuaciones de la sentencia por quien debió ser parte en el juicio.
-- **Escritos de trámite y otros** (34). Por ejemplo: Incidente de nulidad de actuaciones en un proceso hipotecario por falta de citación; General (queja); Impugnación de un recurso de reposición por inadmisible al interponerse fuera de plazo.
+- **Escritos de trámite y otros** (37). Por ejemplo: Incidente de nulidad de actuaciones en un proceso hipotecario por falta de citación; General (queja); Impugnación de un recurso de reposición por inadmisible al interponerse fuera de plazo.
 
 ## Cómo se usa
 
@@ -32,9 +32,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -42,7 +42,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 7.592 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-recursos-civiles@formularios-juridicos-civil-espana`).
+- **Espacio que ocupa:** unos 8.888 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-recursos-civiles@formularios-juridicos-civil-espana`).
 
 ## Instalación
 
@@ -57,7 +57,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (125)
+## Lista completa de formularios (145)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -89,7 +89,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1294 | Impugnación del recurso directo de revisión contra un decreto del LAJ | `impugnacion-recurso-directo-revision-contra-decreto-laj-civ-1294` |
 | CIV-1295 | Recurso de queja por vulneración del derecho al juez predeterminado por la ley (art. 24 CE) | `recurso-queja-vulneracion-derecho-juez-predeterminado-civ-1295` |
 | CIV-1296 | Otrosí que aporta documentos y pide prueba en segunda instancia | `otrosi-aporta-documentos-pide-prueba-segunda-instancia-civ-1296` |
-| CIV-1297 | Recurso por infracción procesal anterior a la reforma del RDL 5 de 2023 | `recurso-infraccion-procesal-anterior-reforma-rdl-5-2023-civ-1297` |
 | CIV-1298 | Personación ante el Supremo y oposición a admitir la casación (previo al RDL 5 de 2023) | `personacion-ante-supremo-oposicion-admitir-casacion-civ-1298` |
 | CIV-1299 | Recurso por defecto de jurisdicción en conflicto negativo de competencia | `recurso-defecto-jurisdiccion-conflicto-negativo-civ-1299` |
 | CIV-1300 | Escrito general de interposición del recurso de apelación | `escrito-general-interposicion-recurso-apelacion-civ-1300` |
@@ -108,7 +107,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1313 | Recurso de reposición del demandado contra el decreto que admite la demanda en juicio ordinario | `recurso-reposicion-demandado-contra-decreto-admite-civ-1313` |
 | CIV-1314 | Recurso directo de revisión contra el decreto que alza la suspensión por prejudicialidad penal | `recurso-directo-revision-contra-decreto-alza-civ-1314` |
 | CIV-1315 | Recurso directo de revisión contra el decreto del LAJ que inadmite un recurso de reposición | `recurso-directo-revision-contra-decreto-laj-inadmite-civ-1315` |
-| CIV-1316 | Recurso conjunto por infracción procesal y casación por interés casacional (anterior al RDL 5 2023) | `recurso-conjunto-infraccion-procesal-casacion-interes-civ-1316` |
 | CIV-1317 | Demanda de audiencia al demandado rebelde para rescindir la sentencia firme | `demanda-audiencia-demandado-rebelde-rescindir-civ-1317` |
 | CIV-1318 | Apelación del demandado rebelde por nulidad de actuaciones, con otrosí subsidiario de prueba | `apelacion-demandado-rebelde-nulidad-actuaciones-otrosi-civ-1318` |
 | CIV-1319 | Oposición al incidente excepcional de nulidad de actuaciones | `oposicion-incidente-excepcional-nulidad-actuaciones-civ-1319` |
@@ -158,7 +156,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1363 | Recurso de reposición del demandante contra la admisión de la reconvención por ser inadmisible | `recurso-reposicion-demandante-contra-admision-civ-1363` |
 | CIV-1364 | Reposición contra la admisión de reconvención dirigida a persona no demandante por inadmisible | `reposicion-contra-admision-reconvencion-dirigida-civ-1364` |
 | CIV-1365 | Reposición del demandado contra la admisión de la demanda por faltar documentos esenciales | `reposicion-demandado-contra-admision-demanda-faltar-civ-1365` |
-| CIV-1366 | Recurso extraordinario por infracción procesal genérico (régimen anterior al RDL 5 2023) | `recurso-extraordinario-infraccion-procesal-generico-civ-1366` |
 | CIV-1367 | Recurso de casación por interés casacional genérico | `recurso-casacion-interes-casacional-generico-civ-1367` |
 | CIV-1368 | Recurso de reposición genérico contra resoluciones judiciales o del LAJ | `recurso-reposicion-generico-contra-resoluciones-civ-1368` |
 | CIV-1369 | Recurso de audiencia en justicia contra el acuerdo sancionador por vulnerar la buena fe procesal | `recurso-audiencia-justicia-contra-acuerdo-sancionador-civ-1369` |
@@ -175,7 +172,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1380 | Escrito de desistimiento de un recurso interpuesto | `escrito-desistimiento-recurso-interpuesto-civ-1380` |
 | CIV-1381 | Recurso de reposición contra diligencia de ordenación que resuelve materia propia de providencia | `recurso-reposicion-contra-diligencia-ordenacion-civ-1381` |
 | CIV-1382 | Desistimiento del apelante del recurso de apelación (art. 450 LEC) | `desistimiento-apelante-recurso-apelacion-art-450-lec-civ-1382` |
-| CIV-1383 | Contestación a la demanda de rescisión de sentencia firme dictada en rebeldía | `contestacion-demanda-rescision-sentencia-firme-dictada-civ-1383` |
 | CIV-1384 | Demanda de rescisión de sentencia firme por el sucesor mortis causa del rebelde, con edictos | `demanda-rescision-sentencia-firme-sucesor-mortis-causa-civ-1384` |
 | CIV-1385 | Nulidad de actuaciones por falta de inmediación judicial en la vista del incidente de intereses | `nulidad-actuaciones-falta-inmediacion-judicial-vista-civ-1385` |
 | CIV-1386 | Solicitud de nulidad de actuaciones por falta de diligencia de reparto en la demanda | `solicitud-nulidad-actuaciones-falta-diligencia-reparto-civ-1386` |
@@ -186,6 +182,30 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1391 | Oposición e impugnación de la apelación de tráfico por motivos materiales y falta de consignación | `oposicion-e-impugnacion-apelacion-trafico-motivos-civ-1391` |
 | CIV-1392 | Escrito pidiendo testimonio para ejecutar provisionalmente la sentencia apelada por la contraparte | `escrito-pidiendo-testimonio-ejecutar-provisionalmente-civ-1392` |
 | CIV-1393 | Reposición del ejecutante contra el sobreseimiento de la ejecución provisional por revocación | `reposicion-ejecutante-contra-sobreseimiento-ejecucion-civ-1393` |
+| CIV-2796 | Recurso de reposición contra el auto de la Audiencia que deniega prueba en segunda instancia | `recurso-reposicion-contra-auto-audiencia-deniega-civ-2796` |
+| CIV-2797 | Escrito que impugna el recurso de reposición contrario por inexistencia de apoderamiento | `escrito-impugna-recurso-reposicion-contrario-civ-2797` |
+| CIV-2798 | Oposición a la apelación en separación o divorcio con petición de prueba en segunda instancia | `oposicion-apelacion-separacion-divorcio-peticion-civ-2798` |
+| CIV-2799 | Escrito de oposición a la apelación contraria e impugnación de la sentencia de separación o divorcio | `escrito-oposicion-apelacion-contraria-e-impugnacion-civ-2799` |
+| CIV-2800 | Escrito de oposición a la apelación contra la sentencia de separación o divorcio | `escrito-oposicion-apelacion-contra-sentencia-civ-2800` |
+| CIV-2801 | Escrito de oposición a la apelación en separación o divorcio con aportación de documentos | `escrito-oposicion-apelacion-separacion-divorcio-civ-2801` |
+| CIV-2802 | Escrito de oposición a la apelación y a la prueba en segunda instancia en separación o divorcio | `escrito-oposicion-apelacion-prueba-segunda-instancia-civ-2802` |
+| CIV-2803 | Recurso de queja contra la inadmisión de la apelación por no citar los pronunciamientos impugnados | `recurso-queja-contra-inadmision-apelacion-no-citar-civ-2803` |
+| CIV-2804 | Recurso de queja contra el auto que inadmite la apelación por haberse presentado fuera de plazo | `recurso-queja-contra-auto-inadmite-apelacion-haberse-civ-2804` |
+| CIV-2805 | Escrito de oposición a la apelación que alega su inadmisibilidad en separación o divorcio | `escrito-oposicion-apelacion-alega-inadmisibilidad-civ-2805` |
+| CIV-2806 | Recurso de reposición contra el auto que admite a trámite la reconvención en proceso matrimonial | `recurso-reposicion-contra-auto-admite-tramite-civ-2806` |
+| CIV-2807 | Recurso de apelación contra la sentencia que deniega la separación o divorcio, con petición de vista | `recurso-apelacion-contra-sentencia-deniega-separacion-civ-2807` |
+| CIV-2808 | Recurso de apelación contra la sentencia que deniega la separación o divorcio, aportando documentos | `recurso-apelacion-contra-sentencia-deniega-separacion-civ-2808` |
+| CIV-2809 | Recurso de apelación del actor contra la desestimación de la impugnación de paternidad, con prueba | `recurso-apelacion-actor-contra-desestimacion-civ-2809` |
+| CIV-2810 | Recurso de apelación contra la resolución con medidas distintas de las propuestas por los cónyuges | `recurso-apelacion-contra-resolucion-medidas-distintas-civ-2810` |
+| CIV-2811 | Recurso de apelación por la prueba denegada en primera instancia en filiación extramatrimonial | `recurso-apelacion-prueba-denegada-primera-instancia-civ-2811` |
+| CIV-2812 | Petición de aclaración de la sentencia de paternidad por error al expresar la acción ejercitada | `peticion-aclaracion-sentencia-paternidad-error-civ-2812` |
+| CIV-2813 | Recurso de reposición que pide la nulidad de actuaciones por no demandar al Ministerio Fiscal | `recurso-reposicion-pide-nulidad-actuaciones-no-civ-2813` |
+| CIV-2814 | Escrito de oposición a la apelación por infracción de normas sustantivas en proceso matrimonial | `escrito-oposicion-apelacion-infraccion-normas-civ-2814` |
+| CIV-2815 | Recurso de reposición contra la negativa a celebrar a puerta cerrada el juicio de paternidad | `recurso-reposicion-contra-negativa-celebrar-puerta-civ-2815` |
+| CIV-2816 | Oposición a la apelación por inadmisibilidad de documentos en procesos anteriores al 20-03-2024 | `oposicion-apelacion-inadmisibilidad-documentos-civ-2816` |
+| CIV-2817 | Recurso de apelación contra la sentencia que deniega la separación o divorcio, pidiendo prueba | `recurso-apelacion-contra-sentencia-deniega-separacion-civ-2817` |
+| CIV-2818 | Recurso de reposición contra el auto que inadmite una petición en un juicio civil de tráfico | `recurso-reposicion-contra-auto-inadmite-peticion-civ-2818` |
+| CIV-2819 | Impugnación de la reposición contra el auto que inadmite una petición en un juicio civil de tráfico | `impugnacion-reposicion-contra-auto-inadmite-peticion-civ-2819` |
 
 ## Privacidad
 

@@ -5,7 +5,7 @@ description: "Contestación a la demanda alegando compensación de deudas en una
 
 # Contestación a la demanda alegando compensación de deudas en una compraventa de mercancías
 
-> Formulario **CIV-1137** del plugin **Proceso civil: demandas, contestaciones, prueba y vista** (`formularios-proceso-civil`) · Civil › Escritos procesales (demanda, contestación, prueba, vista) · normativa revisada el 24-11-2026.
+> Formulario **CIV-1137** del plugin **Proceso civil: demandas, contestaciones, audiencia previa y vista** (`formularios-proceso-civil`) · Civil › Escritos procesales (demanda, contestación, prueba, vista) · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,14 +22,15 @@ Para obtener, en pocos minutos, un borrador completo de «Contestación a la dem
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Contestación a la demanda alegando compensación de deudas en una compraventa de mercancías” para mi caso». También puedes invocarla directamente con `/formularios-proceso-civil:contestacion-demanda-alegando-compensacion-deudas-civ-1137`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-proceso-civil:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, prueba y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Proceso civil: demandas, contestaciones, audiencia previa y vista) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -87,67 +88,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
-
-D./Dña. [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre y representación de [NOMBRE DEL REPRESENTADO/A], según acredito mediante escritura de poder inscrito en el Registro Electrónico de Apoderamientos Judiciales, a cuya justificación aporto certificación de dicho Registro como documento nº [Nº DE DOCUMENTO], dirigido por el Letrado abajo firmante D./Dña. [NOMBRE Y APELLIDOS], con despacho profesional en [LOCALIDAD], ante el Tribunal comparezco y como mejor proceda en Derecho DIGO:
-
-Que mediante el presente escrito y dentro del término conferido, paso a contestar la demanda formulada de adverso, oponiéndome a la misma en base a los siguientes:
-
-HECHOS
-
-PRIMERO.- De conformidad con el hecho primero de contrario.
-
-SEGUNDO.- De conformidad con el hecho segundo de contrario.
-
-TERCERO.- No es cierto el hecho correlativo de la demanda; versa la presente litis, sobre la reclamación que hace la entidad demandante, del precio de una partida de [BIENES SUMINISTRADOS] que suministró a mi representado en virtud de un contrato de compraventa de mercancías suscrito entre las partes con fecha [FECHA] El total importe del envío efectuado ascendió a [IMPORTE] euros ([IMPORTE EN CIFRA] €), si bien la entidad vendedora aceptó de la compradora la devolución de [BIENES DEVUELTOS], cuyo importe asciende a [IMPORTE] euros ([IMPORTE EN CIFRA] €), que debe compensarse, en todo caso, de la cantidad reclamada, aportándose a tales efectos el recibo firmado por el actor por importe de [IMPORTE] euros ([IMPORTE EN CIFRA] €), crédito que es líquido, exigible y vencido (DOCUMENTO N.º [NÚMERO]).
-
-FUNDAMENTOS DE DERECHO
-
-I, II.-
-
-Conforme esta parte con la competencia y el tipo de procedimiento señalados por el actor en el correlativo de la demanda.
-
-III, IV, V.-
-
-De conformidad con los expuestos de contrario.
-
-VI.- POSTULACIÓN Y DEFENSA
-
-La parte esta representada por el Procurador/a [NOMBRE Y APELLIDOS], legalmente habilitado según el art. 23 LEC y defendida por el Letrado que consta en el encabezamiento, art. 31 LEC.
-
-VII.- COMPENSACIÓN DE DEUDAS
-
-Para que la compensación pueda contemplarse y aplicarse al caso concreto, deben cumplirse los requisitos previstos en los arts. 1.195 y 1.196 CCiv, la reciprocidad de las obligaciones dimanantes de las relaciones entre las partes, y al propio tiempo que se trate de créditos recíprocos homogéneos, exigibles, vencidos y líquidos en el sentido de que la prestación se halle determinada y cuantitativamente precisada o susceptible de serlo mediante elementales operaciones aritméticas [STS de 27 de enero de 1994], requisitos que manifiestamente concurren en el supuesto litigioso de que se trata.
-
-VIII.- COSTAS
-
-Las costas deberán serle impuestas, de conformidad con el art. 394 LEC, a la parte actora, de ser desestimada su demanda.
-
-Por lo expuesto,
-
-SUPLICO AL TRIBUNAL.
-
-Que tenga por presentado este escrito con sus documentos y copias y escritura de poder, se sirva admitirlo y por comparecido al Procurador/a [NOMBRE Y APELLIDOS], en representación de [NOMBRE DEL REPRESENTADO/A], entendiéndose conmigo las sucesivas diligencias; por opuesto y contestada la demanda de juicio declarativo ordinario formulada por [ÓRGANO O PERSONA], y, seguido el juicio por todos sus trámites, se dicte sentencia absolviendo a mi principal de todos los pedimentos deducidos en la demanda, con expresa imposición de costas a la parte demandante.
-
-Es justicia debe hacerse en [LUGAR], a [FECHA].
-
-Firma del Abogado	Firma del Procurador/a
-
-========================================================================

@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 28 formularios de Propiedad, posesión, servidumbres e hipotecas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 43 formularios de Propiedad, posesión, servidumbres e hipotecas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Propiedad, posesión, servidumbres e hipotecas: índice de formularios
 
-> Plugin `formularios-propiedad-y-derechos-reales` · 28 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-propiedad-y-derechos-reales` · 43 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,17 +50,18 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
-### Demandas, peticiones y solicitudes iniciales (3)
+### Demandas, peticiones y solicitudes iniciales (4)
 
 | Código | Formulario | Skill |
 |---|---|---|
 | CIV-0657 | Demanda de juicio ordinario para resolver una compraventa por falta de licencia de primera ocupación | `demanda-juicio-ordinario-resolver-compraventa-falta-civ-0657` |
 | CIV-0659 | Demanda de juicio verbal para arrancar árboles plantados sin la distancia legal, con inspección | `demanda-juicio-verbal-arrancar-arboles-plantados-sin-civ-0659` |
 | CIV-0682 | Demanda de juicio verbal de precario sobre finca urbana | `demanda-juicio-verbal-precario-sobre-finca-urbana-civ-0682` |
+| CIV-2532 | Demanda de suspensión de obra nueva contra el propietario de la vivienda colindante | `demanda-suspension-obra-nueva-contra-propietario-civ-2532` |
 
-### Contratos, pactos y cláusulas (17)
+### Contratos, pactos y cláusulas (20)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -81,13 +82,26 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0678 | Contrato de venta de piso con usufructo vitalicio reservado y precio aleatorio | `contrato-venta-piso-usufructo-vitalicio-reservado-civ-0678` |
 | CIV-0679 | Contrato de compraventa de finca con reserva de usufructo vitalicio para el vendedor | `contrato-compraventa-finca-reserva-usufructo-vitalicio-civ-0679` |
 | CIV-0680 | Contrato de compraventa de inmueble con reserva de usufructo temporal para el vendedor | `contrato-compraventa-inmueble-reserva-usufructo-civ-0680` |
+| CIV-2533 | Contrato de venta a plazos de un inmueble con reserva de dominio | `contrato-venta-plazos-inmueble-reserva-dominio-civ-2533` |
+| CIV-2534 | Contrato de compraventa de una finca o solar | `contrato-compraventa-finca-solar-civ-2534` |
+| CIV-2538 | Contrato para comprar una vivienda de protección oficial subrogándose en la hipoteca | `contrato-comprar-vivienda-proteccion-oficial-civ-2538` |
 
-### Estatutos, actas, certificaciones y escrituras (2)
+### Estatutos, actas, certificaciones y escrituras (12)
 
 | Código | Formulario | Skill |
 |---|---|---|
 | CIV-0658 | Escritura de hipoteca mobiliaria constituida unilateralmente por el propietario | `escritura-hipoteca-mobiliaria-constituida-civ-0658` |
 | CIV-0667 | Escritura de declaración de obra nueva de vivienda unifamiliar | `escritura-declaracion-obra-nueva-vivienda-unifamiliar-civ-0667` |
+| CIV-2535 | Escritura de compraventa de finca urbana con subrogación del comprador en la hipoteca | `escritura-compraventa-finca-urbana-subrogacion-civ-2535` |
+| CIV-2536 | Escritura de compraventa de una finca urbana sujeta a condición resolutoria | `escritura-compraventa-finca-urbana-sujeta-condicion-civ-2536` |
+| CIV-2537 | Escritura de compraventa con pago aplazado y posposición de la condición resolutoria a la hipoteca | `escritura-compraventa-pago-aplazado-posposicion-civ-2537` |
+| CIV-2539 | Escritura en la que el deudor cede un crédito hipotecario a su acreedor para saldar la deuda | `escritura-deudor-cede-credito-hipotecario-acreedor-civ-2539` |
+| CIV-2540 | Escritura pública en la que el optante ejercita una opción de compra real y unilateral | `escritura-publica-optante-ejercita-opcion-compra-real-civ-2540` |
+| CIV-2541 | Acta notarial que declara extinguido el pacto de retroventa o retracto convencional | `acta-notarial-declara-extinguido-pacto-retroventa-civ-2541` |
+| CIV-2542 | Escritura que hace constar la caducidad de la posposición de una hipoteca | `escritura-hace-constar-caducidad-posposicion-hipoteca-civ-2542` |
+| CIV-2543 | Escritura de compraventa en la que se pospone una hipoteca voluntaria | `escritura-compraventa-pospone-hipoteca-voluntaria-civ-2543` |
+| CIV-2544 | Escritura de compraventa con nueva hipoteca voluntaria y posposición de la anterior | `escritura-compraventa-nueva-hipoteca-voluntaria-civ-2544` |
+| CIV-2545 | Escritura de compraventa en la que el comprador se subroga en el préstamo hipotecario | `escritura-compraventa-comprador-subroga-prestamo-civ-2545` |
 
 ### Comunicaciones, requerimientos y cartas (1)
 
@@ -95,7 +109,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 |---|---|---|
 | CIV-0670 | Solicitud conjunta de homologación de transacción en juicio de división de cosa común | `solicitud-conjunta-homologacion-transaccion-juicio-civ-0670` |
 
-### Escritos de trámite y otros (5)
+### Escritos de trámite y otros (6)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -104,3 +118,4 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0662 | Nota de inscripción de bien privativo por confesión del consorte | `nota-inscripcion-bien-privativo-confesion-consorte-civ-0662` |
 | CIV-0666 | Escrito para inscribir una sentencia en un registro público distinto del Registro Civil | `escrito-inscribir-sentencia-registro-publico-distinto-civ-0666` |
 | CIV-0681 | Escrito del acreedor pidiendo la administración interina de la finca hipotecada | `escrito-acreedor-pidiendo-administracion-interina-civ-0681` |
+| CIV-2531 | Declinatoria por falta de competencia funcional en el juicio verbal de tutela de la posesión | `declinatoria-falta-competencia-funcional-juicio-verbal-civ-2531` |

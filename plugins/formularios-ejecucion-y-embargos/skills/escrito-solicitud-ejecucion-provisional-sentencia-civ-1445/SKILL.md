@@ -5,7 +5,7 @@ description: "Escrito de solicitud de ejecución provisional de sentencia. Lo re
 
 # Escrito de solicitud de ejecución provisional de sentencia
 
-> Formulario **CIV-1445** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1445** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Escrito de solicitud d
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Escrito de solicitud de ejecución provisional de sentencia” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:escrito-solicitud-ejecucion-provisional-sentencia-civ-1445`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -86,81 +87,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
-
-Don/doña [NOMBRE Y APELLIDOS], Procurador de los Tribunales con número de colegiado [Nº DE COLEGIADO/A] y de don/doña [NOMBRE Y APELLIDOS], según tengo acreditado en los autos de [TIPO DE PROCEDIMIENTO], seguidos con el número [Nº DE PROCEDIMIENTO], como mejor proceda en derecho, ante el Tribunal comparezco y, DIGO:
-
-Que de conformidad con lo dispuesto en el artículo 525.1.1 de la Ley de Enjuiciamiento Civil, solicito la ejecución provisional de determinados pronunciamientos de la sentencia de [FECHA] (nulidad, separación, divorcio), basándome en los siguientes hechos y fundamentos de derecho.
-
-HECHOS
-
-PRIMERO Con fecha [FECHA] se dictó sentencia en los autos de [TIPO DE PROCEDIMIENTO] seguidos en este Tribunal a instancia de doña [NOMBRE Y APELLIDOS] contra don [NOMBRE Y APELLIDOS], en cuyo fallo, se acuerda entre otros los siguientes pronunciamientos complementarios:
-
-A) Que en concepto de levantamiento de las cargas familiares don [NOMBRE Y APELLIDOS] deberá entregar a doña [NOMBRE Y APELLIDOS], la cantidad de [IMPORTE] euros mensuales, ingresándola entre el uno al cinco de cada mes, en la cuenta bancaria que designe doña [NOMBRE Y APELLIDOS], actualizándose la citada cantidad anualmente conforme al IPC que publique el Instituto Nacional de Estadística.
-
-B) Conceder a doña [NOMBRE Y APELLIDOS], la guarda y custodia de los hijos menores de edad, estableciendo a favor del padre el siguiente régimen de visitas [RÉGIMEN DE VISITAS]
-
-C) La administración de los bienes gananciales a don [NOMBRE Y APELLIDOS] el cual deberá rendir cuentas de la marcha del negocio ganancial, cuando fuere requerido.
-
-D) Se concede a doña [NOMBRE Y APELLIDOS] una pensión compensatoria de [IMPORTE] euros mensuales que don [NOMBRE Y APELLIDOS], deberá ingresar, antes del día cinco de cada mes, en la cuenta bancaria que designe doña [NOMBRE Y APELLIDOS], actualizándose la citada cantidad anualmente conforme al IPC que publique el Instituto Nacional de Estadística.
-
-SEGUNDO Que la citada sentencia fue apelada por la parte contraria, dictándose providencia admitiéndose la apelación con fecha [FECHA]
-
-TERCERO Que esta parte ofrece constituir aval bancario por la cantidad que estime SSª, aunque entendemos no debe exigirse cantidad alguna en virtud del artículo 526 LECiv.
-
-A estos hechos, son de aplicación los siguientes
-
-FUNDAMENTOS DE DERECHO
-
-I. El artículo 525.1.1 de la Ley de Enjuiciamiento Civil que regula la ejecución provisional de los pronunciamientos que regulen las obligaciones y relaciones patrimoniales relacionadas con lo que sea objeto principal del proceso, en relación con el art. 774.4 y 5 LEC.
-
-II. El artículo 524.2 de la LECiv, que establece que: la ejecución provisional de sentencias de condena, que no sean firmes, se despachará y llevará a cabo, del mismo modo que la ejecución ordinaria, por el tribunal competente para la primera instancia.
-
-III. La competencia para el conocimiento de la ejecución provisional solicitada corresponde al Tribunal que dictó la sentencia de conformidad con el artículo 61 de la LECiv.
-
-IV. El artículo 90 del Código Civil, en cuanto que a la ejecución pueden aplicarse las normas de apremio.
-
-V. Los artículos 524 y siguientes de la LECiv y la jurisprudencia aplicable en orden al procedimiento a seguir en la ejecución de las medidas que se solicitan.
-
-Por todo lo cual,
-
-SUPLICO AL TRIBUNAL: que habiendo por presentado este escrito, por el Procurador que suscribe, debiéndosele tener por parte en la representación que ostenta de Dña. [NOMBRE Y APELLIDOS], se sirva admitirlo, teniendo por instada la ejecución provisional de la sentencia respecto a los pronunciamientos
-
-citados y previo los trámites legales se lleve a cabo la ejecución solicitada sobre los siguientes:
-
-1º Poner bajo la custodia de doña [NOMBRE Y APELLIDOS] los hijos [NOMBRE Y APELLIDOS] y [NOMBRE Y APELLIDOS]
-
-2º Poner a disposición de doña [NOMBRE Y APELLIDOS] y de los hijos citados, la vivienda familiar, procediéndose al desalojo de don [NOMBRE Y APELLIDOS] el cual solamente podrá llevarse consigo sus enseres personales.
-
-3º El pago a doña [NOMBRE Y APELLIDOS] de la pensión compensatoria de [IMPORTE] euros mensuales.
-
-4º El pago de la pensión por alimentos para los hijos citados a razón de [IMPORTE] euros por cada uno de ellos.
-
-Es Justicia que pido en [LOCALIDAD] a [DÍA] de [MES]
-
-Fdo. Letrado
-
-Colegiado/a núm. [Nº DE COLEGIADO]
-
-Fdo. Procurador
-
-Colegiado núm. [Nº DE COLEGIADO]
-
-========================================================================

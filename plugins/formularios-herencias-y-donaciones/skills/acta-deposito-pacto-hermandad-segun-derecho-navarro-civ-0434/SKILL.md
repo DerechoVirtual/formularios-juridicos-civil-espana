@@ -5,7 +5,7 @@ description: "Acta de depósito de pacto de hermandad según el Derecho navarro.
 
 # Acta de depósito de pacto de hermandad según el Derecho navarro
 
-> Formulario **CIV-0434** del plugin **Herencias, testamentos y donaciones** (`formularios-herencias-y-donaciones`) · Civil › Sucesiones y donaciones · normativa revisada el 24-11-2026.
+> Formulario **CIV-0434** del plugin **Herencias, testamentos y donaciones** (`formularios-herencias-y-donaciones`) · Civil › Sucesiones y donaciones · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Acta de depósito de p
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Acta de depósito de pacto de hermandad según el Derecho navarro” para mi caso». También puedes invocarla directamente con `/formularios-herencias-y-donaciones:acta-deposito-pacto-hermandad-segun-derecho-navarro-civ-0434`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-herencias-y-donaciones:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -92,115 +93,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-En [LOCALIDAD], mi residencia, a [DÍA] de [MES] de [AÑO]
-
-Ante mí [NOMBRE DEL NOTARIO], Notario/a del Ilustre Colegio de Notarios de [LOCALIDAD]
-
-DICEN
-
-Que D/Dª [NOMBRE Y APELLIDOS] es hijo/a de los consortes D. [NOMBRE Y APELLIDOS], D.ª [NOMBRE Y APELLIDOS], ambos fallecidos, y está casado en únicas nupcias con Dª [NOMBRE Y APELLIDOS], con quien tiene dos hijos, D. y D. [NOMBRE Y APELLIDOS]
-
-Que D/Dª [NOMBRE Y APELLIDOS] es hijo/a de los consortes D. [NOMBRE Y APELLIDOS], D.ª [NOMBRE Y APELLIDOS], ambos fallecidos, es soltero y no tiene hijos.
-
-Que D. es propietario de los siguientes bienes:
-
-A) Inmueble sito en [LOCALIDAD], calle [CALLE] número [NÚMERO] con una superficie de [Nº] metros cuadrados, distribuidos en dos plantas.
-
-Cuota de [PORCENTAJE] % en el valor del bloque donde está ubicado la citada vivienda y elementos comunes.
-
-Título: Adquirido por [TÍTULO DE ADQUISICIÓN] efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D. el día [DÍA] de [MES] de [AÑO] número protocolo
-
-Inscripción: Está inscrita en el Registro de la Propiedad número [NÚMERO] de [LOCALIDAD] en el tomo [TOMO] libro [LIBRO] folio [FOLIO] finca [FINCA]
-
-Referencia catastral: según consta en la referencia del último recibo del Impuestos sobre bienes Inmuebles.
-
-Cargas: La referida finca se encuentra libre de cargas y gravámenes.
-
-B) Vehículo [TIPO DE VEHÍCULO] marca [MARCA/MODELO] con número de bastidor [Nº DE BASTIDOR]
-
-C) Participaciones en la mercantil [DENOMINACIÓN SOCIAL] de responsabilidad limitada.
-
-Que D. es propietario de los siguientes bienes:
-
-D) Inmueble sito en [LOCALIDAD], calle [CALLE] número [NÚMERO] con una superficie de [Nº] metros cuadrados, distribuidos en dos plantas.
-
-Cuota de [PORCENTAJE] % en el valor del bloque donde está ubicado la citada vivienda y elementos comunes.
-
-Título: Adquirido por [TÍTULO DE ADQUISICIÓN] efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D. el día [DÍA] de [MES] de [AÑO] número protocolo
-
-Inscripción: Está inscrita en el Registro de la Propiedad número [NÚMERO] de [LOCALIDAD] en el tomo [TOMO] libro [LIBRO] folio [FOLIO] finca [FINCA]
-
-Referencia catastral: según consta en la referencia del último recibo del Impuestos sobre bienes Inmuebles.
-
-Cargas: La referida finca se encuentra libre de cargas y gravámenes.
-
-E) Cuenta corriente nº [NÚMERO] de la entidad bancaria [ENTIDAD BANCARIA]
-
-F) Cuenta corriente nº [NÚMERO] de la entidad bancaria [ENTIDAD BANCARIA]
-
-Que en uso de la facultad que les confiere la Ley 1/1973, de 1 de marzo, mediante la que se aprueba la Compilación del Derecho Civil Foral de Navarra, desean otorgar testamanto de hermandad, con arreglo a las siguientes
-
-CLÁUSULAS
-
-Institución de herederos
-
-D/Dª [NOMBRE Y APELLIDOS] y D/Dª [NOMBRE Y APELLIDOS], instituyen herederos a los hijos de D/Dª [NOMBRE Y APELLIDOS], por partes iguales, de todos los bienes de la herencia, salvo de los descritos en el exponendo segundo, letras B), C), E) y F).
-
-Legado 1
-
-D/Dª [NOMBRE Y APELLIDOS], lega a su hijo D/Dª [NOMBRE Y APELLIDOS], los bienes descritos en el exponendo segundo, letras B) y C).
-
-Legado 2
-
-D/Dª [NOMBRE Y APELLIDOS], lega al hijo de D/Dª [NOMBRE Y APELLIDOS], D/Dª [NOMBRE Y APELLIDOS], los bienes descritos en el exponendo segundo, letras E) y F).
-
-Indisponibilidad de bienes
-
-Los testadores se obligan a no disponer de los bienes descritos en el exponendo segundo, letras A) y D), a título gratuito.
-
-Reservas y advertencias legales
-
-Se las realizo a los comparecientes, en especial, las de carácter fiscal y registral.
-
-Advierto también sobre la incorporación de datos a los ficheros automatizados regulados en la Orden del Ministerio de Justicia 484/2003, de 19 de febrero.
-
-De conformidad con el art. 6º de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), y Reglamento (UE) 2016/679 (RGPD) (B.O.E. de 14 de diciembre de 1999), el compareciente presta su expreso consentimiento para que sus datos de carácter personal queden incorporados a los ficheros automatizados de esta Notaría, conservándose en la misma, con carácter confidencial y reservado, y sin perjuicio de las remisiones autorizadas por la Ley.
-
-La finalidad de esta incorporación es facilitar la tramitación y seguimiento de esta escritura.
-
-Es responsable del fichero, de su seguridad y confidencialidad, el Notario titular de esta notaría.
-
-Lectura
-
-Permito a los señores comparecientes la lectura de esta escritura, porque así lo solicitan después de ser advertidos de la opción del artículo 193 del Reglamento Notarial.
-
-Consentimiento
-
-Enterados, según dicen, por la lectura que han practicado y por mis explicaciones verbales, los señores comparecientes hacen constar libremente su consentimiento al contenido de la escritura.
-
-Firma
-
-Y la firma.
-
-Autorización
-
-Yo, el Notario, compruebo que este otorgamiento se adecúa a la legalidad, y a la voluntad debidamente informada y expresada ante mi; y con el contenido de esta escritura, extiendo en [Nº] folios de papel timbrado notarial de la clase [CLASE] serie [SERIE] números [Nº] DOY FE.
-
-========================================================================

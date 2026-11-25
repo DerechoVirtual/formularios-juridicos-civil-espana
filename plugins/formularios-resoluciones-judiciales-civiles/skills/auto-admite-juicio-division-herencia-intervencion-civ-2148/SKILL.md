@@ -5,7 +5,7 @@ description: "Auto que admite el juicio de división de herencia y la intervenci
 
 # Auto que admite el juicio de división de herencia y la intervención del caudal hereditario
 
-> Formulario **CIV-2148** del plugin **Resoluciones judiciales civiles: autos, decretos y diligencias** (`formularios-resoluciones-judiciales-civiles`) · Civil › Resoluciones judiciales (autos, decretos, providencias, diligencias) · normativa revisada el 24-11-2026.
+> Formulario **CIV-2148** del plugin **Resoluciones judiciales civiles: autos, sentencias y actas** (`formularios-resoluciones-judiciales-civiles`) · Civil › Resoluciones judiciales (autos, decretos, providencias, diligencias) · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,14 +22,15 @@ Para obtener, en pocos minutos, un borrador completo de «Auto que admite el jui
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Auto que admite el juicio de división de herencia y la intervención del caudal hereditario” para mi caso». También puedes invocarla directamente con `/formularios-resoluciones-judiciales-civiles:auto-admite-juicio-division-herencia-intervencion-civ-2148`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-resoluciones-judiciales-civiles:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, sentencias y actas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -93,83 +94,15 @@ Documento adapatado a la reforma orgánica de la LO 1/2025.
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-AUTO
-
-En [LUGAR], a [FECHA].
-
-Juez Sr. [NOMBRE Y APELLIDOS]
-
-ANTECEDENTES DE HECHO
-
-PRIMERO
-
-Por el Procurador de los Tribunales D./Doña [NOMBRE Y APELLIDOS], actuando en nombre y representación de [NOMBRE DEL REPRESENTADO/A], se han presentado escrito y documentos, conforme a los que pide la división judicial de la herencia de D./Doña [NOMBRE Y APELLIDOS], indicándose que uno de los coherederos testamentarios está ausente o, en todo caso, desconoce su domicilio.
-
-SEGUNDO
-
-La solicitud determina que el causante tuvo su último domicilio en [LOCALIDAD], calle [CALLE] n.º [NÚMERO], y murió casado en únicas nupcias con D./Doña [NOMBRE Y APELLIDOS], dejando cuatro hijos comunes, uno de los cuales es el promotor del juicio.
-
-TERCERO
-
-Se solicita la concesión del derecho a deliberar la aceptación o repudio de la herencia, así como la intervención del caudal, debiéndose decidir sobre su administración.
-
-RAZONAMIENTOS JURÍDICOS
-
-PRIMERO
-
-Examinado el escrito de solicitud se estima, por los datos y documentos que se acompañan, que la parte solicitante reúne los requisitos de capacidad y postulación para comparecer en juicio, conforme a lo que prevén los artículos 6, 7, 23 y 31 LEC.
-
-SEGUNDO
-
-Asimismo, a la luz de las peticiones formuladas, este Tribunal tiene jurisdicción y competencia objetiva, con arreglo al art. 45 LEC, y tiene competencia territorial en aplicación del art. 52.1.4.º LEC.
-
-TERCERO
-
-El solicitante afirma ser heredero testamentario de D./Doña [NOMBRE Y APELLIDOS], por lo que tiene legitimación activa para promover este procedimiento conforme al art. 782.1 LEC, y cumple con los requisitos de admisibilidad mediante aportación documental del art. 782.2.
-
-CUARTO
-
-Por lo que respecta al juicio adecuado, procede sustanciar las peticiones con arreglo a los procedimientos de división de herencia, intervención, y administración del caudal del Capítulo I del Título II, de la división judicial de patrimonios, del Libro IV de la LEC (arts. 782-805).
-
-QUINTO
-
-Así lo expuesto, al tiempo de solicitar la división judicial de la herencia, solicita el heredero la intervención del caudal hereditario, como previene el art. 792.1.2.º LEC, así como se reserva el derecho de deliberar del art. 1.010 CCiv, y procediendo acceder, ya que el testamento no prohíbe lo primero, y lo segundo es un derecho legal incondicionado, se han de acordar las medidas del art. 791.2 LEC, y las indispensables para la seguridad de los objetos del difunto, de modo que se citará a formación de inventario, dentro del término del art. 1.017 CCiv.
-
-PARTE DISPOSITIVA
-
-1.- Se tiene por promovido por el procurador de los Tribunales D./Doña [NOMBRE Y APELLIDOS], que actúa en nombre y representación de [NOMBRE DEL REPRESENTADO/A], juicio especial de división de la herencia de D. [NOMBRE Y APELLIDOS], devolviéndole la copia auténtica del poder previo su testimonio bastante en autos.
-
-2.- Se accede a la intervención del caudal hereditario, procediéndose a la diligencia de ocupación de los libros, papeles y correspondencia del difunto, señalando para llevarla a efecto el próximo día [FECHA], a las [Nº] horas, en la casa que fue domicilio del finado, sita en [LOCALIDAD], calle [CALLE], n.º [NÚMERO], y asimismo a la formación judicial de inventario, que se señala para el día [FECHA],a las [Nº] horas, en la sede del Tribunal, bajo presidencia del LAJ.
-
-Líbrese oficio al Sr. Administrador de Correos para que retenga y ponga a disposición del Tribunal la correspondencia que venga dirigida al difunto.
-
-3.- Se tiene por hecha la reserva del derecho a deliberar por el heredero promotor del juicio, que deberá ejercerlo en el plazo de treinta días desde la conclusión del inventario, que habrá de concluirse en el plazo fijado en el art. 1017 CCiv.
-
-Así lo dispongo, mando y firmo.
-
-Firma del Juez/a
-
-MODO DE IMPUGNACIÓN: Mediante recurso de reposición ante este Tribunal, que deberá interponerse por escrito en el plazo de cinco días hábiles contados desde el siguiente a la notificación, con expresión de la infracción cometida a juicio del recurrente, sin cuyos requisitos no se admitirá, y no obstante lo cual, se llevará a efecto lo acordado (arts. 451 y 452 LEC).
-
-Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15ª de la LOPJ).
-
-Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
-
-========================================================================

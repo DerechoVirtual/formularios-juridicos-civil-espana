@@ -5,7 +5,7 @@ description: "Demanda de ejecución provisional de sentencia dictada en segunda 
 
 # Demanda de ejecución provisional de sentencia dictada en segunda instancia (arts. 535 a 537 LEC)
 
-> Formulario **CIV-1689** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1689** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,13 +22,14 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda de ejecución 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda de ejecución provisional de sentencia dictada en segunda instancia (arts. 535 a 537 LEC)” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:demanda-ejecucion-provisional-sentencia-dictada-civ-1689`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -89,57 +90,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
-
-D./Dña. [NOMBRE Y APELLIDOS], Procurador/a. de los Tribunales y de [NOMBRE DEL REPRESENTADO/A], conforme a la representación acreditada en los autos de juicio [Nº DE PROCEDIMIENTO] seguidos con el número de registro [Nº], ante el Tribunal comparezco y como mejor proceda en derecho, DIGO:
-
-Que por medio del presente escrito y siguiendo instrucciones de mi mandante formulo DEMANDA DE EJECUCIÓN PROVISIONAL frente a [PARTE DEMANDADA], en virtud de los siguientes:
-
-HECHOS
-
-PRIMERO.- El pasado día [FECHA] recayó sentencia en rollo de apelación civil número [Nº DE PROCEDIMIENTO]/[AÑO], dimanante de los autos de juicio [Nº DE PROCEDIMIENTO] seguidos con el número de registro [Nº] en el Tribunal al que tengo el honor de dirigirme, sentencia dictada por la Sección [SECCIÓN] de la Audiencia Provincial de [LOCALIDAD], cuya parte dispositiva dice literalmente: " [PARTE DISPOSITIVA DE LA SENTENCIA] "
-
-Se acompaña certificación de la citada sentencia y demás particulares necesarios para su ejecución.
-
-SEGUNDO.- Con fecha [FECHA] se ha notificado a esta parte diligencia de ordenación teniendo por interpuesto recurso de casación contra la sentencia dictada en grado de apelación. Por lo tanto, con el fin de que no se irroguen perjuicios a mi patrocinado a causa de la lógica dilación que lleva consigo la tramitación del recurso de casación, es por lo que se solicita la ejecución provisional de la sentencia.
-
-TERCERO.- Esta parte conoce que el condenado-recurrente es propietario de una vivienda sita en [LOCALIDAD] e inscrita en el Registro de la Propiedad de [LOCALIDAD], así como de un vehículo marca [MARCA/MODELO] y matrícula [MATRÍCULA] No obstante, al no ser los bienes detallados suficientes para hacer frente a las responsabilidades reclamadas, es procedente oficiar a [NOMBRE DE LA ENTIDAD], para que informen a este Tribunal de la posible existencia de otros bienes o derechos del ejecutado de los que tengan constancia, ya que a esta parte le consta que es titular de [Nº] y siempre que mi patrocinado se ha dirigido a [NOMBRE DE LA ENTIDAD], sólo ha obtenido respuestas negativas y poco colaboradoras.
-
-FUNDAMENTOS DE DERECHO
-
-I.- Sobre la ejecución provisional de sentencias de condena dictadas en segunda instancia, artículos 535 a 537 de la LEC.
-
-II.- La competencia viene atribuida a ese Tribunal de Instancia, sección civil, conforme determina el artículo 524.2 de la LEC.
-
-III.- Al ser la sentencia de condena y no estando incluida en los supuestos enumerados en el artículo 525 de la Ley Procesal Civil, procede que se despache la ejecución provisional, ya que la solicitud se ha formulado con posterioridad a la notificación de la resolución de tener por interpuesto el recurso de casación y antes de que se haya resuelto dicho recurso.
-
-IV.- Dado que esta parte conoce bienes del demandado sobre los que practicar la traba, se designan los mismos de acuerdo con el artículo 549.1.3.º, interesándose a su vez que se oficie a los organismos y entidades expresados para que informen lo pertinente sobre otros bienes del deudor conforme al ordinal 4.º del precepto citado, habiéndose expresado sucintamente en el hecho tercero de esta demanda las razones por las que se estima que los organismos a oficiar disponen de información sobre el patrimonio del ejecutado.
-
-En virtud de todo lo anterior,
-
-SUPLICO AL TRIBUNAL
-
-que se tenga por presentada esta demanda, y, previos los trámites legalmente previstos, se despache ejecución provisional de la sentencia contra [PARTE DEMANDADA] condenando a pagar al ejecutado la cantidad de [IMPORTE] euros de principal, intereses legales y costas causadas que se presupuestan en [IMPORTE] euros, procediéndose al embargo de los bienes del ejecutado designados y a oficiar a las entidades y organismos enumerados a fin de que informen de otros posibles bienes del deudor, ya que los reseñados se consideran insuficientes para cubrir las responsabilidades reclamadas.
-
-Por ser de Justicia que pido en [LUGAR], a [FECHA].
-
-Firma de Abogado/a	Firma de Procurador/a
-
-========================================================================

@@ -1,0 +1,25 @@
+{
+  "name": "formularios-oposicion-a-la-ejecucion",
+  "version": "1.1.0",
+  "description": "Oposición a la ejecución, tercerías y recursos en la ejecución: 108 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para defenderse en la ejecución o discutir sus incidentes: oposición del ejecutado por motivos de fondo y procesales y su impugnación, tercerías de dominio y de mejor derecho, suspensión de la ejecución, nulidad de actuaciones y recursos contra las resoluciones de la ejecución. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Oposición a la ejecución, tercerías y recursos en la ejecución · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "ejecucion"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana"
+}

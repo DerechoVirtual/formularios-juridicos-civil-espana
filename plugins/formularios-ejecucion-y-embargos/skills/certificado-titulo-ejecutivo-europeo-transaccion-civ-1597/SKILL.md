@@ -5,7 +5,7 @@ description: "Certificado de título ejecutivo europeo para transacción judicia
 
 # Certificado de título ejecutivo europeo para transacción judicial aprobada
 
-> Formulario **CIV-1597** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1597** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Certificado de título
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Certificado de título ejecutivo europeo para transacción judicial aprobada” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:certificado-titulo-ejecutivo-europeo-transaccion-civ-1597`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -76,185 +77,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Certificado de título ejecutivo europeo de aprobación de transacción judicial.
-
-1. Estado miembro de origen:
-
-[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
-
-□ Bélgica
-
-□ República Checa
-
-□ Alemania
-
-□ Estonia
-
-□ Grecia
-
-□ España
-
-□ Francia
-
-□ Irlanda
-
-□ Italia
-
-□ Chipre
-
-□ Letonia
-
-□ Lituania
-
-□ Luxemburgo
-
-□ Hungría
-
-□ Malta
-
-□ Países Bajos
-
-□ Austria
-
-□ Polonia
-
-□ Portugal
-
-□ Eslovenia
-
-□ Eslovaquia
-
-□ Finlandia
-
-□ Suecia
-
-□ Reino Unido
-
-2. Órgano jurisdiccional que expide el certificado
-
-2.1. Denominación:
-
-2.2. Dirección:
-
-2.3. Tel./fax/correo electrónico:
-
-3. Si es diferente, órgano jurisdiccional que aprueba la transacción o ante el que se ha celebrado la misma
-
-3.1. Denominación:
-3.2. Dirección:
-3.3. Tel./fax/correo electrónico:
-
-4. Transacción judicial
-
-4.1. Fecha:
-4.2. Nº [Nº] de referencia:
-4.3. Las partes
-4.3.1. Nombre y dirección del [ELEGIR: acreedor / acreedores]:
-4.3.2. Nombre y dirección del [ELEGIR: deudor / deudores]:
-
-5. Crédito pecuniario certificado
-
-5.1. Capital principal:
-
-5.1.1. Divisas:
-
-[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
-
-□ Euro
-
-□ Libra chipriota
-
-□ Corona checa
-
-□ Corona estonia
-
-□ Libra esterlina
-
-□ Forint húngaro
-
-□ Litas lituanas
-
-□ Lats letón
-
-□ Lira maltesa
-
-□ Zloty polaco
-
-□ Corona sueca
-
-□ Corona eslovaca
-
-□ Tolar esloveno
-
-□ Otra [OTRA DIVISA]
-
-5.1.2. Si el crédito es un pago periódico
-
-5.1.2.1. Importe de cada plazo:
-
-5.1.2.2. Fecha de vencimiento del primer plazo:
-
-5.1.2.3. Fecha de vencimiento de los plazos sucesivos
-
-[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
-
-□ semanal
-
-□ mensual
-
-□ otra (precisar)
-
-5.1.2.4. Duración del crédito
-
-5.1.2.4.1.
-
-[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
-
-□ Actualmente indefinida
-
-□ [FECHA DE FINALIZACIÓN DEL CRÉDITO]
-
-5.1.2.4.2. Fecha de vencimiento del último plazo:
-
-5.2. Intereses
-
-5.2.1. Tipo de interés
-
-[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
-
-5.2.1.1. %
-
-5.2.1.2. % por encima del tipo base del BCE (Tipo de interés aplicado por el Banco Central Europeo a sus principales operaciones de refinanciación).
-
-5.2.1.3. Otros [OTRO TIPO DE INTERÉS]
-
-5.2.2. Intereses que deberán percibirse a partir de:
-
-5.3. Importe de costes reembolsables si está especificado en la transacción judicial:
-
-6.
-
-□ La transacción judicial es ejecutiva en el Estado miembro de origen
-
-Por ser de Justicia que pido en [LUGAR], a [FECHA].
-
-Firma
-
-========================================================================

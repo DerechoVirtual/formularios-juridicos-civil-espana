@@ -5,7 +5,7 @@ description: "Demanda ejecutiva de un acuerdo de mediación sobre alimentos del 
 
 # Demanda ejecutiva de un acuerdo de mediación sobre alimentos del hijo mayor de edad (Ley 5 de 2012)
 
-> Formulario **CIV-1469** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1469** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda ejecutiva de u
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda ejecutiva de un acuerdo de mediación sobre alimentos del hijo mayor de edad (Ley 5 de 2012)” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:demanda-ejecutiva-acuerdo-mediacion-sobre-alimentos-civ-1469`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -87,81 +88,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
-
-Procedimiento: /
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
-
-D./Dª [NOMBRE Y APELLIDOS], Procurador de los Tribunales, en nombre y representación de D./Dª [NOMBRE Y APELLIDOS], representación que acreditaré mediante comparecencia apud acta cuando sea requerido para ello, bajo la dirección técnica de D./Dª [NOMBRE Y APELLIDOS], Letrado del Ilustre Colegio de Abogados de [COLEGIO], ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
-
-Que por medio del presente escrito formulo DEMANDA EJECUTIVA contra D./Dª [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta., en calidad de deudor, según el título ejecutivo que luego se dirá, en reclamación de las responsabilidades que se concretan en el suplico de esta demanda ejecutiva,
-
-La demanda se interpone con base en los siguientes
-
-HECHOS
-
-TÍTULO EJECUTIVO: El título en que se funda la presente demanda es el ACUERDO OBTENIDO EN PROCESO DE MEDIACIÓN FAMILIAR FORMALIZADO EN ESCRITURA PÚBLICA de fecha [DÍA] de [MES] de [AÑO], otorgada ante D./Dª [NOMBRE Y APELLIDOS], Notario del Ilustre Colegio de [COLEGIO], número de protocolo
-
-En virtud de dicho acuerdo, el/la demandado/a viene obligado a satisfacer a mi representado/a, su hijo/a mayor de edad, la suma de [IMPORTE] EUROS CON [IMPORTE] CÉNTIMOS DE EURO MENSUALES ( €) en concepto de pensión de alimentos, que debe ser ingresada en la cuenta corriente señalada al efecto.
-
-Se acompaña primera copia de la escritura pública que se ejecuta como DOCUMENTO NÚMERO [Nº DE DOCUMENTO]
-
-SUMA ADEUDADA: El/La demandado/a ha dejado de satisfacer las siguientes mensualidades: resultando infructuosas las gestiones extrajudiciales llevadas a cabo por mi representado con el fin de obtener el pago.
-
-De acuerdo con ello, se reclaman en la presente demanda, las siguientes cantidades:
-
-1) La suma de [IMPORTE] euros ( €) de principal, correspondiente a la pensión de alimentos de los meses de [MES]
-
-2) Además, en el acuerdo mediado que se ejecuta se establece que la cantidad mensual a abonar por el ejecutado deberá actualizarse anualmente de acuerdo con la variación experimentada por el IPC. Al haberse cumplido una anualidad de vigencia del acuerdo mediado, sin que el ejecutado haya procedido a actualizar las cantidades debidas, se reclama dicha actualización, de conformidad con el siguiente desglose: En consecuencia, el demandado debe abonar la cantidad de [IMPORTE] euros ( €) en concepto de diferencia entre las cantidades satisfechas los meses en que ha procedido al pago y las debidas en virtud de la actualización de la pensión de acuerdo con el IPC.
-
-Se acompañan como DOCUMENTOS NÚMEROS [Nº] los documentos acreditativos del incremento del IPC durante los ejercicios indicados.
-
-3) Se reclaman, igualmente, otros [IMPORTE] euros ( €) correspondientes al interés legal incrementado en dos puntos, de acuerdo con lo dispuesto en el artículo 576.1 y 3 de la Ley de Enjuiciamiento Civil, de acuerdo con el siguiente desglose:
-
-4) Además se reclaman por la presente demanda, las cantidades correspondientes a las mensualidades que vayan venciendo durante la substanciación de este procedimiento y no satisfaga el ejecutado, conforme a lo dispuesto en el artículo 578 de la Ley de Enjuiciamiento Civil.
-
-5) Finalmente, se reclaman otros [IMPORTE] euros ( para intereses presupuestados y costas de la ejecución, que, sin perjuicio de ulterior liquidación, se establecen prudencialmente en la suma indicada, que no excede del 30% del principal, límite señalado por el artículo 575 de la LEC.
-
-Los Hechos expuestos se basan en los siguientes
-
-FUNDAMENTOS DE DERECHO
-
-Es competente el Tribunal al que me dirijo, por ser el del lugar en que se firmó el acuerdo de mediación (se entiende por tal, el acuerdo alcanzado por las partes tras el proceso de mediación, elevado a escritura pública), a tenor de lo dispuesto en el artículo 545.2 de la Ley de Enjuiciamiento Civil, en relación con el art. 85.1º LOPJ.
-
-La acción ejercitada mediante la presente demanda es la acción ejecutiva contra deudor obligado a la prestación que se reclama, fundada en un acuerdo de mediación elevado a escritura pública [DATOS DE LA ESCRITURA] de acuerdo con la Ley 5/2012, de 6 de julio, de mediación en asuntos civiles y mercantiles, y de conformidad con el artículo 517 de la Ley de Enjuiciamiento Civil.
-
-Los artículos 575, 576 y 578 de la Ley de Enjuiciamiento Civil invocados en el cuerpo del presente escrito.
-
-"Iura novit curia", y cuantos otros resulten de aplicación.
-
-En virtud de lo expuesto:
-
-SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito, con los documentos y copias que se acompañan, lo admita, tenga al procurador que suscribe por comparecido y parte en la representación que acredita, y por interpuesta DEMANDA EJECUTIVA contra D./Dª [NOMBRE Y APELLIDOS], con el fin de hacer efectivos los acuerdos alcanzados en proceso de mediación formalizados en escritura pública de fecha [DÍA] de [MES] de [AÑO], otorgada ante D./Dª [NOMBRE Y APELLIDOS], Notario del Ilustre Colegio de [COLEGIO], número de protocolo [Nº DE PROTOCOLO], y dicte auto por el que despache ejecución contra los bienes del demandado en cantidad suficiente para cubrir la suma de [IMPORTE] euros ( €) de principal, más otros [IMPORTE] euros ( €) en concepto de diferencia entre las cantidades satisfechas los meses en que ha procedido al pago de la pensión de alimentos y las debidas en virtud de la actualización de dicha pensión de acuerdo con el IPC, más otros [IMPORTE] euros ( €) en concepto de intereses vencidos, y [IMPORTE] euros ( €) para intereses presupuestados y costas de la ejecución; y sin necesidad de requerimiento previo se embarguen bienes del ejecutado en cantidad suficiente para cubrir las cantidades reclamadas y, previos los trámites legales oportunos, se proceda a realizar tales bienes para satisfacer con su producto las cantidades adeudadas por mi representado y reclamadas por el presente escrito.
-
-PRIMER OTROSÍ DIGO: Se señalan como bienes del ejecutado susceptibles de embargo de los que tiene conocimiento mi representado, a los efectos de dar cumplimiento a la exigencia contenida en el artículo 549 de la Ley de Enjuiciamiento Civil, los siguientes
-
-SEGUNDO OTROSÍ DIGO: Dado que el valor de los bienes antes señalados no parece suficiente para hacer frente a la totalidad de lo adeudado, solicito, con amparo en el art. 590 de la Ley de Enjuiciamiento Civil, que se remita oficio a las siguientes entidades bancarias, con las que, según le consta a mi representado por haber tenido conocimiento de ello en su ámbito familiar, el ejecutado ha venido manteniendo relaciones, con el fin de que comuniquen la posible existencia de [DESCRIPCIÓN DEL BIEN], de titularidad del ejecutado, ordenándoles, en su caso, el embargo del saldo obrante en las mismas, que será puesto a disposición de este Tribunal con el fin de satisfacer las cantidades debidas a mi representado:
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma y número del Letrado	Firma del Procurador
-
-========================================================================

@@ -1,0 +1,25 @@
+{
+  "name": "formularios-hijos-custodia-y-alimentos",
+  "version": "1.1.0",
+  "description": "Hijos: custodia, visitas, alimentos, filiación y adopción: 159 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los asuntos de los hijos: guarda y custodia, régimen de visitas y estancias, alimentos y su modificación, patria potestad y desacuerdos en su ejercicio, filiación y paternidad, adopción y acogimiento, sustracción internacional de menores y protección de menores. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Hijos: custodia, visitas, alimentos, filiación y adopción · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "familia"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana"
+}

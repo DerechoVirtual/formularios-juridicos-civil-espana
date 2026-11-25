@@ -1,22 +1,22 @@
 # Cobrar deudas: monitorio y cambiario
 
-> Plugin de Claude Code `formularios-reclamar-deudas-monitorio` · **54 formularios** · Civil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-reclamar-deudas-monitorio` · **64 formularios** · Civil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para reclamar deudas: petición inicial de monitorio (también de comunidad de propietarios), oposición del deudor, impugnación de la oposición, paso al declarativo y juicio cambiario con letras, pagarés y cheques.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 54 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 64 está al final):
 
-- **Demandas, peticiones y solicitudes iniciales** (14). Por ejemplo: Escrito inicial de jurisdicción voluntaria por robo o extravío de cheque bancario; Demanda de oposición en juicio cambiario por novación extintiva e incumplimiento del contrato; Demanda de juicio cambiario por acción directa contra la sociedad aceptante y sus avalistas.
-- **Contestaciones, oposiciones y alegaciones** (11). Por ejemplo: Oposición al monitorio por nulidad del título debida a cláusulas abusivas; Alegaciones del demandante sobre competencia objetiva en un monitorio por transporte de mercancías; Oposición al monitorio por falta de legitimación pasiva en una deuda de suministro eléctrico.
+- **Demandas, peticiones y solicitudes iniciales** (17). Por ejemplo: Escrito inicial de jurisdicción voluntaria por robo o extravío de cheque bancario; Demanda de oposición en juicio cambiario por novación extintiva e incumplimiento del contrato; Demanda de juicio cambiario por acción directa contra la sociedad aceptante y sus avalistas.
+- **Contestaciones, oposiciones y alegaciones** (12). Por ejemplo: Oposición al monitorio por nulidad del título debida a cláusulas abusivas; Alegaciones del demandante sobre competencia objetiva en un monitorio por transporte de mercancías; Oposición al monitorio por falta de legitimación pasiva en una deuda de suministro eléctrico.
 - **Recursos** (3). Por ejemplo: Recurso de apelación contra el auto que inadmite la petición inicial de proceso monitorio; Recurso directo de revisión contra el decreto que da por terminado el proceso monitorio; Recurso de reposición potestativo contra la inadmisión en el juicio cambiario.
 - **Comunicaciones, requerimientos y cartas** (1). Por ejemplo: Denuncia judicial por extravío de un pagaré.
-- **Escritos de trámite y otros** (25). Por ejemplo: Escrito de inicio del expediente de jurisdicción voluntaria sobre letra de cambio sustraída; Escrito comunicando al Tribunal el cambio de domicilio de la empresa demandada en el monitorio; Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación.
+- **Escritos de trámite y otros** (31). Por ejemplo: Escrito de inicio del expediente de jurisdicción voluntaria sobre letra de cambio sustraída; Escrito comunicando al Tribunal el cambio de domicilio de la empresa demandada en el monitorio; Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación.
 
 ## Cómo se usa
 
@@ -32,9 +32,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -42,7 +42,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 3.387 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-reclamar-deudas-monitorio@formularios-juridicos-civil-espana`).
+- **Espacio que ocupa:** unos 4.011 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-reclamar-deudas-monitorio@formularios-juridicos-civil-espana`).
 
 ## Instalación
 
@@ -57,7 +57,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (54)
+## Lista completa de formularios (64)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -115,6 +115,16 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1196 | Escrito del actor pidiendo auto que admita el allanamiento parcial del deudor en el monitorio | `escrito-actor-pidiendo-auto-admita-allanamiento-civ-1196` |
 | CIV-1197 | Escrito de desistimiento del monitorio antes del requerimiento de pago | `escrito-desistimiento-monitorio-antes-requerimiento-civ-1197` |
 | CIV-1198 | Escrito de desistimiento del monitorio después del requerimiento de pago | `escrito-desistimiento-monitorio-despues-requerimiento-civ-1198` |
+| CIV-2772 | Escrito que pide suspender el juicio cambiario por prejudicialidad penal hasta sentencia firme | `escrito-pide-suspender-juicio-cambiario-civ-2772` |
+| CIV-2773 | Petición de embargo de elementos comunes por destino de la comunidad ejecutada en juicio cambiario | `peticion-embargo-elementos-comunes-destino-comunidad-civ-2773` |
+| CIV-2774 | Petición de embargo de cuotas futuras de la comunidad de propietarios ejecutada tras un monitorio | `peticion-embargo-cuotas-futuras-comunidad-propietarios-civ-2774` |
+| CIV-2775 | Declinatoria por falta de competencia territorial en el juicio cambiario | `declinatoria-falta-competencia-territorial-juicio-civ-2775` |
+| CIV-2776 | Escrito del deudor cambiario que pide alzar el embargo negando la autenticidad de su firma | `escrito-deudor-cambiario-pide-alzar-embargo-negando-civ-2776` |
+| CIV-2777 | Escrito del deudor cambiario que acredita haber pagado lo reclamado | `escrito-deudor-cambiario-acredita-haber-pagado-lo-civ-2777` |
+| CIV-2778 | Demanda de juicio cambiario por pagaré impagado con acción directa contra el firmante | `demanda-juicio-cambiario-pagare-impagado-accion-civ-2778` |
+| CIV-2779 | Oposición del deudor al monitorio alegando que el procedimiento no es el adecuado | `oposicion-deudor-monitorio-alegando-procedimiento-no-civ-2779` |
+| CIV-2780 | Demanda ordinaria tras la oposición al monitorio ante el mismo tribunal por competencia funcional | `demanda-ordinaria-tras-oposicion-monitorio-ante-mismo-civ-2780` |
+| CIV-2781 | Demanda ordinaria tras la oposición al monitorio con la misma pretensión de la petición inicial | `demanda-ordinaria-tras-oposicion-monitorio-misma-civ-2781` |
 
 ## Privacidad
 

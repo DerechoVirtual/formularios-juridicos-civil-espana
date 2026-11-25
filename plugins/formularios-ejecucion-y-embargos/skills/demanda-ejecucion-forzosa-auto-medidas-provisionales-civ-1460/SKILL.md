@@ -5,7 +5,7 @@ description: "Demanda de ejecución forzosa del auto de medidas provisionales pr
 
 # Demanda de ejecución forzosa del auto de medidas provisionales previas
 
-> Formulario **CIV-1460** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1460** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,13 +22,14 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda de ejecución 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda de ejecución forzosa del auto de medidas provisionales previas” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:demanda-ejecucion-forzosa-auto-medidas-provisionales-civ-1460`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -92,93 +93,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Antecedentes:
-
-Tribunal de Instancia nº [NÚMERO]
-
-Medidas Provisionales Previas nº [Nº]/[AÑO]
-
-A LA SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D./Dª [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre y representación de D./Dª [NOMBRE Y APELLIDOS], cuya representación consta acreditada en los autos de medidas provisionales previas que con el nº [Nº]/[AÑO] se han seguido ante el Tribunal al que me dirijo, comparezco en este TRIBUNAL y como mejor proceda en Derecho DIGO:
-
-Que mediante el presente escrito, y con la asistencia del Letrado D./Dª [NOMBRE Y APELLIDOS], del Ilustre Colegio de Abogados de [COLEGIO], formulo demanda de ejecución del auto recaído en la pieza de medidas provisionales previas de referencia, contra D./Dª [NOMBRE Y APELLIDOS], con domicilio en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta., por impago de la pensión alimenticia acordada en la citada resolución a cuyo abono fue condenado, y ello en base a los siguientes:
-
-HECHOS
-
-Con fecha [DÍA] de [MES] de [AÑO] se dictó auto en la pieza de medidas provisionales previas núm. [Nº]/[AÑO] instada por mi mandante, en el que se acordaba atribuir la guarda y custodia del menor [NOMBRE DEL MENOR], a la madre, así como el uso del domicilio familiar, conceder al padre el derecho de visitas que en el mismo se especifica, y la obligación de prestar alimentos por parte del progenitor no custodio en la suma de 500 € mensuales.
-
-Adjunto aportamos como DOCUMENTO NÚM. UNO testimonio del auto.
-
-Desde el mes de junio del año en curso, el ejecutado ha dejado de cumplir la referida prestación alimenticia, adeudando a la fecha de la presentación de la presente demanda ejecutiva la suma de 1.500 €.
-
-Pese a los numerosos requerimientos verbales cursados al demandado por parte de mi mandante, el mismo no ha abonado ninguna de las mensualidades de alimentos pendientes.
-
-A los anteriores hechos les son de aplicación los siguientes:
-
-FUNDAMENTOS DE DERECHO
-
-Competencia
-
-Es competente para la ejecución de la sentencia el mismo órgano judicial que la dicto, al amparo del art. 545 de la LEC.
-
-Procedimiento
-
-La ejecución se seguirá por los trámites previstos en los arts. 571 y siguientes de la LEC, al tratarse de ejecución dineraria, por remisión de lo dispuesto en el artículo 776 del mismo cuerpo legal.
-
-Legitimación
-
-Está legitimada activamente mi representada, y pasivamente el demandado de ejecución al amparo del art. 538 de la LEC.
-
-Acción que se ejercita
-
-Ejercitamos acción ejecutiva fundada, como título que lleva aparejada ejecución, en el auto recaído en el procedimiento de referencia por el que se acordaba que el padre debía prestar alimentos por el importe mensual de 500 €, al amparo del art. 517.1.1º de la LEC.
-
-Según lo dispuesto en el artículo 575.1 de la LEC, reclamamos el principal más un 30 % del mismo (esto es 450 €) en concepto de intereses (art. 576 LEC) y costas presupuestados en principio para la ejecución.
-
-No era preceptivo el requerimiento de pago efectuado, al amparo del artículo 580 de la LEC, y se han cumplido los plazos previstos en los artículos 518 y 548 de dicha ley adjetiva.
-
-Cuantía
-
-Se fija la cuantía de la ejecución en la suma de 1.500 €, principal, más 450 € (30 % presupuestado para intereses y costas).
-
-Costas
-
-Deberá abonar las costas el ejecutado según lo previsto en los arts. 539 y 583 de la LEC.
-
-Por lo expuesto:
-
-SUPLICO AL TRIBUNAL tenga por presentado este escrito junto con los documentos que se acompañan, me tenga por parte en la representación que, otorgada por Doña [NOMBRE Y APELLIDOS], asumo, entendiéndose conmigo las sucesivas actuaciones, por formulada demanda de ejecución del auto recaído en la pieza de medidas provisionales previas núm. [Nº]/[AÑO], se despache ejecución frente a los bienes del ejecutado, trabándose embargo de los mismos, y ejecutándose hasta hacer pago con su producto de la deuda, más los intereses que se devenguen y las costas de la ejecución.
-
-PRIMER OTROSÍ DIGO que desconociendo mi mandante bienes del ejecutado para hacer frente a su crédito, SUPLICO AL TRIBUNAL:
-
-1.- Proceda a la averiguación de sus bienes a través del Punto Neutro Judicial.
-
-2.- Requiera personalmente al demandado para que señale bienes con que hacer frente a la deuda con apercibimiento de incurrir en delito de desobediencia a la autoridad en caso de no verificarlo.
-
-3.- Acuerde la imposición de multa coercitiva mensual de 600 € hasta que se cumplimente por el ejecutado el anterior requerimiento.
-
-SEGUNDO OTROSÍ DIGO que al amparo de la LEC, se interesa la ampliación de la ejecución a los próximos vencimientos de la pensión alimenticia, por lo que SUPLICO AL TRIBUNAL acuerde la ampliación automática de la ejecución, en la medida en que se produzcan los sucesivos vencimientos.
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma y número del Letrado	Firma del Procurador
-
-========================================================================

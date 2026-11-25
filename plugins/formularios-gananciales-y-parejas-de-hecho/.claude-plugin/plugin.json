@@ -1,0 +1,25 @@
+{
+  "name": "formularios-gananciales-y-parejas-de-hecho",
+  "version": "1.1.0",
+  "description": "Gananciales, regímenes económicos y parejas de hecho: 88 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la economía de la familia: capitulaciones matrimoniales, régimen de gananciales y de separación de bienes, inventario y liquidación de la sociedad de gananciales, compensación económica, parejas de hecho y estables (también forales) y donaciones entre cónyuges. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Gananciales, regímenes económicos y parejas de hecho · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "familia"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana"
+}

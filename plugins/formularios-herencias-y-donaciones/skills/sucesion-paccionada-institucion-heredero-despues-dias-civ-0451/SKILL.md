@@ -5,7 +5,7 @@ description: "Sucesión paccionada con institución de heredero para después de
 
 # Sucesión paccionada con institución de heredero para después de los días según el Derecho aragonés
 
-> Formulario **CIV-0451** del plugin **Herencias, testamentos y donaciones** (`formularios-herencias-y-donaciones`) · Civil › Sucesiones y donaciones · normativa revisada el 24-11-2026.
+> Formulario **CIV-0451** del plugin **Herencias, testamentos y donaciones** (`formularios-herencias-y-donaciones`) · Civil › Sucesiones y donaciones · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,13 +22,14 @@ Para obtener, en pocos minutos, un borrador completo de «Sucesión paccionada c
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Sucesión paccionada con institución de heredero para después de los días según el Derecho aragonés” para mi caso». También puedes invocarla directamente con `/formularios-herencias-y-donaciones:sucesion-paccionada-institucion-heredero-despues-dias-civ-0451`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-herencias-y-donaciones:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Herencias, testamentos y donaciones) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -107,115 +108,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-SUCESIÓN PACCIONADA. INSTITUCIÓN PARA DESPUÉS DE LOS DÍAS (ARAGÓN)
-
-En [LOCALIDAD], mi residencia, a [DÍA] de [MES] de [AÑO].
-
-Ante mí, [NOMBRE DEL NOTARIO], Notario/a del Ilustre Colegio de Notarios de [COLEGIO NOTARIAL],
-
-[COMPARECENCIA: identificar a los otorgantes con nombre y apellidos, DNI/NIE, domicilio, estado civil y capacidad, según el protocolo notarial.]
-
-DICEN
-
-Que D./Dña. [NOMBRE Y APELLIDOS DEL INSTITUYENTE] es hijo/a de los consortes D. [NOMBRE Y APELLIDOS DEL PADRE], [ELEGIR: fallecido / que vive], y D.ª [NOMBRE Y APELLIDOS DE LA MADRE], [ELEGIR: fallecida / que vive]; estando casado/a en únicas nupcias con D.ª/D. [NOMBRE Y APELLIDOS DEL CÓNYUGE], de cuyo matrimonio tiene [Nº] hijos, llamados [NOMBRE Y APELLIDOS DEL HIJO/A] y [NOMBRE Y APELLIDOS DEL HIJO/A].
-
-Que D./Dña. [NOMBRE Y APELLIDOS DEL INSTITUYENTE] es propietario/a de los siguientes bienes:
-
-A) Inmueble sito en [LOCALIDAD], calle [CALLE], número [Nº], con una superficie de [SUPERFICIE] metros cuadrados, distribuidos en [Nº DE PLANTAS] plantas.
-
-Cuota de [PORCENTAJE] % en el valor del bloque donde está ubicada la citada vivienda y elementos comunes.
-
-Título: adquirido por [TÍTULO: compraventa / herencia / donación / otro], efectuada en virtud de escritura pública otorgada ante el Notario de [LOCALIDAD], D./Dña. [NOMBRE DEL NOTARIO], el día [DÍA] de [MES] de [AÑO], número [Nº DE PROTOCOLO] de su protocolo.
-
-Inscripción: está inscrita en el Registro de la Propiedad número [Nº] de [LOCALIDAD], en el tomo [TOMO], libro [LIBRO], folio [FOLIO], finca [Nº DE FINCA].
-
-Referencia catastral: [REFERENCIA CATASTRAL], según consta en la referencia del último recibo del Impuesto sobre Bienes Inmuebles.
-
-Cargas: la referida finca se encuentra [ELEGIR: libre de cargas y gravámenes / gravada con las siguientes cargas: DESCRIPCIÓN DE LAS CARGAS].
-
-B) Vehículo [MARCA Y MODELO], con número de bastidor [Nº DE BASTIDOR].
-
-C) Participaciones en la mercantil [DENOMINACIÓN SOCIAL], sociedad de responsabilidad limitada.
-
-D) Cuenta corriente nº [Nº DE CUENTA] de la entidad bancaria [ENTIDAD].
-
-E) Cuenta corriente nº [Nº DE CUENTA] de la entidad bancaria [ENTIDAD].
-
-OTORGA
-
-Que, en uso de la facultad que le otorga el Decreto Legislativo 1/2011, de 22 de marzo, del Gobierno de Aragón, por el que se aprueba, con el título de «Código del Derecho Foral de Aragón», el Texto Refundido de las Leyes civiles aragonesas, decide otorgar la presente escritura de institución de heredero para después de los días, a tenor de las siguientes
-
-ESTIPULACIONES
-
-Objeto
-
-D./Dña. [NOMBRE Y APELLIDOS DEL INSTITUYENTE] instituye heredero a D./Dña. [NOMBRE Y APELLIDOS DEL INSTITUIDO], quien acepta la institución de acuerdo con los siguientes pactos:
-
-a) La institución es para después de los días del instituyente, es decir, no se transmite en el presente acto ninguno de los bienes del instituyente.
-
-b) La institución abarca todo el patrimonio del instituyente a su fallecimiento, incluidos bienes, derechos y obligaciones.
-
-c) El instituyente podrá disponer libremente de sus bienes, pero necesitará recabar el consentimiento del instituido para llevar a cabo donaciones.
-
-d) Cabe la revocación unilateral de la presente sucesión paccionada por las causas legales, y en el supuesto de que se cumpla la siguiente condición: [EXPLICAR LA CONDICIÓN].
-
-Reservas
-
-El instituyente decide realizar las siguientes reservas:
-
-a) Reserva el siguiente bien: [DESCRIPCIÓN DEL BIEN], para que sea transmitido a sus hijos, por partes iguales.
-
-b) Reserva para su cónyuge el usufructo sobre el siguiente bien: [DESCRIPCIÓN DEL BIEN], limitando su derecho de viudedad.
-
-c) Reserva los siguientes bienes: [DESCRIPCIÓN DE LOS BIENES], para disponer libremente de ellos mediante testamento.
-
-d) Reserva su facultad de disposición sobre el siguiente bien: [DESCRIPCIÓN DEL BIEN], al objeto de constituir la siguiente carga sobre el mismo: [DESCRIPCIÓN DE LA CARGA].
-
-e) Reserva la facultad de designar a alguno de los descendientes del instituido como heredero, para el supuesto de que este le premuera.
-
-RESERVAS Y ADVERTENCIAS LEGALES
-
-Reservas y advertencias legales.- Se las realizo a los comparecientes, en especial las de carácter fiscal y registral.
-
-Advierto también del tratamiento de los datos personales de los otorgantes, que se efectuará conforme al Reglamento (UE) 2016/679 (RGPD) y a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).
-
-De conformidad con el art. 6 de la Ley Orgánica 3/2018, de 5 de diciembre, se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, ya sea mediante una declaración o una clara acción afirmativa, el tratamiento de datos personales que le conciernen. Cuando se pretenda fundar el tratamiento de los datos en el consentimiento del afectado para una pluralidad de finalidades será preciso que conste de manera específica e inequívoca que dicho consentimiento se otorga para todas ellas. No podrá supeditarse la ejecución del contrato a que el afectado consienta el tratamiento de los datos personales para finalidades que no guarden relación con el mantenimiento, desarrollo o control de la relación contractual.
-
-La finalidad del tratamiento es facilitar la tramitación y seguimiento de esta escritura.
-
-Es responsable del tratamiento, de su seguridad y confidencialidad, el Notario titular de esta notaría.
-
-Lectura.- Permito a los señores comparecientes la lectura de esta escritura, porque así lo solicitan después de advertidos de la opción del artículo 193 del Reglamento Notarial.
-
-Consentimiento.- Enterados, según dicen, por la lectura que han practicado y por mis explicaciones verbales, los señores comparecientes hacen constar libremente su consentimiento al contenido de la escritura.
-
-Firma.- Y la firman.
-
-Autorización.- Yo, el Notario, compruebo que este otorgamiento se adecúa a la legalidad y a la voluntad debidamente informada y expresada ante mí; y con el contenido de esta escritura, extiendo en [Nº] folios de papel timbrado notarial de la clase [CLASE], serie [SERIE], números [NÚMEROS]. DOY FE.
-
-Firmas
-
-NOTAS DE AYUDA
-
-Se pueden pactar limitaciones: recabar consentimiento, no poder disponer de determinados bienes.
-
-Los bienes de los que no se haya dispuesto mediante testamento pasarán a ser parte de la institución.
-
-Puede el instituyente establecer que, en el caso de que el instituido le premuera sin descendientes, los bienes que le fueron transmitidos mediante la presente escritura le reviertan.

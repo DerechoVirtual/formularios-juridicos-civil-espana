@@ -5,7 +5,7 @@ description: "Auto que admite a trámite la petición de designación judicial d
 
 # Auto que admite a trámite la petición de designación judicial de un árbitro único
 
-> Formulario **CIV-1809** del plugin **Resoluciones judiciales civiles: autos, decretos y diligencias** (`formularios-resoluciones-judiciales-civiles`) · Civil › Resoluciones judiciales (autos, decretos, providencias, diligencias) · normativa revisada el 24-11-2026.
+> Formulario **CIV-1809** del plugin **Resoluciones judiciales civiles: autos, sentencias y actas** (`formularios-resoluciones-judiciales-civiles`) · Civil › Resoluciones judiciales (autos, decretos, providencias, diligencias) · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,14 +22,15 @@ Para obtener, en pocos minutos, un borrador completo de «Auto que admite a trá
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Auto que admite a trámite la petición de designación judicial de un árbitro único” para mi caso». También puedes invocarla directamente con `/formularios-resoluciones-judiciales-civiles:auto-admite-tramite-peticion-designacion-judicial-civ-1809`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-resoluciones-judiciales-civiles:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, sentencias y actas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -84,73 +85,15 @@ Auto admitiendo a trámite la demanda presentada sobre designación judicial de 
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-TRIBUNAL SUPERIOR DE JUSTICIA DE [LOCALIDAD]
-
-SALA DE LO CIVIL Y PENAL
-
-Designación árbitros n.º [NÚMERO]/[AÑO]
-
-Demandante: CONSTRUCCIONES [DENOMINACIÓN SOCIAL] S.L.
-
-Abogado/a: D./Dña. [NOMBRE Y APELLIDOS] Procurador: D./Dña. [NOMBRE Y APELLIDOS]
-
-Demandada: PROMOTORA [DENOMINACIÓN SOCIAL] S.L.
-
-Abogado/a: D./Dña. [NOMBRE Y APELLIDOS] Procurador: D./Dña. [NOMBRE Y APELLIDOS]
-
-AUTO
-
-Iltmos. Sres:
-
-En [LUGAR], a [FECHA].
-
-ANTECEDENTES DE HECHO
-
-PRIMERO.- Por la Procurador/a Sr./a [NOMBRE Y APELLIDOS], en nombre y representación de CONSTRUCCIONES [DENOMINACIÓN SOCIAL] S.L., se ha presentado escrito que solicita la designación judicial de un árbitro, señalando como parte demandada a PROMOTORA [DENOMINACIÓN SOCIAL] S.L.
-
-SEGUNDO.- Mediante diligencia de ordenación del Letrado de la Administración de Justicia se dio cuenta de que la demanda adolecía del defecto [MOTIVO]
-
-FUNDAMENTOS DE DERECHO
-
-PRIMERO.- Del examen de la solicitud presentada y de los documentos que le acompañan, se obtiene que reúne la parte actora los requisitos de capacidad, representación y postulación precisos para comparecer válidamente en juicio civil conforme a lo que establecen los arts. 6, 7, 23 y 31 LEC.
-
-SEGUNDO.- Vista la materia para cuya solución se produce la solicitud y el contenido de ésta, esta Sala tiene jurisdicción y competencia objetiva y territorial para conocer de la misma, según lo que previenen los arts. 73.1.c) LOPJ y 8.1 y 15.4 LA.
-
-TERCERO.- En cuanto al procedimiento debe sustanciarse la solicitud por los cauces del juicio verbal, por lo que con arreglo a lo previsto en el art. 440.1 LEC, procede dar traslado de la demanda a la demandada y citar a los litigantes a la celebración de la vista que tiene las prevenciones de dicho precepto y concordantes.
-
-PARTE DISPOSITIVA
-
-1.- Se admite a trámite la demanda presentada por la Procurador/a Sr./a [NOMBRE Y APELLIDOS], en nombre y representación de CONSTRUCCIONES [DENOMINACIÓN SOCIAL] S.L. frente a PROMOTORA [DENOMINACIÓN SOCIAL] S.L., sobre designación judicial de árbitros, que se sustanciará por el cauce de juicio verbal.
-
-2.- Dése traslado de la demanda a la parte demandada, con entrega de copia de la misma y de los documentos acompañados.
-
-3.- Cítese a las partes a la celebración de la vista, que tendrá lugar en la Sala de audiencias de este Tribunal el día [FECHA] de [LOCALIDAD], a las [Nº] horas, citándose a la parte demandada en el domicilio señalado en la demanda, y apercibiéndolas de todos los requerimientos de los arts. 23, 31, 440 y 442, así como de las fórmulas de preparar la prueba documental o pericial, y advirtiendo que deberán comunicar cualquier cambio de domicilio.
-
-Así lo acordamos, mandamos y firmamos:
-
-Firma del Letrado/a de la Administración de Justicia:
-
-Esta resolución es susceptible de recurso de reposición, mediante escrito de parte perjudicada en el procedimiento, ante este mismo Tribunal, dentro de los cinco días siguientes a la notificación, expresando la infracción cometida a juicio del recurrente, y que no tendrá efecto suspensivo.
-
-Para interponer el recurso será necesaria la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo Banesto (Banco Español de Crédito) con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (DA 15.ª de la LOPJ).
-
-Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
-
-========================================================================

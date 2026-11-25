@@ -1,0 +1,5 @@
+OTROSÍ DIGO.- Que estando la presente demanda sujeta al pago de la tasa por la prestación de servicios personales y materiales en el ámbito de la administración de la Administración de Justicia, regulada por Decreto Ley de Cataluña 1/2014, de 3 de junio, por el que se modifica el Texto refundido de la Ley de tasas y precios públicos de la Generalidad de Cataluña, aprobado por el Decreto legislativo 3/2008, de 25 de junio, y de conformidad a lo previsto en los arts. 3 y 4.1 de la Orden JUS/303/2014, de 13 de octubre, esta parte anuncia su intención de presentar la correspondiente autoliquidación e ingreso en el plazo de un mes, una vez hayan transcurrido 10 días naturales desde la fecha de la recuperación por parte del órgano judicial del escrito iniciador del procedimiento o del incidente, que previenen los citados preceptos.
+
+SUPLICO AL TRIBUNAL: que tenga por hecha la anterior manifestación a los efectos pertinentes.
+
+========================================================================

@@ -1,0 +1,39 @@
+A LA SECCIÓN [ELEGIR: DE FAMILIA, INFANCIA Y CAPACIDAD / CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+AUTOS DE DISOLUCIÓN MATRIMONIAL POR [ELEGIR: DIVORCIO / SEPARACIÓN / NULIDAD] N.º [Nº DE PROCEDIMIENTO]
+
+D./D.ª [NOMBRE Y APELLIDOS DEL/DE LA PROCURADOR/A], Procurador/a de los Tribunales, actuando en nombre y representación procesal de D./D.ª [NOMBRE Y APELLIDOS DEL/DE LA REPRESENTADO/A], conforme tengo debidamente acreditado en el procedimiento que se sigue en este Tribunal sobre disolución matrimonial por [ELEGIR: divorcio / separación / nulidad], con el número del margen, ante el Tribunal comparezco y, en la forma que mejor proceda en Derecho, DIGO (notas 1 y 2):
+
+Que por medio del presente escrito y de conformidad con lo establecido en los artículos 451 y siguientes de la Ley de Enjuiciamiento Civil, dentro del plazo legal expresamente previsto para ello, vengo a interponer RECURSO DE REPOSICIÓN contra el auto dictado por el órgano jurisdiccional al que tengo el honor de dirigirme en fecha [FECHA DEL AUTO], notificado a esta parte el día [FECHA DE NOTIFICACIÓN], por cuya virtud se acordaba inadmitir a trámite la reconvención interpuesta por esta parte, señalando fecha para la celebración de la correspondiente vista. Todo ello, sobre la base de las siguientes
+
+ALEGACIONES
+
+PRIMERA.– La resolución es susceptible de ser recurrida en reposición por tratarse de un auto no definitivo que no aparece expresamente excluido de la posibilidad de ser impugnado por esta vía, de conformidad con lo señalado en el artículo 451 de la Ley de Enjuiciamiento Civil, interponiéndose, por otra parte, el presente recurso dentro del plazo de cinco días establecido en el artículo 452 de la Ley de Enjuiciamiento Civil.
+
+Se acompaña asimismo a este escrito justificante acreditativo del depósito efectuado por importe de 25 euros en la cuenta de depósitos y consignaciones del Tribunal, conforme dispone la disposición adicional decimoquinta, apartado 4, de la Ley Orgánica del Poder Judicial.
+
+SEGUNDA.– Esta parte considera que la resolución recurrida infringe lo establecido en el artículo 770.2.ª de la Ley de Enjuiciamiento Civil. Ciertamente, el referido precepto autoriza la formulación de pretensiones del demandado articulables a través de la reconvención en los procedimientos de [ELEGIR: separación matrimonial / nulidad / divorcio], siempre que la misma se funde en alguna de las causas que puedan dar lugar a la nulidad del matrimonio; o cuando el cónyuge demandado de separación o de nulidad pretenda el divorcio (o cuando el cónyuge demandado de nulidad pretenda la separación); o, por fin, cuando el cónyuge demandado pretenda la adopción de medidas definitivas que no hubieran sido solicitadas en la demanda y sobre las que el tribunal no deba pronunciarse de oficio.
+
+El auto recurrido razona que la pretensión de que se establezca una pensión en favor del/de la demandado/a es materia que puede ser acordada de oficio. Y si ello es cierto para las denominadas pensiones de alimentos, entendemos que el auto recurrido no repara en que lo solicitado por esta parte es una pensión compensatoria de las previstas en el artículo 97 del Código Civil que, conforme reiterada jurisprudencia ha venido destacando, es materia que ha de situarse extramuros de las llamadas cuestiones de orden público y que únicamente puede ser acordada cuando así haya sido interesada de manera expresa.
+
+TERCERA.– En este sentido, ya desde antiguo, el Tribunal Supremo vino a establecer en su sentencia de 2 de diciembre de 1987, seguida después invariablemente por las diferentes Audiencias Provinciales, que «desde el punto de vista puramente procesal puede afirmarse que el proceso civil tiene como finalidad la actuación del ordenamiento jurídico privado; impera el principio dispositivo, en el que ha de integrarse el de rogación y la puesta en marcha de la actividad jurisdiccional, su iniciación, no se produce de oficio sino que aparece entregada al titular del derecho sustantivo, que puede ejercitarlo o no en juicio, siendo libre incluso para renunciarlo o desistir de la acción entablada, delimitando su libérrima voluntad al estricto contenido del proceso, que ha de versar sobre lo por él querido, con los límites por él señalados, de tal manera que la sentencia que ponga fin al procedimiento ni puede dar más ni cosa distinta a aquella pedida en la demanda, en congruencia también con las pretensiones del demandado, a nada de lo cual se opone que en el proceso matrimonial convivan con este elemento dispositivo otros de ius cogens derivados de la naturaleza del derecho de familia, ni que la congruencia se produzca sin conformidad rígida y literal con los pedimentos expresados en los suplicos de los escritos de las partes, porque cuando no existe petición expresa de un derecho facultativo o dispositivo y éste tampoco se desprende de la causa petendi, el órgano jurisdiccional ha de sujetarse a lo solicitado, lo que ocurre en el aspecto puramente económico afectante a los cónyuges y no a los descendientes menores de edad».
+
+En atención a las consideraciones anteriores es por lo que,
+
+AL TRIBUNAL SUPLICO:
+
+Que, teniendo por presentado este escrito, se sirva admitirlo, junto con el justificante al que se refiere el artículo 276 de la Ley de Enjuiciamiento Civil y, conforme a lo interesado en el cuerpo del mismo, estime el presente recurso de reposición contra el auto de fecha [FECHA DEL AUTO], dejándolo sin efecto y dictando en su lugar la correspondiente resolución por la que, admitiendo a trámite la reconvención formulada, se acuerde otorgar a la parte actora el plazo de diez días para que proceda a contestarla, procediéndose, una vez cumplido el trámite, al señalamiento de la correspondiente vista.
+
+Es todo ello justicia que se interesa en [LOCALIDAD], a [FECHA].
+
+Firma del/de la Abogado/a | Firma del/de la Procurador/a
+
+NOTAS
+
+(1) Como corresponde a un proceso especial, ni cabe acumular a las pretensiones principales otras que no guarden relación con el vínculo conyugal o los efectos patrimoniales o extrapatrimoniales derivados de la sentencia, ni tampoco cabe formular reconvención inconexa, aunque el Juez resulte objetivamente competente y la identidad del tipo de procedimiento lo autorice (artículos 406 y 438 de la Ley de Enjuiciamiento Civil). Obsérvese que ni siquiera se autoriza que el demandado interese medidas definitivas cuando ya se hubieran solicitado por el demandante o pudieran acordarse de oficio por el Juez, como acaece con las que se contienen en el artículo 102 del Código Civil.
+
+La reconvención habrá de proponerse en la contestación a la demanda, otorgándose un plazo de diez días al actor para que pueda contestarla (se entiende que por escrito, como sucede en el juicio ordinario), si a su derecho conviniere, con lo que se reduce a la mitad el plazo previsto en el artículo 407.2 de la Ley de Enjuiciamiento Civil.
+
+Téngase en cuenta, por último, que de conformidad con lo establecido en el artículo 206 de la Ley de Enjuiciamiento Civil las resoluciones que resuelvan sobre la admisión o inadmisión de la reconvención deberán adoptar la forma de auto.
+
+(2) Debe tenerse presente que, como claramente se establece en el artículo 451 de la Ley de Enjuiciamiento Civil (y como, por otra parte, también sucedía con la Ley de Enjuiciamiento Civil de 1881), el recurso de reposición carece de efectos suspensivos. Por ese motivo, resultará conveniente, con independencia de la interposición de los recursos en aquellos casos en los cuales resulte procedente, contestar a la reconvención inicialmente admitida, si no se quiere perder la posibilidad de hacerlo (para el caso de que el recurso sea desestimado) al transcurrir, previsiblemente, los diez días previstos para ello antes de que la reposición pueda ser resuelta.

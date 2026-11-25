@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 125 formularios de Recursos civiles: reposición, apelación, casación y queja. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 145 formularios de Recursos civiles: reposición, apelación, casación y queja. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Recursos civiles: reposición, apelación, casación y queja: índice de formularios
 
-> Plugin `formularios-recursos-civiles` · 125 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-recursos-civiles` · 145 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,7 +50,7 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
 ### Demandas, peticiones y solicitudes iniciales (6)
 
@@ -63,7 +63,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1376 | Demanda de revisión de sentencia de juicio verbal por maquinación fraudulenta | `demanda-revision-sentencia-juicio-verbal-maquinacion-civ-1376` |
 | CIV-1384 | Demanda de rescisión de sentencia firme por el sucesor mortis causa del rebelde, con edictos | `demanda-rescision-sentencia-firme-sucesor-mortis-causa-civ-1384` |
 
-### Contestaciones, oposiciones y alegaciones (23)
+### Contestaciones, oposiciones y alegaciones (30)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -87,11 +87,18 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1350 | Escrito de oposición al recurso de apelación con impugnación de la sentencia | `escrito-oposicion-recurso-apelacion-impugnacion-civ-1350` |
 | CIV-1372 | Alegaciones del apelante frente a la impugnación de la resolución apelada | `alegaciones-apelante-frente-impugnacion-resolucion-civ-1372` |
 | CIV-1378 | Escrito de oposición del recurrido al recurso de casación | `escrito-oposicion-recurrido-recurso-casacion-civ-1378` |
-| CIV-1383 | Contestación a la demanda de rescisión de sentencia firme dictada en rebeldía | `contestacion-demanda-rescision-sentencia-firme-dictada-civ-1383` |
 | CIV-1388 | Oposición a la apelación por motivos procesales en materia de tráfico | `oposicion-apelacion-motivos-procesales-materia-trafico-civ-1388` |
 | CIV-1391 | Oposición e impugnación de la apelación de tráfico por motivos materiales y falta de consignación | `oposicion-e-impugnacion-apelacion-trafico-motivos-civ-1391` |
+| CIV-2798 | Oposición a la apelación en separación o divorcio con petición de prueba en segunda instancia | `oposicion-apelacion-separacion-divorcio-peticion-civ-2798` |
+| CIV-2799 | Escrito de oposición a la apelación contraria e impugnación de la sentencia de separación o divorcio | `escrito-oposicion-apelacion-contraria-e-impugnacion-civ-2799` |
+| CIV-2800 | Escrito de oposición a la apelación contra la sentencia de separación o divorcio | `escrito-oposicion-apelacion-contra-sentencia-civ-2800` |
+| CIV-2801 | Escrito de oposición a la apelación en separación o divorcio con aportación de documentos | `escrito-oposicion-apelacion-separacion-divorcio-civ-2801` |
+| CIV-2802 | Escrito de oposición a la apelación y a la prueba en segunda instancia en separación o divorcio | `escrito-oposicion-apelacion-prueba-segunda-instancia-civ-2802` |
+| CIV-2805 | Escrito de oposición a la apelación que alega su inadmisibilidad en separación o divorcio | `escrito-oposicion-apelacion-alega-inadmisibilidad-civ-2805` |
+| CIV-2814 | Escrito de oposición a la apelación por infracción de normas sustantivas en proceso matrimonial | `escrito-oposicion-apelacion-infraccion-normas-civ-2814` |
+| CIV-2816 | Oposición a la apelación por inadmisibilidad de documentos en procesos anteriores al 20-03-2024 | `oposicion-apelacion-inadmisibilidad-documentos-civ-2816` |
 
-### Recursos (55)
+### Recursos (65)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -111,7 +118,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1293 | Recurso de reposición por indefensión en la práctica de la prueba | `recurso-reposicion-indefension-practica-prueba-civ-1293` |
 | CIV-1294 | Impugnación del recurso directo de revisión contra un decreto del LAJ | `impugnacion-recurso-directo-revision-contra-decreto-laj-civ-1294` |
 | CIV-1295 | Recurso de queja por vulneración del derecho al juez predeterminado por la ley (art. 24 CE) | `recurso-queja-vulneracion-derecho-juez-predeterminado-civ-1295` |
-| CIV-1297 | Recurso por infracción procesal anterior a la reforma del RDL 5 de 2023 | `recurso-infraccion-procesal-anterior-reforma-rdl-5-2023-civ-1297` |
 | CIV-1299 | Recurso por defecto de jurisdicción en conflicto negativo de competencia | `recurso-defecto-jurisdiccion-conflicto-negativo-civ-1299` |
 | CIV-1302 | Recurso de revisión contra el decreto del LAJ que estima el desahucio por falta de pago | `recurso-revision-contra-decreto-laj-estima-desahucio-civ-1302` |
 | CIV-1303 | Recurso de revisión contra el decreto del LAJ que da por terminado el desahucio por enervación | `recurso-revision-contra-decreto-laj-da-terminado-civ-1303` |
@@ -124,7 +130,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1313 | Recurso de reposición del demandado contra el decreto que admite la demanda en juicio ordinario | `recurso-reposicion-demandado-contra-decreto-admite-civ-1313` |
 | CIV-1314 | Recurso directo de revisión contra el decreto que alza la suspensión por prejudicialidad penal | `recurso-directo-revision-contra-decreto-alza-civ-1314` |
 | CIV-1315 | Recurso directo de revisión contra el decreto del LAJ que inadmite un recurso de reposición | `recurso-directo-revision-contra-decreto-laj-inadmite-civ-1315` |
-| CIV-1316 | Recurso conjunto por infracción procesal y casación por interés casacional (anterior al RDL 5 2023) | `recurso-conjunto-infraccion-procesal-casacion-interes-civ-1316` |
 | CIV-1318 | Apelación del demandado rebelde por nulidad de actuaciones, con otrosí subsidiario de prueba | `apelacion-demandado-rebelde-nulidad-actuaciones-otrosi-civ-1318` |
 | CIV-1323 | Recurso en interés de ley ante el Tribunal Supremo (régimen anterior al RDL 5 2023) | `recurso-interes-ley-ante-tribunal-supremo-regimen-civ-1323` |
 | CIV-1330 | Recurso de casación por razón de la cuantía (régimen anterior al RDL 5 2023) | `recurso-casacion-razon-cuantia-regimen-anterior-rdl-5-civ-1330` |
@@ -141,7 +146,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1358 | Recurso de reposición oral contra la admisión de prueba en la audiencia previa | `recurso-reposicion-oral-contra-admision-prueba-civ-1358` |
 | CIV-1362 | Recurso de reposición oral genérico contra la resolución sobre admisión de prueba, con protesta | `recurso-reposicion-oral-generico-contra-resolucion-civ-1362` |
 | CIV-1363 | Recurso de reposición del demandante contra la admisión de la reconvención por ser inadmisible | `recurso-reposicion-demandante-contra-admision-civ-1363` |
-| CIV-1366 | Recurso extraordinario por infracción procesal genérico (régimen anterior al RDL 5 2023) | `recurso-extraordinario-infraccion-procesal-generico-civ-1366` |
 | CIV-1367 | Recurso de casación por interés casacional genérico | `recurso-casacion-interes-casacional-generico-civ-1367` |
 | CIV-1368 | Recurso de reposición genérico contra resoluciones judiciales o del LAJ | `recurso-reposicion-generico-contra-resoluciones-civ-1368` |
 | CIV-1369 | Recurso de audiencia en justicia contra el acuerdo sancionador por vulnerar la buena fe procesal | `recurso-audiencia-justicia-contra-acuerdo-sancionador-civ-1369` |
@@ -150,6 +154,19 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1381 | Recurso de reposición contra diligencia de ordenación que resuelve materia propia de providencia | `recurso-reposicion-contra-diligencia-ordenacion-civ-1381` |
 | CIV-1389 | Apelación de tráfico por error fáctico e infracción material, con vista (pleito previo al 20-3-2024) | `apelacion-trafico-error-factico-e-infraccion-material-civ-1389` |
 | CIV-1390 | Recurso de apelación en materia de tráfico por infracción de normas y garantías procesales | `recurso-apelacion-materia-trafico-infraccion-normas-civ-1390` |
+| CIV-2796 | Recurso de reposición contra el auto de la Audiencia que deniega prueba en segunda instancia | `recurso-reposicion-contra-auto-audiencia-deniega-civ-2796` |
+| CIV-2803 | Recurso de queja contra la inadmisión de la apelación por no citar los pronunciamientos impugnados | `recurso-queja-contra-inadmision-apelacion-no-citar-civ-2803` |
+| CIV-2804 | Recurso de queja contra el auto que inadmite la apelación por haberse presentado fuera de plazo | `recurso-queja-contra-auto-inadmite-apelacion-haberse-civ-2804` |
+| CIV-2806 | Recurso de reposición contra el auto que admite a trámite la reconvención en proceso matrimonial | `recurso-reposicion-contra-auto-admite-tramite-civ-2806` |
+| CIV-2807 | Recurso de apelación contra la sentencia que deniega la separación o divorcio, con petición de vista | `recurso-apelacion-contra-sentencia-deniega-separacion-civ-2807` |
+| CIV-2808 | Recurso de apelación contra la sentencia que deniega la separación o divorcio, aportando documentos | `recurso-apelacion-contra-sentencia-deniega-separacion-civ-2808` |
+| CIV-2809 | Recurso de apelación del actor contra la desestimación de la impugnación de paternidad, con prueba | `recurso-apelacion-actor-contra-desestimacion-civ-2809` |
+| CIV-2810 | Recurso de apelación contra la resolución con medidas distintas de las propuestas por los cónyuges | `recurso-apelacion-contra-resolucion-medidas-distintas-civ-2810` |
+| CIV-2811 | Recurso de apelación por la prueba denegada en primera instancia en filiación extramatrimonial | `recurso-apelacion-prueba-denegada-primera-instancia-civ-2811` |
+| CIV-2813 | Recurso de reposición que pide la nulidad de actuaciones por no demandar al Ministerio Fiscal | `recurso-reposicion-pide-nulidad-actuaciones-no-civ-2813` |
+| CIV-2815 | Recurso de reposición contra la negativa a celebrar a puerta cerrada el juicio de paternidad | `recurso-reposicion-contra-negativa-celebrar-puerta-civ-2815` |
+| CIV-2817 | Recurso de apelación contra la sentencia que deniega la separación o divorcio, pidiendo prueba | `recurso-apelacion-contra-sentencia-deniega-separacion-civ-2817` |
+| CIV-2818 | Recurso de reposición contra el auto que inadmite una petición en un juicio civil de tráfico | `recurso-reposicion-contra-auto-inadmite-peticion-civ-2818` |
 
 ### Comunicaciones, requerimientos y cartas (7)
 
@@ -163,7 +180,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1371 | Solicitud de aclaración de resolución judicial (art. 267.2 LOPJ) | `solicitud-aclaracion-resolucion-judicial-art-267-2-lopj-civ-1371` |
 | CIV-1386 | Solicitud de nulidad de actuaciones por falta de diligencia de reparto en la demanda | `solicitud-nulidad-actuaciones-falta-diligencia-reparto-civ-1386` |
 
-### Escritos de trámite y otros (34)
+### Escritos de trámite y otros (37)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -201,3 +218,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1387 | Escrito pidiendo complemento de sentencia por omisión de pretensiones (art. 215.2 LEC) | `escrito-pidiendo-complemento-sentencia-omision-civ-1387` |
 | CIV-1392 | Escrito pidiendo testimonio para ejecutar provisionalmente la sentencia apelada por la contraparte | `escrito-pidiendo-testimonio-ejecutar-provisionalmente-civ-1392` |
 | CIV-1393 | Reposición del ejecutante contra el sobreseimiento de la ejecución provisional por revocación | `reposicion-ejecutante-contra-sobreseimiento-ejecucion-civ-1393` |
+| CIV-2797 | Escrito que impugna el recurso de reposición contrario por inexistencia de apoderamiento | `escrito-impugna-recurso-reposicion-contrario-civ-2797` |
+| CIV-2812 | Petición de aclaración de la sentencia de paternidad por error al expresar la acción ejercitada | `peticion-aclaracion-sentencia-paternidad-error-civ-2812` |
+| CIV-2819 | Impugnación de la reposición contra el auto que inadmite una petición en un juicio civil de tráfico | `impugnacion-reposicion-contra-auto-inadmite-peticion-civ-2819` |

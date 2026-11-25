@@ -5,7 +5,7 @@ description: "Ejecución forzosa con multas coercitivas al progenitor custodio q
 
 # Ejecución forzosa con multas coercitivas al progenitor custodio que incumple las visitas
 
-> Formulario **CIV-1511** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1511** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Ejecución forzosa con
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Ejecución forzosa con multas coercitivas al progenitor custodio que incumple las visitas” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:ejecucion-forzosa-multas-coercitivas-progenitor-civ-1511`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -86,41 +87,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [LOCALIDAD]
-
-Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación de Doña [NOMBRE Y APELLIDOS], conforme tengo debidamente acreditado en Procedimiento Separación Contenciosa /, promovido por mi principal contra Don [NOMBRE Y APELLIDOS], y bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS], ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] comparezco y, como mejor proceda en Derecho, DIGO:
-
-Que en la indicada representación por medio del presente escrito formulo SOLICITUD DE EJECUCIÓN FORZOSA DEL RÉGIMEN DE GUARDA Y VISITAS E IMPOSICIÓN DE MULTAS COERCITIVAS POR INCUMPLIMIENTO por parte de Don [NOMBRE Y APELLIDOS], al amparo de lo dispuesto en el artículo 776 de la Ley de Enjuiciamiento Civil, y demás artículos de legal y pertinente aplicación, en base a los siguientes
-
-HECHOS Y FUNDAMENTOS
-
-PRIMERA.- Que el progenitor y padre del menor Don [NOMBRE Y APELLIDOS] de forma reiterada está incumpliendo la obligación impuesta en virtud de Sentencia de fecha [FECHA], en la actualidad firme, consistente en el derecho de visitas de mi representada respecto del hijo menor [NOMBRE DEL MENOR], el cual se halla reconocido en la sentencia en los siguientes términos
-
-Que desde que ha adquirido firmeza la sentencia que establece la obligación al progenitor de garantizar las visitas, y pese a las gestiones de mi principal, madre del hijo en común menor de edad, su actitud ha sido de total y completa obstrucción del ejercicio de tal derecho, impidiendo la comunicación entre el hijo y la madre del menor, lo cual ha llevado a mi mandante a realizar diferentes requerimientos [OTROS DATOS] e incluso a interponer una denuncia penal por posible delito contra las relaciones familiares (se acompañan como documentos [Nº DE DOCUMENTO] como justificativos de las actuaciones realizadas para el cumplimiento de la sentencia).
-
-Que ante el incumplimiento reiterado del progenitor de las obligaciones que le corresponden, al obstruir y obstaculizar el derecho de visitas establecido en sentencia, al punto de haber eliminado cualquier comunicación con mi representada, incluso por vía telefónica, es por lo que se interesa que se le requiera para el cumplimiento de la sentencia en sus propios términos y, como quiera que nos encontramos ante un supuesto de incumplimiento de obligaciones no pecuniarias de carácter personalísimo, con arreglo a lo dispuesto en el artículo 776.2.ª de la LEC, se solicita que se le impongan multas coercitivas mensuales por importe de [IMPORTE] euros, todo el tiempo que sea necesario más allá del plazo de un año establecido en el artículo 709 de la Ley de Enjuiciamiento Civil, con la advertencia expresa de las responsabilidades penales en que puede incurrir en caso de desobediencia del mandato judicial y de que podrá modificarse el régimen de guarda y visitas conforme a lo dispuesto en el art. 776.3ª de la LEC de incumplir el régimen establecido en la sentencia.
-
-Por lo que,
-
-AL TRIBUNAL SOLICITO: Que tenga por presentado este escrito, lo admita, tenga por instada la ejecución forzosa del régimen de guarda y visitas por el Procurador que suscribe, en nombre y representación de Doña [NOMBRE Y APELLIDOS], y en base a ello, previos los trámites legales, ACUERDE: 1) Requerir de manera inmediata al progenitor custodio D. [NOMBRE Y APELLIDOS] para que cumpla la sentencia dictada en estos autos; 2) apremiar a Don [NOMBRE Y APELLIDOS] con multas coercitivas mensuales por importe de [IMPORTE] euros para el caso que incumpla lo establecido en la sentencia, debiendo mantenerse todo el tiempo que sea necesario, incluso más allá del plazo de un año establecido en el artículo 709 de la Ley de Enjuiciamiento Civil; y 3) advertirle expresamente de las responsabilidades penales en que puede incurrir en caso de desobediencia del mandato judicial y de que podrá modificarse el régimen de guarda y visitas conforme a lo dispuesto en el art. 776.3ª de la LEC de incumplir el régimen establecido en la sentencia
-
-Es de Justicia que insto en [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-========================================================================

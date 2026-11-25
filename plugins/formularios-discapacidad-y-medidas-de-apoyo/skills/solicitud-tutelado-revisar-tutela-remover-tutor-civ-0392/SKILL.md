@@ -5,7 +5,7 @@ description: "Solicitud del tutelado de revisar la tutela y remover al tutor. Lo
 
 # Solicitud del tutelado de revisar la tutela y remover al tutor
 
-> Formulario **CIV-0392** del plugin **Discapacidad y medidas de apoyo (Ley 8/2021)** (`formularios-discapacidad-y-medidas-de-apoyo`) · Civil › Capacidad y medidas de apoyo · normativa revisada el 24-11-2026.
+> Formulario **CIV-0392** del plugin **Discapacidad y medidas de apoyo (Ley 8/2021)** (`formularios-discapacidad-y-medidas-de-apoyo`) · Civil › Capacidad y medidas de apoyo · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Solicitud del tutelado
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Solicitud del tutelado de revisar la tutela y remover al tutor” para mi caso». También puedes invocarla directamente con `/formularios-discapacidad-y-medidas-de-apoyo:solicitud-tutelado-revisar-tutela-remover-tutor-civ-0392`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-discapacidad-y-medidas-de-apoyo:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -87,89 +88,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Procedimiento
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D/Dª [NOMBRE Y APELLIDOS] Procurador de los Tribunales actuando en nombre y representación de D/Dª [NOMBRE Y APELLIDOS], mayor de edad, casado, de profesión [PROFESIÓN], vecino de esta ciudad C/, según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], actuando bajo la dirección Letrada de D/Dª [NOMBRE Y APELLIDOS], Colegiado/a núm. con domicilio profesional en [LOCALIDAD], ante el Tribunal comparezco y como mejor proceda en Derecho DIGO:
-
-Que en la representación que ostento EXPEDIENTE DE JURISDICCIÓN VOLUNTARIA DE REVISIÓN DE LA MEDIDA DE TUTELA de D. [NOMBRE Y APELLIDOS], acordada en la Sentencia dictada por este Tribunal el [FECHA], todo ello en base a los siguientes
-
-HECHOS
-
-PRIMERO.- En virtud de sentencia firme de fecha [FECHA] dictada en los autos [TIPO Y Nº DE PROCEDIMIENTO] seguidos ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO] se declaró que D. padecía un enolismo de larga evolución, señalándose que la dependencia alcohólica había derivado en una psicosis paranoide toxicofílica declarándose la incapacidad parcial del mismo. En dicha Sentencia se nombraba tutor a
-
-Dicha sentencia fue objeto de recurso de apelación por la representación procesal de D. ante la Audiencia Provincial de [LOCALIDAD], sentencia que fue confirmada por dicho órgano jurisdiccional en virtud de sentencia de fecha [FECHA] Se aportan sendas copias testimoniadas de ambas resoluciones judiciales como DOCUMENTOS Núms. 1 y 2 respectivamente.
-
-SEGUNDO.- Desde la constitución del órgano tutelar hasta la fecha de interposición de la presente solicitud, las circunstancias concurrentes han variado ostensiblemente. En fecha [FECHA] mi representado ingresó en el centro de desintoxicación homologado [NOMBRE DEL CENTRO] dependiente del Ministerio de Sanidad al objeto de iniciar el correspondiente tratamiento de desintoxicación. Dicho tratamiento que se ha prolongado durante año y medio ha sido en régimen cerrado con supervisión médica y psiquiátrica.
-
-Mi representado ha seguido la totalidad del tratamiento con gran éxito encontrándose a fecha de la interposición de la presente solicitud totalmente desintoxicado. Se aporta como DOCUMENTO NÚM. 3 informe expedido por la dirección facultativa de dicho centro en que se certifica dicha afirmación.
-
-TERCERO.- Por otro lado, teniendo en cuenta que la dependencia alcohólica había generado una psicosis paranoide toxicofílica mi representado ha recabado informe del psiquiatra adscrito al centro de desintoxicación al efecto de que determine cuál es el estado de dicha afección al momento presente. Se emite informe, que se aporta como DOCUMENTO NÚM. 4, en virtud del cual se pone de manifiesto que «si bien el consumo de alcohol prolongado produce desarrollo de trastornos de tipo paranoide, fundamentalmente de tipo celotípicos que afectan muy gravemente a las facultades volitivas e intelectivas de quien las sufre, en el caso presente D. habiendo superado con notable éxito y tratamiento intensivo su adicción al alcohol no puede decirse que en la actualidad sufra trastorno paranoide de ninguna índole, siendo su diagnóstico psiquiátrico de absoluta normalidad».
-
-FUNDAMENTOS DE DERECHO
-
-I. COMPETENCIA.
-
-La competencia objetiva corresponde al Tribunal de Instancia de [SEDE], por ser quien declaró incapaz a mi representado, en virtud de lo dispuesto en el artículo 43.2 de la Ley de la Jurisdicción Voluntaria en la nueva redacción dada por la Ley 8/2021 de 2 de junio, a cuyo tenor:
-
-2. El órgano judicial que haya conocido de un expediente sobre tutela, curatela o guarda de hecho, será competente para conocer de todas las incidencias, trámites y adopción de medidas o revisiones posteriores, siempre que el menor o persona con discapacidad resida en la misma circunscripción. En caso contrario, para conocer de alguna de esas incidencias, será preciso que se pida testimonio completo del expediente al Tribunal que anteriormente conoció del mismo, el cual lo remitirá en los diez días siguientes a la solicitud
-
-II. PROCEDIMIENTO.
-
-La sustanciación del presente procedimiento se llevará a cabo por los trámites del artículo 42 bis c) 3 de la Ley de la Jurisdicción Voluntaria en la nueva redacción dada por la Ley 8/2021 de 2 de junio.
-
-La Disposición transitoria quinta de la Ley 8/2021 de 2 de junio “Revisión de las medidas ya acordadas” dispone:
-
-Las personas con capacidad modificada judicialmente, los declarados pródigos, los progenitores que ostenten la patria potestad prorrogada o rehabilitada, los tutores, los curadores, los defensores judiciales y los apoderados preventivos podrán solicitar en cualquier momento de la autoridad judicial la revisión de las medidas que se hubiesen establecido con anterioridad a la entrada en vigor de la presente Ley, para adaptarlas a esta. La revisión de las medidas deberá producirse en el plazo máximo de un año desde dicha solicitud.
-
-Para aquellos casos donde no haya existido la solicitud mencionada en el párrafo anterior, la revisión se realizará por parte de la autoridad judicial de oficio o a instancia del Ministerio Fiscal en un plazo máximo de seis años.
-
-Para la tramitación de estos procedimientos de revisión los órganos judiciales se podrán auxiliar de herramientas tecnológicas que permitan obtener de manera automatizada la información sobre el fallecimiento de la persona interesada, en su caso.
-
-Por su parte, el artículo 761 de la LEC, en la nueva redacción dada por la Ley 8/2021 de 2 de junio dispone con respecto a la revisión de las medidas de apoyo judicialmente adoptadas:
-
-Las medidas contenidas en la sentencia dictada serán revisadas de conformidad con lo previsto en la legislación civil, debiendo seguirse los trámites previstos a tal efecto en la Ley de Jurisdicción Voluntaria.
-
-En caso de que se produjera oposición en el expediente de jurisdicción voluntaria de revisión a que se refiere el párrafo anterior, o si dicho expediente no hubiera podido resolverse, se deberá instar el correspondiente proceso contencioso conforme a lo previsto en el presente Capítulo, pudiendo promoverlo cualquiera de las personas mencionadas en el apartado 1 del artículo 757, así como quien ejerza el apoyo de la persona con discapacidad.
-
-III. LEGITIMACIÓN.
-
-De acuerdo con el artículo 42. Bis c) 1, párrafo 2º de la Ley de la Jurisdicción Voluntaria la legitimación activa corresponde a mi mandante por haber resultado incapacitado en virtud de sentencia firme de fecha [FECHA].
-
-“Cualquiera de las personas mencionadas en el apartado 3 del artículo 42 bis a), así como quien ejerza el apoyo, podrá solicitar la revisión de las medidas antes de que transcurra el plazo previsto en el auto”.
-
-IV. FUNDAMENTACIÓN JURÍDICA DE LA ACCIÓN DEDUCIDA.
-
-Dispone el artículo 291 del Código Civil en la nueva redacción dada por la Ley 8/2021 de 2 de junio:
-
-La curatela se extingue de pleno derecho por la muerte o declaración de fallecimiento de la persona con medidas de apoyo.
-
-Asimismo, la curatela se extingue por resolución judicial cuando ya no sea precisa esta medida de apoyo o cuando se adopte una forma de apoyo más adecuada para la persona sometida a curatela.
-
-Por todo lo expuesto,
-
-SUPLICO AL TRIBUNAL: Tenga por presentado el presente escrito junto con el poder anexo, documentos y copias. Se admita todo ello y dé trámite legal. Tenga por presentado EXPEDIENTE DE JURISDICCIÓN VOLUNTARIA DE REVISIÓN DE LA MEDIDA DE TUTELA de D. [NOMBRE Y APELLIDOS] y en su virtud, tenga a bien declarar la extinción de la medida de la tutela acordada en la Sentencia de [FECHA] y en consecuencia, recovar el nombramiento del tutor D. nombrado a tal efecto, exigiendo a éste la rendición legal de cuentas. Y en caso de oposición, se declare contencioso el expediente, remitiendo a las partes al procedimiento de la Ley de Enjuiciamiento Civil. Es así de Justicia que pido en [LUGAR], a [FECHA].
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma Abogado y Procurador
-
-========================================================================

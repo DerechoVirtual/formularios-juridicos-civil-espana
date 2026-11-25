@@ -1,0 +1,53 @@
+SECCIÓN [ELEGIR: DE FAMILIA, INFANCIA Y CAPACIDAD / CIVIL / ÚNICA] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
+
+Procedimiento: [TIPO DE PROCEDIMIENTO, p. ej. LIQUIDACIÓN DEL RÉGIMEN ECONÓMICO MATRIMONIAL] n.º [Nº DE PROCEDIMIENTO]/[AÑO]
+
+DILIGENCIA DE FORMACIÓN DE INVENTARIO
+
+En [LOCALIDAD], a [FECHA]. (1) (2)
+
+Siendo la hora señalada, se procede por el/la Letrado/a de la Administración de Justicia a la práctica de la diligencia de formación de inventario que viene acordada en los autos sobre [OBJETO DEL PROCEDIMIENTO] n.º [Nº DE PROCEDIMIENTO]/[AÑO], seguidos en este Tribunal.
+
+Comparecen ambos cónyuges, D./D.ª [NOMBRE Y APELLIDOS], con DNI [DNI/NIE], cuyos datos personales constan en autos, y D./D.ª [NOMBRE Y APELLIDOS], con DNI [DNI/NIE], cuyos datos personales igualmente constan.
+
+Asiste a esta diligencia el/la Procurador/a D./D.ª [NOMBRE Y APELLIDOS], en representación de la parte actora, D./D.ª [NOMBRE Y APELLIDOS], que consta en autos, con la asistencia del/de la Letrado/a D./D.ª [NOMBRE Y APELLIDOS].
+
+Asiste igualmente el/la Letrado/a D./D.ª [NOMBRE Y APELLIDOS], quien asiste a D./D.ª [NOMBRE Y APELLIDOS] en autos.
+
+Iniciada la diligencia, a la vista de la propuesta de inventario aportada por la parte actora, se manifiesta por el/la Letrado/a D./D.ª [NOMBRE Y APELLIDOS] [MANIFESTACIONES SOBRE LA PROPUESTA DE INVENTARIO: PARTIDAS CUYA INCLUSIÓN, EXCLUSIÓN O VALORACIÓN SE CUESTIONA].
+
+Ante estas manifestaciones, D./D.ª [NOMBRE Y APELLIDOS] manifiesta su disconformidad con las modificaciones de las partidas que considera procedentes la contraparte, toda vez que [MOTIVOS DE LA DISCONFORMIDAD].
+
+Por D./D.ª [NOMBRE Y APELLIDOS] se insiste en [ALEGACIONES EN QUE SE INSISTE].
+
+Ante la controversia suscitada en relación con las partidas [IDENTIFICACIÓN DE LAS PARTIDAS CONTROVERTIDAS] del inventario propuesto por la parte actora, y el valor otorgado a [BIENES, DERECHOS O DEUDAS CUYA VALORACIÓN SE DISCUTE], en aplicación del artículo 809.2 de la Ley de Enjuiciamiento Civil se da por concluida la presente, acordándose el señalamiento de la vista a que se refiere el mencionado artículo para el próximo día [DÍA] de [MES] de [AÑO], a las [HORA] horas, quedando citados los comparecientes. De todo lo cual paso a dar cuenta a S.S.ª a los efectos procedentes. Doy fe.
+
+Firma del cónyuge: [NOMBRE Y APELLIDOS] | Firma del cónyuge: [NOMBRE Y APELLIDOS]
+
+Firma del/de la Procurador/a: [NOMBRE Y APELLIDOS] | Firma del/de la Letrado/a de la Administración de Justicia: [NOMBRE Y APELLIDOS]
+
+NOTAS
+
+(1)
+
+La formación del inventario valorado se encomienda por la norma, al igual que sucede en los procedimientos de división hereditaria, directamente al Letrado de la Administración de Justicia, no con potestad delegada del Juez, con observancia de lo dispuesto en la legislación civil común o foral aplicable.
+
+Conviene insistir en que la fragmentaria visión adoptada por el legislador le lleva a hablar únicamente de los «cónyuges», marginando el caso de que la disolución del régimen económico tenga lugar por alguna de las causas legales que determinen la imposibilidad de que la contienda se suscite entre aquéllos (v. gr., declaración de ausencia o de fallecimiento, provisión judicial de medidas de apoyo que impliquen facultades de representación plena en la esfera patrimonial, muerte; vid. art. 1393 CC). En esta tesitura, necesariamente la insuficiencia de la norma ha de suplirse por interpretación integradora, acudiendo, en la medida procedente y señaladamente en relación con el régimen de comunidad legal de gananciales, a las disposiciones rectoras de la partición y liquidación de herencia (art. 1410 CC). A su vez, y en esos supuestos, los menores o las personas con discapacidad que cuenten con medidas de apoyo de carácter representativo serán sustituidos por quien ostente su representación legal o, en su caso, por un defensor judicial.
+
+En la comparecencia bien puede suceder: a) que exista acuerdo presunto, que el precepto anuda a la incomparecencia sin justa causa del otro cónyuge (o de su representante, defensor o sucesores); b) que exista acuerdo expreso, porque los comparecidos se avengan a la propuesta inicial de inventario valorado formulada por el solicitante; c) que los comparecientes manifiesten su oposición al proyecto de inventario valorado formulado unilateralmente por el instante, ora solicitando la inclusión de bienes, derechos, valores, cargas, deudas o responsabilidades que se afirmen indebidamente omitidos, ora postulando la exclusión de los que se reputen erróneamente contenidos en él.
+
+El inventario, en sede de la comunidad ganancial, se contrae solo a los bienes adquiridos como gananciales, incluidos los frutos del patrimonio ganancial producidos tras la disolución del vínculo conyugal. La valoración persigue la igualdad en la adjudicación de cosas no homogéneas, pero no constituye un índice para determinar la existencia de ganancias por comparación con el valor inicial del patrimonio (LACRUZ BERDEJO, RAMS ALBESA); asimismo, es preciso concretar los bienes enajenados y su valor, así como el del numerario confundido con el capital común, para proceder a restituirlo a su procedencia privativa y, a la inversa, los bienes o capitales comunes invertidos en utilidades particulares de los cónyuges, que han de revertir al consorcial. Del mismo modo, ha de constatarse la índole de los bienes dudosamente gananciales por falta de concreción al tiempo de su adquisición, y delimitar aquellos en los que se debe aplicar de forma parcial una subrogación real sobre bienes que hayan figurado como gananciales expresos o presuntos.
+
+El régimen de separación, en cambio, no determina la existencia de tres masas patrimoniales (la privativa de cada cónyuge y la consorcial) y sus recíprocas relaciones, como en el régimen de comunidad, sino solo un régimen común mínimo de atención conjunta de las cargas domésticas ordinarias y, en su caso, la presunta copropiedad constituida por los bienes cuya titularidad privativa resulte absolutamente ayuna de prueba (art. 1441 CC). Los bienes son propiedad de uno o del otro cónyuge (art. 1437 CC), pero respecto de los muebles, de ordinario disfrutados en común, la adquisición exclusiva acostumbra a ser prácticamente indemostrable, lo que exige acudir a las presunciones, conjeturas y deducciones, teniendo en cuenta además que la prueba de la adquisición demuestra la titularidad, aun cuando lo fuera con dinero ajeno (REBOLLEDO VARELA); y las cantidades destinadas a satisfacer en todo o en parte las deudas del otro cónyuge o a suplir la falta de contribución al levantamiento de las cargas, que han de ser reembolsadas.
+
+Mayores problemas suscita el régimen de participación. En el art. 1415 CC hay una remisión explícita al art. 1394 CC. Puede discutirse si el inventario ha de afectar a toda la esfera jurídica patrimonial de cada cónyuge o solo a los bienes «que hubieran tenido la condición de gananciales si entre los cónyuges hubiera mediado la sociedad legal» (LACRUZ BERDEJO, RAMS ALBESA), pero la necesidad de inventario no parece ser en sí cuestionable.
+
+Evidenciada la disputa, que bien puede ser trasunto del antagonismo que haya motivado la solicitud de tutela, por diligencia de ordenación el Letrado de la Administración de Justicia acordará convocar a las partes a una nueva comparecencia con el contenido previsto para la del juicio verbal (art. 443 LEC), a cuyos trámites se acomodará en adelante la sustanciación de la litis. Asimismo, se habrá de aplicar la disciplina rectora de dicho juicio verbal a las actuaciones que deban realizarse con precedencia a la celebración de la vista (art. 441 LEC).
+
+En el seno de ese proceso se pueden suscitar, además, cuestiones relativas a la administración o a la disposición de los bienes incluidos en el inventario. En la economía de la norma, mediando acuerdo acerca del convenio, la discordia a propósito de la administración y la disposición tutelada no da lugar, en cambio, a juicio contencioso. La resolución del Juez sobre este particular habrá de revestir las formalidades de un auto, ateniéndose, por analogía, a lo establecido en el art. 795 LEC.
+
+El acuerdo sobre el inventario determina que este revista naturaleza negocial; el aprobado judicialmente en caso de controversia actuará, en palabras de la sentencia de la Sala Primera del Tribunal Supremo de 20 de junio de 1987, «como hecho inalterable».
+
+(2)
+
+En los casos en que surge controversia entre los cónyuges sobre los bienes que integran el patrimonio ganancial o sobre su valor, la LEC contempla un breve incidente para cuyo trámite el apartado 2 del art. 809 remite al juicio verbal; en definitiva, la remisión lo es tan solo al acto de la vista y a su conclusión por sentencia, ya que no se prevé que las partes formulen formalmente una demanda, sino que, tras las alegaciones efectuadas en el acto de formación de inventario, se convoca el acto de la vista, en el que las partes pueden solicitar los medios de prueba que estimen pertinentes. La circunstancia de que esta controversia se resuelva por medio de sentencia no debe inducir a error sobre su naturaleza, ya que estamos ante un procedimiento incidental, inserto dentro del procedimiento de liquidación del patrimonio ganancial, que no pone fin al proceso, sino que resuelve sobre los bienes (y su valor) que integran la masa ganancial como paso indispensable para la continuación de la liquidación; por ello, la sentencia que pone fin al incidente es recurrible en apelación exclusivamente (art. 455.1, primer inciso, LEC), pero contra la sentencia dictada en grado de apelación por la Audiencia no cabe recurso de casación, ya que el acceso a este recurso se encuentra limitado a las sentencias que ponen fin a la segunda instancia (art. 477.1 LEC en su redacción vigente; antes, art. 477.2). En tal sentido, la Sala Primera del Tribunal Supremo, en relación con el carácter incidental de las sentencias que resuelven las controversias planteadas sobre la formación de inventario (tanto en la liquidación del régimen matrimonial como en la liquidación de herencias), señala que la propia LEC distingue entre «apelación» y «segunda instancia», limitada esta última a los casos en que se pone fin a la primera tras la tramitación ordinaria del proceso (art. 206.1.3.ª LEC), y que, en el régimen de la LEC 2000, la naturaleza incidental del juicio verbal al que se remiten los arts. 794.4 y 809.2 es evidente, lo que determina la irrecurribilidad en casación de las sentencias dictadas en grado de apelación en estos procedimientos (autos resolutorios de recursos de queja de 8 de julio de 2003, rec. 466/2003, y de 30 de septiembre de 2003, rec. 708/2003).

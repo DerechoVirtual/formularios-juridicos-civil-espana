@@ -5,7 +5,7 @@ description: "Demanda de separación presentada por un cónyuge sin el consentim
 
 # Demanda de separación presentada por un cónyuge sin el consentimiento del otro
 
-> Formulario **CIV-0097** del plugin **Familia: divorcio, custodia, pensiones y parejas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 24-11-2026.
+> Formulario **CIV-0097** del plugin **Familia: separación, divorcio y medidas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,14 +20,15 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda de separación
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda de separación presentada por un cónyuge sin el consentimiento del otro” para mi caso». También puedes invocarla directamente con `/formularios-familia-y-divorcio:demanda-separacion-presentada-conyuge-sin-civ-0097`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-familia-y-divorcio:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: separación, divorcio y medidas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -99,129 +100,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE] Q.P.T.R.C.
-
-D./Dña. [NOMBRE Y APELLIDOS] Procurador de los Tribunales en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS] con domicilio en [LOCALIDAD] C/Av./Pz. CP [C.P.] a efecto de notificaciones, según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], bajo la dirección letrada de D. [NOMBRE Y APELLIDOS] con número de colegiado [Nº DE COLEGIADO/A] perteneciente al ilustre colegio de Abogados de [COLEGIO] ante el Tribunal comparezco y, como mejor proceda en derecho, DIGO:
-
-PRIMERO.- Que vengo a presentar demanda de separación matrimonial de uno de los cónyuges sin el consentimiento del otro.
-
-SEGUNDO.- Que mi mandante contrajo matrimonio el día [FECHA] en la parroquia de la ciudad de [LOCALIDAD] con D./Dña. [NOMBRE Y APELLIDOS]. Se acompaña el certificado de matrimonio inscrito en el Registro Civil de [LOCALIDAD] como documento núm. [Nº DE DOCUMENTO]
-
-TERCERO.- De este matrimonio nacieron dos hijos de nombre [NOMBRE Y APELLIDOS] de [Nº] años y [NOMBRE Y APELLIDOS] de [Nº] años, cuyos certificados de nacimiento se adjuntan como documentos núms.
-
-CUARTO.- Que llevan [Nº] años casados, por lo que pueden hacer uso de este procedimiento previsto en el art. 81 CC, por haber transcurrido más de tres meses desde la celebración del matrimonio.
-
-QUINTO.- Previamente a la interposición de la presente demanda, se efectuaron diversas gestiones negociadoras con la parte demandada, con el propósito de cumplir con el requisito de procedibilidad y resolver el litigio de manera amistosa y extrajudicial.
-
-En este sentido, se acudió a [MEDIO ADECUADO DE SOLUCIÓN DE CONTROVERSIAS UTILIZADO], no habiendo sido posible alcanzar un acuerdo definitivo.
-
-Se acompaña como documento nº [Nº DE DOCUMENTO]
-
-A los anteriores hechos les son de aplicación los siguientes:
-
-FUNDAMENTOS DE DERECHO
-
-Competencia. Artículo 769.1 LECiv, en relación con lo dispuesto en el art. 85.1º LOPJ. Al estar situado el último domicilio conyugal en esta ciudad es competente el Tribunal de Instancia al que me dirijo, según el artículo 769.1 LECiv, quedando atribuida a las Secciones de Familia por hallarse especializados en el conocimiento de esta materia.
-
-Legitimación.
-
-Artículo 81.2 del Código Civil y Artículo 6 de la LECiv. La actora está legitimada, por ser el cónyuge del demandado, el cual por lo mismo, se encuentra legitimado pasivamente.
-
-Jurisdicción.
-
-Artículo 117.3 de la Constitución Española, conforme con dicho artículo los órganos jurisdiccionales españoles serán competentes para conocer de la demanda de separación que se presenta al tener ambos cónyuges la nacionalidad española y residir en España.
-
-Procedimiento.
-
-Artículo 770 LECiv, El presente proceso ha de sustanciarse por las normas establecidas en el artículo citado.
-
-La presente demanda cumple con los requisitos de procedibilidad exigidos por los arts. 264.4º y 399.3 LEC en relación con el art. 437.1 LEC, así como con lo dispuesto en el art. 5 de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.
-
-Fundamentos jurídicos de la demanda de separación.
-
-5.1. Respecto a la acción que se ejercita.
-
-Es la de separación conyugal prevista en el artículo 81 del Código Civil que, establece que se decretará judicialmente la separación a petición de uno de los cónyuges, una vez transcurrido tres meses desde la celebración del matrimonio.
-
-Sin necesidad de entrar en la intimidad conyugal y relaciones interpersonales íntimas de los cónyuges, la affectio maritalis ha quedado quebrada de forma irreversible.
-
-A) Efectos personales y patrimoniales derivados de la separación matrimonial.
-
-1. Artículo 91 y siguientes del Código Civil. Atribución de la guarda y custodia de los hijos menores en régimen compartido de patria potestad.
-
-2. Artículo 94 del Código Civil. Se deberá fijar el régimen de visitas a que tendrá derecho el otro cónyuge, que el Juzgador encuentre más adecuado.
-
-3. Artículo 96 del Código Civil. Ha de concederse el uso de la vivienda familiar a mi representada y a sus hijos de conformidad con el artículo citado salvo se acuerde el ejercicio compartido de guarda y custodia.
-
-4. Artículos 91, 93 del Código Civil. Se solicita como pensión por alimentos para los hijos menores de edad y levantamiento de las cargas familiares en la cuantía de [IMPORTE] euros, que deberán ser incrementadas anualmente conforme con el IPC o según los ingresos que experimente el otro cónyuge.
-
-5. Artículo 97, se solicita una pensión compensatoria en la cuantía de [IMPORTE] euros, al producir la separación un empeoramiento respecto de la situación anterior en su matrimonio, conforme con los parámetros establecidos en dicho precepto, es decir por [PLAZO], por tiempo indefinido.
-
-Esta petición viene presidida por los principios dispositivos y de rogación y cumple con la finalidad de evitar que la separación matrimonial produzca en uno de los cónyuges, desequilibrios económicos en relación de uno de los cónyuges con el otro. Todo ello sin perjuicio de ulterior liquidación de la sociedad conyugal, justificándose el desequilibrio por los siguientes motivos
-
-6. Artículo 95 en relación con el artículo 1392.3 del Código Civil. La sociedad de gananciales concluirá de pleno derecho cuando judicialmente se decrete la separación de los cónyuges.
-
-7. Artículo 92.5 del Código Civil. Se acordará el ejercicio compartido de la guarda y custodia de los hijos cuando así lo soliciten los padres en la propuesta de convenio regulador o cuando ambos lleguen a este acuerdo en el transcurso del procedimiento. El Juez acordará la guarda conjunta y tras fundamentar su resolución, adoptará las cautelas procedentes para el eficaz cumplimiento del régimen de guarda establecido, procurando no separar a los hermanos.
-
-Costas procesales.
-
-Artículo 394 de la LECiv y artículo 1902 del Código Civil, que deberán ser impuestas a la demandada si se opusiere a esta justa demanda.
-
-Representación y postulación.
-
-Artículo 750.1 LECiv, en cuanto a la representación del actor y postulación de la presente demanda.
-
-Al existir hijos menores de edad, ha de intervenir el Ministerio Fiscal.
-
-Por todo lo expuesto,
-
-SUPLICO AL TRIBUNAL: Tenga por presentada esta demanda de separación de uno de los cónyuges sin el consentimiento del otro, y le tenga por parte en este procedimiento, a mérito del testimonio de poder para juicios, que por ser general solicito su devolución luego de dejar testimonio en autos, en representación de D./Dña. [NOMBRE Y APELLIDOS] con el domicilio indicado en este escrito. Se admita la demanda y con las copias de rigor se dé traslado al demandado/a y oportunamente se fije fecha para la vista. Se de participación al Ministerio Fiscal por encontrarse implicados los intereses de menores de edad. Se interpongan las costas procesales a la contraparte, para el caso que se opusiere a esta demanda
-
-Es Justicia que pido en [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-PRIMER OTROSÍ DIGO: De conformidad con el artículo 770 LECiv, en relación con lo dispuesto en el artículo 445 y siguientes de la LECiv, se solicita el recibimiento a prueba.
-
-SUPLICO AL TRIBUNAL: Se sirva recibir a prueba el procedimiento en el momento procesal oportuno, practicando la que se proponga y sea declarada pertinente.
-
-SEGUNDO OTROSÍ DIGO: Que de conformidad con lo establecido en el artículo 103 del Código Civil, en relación con el artículo 773 LECiv, se solicita la apertura de pieza separada de MEDIDAS PROVISIONALES, basándome en los siguientes:
-
-HECHOS
-
-ÚNICO.-Se dan por reproducidos íntegramente los hechos expresados en esta demanda.
-
-Le son de aplicación los siguientes
-
-FUNDAMENTOS DE DERECHO
-
-ÚNICO.-Arts. 102, 103 y siguientes del Código Civil, en relación con el artículo 773 LECiv.
-
-Por lo cual,
-
-SUPLICO AL TRIBUNAL: Que se cite a las partes a la comparecencia prevenida en la LECiv, y que se sustanciará conforme a lo dispuesto en el artículo 771 del mismo cuerpo legal, y conforme a las medidas solicitadas en el cuerpo de este escrito se adopten mediante Auto provisionalmente hasta que recaiga sentencia en los autos principales.
-
-TERCER OTROSÍ DIGO: Que de conformidad con lo establecido en el artículo 749 LECiv debe ser parte el Ministerio Fiscal al existir hijos menores de edad.
-
-SUPLICO AL TRIBUNAL: tenga por realizada la anterior manifestación a los efectos legales oportunos.
-
-Es justicia que pido en [LOCALIDAD] a [DÍA] de [MES] 2
-
-Firma del Letrado Firma del Procurador
-
-========================================================================

@@ -1,12 +1,12 @@
 {
   "name": "formularios-familia-y-divorcio",
-  "version": "1.0.0",
-  "description": "Familia: divorcio, custodia, pensiones y parejas: 372 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el Derecho de familia: separación y divorcio de mutuo acuerdo o contencioso, convenio regulador, medidas provisionales y su modificación, custodia, visitas y pensiones, filiación, adopción, parejas de hecho, regímenes económicos y liquidación de gananciales, con especialidades forales. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Familia: separación, divorcio y medidas: 236 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las crisis matrimoniales: separación y divorcio de mutuo acuerdo o contencioso, nulidad matrimonial, convenio regulador, medidas provisionales y definitivas y su modificación, pensión compensatoria, uso de la vivienda familiar y su ejecución, con especialidades forales. Los asuntos de los hijos y la economía familiar tienen sus propios plugins. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"
   },
-  "displayName": "Familia: divorcio, custodia, pensiones y parejas · España",
+  "displayName": "Familia: separación, divorcio y medidas · España",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
   "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",

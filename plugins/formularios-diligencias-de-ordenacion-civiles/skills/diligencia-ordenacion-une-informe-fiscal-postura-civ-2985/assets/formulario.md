@@ -1,0 +1,21 @@
+SECCIÓN [ELEGIR: CIVIL DEL TRIBUNAL DE INSTANCIA / SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD DEL TRIBUNAL DE INSTANCIA] Nº [NÚMERO] DE [LOCALIDAD]
+
+AUTOS [TIPO Y Nº DE PROCEDIMIENTO]: EFICACIA CIVIL DE RESOLUCIÓN ECLESIÁSTICA Nº [Nº]/[AÑO]
+
+DILIGENCIA DE ORDENACIÓN
+
+El/la Letrado/a de la Administración de Justicia Don/Doña [NOMBRE Y APELLIDOS]
+
+En la ciudad de [LOCALIDAD] a [COMPLETAR]
+
+Por recibido el anterior informe del Ministerio Fiscal, únase, y vista la comparecencia efectuada por Don/Doña [NOMBRE Y APELLIDOS], sin que se haya mostrado oposición por ninguno de ellos respecto de lo interesado en la demanda, queden los autos sobre la mesa del Magistrado-Juez para dictar el auto correspondiente conforme a lo dispuesto en el artículo 778 de la Ley de Enjuiciamiento Civil (en su caso, se expresará habiendo formulado oposición por Don/Doña [NOMBRE Y APELLIDOS], o habiendo manifestado Don/Doña [NOMBRE Y APELLIDOS] su oposición a la demanda fuera del término concedido al efecto).
+
+Contra esta resolución cabe interponer recurso de reposición, mediante escrito ante el Letrado/a de la Administración de Justicia que se presenta dentro de los cinco días hábiles siguientes al de notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15.ª de la LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+Así lo ordeno y firmo.
+
+EL/LA LETRADO/A DE LA ADMINISTRACIÓN DE JUSTICIA

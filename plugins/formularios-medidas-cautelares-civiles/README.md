@@ -1,22 +1,22 @@
 # Medidas cautelares y diligencias preliminares
 
-> Plugin de Claude Code `formularios-medidas-cautelares-civiles` · **70 formularios** · Civil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-medidas-cautelares-civiles` · **84 formularios** · Civil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para asegurar el pleito antes o durante el proceso: embargo preventivo, anotación preventiva de demanda, prohibiciones de disponer, administración judicial, diligencias preliminares, aseguramiento y anticipación de prueba, y oposición a las medidas.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 70 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 84 está al final):
 
-- **Demandas, peticiones y solicitudes iniciales** (2). Por ejemplo: Solicitud de medidas cautelares previas para prohibir una actividad; Solicitud de medidas cautelares previas a la demanda en parejas de hecho.
+- **Demandas, peticiones y solicitudes iniciales** (3). Por ejemplo: Solicitud de medidas cautelares previas para prohibir una actividad; Solicitud de medidas cautelares previas a la demanda en parejas de hecho; Demanda de reclamación por contrato de agencia con petición de embargo preventivo sin audiencia.
 - **Contestaciones, oposiciones y alegaciones** (7). Por ejemplo: Escrito de oposición al embargo preventivo con petición subsidiaria de caución sustitutoria; Oposición a las medidas cautelares acordadas sin audiencia del demandado (embargo preventivo); Oposición a una medida cautelar solicitada tras la demanda.
 - **Estatutos, actas, certificaciones y escrituras** (1). Por ejemplo: Acta de la vista de medidas cautelares con audiencia previa de la parte contraria.
-- **Comunicaciones, requerimientos y cartas** (29). Por ejemplo: Solicitud de diligencia preliminar de exhibición de cosa mueble; Solicitud de embargo preventivo de bienes presentada tras la demanda principal; Solicitud de asociación de consumidores de medida cautelar de cese de conducta previa a la demanda.
-- **Escritos de trámite y otros** (31). Por ejemplo: Escrito del solicitante para que el LAJ requiera la exhibición a la persona obligada; Escrito del demandado vencedor en primera instancia contra mantener la cautelar en apelación; Escrito del demandante vencido en primera instancia para mantener la cautelar en apelación.
+- **Comunicaciones, requerimientos y cartas** (31). Por ejemplo: Solicitud de diligencia preliminar de exhibición de cosa mueble; Solicitud de embargo preventivo de bienes presentada tras la demanda principal; Solicitud de asociación de consumidores de medida cautelar de cese de conducta previa a la demanda.
+- **Escritos de trámite y otros** (42). Por ejemplo: Escrito del solicitante para que el LAJ requiera la exhibición a la persona obligada; Escrito del demandado vencedor en primera instancia contra mantener la cautelar en apelación; Escrito del demandante vencido en primera instancia para mantener la cautelar en apelación.
 
 ## Cómo se usa
 
@@ -32,9 +32,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -42,7 +42,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 4.329 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-medidas-cautelares-civiles@formularios-juridicos-civil-espana`).
+- **Espacio que ocupa:** unos 5.196 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-medidas-cautelares-civiles@formularios-juridicos-civil-espana`).
 
 ## Instalación
 
@@ -57,7 +57,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (70)
+## Lista completa de formularios (84)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -131,6 +131,20 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1266 | Escrito de parte pidiendo medidas de aseguramiento de la prueba durante el proceso | `escrito-parte-pidiendo-medidas-aseguramiento-prueba-civ-1266` |
 | CIV-1267 | Escrito de parte pidiendo prueba anticipada durante el proceso | `escrito-parte-pidiendo-prueba-anticipada-durante-civ-1267` |
 | CIV-1268 | Escrito de parte pidiendo prueba anticipada antes del inicio del proceso | `escrito-parte-pidiendo-prueba-anticipada-antes-inicio-civ-1268` |
+| CIV-2782 | Escrito que pide atenuar las medidas cautelares ya acordadas | `escrito-pide-atenuar-medidas-cautelares-ya-acordadas-civ-2782` |
+| CIV-2783 | Escrito que pide alzar la medida cautelar porque no se instó la ejecución de la condena firme | `escrito-pide-alzar-medida-cautelar-porque-no-insto-civ-2783` |
+| CIV-2784 | Escrito preventivo del posible afectado para que no se adopte una cautelar sin oírle | `escrito-preventivo-posible-afectado-no-adopte-cautelar-civ-2784` |
+| CIV-2785 | Escrito que pide agravar las medidas cautelares ya acordadas | `escrito-pide-agravar-medidas-cautelares-ya-acordadas-civ-2785` |
+| CIV-2786 | Escrito que pide fijar judicialmente los daños y perjuicios causados por una medida cautelar | `escrito-pide-fijar-judicialmente-danos-perjuicios-civ-2786` |
+| CIV-2787 | Escrito que pide alzar la medida cautelar previa porque el proceso principal está suspendido | `escrito-pide-alzar-medida-cautelar-previa-porque-civ-2787` |
+| CIV-2788 | Escrito que pide hacer efectiva la medida cautelar concedida tras prestar la caución | `escrito-pide-hacer-efectiva-medida-cautelar-concedida-civ-2788` |
+| CIV-2789 | Solicitud de embargo preventivo para asegurar una sentencia extranjera pendiente de exequátur | `solicitud-embargo-preventivo-asegurar-sentencia-civ-2789` |
+| CIV-2790 | Petición del afectado de dejar sin efecto el embargo preventivo por no prestarse caución en plazo | `peticion-afectado-dejar-sin-efecto-embargo-preventivo-civ-2790` |
+| CIV-2791 | Petición del afectado de dejar sin efecto la medida cautelar previa por falta de caución en plazo | `peticion-afectado-dejar-sin-efecto-medida-cautelar-civ-2791` |
+| CIV-2792 | Demanda de reclamación por contrato de agencia con petición de embargo preventivo sin audiencia | `demanda-reclamacion-contrato-agencia-peticion-embargo-civ-2792` |
+| CIV-2793 | Otrosí de la demanda de medidas de apoyo que pide cautelares sobre el patrimonio del afectado | `otrosi-demanda-medidas-apoyo-pide-cautelares-sobre-civ-2793` |
+| CIV-2794 | Solicitud de diligencia preliminar de exhibición de la póliza del otro implicado en el accidente | `solicitud-diligencia-preliminar-exhibicion-poliza-otro-civ-2794` |
+| CIV-2795 | Petición de práctica anticipada de prueba en un proceso ya iniciado | `peticion-practica-anticipada-prueba-proceso-ya-iniciado-civ-2795` |
 
 ## Privacidad
 

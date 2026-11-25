@@ -5,7 +5,7 @@ description: "Contestación a la demanda arrendaticia con reconvención para que
 
 # Contestación a la demanda arrendaticia con reconvención para que el arrendador pague las obras
 
-> Formulario **CIV-0557** del plugin **Alquileres y desahucios** (`formularios-alquileres-y-desahucios`) · Civil › Arrendamientos y desahucio · normativa revisada el 24-11-2026.
+> Formulario **CIV-0557** del plugin **Alquileres y desahucios** (`formularios-alquileres-y-desahucios`) · Civil › Arrendamientos y desahucio · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Contestación a la dem
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Contestación a la demanda arrendaticia con reconvención para que el arrendador pague las obras” para mi caso». También puedes invocarla directamente con `/formularios-alquileres-y-desahucios:contestacion-demanda-arrendaticia-reconvencion-civ-0557`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-alquileres-y-desahucios:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Alquileres y desahucios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -90,69 +91,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Juicio [TIPO DE PROCEDIMIENTO] n.º [Nº DE PROCEDIMIENTO]/[AÑO]
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D. [NOMBRE Y APELLIDOS] Procurador de los Tribunales, actuando en representación de [NOMBRE DEL REPRESENTADO/A], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], comparezco en el presente procedimiento en el que se emplazó a mi representada el pasado [FECHA] y por medio de la presente paso a contestar a la demanda interpuesta contra mi principal en base a los siguientes:
-
-HECHOS
-
-PRIMERO.- Se niegan todos los hechos expuestos en la demanda a excepción de los que se vean aceptados en la presente contestación.
-
-SEGUNDO.- En cuanto al hecho primero de la demanda se acepta la existencia de un contrato de arrendamiento sobre la vivienda [DIRECCIÓN] celebrado el [FECHA] y que se adjunta a la demanda como documento n.º [NÚMERO], si bien lo que no se acepta es la falta de pago de las rentas ya que si éstas no se han abonado lo ha sido a consecuencia de la falta de realización por parte del arrendador de las obras de conservación necesarias a pesar de los requerimientos formulados por mi principal y que se adjuntan como documentos n.º [NÚMERO], constando el pago de tales reparaciones por mi mandante en las facturas que se aportan como documentos n.º [NÚMERO] siendo la diferencia entre el importe de las rentas y el coste de las reparaciones de [IMPORTE] Euros a favor de mi principal y que es lo que por vía reconvencional se va a reclamar.
-
-FUNDAMENTOS DE DERECHO
-
-PRIMERO.- Procedimiento.-Se acepta la tramitación de la causa por los trámites del juicio ordinario con fundamento en el art. 249.2 LEC y asumiendo las alegaciones en este sentido vertidas en el escrito de demanda.
-
-SEGUNDO.- Fondo de la reclamación.-Se estima improcedente el acceder a la reclamación de rentas ante la compensación con el coste de los gastos de conservación de la vivienda a los que ha tenido que hacer frente mi principal y que según el art. 21 LAU/1994 correspondían al propietario compensándose estas cantidades con el importe de las rentas que se reclaman en base el art. 1196 CC.
-
-TERCERO.- En materia de costas el art. 394 LEC.
-
-En base a lo anterior,
-
-SUPLICO AL TRIBUNAL, que tenga por presentado este escrito junto con sus copias, teniendo a esta parte por personada en las presentes actuaciones entendiéndose conmigo las siguientes diligencias y por contestada a la demanda interpuesta contra mi principal y tras la pertinente tramitación se sirva dictar sentencia por la que se desestime la demanda presentada contra mi principal con imposición de costas al demandante.
-
-RECONVENCIÓN
-
-HECHOS
-
-ÚNICO.-Como anteriormente se ha indicado por parte de mi mandante se han debido llevar a cabo en la vivienda de la que es arrendatario una serie de reparaciones cuyo valor asciende a [IMPORTE] Euros y que resultan de los documentos n.º [NÚMERO], reparaciones cuya realización se interesó del reconvenido según deriva de los documentos n.º [NÚMERO], indicando al arrendador que en caso de no atenderlas se procedería a su realización al tener carácter urgente dados los elementos afectados, reclamándose la diferencia que a favor de mi principal resulta frente al importe de las rentas reclamadas y que asciende tras la debida compensación a [IMPORTE] Euros.
-
-FUNDAMENTOS DE DERECHO
-
-PRIMERO.- Competencia.-La tiene el Tribunal al que me dirijo al ser el que está conociendo del asunto en el que el litigio se ha suscitado.
-
-SEGUNDO.- Fondo de la reclamación.-Lo es el art. 21 de la LAU/1994 que obliga al arrendador a realizar sin derecho de elevar la renta, todas las reparaciones que sean necesarias para conservar la vivienda en las condiciones de habitabilidad para servir al uso convenido, reparaciones que no efectuó y que ha tenido que hacer mi principal con la advertencia al arrendador legalmente prevista.
-
-TERCERO.- En cuanto a los intereses se solicitan los mismos desde la presente reconvención al cumplirse con ella los requisitos de la mora con fundamento en el art. 1100 CC.
-
-CUARTO.- En materia de costas el art. 394 LEC.
-
-En base a lo anterior,
-
-SUPLICO AL TRIBUNAL, se tenga por presentado este escrito y documentos al mismo adjuntos y por formulada demanda reconvencional contra el demandante [ÓRGANO], se sirva admitirla y tras la adecuada tramitación se dicte sentencia por la que se condene al reconvenido a abonar a mi principal la cantidad de [IMPORTE] Euros intereses desde la presente reconvención y costas.
-
-a [DÍA] de [MES] de [AÑO]
-
-Firma Abogado	Firma Procurador
-
-========================================================================

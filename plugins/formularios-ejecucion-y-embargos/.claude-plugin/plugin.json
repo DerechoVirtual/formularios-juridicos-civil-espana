@@ -1,7 +1,7 @@
 {
   "name": "formularios-ejecucion-y-embargos",
-  "version": "1.0.0",
-  "description": "Ejecución de sentencias y embargos: 311 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para ejecutar lo ganado: demanda ejecutiva (título judicial, no judicial, laudo, acuerdo de mediación), ejecución provisional, embargo y mejora de embargo, averiguación patrimonial, subasta, lanzamiento, ejecución hipotecaria, tercerías, oposición del ejecutado y liquidación de intereses y costas. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Ejecución de sentencias y embargos: 193 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para ejecutar lo ganado: demanda ejecutiva (título judicial, no judicial, laudo, acuerdo de mediación), ejecución provisional, embargo y mejora de embargo, averiguación patrimonial, subasta, lanzamiento, ejecución hipotecaria, tercerías, oposición del ejecutado y liquidación de intereses y costas. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

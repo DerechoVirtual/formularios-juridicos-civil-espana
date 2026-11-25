@@ -1,0 +1,25 @@
+{
+  "name": "formularios-accidentes-y-responsabilidad-civil",
+  "version": "1.1.0",
+  "description": "Accidentes, seguros y responsabilidad civil: 94 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para reclamar daños: accidentes de tráfico y Consorcio de Compensación de Seguros, reclamaciones a aseguradoras, responsabilidad civil extracontractual y profesional (también sanitaria), vicios y defectos de construcción, y protección del honor, la intimidad y la propia imagen. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "author": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "displayName": "Accidentes, seguros y responsabilidad civil · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "civil",
+    "contratos-y-responsabilidad"
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-civil-espana"
+}

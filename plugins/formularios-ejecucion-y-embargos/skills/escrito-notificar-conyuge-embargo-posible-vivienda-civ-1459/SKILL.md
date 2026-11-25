@@ -5,7 +5,7 @@ description: "Escrito para notificar al cónyuge el embargo de posible vivienda 
 
 # Escrito para notificar al cónyuge el embargo de posible vivienda familiar y anotarlo en el Registro
 
-> Formulario **CIV-1459** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1459** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Escrito para notificar
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Escrito para notificar al cónyuge el embargo de posible vivienda familiar y anotarlo en el Registro” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:escrito-notificar-conyuge-embargo-posible-vivienda-civ-1459`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -89,53 +90,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
-
-D./Dª [NOMBRE Y APELLIDOS], Procurador de los Tribunales y de D./Dª [NOMBRE Y APELLIDOS], cuya representación tengo acreditada en autos de ejecución de títulos judiciales núm. [Nº]/[AÑO], seguidos a instancia de mi representado contra D./Dª [NOMBRE Y APELLIDOS], bajo la dirección técnica de D./Dª [NOMBRE Y APELLIDOS], Letrado del Ilustre Colegio de [COLEGIO], ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
-
-Que por medio del presente escrito, y siguiendo instrucciones expresas de mi representado/a, SOLICITO NOTIFICACIÓN DEL EMBARGO PRACTICADO SOBRE BIEN GANANCIAL AL CÓNYUGE DEL DEUDOR PARA SU ADICIÓN AL MANDAMIENTO DE ANOTACIÓN PREVENTIVA, conforme a los siguientes
-
-HECHOS
-
-En procedimiento de ejecución de títulos judiciales núm. [Nº]/[AÑO], se dictó por este Tribunal, mandamiento de anotación preventiva de embargo dirigido al Registro de la Propiedad de [LOCALIDAD], nº [NÚMERO], sobre la finca inscrita al Tomo [TOMO], Libro [LIBRO], Folio [FOLIO], finca [FINCA], conforme a lo dispuesto en el art. 629 LEC.
-
-Practicado el correspondiente asiento de presentación en el Registro de la Propiedad -asiento núm. [Nº], del Diario [Nº], de fecha [FECHA] de [MES] de -, el Registrador suspendió la práctica de la anotación por aparecer la finca inscrita a nombre del/de la demandado/a, D./Dª [NOMBRE Y APELLIDOS], casado/a en régimen de separación de bienes con D./Dª [NOMBRE Y APELLIDOS], con carácter privativo (o inscrita por mitades indivisas con carácter privativo a nombre del/de la demandado/a, D./Dª [NOMBRE Y APELLIDOS], y de su cónyuge D./Dª [NOMBRE Y APELLIDOS]), resultando del Registro que puede ser perfectamente vivienda habitual de la familia, sin que el mandamiento refleje que dicha vivienda no tiene el carácter de "vivienda habitual de la familia" o que el embargo ha sido notificado al cónyuge del/de la demandado/a.
-
-En el Registro de la Propiedad se practicó nota marginal indicando la suspensión de la anotación, durante el plazo de sesenta días, por el indicado defecto subsanable.
-
-Se presenta, adjunto, el mandamiento para que el Tribunal haga constar expresamente que el citado inmueble no constituye la vivienda habitual de la familia o que el embargo ha sido notificado al cónyuge del/de la deudor/a ejecutado/a y me lo devuelva, por duplicado, con esta adición con el fin de subsanar el defecto registral y que pueda practicarse la anotación preventiva del embargo en el Registro de la Propiedad.
-
-Son aplicables a los hechos expuestos, los siguientes
-
-FUNDAMENTOS DE DERECHO
-
-En aplicación de los artículos 1320 CC y 144.5 del Reglamento Hipotecario, es necesario que del mandamiento de anotación preventiva de embargo resulte que la vivienda no tiene el carácter de vivienda habitual de la familia o que el embargo ha sido notificado al cónyuge del titular embargado.
-
-La RDGRN de 9 de marzo de 2000 señala: "el Registrador no puede revisar las decisiones judiciales cuando no hay obstáculos derivados del Registro que impongan el control del cumplimiento de los requisitos de procedimiento establecidos en garantía de los derechos inscritos (cfr. artículos 18 de la Ley Hipotecaria y 100 de su Reglamento), habrá de considerarse que es el órgano judicial el que debe decidir, en función de las circunstancias puestas de manifiesto en el procedimiento, si procede acceder al embargo de una vivienda y si ha de hacerse con o sin notificación al cónyuge del deudor titular, de modo que ordenando en el embargo subsiguiente la práctica de la anotación de aquél, no debe el Registrador revisar la bondad intrínseca de aquella decisión judicial, sino que deberá estar y pasar por ella, salvo que de los libros a su cargo resulte que el bien embargado es la vivienda habitual del deudor, en cuyo caso podrá y deberá suspender el asiento en tanto no se le acredite debidamente que de los autos resulta de modo indubitado lo contrario, o que se ha practicado la notificación del embargo -que no de la demanda- al cónyuge del deudor, solución ésta que es la adoptada en la actualidad por el mismo artículo 144.5 del Reglamento Hipotecario modificado por Real Decreto 1867/1998, de 4 de septiembre, en lo que cabe considerar una interpretación más auténtica de las normas sustantivas que no han variado".
-
-En virtud de lo expuesto,
-
-SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito, junto con los documentos que lo acompañan y sus copias, se sirva admitirlo y, estimando lo que en él se solicita y previos los trámites legales oportunos, dicte resolución por la que acuerde la notificación del embargo practicado sobre la vivienda embargada, pta., piso [PISO], del edificio sito en [LOCALIDAD], calle [CALLE], nº [NÚMERO], que es la finca registral [FINCA] del Registro de la Propiedad de [LOCALIDAD], núm. [Nº], al cónyuge del demandado D./Dª [NOMBRE Y APELLIDOS], mayor de edad, con domicilio en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta. y DNI [DNI/NIE], si no se ha efectuado ya, y una vez complementado, en cualquier caso, el mandamiento con la expresión de dicha notificación, lo expida de nuevo por duplicado, antes de que transcurra el plazo de caducidad de la nota de suspensión del asiento de anotación preventiva, con el fin de que pueda practicarse la citada anotación en el Registro de la Propiedad.
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma y número del Letrado	Firma del Procurador
-
-========================================================================

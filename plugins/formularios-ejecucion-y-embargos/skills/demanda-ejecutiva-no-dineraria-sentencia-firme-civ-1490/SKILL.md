@@ -5,7 +5,7 @@ description: "Demanda ejecutiva no dineraria de sentencia firme de desahucio. Lo
 
 # Demanda ejecutiva no dineraria de sentencia firme de desahucio
 
-> Formulario **CIV-1490** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1490** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,13 +22,14 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda ejecutiva no d
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda ejecutiva no dineraria de sentencia firme de desahucio” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:demanda-ejecutiva-no-dineraria-sentencia-firme-civ-1490`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -90,83 +91,15 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
-
-D./Dña. [NOMBRE Y APELLIDOS], Procurador de los Tribunales y de D./Dña. [NOMBRE Y APELLIDOS], cuya representación tengo acreditada, junto con la dirección letrada y las circunstancias personales, en los autos de juicio verbal de desahucio, registrados con el número [NÚMERO], seguidos frente a D./Dña. [NOMBRE Y APELLIDOS], siguiendo instrucciones de mi mandante y como mejor proceda en derecho, DIGO:
-
-Que mediante el presente escrito formulo demanda ejecutiva contra D./Dña. [NOMBRE Y APELLIDOS], a fin de que se proceda a su lanzamiento de la vivienda sita en [LOCALIDAD], todo ello según resulta de los siguientes:
-
-HECHOS
-
-PRIMERO.- El pasado día [FECHA], en los autos de juicio de desahucio arriba referenciados, por el tribunal al que me dirijo se dictó sentencia declarando resuelto el contrato de arrendamiento de la vivienda sita en [LOCALIDAD], del que era titular como arrendatario D./Dña. [NOMBRE Y APELLIDOS], condenando al demandado a que voluntariamente desalojara y dejara libre, vacua y expedita la finca de autos en el plazo de [PLAZO] Dicha sentencia al no ser recurrida adquirió el carácter de firme.
-
-SEGUNDO.- Dado que hasta la fecha no se ha dado cumplimiento voluntario a la resolución por el condenado, con la entrega de la posesión y el consiguiente desalojo de la vivienda a la que se alude en la sentencia dictada, habiendo transcurrido con exceso el mencionado plazo, me veo en la necesidad de formular demanda ejecutiva, para que acuerde la ejecución y se entregue el inmueble a mi representado.
-
-A los anteriores hechos son de aplicación los siguientes:
-
-FUNDAMENTOS DE DERECHO
-
-I.- COMPETENCIA.
-
-Según el art. 545.1 LEC, será competente para la ejecución de resoluciones judiciales el tribunal que conoció del asunto en primera instancia.
-
-Por eso se presenta esta demanda ante el Tribunal al que gustosamente me dirijo, ya que fue quien dictó la sentencia de condena que sirve de título para la presente ejecución.
-
-II.- CAPACIDAD Y LEGITIMACIÓN.
-
-Se cumplen los requisitos de capacidad, en tanto que personas físicas ejecutante y ejecutado, mayores de edad en pleno disfrute de sus derechos civiles (arts. 6.1.1.º y 7.1 LEC), que fueron partes en el proceso declarativo del que surge la ejecutoria, legitimadas conforme al art. 538.1 LEC.
-
-III.- POSTULACIÓN.
-
-Conforme a lo dispuesto en el art. 539.1 LEC, la demanda viene firmada por abogado y procurador, ya que estamos ante la ejecución de una resolución dictada en un proceso en que es preceptiva la intervención de dichos profesionales.
-
-IV.- TÍTULO DE EJECUCIÓN.
-
-El art. 517.2.1.º LEC enumera como uno de los títulos que lleva aparejada ejecución la sentencia de condena firme, como la que sirve de fundamento a esta demanda.
-
-V. PROCEDIMIENTO.
-
-Es el establecido en los arts. 549 y ss. LEC.
-
-VI. EJECUCIÓN DE DEBER DE ENTREGA DE BIENES INMUEBLES.
-
-Si el título dispusiere la transmisión o entrega de un bien inmueble, el tribunal ordenará de inmediato lo que proceda según el contenido de la condena —desalojo del demandado— y, en su caso, dispondrá lo necesario para adecuar el Registro al título ejecutivo.
-
-Si en el inmueble que haya de entregarse hubiere cosas que no sean objeto del título, el tribunal requerirá al ejecutado para que las retire dentro del plazo que se señale. Si no las retirare, se considerarán bienes abandonados a todos los efectos (art. 703.1 LEC).
-
-Por lo demás, el art. 438.6 LEC prevé que, en todos los casos de desahucio, el Letrado de la Administración de Justicia habrá fijado ya en la resolución que se dicte teniendo por opuesto al demandado el día y hora para que tenga lugar el lanzamiento, que deberá ser inferior a un mes desde la fecha de la vista.
-
-VII. COSTAS.
-
-Serán impuestas a la parte ejecutada, conforme al art. 539 LEC.
-
-Por todo ello,
-
-SUPLICO AL TRIBUNAL:
-
-Que teniendo por presentado este escrito con su copia, se sirva admitirlo, ordenando se entiendan conmigo las sucesivas diligencias y, en nombre de mi patrocinado, se tenga por presentada demanda ejecutiva para que, una vez examinados los requisitos y presupuestos procesales, el título ejecutivo y los actos de ejecución que se solicitan, así como la propia competencia, se dicte mediante auto orden general de ejecución y despacho de la misma, y una vez acordado, por el Letrado de la Administración de Justicia Judicial responsable de la ejecución se ordene el lanzamiento inmediato del demandado D./Dña. [NOMBRE Y APELLIDOS] del inmueble sito en [LOCALIDAD] en la fecha y hora que previamente se haya determinado en la resolución que tuvo por opuesto al demandado, requiriendo al ejecutado para que retire las cosas o bienes que no sean objeto del título. Todo ello con imposición de las costas derivadas de esta ejecución al ejecutado.
-
-OTROSÍ DIGO: Que conforme al art.703.3 LEC interesa a esta parte que de constar desperfectos en el inmueble en el momento del lanzamiento originados por el ejecutado, se acuerde la retención y constitución en depósito de bienes suficientes del mismo, para responder de los daños y perjuicios causados.
-
-SUPLICO AL TRIBUNAL que tenga por hecha la anterior solicitud.
-
-Por ser de Justicia que pido en [LUGAR], a [FECHA].
-
-Firma de Abogado/a	Firma de Procurador/a

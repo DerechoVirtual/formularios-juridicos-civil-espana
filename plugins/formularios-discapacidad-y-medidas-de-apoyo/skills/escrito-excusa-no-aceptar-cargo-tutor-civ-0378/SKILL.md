@@ -5,7 +5,7 @@ description: "Escrito de excusa para no aceptar el cargo de tutor. Lo redacta co
 
 # Escrito de excusa para no aceptar el cargo de tutor
 
-> Formulario **CIV-0378** del plugin **Discapacidad y medidas de apoyo (Ley 8/2021)** (`formularios-discapacidad-y-medidas-de-apoyo`) · Civil › Capacidad y medidas de apoyo · normativa revisada el 24-11-2026.
+> Formulario **CIV-0378** del plugin **Discapacidad y medidas de apoyo (Ley 8/2021)** (`formularios-discapacidad-y-medidas-de-apoyo`) · Civil › Capacidad y medidas de apoyo · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Escrito de excusa para
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Escrito de excusa para no aceptar el cargo de tutor” para mi caso». También puedes invocarla directamente con `/formularios-discapacidad-y-medidas-de-apoyo:escrito-excusa-no-aceptar-cargo-tutor-civ-0378`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-discapacidad-y-medidas-de-apoyo:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Discapacidad y medidas de apoyo (Ley 8/2021)) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -86,73 +87,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº]
-
-Expediente de Jurisdicción Voluntaria: /
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
-
-D./Dª [NOMBRE Y APELLIDOS], mayor de edad, de profesión [PROFESIÓN], vecino de [LOCALIDAD], con domicilio en la calle [CALLE], nº [NÚMERO], pta. y DNI [DNI/NIE], ante el Tribunal comparezco y como mejor proceda en Derecho, DIGO:
-
-Que por medio del presente escrito ALEGO CAUSA DE EXCUSA DEL DESEMPEÑO DEL CARGO DE TUTOR de D./Dª [NOMBRE Y APELLIDOS], sin que hayan transcurrido quince días desde que me fuera notificado el nombramiento (cfr. art. 279 III CC), con base en los siguientes
-
-HECHOS
-
-Conforme al art. 279 I CC, será excusable el desempeño de la curatela si resulta excesivamente gravoso o entraña grave dificultad para la persona nombrada para el ejercicio del cargo).
-
-PRIMERO.-Fui nombrado tutor/curador de D./Dª [NOMBRE Y APELLIDOS], por este Tribunal, en procedimiento de jurisdicción voluntaria /, por auto de fecha [FECHA] de [MES] de
-
-SEGUNDO.- La complejidad de la administración del patrimonio del tutelado tutelado (o sometido a curatela) requiere conocimientos técnicos de los que carezco, al no haber finalizado ni siquiera mis estudios de educación primaria.
-
-[ELEGIR: Razones]
-
-TERCERO.- Opción 1: Por otra parte, mi profesión, a la que me dedico desde hace veinte años, es la de transportista, lo que me obliga a viajar y, por tanto, a ausentarme de la ciudad de residencia del tutelado (o sometido a curatela), constantemente. Ello hace que no pueda prestar al mismo las atenciones necesarias.
-
-Razones médicas
-
-FUNDAMENTOS DE DERECHO
-
-I. El art. 279 CC establece que será excusable el desempeño de la curatela si resulta excesivamente gravoso o entraña grave dificultad para la persona nombrada para el ejercicio del cargo.
-
-II. A tenor del art. 279 III CC, el interesado que alegue causa de excusa deberá hacerlo dentro del plazo de quince días a contar desde que tuviera conocimiento del nombramiento.
-
-Y el artículo 50.1 de la Ley de la Jurisdicción Voluntaria establece: “Si concurriera alguna de las causas previstas por el Código Civil para excusarse del ejercicio del cargo tutelar o de la curatela, el tutor o curador deberá alegarla dentro del plazo de quince días a contar desde que tenga conocimiento del nombramiento. Si el motivo de la excusa le sobreviniere durante su ejercicio, podrá alegarlo en cualquier momento, salvo las personas jurídicas, siempre que hubiera persona de parecidas condiciones para sustituirle.
-
-2. Se podrá admitir la excusa del tutor o del curador previa celebración de comparecencia, en la que necesariamente se oirá a la persona que se excuse, a la que le vaya a sustituir en el cargo y al afectado si tuviere suficiente madurez y, en todo caso, al menor si tuviere más de 12 años y al Ministerio Fiscal.
-
-3. Durante la tramitación del expediente, quien haya solicitado la renuncia estará obligado a ejercer la función y, de no hacerlo, se nombrará un defensor que le sustituya, quedando el sustituido responsable de todos los gastos ocasionados por la excusa si ésta fuera rechazada.
-
-4. Admitida la excusa se procederá al nombramiento de nuevo tutor o curador, debiendo remitir, en su caso, la correspondiente comunicación al Registro Civil".
-
-III.- El artículo 224 del Código Civil dispone que serán aplicables a la tutela, con carácter supletorio, las normas de la curatela. (Solo se incluirá este Fundamento Jurídico en el caso del tutor, no del curador).
-
-Iura novit curia y los demás que en Derecho procedan.
-
-En su virtud:
-
-SUPLICO AL TRIBUNAL: Que teniendo por presentado este escrito, con los documentos que se acompañan y copias, lo admita y, estimando lo que en él se solicita, y previos los trámites legales oportunos, se sirva admitir la excusa alegada, dictando resolución en la que se me tenga por excusado del cargo de tutor/curador de D./Dª [NOMBRE Y APELLIDOS].
-
-OTROSÍ DIGO: Para acreditar los HECHOS de este escrito, se acompaña los siguientes DOCUMENTOS:
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma del solicitante
-
-========================================================================

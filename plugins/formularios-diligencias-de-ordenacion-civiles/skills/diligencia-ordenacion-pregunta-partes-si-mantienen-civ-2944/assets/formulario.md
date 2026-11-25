@@ -1,0 +1,13 @@
+Diligencia por la que el órgano jurisdiccional requiere a las partes para que, al haber recaído sentencia en la que no se aprueba íntegramente el contenido del convenio regulador en procedimiento de mutuo acuerdo, manifiesten si quieren continuar con la misma defensa y representación, o prefieren litigar por su cuenta.
+
+Documento adaptado a la reforma orgánica de la LO 1/2025 DILIGENCIA DE ORDENACIÓNEl/la Letrado/a de la Administración de Justicia [NOMBRE Y APELLIDOS] Habiendo recaído en este procedimiento sentencia en la que no se aprueba parte del contenido del convenio regulador propuesto, y en atención a las prevenciones contenidas en el artículo 750.2 LEC, procede requerir a las partes a fin de que en el plazo de cinco días manifiesten si desean continuar con la defensa y representación únicas de las que hasta la fecha se han servido o si, por el contrario, prefieren litigar cada una con su propia defensa y representación.
+
+Contra esta resolución cabe interponer recurso de reposición, mediante escrito ante el Letrado/a de la Administración de Justicia, que se presentará dentro de los cinco días hábiles siguientes al de la notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
+
+Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15.ª LOPJ).
+
+Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita.
+
+Así lo ordeno y firmo
+
+Firma del Letrado/a de la Administración de Justicia: Cuando pese a haberse iniciado y sustanciado el procedimiento de forma consensual, sobreviene una situación de conflicto real, —solicitud de ejecución forzosa por uno de los cónyuges del convenio homologado—, la LEC impone el regreso al régimen general, constituido por la representación y defensa autónomas e individuales. Por el contrario, si el conflicto es solo potencial, —"cuando alguno de los pactos propuestos por los cónyuges no fueran aprobados"—, se confía a los interesados la opción de continuar con la defensa y representación únicas o tomar cada uno la suya propia. Parece que en este caso el requerimiento deberá hacerse a las partes en forma personal.

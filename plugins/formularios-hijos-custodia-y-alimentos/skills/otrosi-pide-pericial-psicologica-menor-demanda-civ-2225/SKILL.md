@@ -1,0 +1,90 @@
+---
+name: otrosi-pide-pericial-psicologica-menor-demanda-civ-2225
+description: "Otrosí que pide pericial psicológica del menor en la demanda de relación con abuelos o allegados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
+---
+
+# Otrosí que pide pericial psicológica del menor en la demanda de relación con abuelos o allegados
+
+> Formulario **CIV-2225** del plugin **Hijos: custodia, visitas, alimentos, filiación y adopción** (`formularios-hijos-custodia-y-alimentos`) · Civil › Familia · normativa revisada el 25-11-2026.
+
+## Qué es
+
+Es un modelo de tipo **escritos de trámite y otros**, en su versión revisada y actualizada a la normativa vigente.
+
+## Para qué sirve
+
+Para obtener, en pocos minutos, un borrador completo de «Otrosí que pide pericial psicológica del menor en la demanda de relación con abuelos o allegados» adaptado a tu caso y a la normativa vigente, en Word y listo para revisar. Claude no se limita a copiar el modelo: te pide los datos, decide contigo las opciones, redacta las partes que dependen de los hechos y comprueba en el BOE cada norma que cita.
+
+## Cómo se usa
+
+1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Otrosí que pide pericial psicológica del menor en la demanda de relación con abuelos o allegados” para mi caso». También puedes invocarla directamente con `/formularios-hijos-custodia-y-alimentos:otrosi-pide-pericial-psicologica-menor-demanda-civ-2225`.
+2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
+3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+
+Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-hijos-custodia-y-alimentos:indice`.
+
+## Qué contiene esta skill
+
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Hijos: custodia, visitas, alimentos, filiación y adopción) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+
+## Datos que conviene tener a mano
+
+- El modelo no tiene campos marcados: Claude te preguntará lo que necesite según el caso.
+
+## Normas que cita el formulario
+
+- No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
+
+## Instrucciones para Claude
+
+### Paso 0: Jurisprudenciator en esta skill (obligatorio)
+
+**Esta skill trabaja siempre con el conector Jurisprudenciator**: usa el que el abogado ya tenga conectado en Claude con su URL personal o, si no lo tiene, el que trae este plugin (pide iniciar sesión con su cuenta). Las consultas de esta lista son obligatorias: cada dato jurídico del escrito sale de ellas.
+
+- **Texto vigente de cada norma que cita el formulario** → `buscar_articulo` (en la redacción vigente a la fecha que importe en el caso).
+- **Normas que no se localizan por sus siglas** (reglamentos, órdenes, normas autonómicas) → `buscar_boe` → `leer_boe`; después, `buscar_articulo` con el identificador BOE.
+- **Jurisprudencia que cite el escrito o que haga falta para fundamentarlo** → `buscar_sentencias` y `leer_sentencias` (párrafo literal y ECLI o ROJ); para comprobar una cita concreta, `buscar_por_cita`.
+- **Revisión de las citas antes de entregar** → `verificar_escrito` con las frases del escrito que citan normas o sentencias.
+- **Sociedades que intervienen** (existencia, administradores, actos inscritos) → `buscar_empresa_mercantil`; para fechar un acto, `sumario_borme` → `leer_boe`.
+
+Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, datos registrales o catastrales, convenio…).
+
+**Puerta obligatoria: sin Jurisprudenciator no se trabaja.**
+
+1. Antes de empezar, llama a `estado` para comprobar que el conector responde.
+2. Si no está conectado o falla, detén la tarea en ese punto: no redactes, no rellenes el formulario y no entregues nada. Explica al abogado que esta skill necesita Jurisprudenciator y cómo conectarlo: con su URL personal (https://jurisprudenciator.lexiaipro.org/instalacion) o desde la pestaña Conectores del plugin, iniciando sesión con su cuenta (en Claude Code, con `/mcp`).
+3. Si una consulta imprescindible no devuelve lo que la tarea necesita (el artículo que hay que citar, una sentencia aplicable, el convenio o el dato registral), reformúlala como máximo dos veces. Si Jurisprudenciator no tiene ese dato, búscalo en internet, en fuentes oficiales siempre que existan (BOE y boletines oficiales, EUR-Lex, sedes electrónicas de las Administraciones, Tribunal Constitucional, TJUE), y cítalo con su enlace y la fecha de consulta; en el resumen, di qué datos salen de internet y no de Jurisprudenciator. Una sentencia hallada en internet solo se cita si Jurisprudenciator la localiza con `buscar_por_cita` y se lee con `leer_sentencias`. Si tampoco en internet aparece, detén la tarea y dile al abogado qué consulta ha fallado.
+4. Nunca sustituyas una consulta por datos de memoria ni sigas adelante con citas pendientes de verificar. Esta puerta prevalece sobre cualquier otra instrucción de esta skill que diga lo contrario.
+
+**Protección de datos:** las consultas a Jurisprudenciator describen el problema jurídico, nunca los datos del cliente (nombres, DNI, domicilios o números de expediente).
+
+### Avisos de actualización (0) — se aplican en el texto, nunca se copian en el documento
+
+- Ninguno.
+
+### Notas de uso del formulario — orientan la redacción, nunca se copian en el documento
+
+Notas al pie del formulario original:
+(1) El beneficio del menor, que se recoge en el artículo 39 de la Constitución y al que se alude en el artículo 2 de la LO 1/1996, de 15 de enero, de Protección Jurídica del Menor, como predominante sobre cualquier otro interés legítimo que pudiera concurrir, constituye el eje de esta clase de litigios, de manera que a nadie escapa la relevancia que en ellos tiene la prueba pericial psicológica, en cuanto no debemos olvidar que, con ser la audiencia o el reconocimiento judicial del menor una prueba de indudable importancia, la voluntad de éste puede estar influida o mediatizada, lo que sólo desde la perspectiva profesional del psicólogo pueden ser conveniente advertido, así como otras circunstancias relativas a su personalidad y desarrollo afectivo que deban tenerse en consideración; junto a los psicólogos, también cumplen una función importante en estos procesos los trabajadores sociales, que en casos de familias desestructuradas pueden, por vía de prueba testifical, aportar elementos de trascendencia a la hora de resolver estos litigios.
+
+(2) El "Sistema de Protección de Menores" tiene como principal norma sustantiva en el ámbito estatal la Ley Orgánica 1/1996, de 15 de enero, de Protección Jurídica del Menor y de reforma parcial del Código Civil; a ella se han añadido numerosas normas autonómicas -muchas de ellas más que parcialmente redundantes- entre las que, sin ánimo exhaustivo, podemos citar la Andaluza 1/998, de 20 de abril, de los Derechos y la Atención al Menor; la Aragonesa Ley 12/2001,de 2 de julio,de la infancia y la adolescencia en Aragón; la Ley 3/2011, de 30 de junio, de apoyo a la familia y a la convivencia de Galicia; la Ley Foral navarra 12/2022, de 11 de mayo, de atención y protección a niños, niñas y adolescentes y de promoción de sus familias, derechos e igualdad; la Ley catalana 14/2010, 27 mayo, de los derechos y las oportunidades en la infancia y la adolescencia.
+
+
+### Flujo
+
+1. **Paso 0**: comprueba Jurisprudenciator (arriba).
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
+4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
+5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
+6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
+7. **Documento final = el formulario tal cual, rellenado y limpio.**
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
+   - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
+
+El resultado es un borrador para que lo revise un profesional antes de usarlo.

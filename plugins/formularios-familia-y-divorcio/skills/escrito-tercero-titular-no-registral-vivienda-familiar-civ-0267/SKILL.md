@@ -5,7 +5,7 @@ description: "Escrito del tercero titular no registral de la vivienda familiar q
 
 # Escrito del tercero titular no registral de la vivienda familiar que se opone a su embargo
 
-> Formulario **CIV-0267** del plugin **Familia: divorcio, custodia, pensiones y parejas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 24-11-2026.
+> Formulario **CIV-0267** del plugin **Familia: separación, divorcio y medidas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,14 +20,15 @@ Para obtener, en pocos minutos, un borrador completo de «Escrito del tercero ti
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Escrito del tercero titular no registral de la vivienda familiar que se opone a su embargo” para mi caso». También puedes invocarla directamente con `/formularios-familia-y-divorcio:escrito-tercero-titular-no-registral-vivienda-familiar-civ-0267`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-familia-y-divorcio:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: separación, divorcio y medidas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -90,63 +91,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [SEDE]
-
-Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación de Don [NOMBRE Y APELLIDOS], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], y bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS], del Ilustre Colegio de Abogados de [COLEGIO], comparezco en los autos de procedimiento ejecutivo [Nº DE PROCEDIMIENTO] promovidos por Don [NOMBRE Y APELLIDOS] contra Don [NOMBRE Y APELLIDOS], seguidos ante esta Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] y, como mejor proceda en Derecho, DIGO:
-
-Que en méritos del requerimiento efectuado por ese Tribunal a mi principal y al amparo de lo previsto en el artículo 593 de la LEC y en relación con el eventual embargo sobre el bien inmueble sito en la localidad de [LOCALIDAD], calle [CALLE], núm. [Nº], piso [PISO], puerta [PUERTA], y supuestamente propiedad de [NOMBRE DE LA PARTE], esta parte dentro del plazo de cinco días allí conferido, mediante el presente escrito pasa a OPONERSE AL EMBARGO sobre dicho bien con base en las siguientes
-
-ALEGACIONES
-
-PRIMERA.- ADQUISICIÓN VIVIENDA.
-
-Que la finca sobre la que se pretende el embargo pertenece realmente a mi mandante Don [NOMBRE Y APELLIDOS] desde el día [FECHA] del mes [MES] del año [AÑO] en que el ejecutado [NOMBRE DE LA PARTE], aún hoy aparente propietario al resultar el titular registral, vendió mediante documento privado la finca a mi principal, entregando la posesión de la finca en aquel mismo acto, según resulta del propio documento y de sus pactos. En prueba de lo manifestado se acompaña ejemplar auténtico del documento privado de compraventa, como Documento núm. [Nº], que constituye a su vez el principio de prueba escrito que exige el artículo 595.3 de la Ley de Enjuiciamiento Civil como fundamento de la pretensión de mi principal.
-
-SEGUNDA.- VIVIENDA FAMILIAR.
-
-Que dicha vivienda constituye además el domicilio familiar de mi representado y que ocupa junto a su cónyuge e hijos, todos ellos menores de edad. La realidad de la transmisión recogida en el documento privado que queda aportado y el carácter de domicilio familiar resulta acreditada mediante los documentos que a continuación se indican, la mayoría de los cuales son de fecha anterior, incluso, al nacimiento de la obligación recogida en el título del que deriva el presente procedimiento:
-
-a) Certificado del padrón municipal acreditativo de la primera fecha de ocupación por parte de mi mandante y su familia de la finca de referencia, que acompaño como Documento núm. [Nº DE DOCUMENTO].
-
-b) Certificado del colegio público [NOMBRE DEL CENTRO] acreditativo de que el hijo menor [NOMBRE DEL MENOR] cursa estudios desde el curso académico [CURSO] en el indicado centro por ser el que le corresponde en función de la ubicación de la vivienda familiar de los padres, que acompaño como Documento núm. [Nº DE DOCUMENTO].
-
-c) Solicitud de alta de línea telefónica de fecha [FECHA], así como contrato realizado con la compañía telefónica [DENOMINACIÓN SOCIAL] en el momento de dar de alta la línea telefónica, que acompaño como Documentos núms. y [Nº DE DOCUMENTO].
-
-d) Póliza de contratación de suministro de energía eléctrica suscrito con la compañía suministradora a título de dueño de fecha [FECHA], así como recibos de consumos del último año, que acompaño como Documentos núms. a [Nº DE DOCUMENTO].
-
-e) Póliza de contratación de suministro de gas natural suscrito con las compañía suministradora a título de dueño de fecha [FECHA], así como recibos de consumos del último año, que acompaño como Documentos núms. a [Nº DE DOCUMENTO].
-
-f) Actas de Junta de copropietarios del inmueble en el que se ubica la finca, celebradas al amparo de la Ley de Propiedad Horizontal y en las que resulta presente mi principal como propietario del piso [PISO] puerta [PUERTA] que constituye la finca cuyo embargo se pretende, que acompaño como Documentos núms. a [Nº DE DOCUMENTO].
-
-g) Acta notarial de manifestaciones recogida por el Ilustre Notario de esta ciudad Don [NOMBRE Y APELLIDOS], y recogidas de los vecinos del mismo inmueble y en las que se constata el carácter de ser la vivienda en cuestión el domicilio familiar de representado, que acompaño como Documento núm. [Nº DE DOCUMENTO].
-
-TERCERA.- NO PROCEDENCIA DEL EMBARGO.
-
-Que a la vista del documento privado de compraventa y demás documentos aportados, entiende esta parte que no procede el embargo sobre dicha finca por ser propiedad de mi principal, no pertenecer ya al demandado ejecutado, y ser el domicilio familiar de mi representado y su familia.
-
-Por lo expuesto,
-
-SOLICITO AL TRIBUNAL: Que teniendo por presentado este escrito con los documentos acompañados (en su caso, y copia de todo), se sirva admitirlo y en sus méritos, haya por acreditada la plena propiedad y dominio de mi representado sobre el bien inmueble cuyo embargo se pretendía en los presentes Autos, y como quiera que trata de la vivienda familiar del mismo y en evitación de una tercería de dominio y previo dar traslado a las partes ejecutante y ejecutada a los fines de que manifiesten lo que a su derecho convenga, resuelva abstenerse de acordar el embargo pretendido, prosiguiendo la ejecución sobre otros bienes propiedad del ejecutado.
-
-Es Justicia que insto en (lugar y fecha).
-
-Firmas de Letrado y Procurador.
-
-========================================================================

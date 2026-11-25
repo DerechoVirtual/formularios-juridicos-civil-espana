@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 114 formularios de Alquileres y desahucios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 219 formularios de Alquileres y desahucios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Alquileres y desahucios: índice de formularios
 
-> Plugin `formularios-alquileres-y-desahucios` · 114 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-alquileres-y-desahucios` · 219 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,9 +50,9 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
-### Demandas, peticiones y solicitudes iniciales (43)
+### Demandas, peticiones y solicitudes iniciales (66)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -82,7 +82,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0568 | Demanda de extinción de arrendamiento de vivienda por no notificar la subrogación mortis causa | `demanda-extincion-arrendamiento-vivienda-no-notificar-civ-0568` |
 | CIV-0569 | Demanda verbal de rentas debidas tras extinguirse el arrendamiento hasta recuperar la posesión | `demanda-verbal-rentas-debidas-tras-extinguirse-civ-0569` |
 | CIV-0577 | Demanda de desahucio de vivienda por impago de rentas (contrato posterior a 1995), sin enervación | `demanda-desahucio-vivienda-impago-rentas-contrato-civ-0577` |
-| CIV-0578 | Demanda de juicio verbal de desahucio de finca urbana por vencimiento del plazo del contrato | `demanda-juicio-verbal-desahucio-finca-urbana-civ-0578` |
 | CIV-0579 | Demanda de desahucio por impago y rentas de vivienda, sin enervación por requerimiento fehaciente | `demanda-desahucio-impago-rentas-vivienda-sin-civ-0579` |
 | CIV-0580 | Demanda de desahucio por impago y reclamación de rentas de vivienda, sin posibilidad de enervación | `demanda-desahucio-impago-reclamacion-rentas-vivienda-civ-0580` |
 | CIV-0581 | Demanda de desahucio por impago y reclamación de rentas de vivienda, con posibilidad de enervación | `demanda-desahucio-impago-reclamacion-rentas-vivienda-civ-0581` |
@@ -98,9 +97,33 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0605 | Demanda de desahucio por impago en arrendamiento de uso distinto de vivienda posterior a 1995 | `demanda-desahucio-impago-arrendamiento-uso-distinto-civ-0605` |
 | CIV-0606 | Demanda de resolución de alquiler de vivienda por necesidad del arrendador (anterior a 1985) | `demanda-resolucion-alquiler-vivienda-necesidad-civ-0606` |
 | CIV-0607 | Demanda de resolución de arrendamiento de vivienda por obras no consentidas | `demanda-resolucion-arrendamiento-vivienda-obras-no-civ-0607` |
-| CIV-0608 | Demanda de recuperación de finca rústica adquirida por el arrendatario histórico (LAR 1980) | `demanda-recuperacion-finca-rustica-adquirida-civ-0608` |
+| CIV-2408 | Demanda de desahucio por impago de renta de vivienda en la que el arrendador condona la deuda | `demanda-desahucio-impago-renta-vivienda-arrendador-civ-2408` |
+| CIV-2409 | Demanda para resolver el arrendamiento de vivienda por subrogación inter vivos no comunicada | `demanda-resolver-arrendamiento-vivienda-subrogacion-civ-2409` |
+| CIV-2419 | Demanda verbal de desahucio por impago con reclamación de rentas y posibilidad de enervación | `demanda-verbal-desahucio-impago-reclamacion-rentas-civ-2419` |
+| CIV-2420 | Demanda verbal de desahucio por impago cuando ya no cabe enervar la acción | `demanda-verbal-desahucio-impago-cuando-ya-no-cabe-civ-2420` |
+| CIV-2421 | Demanda verbal de desahucio por vencimiento del plazo del arrendamiento | `demanda-verbal-desahucio-vencimiento-plazo-civ-2421` |
+| CIV-2422 | Demanda ordinaria para fijar la renta y reclamar las diferencias adeudadas | `demanda-ordinaria-fijar-renta-reclamar-diferencias-civ-2422` |
+| CIV-2423 | Demanda ordinaria para extinguir el derecho del arrendatario sobre una vivienda o local | `demanda-ordinaria-extinguir-derecho-arrendatario-sobre-civ-2423` |
+| CIV-2425 | Demanda ordinaria de extinción del arrendamiento por pérdida de la finca | `demanda-ordinaria-extincion-arrendamiento-perdida-finca-civ-2425` |
+| CIV-2426 | Demanda ordinaria de resolución del arriendo por oposición temeraria del inquilino a las subidas | `demanda-ordinaria-resolucion-arriendo-oposicion-civ-2426` |
+| CIV-2427 | Demanda ordinaria para cobrar rentas adeudadas tras extinguirse el arrendamiento | `demanda-ordinaria-cobrar-rentas-adeudadas-tras-civ-2427` |
+| CIV-2428 | Demanda ordinaria de extinción del arrendamiento por declaración firme de ruina | `demanda-ordinaria-extincion-arrendamiento-declaracion-civ-2428` |
+| CIV-2430 | Demanda verbal de desahucio por precario contra quien ocupa la vivienda sin pagar renta | `demanda-verbal-desahucio-precario-contra-quien-ocupa-civ-2430` |
+| CIV-2431 | Demanda ordinaria de resolución porque la vivienda no es la residencia permanente del inquilino | `demanda-ordinaria-resolucion-porque-vivienda-no-es-civ-2431` |
+| CIV-2432 | Demanda ordinaria de desahucio tramitada por el cauce del juicio de retracto | `demanda-ordinaria-desahucio-tramitada-cauce-juicio-civ-2432` |
+| CIV-2433 | Demanda ordinaria de resolución por cierre del local más de seis meses en un año | `demanda-ordinaria-resolucion-cierre-local-mas-seis-civ-2433` |
+| CIV-2434 | Demanda ordinaria de resolución del arriendo de vivienda por denegar la prórroga por necesidad | `demanda-ordinaria-resolucion-arriendo-vivienda-denegar-civ-2434` |
+| CIV-2435 | Demanda ordinaria de resolución por no cumplirse los requisitos de subrogación en la vivienda | `demanda-ordinaria-resolucion-no-cumplirse-requisitos-civ-2435` |
+| CIV-2436 | Demanda ordinaria del inquilino que ejercita el retracto por la venta de su vivienda | `demanda-ordinaria-inquilino-ejercita-retracto-venta-civ-2436` |
+| CIV-2437 | Demanda ordinaria de resolución por desocupación de la vivienda más de seis meses en un año | `demanda-ordinaria-resolucion-desocupacion-vivienda-mas-civ-2437` |
+| CIV-2438 | Demanda ordinaria de resolución por no cumplirse los requisitos de subrogación en el local | `demanda-ordinaria-resolucion-no-cumplirse-requisitos-civ-2438` |
+| CIV-2439 | Demanda de resolución por actividades molestas, insalubres, nocivas, peligrosas o ilícitas | `demanda-resolucion-actividades-molestas-insalubres-civ-2439` |
+| CIV-2440 | Demanda ordinaria de resolución por obras que alteran la configuración de la vivienda arrendada | `demanda-ordinaria-resolucion-obras-alteran-civ-2440` |
+| CIV-2441 | Demanda ordinaria de resolución por subarriendo o cesión no consentidos del local | `demanda-ordinaria-resolucion-subarriendo-cesion-no-civ-2441` |
+| CIV-2442 | Demanda ordinaria de resolución del arriendo por daños causados dolosamente en la finca | `demanda-ordinaria-resolucion-arriendo-danos-causados-civ-2442` |
+| CIV-2443 | Demanda ordinaria de resolución por subarriendo o cesión no consentidos de la vivienda | `demanda-ordinaria-resolucion-subarriendo-cesion-no-civ-2443` |
 
-### Contestaciones, oposiciones y alegaciones (4)
+### Contestaciones, oposiciones y alegaciones (6)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -108,8 +131,10 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0557 | Contestación a la demanda arrendaticia con reconvención para que el arrendador pague las obras | `contestacion-demanda-arrendaticia-reconvencion-civ-0557` |
 | CIV-0597 | Contestación a demanda de resolución de alquiler de vivienda por necesidad (contrato previo a 1985) | `contestacion-demanda-resolucion-alquiler-vivienda-civ-0597` |
 | CIV-0600 | Contestación a la demanda de resolución por subarriendo y falta de ocupación (vivienda, LAU 1994) | `contestacion-demanda-resolucion-subarriendo-falta-civ-0600` |
+| CIV-2473 | Oposición del inquilino a la actualización de renta por los ingresos de la unidad familiar | `oposicion-inquilino-actualizacion-renta-ingresos-civ-2473` |
+| CIV-2513 | Oposición del inquilino a las obras de mejora que pretende el arrendador | `oposicion-inquilino-obras-mejora-pretende-arrendador-civ-2513` |
 
-### Contratos, pactos y cláusulas (36)
+### Contratos, pactos y cláusulas (43)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -149,8 +174,15 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0588 | Contrato de arrendamiento de uso distinto de vivienda con pactos sobre cesión y subarriendo | `contrato-arrendamiento-uso-distinto-vivienda-pactos-civ-0588` |
 | CIV-0589 | Contrato de arrendamiento de vivienda por temporada | `contrato-arrendamiento-vivienda-temporada-civ-0589` |
 | CIV-0592 | Cláusulas de revisión y modificación de la renta en contratos de arrendamiento urbano | `clausulas-revision-modificacion-renta-contratos-civ-0592` |
+| CIV-2405 | Contrato de transacción extrajudicial sobre un arrendamiento de vivienda | `contrato-transaccion-extrajudicial-sobre-arrendamiento-civ-2405` |
+| CIV-2406 | Contrato de arrendamiento de cosa con duración anual prorrogable | `contrato-arrendamiento-cosa-duracion-anual-prorrogable-civ-2406` |
+| CIV-2407 | Contrato de alquiler de plaza de garaje sujeto al Código Civil | `contrato-alquiler-plaza-garaje-sujeto-codigo-civil-civ-2407` |
+| CIV-2416 | Contrato de arrendamiento de local para uso distinto de vivienda con opción de compra | `contrato-arrendamiento-local-uso-distinto-vivienda-civ-2416` |
+| CIV-2466 | Contrato de subarriendo de un local de negocio | `contrato-subarriendo-local-negocio-civ-2466` |
+| CIV-2469 | Contrato de traspaso de un local de negocio, con o sin existencias | `contrato-traspaso-local-negocio-sin-existencias-civ-2469` |
+| CIV-2515 | Contrato de subarriendo parcial de vivienda con intervención del propietario | `contrato-subarriendo-parcial-vivienda-intervencion-civ-2515` |
 
-### Comunicaciones, requerimientos y cartas (18)
+### Comunicaciones, requerimientos y cartas (81)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -172,8 +204,71 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0590 | Reclamación del arrendatario al arrendador para que haga las reparaciones necesarias en la vivienda | `reclamacion-arrendatario-arrendador-haga-reparaciones-civ-0590` |
 | CIV-0591 | Reclamación al inquilino de vivienda del pago de las rentas atrasadas | `reclamacion-inquilino-vivienda-pago-rentas-atrasadas-civ-0591` |
 | CIV-0593 | Comunicación al inquilino de la actualización de la renta de finca urbana | `comunicacion-inquilino-actualizacion-renta-finca-urbana-civ-0593` |
+| CIV-2410 | Aviso de subida de renta en uso no residencial por fusión, escisión o transformación del inquilino | `aviso-subida-renta-uso-no-residencial-fusion-escision-civ-2410` |
+| CIV-2412 | Aviso del inquilino que resuelve el contrato por perturbaciones imputables al arrendador | `aviso-inquilino-resuelve-contrato-perturbaciones-civ-2412` |
+| CIV-2413 | Aviso de la nueva cuantía de gastos de comunidad en arrendamiento de vivienda | `aviso-nueva-cuantia-gastos-comunidad-arrendamiento-civ-2413` |
+| CIV-2414 | Comunicación del inquilino de que necesita obras en la vivienda por discapacidad o edad avanzada | `comunicacion-inquilino-necesita-obras-vivienda-civ-2414` |
+| CIV-2415 | Aviso de denegación de la prórroga forzosa del arriendo por pérdida de la vivienda habitual | `aviso-denegacion-prorroga-forzosa-arriendo-perdida-civ-2415` |
+| CIV-2417 | Comunicación del nuevo propietario al inquilino de las condiciones esenciales de la compra | `comunicacion-nuevo-propietario-inquilino-condiciones-civ-2417` |
+| CIV-2418 | Comunicación del inquilino que ofrece ante notario el pago de las rentas debidas | `comunicacion-inquilino-ofrece-ante-notario-pago-rentas-civ-2418` |
+| CIV-2424 | Aviso del arrendador de fin al vencer el plazo en contratos para uso distinto de vivienda | `aviso-arrendador-fin-vencer-plazo-contratos-uso-civ-2424` |
+| CIV-2429 | Aviso del arrendador de fin al vencer el plazo en contratos posteriores al 9 de mayo de 1985 | `aviso-arrendador-fin-vencer-plazo-contratos-civ-2429` |
+| CIV-2444 | Aviso de denegación de la prórroga forzosa del arriendo porque el hijo quiere vivir independiente | `aviso-denegacion-prorroga-forzosa-arriendo-porque-hijo-civ-2444` |
+| CIV-2447 | Aviso de denegación de la prórroga por tener el inquilino vivienda libre en los seis meses previos | `aviso-denegacion-prorroga-tener-inquilino-vivienda-civ-2447` |
+| CIV-2448 | Aviso de denegación de la prórroga forzosa del arriendo por derribo de la finca | `aviso-denegacion-prorroga-forzosa-arriendo-derribo-civ-2448` |
+| CIV-2449 | Aviso de denegación de la prórroga por ocupar el inquilino dos o más viviendas en la misma población | `aviso-denegacion-prorroga-ocupar-inquilino-dos-mas-civ-2449` |
+| CIV-2450 | Aviso de denegación de la prórroga por desocupación o cierre más de seis meses en un año | `aviso-denegacion-prorroga-desocupacion-cierre-mas-seis-civ-2450` |
+| CIV-2451 | Aviso de denegación de la prórroga forzosa del arriendo por aumento de las necesidades familiares | `aviso-denegacion-prorroga-forzosa-arriendo-aumento-civ-2451` |
+| CIV-2452 | Aviso del cesionario al arrendador poniendo a su disposición la participación en el traspaso | `aviso-cesionario-arrendador-poniendo-disposicion-civ-2452` |
+| CIV-2453 | Aviso de denegación de la prórroga forzosa del arriendo por necesidad inexcusable de traslado | `aviso-denegacion-prorroga-forzosa-arriendo-necesidad-civ-2453` |
+| CIV-2454 | Aviso del arrendador que ejercita el derecho de tanteo en el traspaso del local | `aviso-arrendador-ejercita-derecho-tanteo-traspaso-local-civ-2454` |
+| CIV-2455 | Aviso al arrendador de la intención de traspasar el local de negocio con existencias | `aviso-arrendador-intencion-traspasar-local-negocio-civ-2455` |
+| CIV-2456 | Aviso de denegación de la prórroga forzosa del arriendo por matrimonio del hijo del arrendador | `aviso-denegacion-prorroga-forzosa-arriendo-matrimonio-civ-2456` |
+| CIV-2457 | Aviso del inquilino al arrendador de que se ha hecho el traspaso y de sus condiciones | `aviso-inquilino-arrendador-ha-hecho-traspaso-civ-2457` |
+| CIV-2458 | Comunicación del nuevo propietario al inquilino de las condiciones de la compra según la LAU de 1964 | `comunicacion-nuevo-propietario-inquilino-condiciones-civ-2458` |
+| CIV-2461 | Comunicación del inquilino de local que elige la duración del apartado 8 de la DT tercera LAU | `comunicacion-inquilino-local-elige-duracion-apartado-8-civ-2461` |
+| CIV-2462 | Aviso de actualización en años sucesivos de renta y conceptos del apartado 10 de la DT segunda | `aviso-actualizacion-anos-sucesivos-renta-conceptos-civ-2462` |
+| CIV-2463 | Aviso de actualización de la renta del local de negocio en las anualidades sucesivas | `aviso-actualizacion-renta-local-negocio-anualidades-civ-2463` |
+| CIV-2464 | Aviso de actualización de renta del local y conceptos del apartado 10 de la DT segunda LAU | `aviso-actualizacion-renta-local-conceptos-apartado-10-civ-2464` |
+| CIV-2465 | Aviso al arrendador de la intención de traspasar el local sin existencias, art. 32 LAU 1964 | `aviso-arrendador-intencion-traspasar-local-sin-civ-2465` |
+| CIV-2467 | Aviso al arrendador de la fusión, escisión o transformación de la sociedad inquilina, sin traspaso | `aviso-arrendador-fusion-escision-transformacion-civ-2467` |
+| CIV-2470 | Aviso del inquilino que opta por firmar un nuevo contrato de arrendamiento del local de negocio | `aviso-inquilino-opta-firmar-nuevo-contrato-civ-2470` |
+| CIV-2471 | Aviso del arrendador que entrega al inquilino copia del nuevo contrato de arrendamiento del local | `aviso-arrendador-entrega-inquilino-copia-nuevo-civ-2471` |
+| CIV-2472 | Aviso del arrendador al inquilino de su voluntad de firmar un nuevo contrato del local de negocio | `aviso-arrendador-inquilino-voluntad-firmar-nuevo-civ-2472` |
+| CIV-2474 | Aviso de subida de renta por traspaso del local de negocio | `aviso-subida-renta-traspaso-local-negocio-civ-2474` |
+| CIV-2475 | Comunicación del inquilino que se acoge al sistema de no actualización de la renta | `comunicacion-inquilino-acoge-sistema-no-actualizacion-civ-2475` |
+| CIV-2476 | Aviso de subida de renta por fusión, escisión o transformación de la sociedad arrendataria | `aviso-subida-renta-fusion-escision-transformacion-civ-2476` |
+| CIV-2477 | Aviso del arrendador de actualización de renta en las anualidades sucesivas del periodo transitorio | `aviso-arrendador-actualizacion-renta-anualidades-civ-2477` |
+| CIV-2478 | Aviso al inquilino de la repercusión en la renta del coste de servicios y suministros | `aviso-inquilino-repercusion-renta-coste-servicios-civ-2478` |
+| CIV-2479 | Aviso de actualización de renta de vivienda y conceptos autorizados en las anualidades sucesivas | `aviso-actualizacion-renta-vivienda-conceptos-civ-2479` |
+| CIV-2480 | Aviso al arrendador de la muerte del inquilino del local y de la subrogación del cónyuge o familiar | `aviso-arrendador-muerte-inquilino-local-subrogacion-civ-2480` |
+| CIV-2481 | Aviso al arrendador de la muerte del inquilino subrogado y de la segunda subrogación de un familiar | `aviso-arrendador-muerte-inquilino-subrogado-segunda-civ-2481` |
+| CIV-2483 | Aviso al inquilino de la repercusión de obras de reparación para recuperar la inversión | `aviso-inquilino-repercusion-obras-reparacion-recuperar-civ-2483` |
+| CIV-2484 | Aviso al arrendador de la muerte del inquilino de vivienda y subrogación del cónyuge o familiar | `aviso-arrendador-muerte-inquilino-vivienda-subrogacion-civ-2484` |
+| CIV-2485 | Aviso de muerte del subrogado y segunda subrogación si la primera fue desde el 1 de enero de 1995 | `aviso-muerte-subrogado-segunda-subrogacion-si-primera-civ-2485` |
+| CIV-2486 | Aviso del heredero de la muerte del inquilino y su subrogación en arriendo de uso no residencial | `aviso-heredero-muerte-inquilino-subrogacion-arriendo-civ-2486` |
+| CIV-2487 | Aviso al inquilino de obras de mejora en un arriendo de uso distinto de vivienda | `aviso-inquilino-obras-mejora-arriendo-uso-distinto-civ-2487` |
+| CIV-2488 | Aviso de subida de renta por la cláusula de actualización en arriendo de uso distinto de vivienda | `aviso-subida-renta-clausula-actualizacion-arriendo-uso-civ-2488` |
+| CIV-2489 | Aviso al arrendador de la cesión del contrato de arrendamiento para uso distinto de vivienda | `aviso-arrendador-cesion-contrato-arrendamiento-uso-civ-2489` |
+| CIV-2490 | Aviso de subida de renta por obras de mejora en arriendo de uso distinto de vivienda | `aviso-subida-renta-obras-mejora-arriendo-uso-distinto-civ-2490` |
+| CIV-2492 | Aviso de la nueva cuantía de gastos de comunidad en arrendamiento para uso distinto de vivienda | `aviso-nueva-cuantia-gastos-comunidad-arrendamiento-uso-civ-2492` |
+| CIV-2493 | Aviso del inquilino de que quiere renovar el arriendo de uso distinto de vivienda | `aviso-inquilino-quiere-renovar-arriendo-uso-distinto-civ-2493` |
+| CIV-2495 | Aviso del arrendador de fin del contrato al vencer el plazo pactado, LAU 1994 | `aviso-arrendador-fin-contrato-vencer-plazo-pactado-lau-civ-2495` |
+| CIV-2496 | Aviso del inquilino que resuelve el contrato porque el arrendador no hace obras de conservación | `aviso-inquilino-resuelve-contrato-porque-arrendador-no-civ-2496` |
+| CIV-2497 | Aviso del arrendador al inquilino de que va a realizar obras de mejora | `aviso-arrendador-inquilino-va-realizar-obras-mejora-civ-2497` |
+| CIV-2498 | Aviso del arrendador al cónyuge o pareja del inquilino que ha desistido del contrato | `aviso-arrendador-conyuge-pareja-inquilino-ha-desistido-civ-2498` |
+| CIV-2499 | Aviso del inquilino que desiste del contrato por obras que hacen inhabitable la vivienda | `aviso-inquilino-desiste-contrato-obras-hacen-civ-2499` |
+| CIV-2501 | Aviso de subida de renta por instalar o adaptar infraestructuras comunes de telecomunicaciones | `aviso-subida-renta-instalar-adaptar-infraestructuras-civ-2501` |
+| CIV-2502 | Aviso al inquilino de vivienda de la subida de renta por obras de mejora | `aviso-inquilino-vivienda-subida-renta-obras-mejora-civ-2502` |
+| CIV-2503 | Aviso al inquilino de que se instalarán infraestructuras comunes de telecomunicaciones | `aviso-inquilino-instalaran-infraestructuras-comunes-civ-2503` |
+| CIV-2504 | Aviso al arrendador de que se subrogan descendientes, ascendientes o hermanos del fallecido | `aviso-arrendador-subrogan-descendientes-ascendientes-civ-2504` |
+| CIV-2507 | Aviso al inquilino de vivienda de la subida de renta por la cláusula de actualización | `aviso-inquilino-vivienda-subida-renta-clausula-civ-2507` |
+| CIV-2508 | Aviso al arrendador de la subrogación del conviviente con ayuda mutua del inquilino fallecido | `aviso-arrendador-subrogacion-conviviente-ayuda-mutua-civ-2508` |
+| CIV-2509 | Aviso al arrendador de la subrogación de la pareja more uxorio del inquilino fallecido | `aviso-arrendador-subrogacion-pareja-more-uxorio-civ-2509` |
+| CIV-2510 | Aviso del cónyuge o pareja del inquilino de que este ha abandonado la vivienda sin desistir | `aviso-conyuge-pareja-inquilino-este-ha-abandonado-civ-2510` |
+| CIV-2511 | Comunicación del inquilino de que necesita obras no estructurales en la finca por discapacidad | `comunicacion-inquilino-necesita-obras-no-estructurales-civ-2511` |
 
-### Escritos de trámite y otros (13)
+### Escritos de trámite y otros (23)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -190,3 +285,13 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-0576 | Escrito de la viuda del arrendatario subrogándose en el arrendamiento por su fallecimiento | `escrito-viuda-arrendatario-subrogandose-arrendamiento-civ-0576` |
 | CIV-0587 | Escrito de entrega de llaves de la vivienda arrendada y devolución de la fianza | `escrito-entrega-llaves-vivienda-arrendada-devolucion-civ-0587` |
 | CIV-0604 | Escrito de allanamiento del arrendatario de un local con compromiso de desalojo voluntario | `escrito-allanamiento-arrendatario-local-compromiso-civ-0604` |
+| CIV-2459 | Respuesta del inquilino que quiere ejercer el tanteo y comprar la vivienda o local | `respuesta-inquilino-quiere-ejercer-tanteo-comprar-civ-2459` |
+| CIV-2468 | Consentimiento del arrendador para que el inquilino subarriende la vivienda | `consentimiento-arrendador-inquilino-subarriende-civ-2468` |
+| CIV-2482 | Respuesta del inquilino que rechaza la subida de renta por el tenor de la cláusula invocada | `respuesta-inquilino-rechaza-subida-renta-tenor-civ-2482` |
+| CIV-2491 | Rechazo del inquilino a la subida de renta por falta de datos, arriendo de uso distinto de vivienda | `rechazo-inquilino-subida-renta-falta-datos-arriendo-civ-2491` |
+| CIV-2494 | Documento de resolución del arrendamiento por mutuo acuerdo de arrendador e inquilino | `documento-resolucion-arrendamiento-mutuo-acuerdo-civ-2494` |
+| CIV-2500 | Rechazo del inquilino a la subida de renta notificada por no aportarle los datos necesarios | `rechazo-inquilino-subida-renta-notificada-no-aportarle-civ-2500` |
+| CIV-2505 | Respuesta del arrendador que deniega al inquilino el permiso para subarrendar | `respuesta-arrendador-deniega-inquilino-permiso-civ-2505` |
+| CIV-2506 | Petición del inquilino al arrendador de permiso para subarrendar parte de la vivienda | `peticion-inquilino-arrendador-permiso-subarrendar-civ-2506` |
+| CIV-2512 | Petición de los inquilinos para instalar infraestructuras comunes de telecomunicaciones | `peticion-inquilinos-instalar-infraestructuras-comunes-civ-2512` |
+| CIV-2514 | Petición del inquilino al arrendador de permiso para obras del artículo 23 LAU 1994 | `peticion-inquilino-arrendador-permiso-obras-articulo-civ-2514` |

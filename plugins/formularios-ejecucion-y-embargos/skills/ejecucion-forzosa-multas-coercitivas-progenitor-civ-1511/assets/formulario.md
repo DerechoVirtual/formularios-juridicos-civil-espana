@@ -1,0 +1,21 @@
+A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º LOS DE [LOCALIDAD]
+
+Don [NOMBRE Y APELLIDOS], Procurador de los Tribunales, actuando en nombre y representación de Doña [NOMBRE Y APELLIDOS], conforme tengo debidamente acreditado en Procedimiento Separación Contenciosa /, promovido por mi principal contra Don [NOMBRE Y APELLIDOS], y bajo la dirección Letrada de Don [NOMBRE Y APELLIDOS], ante la Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [Nº] comparezco y, como mejor proceda en Derecho, DIGO:
+
+Que en la indicada representación por medio del presente escrito formulo SOLICITUD DE EJECUCIÓN FORZOSA DEL RÉGIMEN DE GUARDA Y VISITAS E IMPOSICIÓN DE MULTAS COERCITIVAS POR INCUMPLIMIENTO por parte de Don [NOMBRE Y APELLIDOS], al amparo de lo dispuesto en el artículo 776 de la Ley de Enjuiciamiento Civil, y demás artículos de legal y pertinente aplicación, en base a los siguientes
+
+HECHOS Y FUNDAMENTOS
+
+PRIMERA.- Que el progenitor y padre del menor Don [NOMBRE Y APELLIDOS] de forma reiterada está incumpliendo la obligación impuesta en virtud de Sentencia de fecha [FECHA], en la actualidad firme, consistente en el derecho de visitas de mi representada respecto del hijo menor [NOMBRE DEL MENOR], el cual se halla reconocido en la sentencia en los siguientes términos
+
+Que desde que ha adquirido firmeza la sentencia que establece la obligación al progenitor de garantizar las visitas, y pese a las gestiones de mi principal, madre del hijo en común menor de edad, su actitud ha sido de total y completa obstrucción del ejercicio de tal derecho, impidiendo la comunicación entre el hijo y la madre del menor, lo cual ha llevado a mi mandante a realizar diferentes requerimientos [OTROS DATOS] e incluso a interponer una denuncia penal por posible delito contra las relaciones familiares (se acompañan como documentos [Nº DE DOCUMENTO] como justificativos de las actuaciones realizadas para el cumplimiento de la sentencia).
+
+Que ante el incumplimiento reiterado del progenitor de las obligaciones que le corresponden, al obstruir y obstaculizar el derecho de visitas establecido en sentencia, al punto de haber eliminado cualquier comunicación con mi representada, incluso por vía telefónica, es por lo que se interesa que se le requiera para el cumplimiento de la sentencia en sus propios términos y, como quiera que nos encontramos ante un supuesto de incumplimiento de obligaciones no pecuniarias de carácter personalísimo, con arreglo a lo dispuesto en el artículo 776.2.ª de la LEC, se solicita que se le impongan multas coercitivas mensuales por importe de [IMPORTE] euros, todo el tiempo que sea necesario más allá del plazo de un año establecido en el artículo 709 de la Ley de Enjuiciamiento Civil, con la advertencia expresa de las responsabilidades penales en que puede incurrir en caso de desobediencia del mandato judicial y de que podrá modificarse el régimen de guarda y visitas conforme a lo dispuesto en el art. 776.3ª de la LEC de incumplir el régimen establecido en la sentencia.
+
+Por lo que,
+
+AL TRIBUNAL SOLICITO: Que tenga por presentado este escrito, lo admita, tenga por instada la ejecución forzosa del régimen de guarda y visitas por el Procurador que suscribe, en nombre y representación de Doña [NOMBRE Y APELLIDOS], y en base a ello, previos los trámites legales, ACUERDE: 1) Requerir de manera inmediata al progenitor custodio D. [NOMBRE Y APELLIDOS] para que cumpla la sentencia dictada en estos autos; 2) apremiar a Don [NOMBRE Y APELLIDOS] con multas coercitivas mensuales por importe de [IMPORTE] euros para el caso que incumpla lo establecido en la sentencia, debiendo mantenerse todo el tiempo que sea necesario, incluso más allá del plazo de un año establecido en el artículo 709 de la Ley de Enjuiciamiento Civil; y 3) advertirle expresamente de las responsabilidades penales en que puede incurrir en caso de desobediencia del mandato judicial y de que podrá modificarse el régimen de guarda y visitas conforme a lo dispuesto en el art. 776.3ª de la LEC de incumplir el régimen establecido en la sentencia
+
+Es de Justicia que insto en [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+========================================================================

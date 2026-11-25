@@ -1,23 +1,24 @@
 # Herencias, testamentos y donaciones
 
-> Plugin de Claude Code `formularios-herencias-y-donaciones` · **94 formularios** · Civil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-herencias-y-donaciones` · **163 formularios** · Civil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para las sucesiones: testamentos (también forales), aceptación y renuncia de la herencia, declaración de herederos, partición y división judicial, legítimas, colación, desheredación, albaceas y contadores-partidores, y donaciones.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 94 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 163 está al final):
 
-- **Demandas, peticiones y solicitudes iniciales** (18). Por ejemplo: Solicitud de división judicial de herencia y liquidación de la sociedad de gananciales; Demanda para completar o adicionar la partición de la herencia; Demanda de nulidad de testamento por incapacidad del testador y falta de formalidades.
-- **Contestaciones, oposiciones y alegaciones** (2). Por ejemplo: Escrito de oposición a las operaciones particionales del contador; Contestación a la demanda de juicio ordinario sobre nulidad de testamento.
-- **Contratos, pactos y cláusulas** (4). Por ejemplo: Cláusula testamentaria de legado de pensión de alimentos; Cláusula testamentaria de legado de uso o habitación a un legitimario con discapacidad (art. 822 CC); Contrato por el que se ceden derechos hereditarios.
-- **Estatutos, actas, certificaciones y escrituras** (45). Por ejemplo: Testamento con usufructo poderoso según el Derecho civil vasco; Testamento con poder testatorio según el Derecho civil vasco; Testamento otorgado por el comisario según el Derecho civil vasco.
-- **Comunicaciones, requerimientos y cartas** (7). Por ejemplo: Solicitud al notario de testamento abierto de una persona judicialmente incapacitada; Solicitud notarial de requerimiento para aceptar o repudiar la herencia (Derecho civil catalán); Solicitud notarial de adveración, apertura y protocolización de testamento cerrado.
-- **Escritos de trámite y otros** (18). Por ejemplo: Escrito a la notaría del heredero que delibera sin tener los bienes de la herencia; Escrito a la notaría aceptando a beneficio de inventario con los bienes en poder del heredero; Escrito a la notaría del heredero que delibera teniendo los bienes de la herencia.
+- **Demandas, peticiones y solicitudes iniciales** (26). Por ejemplo: Solicitud de división judicial de herencia y liquidación de la sociedad de gananciales; Demanda para completar o adicionar la partición de la herencia; Demanda de nulidad de testamento por incapacidad del testador y falta de formalidades.
+- **Contestaciones, oposiciones y alegaciones** (11). Por ejemplo: Escrito de oposición a las operaciones particionales del contador; Oposición del acreedor de la herencia al reparto mientras no se pague o garantice su crédito; Contestación a la demanda de nulidad de la institución de heredero por desheredación injusta.
+- **Recursos** (1). Por ejemplo: Recurso de reposición contra la admisión de la partición pedida por un legatario de parte alícuota.
+- **Contratos, pactos y cláusulas** (5). Por ejemplo: Cláusula testamentaria de legado de pensión de alimentos; Contrato por el que se ceden derechos hereditarios; Contrato de compromiso de venta de un tercio indiviso de una herencia.
+- **Estatutos, actas, certificaciones y escrituras** (61). Por ejemplo: Testamento con usufructo poderoso según el Derecho civil vasco; Testamento con poder testatorio según el Derecho civil vasco; Testamento otorgado por el comisario según el Derecho civil vasco.
+- **Comunicaciones, requerimientos y cartas** (8). Por ejemplo: Solicitud al notario de testamento abierto de una persona judicialmente incapacitada; Solicitud notarial de requerimiento para aceptar o repudiar la herencia (Derecho civil catalán); Solicitud notarial de adveración, apertura y protocolización de testamento cerrado.
+- **Escritos de trámite y otros** (51). Por ejemplo: Escrito a la notaría del heredero que delibera sin tener los bienes de la herencia; Escrito a la notaría aceptando a beneficio de inventario con los bienes en poder del heredero; Escrito a la notaría del heredero que delibera teniendo los bienes de la herencia.
 
 ## Cómo se usa
 
@@ -33,9 +34,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -43,7 +44,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 5.535 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-herencias-y-donaciones@formularios-juridicos-civil-espana`).
+- **Espacio que ocupa:** unos 9.783 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-herencias-y-donaciones@formularios-juridicos-civil-espana`).
 
 ## Instalación
 
@@ -58,7 +59,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (94)
+## Lista completa de formularios (163)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -80,7 +81,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-0416 | Manifestación de herencia intestada por el cónyuge como heredero único | `manifestacion-herencia-intestada-conyuge-como-heredero-civ-0416` |
 | CIV-0417 | Testamento con legado para la educación de un beneficiario | `testamento-legado-educacion-beneficiario-civ-0417` |
 | CIV-0418 | Cláusula testamentaria de legado de pensión de alimentos | `clausula-testamentaria-legado-pension-alimentos-civ-0418` |
-| CIV-0419 | Cláusula testamentaria de legado de uso o habitación a un legitimario con discapacidad (art. 822 CC) | `clausula-testamentaria-legado-uso-habitacion-civ-0419` |
 | CIV-0420 | Testamento que delega en otro la facultad de mejorar | `testamento-delega-otro-facultad-mejorar-civ-0420` |
 | CIV-0421 | Testamento que autoriza al tutor a hacer suyos los frutos de los bienes del tutelado | `testamento-autoriza-tutor-hacer-suyos-frutos-bienes-civ-0421` |
 | CIV-0422 | Testamento que excluye a una persona del cargo de tutor | `testamento-excluye-persona-cargo-tutor-civ-0422` |
@@ -154,8 +154,78 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-0490 | Escrito de oposición a las operaciones particionales del contador | `escrito-oposicion-operaciones-particionales-contador-civ-0490` |
 | CIV-0491 | Demanda para que los hijos obtengan la posesión de los bienes de la herencia | `demanda-hijos-obtengan-posesion-bienes-herencia-civ-0491` |
 | CIV-0492 | Escrito pidiendo alzar la suspensión del juicio divisorio por prejudicialidad penal | `escrito-pidiendo-alzar-suspension-juicio-divisorio-civ-0492` |
-| CIV-0493 | Contestación a la demanda de juicio ordinario sobre nulidad de testamento | `contestacion-demanda-juicio-ordinario-sobre-nulidad-civ-0493` |
 | CIV-0494 | Demanda de reserva del cónyuge binubo y de simulación en la transmisión de un inmueble reservable | `demanda-reserva-conyuge-binubo-simulacion-transmision-civ-0494` |
+| CIV-2334 | Demanda de nulidad del testamento por captación de la voluntad de un testador sin capacidad | `demanda-nulidad-testamento-captacion-voluntad-testador-civ-2334` |
+| CIV-2335 | Demanda de nulidad de la institución de heredero por desheredación injusta en Derecho foral | `demanda-nulidad-institucion-heredero-desheredacion-civ-2335` |
+| CIV-2336 | Petición de autorizar reparaciones extraordinarias y vender bienes de la herencia intervenida | `peticion-autorizar-reparaciones-extraordinarias-vender-civ-2336` |
+| CIV-2337 | Solicitud de división judicial de la herencia presentada por los hijos y el cónyuge viudo | `solicitud-division-judicial-herencia-presentada-hijos-civ-2337` |
+| CIV-2338 | Solicitud de medidas complementarias tras la intervención judicial del caudal hereditario | `solicitud-medidas-complementarias-tras-intervencion-civ-2338` |
+| CIV-2339 | Oposición del acreedor de la herencia al reparto mientras no se pague o garantice su crédito | `oposicion-acreedor-herencia-reparto-mientras-no-pague-civ-2339` |
+| CIV-2340 | Escrito del Fiscal como defensor de un pariente que pide sobreseer la intervención de la herencia | `escrito-fiscal-como-defensor-pariente-pide-sobreseer-civ-2340` |
+| CIV-2341 | Contestación a la demanda de nulidad de la institución de heredero por desheredación injusta | `contestacion-demanda-nulidad-institucion-heredero-civ-2341` |
+| CIV-2342 | Escritura de aceptación de la herencia a beneficio de inventario | `escritura-aceptacion-herencia-beneficio-inventario-civ-2342` |
+| CIV-2343 | Escritura notarial de aceptación de la herencia | `escritura-notarial-aceptacion-herencia-civ-2343` |
+| CIV-2344 | Escritura notarial de renuncia a la herencia | `escritura-notarial-renuncia-herencia-civ-2344` |
+| CIV-2345 | Testamento ológrafo escrito y firmado de puño y letra por el testador | `testamento-olografo-escrito-firmado-puno-letra-testador-civ-2345` |
+| CIV-2346 | Cuaderno de operaciones particionales de la herencia otorgado por los herederos | `cuaderno-operaciones-particionales-herencia-otorgado-civ-2346` |
+| CIV-2347 | Testamento cerrado otorgado ante notario | `testamento-cerrado-otorgado-ante-notario-civ-2347` |
+| CIV-2348 | Documento privado de donación remuneratoria | `documento-privado-donacion-remuneratoria-civ-2348` |
+| CIV-2349 | Escritura de donación onerosa o con carga para el donatario | `escritura-donacion-onerosa-carga-donatario-civ-2349` |
+| CIV-2350 | Contrato de venta de la herencia por los herederos | `contrato-venta-herencia-herederos-civ-2350` |
+| CIV-2351 | Solicitud de división judicial de herencia que cuestiona la cláusula testamentaria de arbitraje | `solicitud-division-judicial-herencia-cuestiona-civ-2351` |
+| CIV-2352 | Otrosí que pide intervenir el caudal en la declaración de herederos dentro de la división judicial | `otrosi-pide-intervenir-caudal-declaracion-herederos-civ-2352` |
+| CIV-2353 | Escrito del contador-partidor que pide al tribunal el nombramiento de un perito | `escrito-contador-partidor-pide-tribunal-nombramiento-civ-2353` |
+| CIV-2354 | Escrito del administrador de la herencia que acredita la fianza constituida en metálico | `escrito-administrador-herencia-acredita-fianza-civ-2354` |
+| CIV-2355 | Petición de todos los interesados de cesar la intervención de la herencia al pagar a los acreedores | `peticion-todos-interesados-cesar-intervencion-herencia-civ-2355` |
+| CIV-2356 | Escrito del contador-partidor que reclama el pago de sus honorarios en la división judicial | `escrito-contador-partidor-reclama-pago-honorarios-civ-2356` |
+| CIV-2357 | Escrito del contador-partidor que pide a los herederos la entrega de la documentación de la herencia | `escrito-contador-partidor-pide-herederos-entrega-civ-2357` |
+| CIV-2358 | Demanda de juicio verbal para reclamar los alimentos dejados en un legado | `demanda-juicio-verbal-reclamar-alimentos-dejados-legado-civ-2358` |
+| CIV-2359 | Solicitud del legatario de parte alícuota para que se divida judicialmente la herencia | `solicitud-legatario-parte-alicuota-divida-civ-2359` |
+| CIV-2360 | Oposición del acreedor del causante con título ejecutivo a que se haga la partición de la herencia | `oposicion-acreedor-causante-titulo-ejecutivo-haga-civ-2360` |
+| CIV-2361 | Oposición del heredero a la división judicial por existir un testamento ológrafo posterior | `oposicion-heredero-division-judicial-existir-civ-2361` |
+| CIV-2362 | Oposición del heredero a las operaciones divisorias del contador por error de cálculo | `oposicion-heredero-operaciones-divisorias-contador-civ-2362` |
+| CIV-2363 | Escrito del heredero que se muestra conforme con las operaciones divisorias de la herencia | `escrito-heredero-muestra-conforme-operaciones-civ-2363` |
+| CIV-2364 | Oposición del heredero a las operaciones divisorias por no capitalizar el usufructo legal | `oposicion-heredero-operaciones-divisorias-no-civ-2364` |
+| CIV-2365 | Petición de entregar a los herederos los bienes adjudicados al constar pagadas las deudas | `peticion-entregar-herederos-bienes-adjudicados-constar-civ-2365` |
+| CIV-2366 | Escrito que aporta el avalúo de la herencia y pide reanudar la oposición al cuaderno particional | `escrito-aporta-avaluo-herencia-pide-reanudar-oposicion-civ-2366` |
+| CIV-2367 | Declinatoria de los coherederos en la división judicial por haber previsto el testador un arbitraje | `declinatoria-coherederos-division-judicial-haber-civ-2367` |
+| CIV-2368 | Solicitud de división judicial de la herencia por muerte del contador-partidor y falta de acuerdo | `solicitud-division-judicial-herencia-muerte-contador-civ-2368` |
+| CIV-2369 | Petición del coheredero para suspender la división de herencia por prejudicialidad penal | `peticion-coheredero-suspender-division-herencia-civ-2369` |
+| CIV-2370 | Otrosí de la solicitud de división de herencia que pide formar inventario de los bienes | `otrosi-solicitud-division-herencia-pide-formar-civ-2370` |
+| CIV-2371 | Recurso de reposición contra la admisión de la partición pedida por un legatario de parte alícuota | `recurso-reposicion-contra-admision-particion-pedida-civ-2371` |
+| CIV-2372 | Otrosí de la solicitud de división de herencia que pide intervenir el caudal hereditario | `otrosi-solicitud-division-herencia-pide-intervenir-civ-2372` |
+| CIV-2373 | Otrosí de la solicitud de división de herencia sobre la intervención del Ministerio Fiscal | `otrosi-solicitud-division-herencia-sobre-intervencion-civ-2373` |
+| CIV-2374 | Petición del acreedor del difunto para que se intervenga judicialmente la herencia | `peticion-acreedor-difunto-intervenga-judicialmente-civ-2374` |
+| CIV-2375 | Petición de sustituir al administrador de la herencia por falta de capacidad para el cargo | `peticion-sustituir-administrador-herencia-falta-civ-2375` |
+| CIV-2376 | Personación de los representantes del concebido no nacido en la partición, pidiendo inventario | `personacion-representantes-concebido-no-nacido-civ-2376` |
+| CIV-2377 | Oposición de los coherederos a la división pedida por un legatario por haber contador designado | `oposicion-coherederos-division-pedida-legatario-haber-civ-2377` |
+| CIV-2378 | Oposición del heredero a la división judicial porque el causante nombró un contador-partidor | `oposicion-heredero-division-judicial-porque-causante-civ-2378` |
+| CIV-2379 | Escrito de algunos herederos que dispensan al administrador de la herencia de prestar caución | `escrito-algunos-herederos-dispensan-administrador-civ-2379` |
+| CIV-2380 | Escrito del coheredero que afianza el crédito del acreedor del causante para evitar su oposición | `escrito-coheredero-afianza-credito-acreedor-causante-civ-2380` |
+| CIV-2381 | Personación en la partición judicial de la herencia del representante legal de un coheredero | `personacion-particion-judicial-herencia-representante-civ-2381` |
+| CIV-2382 | Escrito de todos los herederos que dispensan de común acuerdo al administrador de prestar caución | `escrito-todos-herederos-dispensan-comun-acuerdo-civ-2382` |
+| CIV-2383 | Escrito del administrador de la herencia que acredita la fianza constituida mediante aval bancario | `escrito-administrador-herencia-acredita-fianza-civ-2383` |
+| CIV-2384 | Escrito de todos los interesados con un avalúo pactado de la herencia para alzar la suspensión | `escrito-todos-interesados-avaluo-pactado-herencia-civ-2384` |
+| CIV-2385 | Escrito de todos los interesados que pide poner fin a la intervención judicial de la herencia | `escrito-todos-interesados-pide-poner-fin-intervencion-civ-2385` |
+| CIV-2386 | Petición del cónyuge viudo, administrador de la herencia, para que se le exima de prestar caución | `peticion-conyuge-viudo-administrador-herencia-le-exima-civ-2386` |
+| CIV-2387 | Petición del coheredero de un plazo para que el contador presente las operaciones divisorias | `peticion-coheredero-plazo-contador-presente-civ-2387` |
+| CIV-2388 | Escrito del acreedor de un coheredero que pide intervenir en la partición judicial de la herencia | `escrito-acreedor-coheredero-pide-intervenir-particion-civ-2388` |
+| CIV-2389 | Contestación que se opone a la nulidad de una compraventa simulada y al complemento de la legítima | `contestacion-opone-nulidad-compraventa-simulada-civ-2389` |
+| CIV-2390 | Demanda que pide la nulidad de una compraventa simulada y reclama la legítima | `demanda-pide-nulidad-compraventa-simulada-reclama-civ-2390` |
+| CIV-2391 | Contestación por falta de representación del administrador de la herencia tras declarar herederos | `contestacion-falta-representacion-administrador-civ-2391` |
+| CIV-2392 | Escritura de aceptación de herencia y adjudicación de los bienes a los herederos | `escritura-aceptacion-herencia-adjudicacion-bienes-civ-2392` |
+| CIV-2393 | Cuaderno particional de la herencia intestada de un causante sin hijos a favor de sus hermanos | `cuaderno-particional-herencia-intestada-causante-sin-civ-2393` |
+| CIV-2394 | Testamento abierto que lega al cónyuge el tercio de libre disposición | `testamento-abierto-lega-conyuge-tercio-libre-civ-2394` |
+| CIV-2395 | Testamento abierto con sustituciones vulgar y ejemplar de los herederos | `testamento-abierto-sustituciones-vulgar-ejemplar-civ-2395` |
+| CIV-2396 | Testamento abierto de persona sin descendientes con sustitución fideicomisaria de residuo | `testamento-abierto-persona-sin-descendientes-civ-2396` |
+| CIV-2397 | Escritura de venta de los derechos hereditarios que corresponden al vendedor | `escritura-venta-derechos-hereditarios-corresponden-civ-2397` |
+| CIV-2398 | Escritura de aceptación, renuncia y adjudicación de herencia con un heredero con discapacidad | `escritura-aceptacion-renuncia-adjudicacion-herencia-civ-2398` |
+| CIV-2399 | Contrato privado de cesión onerosa de derechos hereditarios | `contrato-privado-cesion-onerosa-derechos-hereditarios-civ-2399` |
+| CIV-2400 | Documento privado de venta por los herederos testamentarios antes de adjudicarse la herencia | `documento-privado-venta-herederos-testamentarios-antes-civ-2400` |
+| CIV-2401 | Poder especial para aceptar una herencia en nombre del poderdante | `poder-especial-aceptar-herencia-nombre-poderdante-civ-2401` |
+| CIV-2402 | Testamento abierto de una persona soltera sin hijos ni legitimarios | `testamento-abierto-persona-soltera-sin-hijos-ni-civ-2402` |
+| CIV-2403 | Testamento abierto de matrimonio con hijos menores que nombra contador-partidor y tutor | `testamento-abierto-matrimonio-hijos-menores-nombra-civ-2403` |
+| CIV-2404 | Escritura de aceptación y adjudicación de la herencia al viudo y a los hijos | `escritura-aceptacion-adjudicacion-herencia-viudo-hijos-civ-2404` |
 
 ## Privacidad
 

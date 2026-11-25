@@ -1,24 +1,24 @@
 # Mediación, MASC, arbitraje y jurisdicción voluntaria
 
-> Plugin de Claude Code `formularios-mediacion-arbitraje-y-voluntaria` · **92 formularios** · Civil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-mediacion-arbitraje-y-voluntaria` · **101 formularios** · Civil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para resolver sin pleito o por cauces especiales: medios adecuados de solución de controversias (LO 1/2025), mediación civil y familiar, conciliación, arbitraje (convenio, solicitud, recusación, anulación de laudo), expedientes de jurisdicción voluntaria, justicia gratuita y reconocimiento de resoluciones extranjeras.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 92 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 101 está al final):
 
 - **Demandas, peticiones y solicitudes iniciales** (11). Por ejemplo: Solicitud de arbitraje de consumo del consumidor ante la Junta Arbitral; Demanda de nulidad de un acuerdo de mediación; Demanda de anulación de laudo arbitral por motivos formales.
 - **Contestaciones, oposiciones y alegaciones** (9). Por ejemplo: Escrito de oposición a la prohibición de transmitir letras de cambio solicitada por el tenedor; Oposición del demandante a la declinatoria por sumisión a mediación en un contrato de consumo; Oposición del demandante a la declinatoria por arbitraje alegando nulidad del convenio arbitral.
 - **Recursos** (2). Por ejemplo: Recurso ante la Comisión de Juntas Arbitrales contra la inadmisión de arbitraje de consumo; Recurso contra la inadmisión de una solicitud de arbitraje ante la Comisión de Juntas.
-- **Contratos, pactos y cláusulas** (9). Por ejemplo: Contrato de servicios de mediación; Cláusula de sometimiento a arbitraje ante una cámara de comercio; Pacto de confidencialidad entre las partes de una mediación.
-- **Estatutos, actas, certificaciones y escrituras** (13). Por ejemplo: Acta final del procedimiento de mediación; Acta de inicio de una mediación intraprocesal derivada de un proceso judicial; Acta final de mediación que termina sin acuerdo.
-- **Comunicaciones, requerimientos y cartas** (15). Por ejemplo: Denuncia a la sociedad rectora por robo, destrucción o extravío de valores de mercados oficiales; Solicitud conjunta de las partes para someter el conflicto a mediación; Solicitud de inicio de mediación por una parte en cumplimiento de un pacto de mediación.
-- **Escritos de trámite y otros** (33). Por ejemplo: Escrito de jurisdicción voluntaria para revocar o cesar nombramientos de auditor; Escrito de jurisdicción voluntaria para exigir la exhibición de libros contables; Escrito de inicio del expediente de jurisdicción voluntaria sobre depósito de mercancías.
+- **Contratos, pactos y cláusulas** (11). Por ejemplo: Contrato de servicios de mediación; Cláusula de sometimiento a arbitraje ante una cámara de comercio; Pacto de confidencialidad entre las partes de una mediación.
+- **Estatutos, actas, certificaciones y escrituras** (14). Por ejemplo: Acta final del procedimiento de mediación; Acta de inicio de una mediación intraprocesal derivada de un proceso judicial; Acta final de mediación que termina sin acuerdo.
+- **Comunicaciones, requerimientos y cartas** (16). Por ejemplo: Denuncia a la sociedad rectora por robo, destrucción o extravío de valores de mercados oficiales; Solicitud conjunta de las partes para someter el conflicto a mediación; Solicitud de inicio de mediación por una parte en cumplimiento de un pacto de mediación.
+- **Escritos de trámite y otros** (38). Por ejemplo: Escrito de jurisdicción voluntaria para revocar o cesar nombramientos de auditor; Escrito de jurisdicción voluntaria para exigir la exhibición de libros contables; Escrito de inicio del expediente de jurisdicción voluntaria sobre depósito de mercancías.
 
 ## Cómo se usa
 
@@ -34,9 +34,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -44,7 +44,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 5.442 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-mediacion-arbitraje-y-voluntaria@formularios-juridicos-civil-espana`).
+- **Espacio que ocupa:** unos 5.981 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-mediacion-arbitraje-y-voluntaria@formularios-juridicos-civil-espana`).
 
 ## Instalación
 
@@ -59,7 +59,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (92)
+## Lista completa de formularios (101)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -155,6 +155,15 @@ Para comprobar que está instalado: `claude plugin list`.
 | CIV-1794 | Cláusula de sumisión a arbitraje en los contratos entre las partes | `clausula-sumision-arbitraje-contratos-entre-partes-civ-1794` |
 | CIV-1795 | Contrato de arbitraje entre sociedades mercantiles | `contrato-arbitraje-entre-sociedades-mercantiles-civ-1795` |
 | CIV-1796 | Escrito solicitando la celebración de acto de conciliación (general) | `escrito-solicitando-celebracion-acto-conciliacion-civ-1796` |
+| CIV-2885 | Declinatoria en juicio verbal por haberse sometido la cuestión a arbitraje | `declinatoria-juicio-verbal-haberse-sometido-cuestion-civ-2885` |
+| CIV-2886 | Solicitud de acto de conciliación previo a la demanda de desahucio por precario | `solicitud-acto-conciliacion-previo-demanda-desahucio-civ-2886` |
+| CIV-2887 | Cláusula de sumisión a arbitraje para incluir en un contrato | `clausula-sumision-arbitraje-incluir-contrato-civ-2887` |
+| CIV-2888 | Escrito del abogado que acepta el cargo de árbitro | `escrito-abogado-acepta-cargo-arbitro-civ-2888` |
+| CIV-2889 | Acta de audiencia y laudo en el procedimiento especial de arbitraje de consumo | `acta-audiencia-laudo-procedimiento-especial-arbitraje-civ-2889` |
+| CIV-2890 | Convenio arbitral para someter a arbitraje las controversias de un contrato ya celebrado | `convenio-arbitral-someter-arbitraje-controversias-civ-2890` |
+| CIV-2891 | Escrito que acepta la propuesta de la otra parte de someter la controversia a arbitraje | `escrito-acepta-propuesta-otra-parte-someter-civ-2891` |
+| CIV-2892 | Escrito de la aseguradora que promueve un expediente de consignación de jurisdicción voluntaria | `escrito-aseguradora-promueve-expediente-consignacion-civ-2892` |
+| CIV-2893 | Escrito que aporta el justificante de la consignación en el expediente de jurisdicción voluntaria | `escrito-aporta-justificante-consignacion-expediente-civ-2893` |
 
 ## Privacidad
 

@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 54 formularios de Cobrar deudas: monitorio y cambiario. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 64 formularios de Cobrar deudas: monitorio y cambiario. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Cobrar deudas: monitorio y cambiario: índice de formularios
 
-> Plugin `formularios-reclamar-deudas-monitorio` · 54 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-reclamar-deudas-monitorio` · 64 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,9 +50,9 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
-### Demandas, peticiones y solicitudes iniciales (14)
+### Demandas, peticiones y solicitudes iniciales (17)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -70,8 +70,11 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1180 | Demanda de juicio cambiario por pagaré con declaración sustitutiva de protesto y embargo preventivo | `demanda-juicio-cambiario-pagare-declaracion-civ-1180` |
 | CIV-1182 | Demanda de juicio ordinario posterior a la oposición en monitorio por precio de suministro | `demanda-juicio-ordinario-posterior-oposicion-monitorio-civ-1182` |
 | CIV-1183 | Solicitud de ejecución cambiaria por falta de oposición del deudor, con embargo de bien ganancial | `solicitud-ejecucion-cambiaria-falta-oposicion-deudor-civ-1183` |
+| CIV-2778 | Demanda de juicio cambiario por pagaré impagado con acción directa contra el firmante | `demanda-juicio-cambiario-pagare-impagado-accion-civ-2778` |
+| CIV-2780 | Demanda ordinaria tras la oposición al monitorio ante el mismo tribunal por competencia funcional | `demanda-ordinaria-tras-oposicion-monitorio-ante-mismo-civ-2780` |
+| CIV-2781 | Demanda ordinaria tras la oposición al monitorio con la misma pretensión de la petición inicial | `demanda-ordinaria-tras-oposicion-monitorio-misma-civ-2781` |
 
-### Contestaciones, oposiciones y alegaciones (11)
+### Contestaciones, oposiciones y alegaciones (12)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -86,6 +89,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1184 | Oposición en juicio cambiario por indebida acumulación de la acción cambiaria y la del contrato caus | `oposicion-juicio-cambiario-indebida-acumulacion-accion-civ-1184` |
 | CIV-1193 | Escrito de oposición del deudor en monitorio de más de 15.000 euros | `escrito-oposicion-deudor-monitorio-mas-15-000-euros-civ-1193` |
 | CIV-1195 | Oposición del deudor por pluspetición en monitorio de más de 2.000 euros | `oposicion-deudor-pluspeticion-monitorio-mas-2-000-euros-civ-1195` |
+| CIV-2779 | Oposición del deudor al monitorio alegando que el procedimiento no es el adecuado | `oposicion-deudor-monitorio-alegando-procedimiento-no-civ-2779` |
 
 ### Recursos (3)
 
@@ -101,7 +105,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 |---|---|---|
 | CIV-1163 | Denuncia judicial por extravío de un pagaré | `denuncia-judicial-extravio-pagare-civ-1163` |
 
-### Escritos de trámite y otros (25)
+### Escritos de trámite y otros (31)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -130,3 +134,9 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1196 | Escrito del actor pidiendo auto que admita el allanamiento parcial del deudor en el monitorio | `escrito-actor-pidiendo-auto-admita-allanamiento-civ-1196` |
 | CIV-1197 | Escrito de desistimiento del monitorio antes del requerimiento de pago | `escrito-desistimiento-monitorio-antes-requerimiento-civ-1197` |
 | CIV-1198 | Escrito de desistimiento del monitorio después del requerimiento de pago | `escrito-desistimiento-monitorio-despues-requerimiento-civ-1198` |
+| CIV-2772 | Escrito que pide suspender el juicio cambiario por prejudicialidad penal hasta sentencia firme | `escrito-pide-suspender-juicio-cambiario-civ-2772` |
+| CIV-2773 | Petición de embargo de elementos comunes por destino de la comunidad ejecutada en juicio cambiario | `peticion-embargo-elementos-comunes-destino-comunidad-civ-2773` |
+| CIV-2774 | Petición de embargo de cuotas futuras de la comunidad de propietarios ejecutada tras un monitorio | `peticion-embargo-cuotas-futuras-comunidad-propietarios-civ-2774` |
+| CIV-2775 | Declinatoria por falta de competencia territorial en el juicio cambiario | `declinatoria-falta-competencia-territorial-juicio-civ-2775` |
+| CIV-2776 | Escrito del deudor cambiario que pide alzar el embargo negando la autenticidad de su firma | `escrito-deudor-cambiario-pide-alzar-embargo-negando-civ-2776` |
+| CIV-2777 | Escrito del deudor cambiario que acredita haber pagado lo reclamado | `escrito-deudor-cambiario-acredita-haber-pagado-lo-civ-2777` |

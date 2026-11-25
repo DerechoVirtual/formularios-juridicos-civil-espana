@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 92 formularios de Mediación, MASC, arbitraje y jurisdicción voluntaria. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 101 formularios de Mediación, MASC, arbitraje y jurisdicción voluntaria. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Mediación, MASC, arbitraje y jurisdicción voluntaria: índice de formularios
 
-> Plugin `formularios-mediacion-arbitraje-y-voluntaria` · 92 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-mediacion-arbitraje-y-voluntaria` · 101 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,7 +50,7 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
 ### Demandas, peticiones y solicitudes iniciales (11)
 
@@ -89,7 +89,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1780 | Recurso ante la Comisión de Juntas Arbitrales contra la inadmisión de arbitraje de consumo | `recurso-ante-comision-juntas-arbitrales-contra-civ-1780` |
 | CIV-1783 | Recurso contra la inadmisión de una solicitud de arbitraje ante la Comisión de Juntas | `recurso-contra-inadmision-solicitud-arbitraje-ante-civ-1783` |
 
-### Contratos, pactos y cláusulas (9)
+### Contratos, pactos y cláusulas (11)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -102,8 +102,10 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1762 | Pacto de confidencialidad de las partes que inician una mediación mercantil | `pacto-confidencialidad-partes-inician-mediacion-civ-1762` |
 | CIV-1794 | Cláusula de sumisión a arbitraje en los contratos entre las partes | `clausula-sumision-arbitraje-contratos-entre-partes-civ-1794` |
 | CIV-1795 | Contrato de arbitraje entre sociedades mercantiles | `contrato-arbitraje-entre-sociedades-mercantiles-civ-1795` |
+| CIV-2887 | Cláusula de sumisión a arbitraje para incluir en un contrato | `clausula-sumision-arbitraje-incluir-contrato-civ-2887` |
+| CIV-2890 | Convenio arbitral para someter a arbitraje las controversias de un contrato ya celebrado | `convenio-arbitral-someter-arbitraje-controversias-civ-2890` |
 
-### Estatutos, actas, certificaciones y escrituras (13)
+### Estatutos, actas, certificaciones y escrituras (14)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -120,8 +122,9 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1753 | Acta de cierre de la mediación familiar con los acuerdos alcanzados | `acta-cierre-mediacion-familiar-acuerdos-alcanzados-civ-1753` |
 | CIV-1754 | Acta inicial o contrato de mediación familiar sometido al Derecho valenciano | `acta-inicial-contrato-mediacion-familiar-sometido-civ-1754` |
 | CIV-1755 | Escritura pública que eleva a público los acuerdos de una mediación familiar | `escritura-publica-eleva-publico-acuerdos-mediacion-civ-1755` |
+| CIV-2889 | Acta de audiencia y laudo en el procedimiento especial de arbitraje de consumo | `acta-audiencia-laudo-procedimiento-especial-arbitraje-civ-2889` |
 
-### Comunicaciones, requerimientos y cartas (15)
+### Comunicaciones, requerimientos y cartas (16)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -140,8 +143,9 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1777 | Solicitud genérica de arbitraje de consumo | `solicitud-generica-arbitraje-consumo-civ-1777` |
 | CIV-1788 | Solicitud de formalizar el convenio arbitral en el sistema arbitral de consumo | `solicitud-formalizar-convenio-arbitral-sistema-civ-1788` |
 | CIV-1790 | Solicitud de designación judicial de árbitro único | `solicitud-designacion-judicial-arbitro-unico-civ-1790` |
+| CIV-2886 | Solicitud de acto de conciliación previo a la demanda de desahucio por precario | `solicitud-acto-conciliacion-previo-demanda-desahucio-civ-2886` |
 
-### Escritos de trámite y otros (33)
+### Escritos de trámite y otros (38)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -178,3 +182,8 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1781 | Recusación de un árbitro en un procedimiento arbitral de consumo | `recusacion-arbitro-procedimiento-arbitral-consumo-civ-1781` |
 | CIV-1792 | Encargo de arbitraje a institución arbitral en virtud de convenio arbitral | `encargo-arbitraje-institucion-arbitral-virtud-convenio-civ-1792` |
 | CIV-1796 | Escrito solicitando la celebración de acto de conciliación (general) | `escrito-solicitando-celebracion-acto-conciliacion-civ-1796` |
+| CIV-2885 | Declinatoria en juicio verbal por haberse sometido la cuestión a arbitraje | `declinatoria-juicio-verbal-haberse-sometido-cuestion-civ-2885` |
+| CIV-2888 | Escrito del abogado que acepta el cargo de árbitro | `escrito-abogado-acepta-cargo-arbitro-civ-2888` |
+| CIV-2891 | Escrito que acepta la propuesta de la otra parte de someter la controversia a arbitraje | `escrito-acepta-propuesta-otra-parte-someter-civ-2891` |
+| CIV-2892 | Escrito de la aseguradora que promueve un expediente de consignación de jurisdicción voluntaria | `escrito-aseguradora-promueve-expediente-consignacion-civ-2892` |
+| CIV-2893 | Escrito que aporta el justificante de la consignación en el expediente de jurisdicción voluntaria | `escrito-aporta-justificante-consignacion-expediente-civ-2893` |

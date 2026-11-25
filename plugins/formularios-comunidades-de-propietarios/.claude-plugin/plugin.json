@@ -1,7 +1,7 @@
 {
   "name": "formularios-comunidades-de-propietarios",
-  "version": "1.0.0",
-  "description": "Comunidades de propietarios: 46 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la propiedad horizontal: convocatorias y actas de junta, estatutos, impugnación de acuerdos, reclamación de cuotas a morosos, obras en elementos comunes y privativos, actividades molestas y relaciones con el administrador. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Comunidades de propietarios: 59 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la propiedad horizontal: convocatorias y actas de junta, estatutos, impugnación de acuerdos, reclamación de cuotas a morosos, obras en elementos comunes y privativos, actividades molestas y relaciones con el administrador. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

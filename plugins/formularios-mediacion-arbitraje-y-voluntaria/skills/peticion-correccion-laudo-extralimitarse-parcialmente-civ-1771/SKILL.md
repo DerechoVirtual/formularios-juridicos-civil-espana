@@ -5,7 +5,7 @@ description: "Petición de corrección del laudo por extralimitarse parcialmente
 
 # Petición de corrección del laudo por extralimitarse parcialmente el árbitro
 
-> Formulario **CIV-1771** del plugin **Mediación, MASC, arbitraje y jurisdicción voluntaria** (`formularios-mediacion-arbitraje-y-voluntaria`) · Civil › Jurisdicción voluntaria, MASC, mediación y arbitraje · normativa revisada el 24-11-2026.
+> Formulario **CIV-1771** del plugin **Mediación, MASC, arbitraje y jurisdicción voluntaria** (`formularios-mediacion-arbitraje-y-voluntaria`) · Civil › Jurisdicción voluntaria, MASC, mediación y arbitraje · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Petición de correcci�
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Petición de corrección del laudo por extralimitarse parcialmente el árbitro” para mi caso». También puedes invocarla directamente con `/formularios-mediacion-arbitraje-y-voluntaria:peticion-correccion-laudo-extralimitarse-parcialmente-civ-1771`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-mediacion-arbitraje-y-voluntaria:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Mediación, MASC, arbitraje y jurisdicción voluntaria) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -80,47 +81,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA SECRETARÍA DE LA CORTE ARBITRAL DE [LOCALIDAD]
-
-D. [NOMBRE Y APELLIDOS], en nombre y representación de D. [NOMBRE Y APELLIDOS], parte demandante en este procedimiento arbitral seguido con el número [NÚMERO], según tengo acreditado en el expediente, comparezco y como mejor proceda en derecho DIGO:
-
-1) Que esta parte ha sido notificada en fecha [FECHA] del laudo arbitral de fecha [FECHA] dictado en el presente procedimiento arbitral, cuya parte dispositiva es del siguiente tenor literal: "Declaro resuelto el contrato de fecha [FECHA], debiendo el demandado indemnizar al actor en la cantidad de [IMPORTE] euros, en concepto de daños y perjuicios, y la cantidad de [IMPORTE] euros por el concepto de impago de suministros, suma que se incrementará en [IMPORTE] euros por cada día que pase desde la firma del presente Laudo hasta el momento en que la parte demandante perciba íntegramente la indemnización. Se imponen los gastos y costas del arbitraje a la parte demandada que ascienden a [IMPORTE] euros".
-
-2) Que entendiendo que se ha producido una EXTRALIMITACIÓN PARCIAL del laudo, al incluir una indemnización de daños y perjuicios que no era objeto de arbitraje, al amparo de lo dispuesto en el artículo 39.1.d) de la Ley de Arbitraje, por medio del presente escrito solicito RECTIFICACIÓN del citado laudo arbitral de fecha [FECHA] en base a los siguientes MOTIVOS:
-
-PRIMERO.- Se dan los requisitos establecidos en el artículo 39 de la Ley de Arbitraje para la solicitud de rectificación puesto que la presente solicitud se deduce en el plazo de diez días desde la notificación del laudo en fecha [FECHA], remitiéndose notificación simultánea a la otra parte según consta por el burofax que acompaño como documento número
-
-SEGUNDO.- La rectificación se funda en el exceso que se ha producido en el laudo al entrar a conocer de una materia que no estaba sometida a la decisión del árbitro, como es la controversia relativa a los daños y perjuicios derivados de la concertación de una póliza de crédito por el actor que alegaba que se vio obligado a formalizar para continuar con su actividad empresarial, por haber tenido diferentes impagos de suministros, entre ellos el de mi representado.
-
-Esta cuestión excede notoriamente del ámbito del arbitraje, puesto que el convenio arbitral, en su cláusula [Nº DE CLÁUSULA], limitaba la sumisión a arbitraje en relación a las controversias derivadas del cumplimiento y ejecución del contrato de suministro de fecha [FECHA], por lo que en ningún caso puede extenderse el pronunciamiento a cuestiones totalmente ajenas a dicha relación jurídica, como es el caso de una supuesta formalización de una póliza de crédito para la continuación de la actividad empresarial de la demandante, que ni tan siquiera trae causa del contrato aquí debatido puesto que el propio demandante alega que se produjeros diferentes impagos, y no sólo el de mi representado, por todo lo cual es obvio que queda extramuros de las cuestiones sometidas al arbitraje por las partes en el ámbito de su poder de disposición.
-
-Por este motivo, y al amparo de lo que dispone el artículo 39.1.d) de la Ley de Arbitraje, solicitamos la rectificación del laudo por la extralimitación parcial que se ha producido, disponiendo el citado precepto que procederá la rectificación cuando en el laudo se hayan resuelto cuestiones no sometidas a la decisión de los árbitros o sobre cuestiones no susceptibles de arbitraje.
-
-Atendido lo anterior y dado que en ningún momento estaban sometidas a arbitraje las consecuencias jurídicas derivadas de actos, contratos o relaciones jurídicas ajenas al contrato de suministro de fecha [FECHA], tal como hemos puesto de manifiesto a lo largo de todo el procedimiento arbitral, solicitamos que se rectifique el laudo, excluyendo el pronunciamiento de indemnización de daños y perjuicios derivado de la formalización de una póliza de crédito, el cual queda extramuros de la controversia aquí discutida.
-
-Por lo expuesto,
-
-SOLICITO que tenga por presentado este escrito, con justificante de notificación a la otra parte, solicitando la rectificación del laudo arbitral dictado en fecha [FECHA] en este procedimiento y, en su virtud, deje sin efecto el pronunciamiento relativo a la indemnización de daños y perjuicios por extralimitación parcial del laudo.
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma representante
-
-========================================================================

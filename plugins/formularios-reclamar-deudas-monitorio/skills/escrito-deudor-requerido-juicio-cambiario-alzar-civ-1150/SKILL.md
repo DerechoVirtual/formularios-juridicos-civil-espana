@@ -5,7 +5,7 @@ description: "Escrito del deudor requerido en juicio cambiario para alzar el emb
 
 # Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación
 
-> Formulario **CIV-1150** del plugin **Cobrar deudas: monitorio y cambiario** (`formularios-reclamar-deudas-monitorio`) · Civil › Monitorio y cambiario · normativa revisada el 24-11-2026.
+> Formulario **CIV-1150** del plugin **Cobrar deudas: monitorio y cambiario** (`formularios-reclamar-deudas-monitorio`) · Civil › Monitorio y cambiario · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,13 +22,14 @@ Para obtener, en pocos minutos, un borrador completo de «Escrito del deudor req
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Escrito del deudor requerido en juicio cambiario para alzar el embargo por falta de representación” para mi caso». También puedes invocarla directamente con `/formularios-reclamar-deudas-monitorio:escrito-deudor-requerido-juicio-cambiario-alzar-civ-1150`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-reclamar-deudas-monitorio:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cobrar deudas: monitorio y cambiario) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -89,47 +90,15 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE]
-
-D./Dña. [NOMBRE Y APELLIDOS], representante legal de [DENOMINACIÓN SOCIAL], en su calidad de administrador general único de tal mercantil, conforme acredito con copia de la escritura de elevación a público del acuerdo de la Junta General Extraordinaria de fecha [FECHA], otorgada ante el Notario de [LOCALIDAD], D./Dña. [NOMBRE Y APELLIDOS], n.º [NÚMERO] de su protocolo general corriente (Documento n.º [NÚMERO]), que por necesitarla al uso corriente, pido se me devuelva previo testimonio bastante en autos, ante el Tribunal comparezco en Autos de Juicio Cambiario n.º [NÚMERO]/[AÑO], y como mejor en Derecho proceda, DIGO:
-
-Que con fecha [FECHA], he sido notificado, se me ha conferido traslado de la demanda del presente juicio cambiario instado por [NOMBRE DE LA PARTE], y se me ha requerido de pago de la cantidad de [IMPORTE] euros ([IMPORTE EN CIFRA] €), que se corresponde con el nominal y gastos de una letra de cambio, y lo calculado por réditos y costas, ante lo que formulo las siguientes:
-
-MANIFESTACIONES
-
-PRIMERA.- La acción cambiaria que se ejercita es directa del librador poseedor de la letra de cambio contra mi patrocinada, librada aceptante, sin que las firmas del documento hayan sido adveradas notarialmente o por corredor de comercio colegiado, sin que quien comparece haya nunca reconocido su firma judicialmente o en documento público, y sin que haya mediado protesto.
-
-SEGUNDA.- Que a los efectos del art. 823 LEC, y dentro del plazo de cinco días desde el mentado requerimiento, niego la absoluta falta de representación de quien consta como firmante en el acepto de la letra de cambio en cuestión D./Dña. [NOMBRE Y APELLIDOS], quien fue hasta el día [FECHA], gerente de la empresa de titularidad de [NOMBRE DE LA PARTE], con poder amplio inscrito en el Registro Mercantil, habiendo sido contratado por el administrador general único designado en la escritura de constitución, que a su vez es el dueño de la empresa de gestión [DENOMINACIÓN SOCIAL] la que ha venido facturando las cantidades regulares mensuales de [IMPORTE] euros, desde el [FECHA], en concepto de dirección y administración del negocio, hasta que por discrepancias con los accionistas trabajadores se convocó y celebró Junta General Extraordinaria de la S.A.L., en que se apartó al administrador social y se nombró al que comparece, siendo despedido el dicho gerente y resolviéndose la relación con [NOMBRE DE LA PARTE].
-
-Adjunto copia escritura de constitución, como Documento n.º [NÚMERO], copia del poder mercantil del gerente, Documento n.º [NÚMERO], de su revocación posterior, Documento n.º [NÚMERO], testimonio de sentencia de la sección de lo Social del Tribunal de Instancia de [SEDE] acerca del despido, Documento n.º [NÚMERO], y juego de recibos por servicios de la empresa [DENOMINACIÓN SOCIAL], girados y adeudados en la cuenta de mi representada, Documento n.º [NÚMERO].
-
-TERCERA.- No obstante, y con posterioridad a la revocación del poder, en connivencia el gerente cesado con el dueño de [NOMBRE DE LA PARTE], D./Dña. [NOMBRE Y APELLIDOS], actor del juicio, que había sido apartado del cargo de administración de la sociedad laboral, en supuesto pago de servicios de tal mercantil, procedió aquél a aceptar un número de letras de cambio en nombre de [NOMBRE DEL REPRESENTADO/A], libradas por D./Dña. [NOMBRE Y APELLIDOS], cuya identificación desconoce el suscrito, entre las que debe contarse la que ha justificado este proceso.
-
-Se adjunta copia de la denuncia por delitos de falsedad en documento mercantil en concurso medial con estafa contra los individuos implicados, y de la admisión a trámite de las Diligencias Previas por el Tribunal de Instancia de [SEDE], plaza n.º [Nº] [EXPONER LOS HECHOS] (Documento n.º [NÚMERO]).
-
-En su virtud,
-
-AL TRIBUNAL SUPLICO
-
-que, teniendo por presentado este escrito en la representación que ostento, se digne admitirlo, tener por causadas las manifestaciones antecedentes, y en mérito a lo expresado y a los siete documentos aportados, se resuelva no haber lugar a decretar embargo de bienes de [NOMBRE DE LA PARTE], aunque no se atienda al requerimiento de pago, sin que se exija caución por las circunstancias del caso, y sin perjuicio de la demanda de oposición que proceda, o las acciones en la vía penal que se interpongan, con lo demás que proceda
-
-Es justicia que pido en [LUGAR], a [FECHA].
-
-Firma del Abogado/a	Firma del Procurador/a

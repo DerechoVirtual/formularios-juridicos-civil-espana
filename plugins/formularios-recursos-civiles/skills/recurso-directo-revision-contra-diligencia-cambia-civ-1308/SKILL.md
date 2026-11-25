@@ -5,7 +5,7 @@ description: "Recurso directo de revisión contra la diligencia que cambia el pr
 
 # Recurso directo de revisión contra la diligencia que cambia el procedimiento por razón de cuantía
 
-> Formulario **CIV-1308** del plugin **Recursos civiles: reposición, apelación, casación y queja** (`formularios-recursos-civiles`) · Civil › Recursos · normativa revisada el 24-11-2026.
+> Formulario **CIV-1308** del plugin **Recursos civiles: reposición, apelación, casación y queja** (`formularios-recursos-civiles`) · Civil › Recursos · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Recurso directo de rev
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Recurso directo de revisión contra la diligencia que cambia el procedimiento por razón de cuantía” para mi caso». También puedes invocarla directamente con `/formularios-recursos-civiles:recurso-directo-revision-contra-diligencia-cambia-civ-1308`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-recursos-civiles:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Recursos civiles: reposición, apelación, casación y queja) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -82,51 +83,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Proceso número
-
-A LA SECCIÓN CIVIL DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales y de [NOMBRE DEL REPRESENTADO/A], según tengo acreditado en los autos de proceso civil [Nº DE PROCEDIMIENTO] arriba referenciados, ante el Tribunal comparezco y como mejor proceda en derecho DIGO:
-
-Que habiendo sido notificado a esta representación de la diligencia de ordenación de fecha [FECHA], dictada por el Letrado de la Administración de Justicia del órgano al que me dirijo, por el que se acuerda tramitar la demanda interpuesta por el cauce del juicio ordinario en lugar de por los trámites del verbal interesados en el referido escrito de demanda, al amparo de lo dispuesto en el art. 254.2 de la LEC, interpongo recurso directo de revisión de la mencionada resolución, citando como infringido el artículo 251 de la Ley de Enjuiciamiento Civil, en base a los siguientes motivos:
-
-PRIMERO.- La diligencia que se recurre se funda en que, a la vista de las alegaciones de la demanda, el Letrado de la Administración de Justicia entiende que se trata de un asunto de cuantía inestimable.
-
-Entendemos que se infringe lo dispuesto en el art. 251 de la LEC en cuanto a las reglas para la determinación de la cuantía, y concretamente la regla octava del citado art. 251, que dispone que en los juicios que versen sobre la existencia, validez o eficacia de un título obligacional, su valor se calculará por el total debido, aunque sea pagadero a plazos.
-
-En este caso, tal como se alegaba en nuestro escrito de demanda, la pretensión sostenida por esta parte se funda en la nulidad del contrato de préstamo suscrito con el demandado, cuyo principal ascendía a 5.000 euros, pagaderos en los plazos allí estipulados.
-
-Por tanto, es de aplicación la regla específica establecida en el párrafo octavo del artículo 251, y no la del párrafo primero del mismo precepto, la cual sólo es aplicable para los casos en que falte la determinación de la cuantía, aun de forma relativa, lo cual no sucede en el caso de autos, donde en la demanda se determinaba concretamente la pretensión que era la nulidad del título obligacional, cuyo montante total es de 5.000 euros.
-
-Por este motivo, el cauce adecuado para sustanciar la pretensión es el del juicio verbal, según dispone el art. 250.2 de la LEC, según se solicitaba en nuestro escrito de demanda.
-
-De acuerdo a ello, se solicita que se revoque la resolución, acordando en su lugar la tramitación del presente proceso por el cauce del juicio verbal.
-
-En su virtud,
-
-SUPLICO AL TRIBUNAL que teniendo por presentado este escrito, se sirva admitirlo, tener por interpuesto recurso directo de revisión contra la diligencia de ordenación dictada por el Letrado de la Administración de Justicia de ese órgano de fecha [FECHA] y, tras los trámites legales, se dicte por el Tribunal auto por el que se revoque y deje sin efecto la diligencia impugnada, ordenando en su lugar la tramitación del presente proceso por el cauce del juicio verbal.
-
-OTROSÍ DIGO que, de conformidad con lo dispuesto en los apartados 4 y 6 de la disposición adicional decimoquinta de la LOPJ acompaño a este escrito resguardo de consignación en la cuenta de Depósitos y Consignaciones abierta a nombre del Tribunal del depósito exigido para interponer el recurso por importe de 25 euros.
-
-Por lo que SUPLICO AL TRIBUNAL que tenga por constituido el depósito, dejando interesada desde este momento su devolución para el caso de estimación total o parcial del recurso
-
-En [LOCALIDAD], a [DÍA], de [MES] del año
-
-========================================================================

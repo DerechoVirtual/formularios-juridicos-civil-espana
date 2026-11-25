@@ -5,7 +5,7 @@ description: "Demanda de ejecución provisional de una medida definitiva sobre r
 
 # Demanda de ejecución provisional de una medida definitiva sobre régimen de visitas
 
-> Formulario **CIV-1475** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 24-11-2026.
+> Formulario **CIV-1475** del plugin **Ejecución de sentencias y embargos** (`formularios-ejecucion-y-embargos`) · Civil › Ejecución · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda de ejecución 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda de ejecución provisional de una medida definitiva sobre régimen de visitas” para mi caso». También puedes invocarla directamente con `/formularios-ejecucion-y-embargos:demanda-ejecucion-provisional-medida-definitiva-sobre-civ-1475`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-ejecucion-y-embargos:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Ejecución de sentencias y embargos) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -86,55 +87,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Proceso matrimonial número [NÚMERO]
-
-Tribunal de Instancia de [SEDE], plaza n.º [Nº]
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA NÚMERO DE [LOCALIDAD]
-
-D. [NOMBRE Y APELLIDOS], Procurador de los Tribunales, en representación de D. según tengo acreditado en los Autos arriba expresados ante el Tribunal comparezco y como mejor en derecho proceda DIGO:
-
-Que por medio de la presente y en la meritada representación, al amparo de lo establecido en el artículo 774.5 de la LEC, solicito la ejecución provisional del régimen de visitas establecido en la sentencia de fecha [FECHA], actualmente recurrida en apelación por la representación de la contraparte D. [NOMBRE Y APELLIDOS], en base a los siguientes
-
-HECHOS
-
-En fecha [FECHA] se dictó sentencia en estos autos decretando la separación del matrimonio contraído entre las partes y estableciendo, entre otros pronunciamientos, la adopción de la siguiente medida en relación al hijo menor del matrimonio [NOMBRE DEL MENOR]: " [PETICIÓN] 3. Se establece el siguiente régimen de visitas en favor del padre: A) En cuanto a los fines de semana, el padre tendrá en su compañía a su hijo menor, los fines de semana alternos, desde el viernes a las 20:00 horas hasta el domingo a las 20:00 horas. En cuanto a las vacaciones de Navidad, Semana Santa y verano, el hijo pasará la mitad de las vacaciones escolares de Navidad con su padre y la otra mitad con su madre".
-
-La citada sentencia fue recurrida en apelación por la representación de la contraparte habiéndose admitido el recurso por resolución de fecha [FECHA], estando los autos actualmente pendientes de
-
-Habiéndose establecido el régimen de visitas por la sentencia, por mi representado se requirió a la madre para el cumplimiento del mismo, negándose a ello, por lo que esta parte se ve en la necesidad de solicitar la ejecución provisional de la medida al amparo de lo que dispone el artículo 774.5 de la LEC, habiendo reiterado la jurisprudencia de las Audiencias Provinciales de forma uniforme que es posible ejecutar las medidas acordadas por prevalecer el contenido del artículo 774.5 como norma especial frente a la norma general del artículo 525.1 de la LEC, pudiendo citarse en este sentido las SSAP Tarragona (3ª) de 5 de octubre de 2004; Zamora de 22 de enero de 2003; Castellón (2ª) 12 noviembre 2009; Barcelona (12ª) 16 enero 2012; Cantabria (2ª) 7 febrero 2007, entre otras muchas.
-
-FUNDAMENTOS DE DERECHO
-
-Jurisdicción y competencia. Corresponde al Tribunal al que me dirijo con fundamento en el art. 770, 774 y 776 de la LEC.
-
-Procedimiento.- Son de aplicación los artículos 526 y ss y artículos 549 y siguientes en relación con el artículo 774.5 de la LEC.
-
-Título ejecutivo y tutela ejecutiva.- Es título ejecutivo la sentencia dictada en estos autos pretendiéndose la ejecución del pronunciamiento sobre el régimen de visitas, debiendo requerirse a la ejecutada para que cumpla en sus propios términos el régimen establecido en la sentencia con los apercibimientos legales para el caso de incumplimiento.
-
-En base a lo anterior,
-
-SUPLICO AL TRIBUNAL se tenga por presentado esta solicitud de ejecución provisional del cumplimiento del régimen de visitas establecido en la sentencia de fecha [FECHA], acordando despachar ejecución y requerir a la ejecutada para que cumpla en sus propios términos el régimen establecido en la sentencia con los apercibimientos legales para el caso de incumplimiento, con imposición de costas a la parte ejecutada.
-
-Es Justicia que pido, en [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma abogado y procurador
-
-========================================================================

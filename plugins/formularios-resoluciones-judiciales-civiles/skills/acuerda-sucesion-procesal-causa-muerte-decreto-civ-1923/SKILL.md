@@ -5,7 +5,7 @@ description: "Acuerda la sucesión procesal por causa de muerte (decreto). Lo re
 
 # Acuerda la sucesión procesal por causa de muerte (decreto)
 
-> Formulario **CIV-1923** del plugin **Resoluciones judiciales civiles: autos, decretos y diligencias** (`formularios-resoluciones-judiciales-civiles`) · Civil › Resoluciones judiciales (autos, decretos, providencias, diligencias) · normativa revisada el 24-11-2026.
+> Formulario **CIV-1923** del plugin **Resoluciones judiciales civiles: autos, sentencias y actas** (`formularios-resoluciones-judiciales-civiles`) · Civil › Resoluciones judiciales (autos, decretos, providencias, diligencias) · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,14 +22,15 @@ Para obtener, en pocos minutos, un borrador completo de «Acuerda la sucesión p
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Acuerda la sucesión procesal por causa de muerte (decreto)” para mi caso». También puedes invocarla directamente con `/formularios-resoluciones-judiciales-civiles:acuerda-sucesion-procesal-causa-muerte-decreto-civ-1923`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-resoluciones-judiciales-civiles:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, decretos y diligencias) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Resoluciones judiciales civiles: autos, sentencias y actas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -83,71 +84,15 @@ Notas al pie del formulario original:
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-DECRETO DEL SR./A LETRADO DE LA ADMINISTRACIÓN DE JUSTICIA
-
-En [LUGAR], a [FECHA].
-
-ANTECEDENTES DE HECHO
-
-PRIMERO
-
-Iniciado el presente juicio, mediante escrito que presentó el/la Procurador/a Sr./Sra. [NOMBRE Y APELLIDOS], en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], se acreditó la defunción de D./Dña. [NOMBRE Y APELLIDOS], parte actora, que tuvo lugar el pasado día [FECHA], en [LOCALIDAD].
-
-SEGUNDO
-
-Se ha acompañado a dicho escrito el certificado de actos de última voluntad y copia del testamento abierto en que el finado instituyó herederos universales por iguales partes a sus dos hermanas, D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], así como certificación de defunción de esta segunda y testimonio del libro de familia, en que consta que D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS] son los dos hijos únicos de tal heredera.
-
-TERCERO
-
-La solicitud de la representación del/de la Procurador/a Sr./Sra. [NOMBRE Y APELLIDOS], suspendido el juicio, se trasladó a la parte demandada, que no ha presentado alegaciones en el plazo de cinco días concedido.
-
-FUNDAMENTOS DE DERECHO
-
-PRIMERO
-
-Conforme al art. 16.1 LEC, comunicada la defunción de cualquier litigante [ÓRGANO], acreditada ésta y el título sucesorio, y cumplidos los trámites pertinentes, el LAJ tendrá, en su caso, personado al sucesor en nombre del litigante muerto, teniéndolo el Tribunal en cuenta en la sentencia que se dicte.
-
-SEGUNDO
-
-La muerte de D./Dña. [NOMBRE Y APELLIDOS] se acredita con el certificado de defunción, y el título sucesorio con el testamento que instituyó herederas a las dos hermanas del causante, D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], que es el último según el certificado del Registro de Actos de Última Voluntad, y por el derecho de representación, de D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], que son los únicos hijos de la hermana que premurió, cuyo certificado de defunción se adjunta, a tenor del libro de familia.
-
-El traslado a la contraparte no ha deparado oposición de ningún tipo.
-
-TERCERO
-
-Habiéndose personado los herederos del litigante fallecido, y siendo transmisible el objeto litigioso, procede que ocupen el lugar de aquél a todos los efectos, teniéndolo en cuenta en la sentencia que se dicte, alzando la suspensión acordada en su día, y dando al proceso su regular curso.
-
-PARTE DISPOSITIVA
-
-1.- Se tiene por personada y parte al/a la Procurador/a de los Tribunales D./Dña. [NOMBRE Y APELLIDOS], en nombre y representación de D./Dña. [NOMBRE Y APELLIDOS], D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], sucesores del fallecido D./Dña. [NOMBRE Y APELLIDOS], entendiéndose con dicha mandataria todos los sucesivos ulteriores trámites, ocupando en el proceso la misma posición que ocupaba el causante a todos los efectos.
-
-2.- Téngase en cuenta la sucesión procesal en la sentencia definitiva.
-
-3.- Se alza la suspensión del proceso.
-
-En [LUGAR], a [FECHA].
-
-Firma del Letrado/a de la Administración de Justicia:
-
-Contra esta resolución cabe interponer recurso de reposición, mediante escrito ante el LAJ que se presenta dentro de los cinco días hábiles siguientes al de notificación, y en el que deberá indicarse la infracción cometida a juicio del recurrente, y sin perjuicio del cual se llevará a efecto lo acordado.
-
-Para interponer el recurso será necesario la constitución de un depósito de 25 euros, sin cuyo requisito no será admitido a trámite. El depósito se constituirá consignando dicho importe en la Cuenta de Depósitos y Consignaciones que este Tribunal tiene abierta en el grupo [GRUPO] con el número [NÚMERO], indicando en el campo concepto del resguardo de ingreso que se trata de un "Recurso" código 00-Reposición. La consignación deberá ser acreditada al interponer el recurso (disp. adic. 15ª de la LOPJ).
-
-Están exentos de constituir el depósito para recurrir los incluidos en el apartado 5 de la disposición citada y quienes tengan reconocido el derecho a la asistencia jurídica gratuita

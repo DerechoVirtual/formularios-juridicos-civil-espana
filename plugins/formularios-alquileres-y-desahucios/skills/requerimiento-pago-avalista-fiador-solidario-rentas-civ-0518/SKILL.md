@@ -5,7 +5,7 @@ description: "Requerimiento de pago al avalista o fiador solidario de las rentas
 
 # Requerimiento de pago al avalista o fiador solidario de las rentas debidas, previo a reclamar
 
-> Formulario **CIV-0518** del plugin **Alquileres y desahucios** (`formularios-alquileres-y-desahucios`) · Civil › Arrendamientos y desahucio · normativa revisada el 24-11-2026.
+> Formulario **CIV-0518** del plugin **Alquileres y desahucios** (`formularios-alquileres-y-desahucios`) · Civil › Arrendamientos y desahucio · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Requerimiento de pago 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Requerimiento de pago al avalista o fiador solidario de las rentas debidas, previo a reclamar” para mi caso». También puedes invocarla directamente con `/formularios-alquileres-y-desahucios:requerimiento-pago-avalista-fiador-solidario-rentas-civ-0518`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-alquileres-y-desahucios:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Alquileres y desahucios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -83,53 +84,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Sr. D. [NOMBRE Y APELLIDOS],
-
-calle [CALLE], núm. [Nº], piso [PISO], puerta [PUERTA],
-
-de la localidad/ciudad de [LOCALIDAD], provincia [PROVINCIA].
-
-Al Sr. D. [NOMBRE Y APELLIDOS],
-
-calle [CALLE], núm. [Nº], piso [PISO], puerta [PUERTA],
-
-de la localidad/ciudad de [LOCALIDAD], provincia [PROVINCIA].
-
-Estimado Sr. [NOMBRE Y APELLIDOS]:
-
-Le dirijo la presente en su calidad de FIADOR/AVALISTA SOLIDARIO del arrendatario D. [NOMBRE Y APELLIDOS] en el contrato de arrendamiento urbano celebrado el día [FECHA] sobre la finca de mi propiedad sita en [LOCALIDAD], a fin de comunicarle que el citado arrendatario ha dejado de abonar las rentas, por lo que, de conformidad con lo dispuesto en la cláusula …. del referido contrato, por medio de la presente le requiero para el pago de las cantidades adeudadas por importe de [IMPORTE] euros en concepto de rentas y cantidades asimiladas derivadas del citado contrato, con arreglo al siguiente desglose:
-
-- Rentas de los meses [MES] a Importe: [IMPORTE] euros.
-
-- Impuesto Bienes Inmuebles, según contrato [PERIODO] Importe [IMPORTE] euros
-
-- Recibos luz meses [MES] a [MES] Importe [IMPORTE] euros
-
--.
-
-- TOTAL RENTAS Y CANTIDADES ADEUDADAS [IMPORTE] euros
-
-Por la presente le requiero formalmente para que abone el importe del total de las cantidades adeudadas en el plazo de treinta días a contar desde la recepción de este requerimiento, advirtiéndole que, de no hacerlo, me veré obligado al ejercicio de las acciones judiciales que me asisten en defensa de mis derechos, interponiendo la correspondiente demanda contra el arrendatario y contra Vd., tal como autoriza el artículo 438.3.3º de la Ley de Enjuiciamiento Civil.
-
-Y para que sirva de formal requerimiento a los efectos previstos en el citado artículo 438.3.3º de la LEC, firmo el presente en la localidad/ciudad de [LOCALIDAD], a [DÍA] de [MES] de [AÑO].
-
-Fdo.:
-
-========================================================================

@@ -5,7 +5,7 @@ description: "Demanda para suspender en verano el pago de la pensión alimentici
 
 # Demanda para suspender en verano el pago de la pensión alimenticia
 
-> Formulario **CIV-0151** del plugin **Familia: divorcio, custodia, pensiones y parejas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 24-11-2026.
+> Formulario **CIV-0151** del plugin **Familia: separación, divorcio y medidas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,14 +20,15 @@ Para obtener, en pocos minutos, un borrador completo de «Demanda para suspender
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Demanda para suspender en verano el pago de la pensión alimenticia” para mi caso». También puedes invocarla directamente con `/formularios-familia-y-divorcio:demanda-suspender-verano-pago-pension-alimenticia-civ-0151`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-familia-y-divorcio:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: separación, divorcio y medidas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -98,83 +99,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D./Dª [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre y representación de D./Dª [NOMBRE Y APELLIDOS], según acredito mediante certificación del Registro Electrónico de Apoderamientos Judiciales que acompaño como documento nº [Nº DE DOCUMENTO], comparezco en este TRIBUNAL con la asistencia del Letrado D./Dª [NOMBRE Y APELLIDOS], del Ilustre Colegio de Abogados de [COLEGIO], y DIGO:
-
-Que por medio del presente escrito y en la representación que ostento, interpongo DEMANDA DE MODIFICACIÓN DE MEDIDAS DEFINITIVAS adoptadas en sentencia de divorcio o separación dictada en el procedimiento de mutuo acuerdo o contencioso, seguido ante este Tribunal al cual me dirijo, número de procedimiento [Nº DE PROCEDIMIENTO]/[AÑO], en solicitud de suspensión del pago de la pensión de alimentos establecida en favor del hijo mayor de edad de los cónyuges, contra D./Dª [NOMBRE Y APELLIDOS], mayor de edad, con DNI/NIF [NIF] y con domicilio, a efectos de citación y emplazamiento, en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta. La presente demanda se basa en los siguientes
-
-HECHOS
-
-En fecha [DÍA] de [MES] de [AÑO], se dictó por el Tribunal al que me dirijo, sentencia en el procedimiento de divorcio o de separación de mutuo acuerdo núm. [Nº]/[AÑO] puede tratarse también de un procedimiento contencioso, en cuyo caso, las referencias que se hacen a continuación al convenio regulador judicialmente homologado, lo serían a las medidas adoptadas por el Juez, en la que se procedió a homologar el Convenio regulador de fecha [DÍA] de [MES] de [AÑO], presentado por las partes.
-
-Se acompaña testimonio de la citada sentencia, en que consta su firmeza, así como del convenio regulador que la misma homologaba, como DOCUMENTO Nº [Nº DE DOCUMENTO] con remisión, a efectos probatorios, a los archivos de este Tribunal.
-
-En la estipulación [Nº] del citado Convenio, en la que se regula la contribución a las cargas familiares y alimentos, se establece una pensión alimenticia de [IMPORTE] euros ( €) mensuales, actualizables anualmente de acuerdo con las variaciones del IPC, a cargo de mi representado/a en favor del hijo mayor de edad de la pareja, que se encuentra todavía en período de formación, y convive con el otro progenitor. El tenor literal de la citada estipulación es el siguiente:
-
-Desde que se dictó la citada sentencia, han variado sustancialmente las circunstancias que se tuvieron en cuenta para fijar el montante de la pensión. El beneficiario de la misma realiza trabajos temporales los meses de verano (julio y agosto), por los que cobra una cantidad de [IMPORTE] euros mensuales, suficiente para cubrir sus gastos durante esos mismos meses, reanudando sus estudios cuando aquéllos finalizan. Esta situación se ha producido ya durante dos años consecutivos, siendo previsible que persista en el futuro.
-
-Se acompañan como DOCUMENTOS Nos a [Nº DE DOCUMENTO], los siguientes, para acreditar los hechos referidos.
-
-Previamente a la interposición de la presente demanda, se efectuaron diversas gestiones negociadoras con la parte demandada, con el propósito de cumplir con el requisito de procedibilidad y resolver el litigio de manera amistosa y extrajudicial.
-
-En este sentido, se acudió a [MEDIO ADECUADO DE SOLUCIÓN DE CONTROVERSIAS UTILIZADO], no habiendo sido posible alcanzar un acuerdo definitivo.
-
-Se acompaña como documento nº [Nº DE DOCUMENTO]
-
-Resultan aplicables a los citados hechos los siguientes
-
-FUNDAMENTOS DE DERECHO
-
-COMPETENCIA.- Es competente el Tribunal al que me dirijo, de acuerdo con el artículo 775 LEC.
-
-LEGITIMACIÓN.- La de ambas partes deriva del artículo 775 LEC y de los artículos 90 y 91 CC. Conforme al art. 749.2 LEC, debe intervenir el Ministerio Fiscal, por encontrarse interesados menores.
-
-PROCEDIMIENTO.- Arts. 770 y 775.2 LEC.
-
-REPRESENTACIÓN Y DEFENSA.- El/La demandante comparece representado y defendido, respectivamente, por el Procurador y el Letrado que constan en el encabezamiento de este escrito, de acuerdo con lo dispuesto en el artículo 750 LEC, en relación con los artículos 770 y 775.2 LEC.
-
-CUMPLIMIENTO DE LOS REQUISITOS DE PROCEDIBILIDAD.- La presente demanda cumple con los requisitos de procedibilidad exigidos por los arts. 264.4º y 399.3 LEC en relación con el art. 437.1 LEC, así como con lo dispuesto en el art. 5 de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.
-
-DERECHO SUSTANTIVO.- El art. 93.2 CC señala: "Si convivieran en el domicilio familiar hijos mayores de edad o emancipados que carecieran de ingresos propios, el Juez, en la misma resolución, fijará los alimentos que sean debidos conforme a los artículos 142 y siguientes de este Código".
-
-Por su parte, el artículo 146 CC dispone: "La cuantía de los alimentos será proporcionada al caudal o medios de quien los da y a las necesidades de quien los recibe". Y el artículo 147 señala: "Los alimentos, en los casos a que se refiere el anterior, se reducirán o aumentarán proporcionalmente según el aumento o disminución que sufran las necesidades del alimentista y la fortuna del que hubiere de satisfacerlos".
-
-La percepción de los ingresos referidos por parte del beneficiario de los alimentos hace procedente un reajuste de la pensión que viene obligado a satisfacer mi representado/a, en el sentido de que se le releve de la obligación de pagarla durante los meses de julio y agosto, en que su hijo trabaje y perciba ingresos suficientes, considerándose como tales los que igualen o superen la cantidad de [IMPORTE] euros mensuales; o, alternativamente, se reduzca el montante mensual de la pensión proporcionalmente a la capacidad económica de su hijo resultante de los ingresos obtenidos por éste.
-
-Puede citarse jurisprudencia en apoyo de lo solicitado.
-
-COSTAS.- Se impondrán de acuerdo con lo dispuesto en el art. 394 LEC.
-
-Iura novit curia y las demás normas que resulten procedentes.
-
-Por lo expuesto
-
-SUPLICO AL TRIBUNAL:
-
-Que tras admitir este escrito con los documentos que lo acompañan y sus copias, me tenga por comparecido y parte en la representación que ostento, entendiéndose conmigo las sucesivas diligencias, y tenga por interpuesta DEMANDA, que habrá de sustanciarse por los trámites del juicio verbal, contra D./Dª [NOMBRE Y APELLIDOS], SOBRE MODIFICACIÓN DE PENSIÓN ALIMENTICIA; y, previos los trámites legales que procedan, dicte sentencia por la que, estimando íntegramente la demanda, se suspenda el pago de la citada pensión durante los meses de julio y agosto que el beneficiario trabaje y obtenga ingresos no inferiores a [IMPORTE] euros ( €); o, subsidiariamente, se reduzca la cuantía de la pensión alimenticia fijada en la sentencia del Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO], de fecha [DÍA] de [MES] de [AÑO], procedimiento número [Nº DE PROCEDIMIENTO]/[AÑO], fijándola en [IMPORTE] euros ( €) mensuales, como consecuencia de la disminución de las necesidades del alimentista al obtener ingresos por su trabajo temporal.
-
-OTROSÍ DIGO.- En cumplimiento de lo dispuesto en el art. 253 LEC, esta parte fija la cuantía del procedimiento, calculada de acuerdo con lo dispuesto en el art. 251.7 LEC en [IMPORTE] euros.
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma y número del Letrado	Firma del Procurador
-
-========================================================================

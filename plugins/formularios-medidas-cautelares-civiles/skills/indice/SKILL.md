@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 70 formularios de Medidas cautelares y diligencias preliminares. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 84 formularios de Medidas cautelares y diligencias preliminares. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Medidas cautelares y diligencias preliminares: índice de formularios
 
-> Plugin `formularios-medidas-cautelares-civiles` · 70 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-medidas-cautelares-civiles` · 84 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,14 +50,15 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
-### Demandas, peticiones y solicitudes iniciales (2)
+### Demandas, peticiones y solicitudes iniciales (3)
 
 | Código | Formulario | Skill |
 |---|---|---|
 | CIV-1214 | Solicitud de medidas cautelares previas para prohibir una actividad | `solicitud-medidas-cautelares-previas-prohibir-actividad-civ-1214` |
 | CIV-1222 | Solicitud de medidas cautelares previas a la demanda en parejas de hecho | `solicitud-medidas-cautelares-previas-demanda-parejas-civ-1222` |
+| CIV-2792 | Demanda de reclamación por contrato de agencia con petición de embargo preventivo sin audiencia | `demanda-reclamacion-contrato-agencia-peticion-embargo-civ-2792` |
 
 ### Contestaciones, oposiciones y alegaciones (7)
 
@@ -77,7 +78,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 |---|---|---|
 | CIV-1205 | Acta de la vista de medidas cautelares con audiencia previa de la parte contraria | `acta-vista-medidas-cautelares-audiencia-previa-parte-civ-1205` |
 
-### Comunicaciones, requerimientos y cartas (29)
+### Comunicaciones, requerimientos y cartas (31)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -110,8 +111,10 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1256 | Solicitud de depósito de la cosa exhibida u otra medida adecuada para su conservación | `solicitud-deposito-cosa-exhibida-u-otra-medida-civ-1256` |
 | CIV-1257 | Solicitud de diligencia preliminar de exhibición del contrato de seguro de responsabilidad civil | `solicitud-diligencia-preliminar-exhibicion-contrato-civ-1257` |
 | CIV-1258 | Solicitud de diligencia preliminar de exhibición de documento sucesorio (art. 256.1.3 LEC) | `solicitud-diligencia-preliminar-exhibicion-documento-civ-1258` |
+| CIV-2789 | Solicitud de embargo preventivo para asegurar una sentencia extranjera pendiente de exequátur | `solicitud-embargo-preventivo-asegurar-sentencia-civ-2789` |
+| CIV-2794 | Solicitud de diligencia preliminar de exhibición de la póliza del otro implicado en el accidente | `solicitud-diligencia-preliminar-exhibicion-poliza-otro-civ-2794` |
 
-### Escritos de trámite y otros (31)
+### Escritos de trámite y otros (42)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -146,3 +149,14 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | CIV-1266 | Escrito de parte pidiendo medidas de aseguramiento de la prueba durante el proceso | `escrito-parte-pidiendo-medidas-aseguramiento-prueba-civ-1266` |
 | CIV-1267 | Escrito de parte pidiendo prueba anticipada durante el proceso | `escrito-parte-pidiendo-prueba-anticipada-durante-civ-1267` |
 | CIV-1268 | Escrito de parte pidiendo prueba anticipada antes del inicio del proceso | `escrito-parte-pidiendo-prueba-anticipada-antes-inicio-civ-1268` |
+| CIV-2782 | Escrito que pide atenuar las medidas cautelares ya acordadas | `escrito-pide-atenuar-medidas-cautelares-ya-acordadas-civ-2782` |
+| CIV-2783 | Escrito que pide alzar la medida cautelar porque no se instó la ejecución de la condena firme | `escrito-pide-alzar-medida-cautelar-porque-no-insto-civ-2783` |
+| CIV-2784 | Escrito preventivo del posible afectado para que no se adopte una cautelar sin oírle | `escrito-preventivo-posible-afectado-no-adopte-cautelar-civ-2784` |
+| CIV-2785 | Escrito que pide agravar las medidas cautelares ya acordadas | `escrito-pide-agravar-medidas-cautelares-ya-acordadas-civ-2785` |
+| CIV-2786 | Escrito que pide fijar judicialmente los daños y perjuicios causados por una medida cautelar | `escrito-pide-fijar-judicialmente-danos-perjuicios-civ-2786` |
+| CIV-2787 | Escrito que pide alzar la medida cautelar previa porque el proceso principal está suspendido | `escrito-pide-alzar-medida-cautelar-previa-porque-civ-2787` |
+| CIV-2788 | Escrito que pide hacer efectiva la medida cautelar concedida tras prestar la caución | `escrito-pide-hacer-efectiva-medida-cautelar-concedida-civ-2788` |
+| CIV-2790 | Petición del afectado de dejar sin efecto el embargo preventivo por no prestarse caución en plazo | `peticion-afectado-dejar-sin-efecto-embargo-preventivo-civ-2790` |
+| CIV-2791 | Petición del afectado de dejar sin efecto la medida cautelar previa por falta de caución en plazo | `peticion-afectado-dejar-sin-efecto-medida-cautelar-civ-2791` |
+| CIV-2793 | Otrosí de la demanda de medidas de apoyo que pide cautelares sobre el patrimonio del afectado | `otrosi-demanda-medidas-apoyo-pide-cautelares-sobre-civ-2793` |
+| CIV-2795 | Petición de práctica anticipada de prueba en un proceso ya iniciado | `peticion-practica-anticipada-prueba-proceso-ya-iniciado-civ-2795` |

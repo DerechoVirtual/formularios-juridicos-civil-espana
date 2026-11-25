@@ -5,7 +5,7 @@ description: "Petición de reanudar divorcio o separación contenciosos suspendi
 
 # Petición de reanudar divorcio o separación contenciosos suspendidos y convertirlos en mutuo acuerdo
 
-> Formulario **CIV-0138** del plugin **Familia: divorcio, custodia, pensiones y parejas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 24-11-2026.
+> Formulario **CIV-0138** del plugin **Familia: separación, divorcio y medidas** (`formularios-familia-y-divorcio`) · Civil › Familia · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,14 +20,15 @@ Para obtener, en pocos minutos, un borrador completo de «Petición de reanudar 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Petición de reanudar divorcio o separación contenciosos suspendidos y convertirlos en mutuo acuerdo” para mi caso». También puedes invocarla directamente con `/formularios-familia-y-divorcio:peticion-reanudar-divorcio-separacion-contenciosos-civ-0138`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-familia-y-divorcio:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: divorcio, custodia, pensiones y parejas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Familia: separación, divorcio y medidas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -87,65 +88,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Sección Civil del Tribunal de Instancia de [SEDE], plaza n.º [NÚMERO]
-
-Divorcio/Separación Contencioso/a número [Nº]/[AÑO]
-
-A LA [ELEGIR: SECCIÓN DE FAMILIA, INFANCIA Y CAPACIDAD / SECCIÓN CIVIL] DEL TRIBUNAL DE INSTANCIA DE [SEDE], PLAZA N.º [Nº]
-
-D./Dª [NOMBRE Y APELLIDOS], Procurador/a de los Tribunales, en nombre y representación de D./Dª [NOMBRE Y APELLIDOS], mayor de edad, de profesión [PROFESIÓN], con domicilio en [LOCALIDAD], calle [CALLE], nº [NÚMERO], pta., cuya representación tengo acreditada en Autos de Divorcio/Separación Contencioso/a número [Nº]/[AÑO], comparezco ante este TRIBUNAL con la asistencia del Letrado D. /Dª [NOMBRE Y APELLIDOS], del Ilustre Colegio de Abogados de [COLEGIO], y DIGO:
-
-Que por medio del presente escrito y en la representación que ostento, contando con el consentimiento de D./Dª [NOMBRE Y APELLIDOS], conforme a lo dispuesto en el art. 770.5 LEC, solicito el TRÁNSITO DE LAS PRESENTES ACTUACIONES A LOS TRÁMITES PREVISTOS EN EL ARTICULO 777 para procedimientos instados de mutuo acuerdo o por un cónyuge con consentimiento del otro, con base en los siguientes
-
-HECHOS
-
-Por escrito de fecha [DÍA] de [MES] de [AÑO], las partes solicitaron, de común acuerdo, la suspensión del procedimiento contencioso de divorcio/separación número [Nº]/[AÑO], conforme al art. 770.7 LEC, para someterse a procedimiento de mediación.
-
-El Letrado de la Administración de Justicia suspendió, a tales efectos, el procedimiento mediante decreto de fecha [DÍA] de [MES] de [AÑO], por un plazo de [Nº] días.
-
-El citado procedimiento de mediación, seguido por las partes con la intervención de D./Dª [NOMBRE Y APELLIDOS], como profesional mediador, culminó con los acuerdos de aquéllas relativos a los puntos que, conforme al art. 90 CC constituyen el contenido mínimo del convenio regulador, que quedaron reflejados en el Acta final de la mediación, de fecha [DÍA] de [MES] de [AÑO] en la que, así mismo, se hizo constar el acuerdo de las partes en el sentido de solicitar el tránsito del proceso de Divorcio/Separación a los trámites del art. 777 LEC, lo cual realizan por medio del presente escrito.
-
-A tales efectos, se acompaña, como DOCUMENTO ÚNICO, PROPUESTA DE CONVENIO REGULADOR, suscrito por las partes con base en los acuerdos adoptados como resultado del citado proceso de mediación.
-
-Resultan aplicables a los hechos expuestos los siguientes
-
-FUNDAMENTOS DE DERECHO
-
-Artículo 19, apartados 1 y 4 LEC: "1. Los litigantes están facultados para disponer del objeto del juicio y podrán renunciar, desistir del juicio, allanarse, someterse a mediación o a arbitraje y transigir sobre lo que sea objeto del mismo, excepto cuando la ley lo prohíba o establezca limitaciones por razones de interés general o en beneficio de tercero. ()
-
-4. Asimismo, las partes podrán solicitar la suspensión del proceso, que será acordada por el Letrado de la Administración de Justicia mediante decreto siempre que no perjudique al interés general o a tercero y que el plazo de la suspensión no supere los sesenta días."
-
-Art. 770, apartados 5 y 7 LEC, que disponen: "5. En cualquier momento del proceso, concurriendo los requisitos señalados en el artículo 777, las partes podrán solicitar que continúe el procedimiento por los trámites que se establecen en dicho artículo. ()
-
-7. Las partes de común acuerdo podrán solicitar la suspensión del proceso de conformidad con lo previsto en el artículo 19.4 de esta Ley, para someterse a mediación."
-
-Art. 777 LEC, que regula los trámites del procedimiento de Separación o divorcio solicitados de mutuo acuerdo o por uno de los cónyuges con el consentimiento del otro.
-
-En virtud de lo expuesto,
-
-SUPLICO AL TRIBUNAL que tenga por presentado este escrito con la propuesta de Convenio Regulador que se acompaña, lo admita y estimando la pretensión formulada conforme al art. 770.5 LEC, acuerde que se alce la suspensión decretada y se prosiga el procedimiento según lo dispuesto en el artículo 777 LEC y, previos los trámites legales pertinentes, entre ellos, la ratificación de las partes por separado ante este Tribunal, dicte, en su día, sentencia de Divorcio/Separación por la que apruebe en su integridad el Convenio Regulador presentado, ordenando la inscripción de esta sentencia en el Registro Civil de
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-Firma y nº [Nº] del Letrado
-
-Firma del Procurador
-
-========================================================================
